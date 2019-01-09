@@ -1,0 +1,193 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_SaoBorja</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_SaoBorja</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de prêmios e títulos'}, 
+series: [{data: [[2016,
+12],
+[2017,
+7],
+[2018,
+1]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de prêmios e títulos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 20<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Professora Homenageada, UNIPAMPA - Formandos de Ciências Humanas Licenciatura, 2018/1.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7476378319243219">Carmen Regina Dorneles Nogueira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>2.º lugar no Concurso de Melhor Tese do IESP/UERJ defendida em 2016, área de Sociologia, Instituto de Estudos Sociais e Políticos da Universidade do Estado do Rio de Janeiro - IESP/UERJ.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2185779366488602">Rafael Bruno Gonçalves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Aprovação em 1º lugar em Concurso Público para Professor Adjunto A na Universidade Federal de Alagoas - UFAL.Área de Comunicação Organizacional, institucional e pública.Edital 65/2016., Universidade Federal de Alagoas - UFAL.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3992717755933028">Larissa Conceição dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Melhor trabalho apresentado na forma de poster na modalidade extensão no 9 Salão Internacional de Pesquisa, Ensino e Extensão (SIEPE), Universidade Federal do Pampa - Unipampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7239967672848394">Silvane Vestena</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Professor homenageado, Curso de Ciências Humanas - Licenciatura - Unipampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0392455526575019">Evandro Ricardo Guindani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Propriedade Intelectual e Transferência de Tecnologia, III Encontro Nacional de Propriedade Intelectual.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7476378319243219">Carmen Regina Dorneles Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Top 100 read Scientific Reports articles in 2016, Nature Publishing Group.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1589874577225604">Felipe Lima Pinheiro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Troféu Obirici - categoria Bronze - Profissionais do Ano, Lester Comunicações - Jornalista Saul Jr... 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3469385544914151">Beatriz Stoll Moraes</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1º Lugar no VII Simpósio Gaúcho de Animais Selvagens - Determinação sexual e descrição do complemento cromossômico do mutum-cavalo (Pauxi tuberosa - aves), VII Simpósio Gaúcho de Animais Selvagens - Universidade Federal de Santa Maria.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4075727326925108">Analía Del Valle Garnero</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>2000 outstanding Intellectuals of the 21st Century ~ 10th Edition~, Internacional Biographical Centre, Cambridge England.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4605424722032113">Muriel Pinto</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>?Determinação sexual e descrição do complemento cromossômico do mutum-cavalo (Pauxi tuberosa - aves), VII Simpósio Gaúcho de Animais Selvagens - Universidade Federal de Santa Maria - RS.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2410346128596894">Ricardo José Gunski</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Aprovação em 2º lugar em Processo Seletivo para Professor Substituto em Ciências Sociais Aplicadas (Relações Públicas) na Universidade Federal do Pampa (UNIPAMPA). Edital nº 009/2016., Universidade Federal do Pampa - UNIPAMPA (Campus São Borja).. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3992717755933028">Larissa Conceição dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Aprovação em 3º lugar em Concurso Público para Professor Adjunto A (DE) na Universidade Federal de Santa Maria (Campus Frederico Westphalen) - Área de Relações Públicas e Propaganda. Edital 037/2016., Universidade Federal de Santa Maria - UFSM.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3992717755933028">Larissa Conceição dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Aprovação em Concurso para Profesor Asistente en Comunicación Corporativa no Departamento de Comunicación Aplicada da Pontifícia Universidad Católica de Chile., Pontifícia Universidad Católica de Chile/ UC-Chile.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3992717755933028">Larissa Conceição dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Honorable Mention, Associação da Propriedade Intelectual.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7476378319243219">Carmen Regina Dorneles Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Paraninfo, Curso de Ciências Humanas - Licenciatura - Unipampa.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0392455526575019">Evandro Ricardo Guindani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Professor Homenageado como Paraninfo, Unipampa.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9707343593567031">Jefferson Marçal da Rocha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Prêmio Pesquisador Gaúcho 2016 - Destaque Especial ao Ano Internacional do Entendimento Global, FAPERGS.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2069437408328707">Jair Putzke</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Tese Aprovada com Louvor - Menção Très Honorable avec Félicitations du jury, Université Paris-Sorbonne (Paris IV).. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3992717755933028">Larissa Conceição dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Trabalho premiado dos projetos de extensão em Ciências Biológicas no Congrega 2016: Uso de Maquete para o Desenvolvimento da Consciência Ambiental em Estudantes do Ensino Fundamental em São GabrielRS, Congrega Urcamp.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2256892090251117">Mirla Andrade Weber</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:24:04<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

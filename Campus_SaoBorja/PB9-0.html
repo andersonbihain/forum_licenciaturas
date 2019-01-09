@@ -1,0 +1,167 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_SaoBorja</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_SaoBorja</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Demais tipos de produção bibliográfica'}, 
+series: [{data: [[2016,
+2],
+[2017,
+4],
+[2018,
+1]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Demais tipos de produção bibliográfica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 7<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CARRAZONI, T. ; VIEIRA, Patrícia de Brum ; SILVA, P. G. ; HEBERLE, M. A. ; STURMER, G. D. ; CORREA, M. S. ; PEREIRA, A. B. ; MOURA, S. ; MENDEZ, A. S. ; BELO, C. A. D.. <b>Mechanism of the Entomotoxic Activity Induced by Araucaria Angustifolia Methanolic Extract in Nauphoeta Cinerea Lobster Cockroaches</b>. 2018. Artigo Científico<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Mechanism+of+the+Entomotoxic+Activity+Induced+by+Araucaria+Angustifolia+Methanolic+Extract+in+Nauphoeta+Cinerea+Lobster+Cockroaches&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Mechanism+of+the+Entomotoxic+Activity+Induced+by+Araucaria+Angustifolia+Methanolic+Extract+in+Nauphoeta+Cinerea+Lobster+Cockroaches">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Mechanism+of+the+Entomotoxic+Activity+Induced+by+Araucaria+Angustifolia+Methanolic+Extract+in+Nauphoeta+Cinerea+Lobster+Cockroaches">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FAVERI, R. B.; Faveri, Claudia ; STEIL, J.. <b>Explorando as Teorias da Tradução. São Paulo: Perspectiva</b>. 2017. Tradução/Livro<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Explorando+as+Teorias+da+Tradução.+São+Paulo:+Perspectiva&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Explorando+as+Teorias+da+Tradução.+São+Paulo:+Perspectiva">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Explorando+as+Teorias+da+Tradução.+São+Paulo:+Perspectiva">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>FREITAS, J. S. ; MACEDO, I. C. ; Caumo, W. ; TORRES, I. L. S.. <b>The BDNF Role in the Food Intake Control and Obesity: Mechanisms of Appetite Regulation and Energy Homeostasis. Wilmington, USA.: BIOACCENT</b>. 2017. Artigo de Revisão<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=The+BDNF+Role+in+the+Food+Intake+Control+and+Obesity:+Mechanisms+of+Appetite+Regulation+and+Energy+Homeostasis.+Wilmington,+USA.:+BIOACCENT&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=The+BDNF+Role+in+the+Food+Intake+Control+and+Obesity:+Mechanisms+of+Appetite+Regulation+and+Energy+Homeostasis.+Wilmington,+USA.:+BIOACCENT">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=The+BDNF+Role+in+the+Food+Intake+Control+and+Obesity:+Mechanisms+of+Appetite+Regulation+and+Energy+Homeostasis.+Wilmington,+USA.:+BIOACCENT">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>PANIAGUA, E. R. M.; NARVAES, A. B.. <b>PIBID Sub-projeto História</b>. 2017. Relatório de pesquisa<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=PIBID+Sub-projeto+História&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=PIBID+Sub-projeto+História">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=PIBID+Sub-projeto+História">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SANTOS, L. C. <b>Tempos de rupturas:críticas dos processos comunicacionais. Ouro Preto: UFOP</b>. 2017. Integrante de Comissão científica - Ebook<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Tempos+de+rupturas:críticas+dos+processos+comunicacionais.+Ouro+Preto:+UFOP&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Tempos+de+rupturas:críticas+dos+processos+comunicacionais.+Ouro+Preto:+UFOP">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Tempos+de+rupturas:críticas+dos+processos+comunicacionais.+Ouro+Preto:+UFOP">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>GUINDANI, E. R. ; PANIAGUA, E. R. M.. <b>PIBID - Sub-projeto História</b>. 2016. Relatório de pesquisa<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=PIBID+-+Sub-projeto+História&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=PIBID+-+Sub-projeto+História">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=PIBID+-+Sub-projeto+História">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MONTEBLANCO, F. L. ; MEDEIROS, R. M. V. ; CHELOTTI, M. C. ; PANIAGUA, E. R. M.. <b>'O espaço rural na campanha gaúcha: Santana do Livramento, das origens à reforma agrária'. Jundiaí -SP</b>. 2016. Prefácio, Pósfacio/Apresentação<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q='O+espaço+rural+na+campanha+gaúcha:+Santana+do+Livramento,+das+origens+à+reforma+agrária'.+Jundiaí+-SP&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query='O+espaço+rural+na+campanha+gaúcha:+Santana+do+Livramento,+das+origens+à+reforma+agrária'.+Jundiaí+-SP">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q='O+espaço+rural+na+campanha+gaúcha:+Santana+do+Livramento,+das+origens+à+reforma+agrária'.+Jundiaí+-SP">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:24:04<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

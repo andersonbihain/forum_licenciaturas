@@ -1,0 +1,393 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_SaoBorja</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_SaoBorja</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Apresentações de trabalho'}, 
+series: [{data: [[2016,
+30],
+[2017,
+60],
+[2018,
+28]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Apresentações de trabalho</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 120<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BONITO, M. ; SANTOS, L. C.. <b>Narrativas mediáticas con deficiencia</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BONITO, M. ; SANTOS, L. C.. <b>Narrativas invisíveis e inaudíveis: a importância da formação de profissionais de comunicação com consciência cidadã em prol da acessibilidade comunicativa</b>. 2018. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CALCAGNO, S. C. ; MARINHO, J. C. B. ; SILVA, J. A.. <b>Análise das pesquisas que abordam as questões do HIV/AIDS em presídios</b>. 2018. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CALCAGNO, S. C. ; MARINHO, J. C. B. ; SILVA, J. A.. <b>ANÁLISE DAS INVESTIGAÇÕES SOBRE SAÚDE DE PESSOAS SOB RECLUSÃO EM PRESÍDIOS</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CALCAGNO, S. C. ; MARINHO, Julio Cesar Bresolin ; SILVA, J. A.. <b>Saúde na prisão: investigando a narrativa de mulheres em um presídio misto</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>CALCAGNO, S. C. ; SILVA, J. A. ; MARINHO, J. C. B.. <b>INVESTIGAÇÃO DE ESTUDO SOBRE SAÚDE MENTAL NO PRESÍDIO</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>CALCAGNO, S. C. ; SILVA, J. A. ; MARINHO, J. C. B.. <b>A ESCASSEZ DE VAGAS E O GÊNERO FEMININO NOS PRESÍDIO</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>CALCAGNO, S. C. ; SILVA, J. A. ; MARINHO, J. C. B.. <b>NARRATIVAS COMO TÉCNICA DE PRODUÇÃO DE DADOS EM PRESÍDIO</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>de Sa, J. M. <b>Crise, Conhecimento e Educação na Contemporaneidade</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>de Sa, J. M.; Trevisan, A. ; Sgró, M.. <b>Mesa Redonda 'Formação Cultural, Hermenêutica e Biopolítica'</b>. 2018. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>GONCALVES, B. S. ; ALVES, S. S. ; Santos, Tiago Gomes dos. <b>Impacts of habitat conversion on tadpole communities in subtropical grasslands from Brazil</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>LOPES, C. F. ; PAULA, A. A. ; GUNSKI, R. J. ; GARNERO, A. V. ; RIBEIRO, J. R. I.. <b>Descrição cariotípica inédita de duas espécies do gênero Belostoma Latreille, 1807 (Insecta, Belostomatidae)</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>MARINHO, J. C. B.; SILVA, J. A.. <b>Discursos de adolescentes brasileiros e cabo-verdianos sobre sexo sem camisinha: onde foi parar as preocupações com as DST/AIDS?</b>. 2018. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>MARINHO, Julio Cesar Bresolin; SILVA, J. A.. <b>GRUPOS FOCAIS E DILEMAS MORAIS COMO ESTRATÉGIAS DE ESTUDO DE CASO EM INVESTIGAÇÕES COM ADOLESCENTES NA EDUCAÇÃO EM CIÊNCIAS</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>MOURA, T. C. ; OLIVEIRA, G. L.. <b>Aulões interdisciplinares do projeto LEME: Oficinas preparatórias para o ENEM ? um relato de experiência</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>NOGUEIRA, CARMEN REGINA DORNELES. <b>Educação à Distância (EAD): Experiências de outras Instituições de Ensino Superior (IES) públicas e oportunidades para a UERGS</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>OLIVEIRA, G. L. <b>Questões teórico-empíricas na mudança de escala da mobilização dos atingidos por barragens</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>OLIVEIRA, G. L. <b>Salão Internacional de Ensino, Pesquisa e Extensão - SIEPE</b>. 2018. Avaliador de resumo para evento</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>OLIVEIRA, G. L.; GAMALHO, N. P.. <b>De Jagger a Tati Quebra-Barraco: o rock e o funk como signos de resistência</b>. 2018. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>PANIAGUA, E. R. M. <b>Cultura como meio de transformação social</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>PANIAGUA, E. R. M. <b>Curso Internacional - I Comitê de Integração Fronteiriça São Borja-RS/Santo Tomé-Ctes</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>REIS, A. V. B. ; RIBEIRO, J. R. I.. <b>Presença de evolução correlacionada entre a genitália masculina e feminina dos representantes de Belostomatinae (Heteroptera, Belostomatidae)</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>ROESCH, L.F.W. <b>Gut Microbiota in PKU and other inborn errors of metabolism</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>SANTER, M. ; RIBEIRO, J. R. I.. <b>Cuidado paternal e sua relação com o dimorfismo sexual de tamanho em Belostomatidae (Hemiptera, Heteroptera)</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>SANTOS, L. C.; BONITO, M.. <b>Direitos Humanos e inclusão das pessoas com deficiência: reflexões a partir da perspectiva da acessibilidade comunicativa</b>. 2018. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>SILVA, Camila de A. <b>10º SIEPE Salão Internacional de Ensino, Pesquisa e Extensão</b>. 2018. Avaliadora de resumo</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>SILVA, Camila de A. <b>9º SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão</b>. 2018. Avaliadora de Resumos</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>SILVA, Camila de A.. <b>Metodologias para o ensino de História. 2018</b>. 2018. </td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>A. Freitas ; OLIVEIRA, D. M. ; VALSECCHI, CHIARA. <b>monitorias de química geral e analítica melhoram o desempenho dos académicos da unipampa são Gabriel</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Barreto, Y. C. ; LEAL, ALLAN PINTO ; OLIVEIRA, R. S. ; VINADE, L. ; DAL BELO, C.A.. <b>ENTOMOTOXICIDADEDOVENENODESAPO(RHINELLAICTERICA)EMBARATAS( NAUPHOETACINEREA)</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BONITO, M. ; SANTOS, L. C. ; BEILFUSS, L.. <b>O jornalismo deficiente, sem acessibilidade comunicativa, nas práxis cotidianas do grupo RBS de Comunicação</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BORGES, B. T. ; DAL BELO, C.A. ; Vieira B Patricia ; VINADE, L.. <b>CENTRAL AND PERIPHERAL NEUROTOXICITY INDUCED BY EXTRACTS AND FRACTIONS OF Manilkara rufula IN Nauphoeta cinerea COCKROACHES</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CORAD, B. C. ; Putzke, J. ; FALCAO, M. ; OLIVEIRA, N. ; LUCINI, F. ; Alves, R. P.. <b>LEVANTAMENTO DE FUNGOS AGARICOMYCETES NA RESERVA ECOLÓGICA SANGA DA BICA EM SÃO GABRIEL, RS</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>CORRÊA, Anderson R. <b>Pereira. Paulo Freire e a História: possibilidade ou fatalidade?</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>CORRÊA, Anderson R. <b>Pereira. A história do movimento operário no Brasil</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>CORRÊA, Anderson R. <b>Pereira. o contexto do movimento operário na Era Vargas</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>CORRÊA, Anderson R. <b>Pereira. Da conquista dos direitos à resistência: os 100 anos da greve geral de 1917</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>CORRÊA, Anderson R. <b>Pereira. A Lei 10.639/03 e o Plano Municipal de Eduação de São Borja</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>CORRÊA, Anderson R. Pereira; PINTO, M.. <b>Tolerância e respeito à diversidade étnica e cultural</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>CORRÊA, Anderson R. Pereira; SIDES, R. A.. <b>'A Escrita da História de São Borja: primeiras observações'</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>DE BRUM VIEIRA, PATRÍCIA. <b>Plantas como fonte de compostos bioativos</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>DE BRUM VIEIRA, PATRÍCIA. <b>Drogas de abuso e seus malefícios</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>de Sa, J. M. <b>Os Clássicos Gregos e sua Atualidade</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>de Sa, J. M. <b>Da Autonomia: Entre a Gestão de Si e a Educação Política</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>FALCAO, M. ; OLIVEIRA, N. ; CORAD, B. C. ; LUCINI, F. ; ALBUQUERQUE, M. P. ; Victoria, F. C. ; PEREIRA, A. B. ; Putzke, J.. <b>FUNGOS AGARICALES (BASIDIOMYCOTA) EM ÁREAS DE BIOMA PAMPA E PLANTAÇÃO DE EUCALYPTUS NO RS</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>FERREIRA, E. S. ; NUNES, L. L.. <b>A democratização da Educação Básica no Brasil: um breve resgate histórico sobre a garantia do direito à educação</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>GONCALVES, B. S. ; SANTOS, T. G. ; RIBEIRO, J. R. I.. <b>Diferenciação morfológica dos girinos de Ololygon aromothyella e Ololygon berthae (Anura: Hylidae)</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>GRACIOLA,Ana Paula ; RIZZON, Fernanda ; OLEA, P. M. ; ROCHA, J. M. ; Milan, G.S.. <b>Sustentabilidade, Varejo e cadeias de suprimentos: 20 anos de pesquisa</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>GRACIOLI, CIBELE ROSA. <b>mesa Redonda: Legislação Ambiental na Jornada Academica da Biologia</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>HIRSCHMANN, A.; KASPER, C. B.. <b>Minicurso: Diversidade de Peixes de Água Doce Neotropicais</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Kuster, M. C. T. ; Putzke, J. ; LANGE, H. O. B. ; LAINDORF, B. L. ; LUCINI, F.. <b>LEVANTAMENTO FLORÍSTICO EM ÁREA VERDE DE VERA CRUZ PARA IMPLANTAÇÃO DE JARDIM BOTÂNICO, RS, BRASIL</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>LAINDORF, B. L. ; LUCINI, F. ; KUSTER, M. C. T. ; Putzke, J. ; Victoria, F. C. ; PEREIRA, A. B.. <b>ECOLOGIA MOLECULAR DE SYAGRUS ROMANZOFFIANA (CHAM.) GLASSMAN (ARECACEAE) NO RIO GRANDE DO SUL - BRASIL</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>LAINDORF, B. L. ; LUCINI, F. ; Kuster, M. C. T. ; Putzke, J. ; Victoria, F. C. ; PEREIRA, A. B.. <b>TRANSFERIBILIDADE DE MARCADORES MOLECULARES DE ESPÉCIES DA FAMÍLIA ARECACEAE PARA SYAGRUS ROMANZOFFIANA (CHAM.) GLASSMAN</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>LOPES, C. F. ; RIBEIRO, J. R. I.. <b>A seleção sexual não parece atuar em traços considerados sexuais em Belostoma elegans (Insecta, Belostomatidae)</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>LUCINI, F. ; LAINDORF, B. L. ; CORAD, B. C. ; Kuster, M. C. T. ; ALBUQUERQUE, M. P. ; PEREIRA, A. B. ; Victoria, F. C. ; Putzke, J.. <b>FUNGOS AGARICALES EM REMANESCENTE DE FLORESTA NO MUNICÍPIO DE SÃO GABRIEL, RS, BRASIL</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>LUCINI, F. ; LAINDORF, B. L. ; Kuster, M. C. T. ; ALBUQUERQUE, M. P. ; PEREIRA, A. B. ; Victoria, F. C. ; Putzke, J.. <b>RECENTES AMEAÇAS ÀS POPULAÇÕES DE GRAMA ANTÁRTICA (DESCHAMPSIA ANTARCTICA): OS FUNGOS ASSOCIADOS</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>MACEDO, I.C. <b>Oficina de Princípios da Imunização Humana</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>MACEDO, ISABEL CRISTINA DE. <b>Oficina de Imunologia: Princípios da Imunização Humana</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>MARINHO, Julio Cesar Bresolin; SILVA, J. A.. <b>Educação em Saúde e adolescente: uma análise da produção da comunidade de pesquisadores de Educação em Ciências</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>MARINHO, Julio Cesar Bresolin; SILVA, J. A. ; CAETANO, M. R. V.. <b>Dilemas morais de saúde como estratégia de ensino para adolescentes</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>MOURA, T. C. ; FURTADO, M. ; NUNES, L. L. ; FERREIRA, E. S.. <b>O projeto Leme: oficinas preparatórias para o ENEM da UNIPAMPA, campus São Borja: um relato sobre a segunda edição no ano de 2016</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>MOURA, T. C. ; NUNES, L. L.. <b>Projeto ?LEME: Oficinas Preparatórias para o ENEM?: Colaborações na formação dos estudantes</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>NARVAES, A. B. <b>Olhar a Docência na Ótica da Relação Entre Professores e Alunos no Contextos da Educação Básica</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>NARVAES, A. B. <b>A Confiança do Jovens São-borjenses nos Representantes Políticos</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>OLIVEIRA, G. L. <b>Diferenciação e Desigualdades Sociais no Brasil sob a ótica da Sociologia</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>OLIVEIRA, G. L. <b>Interdisciplinaridades e metodologias para o ensino de sociologia: experiências para o Ensino Médio</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>OLIVEIRA, G. L. <b>Salão Internacional de Ensino, Pesquisa e Extensão - SIEPE</b>. 2017. Avaliador de resumo em evento</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>OLIVEIRA, G. L.; GAMALHO, N. P. ; NARVAES, A.B. ; PANIAGUA, E. R. ; GOULART, M.. <b>A Interdisciplinaridade nas Ciências Humanas</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>OLIVEIRA, G. L.; NEVES, J. T. ; RODRIGUEZ, N. R.. <b>Educação Básica e Currículo</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>OLIVEIRA, V. S.; WOLSKI, M. S.. <b>O museu como recurso didático</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Putzke, J. <b>The Agaricales Fungi (Basidiomycota) in Pampa Biome, Brazil: A Review</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Putzke, J.; PUTZKE, M. T. L.. <b>Agaricales fungi (Agaricomycetes ? Basidiomycota) in Brazil: a taxonomic revision</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>ROCHA, J. M. <b>Desenvolvimento e sustentabilidade na agricultura da Metade Sul do RS: parâmetros,objetivos e limitantes da produção agroecológica</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>ROCHA, J. M. <b>Economia, sustentabilidade e fome: a agroecologia como alternativa</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>ROESCH, L.F.W. <b>Estrutura de comunidades microbianas por metagenômica</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>Rosa, M.E. ; VINADE, L. ; DAL BELO, C.A.. <b>NEUROTOXICIDADE INDUZIDA PELO EXTRATO CONTENDO ANATOXINA-A(S) SOBRE O SISTEMA NERVOSO DE BARATAS</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>RUTZ, K. P. ; MARINHO, Julio Cesar Bresolin ; SILVA, F. F.. <b>O uso de situações-problema como ferramenta didática no Ensino de Ciências</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>SANTOS, L. C.; BONITO, M.. <b>Procesos comunicacionales para la construcción de narrativas accesibles</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>Schmitz, D. ; Putzke, J. ; SCHAEFER, C. E. G. R.. <b>FITOSSOCIOLOGIA EM ÁREAS DE COMUNIDADES DE MUSGOS EM RIP POINT, ILHA NELSON, ANTÁRTICA MARÍTIMA</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>SCHWANKE, C. M. ; YOUNG, J. ; MORAES, B. S. ; RUSSINI, A.. <b>Caracterização da cinza da casca de arroz (CCA) para aplicação em catalizador na conversão à biodiesel</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>SCHWANTES, L. ; MARINHO, Julio Cesar Bresolin ; ARNT, A.. <b>História e filosofia da ciência na formação de professores : um estudo em cursos das universidades federais do Rio Grande do Sul, Brasil</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>SILVA, Camila de A. <b>9º SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão</b>. 2017. Avaliadora presencial</td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>CORRÊA, Anderson R. Pereira; SILVA, C. A. ; DUARTE, L. B.. <b>Uso didático do Patrimônio Cultural: uma comparação entre os cemitérios de Jaguarão e São Borja</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>SILVA, J. P. A. ; FREITAS, J. S. ; MACEDO, I. C. ; OLIVEIRA, C ; SCARABELOT, V. L. ; CAUMO, W ; TORRES, I. L. S.. <b>EFEITO DA ESTIMULAÇÃO TRANSCRANIANA POR CORRENTE CONTÍNUA (ETCC) SOBRE PARÂMETROS BIOMÉTRICOS DE RATOS WISTAR MACHOS SUBMETIDOS A DIETA HIPERCALÓRICA</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>VALSECCHI, C. <b>gold nano holes as nonmaterial for early medical diagnosis</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>VALSECCHI, C.; Neumann, J. ; STASSEN, HUBERT. <b>imidazolium/imidazolate pi-pi stacked ions pair simulations in chloroform</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>YOUNG, J. ; SCHWANKE, C. M. ; MORAES, B. S.. <b>O papel das Universidades no desenvolvimento de tecnologias sustentáveis: o caso da Universidade de Évora-PT</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>Zozima, A. ; SANTOS, L. C.. <b>Comunicação Organizacional: dois mundos em paralelo</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AVILA JR, R. S. ; OLEQUES, S. S. ; SOUZA, B. M. ; RIBEIRO, J. R. I.. <b>Insects do not believe in mimics: efficacy of self-mimicry pollination mode in Begonia cucullata (Begoniaceae)</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Barreto, Y. C. ; Leal, AP ; OLIVEIRA, R. S. ; OGATA, BARBARA ; BORGES, B. T. ; Karnopp, E. ; Rosa, M.E. ; Maciel, LF ; Santos DS ; Santos, TG ; VINADE, L. ; DAL BELO, C.A.. <b>Neurobiology of Rhinella icterica (Spix 1824) Toad Venom in in vitro Preparation of Vertebrates</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BLASCKESI, T. J. F. ; MORAES, B. S. ; COPETTI, A. C. C. ; ALVES, R. R.. <b>ESTRATÉGIAS DE GESTÃO DOS RESÍDUOS DE UMA MADEIREIRA NO MUNICÍPIO DE SÃO GABRIEL / RS</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BORGES, B. T. ; Leal, AP ; Zanata, AP ; OGATA, BARBARA ; Karnopp, E. ; Rosa, M.E. ; Barreto, Y. C. ; VINADE, L. ; DAL BELO, C.A. ; Vieira B Patricia. <b>Effect of Manilkara rufula Extract on Neuromuscular Junction of Cockroaches Nauphoeta cinerea</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>BRUM, W. M. <b>A Leitura e Escrita em Língua de Sinais: Política,Estudos e Produções</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>BRUM, W. M. <b>3° Setembro Azul da UFSM</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>BRUM, W. M. <b>Aspectos Linguísticos e Culturais da Comunidade Surda</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>BRUM, W. M. <b>Setembro Azul para Surdos</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>CANTINI, Hartemink, Adriana; MACHADO, L. M. O.. <b>Fórum Permanente de Direitos Humanos Brasil/Argentina: o relato de uma experiência</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>CORRÊA, Anderson R. <b>Pereira. A origem classista do Dia das Mulheres (8 de março)</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>FERREIRA, E. S. ; MENDONCA, V. V. ; NUNES, L. L.. <b>Projeto LEME: oficinas preparatórias para o ENEM como ferramenta para inclusão social</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>GACKI, S. R. S. <b>Escola e Universidade: utopias, tempos e experiências</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>GACKI, S. R. S.; PROHMANN, P. R.. <b>Diálogo hermenêutico na sociedade biopolítica: encontrar o outro na formação de professores</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>GAMALHO, Nola Patrícia. <b>Juventudes e periferias</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>LOPES, C. F. ; Stefanello, F. ; RIBEIRO, J. R. I.. <b>Ocorrência de seleção sexual na genitália masculina e nos parâmeros de Belostoma elegans (Insecta, Belostomatidae)</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>MACEDO, I. C. <b>Testes comportamentais para avaliação nociceptiva</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>NOGUEIRA, C. R. D. <b>Gastronomia, Turismo e Desenvolvimento do Território</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>NOGUEIRA, C. R. D. <b>Paradiplomacia e Turismo. O Protagonismo da Universidade Federal do Pampa na promoção do Desenvolvimemento da Fronteira Sul de Oeste do RS</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>NOGUEIRA, C. R. D.; ZAN, F.R. ; JASPER, J. R.. <b>A Gastronomia Típica e Sua Contribuição para a Certificação em Indicação Geográfica de Produtos na Região das Missões/RS</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>NOGUEIRA, CARMEN REGINA DORNELES. <b>III Seminário Latino Americano de Políticas Públicas e Turismo</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>NUNES, L. L. <b>Dilemas Morais</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>OGATA, BARBARA ; OLIVEIRA, R. S. ; Vargas, LS ; MELLO-CARPES, P. B. ; DAL BELO, C.A. ; VINADE, L.. <b>Effects of Methylprednisolone on Rodent Central Nervous System: Modulation of Calcium-Dependent Memory Pathways</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Ogata, Barbara A. B. ; VINADE, L. ; DAL BELO, C.A.. <b>Efeitos da Metilprednisolona em Via Envolvida com Memoria em Sistema Nervoso Central de Roedores</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>OLIVEIRA, V. S. <b>Oficina de trabalho: Utilizando as bases de dados RAIS e CAGED</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>PANIAGUA, E. R. M. <b>Pensamento social, político e histórico no prata</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>PINHEIRO, Felipe Lima; PAES NETO, V. D. ; Martinelli, A.. <b>Registros de Archosauriformes da Formação Sanga do Cabral (Triássico Inferior): O início do domínio diápsido no Mesozóico do Oeste gongwânico</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>ROESCH, L.F.W. <b>Metagenoma de áreas sob plantio direto e plantio convencional do Cerrado ao Sul do Brasil</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>SANTOS, L. C. <b>A construção de narrativas como estratégia de comunicação organizacional</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>SILVA, Camila de A. <b>O jornal Correio do Povo e o projeto de reconstrução nacional pós golpe: as Forças Armadas e deu 'destino manifesto'</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>VALSECCHI, C. <b>Nanopartículas de ouro: aplicações na área biomédica</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ROCHA; Educação Ambiental e Cidadania: relato de uma experiência em escola pública/São Gabriel-RS-Brasil. <b>2011</b>. 0. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ROCHA; Sustentabilidade em questão: Economia, sociedade e meio ambiente. <b>2011</b>. 0. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:24:04<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

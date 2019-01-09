@@ -1,0 +1,189 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_SaoBorja</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_SaoBorja</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Livros publicados/organizados ou edições'}, 
+series: [{data: [[2016,
+5],
+[2017,
+8],
+[2018,
+5]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Livros publicados/organizados ou edições</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 18<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>COLVERO, R. B. ; PANIAGUA, E. R. ; JOVINO, D. P. ; GUINDANI, EVANDRO. <b>PIBID na UNIPAMPA São Borja ? RS: o subprojeto de História</b>. 1 ed. São Leopoldo: Oikos, 2018. p. 160. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=PIBID+na+UNIPAMPA+São+Borja+?+RS:+o+subprojeto+de+História&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=PIBID+na+UNIPAMPA+São+Borja+?+RS:+o+subprojeto+de+História">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=PIBID+na+UNIPAMPA+São+Borja+?+RS:+o+subprojeto+de+História">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CORRÊA, Anderson Romário Pereira. <b>Uma história operário-sindical de Alegrete; a formação da classe operária alegretense</b>. 01 ed. Bagé, RS: Faith, 2018. v. 01, p. 86. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Uma+história+operário-sindical+de+Alegrete;+a+formação+da+classe+operária+alegretense&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Uma+história+operário-sindical+de+Alegrete;+a+formação+da+classe+operária+alegretense">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Uma+história+operário-sindical+de+Alegrete;+a+formação+da+classe+operária+alegretense">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>NARVAES, A. B.; FERREIRA, E. da S. (Org.). <b>América Latina no século XXI Os novos rumos da educação e da democracia</b>. 1 ed. Editora CLAEC, 2018. v. 1, p. 260. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=América+Latina+no+século+XXI+Os+novos+rumos+da+educação+e+da+democracia&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=América+Latina+no+século+XXI+Os+novos+rumos+da+educação+e+da+democracia">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=América+Latina+no+século+XXI+Os+novos+rumos+da+educação+e+da+democracia">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>NOGUEIRA, CARMEN REGINA DORNELES; SOARES, ROSÂNGELA OLIVEIRA ; ZAN, F.R. ; RUSSO, S. L. ; MELLO, RÔMULO MADRID DE. <b>Propriedade Intelectual Tecnologia e Inovação</b>. 1 ed. Aracajú: Associação Acadêmica de Propriedade Intelectual, 2018. p. 400. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Propriedade+Intelectual+Tecnologia+e+Inovação&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Propriedade+Intelectual+Tecnologia+e+Inovação">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Propriedade+Intelectual+Tecnologia+e+Inovação">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>PANIAGUA, E. R. M.; EPITACIO, S. S. F. (Org.) ; JOVINO, D. (Org.). <b>Identidade, Cultura Política e Políticas Públicas: Saberes e Práticas Interdisciplinares</b>. 1 ed. Jaguarão: CLAEC, 2018. .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Identidade,+Cultura+Política+e+Políticas+Públicas:+Saberes+e+Práticas+Interdisciplinares&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Identidade,+Cultura+Política+e+Políticas+Públicas:+Saberes+e+Práticas+Interdisciplinares">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Identidade,+Cultura+Política+e+Políticas+Públicas:+Saberes+e+Práticas+Interdisciplinares">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CORRÊA, Anderson R. <b>Pereira. Uma história operário-sindical de Alegrete: a formação da classe operária alegretense</b>. 01 ed. Bagé: Faith, 2017. v. 01, p. 90. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Pereira.+Uma+história+operário-sindical+de+Alegrete:+a+formação+da+classe+operária+alegretense&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Pereira.+Uma+história+operário-sindical+de+Alegrete:+a+formação+da+classe+operária+alegretense">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Pereira.+Uma+história+operário-sindical+de+Alegrete:+a+formação+da+classe+operária+alegretense">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>de Sa, J. M. <b>Notas Xamânicas</b>. 1 ed. Rio de Janeiro: Multifoco Editora, 2017. v. 1, p. 226. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Notas+Xamânicas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Notas+Xamânicas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Notas+Xamânicas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>de Sa, J. M. <b>Do Diálogo Entre Epistemologia e Hermenêutica</b>. 1 ed. Saarbrücken: Novas Edições Acadêmicas (OmnScriptum GmbH Co.), 2017. p. 115. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Do+Diálogo+Entre+Epistemologia+e+Hermenêutica&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Do+Diálogo+Entre+Epistemologia+e+Hermenêutica">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Do+Diálogo+Entre+Epistemologia+e+Hermenêutica">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>GONÇALVES, R. B. <b>Conexões entre religião e política: As estratégias discursivas e a atuação da Frente Parlamentar Evangélica</b>. 1 ed. Porto Alegre: Editora Fi, 2017. p. 359. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Conexões+entre+religião+e+política:+As+estratégias+discursivas+e+a+atuação+da+Frente+Parlamentar+Evangélica&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Conexões+entre+religião+e+política:+As+estratégias+discursivas+e+a+atuação+da+Frente+Parlamentar+Evangélica">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Conexões+entre+religião+e+política:+As+estratégias+discursivas+e+a+atuação+da+Frente+Parlamentar+Evangélica">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Putzke, J.; PUTZKE, M. T. L.. <b>Sobrevivência nas matas brasilerias</b>. 1 ed. São Gabriel - RS: Editora JP, 2017. v. 1, p. 69. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Sobrevivência+nas+matas+brasilerias&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Sobrevivência+nas+matas+brasilerias">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Sobrevivência+nas+matas+brasilerias">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Putzke, J.; PUTZKE, M. T. L.. <b>Cogumelos (fungos agaricales) encontrados no brasil: famílias agaricaceae, amanitaceae, bolbitiaceae, coprinaceae/psathyrellaceae, crepidotaceae, entolomataceae e hygrophoraceae</b>. 1 ed. São Gabriel - RSJP: JP Editora, 2017. v. 1, p. 521. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Cogumelos+(fungos+agaricales)+encontrados+no+brasil:+famílias+agaricaceae,+amanitaceae,+bolbitiaceae,+coprinaceae/psathyrellaceae,+crepidotaceae,+entolomataceae+e+hygrophoraceae&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Cogumelos+(fungos+agaricales)+encontrados+no+brasil:+famílias+agaricaceae,+amanitaceae,+bolbitiaceae,+coprinaceae/psathyrellaceae,+crepidotaceae,+entolomataceae+e+hygrophoraceae">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Cogumelos+(fungos+agaricales)+encontrados+no+brasil:+famílias+agaricaceae,+amanitaceae,+bolbitiaceae,+coprinaceae/psathyrellaceae,+crepidotaceae,+entolomataceae+e+hygrophoraceae">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>PYLRO, VICTOR SATLER ; ROESCH, L. F. W.. <b>The Brazilian Microbiome: Current Status and Perspectives</b>. 1 ed. Springer International Publishing AG, 2017. .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=The+Brazilian+Microbiome:+Current+Status+and+Perspectives&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=The+Brazilian+Microbiome:+Current+Status+and+Perspectives">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=The+Brazilian+Microbiome:+Current+Status+and+Perspectives">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>RADAESKI, J. N. ; BAUERMANN, Soraia Girardi ; SCHNEIDER, A. A. ; LISKOSKI, P. E. ; SILVA, C. I.. <b>Pólen de Gramíneas Sul-Brasileiras</b>. 1 ed. Canoas: , 2017. v. 1, p. 132. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Pólen+de+Gramíneas+Sul-Brasileiras&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Pólen+de+Gramíneas+Sul-Brasileiras">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Pólen+de+Gramíneas+Sul-Brasileiras">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Iop, S. ; SANTOS, T. G. dos ; CECHIN, S. Z.. <b>Anfíbios anuros dos Campos Sulinos: espécies com ocorrência nas áreas campestres do Pampa e da Mata Atlântica</b>. 1 ed. Porto Alegre: UFRGS, 2016. v. 1, p. 22. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Anfíbios+anuros+dos+Campos+Sulinos:+espécies+com+ocorrência+nas+áreas+campestres+do+Pampa+e+da+Mata+Atlântica&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Anfíbios+anuros+dos+Campos+Sulinos:+espécies+com+ocorrência+nas+áreas+campestres+do+Pampa+e+da+Mata+Atlântica">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Anfíbios+anuros+dos+Campos+Sulinos:+espécies+com+ocorrência+nas+áreas+campestres+do+Pampa+e+da+Mata+Atlântica">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MARTINS, C. S. L. (Org.) ; BICA, A. C. (Org.) ; PESSANO, E. F. C. (Org.) ; MARINHO, Julio Cesar Bresolin (Org.). <b>Tertúlias Pedagógicas: Curso de formação continuada de professores na perspectiva dialógica</b>. 1 ed. Herval D'Oeste: Polimpressos, 2016. v. 1, p. 1. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Tertúlias+Pedagógicas:+Curso+de+formação+continuada+de+professores+na+perspectiva+dialógica&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Tertúlias+Pedagógicas:+Curso+de+formação+continuada+de+professores+na+perspectiva+dialógica">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Tertúlias+Pedagógicas:+Curso+de+formação+continuada+de+professores+na+perspectiva+dialógica">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>NAGEL J. ; STEFENON, V. M. ; STRACKE, M. P.. <b>Gestão da Espécie Açoita-Cavalo no Bioma Pampa: Diversidade e estrutura genética populacional</b>. 01 ed. São paulo: Novas Edições Acadêmicas, 2016. v. 1, p. 64. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Gestão+da+Espécie+Açoita-Cavalo+no+Bioma+Pampa:+Diversidade+e+estrutura+genética+populacional&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Gestão+da+Espécie+Açoita-Cavalo+no+Bioma+Pampa:+Diversidade+e+estrutura+genética+populacional">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Gestão+da+Espécie+Açoita-Cavalo+no+Bioma+Pampa:+Diversidade+e+estrutura+genética+populacional">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>PUTZKE, JAIR; KOHLER, A. ; PEZZINI, C.. <b>Partes comestíveis de plantas</b>. 1 ed. Santa Cruz do Sul: , 2016. v. 1, p. 24. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Partes+comestíveis+de+plantas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Partes+comestíveis+de+plantas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Partes+comestíveis+de+plantas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SERROTE, C. ; REINIGER, L. R. S. ; STEFENON, V. M.. <b>Simulações Em Genética De Populações E Conservação De Recursos Florestais</b>. 01 ed. São Paulo: Paco Editorial, 2016. v. 01, p. 116. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Simulações+Em+Genética+De+Populações+E+Conservação+De+Recursos+Florestais&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Simulações+Em+Genética+De+Populações+E+Conservação+De+Recursos+Florestais">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Simulações+Em+Genética+De+Populações+E+Conservação+De+Recursos+Florestais">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:24:04<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

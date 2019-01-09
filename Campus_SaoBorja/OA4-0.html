@@ -1,0 +1,227 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_SaoBorja</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_SaoBorja</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Trabalho de conclusão de curso de graduação'}, 
+series: [{data: [[2016,
+11],
+[2017,
+8],
+[2018,
+18]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Trabalho de conclusão de curso de graduação</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 37<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriana Lamana. <b>Metodologias de ensino com Literatura Afro-brasileira</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Humanas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Adson de Souza Pereira. <b>Efeito do exercício físico sobre parâmetros bioquímicos e metabólicos em ratos submetidos à suplementação com frutose</b>. Trabalho de Conclusão de Curso (Graduação em Educação Física) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4569568927785852">Leonardo Magno Rambo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Cassia Prioste Duarte. <b>Relações Públicas e Economia Criativa: uma articulação sobre os campos e a atuação através de micro e pequenas empresas</b>. Trabalho de Conclusão de Curso (Graduação em Relações Públicas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3992717755933028">Larissa Conceição dos Santos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Fernanda Olívia Guisolfi. <b>Os Jovens e a Cultura Política na Terra dos Presidentes: Uma análise comparativa da participação política dos jovens de escolas públicas e privadas.</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Sociais - Ciência Política) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3246002087220693">Domingos Sávio Campos de Azevedo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>GARCIA, Paulo. <b>O Afrofuturismo de Ferréz em Deus Foi Almoçar: Representação Étnico-Racial e Afrocentricidade</b>. Trabalho de Conclusão de Curso (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3479198807486329">Rodrigo Borges de Faveri</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Gladis Wolff. <b>A IMAGEM NO LIVRO DIDÁTICO DE SOCIOLOGIA: USOS E DESUSOS DA IMAGEM PARA A LEITURA DA SOCIEDADE</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Humanas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0043376390965232">Andréa Becker Narvaes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Guilherme Abreu Nunes. <b>Cultura Política na Internet: A diferença da cultura política entre os onlines e os offlines em São Borja.</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Sociais - Ciência Política) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3246002087220693">Domingos Sávio Campos de Azevedo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Gyennyfer Fontella. <b>Interdisciplinaridade: O uso de Quadrinhos como metodologia de ensino em Ciências Humanas</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Humanas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0043376390965232">Andréa Becker Narvaes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Henrique Souto Melo. <b>Produção e qualidade de mudas de Hovenia dulcis Thunberg (Rhamnaceae) em diferentes substratos</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Biológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7239967672848394">Silvane Vestena</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>HEYDEN, Hugo. <b>A Tradução de Somnium de Johannes Kepler para o Português do Brasil: Ciência e/ou Ficção Científica?</b>. Trabalho de Conclusão de Curso (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3479198807486329">Rodrigo Borges de Faveri</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Lana Dorneles Pedroso. <b>Bioatividade de extrato de capim-annoni-2 (Eragrostis plana Nees) sobre sistema nervoso de baratas da espécie Nauphoeta cinerea</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Biológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7239967672848394">Silvane Vestena</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Leticia Campos Ferreira. <b>Análise dos efeitos entomotóxicos de agrotóxicos neonicotinóides em abelhas Apis mellifera.</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Biológicas - Bacharelado) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9245604354419040">Lucia Helena do Canto Vinade</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Letícia Bronzoni Soares. <b>A Religião Importa: Uma análise comparativa da socialização política dos jovens cristãos - Igreja Católica e Igreja do Evangelho Quadrangular.</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Sociais - Ciência Política) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3246002087220693">Domingos Sávio Campos de Azevedo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Luana Matheus Hardt Pereira. <b>Adaptação das gerações X,Y e Z ao ambiente de trabalho: o papel da comunicação organizacional</b>. Trabalho de Conclusão de Curso (Graduação em Relações Públicas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3992717755933028">Larissa Conceição dos Santos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Melania Santer. <b>Evolução do dimorfismo sexual de tamanho em Belostomatidae</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Biológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5627311567399428">Jose Ricardo Inacio Ribeiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Márcia Regina dos Santos Batista. <b>Relações Públicas e cultura missioneira</b>. Trabalho de Conclusão de Curso (Graduação em Relações Públicas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3992717755933028">Larissa Conceição dos Santos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Nathália Silva de Souza. <b>Investigação da relação entre aspectos morfológicos e ecológicos de Acestrorhynchus pantaneiro Menezes, 1992</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Biológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8786959920026227">Alice Hirschmann</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Vanessa Passino de Nadai. <b>Análise Comparada Sobre o Conceito de Democracia em Boaventura de Souza Santos e Norberto Bobbio.</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Sociais - Ciência Política) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3246002087220693">Domingos Sávio Campos de Azevedo</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ADALGIZA DE OLIVEIRA RATTES. <b>VALORIZAÇÃO DA CULTURA DENTRO DO CONTEXTO HISTORICO ESCOLAR</b>. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Ciências Humanas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Cassiane Furlan Lopes. <b>Estudo da variação morfológica da genitália em Belostoma (Insecta: Heteroptera: Belostomatidae) e suas possíveis causas</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Biológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5627311567399428">Jose Ricardo Inacio Ribeiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Daniele de Oliveira Machado. <b>Recursos Hidricos e Educação Ambiental em uma escola estadual em São Gabriel, RS</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Biológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4807525329153013">Cibele Rosa Gracioli</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Maderley Martins Pereira. <b>OS processos de Inclusão no Instituto Arneldo Matter na cidade de São Borja</b>. Trabalho de Conclusão de Curso (Graduação em Licenciatura em Ciências Humanas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Maria Eduarda Tabarez de Abreu. <b>Análise proteômica de escorpiões do pampa.</b>. Trabalho de Conclusão de Curso (Graduação em Biotecnologia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6404519694715281">Paulo Marcos Pinto</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>MENESES, Bruno M. <b>Os Robôs de Asimov</b>. Trabalho de Conclusão de Curso (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3479198807486329">Rodrigo Borges de Faveri</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Nataly Bicca Duarte. <b>Estudo da variação no perfil proteico e na atividade tóxica da saliva de Belostoma angustum (Insecta, Heteroptera, Belostomatidae)</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Biológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5627311567399428">Jose Ricardo Inacio Ribeiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Ranieri Costa Manaças. <b>Uma análise legislativa e eleitoral da Frente Parlamentar Evangélica durante a 55ª legislatura (2015-2019)</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Sociais - Ciência Política) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2185779366488602">Rafael Bruno Gonçalves</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alessandro Almeida. <b>Juventude e Cidadanai</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Sociais - Ciência Política) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0043376390965232">Andréa Becker Narvaes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Bárbara de Souza Lopes. <b>Avaliação do banco de sementes em área infestada por Eragrostis plana no Bioma Pampa</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Biológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0905235589505578">Angelo Alberto Schneider</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Carlos Denilson Quevedo Moraes. <b>Doutrinação política/ideologica nos estabelecimentos de ensino</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Humanas) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2869652027513088">Anderson Romário Pereira Corrêa</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Catia Narde. <b>Sala de aula e stress: vida de professor</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Humanas) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2869652027513088">Anderson Romário Pereira Corrêa</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Claudia Dornelles Marques. <b>Atendimento Especializado e Educação Especial - AEE</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Humanas) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2869652027513088">Anderson Romário Pereira Corrêa</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Cristiane da Silva Teixeira. <b>A indisciplina no ambiente escolar na escola Técnica Olavo Bilac</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Humanas) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7031094369974040">Adriana Hartemink Cantini</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Ester Monçalves Dias. <b>O cumprimento das medidas socioeducativas em São Borja: responsabilização ou punição?</b>. Trabalho de Conclusão de Curso (Graduação em Serviço Social) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7031094369974040">Adriana Hartemink Cantini</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Joilson. <b>Ensino de Teatro e ciências humanas</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Humanas) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0043376390965232">Andréa Becker Narvaes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Joseane Rocha Moiano. <b>O uso de tecnologias para transformar a educação</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Humanas) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2869652027513088">Anderson Romário Pereira Corrêa</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Marcelo Aranda. <b>Ensino de Sociologia e Ensino Médio</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Humanas) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0043376390965232">Andréa Becker Narvaes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Paloma Rachor Sperb. <b>Fenologia Reprodutiva de Angiospermas Campestres do Bioma Pampa</b>. Trabalho de Conclusão de Curso (Graduação em Ciências Biológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0905235589505578">Angelo Alberto Schneider</a>.</font></i></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:24:04<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

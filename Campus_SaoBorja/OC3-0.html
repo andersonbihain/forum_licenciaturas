@@ -1,0 +1,187 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_SaoBorja</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_SaoBorja</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Monografia de conclusão de curso de aperfeiçoamento/especialização'}, 
+series: [{data: [[2016,
+7],
+[2017,
+7],
+[2018,
+3]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Monografia de conclusão de curso de aperfeiçoamento/especialização</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 17<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ariadna Boldori Pinto. <b>O efeito de um programa de natação sobre a força pulmonar de crianças e adultos com doenças respiratórias</b>. (Aperfeiçoamento/Especialização em Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4569568927785852">Leonardo Magno Rambo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Francieli Eduarda Santana dos Santos. <b>Efeitos de um programa de hidroginástica sobre as aptidões funcionais de idosos</b>. (Aperfeiçoamento/Especialização em Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4569568927785852">Leonardo Magno Rambo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Nola Patrícia Gamalho. <b>RELAÇÕES ÉTNICO-RACIAIS NA ESCOLA: A LITERATURA COMO INSTRUMENTO PEDAGÓGICO PARA UMA EDUCAÇÃO VOLTADA PARA A DIVERSIDADE</b>. (Aperfeiçoamento/Especialização em Ciências Humanas - Licenciatura) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Daiane Greff. <b>Desenvolvimento de oficinas sobre biodiversidade com alunos do ensino fundamental no municipio de Constantina, RS</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4807525329153013">Cibele Rosa Gracioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Daniela Haerter. A Violência intrafamiliar desvelada no acolhimento institucional. <b>"Olhares de si, olhares cruzados"</b>. (Aperfeiçoamento/Especialização em Políticas e Intervenção em Violência Intra-familia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7079815998550043">Edson Romário Monteiro Paniágua</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Eliane Piovesan Botton. <b>Educação ambiental, alimentar e cidadania</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4807525329153013">Cibele Rosa Gracioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Luis Roberval Bortoluzzi Castro. <b>Concepçoes ambientais de Licenciados em Ciencias da Natureza sobre o Bioma Pampa na Fronteira Oeste do Rio Grande do Sul</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4807525329153013">Cibele Rosa Gracioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Maria Aparecida Possati dos Santos. <b>Educação ambiental na escola: os alunos como multiplicadores</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4807525329153013">Cibele Rosa Gracioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Michele Knob Koch. <b>Educação ambiental na comunidade escolar do entorno da Floresta Nacional de São Francisco de Paula, RS</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4807525329153013">Cibele Rosa Gracioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Viviane Aquino Machado. <b>Identidade de gênero: construção de identidades na infância</b>. (Aperfeiçoamento/Especialização em Especialização em Políticas e Intervenção em Violência Intrafamiliar) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Carla Denize Ott Felcher. <b>Modelagem Matemática e os PCN: Um diálogo com graduandos da Licenciatura em Matemática</b>. (Aperfeiçoamento/Especialização em Mídias na Educação) - Universidade Federal de Pelotas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7724745358129837">Julio Cesar Bresolin Marinho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Deizi Loiraci Silva Lemos. <b>A utilização das mídias em sala de aula</b>. (Aperfeiçoamento/Especialização em Mídias na Educação) - Universidade Federal de Pelotas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7724745358129837">Julio Cesar Bresolin Marinho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Mariane Lacortte. <b>VIOLÊNCIA, SISTEMA PRISIONAL E DIREITOS HUMANOS</b>. (Aperfeiçoamento/Especialização em Especialização em Serviço Social e Direitos Humanos) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0392455526575019">Evandro Ricardo Guindani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Marli Pereira Marques. <b>Leitura de mídias com cinema</b>. (Aperfeiçoamento/Especialização em Mídias na Educação) - Universidade Federal de Pelotas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7724745358129837">Julio Cesar Bresolin Marinho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Tiago da Silva Lacerda. <b>Oportunidade para a utilização de Objetos Virtuais de Aprendizagem na Educação Profissional e Tecnológica</b>. (Aperfeiçoamento/Especialização em Mídias na Educação) - Universidade Federal de Pelotas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7724745358129837">Julio Cesar Bresolin Marinho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Virgine Borges de Castilho. <b>Integração de mídias na educação: utilizando as mídias nos processos de ensino e aprendizagem em História</b>. (Aperfeiçoamento/Especialização em Mídias na Educação) - Universidade Aberta do Brasil, UAB-UFPel. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7724745358129837">Julio Cesar Bresolin Marinho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Vânia Cristina Rodrigues Vitório. <b>Porque está me internando? Um estudo sobre os critérios utilizados para a imposição da medida socioeducativa de internação na Comarca de São Borja (RS)</b>. (Aperfeiçoamento/Especialização em Especialização em Serviço Social/Direitos Humanos) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7031094369974040">Adriana Hartemink Cantini</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:24:04<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
