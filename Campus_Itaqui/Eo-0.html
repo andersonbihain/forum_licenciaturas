@@ -1,0 +1,257 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Itaqui</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Itaqui</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de organização de eventos'}, 
+series: [{data: [[2016,
+7],
+[2017,
+1],
+[2018,
+3]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de organização de eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 52<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>COSTA-HÜBES, T. D. ; BAUMGARTNER, C.T. ; KUIAVA, J. ; PAJEU, H. M. ; SOUZA, N.B.. <b>VII Círculo - Rodas de Conversa Bakhtiniana - Fronteiras</b>. 2018. Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>PEDRO, G. W. ; SOUZA, N.B. ; Et. Al. <b>VII SPL - XII SPLIN - Seminário de Produção em Linguística e Seminário de Pesquisas da Pós-Graduação em Linguística</b>. 2018. Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SANTOS, A. D.; PATIAS, T. M. ; MARQUES, L. M. ; ANCINA, E. ; DIAS, A. P. ; ALDERETE, K. C. ; IRALA, G. C. ; LEGUICA, R. V.. <b>Semana Acadêmica Integrada da Unipampa - Campus Itaqui</b>. 2018. Congresso</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CARPES, P.P.G; CERETA, A. S. ; SANTOS, G. N. ; SILVA, A. L. ; SANTOS, P. A. ; PERES, D. G.. <b>Gincana da Matemática</b>. 2017. Outro</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>COSTA, J. M.;. <b>. IV Seminário Internacional de Políticas Públicas da Educação Básica e Superior, V Seminário Internacional de Gestão Educacional, X Semana Acadêmica do Curso de Especialização em Gestão Educacional</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>LOVATO, C. S.; CORACINI, S. R.. <b>I Semana Acadêmica Integrada da UNIPAMPA</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MACHADO, C.P. ; SOUZA, N.B. ; Et. Al. <b>X Seminário de Pesquisas da Pós-Graduação em Linguística e V Seminário de Produção em Linguística</b>. 2016. Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MIOTELLO, V. ; SOUZA, N.B.. <b>XXVII COLÓQUIO BAKHTINIANO: De local e tempo a Cronótopo: deslocamento e alargamento</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MIOTELLO, V. ; SOUZA, N.B. ; MUSSARELI, F. ; GOMES, A. L. C.. <b>XXII Colóquio Bakhtiniano: a leitura como modo</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>MIOTELLO, V. ; SOUZA, N.B. ; MUSSARELI, F. ; GOMES, A. L. C.. <b>XXIII Colóquio Bakhtiniano: fazendo ciência com o Círculo de Bakhtin</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>MIOTELLO, V. ; SOUZA, N.B. ; RUFO, A. ; MUSSARELI, F. ; BOMBONATO, P. ; GOMES, A. L. C.. <b>XXI Colóquio Bakhtiniano: aprendendo com o método formal</b>. 2016. Outro</td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANTUNES, A. C. F.. Dia de Surdo. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ANTUNES, A. C. F.. Dia de Surdo. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>ANTUNES, A. C. F.. IV Fórum de Estudos Surdos na Área de Informática. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ANTUNES, A. C. F.. Oficina sobre dia do Surdo. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>ANTUNES, A. C. F.. V Fórum de Estudos Surdos na Área de Informática. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>CORACINI, S.R.. I Semana Acadêmica do Curso de Bacharelado Interdisciplinar em Ciência e Tecnologia. 2016. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>CORACINI, S.R.. I Semana Acadêmica Integrada. 2016. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>CORACINI, S.R.. I Seminário Estadual: Uma Política de Inclusão Social. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>CORACINI, S.R.. II Semana Acadêmica do Curso de Bacharelado Interdisciplinar em Ciência e Tecnologia. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>CORACINI, S.R.. II Seminário Estadual de Educação. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>COSTA, J. M.. III Seminário Internacional de Políticas Públicas da Educação Básica e Superior e IX Semana Acadêmica do Curso de Especialização em Gestão Educacional. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>COSTA, J. M.. VI Seminário Nacional Diálogos com Paulo Freire (44h). 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>KEHLER, G. S.. DIA DA SOLIDARIEDADE NO MUNICÍPIO DE PANAMBI/RS. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>KEHLER, G. S.. II SEMINÁRIO INTERNACIONAL DE GESTÃO EDUCACIONAL E IV SEMANA ACADÊMICA DO CURSO DE ESPECIALIZAÇÃO EM GESTÃO EDUCACIONAL: POLÍTICAS PÚBLICAS E GESTÃO CAMINHOS E DESCAMINHOS. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>KEHLER, G. S.. III Seminário Internacional de Gestão Educacional e da VI Semana Acadêmica do Curso de Especialização em Gestão Educacional. 2012. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>KEHLER, G. S.. V JORNADA DE LUDOPEDAGOGIA E DO III SEMINÁRIO NACIONAL DE EDUCAÇÃO ESPECIAL. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>KEHLER, G. S.. V SEMANA ACADÊMICA DO CURSO DE GESTÃO EDUCACIONAL: CURRÍCULO E POÍTICAS PÚBLICAS, PERSPECTIVAS DA FORMAÇÃO DO GESTOR EDUCACIONAL. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>KEHLER, G. S.. X SEMINÁRIO DE ENSINO, PESQUISA E EXTENSÃO, VIII MOSTRA DE INICIAÇÃO CIENTÍFICA E III MOSTRA DE EXTENSÃO. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>KEHLER, G. S.. X SEMINÁRIO INTERNACIONAL DE EDUCAÇÃO NO MERCOSUL, VII SEMINÁRIO INTERINSTITUCIONAL E VI JORNADA DE LUDOPEDAGOGIA. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>KEHLER, G. S.. XI SEMINÁRIO INTERINSTITUCIONAL DE ENSINO, PESQUISA E EXTENSÃO, IX MOSTRA DE INICIAÇÃO CIENTÍFICA E IV MOSTRA DE EXTENSÃO, I FEIRA DAS PROFISSÕES. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>LEÃO, A. S. G.. 1ª Semana Arte-Educação. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>LEÃO, A. S. G.. 1° Encontro de Bandas e Fanfarras da Secretaria Municipal de Itaqui. 2009. (Concurso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>LEÃO, A. S. G.. 2ª Semana Arte-educação e 6ª Feira do Livro de Itaqui. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>LEÃO, A. S. G.. 3º Encontro de Bandas Escolares de Itaqui. 2012. (Concurso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>LEÃO, A. S. G.. Capacitação e Formação Continuada para os Professores de Itaqui:1° Módulo. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>LEÃO, A. S. G.. Capacitação e Formação Continuada para os Professores Municipais de Itaqui: 1° Módulo. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>LEÃO, A. S. G.. Capacitação e Formação Continuada para Professores Municipais de Itaqui-RS. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>LEÃO, A. S. G.. Capacitação e Formação Continuada para Professores Municipais de Itaqui. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>LEÃO, A. S. G.. Curso de Aperfeiçoamento dos Dirigentes Escolares: Avaliação e prestação de contas PDDE e PDE-Escola. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>LEÃO, A. S. G.. Projeto Criança em Cena. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>LISKA, G. R.. VIII Programa de Verão DEX - 2012. 2012. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>MAGGIO, D.P. X EGEM - Encontro Gaúcho de Educação Matemática. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>PAROLIN, R. S.. Festival Cultural Integrador - FESCUIN. 2017. (Festival).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>PAROLIN, R. S.. VI Profissional do Futuro. 2006. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>SANTOS, A. D.. 2ª Escola de Inverno de Educação Matemática - EIEMAT. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>SANTOS, A. D.. 4º Ciclo de Palestras da Pós-Graduação. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>SANTOS, A. D.. 5º Ciclo de Palestras da Pós-Graduação. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>SANTOS, A. D.. 6º Ciclo de Palestras da Pós-Graduação. 2016. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>SANTOS, A. D.. II Escola de Inverno de Educação Matemática de Santa Maria. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>SANTOS, A. D.. Universitar - O Desafio da Qualidade de Vida. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>SILVA, O. D.. Escola de Inverno de Matemática Aplicada. 2009. (Outro).. <b></b>. 0. </td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:22:08<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

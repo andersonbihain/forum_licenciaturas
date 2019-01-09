@@ -1,0 +1,225 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Itaqui</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Itaqui</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Trabalhos completos publicados em anais de congressos'}, 
+series: [{data: [[2016,
+18],
+[2017,
+14],
+[2018,
+4]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Trabalhos completos publicados em anais de congressos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 36<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CARPES, P.P.G; BISOGNIN, E.. <b>INTERPRETANDO OS NÚMEROS RACIONAIS: UMA PROPOSTA DE COMPREENSÃO COM PROFESSORES DE MATEMÁTICA</b>. Em: <font color=#330066>Simpósio de Ensino</font>, v. 1, p. 1-10, 2018.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=INTERPRETANDO+OS+NÚMEROS+RACIONAIS:+UMA+PROPOSTA+DE+COMPREENSÃO+COM+PROFESSORES+DE+MATEMÁTICA&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=INTERPRETANDO+OS+NÚMEROS+RACIONAIS:+UMA+PROPOSTA+DE+COMPREENSÃO+COM+PROFESSORES+DE+MATEMÁTICA">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=INTERPRETANDO+OS+NÚMEROS+RACIONAIS:+UMA+PROPOSTA+DE+COMPREENSÃO+COM+PROFESSORES+DE+MATEMÁTICA">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CARPES, P.P.G; PIGATTO, A. G. S. ; BISOGNIN, E.. <b>Mapeamento de pesquisas sobre o enfoque ontosemiótico: implicações e contribuições</b>. Em: <font color=#330066>VII Jornada da Educação Matemática</font>, 2018.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Mapeamento+de+pesquisas+sobre+o+enfoque+ontosemiótico:+implicações+e+contribuições&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Mapeamento+de+pesquisas+sobre+o+enfoque+ontosemiótico:+implicações+e+contribuições">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Mapeamento+de+pesquisas+sobre+o+enfoque+ontosemiótico:+implicações+e+contribuições">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CARPES, P.P.G; SANTOS, G. C.. <b>UMA PROPOSTA PARA A COMPREENSÃO DA FUNÇÃO AFIM A PARTIR DA TEORIA DOS REGISTROS DE REPRESENTAÇÃO SEMIÓTICA</b>. Em: <font color=#330066>VII JORNADA NACIONAL DA EDUCAÇÃO MATEMÁTICA</font>, 2018.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=UMA+PROPOSTA+PARA+A+COMPREENSÃO+DA+FUNÇÃO+AFIM+A+PARTIR+DA+TEORIA+DOS+REGISTROS+DE+REPRESENTAÇÃO+SEMIÓTICA&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=UMA+PROPOSTA+PARA+A+COMPREENSÃO+DA+FUNÇÃO+AFIM+A+PARTIR+DA+TEORIA+DOS+REGISTROS+DE+REPRESENTAÇÃO+SEMIÓTICA">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=UMA+PROPOSTA+PARA+A+COMPREENSÃO+DA+FUNÇÃO+AFIM+A+PARTIR+DA+TEORIA+DOS+REGISTROS+DE+REPRESENTAÇÃO+SEMIÓTICA">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ROMIO, L. C.; ZIMMER, T. ; ROBERTI, D. R. ; BULIGON, L.. <b>Modelo Empírico para Estimativa da Condutividade Térmica em Função do Conteúdo de Água no Solo</b>. Em: <font color=#330066>8. MCSul e VIII SEMENGO</font>, v. 1, p. 1620-1628, 2018.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Modelo+Empírico+para+Estimativa+da+Condutividade+Térmica+em+Função+do+Conteúdo+de+Água+no+Solo&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Modelo+Empírico+para+Estimativa+da+Condutividade+Térmica+em+Função+do+Conteúdo+de+Água+no+Solo">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Modelo+Empírico+para+Estimativa+da+Condutividade+Térmica+em+Função+do+Conteúdo+de+Água+no+Solo">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CARPES, P.P.G; ALVES, M. A.. <b>EPISTEMOLOGIA HEURISTICA, ENSINO DE MATEMATICA E A CONSTRUÇÃO AXIOMÁTICA DOS NÚMEROS NATURAIS</b>. Em: <font color=#330066>Simpósio de Ensino</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=EPISTEMOLOGIA+HEURISTICA,+ENSINO+DE+MATEMATICA+E+A+CONSTRUÇÃO+AXIOMÁTICA+DOS+NÚMEROS+NATURAIS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=EPISTEMOLOGIA+HEURISTICA,+ENSINO+DE+MATEMATICA+E+A+CONSTRUÇÃO+AXIOMÁTICA+DOS+NÚMEROS+NATURAIS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=EPISTEMOLOGIA+HEURISTICA,+ENSINO+DE+MATEMATICA+E+A+CONSTRUÇÃO+AXIOMÁTICA+DOS+NÚMEROS+NATURAIS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CARPES, P.P.G; BISOGNIN, E. ; PIGATTO, A. G. S.. <b>MAPEAMENTO DE PESQUISAS SOBRE NÚMEROS RACIONAIS: ANÁLISE DAS ABORDAGENS E TENDÊNCIAS EM TESES DE DOUTORADO</b>. Em: <font color=#330066>Simpósio de Ensino</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=MAPEAMENTO+DE+PESQUISAS+SOBRE+NÚMEROS+RACIONAIS:+ANÁLISE+DAS+ABORDAGENS+E+TENDÊNCIAS+EM+TESES+DE+DOUTORADO&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=MAPEAMENTO+DE+PESQUISAS+SOBRE+NÚMEROS+RACIONAIS:+ANÁLISE+DAS+ABORDAGENS+E+TENDÊNCIAS+EM+TESES+DE+DOUTORADO">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=MAPEAMENTO+DE+PESQUISAS+SOBRE+NÚMEROS+RACIONAIS:+ANÁLISE+DAS+ABORDAGENS+E+TENDÊNCIAS+EM+TESES+DE+DOUTORADO">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CERETA, A. S. ; FERNER, D. L. ; CARPES, P.P.G. <b>EXPLORAÇÃO DAS RELAÇÕES TRIGONOMÉTRICAS SOB A ÓTICA DA TEORIA DOS CAMPOS CONCEITUAIS</b>. Em: <font color=#330066>Congresso Internacional de Ensino de Matemática</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=EXPLORAÇÃO+DAS+RELAÇÕES+TRIGONOMÉTRICAS+SOB+A+ÓTICA+DA+TEORIA+DOS+CAMPOS+CONCEITUAIS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=EXPLORAÇÃO+DAS+RELAÇÕES+TRIGONOMÉTRICAS+SOB+A+ÓTICA+DA+TEORIA+DOS+CAMPOS+CONCEITUAIS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=EXPLORAÇÃO+DAS+RELAÇÕES+TRIGONOMÉTRICAS+SOB+A+ÓTICA+DA+TEORIA+DOS+CAMPOS+CONCEITUAIS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FERNER, D. L. ; CERETA, A. S. ; CARPES, P.P.G. <b>EXPLORAÇÃO DAS INTERPRETAÇÕES DOS NÚMEROS RACIONAIS POR MEIO DO FRAC-SOMA 235: REFLEXÕES PERANTE A PRÁXIS DE UMA OFICINA</b>. Em: <font color=#330066>Congresso Internacional de Ensino de Matemática</font>, p. http://www.conf, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=EXPLORAÇÃO+DAS+INTERPRETAÇÕES+DOS+NÚMEROS+RACIONAIS+POR+MEIO+DO+FRAC-SOMA+235:+REFLEXÕES+PERANTE+A+PRÁXIS+DE+UMA+OFICINA&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=EXPLORAÇÃO+DAS+INTERPRETAÇÕES+DOS+NÚMEROS+RACIONAIS+POR+MEIO+DO+FRAC-SOMA+235:+REFLEXÕES+PERANTE+A+PRÁXIS+DE+UMA+OFICINA">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=EXPLORAÇÃO+DAS+INTERPRETAÇÕES+DOS+NÚMEROS+RACIONAIS+POR+MEIO+DO+FRAC-SOMA+235:+REFLEXÕES+PERANTE+A+PRÁXIS+DE+UMA+OFICINA">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>LEÃO, A. S. G.; ALMEIDA, M. G. S. ; LEAO, A. P. F.. <b>DO ARROZ AO FEIJÃO: OS EFEITOS ECONÔMICOS DA CESTA BÁSICA NA ECONOMIA ITAQUIENSE1</b>. Em: <font color=#330066>IV Seminário Internacional de Ciências Sociais - Ciência Política - Buscando o Sul</font>, v. I, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=DO+ARROZ+AO+FEIJÃO:+OS+EFEITOS+ECONÔMICOS+DA+CESTA+BÁSICA+NA+ECONOMIA+ITAQUIENSE1&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=DO+ARROZ+AO+FEIJÃO:+OS+EFEITOS+ECONÔMICOS+DA+CESTA+BÁSICA+NA+ECONOMIA+ITAQUIENSE1">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=DO+ARROZ+AO+FEIJÃO:+OS+EFEITOS+ECONÔMICOS+DA+CESTA+BÁSICA+NA+ECONOMIA+ITAQUIENSE1">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>LEÃO, A. S. G.; CERETA, A. S.. <b>A aprendizagem significativa num contexto matemático: estudos sobre o conceito de área</b>. Em: <font color=#330066>I Encontro Regional de Ensino de Ciências</font>, v. I, p. 4-615, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+aprendizagem+significativa+num+contexto+matemático:+estudos+sobre+o+conceito+de+área&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+aprendizagem+significativa+num+contexto+matemático:+estudos+sobre+o+conceito+de+área">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+aprendizagem+significativa+num+contexto+matemático:+estudos+sobre+o+conceito+de+área">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>LEÃO, A. S. G.; ESPINDOLA, G. M. ; DALCIN, M. M. ; LEON, F. A.. <b>A Resolução de Problemas como proposta metodológica para o ensino de trigonometria no triângulo retângulo</b>. Em: <font color=#330066>I Encontro Regional de Ensino de Ciências</font>, v. I, p. 4-615, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+Resolução+de+Problemas+como+proposta+metodológica+para+o+ensino+de+trigonometria+no+triângulo+retângulo&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+Resolução+de+Problemas+como+proposta+metodológica+para+o+ensino+de+trigonometria+no+triângulo+retângulo">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+Resolução+de+Problemas+como+proposta+metodológica+para+o+ensino+de+trigonometria+no+triângulo+retângulo">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>LUNARDI, M. M. ; ROMIO, L. C.. <b>Potenciação: Análise de Livros Didáticos dos Anos Finais do Ensino Fundamental e 1. Ano do Ensino Médio</b>. Em: <font color=#330066>VII Congresso Internacional em Ensino de Matemática - CIEM</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Potenciação:+Análise+de+Livros+Didáticos+dos+Anos+Finais+do+Ensino+Fundamental+e+1.+Ano+do+Ensino+Médio&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Potenciação:+Análise+de+Livros+Didáticos+dos+Anos+Finais+do+Ensino+Fundamental+e+1.+Ano+do+Ensino+Médio">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Potenciação:+Análise+de+Livros+Didáticos+dos+Anos+Finais+do+Ensino+Fundamental+e+1.+Ano+do+Ensino+Médio">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>RIOS, D. M. ; ROMIO, L. C.. <b>Estudo do Conceito de Taxa de Variação: Análise de Livros Didáticos do Ensino Médio</b>. Em: <font color=#330066>VII Congresso Internacional em Ensino de Matemática - CIEM</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Estudo+do+Conceito+de+Taxa+de+Variação:+Análise+de+Livros+Didáticos+do+Ensino+Médio&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Estudo+do+Conceito+de+Taxa+de+Variação:+Análise+de+Livros+Didáticos+do+Ensino+Médio">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Estudo+do+Conceito+de+Taxa+de+Variação:+Análise+de+Livros+Didáticos+do+Ensino+Médio">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>ROMIO, L. C.; ZIMMER, T. ; ROBERTI, D. R. ; BULIGON, L.. <b>Nova Abordagem para a Estimativa do Fluxo de Calor no Solo para o Bioma Pampa</b>. Em: <font color=#330066>X Workshop Brasileiro de Micrometeorologia</font>, v. 0, p. 0-0, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Nova+Abordagem+para+a+Estimativa+do+Fluxo+de+Calor+no+Solo+para+o+Bioma+Pampa&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Nova+Abordagem+para+a+Estimativa+do+Fluxo+de+Calor+no+Solo+para+o+Bioma+Pampa">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Nova+Abordagem+para+a+Estimativa+do+Fluxo+de+Calor+no+Solo+para+o+Bioma+Pampa">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>SILVA, J. G ; MAGGIO, D.P ; NEHRING, C. M.. <b>A Argumentação na Abordagem do Pensamento Funcional no Ensino Médio: Uma análise de atividades presentes em um livro didático de matemática</b>. Em: <font color=#330066>Congresso Internacional de Ensino da Matemática</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+Argumentação+na+Abordagem+do+Pensamento+Funcional+no+Ensino+Médio:+Uma+análise+de+atividades+presentes+em+um+livro+didático+de+matemática&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+Argumentação+na+Abordagem+do+Pensamento+Funcional+no+Ensino+Médio:+Uma+análise+de+atividades+presentes+em+um+livro+didático+de+matemática">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+Argumentação+na+Abordagem+do+Pensamento+Funcional+no+Ensino+Médio:+Uma+análise+de+atividades+presentes+em+um+livro+didático+de+matemática">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>STIVANIN, V. P. ; SOARES, M. A. S. ; ROMIO, L. C.. <b>Diferentes Interpretações do Número Racional: Uma Análise de Livros Didáticos</b>. Em: <font color=#330066>VII Congresso Internacional em Ensino de Matemática - CIEM</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Diferentes+Interpretações+do+Número+Racional:+Uma+Análise+de+Livros+Didáticos&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Diferentes+Interpretações+do+Número+Racional:+Uma+Análise+de+Livros+Didáticos">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Diferentes+Interpretações+do+Número+Racional:+Uma+Análise+de+Livros+Didáticos">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>TRINDADE, D. S. ; SANTOS, P. A. ; CARPES, P.P.G. <b>A ABORDAGEM DO CONCEITO DE NÚMEROS RACIONAIS: EXPLORANDO O SOFTWARE JFRACTIONLAB</b>. Em: <font color=#330066>Congresso Internacional de Ensino de Matemática</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+ABORDAGEM+DO+CONCEITO+DE+NÚMEROS+RACIONAIS:+EXPLORANDO+O+SOFTWARE+JFRACTIONLAB&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+ABORDAGEM+DO+CONCEITO+DE+NÚMEROS+RACIONAIS:+EXPLORANDO+O+SOFTWARE+JFRACTIONLAB">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+ABORDAGEM+DO+CONCEITO+DE+NÚMEROS+RACIONAIS:+EXPLORANDO+O+SOFTWARE+JFRACTIONLAB">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>ZIMMER, T. ; SOUZA, V. A. ; ROMIO, L. C. ; BULIGON, L. ; ROBERTI, D. R. ; MOREIRA, V. S.. <b>Estudo da Condutividade Térmica do Solo em Relação ao Teor de Umidade no Solo em uma Área de Pastagem no Bioma Pampa</b>. Em: <font color=#330066>X Workshop Brasileiro de Micrometeorologia</font>, v. 0, p. 0-0, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Estudo+da+Condutividade+Térmica+do+Solo+em+Relação+ao+Teor+de+Umidade+no+Solo+em+uma+Área+de+Pastagem+no+Bioma+Pampa&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Estudo+da+Condutividade+Térmica+do+Solo+em+Relação+ao+Teor+de+Umidade+no+Solo+em+uma+Área+de+Pastagem+no+Bioma+Pampa">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Estudo+da+Condutividade+Térmica+do+Solo+em+Relação+ao+Teor+de+Umidade+no+Solo+em+uma+Área+de+Pastagem+no+Bioma+Pampa">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALVES, A. J. L. ; LIMA, A. B. ; LOVATO, C. S.. <b>Produtos culturais destinados ao público feminino e à natureza feminina: análise da ação do discurso</b>. Em: <font color=#330066>8º Salão Internacional de Ensino</font>, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Produtos+culturais+destinados+ao+público+feminino+e+à+natureza+feminina:+análise+da+ação+do+discurso&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Produtos+culturais+destinados+ao+público+feminino+e+à+natureza+feminina:+análise+da+ação+do+discurso">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Produtos+culturais+destinados+ao+público+feminino+e+à+natureza+feminina:+análise+da+ação+do+discurso">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BRAGANCA, G. M. ; CERETA, A. S. ; KEHLER, G. S.. <b>Google Drive como Ferramenta Pedagógica: uma proposta colaborativa no âmbito do Pibid</b>. Em: <font color=#330066>V Escola de Inverno de Educação Matemática 3º Encontro Nacional PIBID-MATEMÁTICA</font>, p. 1-8, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Google+Drive+como+Ferramenta+Pedagógica:+uma+proposta+colaborativa+no+âmbito+do+Pibid&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Google+Drive+como+Ferramenta+Pedagógica:+uma+proposta+colaborativa+no+âmbito+do+Pibid">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Google+Drive+como+Ferramenta+Pedagógica:+uma+proposta+colaborativa+no+âmbito+do+Pibid">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CAMARGO, M. ; LOVATO, C. S.. <b>UNIESCOLA: uma proposta de integração entre universidade e escola</b>. Em: <font color=#330066>Salão Internacional de Ensino</font>, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=UNIESCOLA:+uma+proposta+de+integração+entre+universidade+e+escola&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=UNIESCOLA:+uma+proposta+de+integração+entre+universidade+e+escola">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=UNIESCOLA:+uma+proposta+de+integração+entre+universidade+e+escola">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CERETA, A. S. ; ROMIO, L. C. ; MARIANI, R. C. P.. <b>Formação Matemática de Professores Polivalentes: Uma Reflexão acerca de Produções Brasileiras</b>. Em: <font color=#330066>XII Encontro Nacional de Educação Matemática - XII ENEM</font>, v. 0, p. 0-0, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Formação+Matemática+de+Professores+Polivalentes:+Uma+Reflexão+acerca+de+Produções+Brasileiras&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Formação+Matemática+de+Professores+Polivalentes:+Uma+Reflexão+acerca+de+Produções+Brasileiras">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Formação+Matemática+de+Professores+Polivalentes:+Uma+Reflexão+acerca+de+Produções+Brasileiras">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>DIAS, N. C. ; ALDERETE, A. C. ; SILVEIRA, K. B. V. ; DELATORRE, L. G.. <b>Mortes Provocadas por Aids: uma Análise Tendencial em Âmbito Brasileiro via Mínimos Quadrados</b>. Em: <font color=#330066>XXII Encontro Regional de Estudantes de Matemática do Sul</font>, v. 1, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Mortes+Provocadas+por+Aids:+uma+Análise+Tendencial+em+Âmbito+Brasileiro+via+Mínimos+Quadrados&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Mortes+Provocadas+por+Aids:+uma+Análise+Tendencial+em+Âmbito+Brasileiro+via+Mínimos+Quadrados">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Mortes+Provocadas+por+Aids:+uma+Análise+Tendencial+em+Âmbito+Brasileiro+via+Mínimos+Quadrados">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>DICETTI, T. S. ; CERETA, A. S. ; ROMIO, L. C. ; MARIANI, R. C. P.. <b>Formação de Professores Polivalentes: Uma Pesquisa acerca do Conhecimento Matemático</b>. Em: <font color=#330066>XII Encontro Nacional de Educação Matemática - XII ENEM</font>, v. 0, p. 0-0, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Formação+de+Professores+Polivalentes:+Uma+Pesquisa+acerca+do+Conhecimento+Matemático&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Formação+de+Professores+Polivalentes:+Uma+Pesquisa+acerca+do+Conhecimento+Matemático">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Formação+de+Professores+Polivalentes:+Uma+Pesquisa+acerca+do+Conhecimento+Matemático">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>FERNER, D. L. ; ROMIO, L. C. ; SOARES, M. A. S.. <b>Geometria Espacial: Mapeamento das Produções Brasileiras relacionadas ao Pensamento Geométrico</b>. Em: <font color=#330066>VI Jornada Nacional de Educação Matemática - JEM e XIX Jornada Regional de Educação Matemática</font>, v. 0, p. 0-0, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Geometria+Espacial:+Mapeamento+das+Produções+Brasileiras+relacionadas+ao+Pensamento+Geométrico&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Geometria+Espacial:+Mapeamento+das+Produções+Brasileiras+relacionadas+ao+Pensamento+Geométrico">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Geometria+Espacial:+Mapeamento+das+Produções+Brasileiras+relacionadas+ao+Pensamento+Geométrico">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>FERNER, D. L. ; ROMIO, L. C. ; SOARES, M. A. S. ; MARIANI, R. C. P.. <b>Geometria Espacial: Análise de uma Coleção de Livros Didáticos do Ensino Médio</b>. Em: <font color=#330066>XII Encontro Nacional de Educação Matemática - XII ENEM</font>, v. 0, p. 0-0, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Geometria+Espacial:+Análise+de+uma+Coleção+de+Livros+Didáticos+do+Ensino+Médio&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Geometria+Espacial:+Análise+de+uma+Coleção+de+Livros+Didáticos+do+Ensino+Médio">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Geometria+Espacial:+Análise+de+uma+Coleção+de+Livros+Didáticos+do+Ensino+Médio">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>LIMA, A. B. ; ALVES, A. J. L. ; LOVATO, C. S.. <b>Representações de gêneros sociais: análise da imagem em exemplares da revista Jornal da Mulher</b>. Em: <font color=#330066>8 º Salão Internacional de Ensino</font>, v. 8, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Representações+de+gêneros+sociais:+análise+da+imagem+em+exemplares+da+revista+Jornal+da+Mulher&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Representações+de+gêneros+sociais:+análise+da+imagem+em+exemplares+da+revista+Jornal+da+Mulher">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Representações+de+gêneros+sociais:+análise+da+imagem+em+exemplares+da+revista+Jornal+da+Mulher">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>LISKA, G. R.; HUMADA, G. G. ; CIRILLO, M. A. ; MENEZES, F. S. ; BEIJO, Luiz Alberto. <b>Aprimoramento de Intervalo de Confiança para Razão de Chances em Experimentos de Mistura por meio do Modelo de Regressão Simplex</b>. Em: <font color=#330066>22º SINAPE</font>, v. 1, p. 1-23, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Aprimoramento+de+Intervalo+de+Confiança+para+Razão+de+Chances+em+Experimentos+de+Mistura+por+meio+do+Modelo+de+Regressão+Simplex&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Aprimoramento+de+Intervalo+de+Confiança+para+Razão+de+Chances+em+Experimentos+de+Mistura+por+meio+do+Modelo+de+Regressão+Simplex">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Aprimoramento+de+Intervalo+de+Confiança+para+Razão+de+Chances+em+Experimentos+de+Mistura+por+meio+do+Modelo+de+Regressão+Simplex">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>MAGGIO, D. P.; NEHRING, C. M.. <b>Mapeamento de Pesquisas que Utilizam o Referencial dos Registros de Representação Semiótica - RRS: A produção em periódicos brasileiros</b>. Em: <font color=#330066>XII ENEM - Encontro Nacional de Educação Matemática</font>, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Mapeamento+de+Pesquisas+que+Utilizam+o+Referencial+dos+Registros+de+Representação+Semiótica+-+RRS:+A+produção+em+periódicos+brasileiros&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Mapeamento+de+Pesquisas+que+Utilizam+o+Referencial+dos+Registros+de+Representação+Semiótica+-+RRS:+A+produção+em+periódicos+brasileiros">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Mapeamento+de+Pesquisas+que+Utilizam+o+Referencial+dos+Registros+de+Representação+Semiótica+-+RRS:+A+produção+em+periódicos+brasileiros">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>OGASSAWARA, J. F. ; KOLLAND JR, M. ; ROMIO, L. C. ; LOPES, A. B. ; SILVA, R. M.. <b>Elaboração de Ferramenta para Realização do Cadastro Técnico Multifinalitário</b>. Em: <font color=#330066>12. Congresso de Cadastro Técnico Multifinalitário e Gestão Territorial - COBRAC</font>, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Elaboração+de+Ferramenta+para+Realização+do+Cadastro+Técnico+Multifinalitário&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Elaboração+de+Ferramenta+para+Realização+do+Cadastro+Técnico+Multifinalitário">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Elaboração+de+Ferramenta+para+Realização+do+Cadastro+Técnico+Multifinalitário">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>REUSE, J. S. ; HAJAR, E. S. A. ; SILVEIRA, K. B. V.. <b>Equações Diferenciais e o Modelo Matemático do Número de Acadêmicos Evadidos no Curso de Agronomia</b>. Em: <font color=#330066>XXII Encontro Regional de Estudantes de Matemática do Sul</font>, v. 1, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Equações+Diferenciais+e+o+Modelo+Matemático+do+Número+de+Acadêmicos+Evadidos+no+Curso+de+Agronomia&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Equações+Diferenciais+e+o+Modelo+Matemático+do+Número+de+Acadêmicos+Evadidos+no+Curso+de+Agronomia">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Equações+Diferenciais+e+o+Modelo+Matemático+do+Número+de+Acadêmicos+Evadidos+no+Curso+de+Agronomia">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>REUSE, J. S. ; KEHLER, G. S.. <b>Um Bom Professor de Matemática: o que pensam e narram alguns estudantes do ensino médio?</b>. Em: <font color=#330066>V Escola de Inverno de Educação Matemática 3º Encontro Nacional PIBID-MATEMÁTICA</font>, p. 1-7, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Um+Bom+Professor+de+Matemática:+o+que+pensam+e+narram+alguns+estudantes+do+ensino+médio?&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Um+Bom+Professor+de+Matemática:+o+que+pensam+e+narram+alguns+estudantes+do+ensino+médio?">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Um+Bom+Professor+de+Matemática:+o+que+pensam+e+narram+alguns+estudantes+do+ensino+médio?">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>ROMIO, L. C.; ROBERTI, D. R.. <b>Estimativa do Saldo de Radiação utilizando Identificação de Sistemas</b>. Em: <font color=#330066>7. MCSul - Conferência Sul em Modelagem Computacional</font>, p. 361-367, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Estimativa+do+Saldo+de+Radiação+utilizando+Identificação+de+Sistemas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Estimativa+do+Saldo+de+Radiação+utilizando+Identificação+de+Sistemas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Estimativa+do+Saldo+de+Radiação+utilizando+Identificação+de+Sistemas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>SILVA, J. G ; MAGGIO, D. P. ; NEHRING, C. M.. <b>Argumentação nas Pesquisas Brasileiras em Educação Matemática: Um olhar para os referenciais teóricos</b>. Em: <font color=#330066>VI Jornada Nacional de Educação Matemática e XIX Jornada Regional de Educação Matemática</font>, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Argumentação+nas+Pesquisas+Brasileiras+em+Educação+Matemática:+Um+olhar+para+os+referenciais+teóricos&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Argumentação+nas+Pesquisas+Brasileiras+em+Educação+Matemática:+Um+olhar+para+os+referenciais+teóricos">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Argumentação+nas+Pesquisas+Brasileiras+em+Educação+Matemática:+Um+olhar+para+os+referenciais+teóricos">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>SILVA, J. G. ; MINHOS, M. R. ; SOARES, M. A. S. ; ROMIO, L. C.. <b>O Conceito de Função Exponencial e Logarítmica nas Pesquisas em Educação Matemática: Um Olhar para o Ensino Médio Regular</b>. Em: <font color=#330066>VI Jornada Nacional de Educação Matemática - JEM e XIX Jornada Regional de Educação Matemática</font>, v. 0, p. 0-0, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+Conceito+de+Função+Exponencial+e+Logarítmica+nas+Pesquisas+em+Educação+Matemática:+Um+Olhar+para+o+Ensino+Médio+Regular&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+Conceito+de+Função+Exponencial+e+Logarítmica+nas+Pesquisas+em+Educação+Matemática:+Um+Olhar+para+o+Ensino+Médio+Regular">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+Conceito+de+Função+Exponencial+e+Logarítmica+nas+Pesquisas+em+Educação+Matemática:+Um+Olhar+para+o+Ensino+Médio+Regular">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>STIVANIN, V. P. ; SOARES, M. A. S. ; ROMIO, L. C.. <b>Números Racionais: Um Mapeamento em Revistas Eletrônicas de Educação Matemática</b>. Em: <font color=#330066>VI Jornada Nacional de Educação Matemática - JEM e XIX Jornada Regional de Educação Matemática</font>, v. 0, p. 0-0, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Números+Racionais:+Um+Mapeamento+em+Revistas+Eletrônicas+de+Educação+Matemática&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Números+Racionais:+Um+Mapeamento+em+Revistas+Eletrônicas+de+Educação+Matemática">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Números+Racionais:+Um+Mapeamento+em+Revistas+Eletrônicas+de+Educação+Matemática">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:22:08<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

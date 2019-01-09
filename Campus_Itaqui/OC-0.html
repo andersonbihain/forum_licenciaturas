@@ -1,0 +1,243 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Itaqui</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Itaqui</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de orientações concluídas'}, 
+series: [{data: [[2016,
+21],
+[2017,
+15],
+[2018,
+9]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de orientações concluídas</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 45<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alesandra Tedy Ximendes. <b>Modelos Matemáticos Discretos para Dinâmica Populacional com Efeito Allee e Dispersão</b>. (Aperfeiçoamento/Especialização em Ciências Exatas e Tecnologia) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4030189248596755">Elisa Regina Cara</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Caroline de Andrade Jaeger. <b>A Gamificação como aliada à Gestão Educacional</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Jessica Paula Aparecida Costa Fonseca. <b>Composição centesimal, compostos bioativos e modelagem da curva de desidratação para perda de massa de Viola x wittrockiana</b>. (Graduação em Ciência e Tecnologia de Alimentos) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2217949943647601">Gilberto Rodrigues Liska</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Luciana Guilhermano da Silva. <b>Políticas, Currículo e Formação Docente: reconhecimento pela interculturalidade</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Micheline Krüger Neumann. <b>Escola do século XXI: entre desafios e possibilidades</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Naiane Fernanda Ribas Rocha. <b>Um Modelo a Diferenças Integral para o Crescimento e Propagação do Arroz Branco e Arroz Vermelho (Oryza sativa l.)</b>. (Aperfeiçoamento/Especialização em Ciências Exatas e Tecnologia) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4030189248596755">Elisa Regina Cara</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Patrícia Silvestre de Vargas. <b>Do Ensino Fundamental à Educação Infantil: avanços e desafios da gestão escolar</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Paulete Cykman Rodrigues Alves. <b>Conselho de Classe Participativo: um lugar pedagógico e democrático</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Rogério Schunemann. <b>A Interconectividade para o desenvolvimento de atividades nos cursos de graduação e pós-graduação no polo da Universidade Aberta em Novo Hamburgo/RS</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Anderson Tavares Soares. <b>Estudo Teórico e Aplicações de Cálculo Diferencial</b>. (Matemática-Licenciatura) - Universidade Federal do Pampa/Campus Itaqui, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7199536513974481">Karla Beatriz Vivian Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ANDRIELLE CAMARGO DE ALDERETE. <b>EQUAÇÕES DIFERENCIAIS PARCIAIS: UMA SOLUÇÃO EM SÉRIE PARA A EQUAÇÃO DO CALOR</b>. (Graduação em Matemática-Licenciatura) - Universidade Federal do Pampa/Campus Itaqui, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7199536513974481">Karla Beatriz Vivian Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Camila da Rosa Parigi. <b>Socioeducação e adolescente privado de liberdade: sobre des/articulações na gestão pedagógica</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Denis Rafael Silveira Ananias. <b>APLICAÇÃO DA TEORIA DE VALORES EXTREMOS AOS DADOS DE VELOCIDADE MÁXIMA DE VENTO EM URUGUAIANA, RS</b>. (Graduando em Bacharelado Interdisciplinar em Ciência e Tecnologia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2217949943647601">Gilberto Rodrigues Liska</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Graziela Carrazzoni dos Santos. <b>UMA PROPOSTA PARA A COMPREENSÃO DO OBJETO FUNÇÃO A PARTIR DA TEORIA DOS REGISTROS DE REPRESENTAÇÃO SEMIÓTICA</b>. (Graduação em Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7646090474831649">Patrícia Pujól Goulart Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Igor Silveira Elesbão. <b>TESTES DE ADERÊNCIA APLICADOS NO AJUSTAMENTO DA DISTRIBUIÇÃO NORMAL ÀS NOTAS MÉDIAS DE DUAS TURMAS DA DISCIPLICA DE ESTATÍSTICA E PROBABILIDADE</b>. (Engenharia de Agrimensura) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2217949943647601">Gilberto Rodrigues Liska</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Liceane Espenoce Saldanha. <b>ANÁLISE DE PRECIPITAÇÕES PLUVIOMÉTRICAS EXTREMAS NO MUNICÍPIO DE URUGUAIANA-RS</b>. (Graduando em Bacharelado Interdisciplinar em Ciência e Tecnologia) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2217949943647601">Gilberto Rodrigues Liska</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Maria Eugênia Figueiredo Piegas. <b>ANÁLISE ESTATÍSTICA DAS ATIVIDADES DE MONITORIA DE UMA COMPONENTE CURRICULAR DO CAMPUS ITAQUI, UNIPAMPA</b>. (Engenharia de Agrimensura) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2217949943647601">Gilberto Rodrigues Liska</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Mauricio de Moura Talhaferro. <b>Matemática Financeira: Uma Análise das Produções Brasileiras dos últimos Dez Anos</b>. (Graduação em Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8948008714853940">Leugim Corteze Romio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Pablo Francisco Benitez Baratto. <b>Matemática: Educação e Ciência discutidas nas escolas de Itaqui</b>. (Engenharia de Agrimensura) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3321947327740091">Radael de Souza Parolin</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Rafael Biasi Pata. <b>Modelo de Lotka-Volterra para a Dinâmica Predador-Presa</b>. (Graduação em Matemática Licenciatura) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4030189248596755">Elisa Regina Cara</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Roger Vinicius de Castro Ferreira. <b>TEORIA DE VALORES EXTREMOS APLICADA NA ANÁLISE DE EMPERATURA MÁXIMA EM URUGUAIANA, RS</b>. (Graduando em Engenharia de Agrimensura) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2217949943647601">Gilberto Rodrigues Liska</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Tiele Spode. <b>Políticas Públicas e a Educação Integral: uma análise relacionada aos anos iniciais do ensino fundamental</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Wagner da Chagas Lima. <b>Metodologia para ensino de área utilizando objetos manipuláveis</b>. (Graduação em Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4578163028362070">Alex Sandro Gomes Leão</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Wagner das Chagas Lima. <b>UMA PROPOSTA DE SEQUÊNCIA DIDÁTICA BASEADO NO DESENVOLVIMENTO DO PENSAMENTO GEOMÉTRICO SEGUNDO A TEORIA VAN HIELE</b>. (Graduação em Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4578163028362070">Alex Sandro Gomes Leão</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alcione Grillo Martins. <b>Estágio Curricular Supervisionado: movimentos de narrativas autobiográficas na (auto)formação do pedagogo</b>. (Graduação em Pedagogia) - Universidade Federal de Santa Maria, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ana Beatriz Alves de Lima. <b>REPRESENTAÇÕES DE GÊNEROS SOCIAIS: ANÁLISE DA IMAGEM EM EXEMPLARES DA REVISTA JORNAL DA MULHER</b>. (Graduando em Bacharelado Interdisciplinar em Ciência e Tecnologia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7562187381716677">Cristina dos Santos Lovato</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ana Julia Alves de Lima. <b>PRODUTOS CULTURAIS DESTINADOS AO PÚBLICO FEMININO E À NATUREZA FEMININA: ANÁLISE DA AÇÃO DO DISCURSO</b>. (Graduando em Bacharelado Interdisciplinar em Ciência e Tecnologia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7562187381716677">Cristina dos Santos Lovato</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Andrielle Camargo de Alderete. <b>INTEGRAÇÃO POR PARTES: RESOLUÇÃO DE INTEGRAIS IMPRÓPRIAS PARA A OBTENÇÃO DO DÉBITO CARDÍACO</b>. (Graduando em Matemática-Licenciatura) - Universidade Federal do Pampa/Campus Itaqui, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7199536513974481">Karla Beatriz Vivian Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Daiane Lanes. <b>Base Nacional Comum Curricular: movimentos na educação infantil e discursos de egressos do curso de Pedagogia</b>. (Graduação em Pedagogia) - Universidade Federal de Santa Maria, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Dargel Mercio Rios. <b>Estudo do Conceito de Taxa de Variação: Análise de Coleções de Livros Didáticos do Ensino Médio</b>. (Graduação em Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8948008714853940">Leugim Corteze Romio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Edson Solon Ayres Hajar. <b>REDUÇÃO DO CONSUMO DE ENERGIA NA UNIPAMPA: AQUECIMENTO DE ÁGUA NA SEDE DO CAMPUS ITAQUI</b>. (Graduando em Matemática-Licenciatura) - Universidade Federal do Pampa/Campus Itaqui, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7199536513974481">Karla Beatriz Vivian Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Edson Solon Ayres Hajar; Johann Silveira Reuse. <b>EQUAÇÕES DIFERENCIAIS: ESTUDO TEÓRICO, ESTABELECIMENTO DE RELAÇÕES E APLICAÇÃO</b>. (Graduando em Matemática-Licenciatura) - Universidade Federal do Pampa/Campus Itaqui, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7199536513974481">Karla Beatriz Vivian Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Franciele Aguirre de Leon. <b>Matemática: Educação e Ciência discutidas nas escolas de Itaqui</b>. (Matemática) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3321947327740091">Radael de Souza Parolin</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Jordane Fernandes Alves. <b>Gênero, escola e gestão: in/visibilidades em (form)ação</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Federal de Santa Maria, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Kaique Martins Keller. <b>Monitoria de Componentes Curriculares de Cálculo Diferencial e Integral</b>. (Engenharia de Agrimensura) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3321947327740091">Radael de Souza Parolin</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Luciana Guilhermano da Silva. <b>Diversidade e In/Exclusão: vozes e silêncios na formação do/a pedagogo/a</b>. (Graduação em Pedagogia) - Universidade Federal de Santa Maria, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Mariane da Rosa Minhos. <b>O Ensino dos Números Racionais nos Anos Finais do Ensino Fundamental: Uma Análise de Produções Brasileiras nos Últimos Dez Anos</b>. (Graduação em Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8948008714853940">Leugim Corteze Romio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Mayara Marques Lunardi. Potenciação: Análise de uma Coleção de Livros Didáticos de Matemática do Ensino Fundamental e do 1. <b>Ano do Ensino Médio</b>. (Graduação em Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8948008714853940">Leugim Corteze Romio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Natieli Carvalho Dias. <b>DERIVADA E DIFERENCIAL: INVESTIGAÇÃO TEÓRICA E APLICAÇÃO</b>. (Graduando em Matemática-Licenciatura) - Universidade Federal do Pampa/Campus Itaqui, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7199536513974481">Karla Beatriz Vivian Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Natieli Carvalho Dias. <b>MODELO DO CUSTO DA PRODUÇÃO DO LITRO DE LEITE</b>. (Graduando em Matemática-Licenciatura) - Universidade Federal do Pampa/Campus Itaqui, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7199536513974481">Karla Beatriz Vivian Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Pablo Francisco Benitez Baratto. <b>Estudo de Métodos de Inteligência Computacional para a Solução de Problemas e Otimização</b>. (Graduando em Engenharia de Agrimensura) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3321947327740091">Radael de Souza Parolin</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Rudi Artur Munieweg, Sidney F. de Arruda, Éricles Nunes Meus. <b>ESTRUTURA PARA APLICAÇÃO EM ROBÔ PARA PRODUÇÃO DE HORTALIÇAS SUSTENTÁVEL</b>. (Graduando em Matemática-Licenciatura) - Universidade Federal do Pampa/Campus Itaqui, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7199536513974481">Karla Beatriz Vivian Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Sidney F. de Arruda, Rudi Artur Munieweg, Éricles Nunes Meus. <b>UMA NOVA PERSPECTIVA PARA PRODUÇÃO DE HORTALIÇAS SUSTENTÁVEL: ROBÔ COM SENSORES PARA MEDIR VARIÁVEIS AMBIENTAIS</b>. (Graduando em Matemática-Licenciatura) - Universidade Federal do Pampa/Campus Itaqui, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7199536513974481">Karla Beatriz Vivian Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Sidney Ferreira de Arruda. <b>ACESSIBILIDADE E TECNOLOGIA ASSISTIVA: RELATO DE EXPERIÊNCIA DE UM ACADÊMICO PORTADOR DE PARALISIA CEREBRAL</b>. (Graduando em Matemática-Licenciatura) - Universidade Federal do Pampa/Campus Itaqui, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7199536513974481">Karla Beatriz Vivian Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Éricles Nunes Meus. <b>MONITORIA:ESTUDO E AMPLIAÇÃO DOS CONHECIMENTOS EM TEORIA ELEMENTAR DOS NÚMEROS</b>. (Matemática-Licenciatura) - Universidade Federal do Pampa/Campus Itaqui, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7199536513974481">Karla Beatriz Vivian Silveira</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:22:08<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

@@ -1,0 +1,275 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Itaqui</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Itaqui</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Apresentações de trabalho'}, 
+series: [{data: [[2016,
+23],
+[2017,
+19],
+[2018,
+19]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Apresentações de trabalho</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 61<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>DARÓS, ALISSON; CARA, E. R. ; GRACES, M. ; ALVES, R.. <b>R.; SANTOS, A. D. ; GRACES, M. J. ; RODRIGUES, R. A. . Editor de Textos LaTeX. 2018</b>. 2018. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CARA, E. R. <b>Desmistificando a Matemática: como ela está presente o tempo todo em nossa vida</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CARA, E. R.; SANTOS, A. D. ; RODRIGUES, R. A. ; GRACES, M. J. ; BRAGANCA, G. M.. <b>LaTeX: desvendando novas ferramentas para a edição e apresentação de textos científicos. 2018</b>. 2018. </td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CARPES, P.P.G; FLORES, M. <b>V. . Números racionais. 2018</b>. 2018. </td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>KEHLER, G. S.; LOPES, I. G. ; TRINDADE, G. M.. <b>Diversidade e Preconceito: Desafio para a Educação</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>KEHLER, G. S.; LOVATO, C. S. ; BATISTA, E. ; BERRO, S. ; QUEIROZ, R. ; ZANINE, G.. <b>Violência Contra Mulher</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>KEHLER, G. S.; QUADRADO, J. C. ; NUNES, L. L.. <b>Interlocução de abertura do II Seminário (Des)Fazendo Saberes na Fronteira</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>LEÃO, A. S. G.; AMARAL, D. M. V.. <b>ANÁLISE DO PERFIL ACADÊMICO DE INGRESSANTES DO CURSO DE MATEMÁTICA - LICENCIATURA</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>LEÃO, A. S. G.; MARQUES, C. S. ; CARPES, P. P. G.. <b>NÚMEROS RACIONAIS: DIFICULDADES DE APRENDIZAGEM APONTADAS PELO PROFESSOR</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>LEÃO, A. S. G.; MARQUES, C. S. ; CARPES, P. P. G.. <b>PROJETO DE EXTENSÃO: UMA POSSIBILIDADE PARA CONSTRUIR SABERES COM PROFESSORES</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>LEÃO, A. S. G.; PEREIRA, A. L. ; CARPES, C. Q.. <b>Modelagem Matemática: experimentando novas metodologias</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>LOVATO, C. S. <b>Representatividade feminina na ciência</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>NEHRING, C. M. ; BATTISTI, I. K. ; MAGGIO, D.P. <b>Discutindo a Teoria dos Registros de Representação, para além das atividades de Tratamento e Conversão (Mesa-Redonda)</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>SILVEIRA, K. B. V.; FRESINGHELI, P. M. L. ; RODRIGUES, L. B.. <b>Trigonometria: Estudo de suas Relações Fundamentais e Propriedades</b>. 2018. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>SILVEIRA, K. B. V.; FUCHS, J. S. ; ALDERETE, K. C. ; SANTOS, R. E. V.. <b>Integração de Funções Hiperbólicas</b>. 2018. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>SILVEIRA, K. B. V.; RODRIGUES, L. B. ; FRESINGHELI, P. M. L.. <b>Trigonometria: estudo de suas relações fundamentais e propriedades</b>. 2018. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>SOUZA, N.B. <b>?Soledad en su laberinto?: a construção de um discurso identitário no contexto do folclore argentino</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>SOUZA, N.B. <b>Apontamentos sobre o funcionamento do discurso de militância em Mercedes Sosa</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>SOUZA, N.B.; MIOTELLO, V.. <b>A estética do texto (auto)biográfico como transgrediência: um estudo dialógico sobre Mercedes Sosa</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANTUNES, A. C. F. <b>Acessibilidade em espaços públicos para surdos</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CARA, E. <b>R.; PATA, R. B. . Introdução ao Editor de Textos LaTex. 2017</b>. 2017. </td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CARA, E. R.; SILVA, O. D.. <b>Introdução à Teoria de Grafos por Meio de Aplicações</b>. 2017. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>LEÃO, A. S. G.; CARPES, P. P. G. ; MUZY, G. A. ; DIAS, K. R. M. S.. <b>Diferentes olhares para os números racionais em um curso de formação</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>LEÃO, A. S. G.; CARPES, P. P. G. ; MUZY, G. A. ; DIAS, K. R. M. S.. <b>Diferentes olhares para os números racionais em um curso de formação</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>LEÃO, A. S. G.; LIMA, W. C.. <b>9º Salão Internacional de Pesquisa, Ensino e Extensão</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>LEÃO, A. S. G.; MUZY, G. A.. <b>Do Arroz ao Feijão: os efeitos econômicos da Cesta Básica na economia da região</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>LEÃO, A. S. G.; MUZY, G. A. ; DIAS, K. R. M. S.. <b>PROFESSOR REFLEXIVO: NOVAS PERSPECTIVAS DE ENSINO NO AMBIENTE DE SALA DE AULA</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>LEÃO, A. S. G.; PESSANO, E. F. C.. <b>O paradoxo da formação inicial e continuada e a práxis docente</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>LUNARDI, M. M. ; ROMIO, L. C.. <b>Potenciação: Análise de Livros Didáticos dos Anos Finais do Ensino Fundamental e 1. Ano do Ensino Médio</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>PAROLIN, R. S. <b>Perspectivas do curso de Matemática - Licenciatura: Campus Itaqui</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>PAROLIN, R. S. <b>Campus Itaqui: Cursos e Perspectivas</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>PAROLIN, R. S.; BARATTO, P. F. B.. <b>Descobrindo a Calculadora Científica</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>RIOS, D. M. ; ROMIO, L. C.. <b>Estudo do Conceito de Taxa de Variação: Análise de Livros Didáticos do Ensino Médio</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>ROSA, Vera Terezinha Cortelini da. <b>Derivadas e suas Aplicações</b>. 2017. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>SILVEIRA, K. B. V.; SOARES, A. T. ; ALDERETE, A. C. ; SANTOS, L. F. ; GRACES, M. J. ; DIAS, N. C.. <b>LIMITES: Estudo Teórico e Aplicações</b>. 2017. Desenvolvimento de material didático ou instrucional - VI Semana Acadêmica da Matemática</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>SOARES, A. T. ; ALDERETE, A. C. ; SANTOS, L. F. ; GRACES, M. J. ; DIAS, N. C. ; SILVEIRA, K. B. V.. <b>LIMITES: Estudo Teórico e Aplicações</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>SOARES, A. T. ; ALDERETE, A. C. ; SANTOS, L. F. ; GRACES, M. J. ; DIAS, N. C. ; SILVEIRA, K. B. V.. <b>LIMITES: Estudo Teórico e Aplicações</b>. 2017. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>STIVANIN, V. P. ; SOARES, M. A. S. ; ROMIO, L. C.. <b>Diferentes Interpretações do Número Racional: Uma Análise de Livros Didáticos</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALDERETE, A. C. ; DIAS, N. C. ; HAJAR, E. S. A. ; MEUS, E. N. ; REUSE, J. S. ; SILVEIRA, K. B. V.. <b>DESENHO GEOMÉTRICO: o estudo de teorias geométricas por meio de problemas de construções</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ALDERETE, A. C. ; DIAS, N. C. ; SILVEIRA, K. B. V. ; DELATORRE, L. G.. <b>MORTES PROVOCADAS POR AIDS: UMA ANÁLISE TENDENCIAL EM ÂMBITO BRASILEIRO VIA MÍNIMOS QUADRADOS</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>ALDERETE, A. C. ; HAJAR, E. S. A. ; NUNES, E. ; REUSE, J. S. ; SILVEIRA, K. B. V. ; DIAS, N. C.. <b>Desenho Geométrico</b>. 2016. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ANTUNES, A. C. F. <b>A Importância da Libras na região do Pampa</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>ANTUNES, A. C. F. <b>Cultura Surda e Cidadania</b>. 2016. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>CARA, E. R.; SOARES, D. C.. <b>Introdução à Teoria de Grafos: Alguns problemas clássicos</b>. 2016. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>CARPES, P.P.G; CERETA, A. S. ; TRINDADE, D. S. ; FERNER, D. L. ; SANTOS, P. A. ; STIVANIN, V. P.. <b>Oficina de Construção de Jogos no GeoGebra</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>CERETA, A. S. ; FERNER, D. L. ; TRINDADE, D. S. ; SANTOS, P. A. ; CARPES, P.P.G. <b>Oficina: Explorando as interpretações dos números racionais por meio do software JFractionLab e do Frac-Soma 235</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Larico R. <b>Nanotecnologia: Os Semicondutores</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>LISKA, G. R.; HUMADA, G. G. ; CIRILLO, M. A. ; MENEZES, F. S. ; BEIJO, Luiz Alberto. <b>Aprimoramento de Intervalo de Confiança para Razão de Chances em Experimentos de Mistura por meio do Modelo de Regressão Simplex</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>MARTINS, M. A. R. ; HARTMANN, A. M. ; CARPES, P.P.G ; GARNERO, A. V. ; BIERHALZ, C. D. K. ; OLIVEIRA, C. P. ; DUTRA, C. M. ; PARIAGUA, E. R. M. ; ROMIO, L. C. ; BOESSIO, C. P. D.. <b>Relatório de Atividades 2016 do Programa Institucional de Bolsas de Iniciação à Docência</b>. 2016. Relatório de Atividades</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>NEHRING, C. M. ; REIS, A. Q. M. ; MAGGIO, D. P. ; BATTISTI, I. K.. <b>O processo de ensinar e de aprender matemática: alguns pressupostos e entendimentos (Painel Temático do GEEM)</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>PAROLIN, R. <b>S.; BARATTO, P. F. B. . MatLab</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>PAROLIN, R. S.; CARPES, P. P. G. ; MARTINS, V. E.. <b>Oficina Geometria Dinâmica: dependência entre grandezas geométricas</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>PAROLIN, R. S.; CARPES, P. P. G. ; MARTINS, V. E.. <b>Geometria Dinâmica: Dependência entre Grandezas Geométricas</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>R. Larico; L.V.C. Assali ; Justo, J. F.. <b>Estabilidade energética e propriedades magnéticas de impurezas em óxidos com estrutura perovskita em condições de alta pressão</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>REUSE, J. S. ; HAJAR, E. S. A. ; SILVEIRA, K. B. V.. <b>Equações Diferenciais e o Modelo Matemático do Número de Acadêmicos Evadidos no Curso de Agronomia</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>ROMIO, L. C.; ROBERTI, D. R.. <b>Estimativa do Saldo de Radiação utilizando Identificação de Sistemas</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>SILVEIRA, K. B. V.; ALDERETE, A. C. ; DIAS, N. C. ; MEUS, E. N. ; REUSE, J. S. ; HAJAR, E. S. A.. <b>DESENHO GEOMÉTRICO: o estudo de teorias geométricas por meio de problemas de construções</b>. 2016. Desenvolvimento de material didático ou instrucional - V Semana Acadêmica da Matemática</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>SOUZA, D. L. ; WINTERHALTER, D. F. ; COSTA, J. M. ; SARTURI, R. C.. <b>Educação Infantil e currículo: des/caminhos da base nacional comum curricular</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>SOUZA, N.B. <b>Quando cantar é ato ético, um estudo de algumas metacanções do cancioneiro folclórico de Soledad Pastorutti</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>SOUZA, N.B. <b>A heterociência de Bakhtin na leitura feita por Tatiana Bubnova</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>SOUZA, N.B. <b>A cidade letrada e as forças de resistência da periferia do poder: o cenário político e nós</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:22:08<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
