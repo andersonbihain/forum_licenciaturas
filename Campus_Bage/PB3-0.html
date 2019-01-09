@@ -1,0 +1,233 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Bage</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Bage</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Textos em jornais de notícias/revistas'}, 
+series: [{data: [[2016,
+7],
+[2017,
+4]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Textos em jornais de notícias/revistas</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 41<br>
+                    
+                    
+                    <div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CASSANA, M. F. <b>O que linguagem e discurso revelam sobre a percepção de sujeitos transexuais</b>. Nexo Jornal, 08 nov. 2017. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+que+linguagem+e+discurso+revelam+sobre+a+percepção+de+sujeitos+transexuais&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+que+linguagem+e+discurso+revelam+sobre+a+percepção+de+sujeitos+transexuais">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+que+linguagem+e+discurso+revelam+sobre+a+percepção+de+sujeitos+transexuais">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Marranghello, G F. <b>Under one dome: Planetário da Unipampa</b>. Planetarian, p. 49-53, 18 dez. 2017. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Under+one+dome:+Planetário+da+Unipampa&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Under+one+dome:+Planetário+da+Unipampa">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Under+one+dome:+Planetário+da+Unipampa">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MARRANGHELLO, G. F. <b>Apenas para ver estrelinhas</b>. Planetaria, http://planetarios.org.br/revi, p. 10-12, 20 mar. 2017. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Apenas+para+ver+estrelinhas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Apenas+para+ver+estrelinhas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Apenas+para+ver+estrelinhas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>VOSS, Dulce Mari da Silva. <b>Movimentos Sociais e Educação: articulações possíveis na contemporaneidade</b>. Boletim em Rede PROEXT/UNIPAMPA, porteiras.r.unipampa.edu.br, 15 ago. 2017. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Movimentos+Sociais+e+Educação:+articulações+possíveis+na+contemporaneidade&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Movimentos+Sociais+e+Educação:+articulações+possíveis+na+contemporaneidade">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Movimentos+Sociais+e+Educação:+articulações+possíveis+na+contemporaneidade">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>B. C., Antunes ; NOGUEZ, B. M. ; MACHADO, F. ; Lucchese, M.M. ; SANTOS, R. C. M.. <b>Trabalhando com Energia Renovável na Casa do Guri</b>. Revista Colabore: Astronomia Para Todos e a Construção do Saber, Bagé, p. 14-17, 01 set. 2016. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Trabalhando+com+Energia+Renovável+na+Casa+do+Guri&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Trabalhando+com+Energia+Renovável+na+Casa+do+Guri">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Trabalhando+com+Energia+Renovável+na+Casa+do+Guri">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BASTOS A. R. B; MAIA, L. D. ; TEIXEIRA, R.. <b>O CÉU NÃO É, DEFINITIVAMENTE, O LIMITE: O ENSINO DE ASTRONOMIA PARA ALUNOS COM DEFICIÊNCIA</b>. REVISTA COLABORE, BAGÉ, p. 19-21, 23 set. 2016. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+CÉU+NÃO+É,+DEFINITIVAMENTE,+O+LIMITE:+O+ENSINO+DE+ASTRONOMIA+PARA+ALUNOS+COM+DEFICIÊNCIA&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+CÉU+NÃO+É,+DEFINITIVAMENTE,+O+LIMITE:+O+ENSINO+DE+ASTRONOMIA+PARA+ALUNOS+COM+DEFICIÊNCIA">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+CÉU+NÃO+É,+DEFINITIVAMENTE,+O+LIMITE:+O+ENSINO+DE+ASTRONOMIA+PARA+ALUNOS+COM+DEFICIÊNCIA">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CAMARGOS, M. L.; BASTOS, N. S. ; Giovani, Fabiana ; SANDIM, R.. <b>Estudar com Bakhtin na Fronteira: alguns dizeres (im)pertinentes sobre o nosso cronotopo</b>. Revista Aleph, Rio de Janeiro, p. 166-178, 01 jun. 2016. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Estudar+com+Bakhtin+na+Fronteira:+alguns+dizeres+(im)pertinentes+sobre+o+nosso+cronotopo&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Estudar+com+Bakhtin+na+Fronteira:+alguns+dizeres+(im)pertinentes+sobre+o+nosso+cronotopo">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Estudar+com+Bakhtin+na+Fronteira:+alguns+dizeres+(im)pertinentes+sobre+o+nosso+cronotopo">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FAVERI, R. B. <b>Astronomia e Ficção Científica</b>. Colabore: Articulando Saberes, Universidade Federal do Pampa, p. 25-27, 13 out. 2016. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Astronomia+e+Ficção+Científica&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Astronomia+e+Ficção+Científica">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Astronomia+e+Ficção+Científica">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MARRANGHELLO, G. F.; HARTMANN, A. ; DORNELLES, C. ; Márcia M. Lucchese ; CARVALHO, S.. <b>Astronomia para todos e a construção do conhecimento</b>. Colabore, Bagé, p. 1-32, 20 set. 2016. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Astronomia+para+todos+e+a+construção+do+conhecimento&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Astronomia+para+todos+e+a+construção+do+conhecimento">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Astronomia+para+todos+e+a+construção+do+conhecimento">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>MOURA, L. ; LEITE, M. C.. <b>Tambor, canção e poesia com Mimo Ferreira e Richard Serraria</b>. Diálogos culturais, Bagé, p. 24-27, 18 jun. 2016. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Tambor,+canção+e+poesia+com+Mimo+Ferreira+e+Richard+Serraria&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Tambor,+canção+e+poesia+com+Mimo+Ferreira+e+Richard+Serraria">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Tambor,+canção+e+poesia+com+Mimo+Ferreira+e+Richard+Serraria">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>VOSS, Dulce Mari da Silva. <b>A UNIPAMPA no bojo das políticas neoliberais contemporâneas: pensar o contexto para projetar a luta em defesa da universidade pública</b>. JUNIPAMPA, p. 01-01, 25 maio 2016. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+UNIPAMPA+no+bojo+das+políticas+neoliberais+contemporâneas:+pensar+o+contexto+para+projetar+a+luta+em+defesa+da+universidade+pública&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+UNIPAMPA+no+bojo+das+políticas+neoliberais+contemporâneas:+pensar+o+contexto+para+projetar+a+luta+em+defesa+da+universidade+pública">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+UNIPAMPA+no+bojo+das+políticas+neoliberais+contemporâneas:+pensar+o+contexto+para+projetar+a+luta+em+defesa+da+universidade+pública">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BASTOS A. <b>R. B. Presente que não tem preço</b>. Diário Popular, Pelotas-Rs, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=R.+B.+Presente+que+não+tem+preço&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=R.+B.+Presente+que+não+tem+preço">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=R.+B.+Presente+que+não+tem+preço">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Daniela B. Pavani ; Marranghello, G F. <b>As cores das estrelas</b>. Folha do Sul, p. 12-12, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=As+cores+das+estrelas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=As+cores+das+estrelas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=As+cores+das+estrelas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>DORNELLES, C. <b>Book Review: Interchange Intro</b>. Aplisc Newsletter, Florianópolis, , v. 04, p. 08, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Book+Review:+Interchange+Intro&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Book+Review:+Interchange+Intro">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Book+Review:+Interchange+Intro">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>GUINDANI, E. <b>R.. Várzea Bela</b>. Folha da Semana, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=R..+Várzea+Bela&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=R..+Várzea+Bela">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=R..+Várzea+Bela">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>GUINDANI, E. R. <b>Sentido da Vida. ANAIS de N</b>. Senhora, São Paulo, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Sentido+da+Vida.+ANAIS+de+N&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Sentido+da+Vida.+ANAIS+de+N">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Sentido+da+Vida.+ANAIS+de+N">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>GUINDANI, E. R. <b>Haiti: um apelo profético</b>. Sem Fronteiras, São Paulo, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Haiti:+um+apelo+profético&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Haiti:+um+apelo+profético">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Haiti:+um+apelo+profético">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>GUINDANI, E. R. <b>Sobrevivência: prazer ou neuroze. ANAIS de N</b>. Senhora, São Paulo, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Sobrevivência:+prazer+ou+neuroze.+ANAIS+de+N&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Sobrevivência:+prazer+ou+neuroze.+ANAIS+de+N">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Sobrevivência:+prazer+ou+neuroze.+ANAIS+de+N">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>GUINDANI, E. R. <b>Educação e Sabedoria</b>. O Fato, Catanduvas-SC, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educação+e+Sabedoria&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educação+e+Sabedoria">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educação+e+Sabedoria">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>GUINDANI, E. R. <b>Política: arte de bem viver</b>. O Cruzeiro, Joaçaba-SC, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Política:+arte+de+bem+viver&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Política:+arte+de+bem+viver">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Política:+arte+de+bem+viver">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>GUINDANI, E. R. <b>Nossos políticos e nossa terra</b>. Folha da Semana, Catanduvas-SC, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Nossos+políticos+e+nossa+terra&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Nossos+políticos+e+nossa+terra">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Nossos+políticos+e+nossa+terra">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>GUINDANI, E. R. <b>As eleições e o fanatismo</b>. O Sol, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=As+eleições+e+o+fanatismo&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=As+eleições+e+o+fanatismo">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=As+eleições+e+o+fanatismo">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>GUINDANI, E. R. <b>Por uma esperança comprometida</b>. O Nascente Universitário, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Por+uma+esperança+comprometida&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Por+uma+esperança+comprometida">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Por+uma+esperança+comprometida">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>GUINDANI, E. R. <b>Partidos políticos: sigla de aluguel ou compromisso com a sociedade?</b>. Jornal Pauta, Joaçaba-SC, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Partidos+políticos:+sigla+de+aluguel+ou+compromisso+com+a+sociedade?&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Partidos+políticos:+sigla+de+aluguel+ou+compromisso+com+a+sociedade?">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Partidos+políticos:+sigla+de+aluguel+ou+compromisso+com+a+sociedade?">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>IRALA, Valesca Brasil. <b>Crônicas</b>. Bagé Agora, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Crônicas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Crônicas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Crônicas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>KAKUNO, E. M.; CUSATIS, C. <b>A three exit beams case from a single x-ray diffraction</b>. 2003 Activity Report - Brazilian Synchrotron Light Laboratory, Brazil, p. 91-92, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+three+exit+beams+case+from+a+single+x-ray+diffraction&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+three+exit+beams+case+from+a+single+x-ray+diffraction">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+three+exit+beams+case+from+a+single+x-ray+diffraction">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>KAKUNO, E. M.; PIETRASKI, P ; KHALID, S M ; MILLER, L. <b>A comparison of 120 element Si and 13 element Ge-detectors</b>. NSLS - Activity Report, BNL, Upton, NY - USA, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+comparison+of+120+element+Si+and+13+element+Ge-detectors&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+comparison+of+120+element+Si+and+13+element+Ge-detectors">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+comparison+of+120+element+Si+and+13+element+Ge-detectors">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>KHALID, S M ; KAKUNO, E. M. ; MILLER, L. <b>Use of passivated Implanted Planar Silicon (PIPS) detector for X-ray Absorption Spectroscopy (XAS)</b>. NSLS - Activity Report, BNL - Upton, NY - USA, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Use+of+passivated+Implanted+Planar+Silicon+(PIPS)+detector+for+X-ray+Absorption+Spectroscopy+(XAS)&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Use+of+passivated+Implanted+Planar+Silicon+(PIPS)+detector+for+X-ray+Absorption+Spectroscopy+(XAS)">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Use+of+passivated+Implanted+Planar+Silicon+(PIPS)+detector+for+X-ray+Absorption+Spectroscopy+(XAS)">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>MACHADO, Sátira P.; CHAVES, Leslie S.. <b>Boletim "Gênero e Raça no Mundo do Trabalho" - Nº 01</b>. Boletim "Gênero e Raça no Mundo do Trabalho" - Nº 01, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Boletim+"Gênero+e+Raça+no+Mundo+do+Trabalho"+-+Nº+01&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Boletim+"Gênero+e+Raça+no+Mundo+do+Trabalho"+-+Nº+01">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Boletim+"Gênero+e+Raça+no+Mundo+do+Trabalho"+-+Nº+01">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>MACHADO, Sátira P.; CHAVES, Leslie S.. <b>Boletim "Gênero e Raça no Mundo do Trabalho" - Nº 03</b>. Boletim "Gênero e Raça no Mundo do Trabalho" - Nº 03, Brasília, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Boletim+"Gênero+e+Raça+no+Mundo+do+Trabalho"+-+Nº+03&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Boletim+"Gênero+e+Raça+no+Mundo+do+Trabalho"+-+Nº+03">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Boletim+"Gênero+e+Raça+no+Mundo+do+Trabalho"+-+Nº+03">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>MACHADO, Sátira P.; CHAVES, Leslie S.. <b>Boletim "Gênero e Raça no Mundo do Trabalho" - Nº 02</b>. Boletim "Gênero e Raça no Mundo do Trabalho" - Nº 02, Brasília, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Boletim+"Gênero+e+Raça+no+Mundo+do+Trabalho"+-+Nº+02&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Boletim+"Gênero+e+Raça+no+Mundo+do+Trabalho"+-+Nº+02">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Boletim+"Gênero+e+Raça+no+Mundo+do+Trabalho"+-+Nº+02">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Marranghello, G F. <b>Na Onda de Albert Einstein</b>. Folha do Sul, p. 15-15, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Na+Onda+de+Albert+Einstein&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Na+Onda+de+Albert+Einstein">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Na+Onda+de+Albert+Einstein">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Marranghello, G F; HOLZLE, L. R. B.. <b>Busca de Vida Fora da Terra</b>. Folha do Sul, p. 11, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Busca+de+Vida+Fora+da+Terra&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Busca+de+Vida+Fora+da+Terra">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Busca+de+Vida+Fora+da+Terra">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>MARRANGHELLO, G. F. <b>Universidade</b>. A Primeira Folha, Candiota/RS - Brasil, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Universidade&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Universidade">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Universidade">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>MENEGAIS, Denice Aparecida Fontana Nisxota; SILVA, A. C.. <b>Informática Educativa</b>. Informátivo, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Informática+Educativa&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Informática+Educativa">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Informática+Educativa">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>MENEGAIS, Denice Aparecida Fontana Nisxota; SILVA, A. C. ; SANTOS, C. B. ; SANTOS, M. P.. <b>Origem da Lógica Aristótelica</b>. Informativo Mensal, Alto Araguaia, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Origem+da+Lógica+Aristótelica&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Origem+da+Lógica+Aristótelica">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Origem+da+Lógica+Aristótelica">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>MENEGAIS, Denice Aparecida Fontana Nisxota; SILVA, A. C. ; SANTOS, C. B. ; SANTOS, M. P.. <b>Conhecimento Matemático com o uso de Computadores</b>. Informativo Mensal, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Conhecimento+Matemático+com+o+uso+de+Computadores&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Conhecimento+Matemático+com+o+uso+de+Computadores">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Conhecimento+Matemático+com+o+uso+de+Computadores">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>OHLER, M ; CUSATIS, C ; KAKUNO, E. M.. <b>Characterisation of the energy repetitivity and the beam stability at the diffraction beamline of the LNLS</b>. LNLS - Activity Report, Campinas, SP - Brasil, p. 6.711-6.712, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Characterisation+of+the+energy+repetitivity+and+the+beam+stability+at+the+diffraction+beamline+of+the+LNLS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Characterisation+of+the+energy+repetitivity+and+the+beam+stability+at+the+diffraction+beamline+of+the+LNLS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Characterisation+of+the+energy+repetitivity+and+the+beam+stability+at+the+diffraction+beamline+of+the+LNLS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>PAVAN, F.A.; GUSHIKEM, Y. ; LANDERS, R. ; FRANCISCO, M. S. P.. <b>The Study of Niobium Phosphate Degree of Dispersion in the Hybrid Organic-Inorganic Cellulose/Nb2O5 Material</b>. Activity Report - Laboratório Nacional de Sincroton LNLS, Activity Report 2005, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=The+Study+of+Niobium+Phosphate+Degree+of+Dispersion+in+the+Hybrid+Organic-Inorganic+Cellulose/Nb2O5+Material&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=The+Study+of+Niobium+Phosphate+Degree+of+Dispersion+in+the+Hybrid+Organic-Inorganic+Cellulose/Nb2O5+Material">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=The+Study+of+Niobium+Phosphate+Degree+of+Dispersion+in+the+Hybrid+Organic-Inorganic+Cellulose/Nb2O5+Material">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>SILVA, C. M. V. <b>Oficina na Feira do Livro incentiva o conhecimento de Libras</b>. Oficina na Feira do Livro incentiva o conhecimento de Libras, Porto Alegre - RS, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Oficina+na+Feira+do+Livro+incentiva+o+conhecimento+de+Libras&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Oficina+na+Feira+do+Livro+incentiva+o+conhecimento+de+Libras">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Oficina+na+Feira+do+Livro+incentiva+o+conhecimento+de+Libras">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>SUZUKI, C K ; ZAMPIERI, P R ; SHINIHARA, A H ; KAKUNO, E. M. ; CUSATIS, C. <b>X-Ray Topography of synthetic quartz at LNLS</b>. LNLS - Activity Report, Campinas, SP - Brasil, p. 6.296-6.297, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=X-Ray+Topography+of+synthetic+quartz+at+LNLS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=X-Ray+Topography+of+synthetic+quartz+at+LNLS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=X-Ray+Topography+of+synthetic+quartz+at+LNLS">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 15:17:41<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

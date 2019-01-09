@@ -1,0 +1,277 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Bage</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Bage</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Iniciação científica'}, 
+series: [{data: [[2016,
+30],
+[2017,
+22],
+[2018,
+10]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Iniciação científica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 62<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Andressa Melo Jacques. <b>Astronomia para Todos</b>. Iniciação Científica - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7869822301579405">Guilherme Frederico Marranghello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Giovanni Tetsuo Fujimura Lopes. <b>Análise tempo-frequência de sinais não estacionários</b>. (Graduando em Engenharia de Energia) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3603202046788146">Fernando Luis Dias</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Helena Soares Jardim. <b>Educação, História e Políticas na região de abrangência da Universidade Federal do Pampa</b>. (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Jean Lucas da Silva Cimirro. <b>Astronomia para Todos</b>. Iniciação Científica - Universidade Federal do Pampa, Universidade Federal do Pampa. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7869822301579405">Guilherme Frederico Marranghello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>leítica padula lopes. <b>Astronomia para Todos</b>. Iniciação Científica - Universidade Federal do Pampa, Universidade Federal do Pampa. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7869822301579405">Guilherme Frederico Marranghello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Luciane Machado de Machado. <b>Astronomia para Todos</b>. Iniciação Científica - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7869822301579405">Guilherme Frederico Marranghello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Matheus Gonçalves dos Santos Schiavini. <b>Astronomia para Todos</b>. Iniciação Científica - Universidade Federal do Pampa, Universidade Federal do Pampa. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7869822301579405">Guilherme Frederico Marranghello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Morgana Welke. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Osvaldo Bazzan Bini. <b>Astronomia para Todos</b>. Iniciação Científica - Universidade Federal do Pampa, Universidade Federal do Pampa. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7869822301579405">Guilherme Frederico Marranghello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Taize Gonçalves Goulart. <b>Variação linguística: descrição, ensino e formação de professores</b>. (Graduando em Licenciatura em Letras) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Andressa Leandro Machado. <b>A Química Além da Teoria</b>. (Graduando em Química) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2997329525971185">Fabiana Cristina Missau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Andressa Melo Jacques. <b>Feira de Ciências: ?Difundindo Ciência e Tecnologia na Região da Campanha?</b>. (Graduando em Licenciatura em Física) - Fundação Universidade Federal do Pampa, Universidade Federal do Pampa - PBDA. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3738313938168252">Edson Massayuki Kakuno</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Bruna Vaz Menegotto. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Camile Erthal. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, UNIPAMPA-Programa de Bolsas de Desenvolvimento Acadêmico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Cecília Kanaan. <b>Supervisão das aulas de inglês no Núcleo de Línguas Adicionais - Voluntariado</b>. (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6376117076673020">Simone Silva Pires de Assumpção</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Daiana Kaminski de Oliveira. <b>Produção de material didático para estudo das Funções Inorgânicas.</b>. (Graduando em Química) - Universidade Federal do Pampa, UNIPAMPA. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2081240667991252">Fernando Junges</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Everton Mendes de Oliveira. <b>Modelagem Matemática de Processos de Separação em Leito Móvel Simulado (SMB-Simulated Moving Bed) com eluição por gradiente</b>. (Graduando em Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8636427420690720">Anderson Luis Jeske Bihain</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Fernanda Gabriela Morais Madruga Munhoz. <b>Iniciação ao ensino/monitoria da componente curricular de Física III e Física Geral III</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, Fundação Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6432341940154857">Carla Judite Kipper</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Gabriele Bergamasco. <b>Banco de Dados de Língua Falada de Bagé - terceira etapa</b>. (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>HEYDEN, Hugo dos S. <b>Comunicação Alienígena: O problema da linguagem na ficção científica</b>. (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3479198807486329">Rodrigo Borges de Faveri</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Josyane Machado de Machado. <b>A Tecnologia Assistiva à favor da inclusão de alunos com deficiência no ensino superior</b>. (Graduando em Química) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>João Paulo Regliski Vieira. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Julia Zanuzo Kuntz. <b>Cine-Gibis e a Ficção Científica na divulgação da ciência e no desenvolvimento da criatividad</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico (Unipampa). 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5223309157171934">Rafael Kobata Kimura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Lauane Gonçalves Cordeiro da Silva. <b>Análise do uso das variáveis atmosféricas na equação do balanço da energia cinética da Camada Limite Convectiva na região da campanha/RS.</b>. (Graduando em Engenharia de Produção) - Universidade Federal do Pampa, Fundação Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6432341940154857">Carla Judite Kipper</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Maiquel J Shneider. <b>Análise dos indicadores educacionais das escolas públicas de São Borja-RS</b>. (Graduando em Ciências Humanas - Licenciatura) - Unipampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0392455526575019">Evandro Ricardo Guindani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Mateus Felipe Goettens. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. (Graduando em Engenharia de Energias Renováveis e Ambiente) - Universidade Federal do Pampa, UNIPAMPA-Programa de Bolsas de Desenvolvimento Acadêmico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Morgana Welke. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Méllani da Silveira Laus. <b>Banco de Dados de Língua Falada de Bagé - terceira etapa</b>. (Graduando em Letras - Português) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Paola Pires dos Santos. <b>Supervisão das aulas de inglês no Núcleo de Línguas Adicionais - Voluntariado</b>. (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6376117076673020">Simone Silva Pires de Assumpção</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Rosiméri de Avila Goulart. <b>Literatura infantil e juvenil e ensino: do acervo ao método</b>. (Graduando em Letras - Português) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9502583808865478">Zíla Letícia Goulart Pereira Rêgo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Taynara de Lima Fernandes. <b>A Química Além da Teoria</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, PROGRAMA DE FOMENTO À EXTENSÃO. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2997329525971185">Fabiana Cristina Missau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Thyago Thomé do Amaral Santiago. <b>Monitoria em Química Analitica</b>. (Graduando em Engenharia de Alimentos) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1460780634829745">Maria Regina de Oliveira Casartelli</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Andrei Costa Rangel. <b>A Tecnologia Assistiva à favor da inclusão de alunos com deficiência no ensino superior</b>. (Graduando em Química) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Andressa Crstina Xavier de Souza. <b>Estudos literários na formação inicial de professores de língua portuguesa</b>. (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7569679075333299">Vera Lúcia Cardoso Medeiros</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Bernardo Ferrari. <b>Análise dos indicadores educacionais das escolas públicas de São Borja-RS</b>. (Graduando em Ciências Humanas - Licenciatura) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0392455526575019">Evandro Ricardo Guindani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Bianca Pinheiro Filandro. <b>Linguagem e (hetero)ciência: uma janela aberta para a ideologia do cotidiano</b>. Médio Dr Carlos Antônio Kluwe, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Bianka Cabreira da Silva. <b>Linguagem e (hetero)ciência: uma janela aberta para a ideologia do cotidiano</b>. (Graduando em Letras - Português) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Bruna Vaz Menegotto. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. Iniciação Científica - UNIPAMPA-Programa de Bolsas de Desenvolvimento Acadêmico, UNIPAMPA-Programa de Bolsas de Desenvolvimento Acadêmico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Bruna Vaz Menegotto. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Eloisa Aimi Defendi. <b>Modelagem de Processos de Separação em Leito Móvel Simulado (SMB-Simulated Moving Bed) Aplicados na Separação enantiômeros.</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8636427420690720">Anderson Luis Jeske Bihain</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Everton Mendes de Oliveira. <b>Modelagem de Processos de Separação em Leito Móvel Simulado (SMB-Simulated Moving Bed) Aplicados na Separação enantiômeros.</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, Universiade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8636427420690720">Anderson Luis Jeske Bihain</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Gabriel Ladeia. <b>Astronomia para Todos</b>. (Graduando em Engenharia de Computação) - Universidade Federal do Pampa, PROEXT/MEC. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7869822301579405">Guilherme Frederico Marranghello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Gabriel Trindade dos Santos. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. (Graduando em Engenharia de Produção) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Gabriela Ifran da Silva. <b>Narrativas Sônicas do Pampa</b>. (Graduando em Música) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8686171159500113">Luana Zambiazzi dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Giovanna Duarte de Godoy. <b>Linguagem e (hetero)ciência: uma janela aberta para a ideologia do cotidiano</b>. Médio Dr Carlos Antônio Kluwe, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Greice Kelly Oliveira Jorge. <b>Banco de Dados de Língua Falada de Bagé - terceira etapa</b>. (Graduando em Licenciatura em Letras) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>HEYDEN, Hugo dos S. <b>A ficção científica de Johannes Kepler</b>. (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3479198807486329">Rodrigo Borges de Faveri</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>João Beyer Schenkel. <b>Linguagem e (hetero)ciência: uma janela aberta para a ideologia do cotidiano</b>. (Graduando em Letras - Português) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Lesley da Silva Ferreira. <b>Feira de Ciências: ?Difundindo Ciência e Tecnologia na Região da Campanha?</b>. de Computação) - Fundação Universidade Federal do Pampa, Universidade Federal do Pampa - PBDA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3738313938168252">Edson Massayuki Kakuno</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Lucas Maia Dantas. <b>Preparo de material de apoio didático para ensino em Química</b>. (Graduando em Química) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1460780634829745">Maria Regina de Oliveira Casartelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Marcelo Molin. <b>Modelagem computacional da transferência de calor sazonal em pavimentos flexíveis usando o método de Volumes Finitos</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8636427420690720">Anderson Luis Jeske Bihain</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Morgana Welke. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, UNIPAMPA-Programa de Bolsas de Desenvolvimento Acadêmico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Méllani da Silveira Laus. <b>Banco de Dados de Língua Falada de Bagé - terceira etapa</b>. (Graduando em Licenciatura em Letras) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Natalia Troajhn Simões. <b>Análise qualitativa das dissertações de Mestrado Profissional em Ensino de Ciências</b>. (Graduando em Química) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8150927782611326">Renata Hernandez Lindemann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Paula Freitas de Mello. <b>Preparo de material de apoio didático para ensino em Química</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1460780634829745">Maria Regina de Oliveira Casartelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Paula Schaiane Machado da Rosa. <b>Linguagem e (hetero)ciência: uma janela aberta para a ideologia do cotidiano</b>. Médio Dr Carlos Antônio Kluwe, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Pâmela Oliveira de Castro. <b>Banco de Dados de Língua Falada de Bagé - terceira etapa</b>. (Graduando em Licenciatura em Letras) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Raquel Lopes Teixeira. <b>Monitoria de Química Analítica</b>. (Graduando em Química) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1460780634829745">Maria Regina de Oliveira Casartelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Rebeca Kerou Teliz Goulart. <b>Linguagem e (hetero)ciência: uma janela aberta para a ideologia do cotidiano</b>. (Graduando em Letras - Português) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Tais Douglas Andrade. <b>Atualização e análise de banco de dados de Dissertações de Mestrados Profissionais em Ensino de Ciências brasileiro</b>. (Graduando em Química) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8150927782611326">Renata Hernandez Lindemann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Thiago de Carvalho Rêgo. <b>Análise Tempo-Frequência de Sinais Não Estacionários</b>. (Graduando em Engenharia de Energias Renováveis e Ambiente) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3603202046788146">Fernando Luis Dias</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Yslaine de Paula. <b>Monitoria em Química Analítica</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1460780634829745">Maria Regina de Oliveira Casartelli</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 15:17:42<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

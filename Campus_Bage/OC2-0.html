@@ -1,0 +1,261 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Bage</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Bage</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Dissertação de mestrado'}, 
+series: [{data: [[2016,
+22],
+[2017,
+20],
+[2018,
+12]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Dissertação de mestrado</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 54<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0669598218178446">Alessandro Vaz de Mattos</a>. <b>?HACIENDO SONAR EL CANDOMBE?: LETRAMENTO LITEROMUSICAL NO ENSINO FUNDAMENTAL</b>. Dissertação (Mestrado em Ensino de Línguas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Bárbara Tahis Soares. <b>O gênero apresentação oral: uma experiência didática no ensino médio de uma escola do campo</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8907950516727239">Clara Zeni Camargo Dornelles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Daniela Reischak Pereira. <b>Fanzine na aula de literatura: uma proposta pedagógica de incentivo à leitura e produção textual.</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8907950516727239">Clara Zeni Camargo Dornelles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Dávine Carvalho Escobar. <b>A concordância verbal no terceiro ano do Ensino Médio na perspectiva sociolinguística</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Elci Rodrigues de Almeida Dutra. <b>A utilização de experimentos e simulações no ensino de física com o uso do software tracker com as plataformas phet e quiz</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7574903011613803">Luis Roberto Brudna Hölzle</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Gêison Mendes de Freitas de Oliveira. <b>Integrando o conteúdo de MCU e MHS por meio de observações das luas de Júpiter,</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7869822301579405">Guilherme Frederico Marranghello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Jose Storniolo Nunes Brasil. <b>Acessibilidade Pedagógica na Educação Superior: elementos para a discussão do ensino na perspectiva da Educação para Todos</b>. Dissertação (Mestrado em Mestrado Acadêmico em Ensino) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Lusiana Prates Pereira. <b>Círculo de Leitura e Diálogo Literário: uma proposta pedagógica de incentivo à leitura literária</b>. Dissertação (Mestrado em Ensino de Línguas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Michela Lemos Silveira Machado. <b>Ensino colaborativo na perspectiva da Educação Inclusiva para Todos</b>. Dissertação (Mestrado em Mestrado Acadêmico em Ensino) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Nara Rosane Machado de Oliveira. <b>As concepções de (in)exclusão social e suas implicações no fazer docente de professores da área de Humana no âmbito do Ensino Médio</b>. Dissertação (Mestrado em Mestrado Acadêmico em Ensino) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>ROSINÊZ FÁTIMA DA LUZ. <b>Oficinas de inglês como língua adicional para alunos de uma escola pública na cidade de Santa Rosa/RS/Brasil: uma proposta voltada para a interculturalidade</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Taiana Rodrigues. <b>Incentivando o engajamento discursivo com a língua inglesa por meio de personagens animados: abrindo a porta para os monstros na educação infantil</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8907950516727239">Clara Zeni Camargo Dornelles</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alessandra Goulart D´Avila. <b>RÁDIO ESCOLAR COMO PROPULSORA DO DIALOGISMO BAKHTINIANO COM ALUNOS DO ENSINO FUNDAMENTAL</b>. Dissertação (Mestrado em Mestrado profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1893071478078272">Augusto Cesar Dotta Filho</a>. <b>CAPIM-ANNONI (Eragrostis plana Ness) in natura PARA REMOÇÃO DO CORANTE VIOLETA DE METILA 10B DE SOLUÇÃO AQUOSA</b>. Dissertação (Mestrado em Engenharia) - Fundação Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1180133581175682">Flávio André Pavan</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CAMILA BRITO COLLARES DA SILVA. <b>ARDUINO COMO RECURSO INSTRUCIONAL POTENCIALIZADOR DOS CICLOS DE MODELAGEM NO ENSINO DE FÍSICA DA EDUCAÇÃO BÁSICA</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5512659010248787">Pedro Fernando Teixeira Dorneles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Cátia Cilene Saraiva Avero. <b>Ciências para crianças: trabalhando com o tema Sol na educação infantil</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2906182031441331">Márcia Maria Lucchese</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>DÉBORA PIMENTEL PACHECO. <b>O ENSINO DE CIÊNCIAS A PARTIR DO DESENHO UNIVERSAL DA APRENDIZAGEM: POSSIBILIDADES PARA A EDUCAÇÃO DE JOVENS E ADULTOS</b>. Dissertação (Mestrado em Mestrado profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1075436289053313">Amélia Rota Borges de Bastos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Débora Tatiane Costa Rosa. <b>Documentário: uma proposta que contempla o letramento e a variação linguística para a formação de cidadãos críticos desde o 1º ano do ciclo de alfabetização</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Eliane de Lourdes Fontana Piffero. <b>Uma unidade de ensino potencialmente significativa para ensinar fontes de energia.</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2906182031441331">Márcia Maria Lucchese</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Ellen Rodrigues Corrêa. <b>Uma proposta para o ensino de estequiometria valorizando a mediação em sala de aula de química</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8150927782611326">Renata Hernandez Lindemann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Fabiâni Chagas D. Pedra. <b>A escrita criativa no ensino de espanhol: ampliando os multiletramentos através de fanfics.</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8907950516727239">Clara Zeni Camargo Dornelles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Gisele Lángaro Soares. <b>O ensino de língua inglesa através dos multiletramentos: uma proposta para o engajamento de estudantes no ensino fundamental.</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8907950516727239">Clara Zeni Camargo Dornelles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5105808812099033">Ivana Elise Martinez</a>. <b>Para que(m) eu escrevo? A escrita em eventos de letramento com gêneros autobiográficos na educação de jovens e adultos</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8907950516727239">Clara Zeni Camargo Dornelles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Jairo de Oliveira. <b>Ensino da produção oral em língua inglesa no Instituto Federal Farroupilha: uma experiência pedagógica com material didático autoral focado na instrução diferenciada</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>JANUÁRIO DIAS RIBEIRO. <b>EXPLORANDO AS POSSIBILIDADES DE INSERÇÃO DA PLATAFORMA ARDUINO NO ENSINO DE CIÊNCIAS DA EDUCAÇÃO BÁSICA</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>, <a href="http://lattes.cnpq.br/5512659010248787">Pedro Fernando Teixeira Dorneles</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Leandro Lassen. <b>ORALIDADE E TECNOLOGIAS NA ESCOLA PÚBLICA: UMA PROPOSTA PARA PROMOVER O ENGAJAMENTO ESTUDANTIL NAS AULAS DE LÍNGUA INGLESA NO ENSINO FUNDAMENTAL</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Milene Ferreira Miletto. <b>Química no ensino fundamental: investigando questões ambientais em uma ilha interdisciplinar de racionalidade</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/3000763401885447">Márcio Marques Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Patricia Fernandes Cavalheiro. <b>Uma proposta intercultural para diferentes profissionais da educação</b>. Dissertação (Mestrado em Mestrado profissional em ensino de línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2326661535199134">Moacir Lopes de Camargos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Renata Deli da Rosa Ribeiro. <b>Farmacos e automedicação: estratégias andragógicas no ensino de química orgânica na EJA</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8150927782611326">Renata Hernandez Lindemann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Rita de Cássia Angeieski da Silveira. <b>O letramento do professor para a mediação no processo de desenvolvimento da rádio escolar</b>. Dissertação (Mestrado em Mestrado profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Silvana Retamoso Züge. <b>Sequência didática sobre os conceitos de mistura e métodos de separação utilizando um modelo experimental de estação de tratamento de água</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/7536898569014007">Vania Elisabeth Barlette</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Vanessa de Almeida Marques. <b>A apropriação do gênero reportagem digital na escrita colaborativa para um jornal digital online.</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8907950516727239">Clara Zeni Camargo Dornelles</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alana Espinosa Corrêa Nunes. <b>Fronteira' e 'nação' no espaço escolar: em direção a uma proposta de autoria docente</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ana Cláudia Wrasse Salazart. <b>Utilizando luas do sistema solar para associar o MCU e o MHS através do método IpC.</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7869822301579405">Guilherme Frederico Marranghello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Camila Litchina Brasil. <b>Experimentação e simulação computacional no ensino de estados físicos da matéria e transições de fase na educação básica</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/7536898569014007">Vania Elisabeth Barlette</a>, <a href="http://lattes.cnpq.br/0476257235034440">Paulo Henrique Guadagnini</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4758965775345467">Camille Biron</a>. <b>CAROÇO DE AZEITONA (Olea europea L.): PREPARAÇÃO, CARACTERIZAÇÃO E SUA APLICAÇÃO COMO BIOSSORVENTE NA REMOÇÃO DO CORANTE VIOLETA DE METILA DE SOLUÇÃO AQUOSA</b>. Dissertação (Mestrado em Engenharia Química) - Fundação Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1180133581175682">Flávio André Pavan</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CARLOS HENRIQUE CAMPANHER. <b>PROPOSTA PARA A APRENDIZAGEM DE FORMA SIGNIFICATIVA DA CONSTANTE DE AVOGADRO E O MOL</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2081240667991252">Fernando Junges</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Cristinemar Martins Fagundes Vinholes. <b>Uma proposta de uso da plataforma Edmodo para potencializar o ensino de química orgânica: Funções Oxigenadas</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7574903011613803">Luis Roberto Brudna Hölzle</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2032169794971552">FLÁVIA COVALESKY DE SOUZA RODRIGUES</a>. <b>A CONSTRUÇÃO DE ESPAÇOS DE FORMAÇÃO CONTINUADA DE PROFESSORES DA EDUCAÇÃO DE JOVENS E ADULTOS</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5916559361580593">Suzana Schwartz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3921628017639393">Graciela Gomes Palacios</a>. <b>Letramento acadêmico no Ensino Médio: uma experiência pedagógica a partir do material didático autoral "Manual do Jovem Pesquisador"</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Heidimar França Machado. <b>Uma sequência didática sobre calor e temperatura em uma visão microscópica para licenciandos em pedagogia</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/7536898569014007">Vania Elisabeth Barlette</a>, <a href="http://lattes.cnpq.br/0476257235034440">Paulo Henrique Guadagnini</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Jaqueline Daniela da Rosa. <b>Os multiletramentos no estudo do município em geografia: uma prática interdisciplinar utilizando fotografia e escrita</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Jaqueline Gomes Machado. <b>Alternativas Pedagógicas para o Ensino de Alunos com Baixa Visão: o ensino de cinemática escalar</b>. Dissertação (Mestrado em Mestrado profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1075436289053313">Amélia Rota Borges de Bastos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Jordano Nunes Machado. <b>Programação e robótica no Ensino Fundamntal: Aplicação no estudo de Cinemática a partir de uma UEPS</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5512659010248787">Pedro Fernando Teixeira Dorneles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Leandro Ribeiro Caetano. <b>Construção e conhecimento químico por estudantes da EJA na perspectiva da Situação de Estudo</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8150927782611326">Renata Hernandez Lindemann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Leandro Silveira Fleck. <b>Por uma pedagogia da variação linguística: o ensino dos pronomes pessoais na perspectiva sociolinguística</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>MARCELO RODRIGUES MARTINS. <b>O Uso da Plataforma Microcontrolada Arduino no Ensino de Eletrodinâmica</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/0476257235034440">Paulo Henrique Guadagnini</a>, <a href="http://lattes.cnpq.br/5512659010248787">Pedro Fernando Teixeira Dorneles</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>MARÍLIA BRITTO CORREA DE OLIVEIRA. <b>Sequencia de Atividades para o Ensino de Energia e suas Transformações, baseada em princípios facilitadores da Aprendizagem Significativa Crítica</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2906182031441331">Márcia Maria Lucchese</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Marília Santos de Quadros Araújo. <b>Retextualização de curta-metragem de animação no Ensino Fundamental: desenho pedagógico para a produção escrita de contos de mistério</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Michele Batista da Silva. <b>Escrita, revisão e reescrita do gênero notícia produzido no ensino fundamental: o passo a passo - construção e implementação de propostas de intervenção</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Noemi Lopes da Silva. <b>O ensino da língua inglesa em uma escola pública de Alegrete/RS: do olhar para o ENEM a uma proposta didática voltada ao Letramento Crítico</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4342121426929179">Taís Pinto Rodrigues Saldanha</a>. <b>O conceito de potência elétrica: uma intervenção pedagógica para o Ensino Médio</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5512659010248787">Pedro Fernando Teixeira Dorneles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Vanessa Fonseca de Souza Rodriguez. <b>O ENSINO DE CONCEITOS CIENTÍFICOS EM ESPAÇOS NÃO FORMAIS DE EDUCAÇÃO: UMA EXPERIÊNCIA EM UM CENTRO DE EDUCAÇÃO AMBIENTAL</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3000763401885447">Márcio Marques Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Éverton Rogério da Silva Corrêa. <b>AS IMAGENS DO NEGRO CONSTRUÍDAS NA ESCOLA: UMA ANÁLISE DO DISCURSO ESCOLAR</b>. Dissertação (Mestrado em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 15:17:42<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

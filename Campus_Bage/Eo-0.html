@@ -1,0 +1,735 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Bage</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Bage</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de organização de eventos'}, 
+series: [{data: [[2016,
+18],
+[2017,
+13],
+[2018,
+4]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de organização de eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 291<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BOZZETTO, Adriana.; GOMES, Elias Evangelista ; PALHARES, J. A. ; VALENTE, G. A. ; KNOBLAUCH, A. ; CORROCHANO, M. C. ; LOPES, G. B.. <b>Comissão Organizadora Brasileira VI Colóquio Luso-Brasileiro de Sociologia da Educação</b>. 2018. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Correia, J.S. ; SANTOS, J. D. T.. <b>Colaborador no Flute: Hands on Research 2018</b>. 2018. Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>REGO, Z. L. G. P. ; FERNANDES, Carolina. <b>III Jornada de Reflexões sobre Ensino de Línguas</b>. 2018. Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SOUZA, Jusamara ; TEIXEIRA, L. H. P. ; BOZZETTO, A. ; LEITE, M. C.. <b>XIII Seminário Educação Musical e Cotidiano: Pesquisas e inserção profissional</b>. 2018. Outro</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANGELO, B. M. ; MENDES, S. M. C. ; CARVALHO, A. ; DAENECKE, E. M. ; KRÜGER, I. M. ; SILVA, R. R. ; MACHADO, S.. <b>Seminário de Produção Cultural e Criatividade Sonora</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BICA, A. C.; LEMIESZEK, Claudio de Leão ; PINHEIRO, Ivan C. dos Santos ; Rodrigues, William G. de Moura ; JOBIM, A. V. M. ; ANDRADE, G. F. ; BASTIANELLO, E. M. T.. <b>4º Encontro Municipal de História de Bagé</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>COLLARES, C. ; KAKUNO, E. M. ; Dias, J. ; LEITAO, L. I. ; DORNELES, P. F. T.. <b>V FEICAN -Feira de Ciências, Arte e Tecnologiade Candiota. 2017</b>. 2017. </td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Dias, L.F.; Duso, L. <b>4ª Feira de Investigação Científica. 2017</b>. 2017. </td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>FERNANDES, Carolina; SIMIONI, T. ; BRASIL, V. I. ; MEDEIROS, V. L. C.. <b>II Jornada de reflexões sobre ensino de línguas</b>. 2017. Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>KIPPER, C. J. ; TONEL, A. ; COLLARES, C. ; KAKUNO, E. M. ; Dias, J. ; LEITAO, L. I. ; DORNELES, P. F. T.. <b>VII FEIRA DE CIÊNCIAS DE BAGÉ. 2017</b>. 2017. </td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Mello, E. M. B. ; Salomão de Freitas, Diana Paula ; SCOLA, E. L. ; BRIZOLLA, F. ; MARTINS, C. S. L. ; SILVEIRA W. ; FRANCO, R. M. ; TAHA, M.S. ; CUNHA, M. I. ; NORONHA, D. M. ; RODRIGUES, A. R. B.. <b>Seminário ?Inovação Pedagógica: repensando estratégias de formação acadêmico-profissional em diálogo entre Educação Básica e Educação Superior</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>RECK, A. M.; LOPARDO, C. ; BOZZETTO, A.. <b>III Encontro de Pesquisa em Música da UNIPAMPA</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>RODRIGUES, E. M. ; GUEDES, G. T. A. ; SILVEIRA, M. B. ; RODRIGUES, P. L. R.. <b>I Escola Regional de Engenharia de Software</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Salomão de Freitas, Diana Paula; Mello, E. M. B. ; BRIZOLLA, F. ; MARTINS, C. S. L. ; VOSS, D. M. S. ; LINDEMANN, R. H. ; ANGELO, C. L. ; SANTOS, G. B. A. ; CORREA, C. A.. <b>4ª MEEPI - Mostra da Educação : ensino por práticas investigativas</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Salomão de Freitas, Diana Paula; Mello, E. M. B. ; BRIZOLLA, F. ; PEREIRA, D. A. ; FACIN, H. P. ; MARTINS, C. S. L. ; CORREA, C. A. ; SANTOS, G. B. A.. <b>3ª MEEPI - Mostra da Educação : ensino por práticas investigativas</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Silva Neto, A.J ; KNUPP, D. C. ; FERREIRA, V. L. D.. <b>XX Encontro Nacional de Modelagem Computacional e VIII Encontro de Ciências e Técnologias de Materiais</b>. 2017. Congresso</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>VOSS, Dulce Mari da Silva; BICA, A. ; Martins, Claudete da Silva Lima ; FREITAS, D. P. S. ; SILVA, F. F. ; BRIZOLLA, F. ; OLIVEIRA, G. C. C. ; LIMA, C. S. ; ALMEIDA, C. G. ; PEREIRA, D. C. ; SANTOS, H. G. ; Esmério, Milena S. ; CORREA, S. M.. <b>Curso de Extensão Movimentos Sociais e Educação:articulações possíveis na contemporaneidade</b>. 2017. Outro</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BICA, A. ; Martins, Claudete da Silva Lima ; FREITAS, D. P. S. ; VOSS, Dulce Mari da Silva ; BRIZOLLA, F. ; JUNQUEIRA, S. M. S.. <b>"22º Encontro da Associação Sul-Rio-Grandense de Pesquisadores em História da Educação (ASPHE)</b>. 2016. ASPHE. 2016. (Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BICA, A. C.; COUGO, A. L. ; JARDIM, Pâmela S. ; DOS SANTOS, Daniel Guterres. <b>22º Encontro da ASPHE</b>. 2016. Congresso</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CASSANA, M. F.; LINDEMANN, R. ; JUNQUEIRA, S. M. ; AMARAL, V. S. ; SILVA, T. S. ; MAIA, R.. <b>VIII Mostra das Licenciaturas</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Dias, L.F.; Oliveira, A ; ARAUJO, A. A. ; SANTANNA, C.. <b>3ª Feira Municipal de Investigação científica. 2016</b>. 2016. </td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>FERREIRA, M. ; SAWITZKI, M. C. ; SCHWARTZ, S. <b>I Fórum da Graduação</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>FERREIRA, M. ; SAWITZKI, M. C. ; SCHWARTZ, S. <b>Seminário SISU Gestão 2017</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>KAKUNO, E. M. ; DORNELES, P. F. ; KIPPER, C. J.. <b>VI Feira de Ciências. 2016</b>. 2016. </td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>LEITE, M. C.; PACHECO, E. ; DRUM, E. ; FERREIRA, A. G.. <b>Percussivamente - Percussão e Educação Musical no contexto da Educação Básica, UM ENCONTRO ENTRE UERGS, UNIPAMPA e URCAMP</b>. 2016. Concerto</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MARTINS, Claudete da Silva Lima; BRIZOLLA, F.. <b>Tertúlias: práticas pedagógicas inclusivas do Pampa</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Salomão de Freitas, Diana Paula; Mello, E. M. B. ; BRIZOLLA, F. ; BICA, A. C. ; MARTINS, C. S. L. ; GREGORIO, J. C. ; SILVA, G. I. ; ELY, W. de M.. <b>2ª MEEPI - Mostra da Educação : Ensino por práticas investigativas</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Salomão de Freitas, Diana Paula; Mello, E. M. B. ; BRIZOLLA, F. ; BICA, A. C. ; MARTINS, C. S. L. ; SILVA, G. I. ; ELY, W. de M.. <b>1ª MEEPI - Mostra da Educação : Ensino por práticas investigativas</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SALOMÃO DE FREITAS, Diana Paula; Mello, E. M. B. ; Silva, F. F. ; LINDEMANN, R. H.. <b>XIV Encontro sobre Investigação na Escola: "Educar para a Democracia e a Justiça Social"</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>SANTOS, J. D. T.; GOMES, J. A. S.. <b>I Violões do Pampa</b>. 2016. Concerto</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>SAWITZKI, M. C. ; SCHWARTZ, S ; GUTTIER, R.. <b>Seminário dos Núcleos de Desenvolvimento Educacional</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>SIMIONI, T.; IRALA, V. B. ; MEDEIROS, V. L. C. ; FERREIRA, R. N. ; LAUS, M. S.. <b>I Jornada de reflexões sobre ensino de línguas</b>. 2016. Congresso</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>VOSS, Dulce Mari da Silva ; MARTINS, Claudete da Silva Lima. <b>II Fórum de Produção Científico-Acadêmica do Curso de Especialização em Educação e Diversidade Cultural da Universidade Federal do Pampa</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>VOSS, Dulce Mari da Silva; BICA, A. ; Martins, Claudete da Silva Lima ; FREITAS, D. P. S. ; BRIZOLLA, F. ; OLIVEIRA, G. C. C. ; LIMA, C. S. ; ALMEIDA, C. G. ; PEREIRA, D. C. ; CORREA, S. M.. <b>II Fórum de Produção Científico-Acadêmica do Curso de Especialização em Educação e Diversidade Cultural da Universidade Federal do Pampa</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>VOSS, Dulce Mari da Silva; BICA, A. ; Martins, Claudete da Silva Lima ; FREITAS, D. P. S. ; BRIZOLLA, F. ; OLIVEIRA, G. C. C. ; LIMA, C. S. ; ALMEIDA, C. G. ; PEREIRA, D. C. ; SANTOS, H. G. ; ESMERIO, M. S. ; CORREA, S. M.. <b>II Fórum de Produção Científico-Acadêmica do Curso de Especialização em Educação e Diversidade Cultural da Universidade Federal do Pampa</b>. 2016. Outro</td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALVES, E. F.. Olimpíadas de Química - RS. 2011. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ALVES, E. F.. Olimpíadas de Química - RS. 2012. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>ALVES, E. F.. Olimpíadas de Química - RS. 2013. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ALVES, E. F.. Olimpíadas de Química - RS. 2014. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>ALVES, E. F.. Olimpíadas de Química - RS. 2015. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>AMARAL, E. M. H.. I Workshop de Gestão e Tecnologia de Informação. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>ANGELO, B. M.. Germina.Cciones? Porto Alegre. 2014. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>ANGELO, B. M.. Música de POA. 2007. (Festival).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>ANGELO, B. M.. Sessao de Música Brasileira. 2007. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>ANGELO, C. L.. II Semana da Matemática - Matemática: ampliando horizontes. 1997. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>ANGELO, C. L.. XI Jornada de Iniciação Científica UNITINS/UFT. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>ARAGON, D. T. R.. VI Semana Acadêmica de Matemática- A formação do professor de matemática para a educação contemporânea. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>BASTOS A. R. B. Curso de Capacitação em Educação Inclusiva. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>BASTOS A. R. B. CURSO DE FORMAÇÃO CONTINUADA EM COMUNICAÇÃO ALTERNATIVA. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>BASTOS A. R. B. Encontro de Formação de Professores de Atendimento Especializado. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>BASTOS A. R. B. Encontro: O Surdo na Escola e na Sociedade. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>BASTOS A. R. B. I Encontro de Formação Pedagógica dos Educadores da Unipampa. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>BASTOS A. R. B. Tarde de Integração e Lazer. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>BASTOS A. R. B. V Seminário Nacional de Pedagogia Universitária. 2007. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>BIANCHI, Paula. Aprender a ser docente en un mundo en cambio. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>BIANCHI, Paula. Aprender a ser docente en un mundo en cambio. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>BIANCHI, Paula. Coordenadora de Sessão de Pôster no Grupo de Trabalho Temática Comunicação e Mídia do XX Congresso Brasileiro de Ciências do Esporte e VII Congresso Internacional de Ciências do Esporte. 2017. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>BIANCHI, Paula. Coordenadora de Sessão de Pôster no Grupo de Trabalho Temática Comunicação e Mídia do XX Congresso Brasileiro de Ciências do Esporte e VII Congresso Internacional de Ciências do Esporte. 2017. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>BIANCHI, Paula. Fórum das Licenciaturas e Seminário Institucional PIBID - UNIPAMPA. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>BIANCHI, Paula. Fórum das Licenciaturas e Seminário Institucional PIBID - UNIPAMPA. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>BIANCHI, Paula. II Salão Internacional de ensino, pesquisa e extensão - SIEPE. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>BIANCHI, Paula. II Salão Internacional de ensino, pesquisa e extensão - SIEPE. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>BIANCHI, Paula. III SIEPE - Mostra das Profissões. 2011. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>BIANCHI, Paula. III SIEPE - Mostra das Profissões. 2011. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>BIANCHI, Paula. Moderadora de Sessão de comunicações orais no grupo de trabalho temático Comunicação e Mídia do XX Congresso Brasileiro de Ciências do Esporte e VII Congresso Internacional de Ciências do Esporte. 2017. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>BIANCHI, Paula. Moderadora de Sessão de comunicações orais no grupo de trabalho temático Comunicação e Mídia do XX Congresso Brasileiro de Ciências do Esporte e VII Congresso Internacional de Ciências do Esporte. 2017. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>BIANCHI, Paula. V Seminário de Comunicação e Esporte. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>BIANCHI, Paula. V Seminário de Comunicação e Esporte. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>BIANCHI, Paula. VIII Congresso Sulbrasileiro de Ciências do Esporte. 2016. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>BIANCHI, Paula. VIII Congresso Sulbrasileiro de Ciências do Esporte. 2016. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>BICA, A. C.. Conversas sobre a Revolucao Farroupilha. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>BICA, A. C.. I Encontro de Formação Pedagógica dos Educadores da Unipampa. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>BICA, A. C.. Teoria e Metodologia em Antropologia. 1997. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>BOZZETTO, Adriana.. II Seminário Estadual Música na Escola. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>BRUM, L. M. L.. V Salão Internacional de Ensino, Pesquisa e Extensão - V SIEPE. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>CARDOSO, C.. 2 Semana Acadêmica de Letras. 2002. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>CARDOSO, C.. 3 Semana Acadêmica de Letras - diversidade cultural. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>CARDOSO, C.. I Semana Acadêmica de Letras - novas propostas de ensino. 2001. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>CARDOSO, C.. I Semana Acadêmica Integrada. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>CARDOSO, C.. I Seminario Internacional Luso-Hispânico de Língua e Literatura. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>CARDOSO, C.. IV Seminário Internacional de Lingua Espanhola, Literatura e Mercosul. 2003. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>CARDOSO, C.. IV Seminário Internacional de Língua Espanhola, Literatura e Mercosul. 2003. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>CARDOSO, C.. Seminário de Estudos Temáticos - espaços textuais e extratextuais - a voz feminina em cena. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>CASSANA, M. F.. Semana Acadêmica do Curso de Letras. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>CASSANA, M. F.. VI Seminário Nacional sobre Linguagem e Ensino. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>COLLARES, C. B.. I Feira de Ciência da Unipampa Campus Bagé. 2011. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>COLLARES, C. B.. II Feira de Ciência da Unipampa Campus Bagé. 2012. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>COLLARES, C. B.. III Feira de Ciência da Unipampa Campus Bagé. 2013. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>DAENECKE, E. M.. Audição de Flauta Doce. 2009. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>DAENECKE, E. M.. Audição de Flauta Doce. 2010. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>DAENECKE, E. M.. Audições 2010 do Projeto Prelúdio. 2010. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>DAENECKE, E. M.. II Audição Prelúdio. 2011. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>DAENECKE, E. M.. III Audição Prelúdio 2011. 2011. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>DAENECKE, E. M.. PROEJA debate: seminário sobre a Globalização. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>DAENECKE, E. M.. VI Salão Internacional de Ensino, Pesquisa e Extensão. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>de Avila, Elisabete. Administração Parenteral. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>de Avila, Elisabete. I Encontro de Egressos do Curso de Farmácia. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>de Avila, Elisabete. I Semana Acadêmica do Curso de Farmácia - A nova visão do profissional Farmacêutico. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>de Avila, Elisabete. II Semana Acadêmica do Curso de Farmácia - O Farmacêutico na Atualidade Generalista. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>de Avila, Elisabete. VI Jornada de Estudos Farmacêuticos. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>de Avila, Elisabete. XI Seminário Interinstitucional de ensino, pesquisa e extensão; IX Mostra de Iniciação Científica e IV Mostra de Extensão e I Feira das Profissões. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>de Avila, Elisabete. XII Seminário Interinstitucional de ensino, pesquisa e extensão; X Mostra de Iniciação Científica e V Mostra de Extensão e I Feira das Profissões. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>DORNELES, P. F. T.. IV Mostra de trabalhos de Pós-Graduação do IF-UFRGS. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>DORNELES, P. F. T.. Semana acadêmica do curso de licenciatura em Física - UNIPAMPA/CAMPUS BAGÉ. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>DORNELES, P. F. T.. Semanana adadêmica do curso de Licenciatura Plena em Física - UFPEL. 2000. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>DORNELLES, C.. Comunicação integrada: Ideologias linguísticas em contextos sociolinguisticamente complexos. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>DUARTE, Gabriela Bohlmann. VI Jornada de Elaboração de Materiais, Tecnologia e Aprendizagem de Línguas (JETAL). 2016. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>DUTRA, Eduardo de Oliveira. I Encontro Estadual de Professores de Língua Espanhola. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td>DUTRA, Eduardo de Oliveira. II Encontro Estadual de Professores de Língua Espanhola. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>75. &nbsp;</td> <td>DUTRA, Eduardo de Oliveira. II Festival Iberoamérica CANTA. 1998. (Festival).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>76. &nbsp;</td> <td>DUTRA, Eduardo de Oliveira. III Encontro Estadual de Professores de Língua Espanhola. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>77. &nbsp;</td> <td>DUTRA, Eduardo de Oliveira. IV Encontro Estadual de Professores de Língua Espanhola. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>78. &nbsp;</td> <td>DUTRA, Eduardo de Oliveira. XIV Semana de Letras interdisciplinaridade e Ensino: novos rumos para a formação do professor. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>79. &nbsp;</td> <td>FAVERI, R. B.. I Workshop Internacional de Pragmática. 2012. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>80. &nbsp;</td> <td>FERNANDES, Carolina. A leitura e a escrita em diferentes materialidades. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>81. &nbsp;</td> <td>FERNANDES, Carolina. III Seminário de Estudos em Análise do Discurso. O discurso na contemporaneidade: materialidades e fronteiras.. 2007. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>82. &nbsp;</td> <td>FERNANDES, Carolina. Simpósio LEITURA E ESCRITA NO ÂMBITO DO DISCURSO. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>83. &nbsp;</td> <td>GUINDANI, E. R.. I Colóquio Internacional de Educação. 2007. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>84. &nbsp;</td> <td>GUINDANI, E. R.. II Colóquio Internacional de Educação. 2009. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>85. &nbsp;</td> <td>GUINDANI, E. R.. VI Seminário Microrregional de Educação. 2005. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>86. &nbsp;</td> <td>GUINDANI, Y.M.N.K. Conferência Nacional de Educação - Etapa municipal. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>87. &nbsp;</td> <td>IRALA, Valesca Brasil. Ciclo de Palestras de Divulgação da UNIPAMPA nas Escolas de Ensino. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>88. &nbsp;</td> <td>IRALA, Valesca Brasil. Congrega URCAMP 2005. 2005. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>89. &nbsp;</td> <td>IRALA, Valesca Brasil. Encontro de Professores de Espanhol do Rio Grande do Sul - etapa Bagé. 2009. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>90. &nbsp;</td> <td>IRALA, Valesca Brasil. I Encontro de Formação Pedagógica dos Educadores da UNIPAMPA. 2007. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>91. &nbsp;</td> <td>IRALA, Valesca Brasil. I Seminário Aberto de Pesquisas do Mestrado Profissional em Ensino de Línguas da Unipampa. 2015. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>92. &nbsp;</td> <td>IRALA, Valesca Brasil. I Seminário de Pesquisas em Linguagem e Docência. 2014. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>93. &nbsp;</td> <td>IRALA, Valesca Brasil. II Seminário de Pesquisas em Linguagem e Docência. 2014. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>94. &nbsp;</td> <td>IRALA, Valesca Brasil. Palestra ?O professor e a rede: novas tecnologias e novas maneiras de ensinar? com o prof. Vilson Leffa. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>95. &nbsp;</td> <td>IRALA, Valesca Brasil. Semana Acadêmica do Curso de Letras. 2009. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>96. &nbsp;</td> <td>IRALA, Valesca Brasil. Semana Acadêmica do Curso de Letras. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>97. &nbsp;</td> <td>JUNGES, F.. IV SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão: Compartilhe Saberes, Vivencie Experiências, Almeje Sustentabilidade. 2012. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>98. &nbsp;</td> <td>JUNGES, F.. V Salão Internacional de Ensino, Pesquisa e Extensão. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>99. &nbsp;</td> <td>JUNGES, F.. VI SIEPE - VI Salão Internacional de Ensino, Pesquisa e Extensão.. 2014. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>100. &nbsp;</td> <td>KELM, M. D.. Colóquio Internacional Literatura e Diversidade: Repensando a Lusofonia. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>101. &nbsp;</td> <td>KELM, M. D.. Egressos atuantes da Rede de Ensino Básico da Região - 10 anos da Universidade Federal do Pampa. 2016. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>102. &nbsp;</td> <td>KELM, M. D.. II Colóquio da Associação Internacional de Lusitanistas - Crítica do tempo presente - difusão e ensino de literaturas de expressão portuguesa. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>103. &nbsp;</td> <td>L.R.B. Holzle. V Salão Internacional de Ensino, Pesquisa e extensão. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>104. &nbsp;</td> <td>LAZZARIS, F.. II Jornada de Estudos de Cinema da Unipampa - Campus Bagé. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>105. &nbsp;</td> <td>LEITE, M. C.. 1º Concerto da Série Percussionistas - Percussão Afro Uruguaia/Candombe - Apresentação da Cuerda Ébanos de Rivera.. 2017. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>106. &nbsp;</td> <td>LEITE, M. C.. 2º Concerto da Série Percussionistas com o Grupo Alabê Ôni. 2017. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>107. &nbsp;</td> <td>LEITE, M. C.. 3º Concerto da Série Percussionistas - Percussão em Projetos Sociais. Apresentação musical do Grupo Atoque de Caixa. 2017. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>108. &nbsp;</td> <td>LEITE, M. C.. 4º Concerto da Série Percussionistas - Percussão no ensino superior com o Grupo PEPEU. 2017. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>109. &nbsp;</td> <td>LEITE, M. C.. VI Salão internacional de Pesquisa, ensino e extensão SIEPE. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>110. &nbsp;</td> <td>LINDEMANN, R. H.. 31 EDEQ - Organização e Comissão Científica. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>111. &nbsp;</td> <td>LINDEMANN, R. H.. 33 EDEQ Membro da Comissão Científica. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>112. &nbsp;</td> <td>LINDEMANN, R. H.. III Simpósio Nacional de Ensino de Ciências Membro da Comissão Científica. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>113. &nbsp;</td> <td>LINDEMANN, R. H.. IV Semana Acadêmica do curso de Licenciatura em Química. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>114. &nbsp;</td> <td>LINDEMANN, R. H.. VI ENPEC. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>115. &nbsp;</td> <td>LINDEMANN, R. H.. VII ENPEC. 2009. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>116. &nbsp;</td> <td>LINDEMANN, R. H.. X Encontro sobre Investigação na Escola. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>117. &nbsp;</td> <td>LOPARDO, C. E.. 4º Seminário Estadual Música na Escola. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>118. &nbsp;</td> <td>LOPARDO, C. E.. ?1° Seminario Interuniversitario del NIEAEM? (Núcleo de Estudios Avanzados en Educación Musical, Brasil-Argentina). 2008. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>119. &nbsp;</td> <td>LOPARDO, C. E.. ?Jornada de Unidades Didácticas: Música en Acción?. 2008. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>120. &nbsp;</td> <td>LOPARDO, C. E.. Encontro de Pesquisa em Música da Unipampa. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>121. &nbsp;</td> <td>LOPARDO, C. E.. I Simpósio do PPGMUS/UFRGS. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>122. &nbsp;</td> <td>LOPARDO, C. E.. III Encontro de Pesquisa em Música da Unipampa. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>123. &nbsp;</td> <td>LOPARDO, C. E.. III Encontro de Pesquisa em Música da Unipampa. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>124. &nbsp;</td> <td>LOPARDO, C. E.. Seminário de avaliação em educação musical. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>125. &nbsp;</td> <td>LOPARDO, C. E.. Show da CONFRARIA DE LA YERBA com Pirisca Grecco e Pedro Ribas. 2017. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>126. &nbsp;</td> <td>LOPARDO, C. E.. V Seminário do núcleo interuniversitário avançado de educação musical - NIAEM. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>127. &nbsp;</td> <td>LOPARDO, C. E.. VI Mostra das Licenciaturas. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>128. &nbsp;</td> <td>LUCCHESE, M. M.. II Mostra de Trabalhos de Pós Graduação do IF-UFRGS. 2003. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>129. &nbsp;</td> <td>LUCCHESE, M. M.. IV Mostra de pós-graduação do IF-UFRGS. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>130. &nbsp;</td> <td>LUCCHESE, M. M.. V Café com Ciência. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>131. &nbsp;</td> <td>Lucchese, Marcia M.. IV Siepe. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>132. &nbsp;</td> <td>MARRANGHELLO, G. F.. 1º Ciclo de Palestras sobre Ensino de Ciências no Paralelo 31. 2011. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>133. &nbsp;</td> <td>MARTINS, C. S. L.. 1a. Semana Técnica de Bagé e Mostra de Trabalhos - Conexões. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>134. &nbsp;</td> <td>MARTINS, C. S. L.. 2a. Semana Técnica de Bagé-RS: Conexões. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>135. &nbsp;</td> <td>MARTINS, C. S. L.. Seminário Integrador -PoloBagé - Promovendo a formação Técnica por meio da Educação a Distância. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>136. &nbsp;</td> <td>MARTINS, Claudete da Silva Lima. Coordenação do Comitê Científico do Eixo Temático: Práticas de Inclusão Escolar no 1o. Congresso Luso-Brasileiro sobre TEA e Educação Inclusiva. 2017. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>137. &nbsp;</td> <td>MARTINS, Claudete da Silva Lima. II Seminário Estadual do Pacto pelo Fortalecimento do Ensino Médio - RS. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>138. &nbsp;</td> <td>MARTINS, Claudete da Silva Lima. III Seminário Estadual do Pacto pelo Fortalecimento do Ensino Médio - RS. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>139. &nbsp;</td> <td>MARTINS, Claudete da Silva Lima. Membro do Comitê Científico do Eixo Temático: Processos, recursos e Metodologias relacionadas ao Ensino de Pessoas com NEE no 1o. Congresso Luso-Brasileiro sobre TEA e Educação Inclusiva. 2017. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>140. &nbsp;</td> <td>MARTINS, M. M.. 14a Jornada Nacional de Educação. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>141. &nbsp;</td> <td>Martins, Márcio M.. 33º Encontro de Debates sobre o Ensino de Química. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>142. &nbsp;</td> <td>Martins, Márcio M.. 3º Semana Acadêmica do Curso de Ciências. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>143. &nbsp;</td> <td>Martins, Márcio M.. I Curso de Capacitação de Bolsistas do PIBID/UNIFRA. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>144. &nbsp;</td> <td>Martins, Márcio M.. I Seminário Interdisciplinar PIBID/UNIFRA. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>145. &nbsp;</td> <td>Martins, Márcio M.. II Salão de Ensino, Pesquisa e Extensão da UFFS. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>146. &nbsp;</td> <td>MEDEIROS, Vera L. C.. I Colóquio de Estudos Literários da Fapa- Mario Quintana e a lírica na contemporaneidade. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>147. &nbsp;</td> <td>MEDEIROS, Vera L. C.. II Salão internacional de ensino, pesquisa e extensão. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>148. &nbsp;</td> <td>MEDEIROS, Vera L. C.. III SALÃO INTERNACIONAL DE ENSINO, PESQUISA E EXTENSÃO. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>149. &nbsp;</td> <td>MEDEIROS, Vera L. C.. IV SALAO INTERNACIONAL DE ENSINO, PESQUISA E EXTENSÃO. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>150. &nbsp;</td> <td>MEDEIROS, Vera L. C.. XXI Seminário Nacional de Literatura e História - o Centenário de Erico Verissimo e a História do Rio Grande do Sul. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>151. &nbsp;</td> <td>MENEGAIS, Denice Aparecida Fontana Nisxota. III SECOMP - Educação e Tecnologia. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>152. &nbsp;</td> <td>MISSAU, F.C.. I Fórum de NEABIs da Unipampa. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>153. &nbsp;</td> <td>MISSAU, F.C.. XIII Encontro de Química da Região Sul. 2005. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>154. &nbsp;</td> <td>MOREIRA, E. C.. III SIEPE. 2011. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>155. &nbsp;</td> <td>MOTA, S. S.. Encontro de Professores de Espanhol - ETAPA SANTA MARIA - RS. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>156. &nbsp;</td> <td>NUNES, B. R.. 2º edição do Evento de Alinhamento para Aplicação de Exames e Avaliações do Inep. 2013. (Concurso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>157. &nbsp;</td> <td>NUNES, B. R.. IV Salão Internacional de Ensino, Pesquisa e Extensão. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>158. &nbsp;</td> <td>NUNES, B. R.. Responsabilidade Social. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>159. &nbsp;</td> <td>OLEQUES, N. M. B. N.. XX Encontro Regional de Estudantes de Matemática da Região Sul. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>160. &nbsp;</td> <td>OLIVEIRA, L.S. de. I Seminário Nacional de Linguagem, Cultura e Educação: Múltiplos Olhares sobre a Escola e suas Linguagens. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>161. &nbsp;</td> <td>OLIVEIRA, L.S. de. Ii Seminário Nacional de Linguagem, Cultura e Educação: Dos Meios às Mediações de Ensino. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>162. &nbsp;</td> <td>PACHECO, D. P.. Aniversário da Escola. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>163. &nbsp;</td> <td>PACHECO, D. P.. Aniversário de Bagé. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>164. &nbsp;</td> <td>PACHECO, D. P.. Ação Solidária. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>165. &nbsp;</td> <td>PACHECO, D. P.. Festa Julina. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>166. &nbsp;</td> <td>PACHECO, D. P.. Semana do Meio Ambiente: Um por todos e todos pelo meio ambiente. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>167. &nbsp;</td> <td>PEREIRA, A. R.. VII Fórum EaD UNIPAMPA eI Encontro de Professores e Tutores UAB/UNIPAMPA. 2017. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>168. &nbsp;</td> <td>PINHO, L. S.. IV Semana Acadêmica do Curso Licenciatura em Letras. 2012. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>169. &nbsp;</td> <td>PIOVESAN, S. D.. I Encontro Gaúcho de Pós-Graduandos. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>170. &nbsp;</td> <td>PIOVESAN, S. D.. II Encontro de Professores e Tutores Unipampa/UAB. 2018. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>171. &nbsp;</td> <td>PIOVESAN, S. D.. II Jornada Acadêmica da Computação. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>172. &nbsp;</td> <td>PIOVESAN, S. D.. II Salão de Pós-Graduação da APG-UFRGS. 2012. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>173. &nbsp;</td> <td>PIOVESAN, S. D.. Semana Acadêmica para o CTS em Sistemas para Internet. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>174. &nbsp;</td> <td>PIOVESAN, S. D.. VII FÓRUM EaD UNIPAMPA e I ENCONTRO DE PROFESSORES E TUTORES UAB/UNIPAMPA. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>175. &nbsp;</td> <td>PIOVESAN, S. D.. VIII FÓRUM EaD UNIPAMPA. 2018. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>176. &nbsp;</td> <td>RECK, A. M.. II Encontro de Educação Musical e Pesquisa (Auto)Biográfica. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>177. &nbsp;</td> <td>RECK, A. M.. IV Ouvindo Coisas e III Encontro de Educação Musical e Pesquisa (Auto)Biográfica. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>178. &nbsp;</td> <td>RECK, A. M.. Lugares da Formação em Arte: pistas para pensar um currículo. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>179. &nbsp;</td> <td>RÊGO, Z. L. G. P.. IV Semana Acadêmica de Letras. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>180. &nbsp;</td> <td>RÊGO, Z. L. G. P.. Jornada de leitura da Literatura-CLIC. 2001. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>181. &nbsp;</td> <td>RÊGO, Z. L. G. P.. Jornada de Reflexões sobre Ensino de Línguas. 2016. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>182. &nbsp;</td> <td>RÊGO, Z. L. G. P.. Pré-colóquio de leitura e ensino de literatura. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>183. &nbsp;</td> <td>RÊGO, Z. L. G. P.. Semana Acadêmica de Letras. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>184. &nbsp;</td> <td>SALOMÃO DE FREITAS, Diana Paula. IV Salão Internacional de Ensino Pesquisa e Extensão da UNIPAMPA. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>185. &nbsp;</td> <td>SALOMÃO DE FREITAS, Diana Paula. V Salão Internacional de Ensino Pesquisa e Extensão da UNIPAMPA. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>186. &nbsp;</td> <td>SANT'ANNA, Cynthia Fontella. avaliador de trabalhos da V Semana de Enfermagem da Universidade Federal do Pampa (UNIPAMPA) e IV Mostra Científica de Enfermagem. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>187. &nbsp;</td> <td>SANT'ANNA, Cynthia Fontella. II Semana de Enfermagem da UNIPAMPA e I Mostra Científica da Enfermagem. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>188. &nbsp;</td> <td>SANT'ANNA, Cynthia Fontella. IV Mostra da Produção Universitária. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>189. &nbsp;</td> <td>SANT'ANNA, Cynthia Fontella. Parecerista de trabalhos da IV Semana Acadêmica do Curso de Enfermagem da UNIPAMPA. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>190. &nbsp;</td> <td>SANT'ANNA, Cynthia Fontella. SIMPÓSIO INTERNACIONAL FAMÍLIAS EM SITUAÇÃO DE RISCO. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>191. &nbsp;</td> <td>SANT'ANNA, Cynthia Fontella. VII Mostra de Producao Universitaria. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>192. &nbsp;</td> <td>SantAnna, Cynthia Fontella. III FÓRUM REGIONAL DE EDUCAÇÃO PERMANENTE EM SAÚDE. 2016. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>193. &nbsp;</td> <td>SantAnna, Cynthia Fontella. IV FÓRUM REGIONAL DE EDUCAÇÃO PERMANENTE EM SAÚDE. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>194. &nbsp;</td> <td>SANTOS, J. D. T.. 5º Seminário Internacional em Memória e Patrimônio. 2011. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>195. &nbsp;</td> <td>SANTOS, J. D. T.. 7º Violões do Sul com "Suzielli Mendonça". 2013. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>196. &nbsp;</td> <td>SANTOS, J. D. T.. Audição de Natal do Salesiano. 2009. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>197. &nbsp;</td> <td>SANTOS, J. D. T.. Audição de Novos Talentos. 2009. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>198. &nbsp;</td> <td>SANTOS, J. D. T.. Audição de Violão 2011. 2011. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>199. &nbsp;</td> <td>SANTOS, J. D. T.. Audição em comemoração à Semana da Pátria. 2013. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>200. &nbsp;</td> <td>SANTOS, J. D. T.. Audição Musical 2013 - EBAHL. 2013. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>201. &nbsp;</td> <td>SANTOS, J. D. T.. Concerto 2007 - Apresentação Musical de alunos e professores do Espaço Musical JD. 2007. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>202. &nbsp;</td> <td>SANTOS, J. D. T.. Concerto 2008. 2008. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>203. &nbsp;</td> <td>SANTOS, J. D. T.. Concerto 2009. 2009. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>204. &nbsp;</td> <td>SANTOS, J. D. T.. Concerto de Inauguração do Espaço Cultural José Ivo de Souza. 2010. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>205. &nbsp;</td> <td>SANTOS, J. D. T.. Concerto de Inverno dos alunos do Espaço Musical JD. 2009. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>206. &nbsp;</td> <td>SANTOS, J. D. T.. Concerto de Violão Clássico e Latino-Americano com Marcos Puña (Bolívia). 2017. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>207. &nbsp;</td> <td>SANTOS, J. D. T.. Concerto dos alunos de Música do Salesianos. 2009. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>208. &nbsp;</td> <td>SANTOS, J. D. T.. Concerto e Palestra com o violonista Alexandre SImon (Pesquisador da Unirio). 2016. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>209. &nbsp;</td> <td>SANTOS, J. D. T.. Concerto e Palestra com o violonista Dr. Bruno Madeira (Unicamp). 2016. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>210. &nbsp;</td> <td>SANTOS, J. D. T.. I Festival Internacional de Violão do Mercosul. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>211. &nbsp;</td> <td>SANTOS, J. D. T.. I Fraternid'art. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>212. &nbsp;</td> <td>SANTOS, J. D. T.. I Seminário Internacional de Violão do Pampa. 2017. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>213. &nbsp;</td> <td>SANTOS, J. D. T.. I Violões do Sul - Concerto de Gilberto Oliveira e Alexandre Simon. 2007. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>214. &nbsp;</td> <td>SANTOS, J. D. T.. II Violões do Sul - Concerto com o Trio de Chorinho (Nadir, Serginho e Jorginho). 2007. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>215. &nbsp;</td> <td>SANTOS, J. D. T.. III Violões do Sul - Concerto com Rodrigo Nassif. 2007. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>216. &nbsp;</td> <td>SANTOS, J. D. T.. IV Violões do Sul - Concerto com Gonçalo Cordeiro (Portugal). 2010. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>217. &nbsp;</td> <td>SANTOS, J. D. T.. Master Class de Técnica e Interpretação violonística com Rodrigo Nassif. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>218. &nbsp;</td> <td>SANTOS, J. D. T.. Mini-curso de Arranjo Musical com o Me. Luciano Nazario (FURG) - 20 horas. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>219. &nbsp;</td> <td>SANTOS, J. D. T.. Mini-curso de Harmonia Funcional com o Me. Luciano Nazario (FURG) - 20 horas. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>220. &nbsp;</td> <td>SANTOS, J. D. T.. Mini-curso de Improvisação Musical com o Me. Luciano Nazario (FURG) - 20 horas. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>221. &nbsp;</td> <td>SANTOS, J. D. T.. Momento Farroupilha 2011. 2011. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>222. &nbsp;</td> <td>SANTOS, J. D. T.. Mostra de Prática Instrumental 2013/2. 2014. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>223. &nbsp;</td> <td>SANTOS, J. D. T.. Mostra de Prática Instrumental 2014/2. 2015. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>224. &nbsp;</td> <td>SANTOS, J. D. T.. Mostra de Práticas Instrumentais 2015/2. 2015. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>225. &nbsp;</td> <td>SANTOS, J. D. T.. Não Vou me Adaptar - Homenagem aos 30 Anos dos Titãs. 2012. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>226. &nbsp;</td> <td>SANTOS, J. D. T.. Palestra "Técnica Flexível para Violão". 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>227. &nbsp;</td> <td>SANTOS, J. D. T.. Recital da Camerata Pampeana de Violões. 2015. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>228. &nbsp;</td> <td>SANTOS, J. D. T.. Recital de Música Flamenca com Eduardo de Medeiros (UFRR). 2015. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>229. &nbsp;</td> <td>SANTOS, J. D. T.. Recital Semana Farroupilha. 2010. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>230. &nbsp;</td> <td>SANTOS, J. D. T.. V Violões do Sul - Concerto com Alexandre Simon. 2011. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>231. &nbsp;</td> <td>SANTOS, J. D. T.. Workshop "Antes bem acompanhado do que solo" com Rodrigo Garcia (RJ). 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>232. &nbsp;</td> <td>SCHEEREN, V.. XX Encontro Regional de Estudantes de Matemática da Região Sul. 2014. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>233. &nbsp;</td> <td>SEEBER, A.. Workshop Comsol Multiphysics. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>234. &nbsp;</td> <td>SILVA, Thiago S.. III Jornada de Multiletramentos, V Jornada de Popularização da Ciência e II Encontro de Produção Textual. 2014. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>235. &nbsp;</td> <td>SILVA, Thiago S.. IV Mostra de trabalhos em andamento. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>236. &nbsp;</td> <td>SILVA, Thiago S.. XV Santa Maria em Dança. 2009. (Festival).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>237. &nbsp;</td> <td>SOUZA, A.. I Mostra Regional de Ciências. 2013. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>238. &nbsp;</td> <td>SOUZA, A.. Virada Cultural da UFSM. 2014. (Festival).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>239. &nbsp;</td> <td>TAKAHAMA, Alexandre Machado. Organizador do 1º Encontro de Clarinetistas de Campo Grande / MS. Artista convidado: Cristiano Alves (UFRJ). 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>240. &nbsp;</td> <td>TAKAHAMA, Alexandre Machado. Organizador do 1º Encontro de Regentes de Bandas da UFMS. Artista convidado: maestro Dario Sotelo. 2012. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>241. &nbsp;</td> <td>TAKAHAMA, Alexandre Machado. Organizador do 2º Encontro de Clarinetistas de Campo Grande / MS. Artista convidada: Rocío Mairena (Costa Rica). 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>242. &nbsp;</td> <td>TAKAHAMA, Alexandre Machado. Organizador do Workshop "Violão de 7 Cordas". Artista Convidado: Arthur Bonilla. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>243. &nbsp;</td> <td>TAKAHAMA, Alexandre Machado. Organizador do workshop: A linguagem da Banda Mantiqueira na Música Instrumental Brasileira - Grupo convidado: Banda Mantiqueira. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>244. &nbsp;</td> <td>TAKAHAMA, Alexandre Machado. Organizador e Gestor Financeiro do Seminário Internacional de Regência Coral - SES / UFMS - Artista convidado: Hans-Peter Schurz (Alemanha). 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>245. &nbsp;</td> <td>TEIXEIRA, I. C. F.. I Encontro de Pedagogia: a criança e a saúde, o direito e a educação. 2009. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>246. &nbsp;</td> <td>TEIXEIRA, L. H. P.. 6º Seminário Estadual Música na Escola. 2015. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>247. &nbsp;</td> <td>VOSS, Dulce Mari da Silva. Curso de Extensão Movimentos Sociais e Educação. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>248. &nbsp;</td> <td>VOSS, Dulce Mari da Silva. I Encontro de Formação Pedagógica dos Educadores da UNIPAMPA. 2007. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>249. &nbsp;</td> <td>ZIMMERMANN, N. E. K.. XI Encontro de Química da Região Sul. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>250. &nbsp;</td> <td>ZIMMERMANN, N. E. K.. XI Encontro de Química da Região Sul. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>251. &nbsp;</td> <td>ZIMMERMANN, N. E. K.. XI Encontro de Química da Região Sul. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>252. &nbsp;</td> <td>ZIMMERMANN, N. E. K.. XI Encontro de Química da Região Sul. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>253. &nbsp;</td> <td>ZIMMERMANN, N. E. K.. XI Encontro de Química da Região Sul. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>254. &nbsp;</td> <td>ZIMMERMANN, N. E. K.. XI Encontro de Química da Região Sul. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>255. &nbsp;</td> <td>ZIMMERMANN, N. E. K.. XI Encontro de Química da Região Sul. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>256. &nbsp;</td> <td>ZIMMERMANN, N. E. K.. XI Encontro de Química da Região Sul. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 15:17:42<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

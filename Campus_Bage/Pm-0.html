@@ -1,0 +1,205 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Bage</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Bage</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de prêmios e títulos'}, 
+series: [{data: [[2016,
+12],
+[2017,
+13],
+[2018,
+1]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de prêmios e títulos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 26<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Paraninfo, Curso de Matemática - Licenciatura 2018/1.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1o. Lugar na Jornada de Pós-Graduação e Pesquisa do Congrega Urcamp 2017, Universidade da Região da Campanha - Urcamp.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>1º Lugar no Salão Universitário da Universidade Católica de Pelotas, Ucpel.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6074927853253100">Maria Eugênia Santos da Fontoura Porcellis</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Chamada Feiras/Mostras 2017 CNPQ, CNPq.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/5512659010248787">Pedro Fernando Teixeira Dorneles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ENVELHECIMENTO ATIVO E EDUCAÇÃO: UNIVERSIDADE SÊNIOR DE BAGE, Trabalho Premiado na 14º JORNADA DE PÓS-GRADUAÇÃO E PESQUISA CONGREGA/URCAMP.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1541460141842713">Gilnara da Costa Corrêa Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Melhor artigo da trilha de Educação do XXXI Simpósio Brasileiro de Engenharia de Software, Centro Universitário 7 de Setembro (UNI7).. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9616709633352286">Peterson Luiz da Rosa Rodrigues</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Melhor Trabalho do 9º SIEPE na categoria Iniciação Científica - Extensão, na área Educação, modalidade Apresentação Oral na Mostra Científica do 9º Salão Internacional de Ensino, Pesquisa e Extensão, Universidade Federal do Pampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>O RECURSO DE COLORAÇÃO DE GRAFOS PARA A PROGRAMAÇÃO DE HORÁRIOS DE EXAMES DE CURSOS UNIVERSITÁRIOS, Instituto Federal de Educação, Ciência e Tecnologia Sul-Rio-Grandense.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7782069813755336">Vanessa Scheeren</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Paraninfa, Licenciatura em Letras - UNIPAMPA - Turma 1/2017.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Patronesse da Turma matemática Licenciatura, Universidade Federal do Pampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8753645048719661">Vera Lúcia Duarte Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Patronesse da Turma matemática Licenciatura, Universidade Federal do Pampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8753645048719661">Vera Lúcia Duarte Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Professor homenageado, Curso de Ciências Humanas - Licenciatura - Unipampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0392455526575019">Evandro Ricardo Guindani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Troféu Consciência Negra, Grupo Face do Ébano e CMPOA.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2940552424054556">Sátira Pereira Machado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Wolfram Research Award - Atribuído pela Wolfram para melhor artigo, no Symcomp' 2017., Wolfram.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1506100128289700">Marcelo da Silva Trindade</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1º Lugar na 1ª Mostra de Iniciação Científica e Extensão, promovida para alunos do Ensino Fundamental e do Ensino Médio das Escolas Católicas da Região Sul, Universidade Católica de Pelotas.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6074927853253100">Maria Eugênia Santos da Fontoura Porcellis</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>2º Lugar no Concurso de TCC, Dissertações e Teses (CTD-IE), V Congresso Brasileiro de Informática na Educação.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2530535838251633">Érico Marcelo Hoff do Amaral</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Comenda Floresta Montenegrina 100 anos, Associação Cultural Beneficente Floresta Montenegrina.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2940552424054556">Sátira Pereira Machado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Indicação de tese para representar o PPGMus/UFRGS no Prêmio Capes de Tese - Edição 2016, CAPES.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8686171159500113">Luana Zambiazzi dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Paraninfo, Curso de Ciências Humanas - Licenciatura - Unipampa.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0392455526575019">Evandro Ricardo Guindani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Paraninfo, Curso de Matemática - Licenciatura 2016/2.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Patronesse do Curso de Licenciatura em Matemática, Universidade Federal do Pampa.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8335102549502386">Denice Aparecida Fontana Nisxota Menegais</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Patrono, Curso de Matemática - Licenciatura 2016/2.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Premio FUNARTE de Produção Crítica em Música - Edição Especial, FUNARTE / MinC.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8686171159500113">Luana Zambiazzi dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Professor Homenageado, Curso de Matemática - Licenciatura 2016/1.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Prêmio: Melhor Trabalho do 8º SIEPE (UNIPAMPA) na categoria Pesquisa, na área Linguística, Letras e Artes, junto aos discentes Antoniel Lopes, Gabriela Ifran e Julian Pinho, UNIPAMPA (8º Salão Internacional de Ensino, Pesquisa e Extensão).. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8686171159500113">Luana Zambiazzi dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Troféu Carlos Santos ? Destaque Negros/as do RS ? Jornalismo, Câmara Municipal de Porto Alegre/RS.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2940552424054556">Sátira Pereira Machado</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 15:17:42<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

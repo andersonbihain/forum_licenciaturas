@@ -1,0 +1,289 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Bage</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Bage</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de produção artística'}, 
+series: [{data: [[2016,
+21],
+[2017,
+42],
+[2018,
+5]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de produção artística</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 68<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>LEITE, M. C. <b>Comparsa Kamundá</b>. 2018.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Comparsa+Kamundá">busca Google</a> |            <a href="http://www.bing.com/search?q=Comparsa+Kamundá">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>LOPARDO, C. E. <b>Confraria de la Yerba</b>. 2018.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Confraria+de+la+Yerba">busca Google</a> |            <a href="http://www.bing.com/search?q=Confraria+de+la+Yerba">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Mascarenhas, G. ; SANTOS, J. D. T. ; Mendes, H.. <b>Concerto Choro Brasileiro no Flute Hands on Research 2018 - Portugal</b>. 2018.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+Choro+Brasileiro+no+Flute+Hands+on+Research+2018+-+Portugal">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+Choro+Brasileiro+no+Flute+Hands+on+Research+2018+-+Portugal">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SANTOS, J. D. T. <b>Recital Nova Bossa (Guitarra e Canto) no Espaço Cultural Quadras Soltas - Porto (Portugal)</b>. 2018.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Recital+Nova+Bossa+(Guitarra+e+Canto)+no+Espaço+Cultural+Quadras+Soltas+-+Porto+(Portugal)">busca Google</a> |            <a href="http://www.bing.com/search?q=Recital+Nova+Bossa+(Guitarra+e+Canto)+no+Espaço+Cultural+Quadras+Soltas+-+Porto+(Portugal)">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SANTOS, J. D. T. <b>Apresentação na Cerimônia de Posse do Reitor da Universidade de Aveiro 2018</b>. 2018.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Apresentação+na+Cerimônia+de+Posse+do+Reitor+da+Universidade+de+Aveiro+2018">busca Google</a> |            <a href="http://www.bing.com/search?q=Apresentação+na+Cerimônia+de+Posse+do+Reitor+da+Universidade+de+Aveiro+2018">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANGELO, C. L. ; SALOMÃO DE FREITAS, Diana Paula. <b>OFICINA DE DANÇA CIRCULAR</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=OFICINA+DE+DANÇA+CIRCULAR">busca Google</a> |            <a href="http://www.bing.com/search?q=OFICINA+DE+DANÇA+CIRCULAR">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CARVALHO, Karen Cristina. ; MARTINS, Claudete da Silva Lima. <b>Tertúlias do Pampa</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Tertúlias+do+Pampa">busca Google</a> |            <a href="http://www.bing.com/search?q=Tertúlias+do+Pampa">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>DAENECKE, E. M.; VIEGAS, R. F. ; RODRIGUES, I. L. V. ; SILVA, R. G. O.. <b>Recital de Inauguração das flautas doces da Unipampa</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Recital+de+Inauguração+das+flautas+doces+da+Unipampa">busca Google</a> |            <a href="http://www.bing.com/search?q=Recital+de+Inauguração+das+flautas+doces+da+Unipampa">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>IRALA, Valesca Brasil. <b>Declamação de poesia no evento Série Percurssionistas</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Declamação+de+poesia+no+evento+Série+Percurssionistas">busca Google</a> |            <a href="http://www.bing.com/search?q=Declamação+de+poesia+no+evento+Série+Percurssionistas">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>IRALA, Valesca Brasil. <b>Declamação de poesia no evento III Jornada de Reflexões sobre Ensino de Línguas</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Declamação+de+poesia+no+evento+III+Jornada+de+Reflexões+sobre+Ensino+de+Línguas">busca Google</a> |            <a href="http://www.bing.com/search?q=Declamação+de+poesia+no+evento+III+Jornada+de+Reflexões+sobre+Ensino+de+Línguas">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>LEITE, M. C. <b>Laís Tetour Acústico</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Laís+Tetour+Acústico">busca Google</a> |            <a href="http://www.bing.com/search?q=Laís+Tetour+Acústico">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>LEITE, M. C.; BRUSIUS, M.. <b>Marcelo Brusius Acústico</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Marcelo+Brusius+Acústico">busca Google</a> |            <a href="http://www.bing.com/search?q=Marcelo+Brusius+Acústico">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>LEITE, M. C.; BRUSIUS, M.. <b>Marcelo Brusius Acústico</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Marcelo+Brusius+Acústico">busca Google</a> |            <a href="http://www.bing.com/search?q=Marcelo+Brusius+Acústico">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>LEITE, M. C.; BRUSIUS, M.. <b>Marcelo Brusius Acústico</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Marcelo+Brusius+Acústico">busca Google</a> |            <a href="http://www.bing.com/search?q=Marcelo+Brusius+Acústico">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>LEITE, M. C.; BRUSIUS, M.. <b>Marcelo Brussius Acústico</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Marcelo+Brussius+Acústico">busca Google</a> |            <a href="http://www.bing.com/search?q=Marcelo+Brussius+Acústico">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>LEITE, M. C.; BRUSIUS, M.. <b>Marcelo Brusius Acústico</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Marcelo+Brusius+Acústico">busca Google</a> |            <a href="http://www.bing.com/search?q=Marcelo+Brusius+Acústico">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>LEITE, M. C.; JESUS, F. F. ; FERREIRA, A. G. ; MELO, F.. <b>Cuerda Grillo Candombero - Candombe Solenidade Doutor Honoris Causa 'Pepe' Mujica</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Cuerda+Grillo+Candombero+-+Candombe+Solenidade+Doutor+Honoris+Causa+'Pepe'+Mujica">busca Google</a> |            <a href="http://www.bing.com/search?q=Cuerda+Grillo+Candombero+-+Candombe+Solenidade+Doutor+Honoris+Causa+'Pepe'+Mujica">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>LEITE, M. C.; MOURA, L. ; FERREIRA, A. G. ; MELO, F. ; JESUS, F. F. ; MARTINS , A.. <b>Cuerda Grillo Candombero - Candombe 10º Festa do Folclore</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Cuerda+Grillo+Candombero+-+Candombe+10º+Festa+do+Folclore">busca Google</a> |            <a href="http://www.bing.com/search?q=Cuerda+Grillo+Candombero+-+Candombe+10º+Festa+do+Folclore">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>LEITE, M. C.; PACHECO, E. ; ROZINE, J. E.. <b>1º Semana internacional de saberes percussivos da UFPel</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=1º+Semana+internacional+de+saberes+percussivos+da+UFPel">busca Google</a> |            <a href="http://www.bing.com/search?q=1º+Semana+internacional+de+saberes+percussivos+da+UFPel">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>LOPARDO, C. E. <b>Lançamento CD Folklore 4 Participação em 'Viva Jujuy'</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Lançamento+CD+Folklore+4+Participação+em+'Viva+Jujuy'">busca Google</a> |            <a href="http://www.bing.com/search?q=Lançamento+CD+Folklore+4+Participação+em+'Viva+Jujuy'">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>MATOS, D. ; TAKAHAMA, Alexandre Machado. <b>Participação na gravação do CD 'Buscando Sonhos', de Diogo Matos</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Participação+na+gravação+do+CD+'Buscando+Sonhos',+de+Diogo+Matos">busca Google</a> |            <a href="http://www.bing.com/search?q=Participação+na+gravação+do+CD+'Buscando+Sonhos',+de+Diogo+Matos">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>SANTOS, J. D. T. <b>Recital de Abertura do I Fórum de Desenvolvimento da Região da Unipampa</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Recital+de+Abertura+do+I+Fórum+de+Desenvolvimento+da+Região+da+Unipampa">busca Google</a> |            <a href="http://www.bing.com/search?q=Recital+de+Abertura+do+I+Fórum+de+Desenvolvimento+da+Região+da+Unipampa">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>SANTOS, J. D. T. <b>Concerto no Espacio Cultural Marcó del Pont, Buenos Aires - Latino-América Duo</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+no+Espacio+Cultural+Marcó+del+Pont,+Buenos+Aires+-+Latino-América+Duo">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+no+Espacio+Cultural+Marcó+del+Pont,+Buenos+Aires+-+Latino-América+Duo">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>SANTOS, J. D. T. <b>Ciclo de conciertos La Escuela va al Teatro - Latino-América Duo - Moron, Argentina</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Ciclo+de+conciertos+La+Escuela+va+al+Teatro+-+Latino-América+Duo+-+Moron,+Argentina">busca Google</a> |            <a href="http://www.bing.com/search?q=Ciclo+de+conciertos+La+Escuela+va+al+Teatro+-+Latino-América+Duo+-+Moron,+Argentina">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>SANTOS, J. D. T. <b>Concerto na 'Cámara de la Construcción de La Plata' - Latino-América Duo</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+na+'Cámara+de+la+Construcción+de+La+Plata'+-+Latino-América+Duo">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+na+'Cámara+de+la+Construcción+de+La+Plata'+-+Latino-América+Duo">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>SANTOS, J. D. T. <b>Concerto no Ciclo Música y Guitarra' da Universidad Catolica del Uruguay - Latino-America Duo</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+no+Ciclo+Música+y+Guitarra'+da+Universidad+Catolica+del+Uruguay+-+Latino-America+Duo">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+no+Ciclo+Música+y+Guitarra'+da+Universidad+Catolica+del+Uruguay+-+Latino-America+Duo">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>SANTOS, J. D. T. <b>Concerto no Centro de Cultura de España (Uruguay) - Latino-América Duo</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+no+Centro+de+Cultura+de+España+(Uruguay)+-+Latino-América+Duo">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+no+Centro+de+Cultura+de+España+(Uruguay)+-+Latino-América+Duo">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>SANTOS, J. D. T. <b>Concerto na Feira do Livro de Caçapava do Sul - Latino-América Duo</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+na+Feira+do+Livro+de+Caçapava+do+Sul+-+Latino-América+Duo">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+na+Feira+do+Livro+de+Caçapava+do+Sul+-+Latino-América+Duo">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>SANTOS, J. D. T. <b>Concerto no I Seminário Internacional de Violão do Pampa</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+no+I+Seminário+Internacional+de+Violão+do+Pampa">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+no+I+Seminário+Internacional+de+Violão+do+Pampa">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>SANTOS, J. D. T. <b>Concerto no Espaço Cultural Correios - Niterói</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+no+Espaço+Cultural+Correios+-+Niterói">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+no+Espaço+Cultural+Correios+-+Niterói">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>SANTOS, J. D. T. <b>Concerto na Universidade Federal do Estado do Rio de Janeiro - UNIRIO com Latino-América Duo</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+na+Universidade+Federal+do+Estado+do+Rio+de+Janeiro+-+UNIRIO+com+Latino-América+Duo">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+na+Universidade+Federal+do+Estado+do+Rio+de+Janeiro+-+UNIRIO+com+Latino-América+Duo">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>SANTOS, J. D. T. <b>Recital no Centro Cultural Francisco Mignone - Latino-América Duo</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Recital+no+Centro+Cultural+Francisco+Mignone+-+Latino-América+Duo">busca Google</a> |            <a href="http://www.bing.com/search?q=Recital+no+Centro+Cultural+Francisco+Mignone+-+Latino-América+Duo">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>SANTOS, J. D. T. <b>Concerto no Projeto Quintas Musicais da Reitoria da Unirio - Latino-América Duo</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+no+Projeto+Quintas+Musicais+da+Reitoria+da+Unirio+-+Latino-América+Duo">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+no+Projeto+Quintas+Musicais+da+Reitoria+da+Unirio+-+Latino-América+Duo">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>SANTOS, J. D. T. <b>Concerto no Teatro Municipal</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+no+Teatro+Municipal">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+no+Teatro+Municipal">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>SANTOS, J. D. T. <b>Concerto no Projeto Sete ao Entardecer - Latino-América Duo</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+no+Projeto+Sete+ao+Entardecer+-+Latino-América+Duo">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+no+Projeto+Sete+ao+Entardecer+-+Latino-América+Duo">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>SANTOS, J. D. T. <b>Concerto no Centro Regional de Cultura de Rio Pardo - Latino-América Duo</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+no+Centro+Regional+de+Cultura+de+Rio+Pardo+-+Latino-América+Duo">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+no+Centro+Regional+de+Cultura+de+Rio+Pardo+-+Latino-América+Duo">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>SANTOS, J. D. T. <b>Concerto no Projeto Sarau no Solar - Assembléia Legislativa de Porto Alegre - Latino-América Duo</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+no+Projeto+Sarau+no+Solar+-+Assembléia+Legislativa+de+Porto+Alegre+-+Latino-América+Duo">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+no+Projeto+Sarau+no+Solar+-+Assembléia+Legislativa+de+Porto+Alegre+-+Latino-América+Duo">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>SANTOS, J. D. T. <b>Recital de Abertura do 55° Congresso da Sociedade Brasileira de Economia, Administração e Sociologia Rural / Inovação, Extensão e Cooperação para o Desenvolvimento - Latino-América Duo</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Recital+de+Abertura+do+55°+Congresso+da+Sociedade+Brasileira+de+Economia,+Administração+e+Sociologia+Rural+/+Inovação,+Extensão+e+Cooperação+para+o+Desenvolvimento+-+Latino-América+Duo">busca Google</a> |            <a href="http://www.bing.com/search?q=Recital+de+Abertura+do+55°+Congresso+da+Sociedade+Brasileira+de+Economia,+Administração+e+Sociologia+Rural+/+Inovação,+Extensão+e+Cooperação+para+o+Desenvolvimento+-+Latino-América+Duo">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>SANTOS, J. D. T. <b>Concerto em Santana do Livramento - Programação Oficial de Aniversário - Latino-América Duo</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+em+Santana+do+Livramento+-+Programação+Oficial+de+Aniversário+-+Latino-América+Duo">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+em+Santana+do+Livramento+-+Programação+Oficial+de+Aniversário+-+Latino-América+Duo">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>SANTOS, J. D. T. <b>Concerto no IFRS - Câmpus Porto Alegre - Projeto Prelúdio</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+no+IFRS+-+Câmpus+Porto+Alegre+-+Projeto+Prelúdio">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+no+IFRS+-+Câmpus+Porto+Alegre+-+Projeto+Prelúdio">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>SANTOS, J. D. T. <b>Concerto na Escuela Superior de Música 'Juan Pedro Esnaola', Buenos Aires - Latino-América Duo</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+na+Escuela+Superior+de+Música+'Juan+Pedro+Esnaola',+Buenos+Aires+-+Latino-América+Duo">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+na+Escuela+Superior+de+Música+'Juan+Pedro+Esnaola',+Buenos+Aires+-+Latino-América+Duo">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>SANTOS, J. D. T.; Simon, Alexandre S.. <b>CD 'Latino-América Duo: Música instrumental brasileira e latinoamericana' (Duo de Violões)</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=CD+'Latino-América+Duo:+Música+instrumental+brasileira+e+latinoamericana'+(Duo+de+Violões)">busca Google</a> |            <a href="http://www.bing.com/search?q=CD+'Latino-América+Duo:+Música+instrumental+brasileira+e+latinoamericana'+(Duo+de+Violões)">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>SANTOS, J. D. T.; Simon, Alexandre S.. <b>Concerto em homenagem aos 95 anos da Escola de Belas Artes de Rio Grande - Latino-América Duo</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+em+homenagem+aos+95+anos+da+Escola+de+Belas+Artes+de+Rio+Grande+-+Latino-América+Duo">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+em+homenagem+aos+95+anos+da+Escola+de+Belas+Artes+de+Rio+Grande+-+Latino-América+Duo">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>SANTOS, J. D. T.; Simon, Alexandre S.. <b>Concerto na Biblioteca Pública Pelotense - Latino-América Duo</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+na+Biblioteca+Pública+Pelotense+-+Latino-América+Duo">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+na+Biblioteca+Pública+Pelotense+-+Latino-América+Duo">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>SANTOS, J. D. T.; Simon, Alexandre S.. <b>Concerto na Asociación Amigos de la Música de Zárate, Argentina - Latino-América Duo</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+na+Asociación+Amigos+de+la+Música+de+Zárate,+Argentina+-+Latino-América+Duo">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+na+Asociación+Amigos+de+la+Música+de+Zárate,+Argentina+-+Latino-América+Duo">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>SANTOS, J. D. T.; Simon, Alexandre S.. <b>Concerto na Fundação Ecarta de Porto Alegre</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+na+Fundação+Ecarta+de+Porto+Alegre">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+na+Fundação+Ecarta+de+Porto+Alegre">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>TAKAHAMA, Alexandre Machado; MATOS, D.. <b>Participação no show de lançamento do CD 'Buscando Sonhos', de Diogo Matos</b>. 2017.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Participação+no+show+de+lançamento+do+CD+'Buscando+Sonhos',+de+Diogo+Matos">busca Google</a> |            <a href="http://www.bing.com/search?q=Participação+no+show+de+lançamento+do+CD+'Buscando+Sonhos',+de+Diogo+Matos">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANGELO, B. M. <b>Quarteto de Cordas N</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Quarteto+de+Cordas+N">busca Google</a> |            <a href="http://www.bing.com/search?q=Quarteto+de+Cordas+N">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ANGELO, B. M. <b>Stick Race!</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Stick+Race!">busca Google</a> |            <a href="http://www.bing.com/search?q=Stick+Race!">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>ANGELO, B. M. <b>Suíte da Tarde Ociosa</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Suíte+da+Tarde+Ociosa">busca Google</a> |            <a href="http://www.bing.com/search?q=Suíte+da+Tarde+Ociosa">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ANGELO, B. M.; ESTEVES, D.. <b>Enquanto o Espetáculo Novo Não Vem</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Enquanto+o+Espetáculo+Novo+Não+Vem">busca Google</a> |            <a href="http://www.bing.com/search?q=Enquanto+o+Espetáculo+Novo+Não+Vem">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>ANGELO, B. M.; LOPEZ, A. M. ; BOFF, F. B.. <b>Instantes de encontro: o vínculo entre música e dança como processo criativo</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Instantes+de+encontro:+o+vínculo+entre+música+e+dança+como+processo+criativo">busca Google</a> |            <a href="http://www.bing.com/search?q=Instantes+de+encontro:+o+vínculo+entre+música+e+dança+como+processo+criativo">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>BOZZETTO, Adriana.; KLEBER, M. ; ARAUJO, L. ; BUENO, A. C.. <b>Espetáculo Congruências - Abertura da temporada cultural FUNDARTE</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Espetáculo+Congruências+-+Abertura+da+temporada+cultural+FUNDARTE">busca Google</a> |            <a href="http://www.bing.com/search?q=Espetáculo+Congruências+-+Abertura+da+temporada+cultural+FUNDARTE">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>BRUM, T. ; TAKAHAMA, Alexandre Machado. <b>Participação na gravação do CD 'Merecimento', de Tuny Brum</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Participação+na+gravação+do+CD+'Merecimento',+de+Tuny+Brum">busca Google</a> |            <a href="http://www.bing.com/search?q=Participação+na+gravação+do+CD+'Merecimento',+de+Tuny+Brum">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>KLEBER, M. ; BUENO, A. C. ; ALQUATI, R. ; BOZZETTO, Adriana.. <b>Show do CD Congruências, de Matheus Kleber</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Show+do+CD+Congruências,+de+Matheus+Kleber">busca Google</a> |            <a href="http://www.bing.com/search?q=Show+do+CD+Congruências,+de+Matheus+Kleber">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>LEITE, M. C. <b>Cuerda Grillo Candombero - Candombe Sociedade Uruguaia</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Cuerda+Grillo+Candombero+-+Candombe+Sociedade+Uruguaia">busca Google</a> |            <a href="http://www.bing.com/search?q=Cuerda+Grillo+Candombero+-+Candombe+Sociedade+Uruguaia">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>LEITE, M. C. <b>Cuerda Grillo Candombero - Candombe Sociedade Uruguaia</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Cuerda+Grillo+Candombero+-+Candombe+Sociedade+Uruguaia">busca Google</a> |            <a href="http://www.bing.com/search?q=Cuerda+Grillo+Candombero+-+Candombe+Sociedade+Uruguaia">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>LEITE, M. C. <b>Cuerda Grillo Candombero - Candombe Sociedade Uruguaia</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Cuerda+Grillo+Candombero+-+Candombe+Sociedade+Uruguaia">busca Google</a> |            <a href="http://www.bing.com/search?q=Cuerda+Grillo+Candombero+-+Candombe+Sociedade+Uruguaia">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>LEITE, M. C.; PACHECO, E. G.. <b>Percussivamente - Percussão e Educação Musical no contexto da Educação Básica, Um Encontro entre UERGS, UNIPAMPA e URCAMP</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Percussivamente+-+Percussão+e+Educação+Musical+no+contexto+da+Educação+Básica,+Um+Encontro+entre+UERGS,+UNIPAMPA+e+URCAMP">busca Google</a> |            <a href="http://www.bing.com/search?q=Percussivamente+-+Percussão+e+Educação+Musical+no+contexto+da+Educação+Básica,+Um+Encontro+entre+UERGS,+UNIPAMPA+e+URCAMP">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>LOPARDO, C. E. <b>faixa 'Viva Jujuy' do CD do grupo Folklore 4</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=faixa+'Viva+Jujuy'+do+CD+do+grupo+Folklore+4">busca Google</a> |            <a href="http://www.bing.com/search?q=faixa+'Viva+Jujuy'+do+CD+do+grupo+Folklore+4">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>LOPARDO, C. E. <b>A receita da Bruxa</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=A+receita+da+Bruxa">busca Google</a> |            <a href="http://www.bing.com/search?q=A+receita+da+Bruxa">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>LOPARDO, C. E. <b>Concertos didáticos da CONFRARIA DE LA YERBA</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concertos+didáticos+da+CONFRARIA+DE+LA+YERBA">busca Google</a> |            <a href="http://www.bing.com/search?q=Concertos+didáticos+da+CONFRARIA+DE+LA+YERBA">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>LOPARDO, C. E. <b>Apresentações musicais da CONFRARIA DE LA YERBA</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Apresentações+musicais+da+CONFRARIA+DE+LA+YERBA">busca Google</a> |            <a href="http://www.bing.com/search?q=Apresentações+musicais+da+CONFRARIA+DE+LA+YERBA">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>SANTOS, J. D. T. <b>Concerto na 'Semana do 6º Aniversário do IFSul Campus Bagé' com a Camerata Pampeana de Violões</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+na+'Semana+do+6º+Aniversário+do+IFSul+Campus+Bagé'+com+a+Camerata+Pampeana+de+Violões">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+na+'Semana+do+6º+Aniversário+do+IFSul+Campus+Bagé'+com+a+Camerata+Pampeana+de+Violões">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>SANTOS, J. D. T. <b>Concerto de Abertura do 22º Encontro da Associação Sul Rio Grandense de Pesquisadores em História da Educação (ASPHE) com a Camerata Pampeana de Violões</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concerto+de+Abertura+do+22º+Encontro+da+Associação+Sul+Rio+Grandense+de+Pesquisadores+em+História+da+Educação+(ASPHE)+com+a+Camerata+Pampeana+de+Violões">busca Google</a> |            <a href="http://www.bing.com/search?q=Concerto+de+Abertura+do+22º+Encontro+da+Associação+Sul+Rio+Grandense+de+Pesquisadores+em+História+da+Educação+(ASPHE)+com+a+Camerata+Pampeana+de+Violões">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>SANTOS, J. D. T. <b>Show com Grupo de Choro da Unipampa na 19ªº Feira do Livro de Bagé</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Show+com+Grupo+de+Choro+da+Unipampa+na+19ªº+Feira+do+Livro+de+Bagé">busca Google</a> |            <a href="http://www.bing.com/search?q=Show+com+Grupo+de+Choro+da+Unipampa+na+19ªº+Feira+do+Livro+de+Bagé">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>TAKAHAMA, Alexandre Machado. <b>Apresentação e Gravação da música 'Nosso Coração', de autoria de Telmo Vasconcelos, Márcio Barboza Cardoso e Heber Santos, no 2º FESTIVAL UNIMED DA CANÇÃO NATIVA</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Apresentação+e+Gravação+da+música+'Nosso+Coração',+de+autoria+de+Telmo+Vasconcelos,+Márcio+Barboza+Cardoso+e+Heber+Santos,+no+2º+FESTIVAL+UNIMED+DA+CANÇÃO+NATIVA">busca Google</a> |            <a href="http://www.bing.com/search?q=Apresentação+e+Gravação+da+música+'Nosso+Coração',+de+autoria+de+Telmo+Vasconcelos,+Márcio+Barboza+Cardoso+e+Heber+Santos,+no+2º+FESTIVAL+UNIMED+DA+CANÇÃO+NATIVA">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>TAKAHAMA, Alexandre Machado. <b>Apresentação e Gravação da música 'O remédio pode ser uma canção', de autoria de Ramires Monteiro e Cleber Brenner, no 2º FESTIVAL UNIMED DA CANÇÃO NATIVA</b>. 2016.<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Apresentação+e+Gravação+da+música+'O+remédio+pode+ser+uma+canção',+de+autoria+de+Ramires+Monteiro+e+Cleber+Brenner,+no+2º+FESTIVAL+UNIMED+DA+CANÇÃO+NATIVA">busca Google</a> |            <a href="http://www.bing.com/search?q=Apresentação+e+Gravação+da+música+'O+remédio+pode+ser+uma+canção',+de+autoria+de+Ramires+Monteiro+e+Cleber+Brenner,+no+2º+FESTIVAL+UNIMED+DA+CANÇÃO+NATIVA">busca Bing</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 15:17:42<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

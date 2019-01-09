@@ -1,0 +1,319 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Bage</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Bage</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Demais tipos de produção técnica'}, 
+series: [{data: [[2016,
+31],
+[2017,
+33],
+[2018,
+17]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Demais tipos de produção técnica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 83<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ESCOBAR, D. C. ; SIMIONI, T.. <b>Unidade didática sobre como trabalhar a concordância verbal em situações formais escritas no terceiro ano do Ensino Médio</b>. 2018. Desenvolvimento de material didático ou instrucional - SupervisãoTécnicadeMaterialDidático<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Unidade+didática+sobre+como+trabalhar+a+concordância+verbal+em+situações+formais+escritas+no+terceiro+ano+do+Ensino+Médio">busca Google</a> |            <a href="http://www.bing.com/search?q=Unidade+didática+sobre+como+trabalhar+a+concordância+verbal+em+situações+formais+escritas+no+terceiro+ano+do+Ensino+Médio">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>IRALA, Valesca Brasil; da Luz, Rosinêz. <b>Santa Rosa to the world</b>. 2018. Desenvolvimento de material didático ou instrucional - Supervisão Técnica de Material Didático<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Santa+Rosa+to+the+world">busca Google</a> |            <a href="http://www.bing.com/search?q=Santa+Rosa+to+the+world">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>LOPARDO, C. E. <b>Educação musical para bebês</b>. 2018. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Educação+musical+para+bebês">busca Google</a> |            <a href="http://www.bing.com/search?q=Educação+musical+para+bebês">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>LOPARDO, C. E. <b>Formação em música para professores da educação infantil</b>. 2018. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Formação+em+música+para+professores+da+educação+infantil">busca Google</a> |            <a href="http://www.bing.com/search?q=Formação+em+música+para+professores+da+educação+infantil">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>PIOVESAN, S. D. <b>Semana de Capacitação dos Docentes EaD 2018.1</b>. 2018. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Semana+de+Capacitação+dos+Docentes+EaD+2018.1">busca Google</a> |            <a href="http://www.bing.com/search?q=Semana+de+Capacitação+dos+Docentes+EaD+2018.1">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>PIOVESAN, S. D. <b>Docência da Educação a Distância</b>. 2018. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Docência+da+Educação+a+Distância">busca Google</a> |            <a href="http://www.bing.com/search?q=Docência+da+Educação+a+Distância">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>PIOVESAN, S. D. <b>Capacitação EaD/UNIPAMPA para Tutores UAB - 1a edição</b>. 2018. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Capacitação+EaD/UNIPAMPA+para+Tutores+UAB+-+1a+edição">busca Google</a> |            <a href="http://www.bing.com/search?q=Capacitação+EaD/UNIPAMPA+para+Tutores+UAB+-+1a+edição">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>PIOVESAN, S. D. <b>Capacitação no AVA Moodle para Docentes e Técnico-Administrativo em Educação</b>. 2018. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Capacitação+no+AVA+Moodle+para+Docentes+e+Técnico-Administrativo+em+Educação">busca Google</a> |            <a href="http://www.bing.com/search?q=Capacitação+no+AVA+Moodle+para+Docentes+e+Técnico-Administrativo+em+Educação">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>PIOVESAN, S. D. <b>Diálogos Docentes: Organização das Aulas na Plataforma Moodle</b>. 2018. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Diálogos+Docentes:+Organização+das+Aulas+na+Plataforma+Moodle">busca Google</a> |            <a href="http://www.bing.com/search?q=Diálogos+Docentes:+Organização+das+Aulas+na+Plataforma+Moodle">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>PIOVESAN, S. D. <b>Docência e Tutoria EaD/UAB: Treinamento para o MOODLE</b>. 2018. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Docência+e+Tutoria+EaD/UAB:+Treinamento+para+o+MOODLE">busca Google</a> |            <a href="http://www.bing.com/search?q=Docência+e+Tutoria+EaD/UAB:+Treinamento+para+o+MOODLE">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>PIOVESAN, S. D. <b>Capacitação em Tutoria Para Atuação na Educação a Distância</b>. 2018. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Capacitação+em+Tutoria+Para+Atuação+na+Educação+a+Distância">busca Google</a> |            <a href="http://www.bing.com/search?q=Capacitação+em+Tutoria+Para+Atuação+na+Educação+a+Distância">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>PIOVESAN, S. D. <b>Workshop MOODLE: descobrindo possibilidades e minimizando dificuldades</b>. 2018. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Workshop+MOODLE:+descobrindo+possibilidades+e+minimizando+dificuldades">busca Google</a> |            <a href="http://www.bing.com/search?q=Workshop+MOODLE:+descobrindo+possibilidades+e+minimizando+dificuldades">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>PIOVESAN, S. D. <b>Capacitação EaD/UNIPAMPA para Tutores UAB - 2a edição</b>. 2018. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Capacitação+EaD/UNIPAMPA+para+Tutores+UAB+-+2a+edição">busca Google</a> |            <a href="http://www.bing.com/search?q=Capacitação+EaD/UNIPAMPA+para+Tutores+UAB+-+2a+edição">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>SIMIONI, T. <b>Mediação em Roda de Conversa Práticas inovadoras no ensino de línguas</b>. 2018. Mediação em roda de conversa<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Mediação+em+Roda+de+Conversa+Práticas+inovadoras+no+ensino+de+línguas">busca Google</a> |            <a href="http://www.bing.com/search?q=Mediação+em+Roda+de+Conversa+Práticas+inovadoras+no+ensino+de+línguas">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>SIMIONI, T.; MARTINEZ, K. L. ; LOPES, L. C. ; DUTRA, M. L.. <b>Oficina 'Adequação e inadequação: redescobrindo a variação linguística'</b>. 2018. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Oficina+'Adequação+e+inadequação:+redescobrindo+a+variação+linguística'">busca Google</a> |            <a href="http://www.bing.com/search?q=Oficina+'Adequação+e+inadequação:+redescobrindo+a+variação+linguística'">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>SIMIONI, T.; QUINTANA, A. C. ; LAUS, M. S. ; CASTRO, P. O.. <b>Oficina 'E onde tá a variação linguística'</b>. 2018. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Oficina+'E+onde+tá+a+variação+linguística'">busca Google</a> |            <a href="http://www.bing.com/search?q=Oficina+'E+onde+tá+a+variação+linguística'">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>TEIXEIRA, L. H. P. <b>Práticas vocais coletivas na educação básica</b>. 2018. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Práticas+vocais+coletivas+na+educação+básica">busca Google</a> |            <a href="http://www.bing.com/search?q=Práticas+vocais+coletivas+na+educação+básica">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BASTOS A. R. B; DANTAS, L. M.. <b>PRODUÇÃO DE RECURSOS ACESSIVEIS AO ENSINO</b>. 2017. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=PRODUÇÃO+DE+RECURSOS+ACESSIVEIS+AO+ENSINO">busca Google</a> |            <a href="http://www.bing.com/search?q=PRODUÇÃO+DE+RECURSOS+ACESSIVEIS+AO+ENSINO">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BASTOS A. R. B; MAIA, L. D.. <b>Desenho universal para a aprendizagem no ambito do ensino de quimica</b>. 2017. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Desenho+universal+para+a+aprendizagem+no+ambito+do+ensino+de+quimica">busca Google</a> |            <a href="http://www.bing.com/search?q=Desenho+universal+para+a+aprendizagem+no+ambito+do+ensino+de+quimica">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BASTOS A. R. B; PACHECO, Débora P. ; COSTA, E.. <b>DESENHO UNIVERSAL DA APRENDIZAGEM</b>. 2017. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=DESENHO+UNIVERSAL+DA+APRENDIZAGEM">busca Google</a> |            <a href="http://www.bing.com/search?q=DESENHO+UNIVERSAL+DA+APRENDIZAGEM">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CASSANA, M. F.; SILVA, T. S.. <b>Análises textuais-discursivas para a diversidade</b>. 2017. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Análises+textuais-discursivas+para+a+diversidade">busca Google</a> |            <a href="http://www.bing.com/search?q=Análises+textuais-discursivas+para+a+diversidade">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CORREA, S. M. ; VOSS, Dulce Mari da Silva. <b>Propostas sobre o brincar na Educação Infantil a partir da utilização de materiais não-estruturados</b>. 2017. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Propostas+sobre+o+brincar+na+Educação+Infantil+a+partir+da+utilização+de+materiais+não-estruturados">busca Google</a> |            <a href="http://www.bing.com/search?q=Propostas+sobre+o+brincar+na+Educação+Infantil+a+partir+da+utilização+de+materiais+não-estruturados">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>DIAS, J. ; DORNELES, P. F. T.. <b>INICIAÇÃO À PLATAFORMA ARDUINO: TEORIA E PRÁTICA</b>. 2017. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=INICIAÇÃO+À+PLATAFORMA+ARDUINO:+TEORIA+E+PRÁTICA">busca Google</a> |            <a href="http://www.bing.com/search?q=INICIAÇÃO+À+PLATAFORMA+ARDUINO:+TEORIA+E+PRÁTICA">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>DORNELES, P. F. T.; DIAS, J.. <b>Introdução à modelagem computacional utilizando o Software Modellus</b>. 2017. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Introdução+à+modelagem+computacional+utilizando+o+Software+Modellus">busca Google</a> |            <a href="http://www.bing.com/search?q=Introdução+à+modelagem+computacional+utilizando+o+Software+Modellus">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>IRALA, Valesca Brasil; LASSEN, L.. <b>Can you be a youtuber?</b>. 2017. Desenvolvimento de material didático ou instrucional - Supervisão Técnica de Material Didático<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Can+you+be+a+youtuber?">busca Google</a> |            <a href="http://www.bing.com/search?q=Can+you+be+a+youtuber?">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>IRALA, Valesca Brasil; OLIVEIRA, J.. <b>MDA - versão Strongers</b>. 2017. Desenvolvimento de material didático ou instrucional - Supervisão Técnica de Material Didático<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=MDA+-+versão+Strongers">busca Google</a> |            <a href="http://www.bing.com/search?q=MDA+-+versão+Strongers">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>IRALA, Valesca Brasil; OLIVEIRA, J.. <b>MDA - versão Weakers</b>. 2017. Desenvolvimento de material didático ou instrucional - Supervisão Técnica de Material Didático<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=MDA+-+versão+Weakers">busca Google</a> |            <a href="http://www.bing.com/search?q=MDA+-+versão+Weakers">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Marranghello, G F. <b>As Caixas Mágicas da Ciência</b>. 2017. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=As+Caixas+Mágicas+da+Ciência">busca Google</a> |            <a href="http://www.bing.com/search?q=As+Caixas+Mágicas+da+Ciência">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Marranghello, G F. <b>As Aventuras de Zito: As Cores do Universo</b>. 2017. Desenvolvimento de material didático ou instrucional - vídeo educacional<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=As+Aventuras+de+Zito:+As+Cores+do+Universo">busca Google</a> |            <a href="http://www.bing.com/search?q=As+Aventuras+de+Zito:+As+Cores+do+Universo">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>MARTINS, Claudete da Silva Lima; BRIZOLLA, F. ; MELLO, Elena Maria Billig ; FREITAS, D. P. S.. <b>Seminário ?Inovação Pedagógica: repensando estratégias de formação acadêmico-profissional em diálogo entre Educação Básica e Educação Superior</b>. 2017. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Seminário+?Inovação+Pedagógica:+repensando+estratégias+de+formação+acadêmico-profissional+em+diálogo+entre+Educação+Básica+e+Educação+Superior">busca Google</a> |            <a href="http://www.bing.com/search?q=Seminário+?Inovação+Pedagógica:+repensando+estratégias+de+formação+acadêmico-profissional+em+diálogo+entre+Educação+Básica+e+Educação+Superior">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>MARTINS, M. A. R. ; SINKS, U. E. ; Casartelli, M. R. ; FIRME, M. V. F.. <b>Relatorio de Atividades 2016, Relatorio Parcial PIBID UNIPAMPA</b>. 2017. Relatório de Atividades<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Relatorio+de+Atividades+2016,+Relatorio+Parcial+PIBID+UNIPAMPA">busca Google</a> |            <a href="http://www.bing.com/search?q=Relatorio+de+Atividades+2016,+Relatorio+Parcial+PIBID+UNIPAMPA">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Martins, Márcio M. <b>Tecnologias digitais aplicadas ao ensino. 2017</b>. 2017. <br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Tecnologias+digitais+aplicadas+ao+ensino.+2017">busca Google</a> |            <a href="http://www.bing.com/search?q=Tecnologias+digitais+aplicadas+ao+ensino.+2017">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>MISSAU, F.C. <b>Avaliador de trabalhos apresentados no 9º Salão Internacional de Ensino, pesquisa e extensão</b>. 2017. Avaliador<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Avaliador+de+trabalhos+apresentados+no+9º+Salão+Internacional+de+Ensino,+pesquisa+e+extensão">busca Google</a> |            <a href="http://www.bing.com/search?q=Avaliador+de+trabalhos+apresentados+no+9º+Salão+Internacional+de+Ensino,+pesquisa+e+extensão">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>MISSAU, F.C. <b>Avaliador de resumos submetidos ao 9º Salão Internacional de Ensino, Pesquisa e Extensão</b>. 2017. Avaliador<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Avaliador+de+resumos+submetidos+ao+9º+Salão+Internacional+de+Ensino,+Pesquisa+e+Extensão">busca Google</a> |            <a href="http://www.bing.com/search?q=Avaliador+de+resumos+submetidos+ao+9º+Salão+Internacional+de+Ensino,+Pesquisa+e+Extensão">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>NOGUEIRA, C. R. D. ; VIEIRA, M. A. ; SCHWARTZ, S. <b>Licenciatura Geografia Ead</b>. 2017. Desenvolvimento de material didático ou instrucional - Projeto de curso de licenciatura Geografia EAD<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Licenciatura+Geografia+Ead">busca Google</a> |            <a href="http://www.bing.com/search?q=Licenciatura+Geografia+Ead">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>PEREIRA, A. R.; FERREIRA, V. S. ; PIOVESAN, S. D. ; ANTUNES, V. M. ; AMARAL, F.. <b>Produção de Material Didático-Pedagógico em EaD</b>. 2017. Desenvolvimento de material didático ou instrucional - Produção de Material EaD<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Produção+de+Material+Didático-Pedagógico+em+EaD">busca Google</a> |            <a href="http://www.bing.com/search?q=Produção+de+Material+Didático-Pedagógico+em+EaD">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>PIOVESAN, S. D. <b>Capacitação para o AVA Moodle</b>. 2017. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Capacitação+para+o+AVA+Moodle">busca Google</a> |            <a href="http://www.bing.com/search?q=Capacitação+para+o+AVA+Moodle">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>PIOVESAN, S. D. <b>Capacitação no Ava Moodle</b>. 2017. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Capacitação+no+Ava+Moodle">busca Google</a> |            <a href="http://www.bing.com/search?q=Capacitação+no+Ava+Moodle">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>PIOVESAN, S. D. <b>CURSO DE CAPACITAÇÃO TUTORIA E AMBIENTE VIRTUAL MOODLE, na 1a, 2a e 3a edições</b>. 2017. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=CURSO+DE+CAPACITAÇÃO+TUTORIA+E+AMBIENTE+VIRTUAL+MOODLE,+na+1a,+2a+e+3a+edições">busca Google</a> |            <a href="http://www.bing.com/search?q=CURSO+DE+CAPACITAÇÃO+TUTORIA+E+AMBIENTE+VIRTUAL+MOODLE,+na+1a,+2a+e+3a+edições">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>PIOVESAN, S. D. <b>1º Curso de Capacitação Moodle para Docentes</b>. 2017. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=1º+Curso+de+Capacitação+Moodle+para+Docentes">busca Google</a> |            <a href="http://www.bing.com/search?q=1º+Curso+de+Capacitação+Moodle+para+Docentes">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>PIOVESAN, S. D. <b>Tutorial Capacitação de Utilização Ambiente Moodle</b>. 2017. Desenvolvimento de material didático ou instrucional - Elaboradora de Material<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Tutorial+Capacitação+de+Utilização+Ambiente+Moodle">busca Google</a> |            <a href="http://www.bing.com/search?q=Tutorial+Capacitação+de+Utilização+Ambiente+Moodle">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>ROSA, D. T. C. ; SIMIONI, T.. <b>Tutorial de como fazer um documentário</b>. 2017. Desenvolvimento de material didático ou instrucional - Supervisão Técnica de Material Didático<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Tutorial+de+como+fazer+um+documentário">busca Google</a> |            <a href="http://www.bing.com/search?q=Tutorial+de+como+fazer+um+documentário">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>RÊGO, Z. L. G. P. <b>Mostra Científica do 9 Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE)</b>. 2017. Parecerista<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Mostra+Científica+do+9+Salão+Internacional+de+Ensino,+Pesquisa+e+Extensão+(SIEPE)">busca Google</a> |            <a href="http://www.bing.com/search?q=Mostra+Científica+do+9+Salão+Internacional+de+Ensino,+Pesquisa+e+Extensão+(SIEPE)">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>SANTOS, M. F. ; Martins, Márcio M. ; SANTOS, G. S.. <b>Kahoot!: Proposta de jogo didático para o ensino</b>. 2017. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Kahoot!:+Proposta+de+jogo+didático+para+o+ensino">busca Google</a> |            <a href="http://www.bing.com/search?q=Kahoot!:+Proposta+de+jogo+didático+para+o+ensino">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>SCHWARTZ, S; BIANCHI, P. ; CARPES, R. H. ; VIEIRA, M. A.. <b>Pedagogia EAD</b>. 2017. Desenvolvimento de material didático ou instrucional - Projeto de Curso de Licenciatura em Pedagogia EAD<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Pedagogia+EAD">busca Google</a> |            <a href="http://www.bing.com/search?q=Pedagogia+EAD">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>SCHWARTZ, S; BIANCHI, P. ; CARPES, R. H. ; VIEIRA, M. A.. <b>Gestão Educação Básica</b>. 2017. Desenvolvimento de material didático ou instrucional - Especialização<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Gestão+Educação+Básica">busca Google</a> |            <a href="http://www.bing.com/search?q=Gestão+Educação+Básica">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>SCHWARTZ, S; BIANCHI, P. ; CARPES, R. H. ; VIEIRA, M. A.. <b>Docência e Gestão no Ensino Superior</b>. 2017. Desenvolvimento de material didático ou instrucional - Mestrado Profissional<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Docência+e+Gestão+no+Ensino+Superior">busca Google</a> |            <a href="http://www.bing.com/search?q=Docência+e+Gestão+no+Ensino+Superior">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>SCHWARTZ, S; VIEIRA, M. A.. <b>Modelo para Plano de Componente Curricular</b>. 2017. Desenvolvimento de material didático ou instrucional - Instrumentodepesquisa<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Modelo+para+Plano+de+Componente+Curricular">busca Google</a> |            <a href="http://www.bing.com/search?q=Modelo+para+Plano+de+Componente+Curricular">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>TAKAHAMA, Alexandre Machado; TOFFOLO, R. A. ; MOREIRA, J. P. M.. <b>Curso de Fomento às Bandas de Música. 2017</b>. 2017. <br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Curso+de+Fomento+às+Bandas+de+Música.+2017">busca Google</a> |            <a href="http://www.bing.com/search?q=Curso+de+Fomento+às+Bandas+de+Música.+2017">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>VASQUES, D. C. F. ; SANTOS, G. S. ; Martins, Márcio M.. <b>MATERIAL DIDÁTICO DIGITAL: UMA PROPOSTA DE ENSINO ATRAVÉS DA PRODUÇÃO DE VÍDEO AULAS</b>. 2017. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=MATERIAL+DIDÁTICO+DIGITAL:+UMA+PROPOSTA+DE+ENSINO+ATRAVÉS+DA+PRODUÇÃO+DE+VÍDEO+AULAS">busca Google</a> |            <a href="http://www.bing.com/search?q=MATERIAL+DIDÁTICO+DIGITAL:+UMA+PROPOSTA+DE+ENSINO+ATRAVÉS+DA+PRODUÇÃO+DE+VÍDEO+AULAS">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANGELO, B. M. <b>Inefável, só que não: uma oficina de escrita sobre música</b>. 2016. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Inefável,+só+que+não:+uma+oficina+de+escrita+sobre+música">busca Google</a> |            <a href="http://www.bing.com/search?q=Inefável,+só+que+não:+uma+oficina+de+escrita+sobre+música">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BASTOS A. <b>R. B. CURSO DE FORMAÇÃO CONTINUADA EM COMUNICAÇÃO ALTERNATIVA</b>. 2016. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=R.+B.+CURSO+DE+FORMAÇÃO+CONTINUADA+EM+COMUNICAÇÃO+ALTERNATIVA">busca Google</a> |            <a href="http://www.bing.com/search?q=R.+B.+CURSO+DE+FORMAÇÃO+CONTINUADA+EM+COMUNICAÇÃO+ALTERNATIVA">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BASTOS A. <b>R. B. CONSTRUÇÃO DE RECURSOS ALTERNATIVOS AO ENSINO DE QUÍMICA PARA ALUNOS COM DEFICIENCIA</b>. 2016. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=R.+B.+CONSTRUÇÃO+DE+RECURSOS+ALTERNATIVOS+AO+ENSINO+DE+QUÍMICA+PARA+ALUNOS+COM+DEFICIENCIA">busca Google</a> |            <a href="http://www.bing.com/search?q=R.+B.+CONSTRUÇÃO+DE+RECURSOS+ALTERNATIVOS+AO+ENSINO+DE+QUÍMICA+PARA+ALUNOS+COM+DEFICIENCIA">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BASTOS A. <b>R. B. Tabela periódica ACESSÍVEL</b>. 2016. Desenvolvimento de material didático ou instrucional - MATERIAL DIDÁTICO<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=R.+B.+Tabela+periódica+ACESSÍVEL">busca Google</a> |            <a href="http://www.bing.com/search?q=R.+B.+Tabela+periódica+ACESSÍVEL">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>BASTOS A. <b>R. B. DIAGRAMA TÁTIL DE LUNUS PAULING</b>. 2016. Desenvolvimento de material didático ou instrucional - MATERIAL DIDÁTICO<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=R.+B.+DIAGRAMA+TÁTIL+DE+LUNUS+PAULING">busca Google</a> |            <a href="http://www.bing.com/search?q=R.+B.+DIAGRAMA+TÁTIL+DE+LUNUS+PAULING">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>CASSANA, M. F. <b>Corpo e discurso</b>. 2016. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Corpo+e+discurso">busca Google</a> |            <a href="http://www.bing.com/search?q=Corpo+e+discurso">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Graciela Palacios ; IRALA, Valesca Brasil. <b>Manual do Jovem Pesquisador: introdução às práticas investigativas no Ensino Médio</b>. 2016. Desenvolvimento de material didático ou instrucional - Supervisão Técnica<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Manual+do+Jovem+Pesquisador:+introdução+às+práticas+investigativas+no+Ensino+Médio">busca Google</a> |            <a href="http://www.bing.com/search?q=Manual+do+Jovem+Pesquisador:+introdução+às+práticas+investigativas+no+Ensino+Médio">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>IRALA, Valesca Brasil; LOPES, N.. <b>Let´s take a selfie - aulas de inglês em tempos de Selfie</b>. 2016. Desenvolvimento de material didático ou instrucional - Supervisão Técnica de Material Didático<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Let´s+take+a+selfie+-+aulas+de+inglês+em+tempos+de+Selfie">busca Google</a> |            <a href="http://www.bing.com/search?q=Let´s+take+a+selfie+-+aulas+de+inglês+em+tempos+de+Selfie">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>IRALA, Valesca Brasil; LOPES, N.. <b>Let´s take a selfie - aulas de inglês em tempos de Selfie (Teacher´s material)</b>. 2016. Desenvolvimento de material didático ou instrucional - Supervisão Técnica de Material Didático<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Let´s+take+a+selfie+-+aulas+de+inglês+em+tempos+de+Selfie+(Teacher´s+material)">busca Google</a> |            <a href="http://www.bing.com/search?q=Let´s+take+a+selfie+-+aulas+de+inglês+em+tempos+de+Selfie+(Teacher´s+material)">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MARTINS, Claudete da Silva Lima. <b>Processo de Ensinagem: breve incursão teórico-metodológica</b>. 2016. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Processo+de+Ensinagem:+breve+incursão+teórico-metodológica">busca Google</a> |            <a href="http://www.bing.com/search?q=Processo+de+Ensinagem:+breve+incursão+teórico-metodológica">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>MARTINS, Claudete da Silva Lima. <b>Curso de Inclusão e Acessibilidade. 2016</b>. 2016. <br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Curso+de+Inclusão+e+Acessibilidade.+2016">busca Google</a> |            <a href="http://www.bing.com/search?q=Curso+de+Inclusão+e+Acessibilidade.+2016">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>MARTINS, Claudete da Silva Lima. <b>Tertúlias: práticas pedagógicas inclusivas do Pampa. 2016</b>. 2016. <br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Tertúlias:+práticas+pedagógicas+inclusivas+do+Pampa.+2016">busca Google</a> |            <a href="http://www.bing.com/search?q=Tertúlias:+práticas+pedagógicas+inclusivas+do+Pampa.+2016">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Martins, Márcio M.; BRITTES, A. H. C. ; CANTAO, P. C. ; VASQUES, D. C. F.. <b>Criação de vídeo-aulas para o ensino de química utilizando recursos gratuitos</b>. 2016. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Criação+de+vídeo-aulas+para+o+ensino+de+química+utilizando+recursos+gratuitos">busca Google</a> |            <a href="http://www.bing.com/search?q=Criação+de+vídeo-aulas+para+o+ensino+de+química+utilizando+recursos+gratuitos">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>MISSAU, F.C. <b>7 Congresso Brasileiro de Extensão Universitária-CBEU</b>. 2016. Revisor de Trabalhos<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=7+Congresso+Brasileiro+de+Extensão+Universitária-CBEU">busca Google</a> |            <a href="http://www.bing.com/search?q=7+Congresso+Brasileiro+de+Extensão+Universitária-CBEU">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>NUNES, A. E. C. ; IRALA, Valesca Brasil. <b>Roteiro didático para escolas brasileiras do contexto fronteiriço platino</b>. 2016. Desenvolvimento de material didático ou instrucional - Supervisão Técnica<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Roteiro+didático+para+escolas+brasileiras+do+contexto+fronteiriço+platino">busca Google</a> |            <a href="http://www.bing.com/search?q=Roteiro+didático+para+escolas+brasileiras+do+contexto+fronteiriço+platino">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>PAIXÃO, A. <b>D.. Literatura Surda. 2016</b>. 2016. <br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=D..+Literatura+Surda.+2016">busca Google</a> |            <a href="http://www.bing.com/search?q=D..+Literatura+Surda.+2016">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>QUADROS, Marília Santos de ; IRALA, Valesca Brasil. <b>Buu -produção escrita de contos de mistério: retextualizando curta-metragem de animação</b>. 2016. Desenvolvimento de material didático ou instrucional - Supervisão Técnica<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Buu+-produção+escrita+de+contos+de+mistério:+retextualizando+curta-metragem+de+animação">busca Google</a> |            <a href="http://www.bing.com/search?q=Buu+-produção+escrita+de+contos+de+mistério:+retextualizando+curta-metragem+de+animação">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>RIBEIRO, L. C. ; LINDEMANN, R. H.. <b>SITUAÇÃO DE ESTUDO: O Recurso hídrico de minha comunidade</b>. 2016. Desenvolvimento de material didático ou instrucional - Situação de Estudo<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=SITUAÇÃO+DE+ESTUDO:+O+Recurso+hídrico+de+minha+comunidade">busca Google</a> |            <a href="http://www.bing.com/search?q=SITUAÇÃO+DE+ESTUDO:+O+Recurso+hídrico+de+minha+comunidade">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>SANTOS, J. D. T. <b>Música e Movimento - Semana Acadêmica da Música 2016. 2016</b>. 2016. <br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Música+e+Movimento+-+Semana+Acadêmica+da+Música+2016.+2016">busca Google</a> |            <a href="http://www.bing.com/search?q=Música+e+Movimento+-+Semana+Acadêmica+da+Música+2016.+2016">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>SANTOS, J. D. T. <b>Ritmos do Sul: Breve introdução e possibilidades de acompanhamento ao violão</b>. 2016. Desenvolvimento de material didático ou instrucional - Apostila<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Ritmos+do+Sul:+Breve+introdução+e+possibilidades+de+acompanhamento+ao+violão">busca Google</a> |            <a href="http://www.bing.com/search?q=Ritmos+do+Sul:+Breve+introdução+e+possibilidades+de+acompanhamento+ao+violão">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>SCHWARTZ, S.H; BIANCHI, P. ; CARPES, R. H.. <b>Qualificação da Gestão do Ensino da Graduação - UNIPAMPA/PROGRAD</b>. 2016. Desenvolvimento de material didático ou instrucional - Planode(auto<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Qualificação+da+Gestão+do+Ensino+da+Graduação+-+UNIPAMPA/PROGRAD">busca Google</a> |            <a href="http://www.bing.com/search?q=Qualificação+da+Gestão+do+Ensino+da+Graduação+-+UNIPAMPA/PROGRAD">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>SCHWARTZ, S; BIANCHI, P. ; CARPES, R. H. ; VIEIRA, M. A.. <b>Plano de (auto) formação continuada 2016-2019. 2016. (Desenvolvimento de material didático ou instrucional - Plano</b>. 2016. Desenvolvimento de material didático ou instrucional - Plano de (auto<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Plano+de+(auto)+formação+continuada+2016-2019.+2016.+(Desenvolvimento+de+material+didático+ou+instrucional+-+Plano">busca Google</a> |            <a href="http://www.bing.com/search?q=Plano+de+(auto)+formação+continuada+2016-2019.+2016.+(Desenvolvimento+de+material+didático+ou+instrucional+-+Plano">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>SCHWARTZ, S; BIANCHI, P. ; CARPES, R. H. ; VIEIRA, M. A.. <b>Docência Ensino Superior</b>. 2016. Desenvolvimento de material didático ou instrucional - Curso Especialização<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Docência+Ensino+Superior">busca Google</a> |            <a href="http://www.bing.com/search?q=Docência+Ensino+Superior">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>SINKS, U. E. <b>RELATÓRIO DE ATIVIDADES 2016 PROGRAMA INSTITUCIONAL DE BOLSA DE INICIAÇÃO À DOCÊNCIA ? PIBID/UNIPAMPA</b>. 2016. Relatório Anual do PIBID Unipampa<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=RELATÓRIO+DE+ATIVIDADES+2016+PROGRAMA+INSTITUCIONAL+DE+BOLSA+DE+INICIAÇÃO+À+DOCÊNCIA+?+PIBID/UNIPAMPA">busca Google</a> |            <a href="http://www.bing.com/search?q=RELATÓRIO+DE+ATIVIDADES+2016+PROGRAMA+INSTITUCIONAL+DE+BOLSA+DE+INICIAÇÃO+À+DOCÊNCIA+?+PIBID/UNIPAMPA">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>TAKAHAMA, Alexandre Machado. <b>Apreciação de Música Sinfônica - Formação de professores da Rede Municipal de Educação de Bagé/RS. 2016</b>. 2016. <br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Apreciação+de+Música+Sinfônica+-+Formação+de+professores+da+Rede+Municipal+de+Educação+de+Bagé/RS.+2016">busca Google</a> |            <a href="http://www.bing.com/search?q=Apreciação+de+Música+Sinfônica+-+Formação+de+professores+da+Rede+Municipal+de+Educação+de+Bagé/RS.+2016">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>TEIXEIRA, L. H. P. <b>A voz falada e cantada como recurso pedagógico em sala de aula</b>. 2016. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=A+voz+falada+e+cantada+como+recurso+pedagógico+em+sala+de+aula">busca Google</a> |            <a href="http://www.bing.com/search?q=A+voz+falada+e+cantada+como+recurso+pedagógico+em+sala+de+aula">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>TEIXEIRA, L. H. P. <b>Concurso Público</b>. 2016. Produção Técnica<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Concurso+Público">busca Google</a> |            <a href="http://www.bing.com/search?q=Concurso+Público">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>VOSS, Dulce Mari da Silva ; MARTINS, Claudete da Silva Lima. <b>Mesa Temática Educação Estético-Ambiental, Currículo e Formação Docente no II Fórum de Produção Científico-Acadêmica do Curso de Especialização em Educação e Diversidade Cultural da Universidade Federal do Pampa</b>. 2016. Avaliação de trabalhos<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Mesa+Temática+Educação+Estético-Ambiental,+Currículo+e+Formação+Docente+no+II+Fórum+de+Produção+Científico-Acadêmica+do+Curso+de+Especialização+em+Educação+e+Diversidade+Cultural+da+Universidade+Federal+do+Pampa">busca Google</a> |            <a href="http://www.bing.com/search?q=Mesa+Temática+Educação+Estético-Ambiental,+Currículo+e+Formação+Docente+no+II+Fórum+de+Produção+Científico-Acadêmica+do+Curso+de+Especialização+em+Educação+e+Diversidade+Cultural+da+Universidade+Federal+do+Pampa">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>VOSS, Dulce Mari da Silva ; MARTINS, Claudete da Silva Lima. <b>Mesa Temática Educação, Mídias e cultura Juvenil no II Fórum de Produção Científico-Acadêmica do Curso de Especialização em Educação e Diversidade Cultural da Universidade Federal do Pampa</b>. 2016. Avaliação de trabalhos<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Mesa+Temática+Educação,+Mídias+e+cultura+Juvenil+no+II+Fórum+de+Produção+Científico-Acadêmica+do+Curso+de+Especialização+em+Educação+e+Diversidade+Cultural+da+Universidade+Federal+do+Pampa">busca Google</a> |            <a href="http://www.bing.com/search?q=Mesa+Temática+Educação,+Mídias+e+cultura+Juvenil+no+II+Fórum+de+Produção+Científico-Acadêmica+do+Curso+de+Especialização+em+Educação+e+Diversidade+Cultural+da+Universidade+Federal+do+Pampa">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>VOSS, Dulce Mari da Silva ; MARTINS, Claudete da Silva Lima. <b>Mesa Temática Educação, Saúde e Inclusão</b>. 2016. Avaliação de trabalhos<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Mesa+Temática+Educação,+Saúde+e+Inclusão">busca Google</a> |            <a href="http://www.bing.com/search?q=Mesa+Temática+Educação,+Saúde+e+Inclusão">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>VOSS, Dulce Mari da Silva; SANTOS, H. G. ; ESMERIO, M. S.. <b>Reformas Curriculares do Ensino Médio no RS: implicações no trabalho docente no cotidiano das escolas</b>. 2016. Relatório de pesquisa<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Reformas+Curriculares+do+Ensino+Médio+no+RS:+implicações+no+trabalho+docente+no+cotidiano+das+escolas">busca Google</a> |            <a href="http://www.bing.com/search?q=Reformas+Curriculares+do+Ensino+Médio+no+RS:+implicações+no+trabalho+docente+no+cotidiano+das+escolas">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>KELM, M. D. <b>Os três gêneros literários: Memórias</b>. 0. Olimpíada de Língua Portuguesa<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Os+três+gêneros+literários:+Memórias">busca Google</a> |            <a href="http://www.bing.com/search?q=Os+três+gêneros+literários:+Memórias">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>RODRIGUES, P. L. R. <b>Oficina - Desenvolvimento Guiado por Testes</b>. 0. TDD<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Oficina+-+Desenvolvimento+Guiado+por+Testes">busca Google</a> |            <a href="http://www.bing.com/search?q=Oficina+-+Desenvolvimento+Guiado+por+Testes">busca Bing</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 15:17:42<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

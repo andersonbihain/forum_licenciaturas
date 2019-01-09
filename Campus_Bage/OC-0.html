@@ -1,0 +1,861 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Bage</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Bage</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de orientações concluídas'}, 
+series: [{data: [[2016,
+169],
+[2017,
+155],
+[2018,
+30]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de orientações concluídas</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 354<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0669598218178446">Alessandro Vaz de Mattos</a>. <b>?HACIENDO SONAR EL CANDOMBE?: LETRAMENTO LITEROMUSICAL NO ENSINO FUNDAMENTAL</b>. Dissertação (Mestrado em Ensino de Línguas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Andressa Melo Jacques. <b>Astronomia para Todos</b>. Iniciação Científica - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7869822301579405">Guilherme Frederico Marranghello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Bárbara Tahis Soares. <b>O gênero apresentação oral: uma experiência didática no ensino médio de uma escola do campo</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8907950516727239">Clara Zeni Camargo Dornelles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Calos Roberto Silva Nunes. <b>PIBID-Programa Institucional de Bolsa de Iniciação à Docência</b>. (Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5554712337594367">Eduardo de Oliveira Dutra</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Daniela Reischak Pereira. <b>Fanzine na aula de literatura: uma proposta pedagógica de incentivo à leitura e produção textual.</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8907950516727239">Clara Zeni Camargo Dornelles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Dávine Carvalho Escobar. <b>A concordância verbal no terceiro ano do Ensino Médio na perspectiva sociolinguística</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Elci Rodrigues de Almeida Dutra. <b>A utilização de experimentos e simulações no ensino de física com o uso do software tracker com as plataformas phet e quiz</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7574903011613803">Luis Roberto Brudna Hölzle</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Fernanda Cavalheiro Granato. <b>Um estudo acerca dos efeitos e das contribuições do trabalho com práticas teatrais para a formação de leitores literários</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Francisco Machado da Cunha. <b>Episódios de Modelagem para trabalhar concepções de circuitos elétricos</b>. (Graduação em Física) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9012394777353260">Camila Brito Collares da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Giovanni Tetsuo Fujimura Lopes. <b>Análise tempo-frequência de sinais não estacionários</b>. (Graduando em Engenharia de Energia) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3603202046788146">Fernando Luis Dias</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Gêison Mendes de Freitas de Oliveira. <b>Integrando o conteúdo de MCU e MHS por meio de observações das luas de Júpiter,</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7869822301579405">Guilherme Frederico Marranghello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Helena de Oliveira Soares Jardim. <b>PIBID-Programa Institucional de Bolsa de Iniciação à Docência</b>. (Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5554712337594367">Eduardo de Oliveira Dutra</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Helena Soares Jardim. <b>Educação, História e Políticas na região de abrangência da Universidade Federal do Pampa</b>. (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Jean Lucas da Silva Cimirro. <b>Astronomia para Todos</b>. Iniciação Científica - Universidade Federal do Pampa, Universidade Federal do Pampa. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7869822301579405">Guilherme Frederico Marranghello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Jose Storniolo Nunes Brasil. <b>Acessibilidade Pedagógica na Educação Superior: elementos para a discussão do ensino na perspectiva da Educação para Todos</b>. Dissertação (Mestrado em Mestrado Acadêmico em Ensino) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Juliano Centena. <b>As várias faces de Emma Bovary sob o olhar dos leitores e da sociedade</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1719845201647993">Miriam Denise Kelm</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>leítica padula lopes. <b>Astronomia para Todos</b>. Iniciação Científica - Universidade Federal do Pampa, Universidade Federal do Pampa. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7869822301579405">Guilherme Frederico Marranghello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Luciane Machado de Machado. <b>Astronomia para Todos</b>. Iniciação Científica - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7869822301579405">Guilherme Frederico Marranghello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Lusiana Prates Pereira. <b>Círculo de Leitura e Diálogo Literário: uma proposta pedagógica de incentivo à leitura literária</b>. Dissertação (Mestrado em Ensino de Línguas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Maristela Santos Oliveira. <b>A produção de recursos didáticos acessíveis para o ensino de Língua Espanhola</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Matheus Gonçalves dos Santos Schiavini. <b>Astronomia para Todos</b>. Iniciação Científica - Universidade Federal do Pampa, Universidade Federal do Pampa. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7869822301579405">Guilherme Frederico Marranghello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Michela Lemos Silveira Machado. <b>Ensino colaborativo na perspectiva da Educação Inclusiva para Todos</b>. Dissertação (Mestrado em Mestrado Acadêmico em Ensino) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Morgana Welke. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Nara Rosane Machado de Oliveira. <b>As concepções de (in)exclusão social e suas implicações no fazer docente de professores da área de Humana no âmbito do Ensino Médio</b>. Dissertação (Mestrado em Mestrado Acadêmico em Ensino) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Nilse Rosane Gonçalves Lima. <b>Memórias: um instrumento de aprendizagem</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1719845201647993">Miriam Denise Kelm</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Osvaldo Bazzan Bini. <b>Astronomia para Todos</b>. Iniciação Científica - Universidade Federal do Pampa, Universidade Federal do Pampa. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7869822301579405">Guilherme Frederico Marranghello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>ROSINÊZ FÁTIMA DA LUZ. <b>Oficinas de inglês como língua adicional para alunos de uma escola pública na cidade de Santa Rosa/RS/Brasil: uma proposta voltada para a interculturalidade</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Taiana Rodrigues. <b>Incentivando o engajamento discursivo com a língua inglesa por meio de personagens animados: abrindo a porta para os monstros na educação infantil</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8907950516727239">Clara Zeni Camargo Dornelles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Taize Gonçalves Goulart. <b>Variação linguística: descrição, ensino e formação de professores</b>. (Graduando em Licenciatura em Letras) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Vanessa Scheeren. <b>Teoria dos Grafos: uma abordagem para a programação de horários de exames finais em cursos universitários.</b>. (Aperfeiçoamento/Especialização em Especialização Modelagem Computacional em Ensino, Experimentação e Simulaçã) - Universidade Federal do Pampa. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8115629381483348">Francieli Aparecida Vaz</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alessandra Goulart D´Avila. <b>RÁDIO ESCOLAR COMO PROPULSORA DO DIALOGISMO BAKHTINIANO COM ALUNOS DO ENSINO FUNDAMENTAL</b>. Dissertação (Mestrado em Mestrado profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Aline Giorgis Santos Simões. <b>Discursos acerca da sexualidade em produções científico-acadêmicas da ANPED: o que é dito sobre os sujeitos que escapam à norma na escola</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Educação e Diversidade Cultural) - Fundação Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6357471301897496">Dulce Mari da Silva Voss</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ana Kátia Reis Ferreira. <b>A constituição de identidades juvenis no ciberespaço das redes sociais</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Educação e Diversidade Cultural) - Fundação Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6357471301897496">Dulce Mari da Silva Voss</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Ana Luisa Costa Veleda. <b>A heterogeneidade representada no discurso do professor de Língua Portuguesa</b>. (Graduação em Letras) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Ana Lúcia Domingues dos Santos. <b>A cultura africana nas escolas brasileiras</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1719845201647993">Miriam Denise Kelm</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Ana Paula Castro Pinheiro. <b>A relação enunciativa entre locutor e interlocutor em Esta não é a sua vida</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2392851596908032">Isabel Cristina Ferreira Teixeira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Andressa Leandro Machado. <b>A Química Além da Teoria</b>. (Graduando em Química) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2997329525971185">Fabiana Cristina Missau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Andressa Melo Jacques. <b>Feira de Ciências: ?Difundindo Ciência e Tecnologia na Região da Campanha?</b>. (Graduando em Licenciatura em Física) - Fundação Universidade Federal do Pampa, Universidade Federal do Pampa - PBDA. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3738313938168252">Edson Massayuki Kakuno</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Andressa Pinto da Costa. <b>Capoeira: um gingado pela arte da existência</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Educação e Diversidade Cultural) - Fundação Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6357471301897496">Dulce Mari da Silva Voss</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1893071478078272">Augusto Cesar Dotta Filho</a>. <b>CAPIM-ANNONI (Eragrostis plana Ness) in natura PARA REMOÇÃO DO CORANTE VIOLETA DE METILA 10B DE SOLUÇÃO AQUOSA</b>. Dissertação (Mestrado em Engenharia) - Fundação Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1180133581175682">Flávio André Pavan</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Berenice Gonçalvez. <b>Una investigación sobre la identidad y vivencia de un fronterizo de Aceguá Brasil-Aceguá Uruguay através de la Foto Biografía</b>. (Graduação em Letras) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8907950516727239">Clara Zeni Camargo Dornelles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Bruna Marzullo Fonseca. <b>A manifestação da subjetividade e da autoria na escrita escolar</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2392851596908032">Isabel Cristina Ferreira Teixeira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Bruna Vaz Menegotto. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Bóris Ximendes Bonfanti. <b>O grupo Hip Hop The Manifest: discursos que produzem Identidades, governam relações entre sujeitos e corpos que transgridem através da dança</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Educação e Diversidade Cultural) - Fundação Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6357471301897496">Dulce Mari da Silva Voss</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Caique Nunes Maria Santana. <b>Monitoria de Cálculo I</b>. (Engenharia de Energia) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8335102549502386">Denice Aparecida Fontana Nisxota Menegais</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>CAMILA BRITO COLLARES DA SILVA. <b>ARDUINO COMO RECURSO INSTRUCIONAL POTENCIALIZADOR DOS CICLOS DE MODELAGEM NO ENSINO DE FÍSICA DA EDUCAÇÃO BÁSICA</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5512659010248787">Pedro Fernando Teixeira Dorneles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Camila Camejo. <b>O Projeto Político Pedagógico e a Valorização da Diversidade Cultural</b>. (Aperfeiçoamento/Especialização em Especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Camile Erthal. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, UNIPAMPA-Programa de Bolsas de Desenvolvimento Acadêmico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Carlos Juliani Lemos Vaz. <b>O olhar das mídias a partir de pronunciamentos do parlamentar Jair Bolsonaro</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4605600305114012">Thiago Santos da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>CARLOS NEI LIMA DE VARGAS. <b>O PERFIL DO EGRESSO DO CURSO DE LETRAS ? PORTUGUES E LITERATURAS DE LÍNGUA PORTUGUESA DO CAMPUS BAGÉ</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Caroline Hösel Porto. <b>O Estresse no Ambiente de Trabalho Docente</b>. (Aperfeiçoamento/Especialização em especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1541460141842713">Gilnara da Costa Corrêa Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Caroline Rodrigues Melo. <b>E agora, minha gente, uma história eu vou contar: experiências de formação de leitores no berçário</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9502583808865478">Zíla Letícia Goulart Pereira Rêgo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Cecília Kanaan. <b>Supervisão das aulas de inglês no Núcleo de Línguas Adicionais - Voluntariado</b>. (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6376117076673020">Simone Silva Pires de Assumpção</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Claudia Vanuza Etchegaray Gonçalves. <b>Relatório de Estágio Supervisionado no Ensino Fundamental</b>. (Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8335102549502386">Denice Aparecida Fontana Nisxota Menegais</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Cláudia Cibeli Silveira Oliveira. <b>Os desafios dos professores no enisno dos alunos com TDAH: descobrindo caminhos para o desenvolvimento na Leritura e Escrita</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Cristiane Gonçalves Irênio. <b>O Ensino de Acordeom no IMBA: uma conversa com a professora Neiva Sittoni Brasil</b>. (Graduação em Música) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9384327385186092">Elaine Martha Daenecke</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Cátia Cilene Saraiva Avero. <b>Ciências para crianças: trabalhando com o tema Sol na educação infantil</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2906182031441331">Márcia Maria Lucchese</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Daiana Kaminski de Oliveira. <b>identificação Espectroscópica no Ultravioleta de Amoxicilina em Meio Aquoso: Uma Experimentação Contextualizada para o Ensino de Química no Nível Superior</b>. (Graduação em Licenciatura em Quimica) - Fundação Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1180133581175682">Flávio André Pavan</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Daiana Kaminski de Oliveira. <b>Produção de material didático para estudo das Funções Inorgânicas.</b>. (Graduando em Química) - Universidade Federal do Pampa, UNIPAMPA. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2081240667991252">Fernando Junges</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Daiane Madeira Gomes. <b>Envelhecimento Ativo e Educação: Universidade Sênior de Bagé</b>. (Aperfeiçoamento/Especialização em especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1541460141842713">Gilnara da Costa Corrêa Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Daniel Fonseca Corradini Ferrando. <b>Programa Institucional de Bolsa de Iniciação à Docência ? PIBID/UNIPAMPA</b>. (Licenciatura em Física) - Fundação Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3738313938168252">Edson Massayuki Kakuno</a>.</font></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Danieli Morales de Lima Martins. <b>Comparação de Mecanismos Cinéticos Reduzidos do Metano para a Obtenção das Concentrações das Espécies</b>. (Graduação em Licenciatura em Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8115629381483348">Francieli Aparecida Vaz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Denise Oliveira. <b>Panorama geral sobre o ensino de espanhol na cidade de Bagé, RS</b>. (Graduação em Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2326661535199134">Moacir Lopes de Camargos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Desire Menezes Leal Goulart. <b>Apresentando a Literatura através do gênero Histórias em Quadrinhos e seus hipergêneros</b>. (Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Diane Penha Machado. <b>A construção da docência no estágio obrigatório em música</b>. (Graduação em Música) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3922573309511736">Carla Eugenia Lopardo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Diego Kaupe. <b>O contrabaixo elétrico no samba e no pagode: usos e possibilidades do instrumento na contemporaneidade</b>. (Graduação em Música) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5128671031679895">José Daniel Telles dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Dilnei Abreu Ramos. <b>Uso das variantes nós e a gente: quem está ganhando esta luta?</b>. (Graduação em Licenciatura em Letras) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Dirlene Maria Felice. <b>TIC NA EDUCAÇÃO MUNICIPAL: UM ESTUDO EXPLORATÓRIO EM ESCOLAS DO MUNICÍPIO DE DOM PEDRITO ? RS</b>. (Aperfeiçoamento/Especialização em Especialização em TIC) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2530535838251633">Érico Marcelo Hoff do Amaral</a>.</font></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Diênifer Alves Ramos da Rosa. <b>A extensão universitária através da experiência do Núcleo de Línguas Adicionais</b>. (Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7307557102781133">Sara dos Santos Mota</a>.</font></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>DJULYA VELOSO SARAIVA. <b>CONTRIBUIÇÕES DO ESTÁGIO SUPERVISIONADO EM LÍNGUA INGLESA NA CONSTITUIÇÃO DA IDENTIDADE DOCENTE: UM OLHAR RETROSPECTIVO PARA MEU PORTFÓLIO DE ENSINO</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9171054840472466">Luciani Salcedo de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>DÉBORA PIMENTEL PACHECO. <b>O ENSINO DE CIÊNCIAS A PARTIR DO DESENHO UNIVERSAL DA APRENDIZAGEM: POSSIBILIDADES PARA A EDUCAÇÃO DE JOVENS E ADULTOS</b>. Dissertação (Mestrado em Mestrado profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1075436289053313">Amélia Rota Borges de Bastos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>Débora Tatiane Borges Motta. <b>Promoção da Educação Socioambiental nas Escolas Públicas do Município de Hulha Negra por meio de Concursos de Projetos Ambientais</b>. (Aperfeiçoamento/Especialização em Especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Débora Tatiane Costa Rosa. <b>Documentário: uma proposta que contempla o letramento e a variação linguística para a formação de cidadãos críticos desde o 1º ano do ciclo de alfabetização</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Eduarda Gonçalves Silva. <b>Un estudio de la interculturalidad a partir de experiencias internacionales de movilidad académica</b>. (Graduação em Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7307557102781133">Sara dos Santos Mota</a>.</font></td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>Eduardo Lopez Chagas. <b>"A Caverna, de José Saramago, e o diálogo com a caverna de Platão: o Centro como alegoria da modernidade líquida, de Zygmunt Bauman"</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1719845201647993">Miriam Denise Kelm</a>.</font></td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>Eduardo Teixeira Santos. <b>Monitoria de Cálculo II</b>. (Engenharia Química) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8115629381483348">Francieli Aparecida Vaz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>Eliana Back. <b>As percepções de universitários brasileiros sobre a aprendizagem simultânea de inglês e de espanhol em contexto de não imersão</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5554712337594367">Eduardo de Oliveira Dutra</a>.</font></td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>Eliane de Lourdes Fontana Piffero. <b>Uma unidade de ensino potencialmente significativa para ensinar fontes de energia.</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2906182031441331">Márcia Maria Lucchese</a>.</font></td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>Elisandra Lemos de Oliveira. <b>Uma Abordagem Sobre Educação Financeira Utilizando a Resolução de Problemas</b>. (Graduação em Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>Ellen Rodrigues Corrêa. <b>Uma proposta para o ensino de estequiometria valorizando a mediação em sala de aula de química</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8150927782611326">Renata Hernandez Lindemann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>ERICK SOARES FERNANDES OLIVEIRA. <b>EXTRAÇÃO E ENCAPSULAMENTO DE VOLÁTEIS DE BANANA (Musa spp.) PARA APLICAÇÃO EM PRODUTOS ALIMENTÍCIOS DESTINADOS Á PORTADORES DE FRUTOSEMIA</b>. (Graduação em Engenharia de Alimentos) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2445305613209271">Claudia Wollmann Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>Estela Máris Falcão. <b>UM ESTUDO SOBRE A UTILIZAÇÃO DAS TECNOLOGIAS COMO FERRAMENTA DE APOIO AO PROCESSO ENSINO E APRENDIZAGEM NO ENSINO FUNDAMENTAL NA CIDADE DE ITAQUI-RS</b>. (Aperfeiçoamento/Especialização em Especialização em TIC) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2530535838251633">Érico Marcelo Hoff do Amaral</a>.</font></td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>Evanildo Franco de Jesus. <b>Simulação Numérica das Equações de Navier-Stokes pelo Método de Diferenças Finitas de um Escoamento Incompressível</b>. (Graduação em Licenciatura em Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8115629381483348">Francieli Aparecida Vaz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>Evanildo Franco De Jesus. <b>Relatório de Estágio Supervisionado no Ensino Fundamental</b>. (Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8335102549502386">Denice Aparecida Fontana Nisxota Menegais</a>.</font></td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>Everton Mendes de Oliveira. <b>Modelagem Matemática de Processos de Separação em Leito Móvel Simulado (SMB-Simulated Moving Bed) com eluição por gradiente</b>. (Graduando em Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8636427420690720">Anderson Luis Jeske Bihain</a>.</font></td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>Fabiâni Chagas D. Pedra. <b>A escrita criativa no ensino de espanhol: ampliando os multiletramentos através de fanfics.</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8907950516727239">Clara Zeni Camargo Dornelles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>Felipe Garcia Gonçalves. <b>Uma leitura da Odisseia, de Homero: tradução e adaptação de Frederico Lourenço</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5282094620823146">Lúcia Maria Britto Corrêa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>FELIPE SOARES DOS SANTOS CARDOSO. <b>ESTUDOS E PRÁTICAS MEDITATIVAS NA PERSPECTIVA DE UMA FORMAÇÃO INTEGRAL HUMANA</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>Fernanda Gabriela Morais Madruga Munhoz. <b>Iniciação ao ensino/monitoria da componente curricular de Física III e Física Geral III</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, Fundação Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6432341940154857">Carla Judite Kipper</a>.</font></td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>Flavia Morales Antunes. <b>Projeto de Inclusão Digital na Unipampa</b>. (Engenharia de Computação) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0501764855693100">Sandra Dutra Piovesan</a>.</font></td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>Franciele Pinheiro Silva. <b>A aprendizagem do aluno com Transtorno do Espectro Autista na escola regular: compreendendo sua linaguagem e comunicação</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>Francisco Machado. <b>Astronomia para Todos</b>. (Licenciatura em Física) - Universidade Federal do Pampa, Ministério da Educação. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2906182031441331">Márcia Maria Lucchese</a>.</font></td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>FRANCO, Renan Soares. <b>Combate às Discriminações Raciais na cidade de Jaguarão: intervenções da Delegacia de Polícia Civil</b>. (Aperfeiçoamento/Especialização em Pós-Graduação em Direitos Humanos e Cidadania) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2940552424054556">Sátira Pereira Machado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>Fábio Luiz Minuto Direne. <b>A importância do texto notícia e sua contribuição para a formação de leitores</b>. (Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>Gabriele Bergamasco. <b>Banco de Dados de Língua Falada de Bagé - terceira etapa</b>. (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>Geovana Santos dos Santos. <b>Antocianinas como indicadores ácido-base com potencial aplicação no espaço escolar</b>. (Graduação em Química) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3000763401885447">Márcio Marques Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>Giovanni Tetsuo Fujimura. <b>Seminários de Análise Funcional para Complementação de Estudos de Álgebra Linear</b>. (Engenharia de Energia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3603202046788146">Fernando Luis Dias</a>.</font></td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>Gisele De Lima Munhoz. <b>Relatório de Estágio Supervisionado no Ensino Fundamental</b>. (Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8335102549502386">Denice Aparecida Fontana Nisxota Menegais</a>.</font></td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>Gisele Lángaro Soares. <b>O ensino de língua inglesa através dos multiletramentos: uma proposta para o engajamento de estudantes no ensino fundamental.</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8907950516727239">Clara Zeni Camargo Dornelles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>GIULIANA DOS SANTOS BRUNI. <b>IDENTIDADE, MEMÓRIA E DIVERSIDADE CULTURAL POR MEIO DE NARRATIVAS AUTOBIOGRÁFICAS</b>. (Aperfeiçoamento/Especialização em Especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>Gledson Leite Leal. <b>Protótipo de Veículo Autônomo Inteligente</b>. (Graduação em Engenharia de Computação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1522358230493685">Milton Roberto Heinen</a>.</font></td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>Gregório Bages sanches. <b>TECNOLOGIAS EDUCACIONAIS NA PRÁTICA DE PROFESSORES QUE ENSINAM MATEMÁTICA: CONSUMIR, INCORPORAR E MATEMATIZAR</b>. (Graduação em Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4291668071705125">Sonia Maria da Silva Junqueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>Gregório Bages Sanches. <b>Relatório de Estágio Supervisionado no Ensino Fundamental</b>. (Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8335102549502386">Denice Aparecida Fontana Nisxota Menegais</a>.</font></td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td>Guilherme Ramos. <b>CONSTITUIÇÃO DOCENTE DE FUTURAS PROFESSORAS DE LÍNGUAS ADICIONAIS NO CONTEXTO DA UNIPAMPA CAMPUS BAGÉ: MOVIMENTOS SOCIAIS E SUA INFLUÊNCIA</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9171054840472466">Luciani Salcedo de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>75. &nbsp;</td> <td>Helena Fleck Saraçol. <b>A ESCRAVIDÃO E SEUS VESTÍGIOS RETRATADOS NOS ROMANCES MARANHENSES DO SÉCULO XIX: UMA ANÁLISE DAS OBRAS "O MULATO" DE ALUISIO DE AZEVEDO E "URSULA" DE MARIA FIRMINA DOS REIS</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5282094620823146">Lúcia Maria Britto Corrêa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>76. &nbsp;</td> <td>Hellen da Silva Teixeira. <b>Estudo de filas de espera aplicado a uma instituição financeira cooperativa</b>. (Engenharia de Produção) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9275783294761141">Elizangela Dias Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>77. &nbsp;</td> <td>HEYDEN, Hugo dos S. <b>Comunicação Alienígena: O problema da linguagem na ficção científica</b>. (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3479198807486329">Rodrigo Borges de Faveri</a>.</font></td></tr>
+            
+            <tr valign="top"><td>78. &nbsp;</td> <td>HÉLEN DE OLIVEIRA SOARES JARDIM. <b>OUVIDORIA E EDUCAÇÃO: ABORDANDO OS DESAFIOS E POSSIBILIDADES DAS PRÁTICAS DE GESTÃO EFETIVADAS EM INSTITUIÇÕES FEDERAIS DE EDUCAÇÃO SUPERIOR DO RS</b>. (Aperfeiçoamento/Especialização em especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1541460141842713">Gilnara da Costa Corrêa Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>79. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5105808812099033">Ivana Elise Martinez</a>. <b>Para que(m) eu escrevo? A escrita em eventos de letramento com gêneros autobiográficos na educação de jovens e adultos</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8907950516727239">Clara Zeni Camargo Dornelles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>80. &nbsp;</td> <td>JADER RODRIGUES SOUSA OLIVEIRA. <b>OS JOGOS DE TABULEIROS E O TRABALHO EM EQUIPE COMO FORMA DE ENSINO-APRENDIZAGEM E AVALIAÇÃO DE GRAVITAÇÃO UNIVERSAL</b>. (Graduação em Licenciatura em Física) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7869822301579405">Guilherme Frederico Marranghello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>81. &nbsp;</td> <td>Jairo de Oliveira. <b>Ensino da produção oral em língua inglesa no Instituto Federal Farroupilha: uma experiência pedagógica com material didático autoral focado na instrução diferenciada</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>82. &nbsp;</td> <td>JANUÁRIO DIAS RIBEIRO. <b>EXPLORANDO AS POSSIBILIDADES DE INSERÇÃO DA PLATAFORMA ARDUINO NO ENSINO DE CIÊNCIAS DA EDUCAÇÃO BÁSICA</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>, <a href="http://lattes.cnpq.br/5512659010248787">Pedro Fernando Teixeira Dorneles</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>83. &nbsp;</td> <td>Jianes Meris Henzel de Paula. <b>A Importância da Psicologia na Escola</b>. (Aperfeiçoamento/Especialização em especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1541460141842713">Gilnara da Costa Corrêa Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>84. &nbsp;</td> <td>Joceleia Koenemann. <b>Pesquisa participante como processo metacognitivo</b>. (Aperfeiçoamento/Especialização em Especialização em Neurociência Aplicada à Educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>85. &nbsp;</td> <td>John Welvins Barros de Araujo. <b>Programa Institucional de Bolsa de Iniciação à Docência ? PIBID/UNIPAMPA</b>. (Licenciatura em Física) - Fundação Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3738313938168252">Edson Massayuki Kakuno</a>.</font></td></tr>
+            
+            <tr valign="top"><td>86. &nbsp;</td> <td>Josyane Machado de Machado. <b>ANÁLISE QUALITATIVA E QUANTITATIVA DE PROTEÍNAS EM GRÃOS E BEBIDAS A BASE DE SOJA: UTILIZANDO A ESPECTROSCOPIA UV-VISÍVEL E ADAPTAÇÃO DO MÉTODO DO BIURETO PARA O ENSINO DE QUÍMICA</b>. (Graduação em Química) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2445305613209271">Claudia Wollmann Carvalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>87. &nbsp;</td> <td>Josyane Machado de Machado. <b>A Tecnologia Assistiva à favor da inclusão de alunos com deficiência no ensino superior</b>. (Graduando em Química) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>88. &nbsp;</td> <td>João Bosco Rodrigues. <b>Proposta de sequência didática para o 2º ano do ensino médio: gênero textual carta do leitor</b>. (Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>89. &nbsp;</td> <td>João Paulo Regliski Vieira. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>90. &nbsp;</td> <td>João Pedro Sgarbi Rocha. <b>Núcleo de Formação do Leitor Literário NULI</b>. (Letras - Português) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9502583808865478">Zíla Letícia Goulart Pereira Rêgo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>91. &nbsp;</td> <td>Julia Zanuzo Kuntz. <b>Cine-Gibis e a Ficção Científica na divulgação da ciência e no desenvolvimento da criatividad</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico (Unipampa). 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5223309157171934">Rafael Kobata Kimura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>92. &nbsp;</td> <td>JÉSSICA DA ROSA SOUZA. <b>(RE)CONHECIMENTO DE ALUNOS DO MUNICÍPIO DE BAGÉ/RS/BRASIL SOBRE O QUE É SER FRONTEIRIÇO E/OU LATINO-AMERICANO</b>. (Graduação em Letras) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>93. &nbsp;</td> <td>JÉSSICA DE LACERDA CUADROS. <b>ENSINO DE LÍNGUA INGLESA PARA CEGOS</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>94. &nbsp;</td> <td>Karoline Domingues da Cunha Larroza. <b>Como exercícios de reescrita aparecem no livro didático de Língua Portuguesa no que diz respeito à variação linguística</b>. (Graduação em Licenciatura em Letras) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>95. &nbsp;</td> <td>Kassandra Naely Rodrigues dos Santos. <b>Uma leitura do Naturalismo nos romances Germinal, de Emile Zola e O Cortiço de Aluísio de Azevedo</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5282094620823146">Lúcia Maria Britto Corrêa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>96. &nbsp;</td> <td>Lara Denise de Medeiros Rodrigues. <b>Da redação à sala de aula: como os jornalistas se constituem docentes no curso de graduação em Comunicação Social da URCAMP, Bagé/RS</b>. (Graduação em Licenciatura em Letras) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></td></tr>
+            
+            <tr valign="top"><td>97. &nbsp;</td> <td>Larissa Assis Costa. <b>THE INFLUENCES OF A MULTILINGUAL IDENTITY AT THE UNIVERSITY</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0541535366437976">Katia Vieira Morais</a>.</font></td></tr>
+            
+            <tr valign="top"><td>98. &nbsp;</td> <td>Lauane Gonçalves Cordeiro da Silva. <b>Análise do uso das variáveis atmosféricas na equação do balanço da energia cinética da Camada Limite Convectiva na região da campanha/RS.</b>. (Graduando em Engenharia de Produção) - Universidade Federal do Pampa, Fundação Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6432341940154857">Carla Judite Kipper</a>.</font></td></tr>
+            
+            <tr valign="top"><td>99. &nbsp;</td> <td>Leandro Lassen. <b>ORALIDADE E TECNOLOGIAS NA ESCOLA PÚBLICA: UMA PROPOSTA PARA PROMOVER O ENGAJAMENTO ESTUDANTIL NAS AULAS DE LÍNGUA INGLESA NO ENSINO FUNDAMENTAL</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>100. &nbsp;</td> <td>Lidiane Carvalho Xavier. <b>PRÁTICAS MÚSICO-EDUCATIVAS DE INTEGRANTES DO GRUPO CONFRARIA DO SAMBA, DA CIDADE DE BAGÉ/RS</b>. (Graduação em Música) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7529721075212745">Lúcia Helena Pereira Teixeira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>101. &nbsp;</td> <td>Lisandra Barcellos Borba. <b>Dito e não dito em rede: uma análise do discurso antifeminista</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3664492405958216">Carolina Fernandes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>102. &nbsp;</td> <td>LUCILENE DA COSTA ALVES. <b>Valorização dos Funcionários da Escola de Educação Básica: reflexões no viés da inovação pedagógica</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>103. &nbsp;</td> <td>Luis Filipe Barreto de Castro Gonçalves. <b>Um estudo sobre a monitoria de percepção musical do curso de licenciatura em música da Unipampa</b>. (Graduação em Música) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2812319201796904">Alexandre Machado Takahama</a>.</font></td></tr>
+            
+            <tr valign="top"><td>104. &nbsp;</td> <td>Luiza Dutra da Rosa. <b>EU, MULHER, NEGRA, JOVEM E UNIVERSITÁRIA: DISCRIMINAÇÃO RACIAL NO CONTEXTO UNIVERSITÁRIO</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>105. &nbsp;</td> <td>Luís Antonio Quadros de Quadros. <b>"Memórias da adolescência: os reflexos da vida escolar"</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1719845201647993">Miriam Denise Kelm</a>.</font></td></tr>
+            
+            <tr valign="top"><td>106. &nbsp;</td> <td>Maiquel J Shneider. <b>Análise dos indicadores educacionais das escolas públicas de São Borja-RS</b>. (Graduando em Ciências Humanas - Licenciatura) - Unipampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0392455526575019">Evandro Ricardo Guindani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>107. &nbsp;</td> <td>Marcos Machado Duarte. <b>Aprendendo a fazer música coletivamente: reflexões sobre uma proposta metodológica para a iniciação musical através do violão em conjunto</b>. (Graduação em Música) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/5128671031679895">José Daniel Telles dos Santos</a>, <a href="http://lattes.cnpq.br/7529721075212745">Lúcia Helena Pereira Teixeira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>108. &nbsp;</td> <td>Maria Constância Ferreira de Sousa. <b>A Educação Ambiental para além da reciclagem: investigando a compreensão de práticas educativas de professores do ensino fundamental</b>. (Aperfeiçoamento/Especialização em Especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>109. &nbsp;</td> <td>Maria Helenara Pozzedin Mendes. <b>A prática de ensino no fundamental: um estudo de caso</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2392851596908032">Isabel Cristina Ferreira Teixeira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>110. &nbsp;</td> <td>Maria Helenara Pozzedin Mendes. <b>Trabalhando gêneros discursivos em aula: um olhar na produção de um jornal</b>. (Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>111. &nbsp;</td> <td>Mariana Grego. <b>Orgulho e Preconceito: uma análise do conceito de marriage plot na obra de Jane Austen</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8975383125445316">Fabiane Lazzaris</a>.</font></td></tr>
+            
+            <tr valign="top"><td>112. &nbsp;</td> <td>Mateus Felipe Goettens. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. (Graduando em Engenharia de Energias Renováveis e Ambiente) - Universidade Federal do Pampa, UNIPAMPA-Programa de Bolsas de Desenvolvimento Acadêmico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>113. &nbsp;</td> <td>Matheus RF Vilanova. <b>Análise Qualitativa de um Poluente Emergente (Ácido Acetil Salicílico) em Solo Utilizando a Espectroscopia no Infravermelho: Uma Experimentação Para Graduandos do Curso de Licenciatura em Química</b>. (Graduação em Licenciatura em Quimica) - Fundação Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1180133581175682">Flávio André Pavan</a>.</font></td></tr>
+            
+            <tr valign="top"><td>114. &nbsp;</td> <td>Matthews Teixeira Coutinho Devai. <b>Monitoria de Geometria Analítica</b>. (Licenciatura em Matemática) - Universidade Federal do Pampa, Pró-Reitoria de Assuntos Estudantis e Comunitários. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8015609250219170">Claudia Laus Angelo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>115. &nbsp;</td> <td>Mauro Corrêa Rodrigues. <b>ANÁLISE DE DESEMPENHO NO PORTO DE RIO GRANDE UTILIZANDO SIMULAÇÃO EM PROBLEMAS DE FILAS</b>. (Graduação em Engenharia de Produção) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9275783294761141">Elizangela Dias Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>116. &nbsp;</td> <td>Maurício da Costa Corrêa Oliveira. <b>Módulo Inteligente de Recomendação de Indicadores de Desempenho Organizacional voltado à Pecuária de Corte</b>. (Graduação em Engenharia da Computação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1522358230493685">Milton Roberto Heinen</a>.</font></td></tr>
+            
+            <tr valign="top"><td>117. &nbsp;</td> <td>Melissa Barbieri. <b>The appropriation of writing in English: narratives about institutional and non-institutional elements</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8907950516727239">Clara Zeni Camargo Dornelles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>118. &nbsp;</td> <td>Mellani da Silveira Laus. <b>Relatório de estágio Ensino Fundamental</b>. (Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>119. &nbsp;</td> <td>Mellani da Silveira Laus. <b>Relatório de estágio Ensino Médio: preparando para ENEM</b>. (Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>120. &nbsp;</td> <td>Michaella Santos Fernandes de Almeida. <b>Projeto de Extensão Pampa Circular - Danças Circulares no Pampa</b>. (Engenharia de Alimentos) - Universidade Federal do Pampa, Pró-Reitoria de Assuntos Estudantis e Comunitários. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8015609250219170">Claudia Laus Angelo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>121. &nbsp;</td> <td>Milene Ferreira Miletto. <b>Química no ensino fundamental: investigando questões ambientais em uma ilha interdisciplinar de racionalidade</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/3000763401885447">Márcio Marques Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>122. &nbsp;</td> <td>Morgana Welke. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>123. &nbsp;</td> <td>Méllani da Silveira Laus. <b>Harmonia vocálica: a elevação de e em Bagé</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>124. &nbsp;</td> <td>Méllani da Silveira Laus. <b>Banco de Dados de Língua Falada de Bagé - terceira etapa</b>. (Graduando em Letras - Português) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>125. &nbsp;</td> <td>Natchéli Chaves Caldas Vasquez. <b>JOVENS EM CONFLITO COM A LEI: A ESCOLA NO PROCESSO DE REINSERÇÃO AO CONVÍVIO SOCIAL</b>. (Aperfeiçoamento/Especialização em Especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>126. &nbsp;</td> <td>Nathalie Suelen do Amaral Gonçalves. <b>JOGO DAS FORMAS: UMA PROPOSTA DE OBJETO DE APRENDIZAGEM PARA CRIANÇAS DE 2 À 3 ANOS</b>. (Aperfeiçoamento/Especialização em Especialização em TIC) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2530535838251633">Érico Marcelo Hoff do Amaral</a>.</font></td></tr>
+            
+            <tr valign="top"><td>127. &nbsp;</td> <td>Neirielle Silva Almeida. <b>Apoio presencial à atividades experimentais e teóricas em química</b>. (Química) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2997329525971185">Fabiana Cristina Missau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>128. &nbsp;</td> <td>Paola Pires dos Santos. <b>Supervisão das aulas de inglês no Núcleo de Línguas Adicionais - Voluntariado</b>. (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6376117076673020">Simone Silva Pires de Assumpção</a>.</font></td></tr>
+            
+            <tr valign="top"><td>129. &nbsp;</td> <td>Patricia Fernandes Cavalheiro. <b>Uma proposta intercultural para diferentes profissionais da educação</b>. Dissertação (Mestrado em Mestrado profissional em ensino de línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2326661535199134">Moacir Lopes de Camargos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>130. &nbsp;</td> <td>Patrícia Azambuja Pereira. <b>Variação linguística no livro de 8º ano de língua inglesa da Coleção Alive!: da variação fonético-fonológica à estilístico-pragmática</b>. (Graduação em Licenciatura em Letras) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>131. &nbsp;</td> <td>Priscila Quadros. <b>ENGAJAMENTO DISCENTE E SEU IMPACTO NAS AULAS DE INGLÊS E DE ESPANHOL DURANTE AS VIVÊNCIAS DE ESTÁGIO SUPERVISIONADO NO CURSO DE LETRAS ? LÍNGUAS ADICIONAIS DA UNIPAMPA</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>132. &nbsp;</td> <td>Priscylla Pirasol de Carvalho Marchioni. <b>Monitoria das disciplinas de Morfologia e Estudos de Fonética e Fonologia</b>. (Letras - Português) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>133. &nbsp;</td> <td>Rayssa Fernandes Viegas. <b>Pais e filhos aprendendo música juntos: a experiência em um grupo de extensão em práticas vocais coletivas</b>. (Graduação em Música) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0932578937951219">Adriana Bozzetto</a>.</font></td></tr>
+            
+            <tr valign="top"><td>134. &nbsp;</td> <td>Rebeca Kerou Teliz Goulart. <b>Ampliação das competências comunicativas: uma abordagem qualitativa</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5146505733269909">Adriano de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>135. &nbsp;</td> <td>Renar Juliana Rodrigues. <b>O processo de variação nas estruturas de tempo composto e voz passiva: avaliação das formações verbais de duplo particípio</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>136. &nbsp;</td> <td>Renata Deli da Rosa Ribeiro. <b>Farmacos e automedicação: estratégias andragógicas no ensino de química orgânica na EJA</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8150927782611326">Renata Hernandez Lindemann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>137. &nbsp;</td> <td>Rita de Cássia Angeieski da Silveira. <b>O letramento do professor para a mediação no processo de desenvolvimento da rádio escolar</b>. Dissertação (Mestrado em Mestrado profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>138. &nbsp;</td> <td>Rita de Cássia Vieira Gonzatto. <b>Tecnologias de informação e comunicação como ferramentas de apoio aos processos de ensino, aprendizagem e interação de alunos com deficiência intelectual</b>. (Aperfeiçoamento/Especialização em Especialização em TIC) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2530535838251633">Érico Marcelo Hoff do Amaral</a>.</font></td></tr>
+            
+            <tr valign="top"><td>139. &nbsp;</td> <td>Ronan Moura Franco. <b>Experienciar, sentir e aprender para transformar: articulações entre o fundamento neurobiológico das emoções e a perspectiva estético-ambiental da educação</b>. (Aperfeiçoamento/Especialização em Especialização em Neurociência Aplicada à Educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>140. &nbsp;</td> <td>Rosiméri de Avila Goulart. <b>Literatura infantil e juvenil e ensino: do acervo ao método</b>. (Graduando em Letras - Português) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9502583808865478">Zíla Letícia Goulart Pereira Rêgo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>141. &nbsp;</td> <td>Sidônia Bresolin. <b>ANÁLISE DE IMPLANTAÇÃO DE UM TERMINAL DE INTEGRAÇÃO DO TRANSPORTE URBANO NA CIDADE DE BAGÉ ? RS</b>. (Graduação em Engenharia de Produção) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9275783294761141">Elizangela Dias Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>142. &nbsp;</td> <td>Sidônia Brsolin. <b>Monitoria em Equações Diferenciais</b>. (Engenharia de Produção) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8636427420690720">Anderson Luis Jeske Bihain</a>.</font></td></tr>
+            
+            <tr valign="top"><td>143. &nbsp;</td> <td>Silvana Retamoso Züge. <b>Sequência didática sobre os conceitos de mistura e métodos de separação utilizando um modelo experimental de estação de tratamento de água</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/7536898569014007">Vania Elisabeth Barlette</a>.</font></td></tr>
+            
+            <tr valign="top"><td>144. &nbsp;</td> <td>Suelen Charqueiro Loreto. <b>Avanços e Recuos das atividades experimentais no discurso de professores de química da Educação Básica</b>. (Graduação em Licenciatura em Química) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0168899505793585">Bruna Roman Nunes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>145. &nbsp;</td> <td>Taynara de Lima Fernandes. <b>A Química Além da Teoria</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, PROGRAMA DE FOMENTO À EXTENSÃO. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2997329525971185">Fabiana Cristina Missau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>146. &nbsp;</td> <td>Tayne Melo Motta. <b>A voz delas: uma análise de representações sobre mulheres em canções seranejas interpretadas por mulheres</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4605600305114012">Thiago Santos da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>147. &nbsp;</td> <td>Taís Soares dos Santos. <b>A intertextualidade e a escrita intimista como recursos literários para o rompimento da clausura imposta às mulheres portuguesas entre os séculos XVII e XX</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1719845201647993">Miriam Denise Kelm</a>.</font></td></tr>
+            
+            <tr valign="top"><td>148. &nbsp;</td> <td>THAIS MACHADO DA SILVA MUNIZ. <b>INVESTIGANDO OS ARTIGOS DA QUÍMICA NOVA NA ESCOLA COM A TEMÁTICA ALIMENTOS NO ENSINO DE QUÍMICA</b>. (Graduação em Licenciatura em Química) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0168899505793585">Bruna Roman Nunes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>149. &nbsp;</td> <td>Thyago Thomé do Amaral Santiago. <b>Monitoria em Química Analitica</b>. (Graduando em Engenharia de Alimentos) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1460780634829745">Maria Regina de Oliveira Casartelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>150. &nbsp;</td> <td>Vanessa de Almeida Marques. <b>A apropriação do gênero reportagem digital na escrita colaborativa para um jornal digital online.</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8907950516727239">Clara Zeni Camargo Dornelles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>151. &nbsp;</td> <td>Vanessa Scheeren. <b>MODELAGEM MATEMÁTICA NA PROGRAMAÇÃO DE HORÁRIOS DO CURSO DE MATEMÁTICA - LICENCIATURA</b>. (Aperfeiçoamento/Especialização em MODELAGEM COMPUTACIONAL EM ENSINO, EXPERIMENTAÇÃO E SIMULAÇÃO) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9275783294761141">Elizangela Dias Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>152. &nbsp;</td> <td>Vaniza Bueno Silveira. <b>O USO DE CANÇÃO NA AULA DE LÍNGUA ESPANHOLA: UM ESTUDO DE CASO EM UM CURSO DE EXTENSÃO DO NÚCLEO DE LÍNGUAS ADICIONAIS DA UNIPAMPA</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>153. &nbsp;</td> <td>Verônica Maria Velasques. <b>Mercado de trabalho: a escolha da profissão no ensino médio</b>. (Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>154. &nbsp;</td> <td>Vladimir Soares da Fontoura. <b>PROJETO PROVÍNCIA DE SÃO PEDRO: UM ESTUDO SOBRE A SUA INFLUÊNCIA NO PROCESSO DE APRENDIZADO DAS ESCOLAS ESTADUAIS DE QUARAÍ-RS</b>. (Aperfeiçoamento/Especialização em Especialização em TIC) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2530535838251633">Érico Marcelo Hoff do Amaral</a>.</font></td></tr>
+            
+            <tr valign="top"><td>155. &nbsp;</td> <td>Éder Lupe Rodrigues. <b>O Ensino de Gramática nas aulas de Língua Portuguesa dos Anos Finais do Ensino Fundamental: identificando possíveis contradições</b>. (Graduação em Letras) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5146505733269909">Adriano de Souza</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ademir Floriano Nunes Meneses. <b>A Bíblia enquanto Literatura</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5282094620823146">Lúcia Maria Britto Corrêa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Adriana Alvares Ramos. <b>Uma Proposta de Sequência Didática para o Ensino de Química Orgânica com o tema Medicamentos</b>. (Graduação em Química) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5541226399395863">Elenilson Freitas Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Adriana Seccon Maurente. <b>REPRESENTAÇÕES SOCIAIS DE MÃES E PROFESSORAS DE CRIANÇAS COM SÍNDROME DE DOWN NAS ESCOLAS ESTADUAIS DO MUNICÍPIO DE CANDIOTA</b>. (Graduação em Licenciatura em Letras e respectivas Literaturas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Alan Cristian Gularte de Vargas. <b>Projeto de Extensão Pampa Circular-Danças Circulares no Pampa</b>. (Engenharia Química) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8015609250219170">Claudia Laus Angelo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Alana Espinosa Corrêa Nunes. <b>Fronteira' e 'nação' no espaço escolar: em direção a uma proposta de autoria docente</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Aline Azevedo Medeiros. <b>Conceitos linguísticos e suas contribuições para a prática jornalística: até onde é feita essa relação nos cursos de jornalismo?</b>. (Graduação em Licenciatura em Letras) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Aline Couto Quintana. <b>Sobre concordância verbal e ensino: uma prática pedagógica a partir da Teoria da Variação</b>. (Graduação em Licenciatura em Letras) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Ana Cláudia Wrasse Salazart. <b>Utilizando luas do sistema solar para associar o MCU e o MHS através do método IpC.</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7869822301579405">Guilherme Frederico Marranghello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Ana Grisel Quintana de Oliveira. <b>O trabalho com contos nas turmas de EJA no ensino fundamental</b>. (Letras) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Ana Griselda Quintana. <b>Formação de professor</b>. (Graduação em Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2326661535199134">Moacir Lopes de Camargos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Ana Lúcia Domingues dos Santos. <b>Fábulas e minicontos na sala de aula</b>. (Letras) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Ana Lúcia Domingues dos Santos. <b>Projeto de ensino para o primeiro ano do ensino médio</b>. (Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Ana Paula Falcão da Silveira Gomes. <b>A Modelagem Matemática no Processo de Ensino-Aprendizagem</b>. (Graduação em Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Ana Paula Falcão da Silveira Gomes. <b>Relatório de Estágio Supervisionado do Ensino Fundamental</b>. (Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Andrei Costa Rangel. <b>A Tecnologia Assistiva à favor da inclusão de alunos com deficiência no ensino superior</b>. (Graduando em Química) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Andressa Alves Machado. <b>O ESPAÇO DA LITERATURA NA CONTEMPORANEIDADE: EXPERIÊNCIAS DE INICIAÇÃO À DOCÊNCIA NO ENSINO TECNICISTA BRASILEIRO, O CASO IFSUL-BAGÉ</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9502583808865478">Zíla Letícia Goulart Pereira Rêgo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Andressa Crstina Xavier de Souza. <b>Estudos literários na formação inicial de professores de língua portuguesa</b>. (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7569679075333299">Vera Lúcia Cardoso Medeiros</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>André Garcia Peruzzo. <b>Relatório de Estágio Supervisionado do Ensino Fundamental</b>. (Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>André Garcia Peruzzo. <b>Relatório de Estágio Supervisionado do Ensino Médio</b>. (Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Andréia Paz Castro Fagundes. <b>PIBID (Programa Institucional de Iniciação à Docência)</b>. (Letras - Português) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Andréia Sanmartin. <b>Do livro ao filme Terra Sonâmbula, uma adaptação, uma viagem a Moçambique</b>. (Graduação em Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1719845201647993">Miriam Denise Kelm</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Angela Maria Teixeira de Souza. <b>Estudo das Cartas Portuguesas, de Mariana Alcoforado</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1719845201647993">Miriam Denise Kelm</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Arielle de Jesus Meireles Teixeira. <b>PIBID (Programa Institucional de Iniciação à Docência)</b>. Orientação de outra natureza - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Beatriz Borges Moreles. <b>O heroi que ultrapassa o tempo: Davi, o Heroi Bíblico de ontem e de hoje</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5282094620823146">Lúcia Maria Britto Corrêa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Bernardo Ferrari. <b>Análise dos indicadores educacionais das escolas públicas de São Borja-RS</b>. (Graduando em Ciências Humanas - Licenciatura) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0392455526575019">Evandro Ricardo Guindani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Bianca Pinheiro Filandro. <b>Linguagem e (hetero)ciência: uma janela aberta para a ideologia do cotidiano</b>. Médio Dr Carlos Antônio Kluwe, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Bianka Cabreira da Silva. <b>Linguagem e (hetero)ciência: uma janela aberta para a ideologia do cotidiano</b>. (Graduando em Letras - Português) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Bruna Carvalho Antunes. <b>A Física na Casa do Guri</b>. (Engenharia de Energias Renováveis e Ambiente) - Universidade Federal do Pampa, PDA / UNIPAMPA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2965334039603843">Rosana Cavalcanti Maia Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Bruna Madeira Noguez. <b>A Física na Casa do Guri</b>. (Engenharia de Alimentos) - Universidade Federal do Pampa, PROEXT / UNIPAMPA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2965334039603843">Rosana Cavalcanti Maia Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Bruna Soares Lopes. <b>A performatividade do discurso feminino na obra o remorso de baltasar serapião, de valter hugo mãe</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2392851596908032">Isabel Cristina Ferreira Teixeira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Bruna Vaz Menegotto. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. Iniciação Científica - UNIPAMPA-Programa de Bolsas de Desenvolvimento Acadêmico, UNIPAMPA-Programa de Bolsas de Desenvolvimento Acadêmico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Bruna Vaz Menegotto. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Bárbara Alves Branco. <b>A BUSCA DA EMPATIA E DO ESTABELECIMENTO DE VÍNCULOS NA RELAÇÃO PROFESSOR/ALUNO - REFLEXÕES A RESPEITO DAS PRÁTICAS DOCENTES REALIZADAS EM ESTÁGIO SUPERVISIONADO DE LÍNGUA ESPANHOLA EM CONTEXTO ESCOLAR</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Camila da Luz Peralta. <b>PIBID (Programa Institucional de Iniciação à Docência)</b>. (Letras - Português) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Camila Litchina Brasil. <b>Experimentação e simulação computacional no ensino de estados físicos da matéria e transições de fase na educação básica</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/7536898569014007">Vania Elisabeth Barlette</a>, <a href="http://lattes.cnpq.br/0476257235034440">Paulo Henrique Guadagnini</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4758965775345467">Camille Biron</a>. <b>CAROÇO DE AZEITONA (Olea europea L.): PREPARAÇÃO, CARACTERIZAÇÃO E SUA APLICAÇÃO COMO BIOSSORVENTE NA REMOÇÃO DO CORANTE VIOLETA DE METILA DE SOLUÇÃO AQUOSA</b>. Dissertação (Mestrado em Engenharia Química) - Fundação Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1180133581175682">Flávio André Pavan</a>.</font></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Caren Albanio de Oliveira. <b>ALUNOS COM DEFICIÊNCIA NA AULA DE ESPANHOL: A PESQUISA NARRATIVA COM FOCO NO ESTÁGIO SUPERVISIONADO</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Carla Daneris. <b>REFLEXÕES, OLHARES E PERCURSOS DIDÁTICOS NA PERSPECTIVA INCLUSIVA NO CURSO DE LICENCIATURA EM MÚSICA</b>. (Graduação em Música) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3922573309511736">Carla Eugenia Lopardo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>CARLA DANERIS VALERIO RITA. <b>Percursos didáticos, reflexões e olhares na perspectiva inclusiva no curso de Licenciatura em Música da Unipampa</b>. (Graduação em Música) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>Carla Machado Bulsing Dutra. <b>Estudo Numérico da Permeabilidade em Meios Porosos para RTM</b>. (Graduação em Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>Carla Machado Bulsing Dutra. <b>Relatório de Estágio Supervisionado do Ensino Médio</b>. (Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>CARLOS HENRIQUE CAMPANHER. <b>PROPOSTA PARA A APRENDIZAGEM DE FORMA SIGNIFICATIVA DA CONSTANTE DE AVOGADRO E O MOL</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2081240667991252">Fernando Junges</a>.</font></td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Cristiane Dias Cruz. <b>SER UM PROFESSOR DE INGLÊS E DE ESPANHOL NA ESCOLA PÚBLICA: UM OLHAR A PARTIR DO CONCEITO DE DOCENTE COMPOSITOR</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Cristiane Ireno. <b>Estágio Supervisionado</b>. (Música) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9175937699446405">Matheus de Carvalho Leite</a>.</font></td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>Cristinemar Martins Fagundes Vinholes. <b>Uma proposta de uso da plataforma Edmodo para potencializar o ensino de química orgânica: Funções Oxigenadas</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7574903011613803">Luis Roberto Brudna Hölzle</a>.</font></td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>Daniel Fonseca Corradini Ferrando. <b>Programa Institucional de Bolsa de Iniciação à Docência ? PIBID/UNIPAMPA.</b>. (Licenciatura em Física) - Fundação Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3738313938168252">Edson Massayuki Kakuno</a>.</font></td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>Danieli Morales de Lima. <b>Curso de Nivelamento de Matemática ? Pré-cálculo</b>. (Matemática) - Universidade Federal do Pampa, Universiade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8636427420690720">Anderson Luis Jeske Bihain</a>.</font></td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>Dariéle Rodrigues dos Santos. <b>Avaliação do Potencial Antioxidante do Maxixe (cucumis anguria L.)</b>. (Graduação em Nutrição) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2997329525971185">Fabiana Cristina Missau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>Desiré Menezes Leal Goulart. <b>A Evasão na EJA: as vozes dos estudantes evadidos da Escola Municipal de Ensino Fundamental da Escola Peri Coronel Bagé-RS</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1541460141842713">Gilnara da Costa Corrêa Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>Eduardo Kluwe Veiga. <b>Estudo e proposta de uma ferramenta para comunicação em ambientes de desastres</b>. (Graduação em Engenharia de Computação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2530535838251633">Érico Marcelo Hoff do Amaral</a>.</font></td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>Eliseu Pacheco. <b>Ensaios orquestrais na CCB: percepção dos participantes sobre a prática musical</b>. (Graduação em Música) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3922573309511736">Carla Eugenia Lopardo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>Eloisa Aimi Defendi. <b>Modelagem de Processos de Separação em Leito Móvel Simulado (SMB-Simulated Moving Bed) Aplicados na Separação enantiômeros.</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8636427420690720">Anderson Luis Jeske Bihain</a>.</font></td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>Everton Mendes de Oliveira. <b>Modelagem de Processos de Separação em Leito Móvel Simulado (SMB-Simulated Moving Bed) Aplicados na Separação enantiômeros.</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, Universiade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8636427420690720">Anderson Luis Jeske Bihain</a>.</font></td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>Fabiola Dalla Nora. <b>Planetário da Unipampa</b>. (Engenharia Química) - Universidade Federal do Pampa, Ministério da Educação. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2906182031441331">Márcia Maria Lucchese</a>.</font></td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>Felipe Ramos Lima. <b>Ensaio sobre uma possível aproximação epistêmica orientadora da prática experimental no ensino de física através do processo de medição</b>. (Graduação em Licenciatura em Física) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7536898569014007">Vania Elisabeth Barlette</a>.</font></td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2032169794971552">FLÁVIA COVALESKY DE SOUZA RODRIGUES</a>. <b>A CONSTRUÇÃO DE ESPAÇOS DE FORMAÇÃO CONTINUADA DE PROFESSORES DA EDUCAÇÃO DE JOVENS E ADULTOS</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5916559361580593">Suzana Schwartz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>Franciele Pinheiro da Silva. <b>Relatório de estágio Ensino Fundamental</b>. (Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>Franciele Pinheiro Silva. <b>Autoestima na sala de aula</b>. (Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>Francielle Hambrecht. <b>Grupo de leituras de literaturas latino-americanas</b>. (Letras - Português) - Universidade Federal do Pampa, Fundo Nacional do Desenvolvimento da Educação. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>Francielle Largue Hambrecht. <b>A obra de Galeano</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2326661535199134">Moacir Lopes de Camargos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>Francisco Machado. <b>Elaborando materiais didáticos relacionados ao tema fontes de energia</b>. (Licenciatura em Física) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2906182031441331">Márcia Maria Lucchese</a>.</font></td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>Gabriel Ladeia. <b>Astronomia para Todos</b>. (Graduando em Engenharia de Computação) - Universidade Federal do Pampa, PROEXT/MEC. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7869822301579405">Guilherme Frederico Marranghello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>Gabriel Trindade dos Santos. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. (Graduando em Engenharia de Produção) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>Gabriela Ifran da Silva. <b>Narrativas Sônicas do Pampa</b>. (Graduando em Música) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8686171159500113">Luana Zambiazzi dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>Gerusa Camargo Rodrigues. <b>Investigação Matemática na Perspectiva da Resolução de Problemas</b>. (Graduação em Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>Giovanna Duarte de Godoy. <b>Linguagem e (hetero)ciência: uma janela aberta para a ideologia do cotidiano</b>. Médio Dr Carlos Antônio Kluwe, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>Giovanni Rodrigues da Silva Del Duca. <b>Estudo da compreensão conceitual de calor por estudantes de nível médio orientado pela epistemologia bachelardiana</b>. (Graduação em Licenciatura em Física) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7536898569014007">Vania Elisabeth Barlette</a>.</font></td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3921628017639393">Graciela Gomes Palacios</a>. <b>Letramento acadêmico no Ensino Médio: uma experiência pedagógica a partir do material didático autoral "Manual do Jovem Pesquisador"</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>Greice Kelly Oliveira Jorge. <b>Fonética forense e suas contribuições na perícia criminal</b>. (Graduação em Licenciatura em Letras) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>Greice Kelly Oliveira Jorge. <b>Banco de Dados de Língua Falada de Bagé - terceira etapa</b>. (Graduando em Licenciatura em Letras) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>Greice Kelly Oliveira Jorge. <b>Mobilizando as memórias e histórias de vida dos idosos: poesia e afetividade em asilos</b>. (Letras - Português) - Universidade Federal do Pampa, Fundo Nacional do Desenvolvimento da Educação. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>GUEDES, Taísa K. <b>JESSICA JONES É UM CIBORGUE? UMA ANÁLISE SOBRE O PÓS-GÊNERO E AS SUPER-HEROÍNAS.</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3479198807486329">Rodrigo Borges de Faveri</a>.</font></td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>Guilherme Brinker Willrich. <b>ESTUDO DE CASO E ANÁLISE DE EXTRATO DE FOLHAS DO GÊNERO BAUHINIA "PATA-DE-VACA" COMO FERRAMENTAS NO ENSINO DE QUÍMICA ORGÂNICA E DISCUSSÃO SOBRE A DIABETES MELLITUS TIPO 2</b>. (Graduação em Licenciatura em Química) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0077152291293677">Elisabete de Avila da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td>Gustavo ferreira Machado. <b>Aprendizagem significativa crítica: Um estudo exploratório sobre o ensino de eletromagnetismo no Ensino Médio</b>. (Graduação em Física) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/2965334039603843">Rosana Cavalcanti Maia Santos</a>, <a href="http://lattes.cnpq.br/5512659010248787">Pedro Fernando Teixeira Dorneles</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>75. &nbsp;</td> <td>Heidimar França Machado. <b>Uma sequência didática sobre calor e temperatura em uma visão microscópica para licenciandos em pedagogia</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/7536898569014007">Vania Elisabeth Barlette</a>, <a href="http://lattes.cnpq.br/0476257235034440">Paulo Henrique Guadagnini</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>76. &nbsp;</td> <td>Heverton Schimitz Lopes. <b>Diálogos sobre literaturas anglófonas: a colonização cultural manifestada através da literatura</b>. (Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>77. &nbsp;</td> <td>HEYDEN, Hugo dos S. <b>A ficção científica de Johannes Kepler</b>. (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3479198807486329">Rodrigo Borges de Faveri</a>.</font></td></tr>
+            
+            <tr valign="top"><td>78. &nbsp;</td> <td>Hélen Rose Pinheiro Froes. <b>A inclusão da temática História e Cultura Afro-Brasileira em uma escola pública no município de Bagé</b>. (Aperfeiçoamento/Especialização em Especialização em Educação e Diversidade) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>79. &nbsp;</td> <td>Jairo Oliveira. <b>Supervisão das aulas de inglês no Núcleo de Línguas Adicionais - Estágio de Docência do Mestrado</b>. (Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6376117076673020">Simone Silva Pires de Assumpção</a>.</font></td></tr>
+            
+            <tr valign="top"><td>80. &nbsp;</td> <td>Janaíne Fuchs da Silva. <b>Avaliação da capacidade antioxidante do Vaccinium Myrtillus L (Mirtilo) e comparação com as espécies Malpighia emarginata (acerola) e Vitis vinifera L (uva)</b>. (Graduação em Nutrição) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2997329525971185">Fabiana Cristina Missau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>81. &nbsp;</td> <td>Jaqueline Daniela da Rosa. <b>Os multiletramentos no estudo do município em geografia: uma prática interdisciplinar utilizando fotografia e escrita</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>82. &nbsp;</td> <td>Jaqueline Gomes Machado. <b>Alternativas Pedagógicas para o Ensino de Alunos com Baixa Visão: o ensino de cinemática escalar</b>. Dissertação (Mestrado em Mestrado profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1075436289053313">Amélia Rota Borges de Bastos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>83. &nbsp;</td> <td>John Welvins Barros de Araujo. <b>Iniciação ao ensino/monitoria da componente curricular de Física I e Física Geral I</b>. (Licenciatura em Física) - Fundação Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/6432341940154857">Carla Judite Kipper</a>, <a href="http://lattes.cnpq.br/3738313938168252">Edson Massayuki Kakuno</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>84. &nbsp;</td> <td>Jordano Nunes Machado. <b>Programação e robótica no Ensino Fundamntal: Aplicação no estudo de Cinemática a partir de uma UEPS</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5512659010248787">Pedro Fernando Teixeira Dorneles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>85. &nbsp;</td> <td>Josiane Nunes Laner. <b>MEDIAÇÃO DE LEITURA NA ESCOLA: A EXPERIÊNCIA DO PROJETO ?LEITURA NO CAFUNDÓ?.</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9502583808865478">Zíla Letícia Goulart Pereira Rêgo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>86. &nbsp;</td> <td>João Beyer Schenkel. <b>Linguagem e (hetero)ciência: uma janela aberta para a ideologia do cotidiano</b>. (Graduando em Letras - Português) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>87. &nbsp;</td> <td>Juliane dos Santos Porto. <b>A performatividade do discurso feminino em shows de stand up comedy</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2392851596908032">Isabel Cristina Ferreira Teixeira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>88. &nbsp;</td> <td>Kauana Garcia Chaves Esteves. <b>Experimentação Investigativa: Uma Proposta para o Ensino de Química com o Tema Alimentos</b>. (Graduação em Química) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5541226399395863">Elenilson Freitas Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>89. &nbsp;</td> <td>Kellen Beatriz Cardoso Botelho. <b>Representações dos discursos "Fora Dilma" e "Não ao golpe" em textos opinativos postados nos sites O Antagonista e Pragmatismo Político</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2392851596908032">Isabel Cristina Ferreira Teixeira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>90. &nbsp;</td> <td>Leandro Marcos Lassen. <b>Supervisão das aulas de inglês no Núcleo de Línguas Adicionais - Estágio de Docência do Mestrado</b>. (Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6376117076673020">Simone Silva Pires de Assumpção</a>.</font></td></tr>
+            
+            <tr valign="top"><td>91. &nbsp;</td> <td>Leandro Ribeiro Caetano. <b>Construção e conhecimento químico por estudantes da EJA na perspectiva da Situação de Estudo</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8150927782611326">Renata Hernandez Lindemann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>92. &nbsp;</td> <td>Leandro Silveira Fleck. <b>Por uma pedagogia da variação linguística: o ensino dos pronomes pessoais na perspectiva sociolinguística</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>93. &nbsp;</td> <td>Lesley da Silva Ferreira. <b>Feira de Ciências: ?Difundindo Ciência e Tecnologia na Região da Campanha?</b>. de Computação) - Fundação Universidade Federal do Pampa, Universidade Federal do Pampa - PBDA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3738313938168252">Edson Massayuki Kakuno</a>.</font></td></tr>
+            
+            <tr valign="top"><td>94. &nbsp;</td> <td>Letícia Guimarães da Cunha. <b>Charger Backup: Uma solução para salvaguarda de dados</b>. (Graduação em Engenharia de Computação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2530535838251633">Érico Marcelo Hoff do Amaral</a>.</font></td></tr>
+            
+            <tr valign="top"><td>95. &nbsp;</td> <td>Lilia de Lima Vieira. <b>Militância e educação para além das cercas: Um estudo da memória coletiva de militantes do MST no Assentamento Conquista do Jaguarão/RS</b>. (Aperfeiçoamento/Especialização em Educação em Diversidade Cultural) - UNIPAMPA, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></td></tr>
+            
+            <tr valign="top"><td>96. &nbsp;</td> <td>LOPES, Heverton S. <b>A CULTURA ANGLÓFONA COMO UMA FERRAMENTA PARA A INOVAÇÃO LITERÁRIA NA PRIMEIRA METADE DO SÉCULO XX</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3479198807486329">Rodrigo Borges de Faveri</a>.</font></td></tr>
+            
+            <tr valign="top"><td>97. &nbsp;</td> <td>Luana Lucas Alves. <b>O papel da escola na superação das desigualdades e valorização de alunos oriundos de comunidades quilombolas</b>. (Aperfeiçoamento/Especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></td></tr>
+            
+            <tr valign="top"><td>98. &nbsp;</td> <td>Lucas da Silva Barres. <b>Avaliação comparativa de performances musicais de uma banda da cidade de Bagé, RS</b>. (Graduação em Música) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2812319201796904">Alexandre Machado Takahama</a>.</font></td></tr>
+            
+            <tr valign="top"><td>99. &nbsp;</td> <td>Lucas Freitas da Rosa. <b>A Estética do Revisionismo e a Legitimação dos Quadrinhos como Obra de Arte</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3479198807486329">Rodrigo Borges de Faveri</a>.</font></td></tr>
+            
+            <tr valign="top"><td>100. &nbsp;</td> <td>Lucas Freitas de Oliveira. <b>Danças circulares e formação de educadoras: entrelaçamentos do sentir e do agir</b>. (Graduação em Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8015609250219170">Claudia Laus Angelo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>101. &nbsp;</td> <td>Lucas Freitas de Oliveira. <b>Relatório de Estágio Supervisionado do Ensino Fundamental</b>. (Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>102. &nbsp;</td> <td>Lucas Maia Dantas. <b>Preparo de material de apoio didático para ensino em Química</b>. (Graduando em Química) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1460780634829745">Maria Regina de Oliveira Casartelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>103. &nbsp;</td> <td>Luciana Simões Rodrigues. <b>MEMÓRIA E ESQUECIMENTO: LEMBRANÇAS DE NORMALISTAS PEDRITENSES DA ESCOLA NOSSA SENHORA DO HORTO</b>. (Graduação em Letras - Habilitação em Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></td></tr>
+            
+            <tr valign="top"><td>104. &nbsp;</td> <td>Luis Antônio Quadros de Quadros. <b>PIBID (Programa Institucional de Iniciação à Docência)</b>. (Letras - Português) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>105. &nbsp;</td> <td>Luis Filipe Gonçalves. <b>Estágio Supervisionado</b>. Orientação de outra natureza - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9175937699446405">Matheus de Carvalho Leite</a>.</font></td></tr>
+            
+            <tr valign="top"><td>106. &nbsp;</td> <td>Maitê Dias Ribeiro. Literatura no ensino fundamental II: experiências de letramento literário na E.M. <b>São Pedro</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9502583808865478">Zíla Letícia Goulart Pereira Rêgo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>107. &nbsp;</td> <td>Marcelo Molin. <b>Modelagem computacional da transferência de calor sazonal em pavimentos flexíveis usando o método de Volumes Finitos</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8636427420690720">Anderson Luis Jeske Bihain</a>.</font></td></tr>
+            
+            <tr valign="top"><td>108. &nbsp;</td> <td>MARCELO RODRIGUES MARTINS. <b>O Uso da Plataforma Microcontrolada Arduino no Ensino de Eletrodinâmica</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/0476257235034440">Paulo Henrique Guadagnini</a>, <a href="http://lattes.cnpq.br/5512659010248787">Pedro Fernando Teixeira Dorneles</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>109. &nbsp;</td> <td>Maria Helenara Pozzedin Mendes. <b>A diversidade no ensino de língua portuguesa</b>. (Letras) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>110. &nbsp;</td> <td>Mariane de Souza Ferreira. <b>Práticas Investigativas no Ensino de Química: trabalhando com o Bicarbonato de Sódio</b>. (Graduação em Química) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5541226399395863">Elenilson Freitas Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>111. &nbsp;</td> <td>Mariane Lacortte. <b>VIOLÊNCIA, SISTEMA PRISIONAL E DIREITOS HUMANOS</b>. (Aperfeiçoamento/Especialização em Especialização em Serviço Social e Direitos Humanos) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0392455526575019">Evandro Ricardo Guindani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>112. &nbsp;</td> <td>Mariel Monteiro de Araújo. <b>Ensino de Inglês no Brasil e nos Estados Unidos: diferenças metodológicas</b>. (Graduação em Licenciatura em Letras - Português/Inglês e Lit.) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6376117076673020">Simone Silva Pires de Assumpção</a>.</font></td></tr>
+            
+            <tr valign="top"><td>113. &nbsp;</td> <td>MARÍLIA BRITTO CORREA DE OLIVEIRA. <b>Sequencia de Atividades para o Ensino de Energia e suas Transformações, baseada em princípios facilitadores da Aprendizagem Significativa Crítica</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2906182031441331">Márcia Maria Lucchese</a>.</font></td></tr>
+            
+            <tr valign="top"><td>114. &nbsp;</td> <td>Marília Santos de Quadros Araújo. <b>Retextualização de curta-metragem de animação no Ensino Fundamental: desenho pedagógico para a produção escrita de contos de mistério</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>115. &nbsp;</td> <td>Matheus Rodrigues dos Santos. <b>PIBID (Programa Institucional de Iniciação à Docência)</b>. (Letras - Português) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>116. &nbsp;</td> <td>Melissa Gonçalves. <b>O estudo do violino: escolhas e estratégias de um professor a partir do Método Suzuki</b>. (Graduação em Música) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3922573309511736">Carla Eugenia Lopardo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>117. &nbsp;</td> <td>Merab Alves. <b>Reflexões sobre a constituição do professor de qualidade.</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>118. &nbsp;</td> <td>Michele Batista da Silva. <b>Escrita, revisão e reescrita do gênero notícia produzido no ensino fundamental: o passo a passo - construção e implementação de propostas de intervenção</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>119. &nbsp;</td> <td>Miriã Daneris Valério D'avila de Oliveira. <b>A formação musical dos professores de música na IBC Bagé</b>. (Graduação em Música) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9257019128596134">André Müller Reck</a>.</font></td></tr>
+            
+            <tr valign="top"><td>120. &nbsp;</td> <td>Morgana Welke. <b>Materiais magnéticos nanoestruturados: Produção e caracterização in-situ</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, UNIPAMPA-Programa de Bolsas de Desenvolvimento Acadêmico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9063998902105812">André Gündel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>121. &nbsp;</td> <td>Méllani da Silveira Laus. <b>Banco de Dados de Língua Falada de Bagé - terceira etapa</b>. (Graduando em Licenciatura em Letras) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>122. &nbsp;</td> <td>Nara Rosane Machado de Oliveira. <b>POLÍCIA CIVIL E CONFLITOS ESCOLARES: CONSTRUINDO PONTES PARA UMA CONVIVÊNCIA PACÍFICA POSSÍVEL</b>. (Aperfeiçoamento/Especialização em Especialização em Educação e Diversidade) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>123. &nbsp;</td> <td>Natalia Troajhn Simões. <b>Análise qualitativa das dissertações de Mestrado Profissional em Ensino de Ciências</b>. (Graduando em Química) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8150927782611326">Renata Hernandez Lindemann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>124. &nbsp;</td> <td>Nathália Cabral Rodrigues Batista. <b>Universidade Pública: Uma Discussão sobre as Políticas de Acesso na Unipampa</b>. (Aperfeiçoamento/Especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></td></tr>
+            
+            <tr valign="top"><td>125. &nbsp;</td> <td>Niandra Lacerda. <b>?Noite de serestas e músicas inesquecíveis?: uma etnografia sobre música e memória em Bagé/RS</b>. (Graduação em Música) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8686171159500113">Luana Zambiazzi dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>126. &nbsp;</td> <td>Nilton Vergara Rodrigues. <b>?Centro Cultural Marrabenta?: uma pesquisa etnomusicológica sobre práticas musicais e etnicidade negra em Pelotas/RS</b>. (Graduação em Música) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8686171159500113">Luana Zambiazzi dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>127. &nbsp;</td> <td>Noemi Lopes da Silva. <b>O ensino da língua inglesa em uma escola pública de Alegrete/RS: do olhar para o ENEM a uma proposta didática voltada ao Letramento Crítico</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7316864301240506">Valesca Brasil Irala</a>.</font></td></tr>
+            
+            <tr valign="top"><td>128. &nbsp;</td> <td>Pablo Belmonte Machado. <b>Propriedades químicas, físicas e biológicas da Averrhoa carambola em diferentes estádios de maturação.</b>. (Graduação em Bacharelado Interdisciplinar em Ciência e Tecnolog) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2997329525971185">Fabiana Cristina Missau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>129. &nbsp;</td> <td>Paola Pires dos Santos. <b>O papel transformador da literatura na obra O sr.Pip, de Lloyd Jones</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9502583808865478">Zíla Letícia Goulart Pereira Rêgo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>130. &nbsp;</td> <td>Paula Freitas de Mello. <b>Preparo de material de apoio didático para ensino em Química</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1460780634829745">Maria Regina de Oliveira Casartelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>131. &nbsp;</td> <td>Paula Schaiane Machado da Rosa. <b>Linguagem e (hetero)ciência: uma janela aberta para a ideologia do cotidiano</b>. Médio Dr Carlos Antônio Kluwe, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>132. &nbsp;</td> <td>Paulo Sérgio Amaro Rodrigues. <b>Reflexões acera do uso de TIC no contexto escolar: uma análise desses recursos e resultados</b>. (Aperfeiçoamento/Especialização em Especialização em Tecnologias Digitais e Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2530535838251633">Érico Marcelo Hoff do Amaral</a>.</font></td></tr>
+            
+            <tr valign="top"><td>133. &nbsp;</td> <td>Priscylla Pirasol de Carvalho Marchioni. <b>Monitoria das disciplinas de Morfologia e Estudos de Fonética e Fonologia</b>. (Licenciatura em Letras) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>134. &nbsp;</td> <td>Pâmela Oliveira de Castro. <b>A variação na fala que se reproduz na escrita: uma pesquisa com alunos de terceiro e nono ano do ensino fundamental</b>. (Graduação em Licenciatura em Letras) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>135. &nbsp;</td> <td>Pâmela Oliveira de Castro. <b>Banco de Dados de Língua Falada de Bagé - terceira etapa</b>. (Graduando em Licenciatura em Letras) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>136. &nbsp;</td> <td>Pâmela Oliveira de Castro. <b>PIBID (Programa Institucional de Iniciação à Docência)</b>. (Letras - Português) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>137. &nbsp;</td> <td>Rafael Gonçalves. <b>Estágio Supervisionado</b>. (Música) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9175937699446405">Matheus de Carvalho Leite</a>.</font></td></tr>
+            
+            <tr valign="top"><td>138. &nbsp;</td> <td>Rafael Martins Alves. <b>Automatização de Um Guia de Endoscopia Utilizando Controlador PID</b>. (Graduação em Engenharia da Computação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8636427420690720">Anderson Luis Jeske Bihain</a>, <a href="http://lattes.cnpq.br/7385942137403019">Leandro Blass</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>139. &nbsp;</td> <td>RAISSA MACHADO RODRIGUES. <b>A FORMAÇÃO DOCENTE EM EDUCAÇÃO INCLUSIVA E A CONSTRUÇÃO DE SEUS SABERES</b>. (Graduação em Licenciatura em Letras e respectivas Literaturas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>140. &nbsp;</td> <td>Ranaí Gonçalves Sangic. <b>Relatório de Estágio Supervisionado do Ensino Fundamental</b>. (Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>141. &nbsp;</td> <td>Raquel Lopes Teixeira. <b>Monitoria de Química Analítica</b>. (Graduando em Química) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1460780634829745">Maria Regina de Oliveira Casartelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>142. &nbsp;</td> <td>Rebeca Kerou Teliz Goulart. <b>Linguagem e (hetero)ciência: uma janela aberta para a ideologia do cotidiano</b>. (Graduando em Letras - Português) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>143. &nbsp;</td> <td>Renata Caon. <b>Rupturas no discurso de representação da mulher através do relato de idosas</b>. (Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>144. &nbsp;</td> <td>Ricardo Costa Brião. <b>TRABALHANDO A FORMAÇÃO DE PROFESSORES A PARTIR DE PRÁTICAS INTERDISCIPLINARES QUE CONTEMPLEM A DIVERSIDADE.</b>. (Aperfeiçoamento/Especialização em Especialização em Educação e Diversidade) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>145. &nbsp;</td> <td>Roberta Almeida Mércio. <b>VIOLÊNCIA NA ESCOLA: O OLHAR DA MÍDIA TELEVISIVA SOBRE OS CASOS REGISTRADOS EM BAGÉ</b>. (Aperfeiçoamento/Especialização em Especialização em Educação e Diversidade) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>146. &nbsp;</td> <td>Rosinêz Fátima da Luz. <b>Supervisão das aulas de inglês no Núcleo de Línguas Adicionais - Estágio de Docência do Mestrado</b>. (Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6376117076673020">Simone Silva Pires de Assumpção</a>.</font></td></tr>
+            
+            <tr valign="top"><td>147. &nbsp;</td> <td>Sidônia Bresolin. <b>Monitoria de Equações Diferenciais</b>. (Engenharia de Produção) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8636427420690720">Anderson Luis Jeske Bihain</a>.</font></td></tr>
+            
+            <tr valign="top"><td>148. &nbsp;</td> <td>Simone Lima Guedes. <b>PIBID (Programa Institucional de Iniciação à Docência)</b>. (Letras - Português) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>149. &nbsp;</td> <td>Simone Rodrigues. <b>Estágio Supervisionado</b>. (Música) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9175937699446405">Matheus de Carvalho Leite</a>.</font></td></tr>
+            
+            <tr valign="top"><td>150. &nbsp;</td> <td>Simôni Costa Monteiro Gervásio. <b>MEMÓRIAS DOCENTES: AS PRÁTICAS PEDAGÓGICAS ADOTADAS PELOS PROFESSORES DA DÉCADA DE 70 A PARTIR DAS PROPOSTAS OFERECIDAS PELA REVISTA DO ENSINO DO RIO GRANDE DO SUL</b>. (Aperfeiçoamento/Especialização em Educação em Diversidade Cultural) - UNIPAMPA, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></td></tr>
+            
+            <tr valign="top"><td>151. &nbsp;</td> <td>Tais Douglas Andrade. <b>Atualização e análise de banco de dados de Dissertações de Mestrados Profissionais em Ensino de Ciências brasileiro</b>. (Graduando em Química) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8150927782611326">Renata Hernandez Lindemann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>152. &nbsp;</td> <td>Tayne Melo Motta. <b>Oficina de teatro: escola e cena</b>. (Letras - Português) - Universidade Federal do Pampa, Fundo Nacional do Desenvolvimento da Educação. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>153. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4342121426929179">Taís Pinto Rodrigues Saldanha</a>. <b>O conceito de potência elétrica: uma intervenção pedagógica para o Ensino Médio</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5512659010248787">Pedro Fernando Teixeira Dorneles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>154. &nbsp;</td> <td>Tenely Cristina Froehlich. <b>ENCURTANDO CAMINHOS NA CONQUISTA DAS ESTRELAS</b>. (Graduação em Licenciatura em Letras e respectivas Literaturas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>155. &nbsp;</td> <td>Thaís Paz Barbosa. <b>PIBID (Programa Institucional de Iniciação à Docência)</b>. (Letras - Português) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>156. &nbsp;</td> <td>Thiago de Carvalho Rêgo. <b>Identificação de Transientes em Painéis Fotovoltaicos</b>. (Graduação em Engenharia de Energias Renováveis e Ambiente) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3603202046788146">Fernando Luis Dias</a>.</font></td></tr>
+            
+            <tr valign="top"><td>157. &nbsp;</td> <td>Thiago de Carvalho Rêgo. <b>Análise Tempo-Frequência de Sinais Não Estacionários</b>. (Graduando em Engenharia de Energias Renováveis e Ambiente) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3603202046788146">Fernando Luis Dias</a>.</font></td></tr>
+            
+            <tr valign="top"><td>158. &nbsp;</td> <td>Tiago Farias Lucas. <b>O uso da informática como instrumento para o ensino da matemática</b>. (Aperfeiçoamento/Especialização em Especialização em Tecnologias Digitais e Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2530535838251633">Érico Marcelo Hoff do Amaral</a>.</font></td></tr>
+            
+            <tr valign="top"><td>159. &nbsp;</td> <td>Vando Moreira Castro. <b>La representación de la masculinidad hegemónica en la obra Fruta Verde: "el hombre sólo puede descubrir su verdadera naturaleza al verse en el espejo ajeno"</b>. (Graduação em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7116556614171616">Cristina Cardoso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>160. &nbsp;</td> <td>Vanessa Fonseca de Souza Rodriguez. <b>O ENSINO DE CONCEITOS CIENTÍFICOS EM ESPAÇOS NÃO FORMAIS DE EDUCAÇÃO: UMA EXPERIÊNCIA EM UM CENTRO DE EDUCAÇÃO AMBIENTAL</b>. Dissertação (Mestrado em Mestrado Profissional em Ensino de Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3000763401885447">Márcio Marques Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>161. &nbsp;</td> <td>Vanessa Goersch da Silva. <b>A educação integral no Seminário Integrado: um estudo de caso</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2392851596908032">Isabel Cristina Ferreira Teixeira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>162. &nbsp;</td> <td>Vanessa Rosa Pires. <b>Projeto de Extensão Astronomia para Todos</b>. (Engenharia de Alimentos) - Universidade Federal do Pampa, PROEXT-MEC. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8015609250219170">Claudia Laus Angelo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>163. &nbsp;</td> <td>Vitor Alanis Rodrigues de Melo. <b>Análise do repertório de uma orquestra de cordas em fase inicial de implantação na cidade de Bagé, RS</b>. (Graduação em Música) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2812319201796904">Alexandre Machado Takahama</a>.</font></td></tr>
+            
+            <tr valign="top"><td>164. &nbsp;</td> <td>Willian de Melo Ely. <b>A Influência do Espaço de Estudo na Aprendizagem: Harmonia de Ambientes, Estética e Semiótica</b>. (Graduação em Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>165. &nbsp;</td> <td>YASMIM PRESTES RODRIGUES. <b>A INCLUSÃO DE UM ALUNO CEGO NO CURSO DE MATEMÁTICA: DESAFIOS E POSSIBILIDADES</b>. em Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1075436289053313">Amélia Rota Borges de Bastos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>166. &nbsp;</td> <td>Yasmin Prestes Ferreira. <b>Relatório de Estágio Supervisionado do Ensino Fundamental</b>. (Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>167. &nbsp;</td> <td>Yslaine de Paula. <b>Monitoria em Química Analítica</b>. (Graduando em Engenharia Química) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1460780634829745">Maria Regina de Oliveira Casartelli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>168. &nbsp;</td> <td>Éderson Pereira Coitinho. <b>Censura e repressão aos movimentos literário-teatrais em Bagé/RS nos anos da Ditadura Militar</b>. (Graduação em Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1719845201647993">Miriam Denise Kelm</a>.</font></td></tr>
+            
+            <tr valign="top"><td>169. &nbsp;</td> <td>Éverton Rogério da Silva Corrêa. <b>AS IMAGENS DO NEGRO CONSTRUÍDAS NA ESCOLA: UMA ANÁLISE DO DISCURSO ESCOLAR</b>. Dissertação (Mestrado em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 15:17:42<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

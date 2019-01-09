@@ -1,0 +1,207 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Bage</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Bage</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Demais tipos de produção bibliográfica'}, 
+series: [{data: [[2016,
+10],
+[2017,
+13],
+[2018,
+4]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Demais tipos de produção bibliográfica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 27<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>COVALESKY, D. H. <b>Camerata de violões: uma aproximação à pratica musical coletiva</b>. 2018. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Camerata+de+violões:+uma+aproximação+à+pratica+musical+coletiva&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Camerata+de+violões:+uma+aproximação+à+pratica+musical+coletiva">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Camerata+de+violões:+uma+aproximação+à+pratica+musical+coletiva">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>GIOVANI, F.; CAMARGOS, M. L.. <b>Apresentação. Mauritius</b>. 2018. Prefácio, Pósfacio/Apresentação<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Apresentação.+Mauritius&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Apresentação.+Mauritius">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Apresentação.+Mauritius">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>HÖLZLE, L. R. B.; BARREIROS, D. P.. <b>Evolução do Sistema Solar Primordial em Termos de Grande História e Evolução Universal. Villanova University</b>. 2018. Tradução/Artigo<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Evolução+do+Sistema+Solar+Primordial+em+Termos+de+Grande+História+e+Evolução+Universal.+Villanova+University&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Evolução+do+Sistema+Solar+Primordial+em+Termos+de+Grande+História+e+Evolução+Universal.+Villanova+University">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Evolução+do+Sistema+Solar+Primordial+em+Termos+de+Grande+História+e+Evolução+Universal.+Villanova+University">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>RÊGO, Z. L. G. P.; GIOVANI, F.. <b>Prefácio. São Leopoldo</b>. 2018. Prefácio, Pósfacio/Prefácio<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Prefácio.+São+Leopoldo&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Prefácio.+São+Leopoldo">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Prefácio.+São+Leopoldo">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BASTOS A. <b>R. B. BUSCANDO AS ORIGENS. PELOTAS</b>. 2017. Prefácio, Pósfacio/Prefácio<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=R.+B.+BUSCANDO+AS+ORIGENS.+PELOTAS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=R.+B.+BUSCANDO+AS+ORIGENS.+PELOTAS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=R.+B.+BUSCANDO+AS+ORIGENS.+PELOTAS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CARDOSO, C. <b>Espanhol para fins comunicativos</b>. 2017. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Espanhol+para+fins+comunicativos&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Espanhol+para+fins+comunicativos">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Espanhol+para+fins+comunicativos">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CARDOSO, C.; DUTRA, E. O.. <b>Formação de professores de Língua Espanhola: histórico, conceito e práticas em contato'</b>. 2017. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Formação+de+professores+de+Língua+Espanhola:+histórico,+conceito+e+práticas+em+contato'&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Formação+de+professores+de+Língua+Espanhola:+histórico,+conceito+e+práticas+em+contato'">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Formação+de+professores+de+Língua+Espanhola:+histórico,+conceito+e+práticas+em+contato'">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CARLINO, P. ; SCHWARTZ, S. <b>Escrever, ler e aprender na Universidade. Petrópolis: Vozes</b>. 2017. Coordenação de coleção de livros<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Escrever,+ler+e+aprender+na+Universidade.+Petrópolis:+Vozes&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Escrever,+ler+e+aprender+na+Universidade.+Petrópolis:+Vozes">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Escrever,+ler+e+aprender+na+Universidade.+Petrópolis:+Vozes">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CARVALHO, Karen Cristina. ; MARTINS, Claudete da Silva Lima ; BRIZOLLA, F.. <b>Música Tertúlias do Pampa</b>. 2017. Partitura Musical/Canto<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Música+Tertúlias+do+Pampa&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Música+Tertúlias+do+Pampa">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Música+Tertúlias+do+Pampa">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>CUMMINS, S. ; SCHWARTZ, S. <b>Princípios e Práticas para compreensão textual no Ensino Fundamental. Petropolis: Vozes</b>. 2017. Coordenação de coleção de livros<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Princípios+e+Práticas+para+compreensão+textual+no+Ensino+Fundamental.+Petropolis:+Vozes&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Princípios+e+Práticas+para+compreensão+textual+no+Ensino+Fundamental.+Petropolis:+Vozes">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Princípios+e+Práticas+para+compreensão+textual+no+Ensino+Fundamental.+Petropolis:+Vozes">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>DUTRA, Eduardo de Oliveira; SIMIONI, Taíse.. <b>Apresentação do livro O ensino do espanhol: caminhos e perspectivas. Campinas: Pontes</b>. 2017. Livro<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Apresentação+do+livro+O+ensino+do+espanhol:+caminhos+e+perspectivas.+Campinas:+Pontes&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Apresentação+do+livro+O+ensino+do+espanhol:+caminhos+e+perspectivas.+Campinas:+Pontes">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Apresentação+do+livro+O+ensino+do+espanhol:+caminhos+e+perspectivas.+Campinas:+Pontes">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>FAVERI, R. B.; Faveri, Claudia ; STEIL, J.. <b>Explorando as Teorias da Tradução. São Paulo: Perspectiva</b>. 2017. Tradução/Livro<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Explorando+as+Teorias+da+Tradução.+São+Paulo:+Perspectiva&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Explorando+as+Teorias+da+Tradução.+São+Paulo:+Perspectiva">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Explorando+as+Teorias+da+Tradução.+São+Paulo:+Perspectiva">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SIMIONI, T.; IRALA, V. B. ; MEDEIROS, V. L. C. ; FERREIRA, R. N.. <b>Anais da I Jornada de Reflexões sobre Ensino de Línguas. Bagé: UNIPAMPA</b>. 2017. Apresentação de Anais<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Anais+da+I+Jornada+de+Reflexões+sobre+Ensino+de+Línguas.+Bagé:+UNIPAMPA&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Anais+da+I+Jornada+de+Reflexões+sobre+Ensino+de+Línguas.+Bagé:+UNIPAMPA">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Anais+da+I+Jornada+de+Reflexões+sobre+Ensino+de+Línguas.+Bagé:+UNIPAMPA">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>IRALA, Valesca Brasil. <b>Tradução da Entrevista com Pepe Mujica</b>. 2017. Tradução/Outra<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Tradução+da+Entrevista+com+Pepe+Mujica&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Tradução+da+Entrevista+com+Pepe+Mujica">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Tradução+da+Entrevista+com+Pepe+Mujica">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>JACINTO, L. C. R. ; VOSS, Dulce Mari da Silva. <b>A vida comunitária de Dona Santa: uma mulher negra benzedeira nos pampas gaúchos. Bagé</b>. 2017. Prefácio, Pósfacio/Prefácio<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+vida+comunitária+de+Dona+Santa:+uma+mulher+negra+benzedeira+nos+pampas+gaúchos.+Bagé&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+vida+comunitária+de+Dona+Santa:+uma+mulher+negra+benzedeira+nos+pampas+gaúchos.+Bagé">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+vida+comunitária+de+Dona+Santa:+uma+mulher+negra+benzedeira+nos+pampas+gaúchos.+Bagé">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>MEDEIROS, Vera L. C. <b>Prefácio. Bagé</b>. 2017. Prefácio, Pósfacio/Prefácio<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Prefácio.+Bagé&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Prefácio.+Bagé">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Prefácio.+Bagé">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>VIEIRA, L. L. <b>Espanhol Básico I</b>. 2017. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Espanhol+Básico+I&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Espanhol+Básico+I">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Espanhol+Básico+I">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alonso Tapia, Jesus ; CARRIEDO L., Nuria ; SCHWARTZ, S. <b>Como ensinar a compreender um texto? : um programa de estratégias para praticar a compreensão leitora. Petrópolis: Editora Vozes</b>. 2016. Coordenação de coleção de livros<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Como+ensinar+a+compreender+um+texto?+:+um+programa+de+estratégias+para+praticar+a+compreensão+leitora.+Petrópolis:+Editora+Vozes&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Como+ensinar+a+compreender+um+texto?+:+um+programa+de+estratégias+para+praticar+a+compreensão+leitora.+Petrópolis:+Editora+Vozes">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Como+ensinar+a+compreender+um+texto?+:+um+programa+de+estratégias+para+praticar+a+compreensão+leitora.+Petrópolis:+Editora+Vozes">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CARLINO, P. ; SCHWARTZ, S. <b>Escrever, ler e aprender na universidade: uma introdução a alfabetização acadêmica. Petrópolis: Editora Vozes</b>. 2016. Tradução/Livro<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Escrever,+ler+e+aprender+na+universidade:+uma+introdução+a+alfabetização+acadêmica.+Petrópolis:+Editora+Vozes&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Escrever,+ler+e+aprender+na+universidade:+uma+introdução+a+alfabetização+acadêmica.+Petrópolis:+Editora+Vozes">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Escrever,+ler+e+aprender+na+universidade:+uma+introdução+a+alfabetização+acadêmica.+Petrópolis:+Editora+Vozes">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>DUARTE, Gabriela Bohlmann. <b>Resenha de ?Complex Systems and Applied Linguistics?, de Diane Larsen-Freeman e Lynne Cameron. Revista Virtual de Estudos da Linguagem</b>. 2016. Resenha<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Resenha+de+?Complex+Systems+and+Applied+Linguistics?,+de+Diane+Larsen-Freeman+e+Lynne+Cameron.+Revista+Virtual+de+Estudos+da+Linguagem&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Resenha+de+?Complex+Systems+and+Applied+Linguistics?,+de+Diane+Larsen-Freeman+e+Lynne+Cameron.+Revista+Virtual+de+Estudos+da+Linguagem">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Resenha+de+?Complex+Systems+and+Applied+Linguistics?,+de+Diane+Larsen-Freeman+e+Lynne+Cameron.+Revista+Virtual+de+Estudos+da+Linguagem">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FERNANDES, Carolina; BORGES, M. C. R.. <b>Sociolinguística e análise de discurso: maneiras de dizer, maneiras de fazer. Curitiba: EDITORA CRV</b>. 2016. Tradução/Artigo<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Sociolinguística+e+análise+de+discurso:+maneiras+de+dizer,+maneiras+de+fazer.+Curitiba:+EDITORA+CRV&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Sociolinguística+e+análise+de+discurso:+maneiras+de+dizer,+maneiras+de+fazer.+Curitiba:+EDITORA+CRV">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Sociolinguística+e+análise+de+discurso:+maneiras+de+dizer,+maneiras+de+fazer.+Curitiba:+EDITORA+CRV">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>GALIAZZI, M. C. ; HECKLER, V. ; Dorneles, A. M ; MEDEIROS, A. L. S. ; RODRIGUEZ, A. S. M. ; NUNES, B. R. ; MARTINS, D. S. ; ZANOTTA, P. A. ; SOUSA, R. S. ; DIAS, V. M. T. ; SILVA, W. R.. <b>INTEGRAÇÃO DA TEORIA HISTÓRICO-CULTURAL DA ATIVIDADE COM A PESQUISA-AÇÃO. Rio Grande: Rio Grande: Editora da FURG</b>. 2016. Tradução/ Artigo<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=INTEGRAÇÃO+DA+TEORIA+HISTÓRICO-CULTURAL+DA+ATIVIDADE+COM+A+PESQUISA-AÇÃO.+Rio+Grande:+Rio+Grande:+Editora+da+FURG&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=INTEGRAÇÃO+DA+TEORIA+HISTÓRICO-CULTURAL+DA+ATIVIDADE+COM+A+PESQUISA-AÇÃO.+Rio+Grande:+Rio+Grande:+Editora+da+FURG">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=INTEGRAÇÃO+DA+TEORIA+HISTÓRICO-CULTURAL+DA+ATIVIDADE+COM+A+PESQUISA-AÇÃO.+Rio+Grande:+Rio+Grande:+Editora+da+FURG">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>GALIAZZI, M. C. ; HECKLER, V. ; Dorneles, A. M ; MEDEIROS, A. L. S. ; RODRIGUEZ, A. S. M. ; NUNES, B. R. ; MARTINS, D. S. ; ZANOTTA, P. A. ; SOUSA, R. S. ; DIAS, V. M. T. ; SILVA, W. R.. <b>APRENDIZAGEM DIALÓGICA: O PROCESSO DOS SERES HUMANOS DE FALAR EM DIREÇÃO À COMPREENSÃO. Rio Grande: Rio Grande: Editora da FURG</b>. 2016. Tradução/ Outra<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=APRENDIZAGEM+DIALÓGICA:+O+PROCESSO+DOS+SERES+HUMANOS+DE+FALAR+EM+DIREÇÃO+À+COMPREENSÃO.+Rio+Grande:+Rio+Grande:+Editora+da+FURG&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=APRENDIZAGEM+DIALÓGICA:+O+PROCESSO+DOS+SERES+HUMANOS+DE+FALAR+EM+DIREÇÃO+À+COMPREENSÃO.+Rio+Grande:+Rio+Grande:+Editora+da+FURG">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=APRENDIZAGEM+DIALÓGICA:+O+PROCESSO+DOS+SERES+HUMANOS+DE+FALAR+EM+DIREÇÃO+À+COMPREENSÃO.+Rio+Grande:+Rio+Grande:+Editora+da+FURG">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>KELM, M. D.; IRALA, V. B.. <b>Retratos de Linguagem - Uma homenagem aos 10 anos da área de Letras da Unipampa - campus Bagé/RS. Bagé/RS</b>. 2016. Prefácio, Pósfacio/Prefácio<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Retratos+de+Linguagem+-+Uma+homenagem+aos+10+anos+da+área+de+Letras+da+Unipampa+-+campus+Bagé/RS.+Bagé/RS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Retratos+de+Linguagem+-+Uma+homenagem+aos+10+anos+da+área+de+Letras+da+Unipampa+-+campus+Bagé/RS.+Bagé/RS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Retratos+de+Linguagem+-+Uma+homenagem+aos+10+anos+da+área+de+Letras+da+Unipampa+-+campus+Bagé/RS.+Bagé/RS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>MARRANGHELLO, G. F. ; DORNELLES, C. ; BARBIERI, M.. <b>Revista Colabore/Articulando Saberes (n. 2) - Astronomia para Todos e a Construção do Saber. Bagé: Unipampa</b>. 2016. n. 2) - Astronomia para Todos e a Construção do Saber. Bagé: Unipampa, 2016 (Organização de revista de extensão<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Revista+Colabore/Articulando+Saberes+(n.+2)+-+Astronomia+para+Todos+e+a+Construção+do+Saber.+Bagé:+Unipampa&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Revista+Colabore/Articulando+Saberes+(n.+2)+-+Astronomia+para+Todos+e+a+Construção+do+Saber.+Bagé:+Unipampa">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Revista+Colabore/Articulando+Saberes+(n.+2)+-+Astronomia+para+Todos+e+a+Construção+do+Saber.+Bagé:+Unipampa">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MEDEIROS, Vera L. C. <b>Prefácio. Herval d'Oeste</b>. 2016. Prefácio, Pósfacio/Prefácio<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Prefácio.+Herval+d'Oeste&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Prefácio.+Herval+d'Oeste">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Prefácio.+Herval+d'Oeste">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MEDEIROS, Vera L. C.; TETTAMANZY, A. L. L.. <b>Apresentação. Londrina</b>. 2016. Prefácio, Pósfacio/Apresentação<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Apresentação.+Londrina&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Apresentação.+Londrina">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Apresentação.+Londrina">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 15:17:42<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

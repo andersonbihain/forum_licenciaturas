@@ -1,0 +1,229 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Bage</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Bage</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Livros publicados/organizados ou edições'}, 
+series: [{data: [[2016,
+15],
+[2017,
+13],
+[2018,
+10]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Livros publicados/organizados ou edições</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 38<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CAMARGOS, M. L.; Giovani, Fabiana (Org.). <b>Ensaios interculturais: experiências de professores/aprendizes de línguas</b>. 1 ed. Saarbruck: Novas Edições Acadêmicas, 2018. v. 1, p. 140. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Ensaios+interculturais:+experiências+de+professores/aprendizes+de+línguas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Ensaios+interculturais:+experiências+de+professores/aprendizes+de+línguas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Ensaios+interculturais:+experiências+de+professores/aprendizes+de+línguas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CASSANA, M. F. <b>Corpo e(m) discurso: ressignificando a transexualidade (no prelo)</b>. 1 ed. Curitiba: Appris, 2018. .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Corpo+e(m)+discurso:+ressignificando+a+transexualidade+(no+prelo)&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Corpo+e(m)+discurso:+ressignificando+a+transexualidade+(no+prelo)">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Corpo+e(m)+discurso:+ressignificando+a+transexualidade+(no+prelo)">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>COLVERO, R. B. ; PANIAGUA, E. R. ; JOVINO, D. P. ; GUINDANI, EVANDRO. <b>PIBID na UNIPAMPA São Borja - RS: O Subprojeto História</b>. 1 ed. São Leopoldo: Oikos, 2018. p. 160. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=PIBID+na+UNIPAMPA+São+Borja+-+RS:+O+Subprojeto+História&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=PIBID+na+UNIPAMPA+São+Borja+-+RS:+O+Subprojeto+História">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=PIBID+na+UNIPAMPA+São+Borja+-+RS:+O+Subprojeto+História">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CORRAL, Cláudia (Org.) ; FROES, Hélen (Org.) ; MARTINS, Claudete da Silva Lima (Org.) ; CORREA, L. (Org.) ; ALVES, M. F. M. (Org.). <b>A docência negra e a Escola de Campo : formação profissional e práticas pedagógicas inovadoras na cultura afro-brasileira</b>. 01 ed. Porto Alegre: Evangraf, 2018. v. 01, p. 103. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+docência+negra+e+a+Escola+de+Campo+:+formação+profissional+e+práticas+pedagógicas+inovadoras+na+cultura+afro-brasileira&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+docência+negra+e+a+Escola+de+Campo+:+formação+profissional+e+práticas+pedagógicas+inovadoras+na+cultura+afro-brasileira">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+docência+negra+e+a+Escola+de+Campo+:+formação+profissional+e+práticas+pedagógicas+inovadoras+na+cultura+afro-brasileira">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>DORNELES, P. F. T.; HUNSCHE, S. (Org.). <b>Práticas educativas no ensino de Ciências desenvolvidas no PIBID da Unipampa</b>. 1 ed. São Leopoldo: Oikos Ltda, 2018. .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Práticas+educativas+no+ensino+de+Ciências+desenvolvidas+no+PIBID+da+Unipampa&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Práticas+educativas+no+ensino+de+Ciências+desenvolvidas+no+PIBID+da+Unipampa">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Práticas+educativas+no+ensino+de+Ciências+desenvolvidas+no+PIBID+da+Unipampa">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>LOPARDO, C. E. <b>A música na escola: tempos, espaços e dimensões</b>. 1 ed. Curituba: Appris, 2018. p. 269. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+música+na+escola:+tempos,+espaços+e+dimensões&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+música+na+escola:+tempos,+espaços+e+dimensões">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+música+na+escola:+tempos,+espaços+e+dimensões">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Mello, E. M. B. (Org.) ; Salomão de Freitas, Diana Paula (Org.) ; RODRIGUES, A. R. B. (Org.) ; SCOLA, E. L. (Org.) ; NORONHA, D. M. (Org.). <b>Anais do Seminário Inovação Pedagógica- ?Repensando estratégias de formação acadêmico-profissional em diálogo entre Educação Básica e Educação Superior'</b>. 1 ed. Uruguaiana: UNIPAMPA, 2018. v. 1, p. 137. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Anais+do+Seminário+Inovação+Pedagógica-+?Repensando+estratégias+de+formação+acadêmico-profissional+em+diálogo+entre+Educação+Básica+e+Educação+Superior'&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Anais+do+Seminário+Inovação+Pedagógica-+?Repensando+estratégias+de+formação+acadêmico-profissional+em+diálogo+entre+Educação+Básica+e+Educação+Superior'">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Anais+do+Seminário+Inovação+Pedagógica-+?Repensando+estratégias+de+formação+acadêmico-profissional+em+diálogo+entre+Educação+Básica+e+Educação+Superior'">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SCHWARTZ, S. <b>Falar e escutar na sala de aula: propostas de atividades práticas</b>. 1a ed. Petrópolis: Vozes, 2018. v. 01, p. 96. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Falar+e+escutar+na+sala+de+aula:+propostas+de+atividades+práticas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Falar+e+escutar+na+sala+de+aula:+propostas+de+atividades+práticas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Falar+e+escutar+na+sala+de+aula:+propostas+de+atividades+práticas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SCHWARTZ, SUZANA. <b>Entre a indignação e a esperança: alfabetização de jovens e adultos</b>. 1 ed. Mauritius: Nova Edições Acadêmicas, 2018. v. 1, p. 249. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Entre+a+indignação+e+a+esperança:+alfabetização+de+jovens+e+adultos&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Entre+a+indignação+e+a+esperança:+alfabetização+de+jovens+e+adultos">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Entre+a+indignação+e+a+esperança:+alfabetização+de+jovens+e+adultos">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>TEIXEIRA, I. C. F. (Org.) ; SILVA, Thiago S. (Org.). <b>Linguagens em interação: Relatos de experiências do PIBID</b>. 1 ed. São Leopoldo: Oikos, 2018. v. 1, p. 125. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Linguagens+em+interação:+Relatos+de+experiências+do+PIBID&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Linguagens+em+interação:+Relatos+de+experiências+do+PIBID">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Linguagens+em+interação:+Relatos+de+experiências+do+PIBID">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CASTILLO, C. G. D. <b>Estética e Poética em Juana Rosa Pita: uma leitura de Pensamiento del tiempo</b>. 1 ed. Beau Bassin: Novas Edições Acadêmicas, 2017. v. 1, p. 101. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Estética+e+Poética+em+Juana+Rosa+Pita:+uma+leitura+de+Pensamiento+del+tiempo&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Estética+e+Poética+em+Juana+Rosa+Pita:+uma+leitura+de+Pensamiento+del+tiempo">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Estética+e+Poética+em+Juana+Rosa+Pita:+uma+leitura+de+Pensamiento+del+tiempo">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>DUTRA, Eduardo de Oliveira; SIMIONI, Taíse. (Org.). <b>O ensino do espanhol: caminhos e perspectivas</b>. 1 ed. Campinas: Pontes, 2017. v. 1, p. 270. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+ensino+do+espanhol:+caminhos+e+perspectivas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+ensino+do+espanhol:+caminhos+e+perspectivas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+ensino+do+espanhol:+caminhos+e+perspectivas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>FERNANDES, Carolina. <b>O visível e o invisível da imagem: uma análise discursiva da leitura e da escrita de livros de imagens</b>. 1 ed. Campinas, SP: Mercado de Letras, 2017. v. 1, p. 275. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+visível+e+o+invisível+da+imagem:+uma+análise+discursiva+da+leitura+e+da+escrita+de+livros+de+imagens&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+visível+e+o+invisível+da+imagem:+uma+análise+discursiva+da+leitura+e+da+escrita+de+livros+de+imagens">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+visível+e+o+invisível+da+imagem:+uma+análise+discursiva+da+leitura+e+da+escrita+de+livros+de+imagens">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FUZER, C. (Org.) ; SILVA, Thiago S. (Org.). <b>Linguagem e representações: estudos em Linguística Sistêmico-Funcional</b>. 1 ed. Santa Maria: PPGL Editores, 2017. p. 272. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Linguagem+e+representações:+estudos+em+Linguística+Sistêmico-Funcional&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Linguagem+e+representações:+estudos+em+Linguística+Sistêmico-Funcional">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Linguagem+e+representações:+estudos+em+Linguística+Sistêmico-Funcional">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>GIOVANI, F. <b>Coeduca 5 - A construção de um projeto de dizer na alfabetização: a autoria por meio da circularidade dos gêneros discursivos</b>. 1 ed. SÃO CARLOS: PNAIC - UFSCar, 2017. v. 5, p. 12. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Coeduca+5+-+A+construção+de+um+projeto+de+dizer+na+alfabetização:+a+autoria+por+meio+da+circularidade+dos+gêneros+discursivos&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Coeduca+5+-+A+construção+de+um+projeto+de+dizer+na+alfabetização:+a+autoria+por+meio+da+circularidade+dos+gêneros+discursivos">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Coeduca+5+-+A+construção+de+um+projeto+de+dizer+na+alfabetização:+a+autoria+por+meio+da+circularidade+dos+gêneros+discursivos">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>GIOVANI, F.; SOUZA, N. B.. <b>Bakhtin e a educação: a ética, a estética e a cognição</b>. 2 ed. SÃO CARLOS: Pedro João editores, 2017. v. 1, p. 186. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Bakhtin+e+a+educação:+a+ética,+a+estética+e+a+cognição&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Bakhtin+e+a+educação:+a+ética,+a+estética+e+a+cognição">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Bakhtin+e+a+educação:+a+ética,+a+estética+e+a+cognição">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>HARTMANN, A. M. ; MARRANGHELLO, G. F. ; LUCCHESE, M. M.. <b>À Luz da Ciência na Educação Infantil</b>. 1 ed. Itajaí: Casa Aberta, 2017. v. 1, p. 52. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=À+Luz+da+Ciência+na+Educação+Infantil&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=À+Luz+da+Ciência+na+Educação+Infantil">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=À+Luz+da+Ciência+na+Educação+Infantil">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Marranghello, G F. <b>As Aventuras de Zito e as Cores do Universo</b>. 1 ed. Itajaí: casa aberta, 2017. v. 1, p. 40. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=As+Aventuras+de+Zito+e+as+Cores+do+Universo&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=As+Aventuras+de+Zito+e+as+Cores+do+Universo">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=As+Aventuras+de+Zito+e+as+Cores+do+Universo">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MARRANGHELLO, G. F. (Org.) ; LINDEMANN, R. H. (Org.). <b>Ensino de Ciências na região da campanha: contribuições na formação acadêmico-profissional de professores de astronomia</b>. 1 ed. Itajai: Casa Aberta, 2017. v. 01, p. 155. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Ensino+de+Ciências+na+região+da+campanha:+contribuições+na+formação+acadêmico-profissional+de+professores+de+astronomia&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Ensino+de+Ciências+na+região+da+campanha:+contribuições+na+formação+acadêmico-profissional+de+professores+de+astronomia">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Ensino+de+Ciências+na+região+da+campanha:+contribuições+na+formação+acadêmico-profissional+de+professores+de+astronomia">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MELLO, E. M. B. (Org.) ; FREITAS, D. P. S. (Org.) ; SILVA, F. F. (Org.) ; LINDEMANN, R. H. (Org.). <b>Anais do XIV Encontro sobre investigação na escola: educar para a democracia e a justiça social</b>. 1 ed. Uruguaiana: UNIPAMPA, 2017. v. 1, p. 1198. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Anais+do+XIV+Encontro+sobre+investigação+na+escola:+educar+para+a+democracia+e+a+justiça+social&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Anais+do+XIV+Encontro+sobre+investigação+na+escola:+educar+para+a+democracia+e+a+justiça+social">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Anais+do+XIV+Encontro+sobre+investigação+na+escola:+educar+para+a+democracia+e+a+justiça+social">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Mello, E. M. B. (Org.) ; SALOMÃO DE FREITAS, Diana Paula (Org.) ; Silva, F. F. (Org.) ; LINDEMANN, R. H. (Org.). <b>Anais do XIV Encontro sobre investigação na escola [recurso eletrônico]: ?educar para a democracia e a justiça social</b>. 1 ed. Uruguaiana: UNIPAMPA, 2017. v. 1, p. 1198. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Anais+do+XIV+Encontro+sobre+investigação+na+escola+[recurso+eletrônico]:+?educar+para+a+democracia+e+a+justiça+social&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Anais+do+XIV+Encontro+sobre+investigação+na+escola+[recurso+eletrônico]:+?educar+para+a+democracia+e+a+justiça+social">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Anais+do+XIV+Encontro+sobre+investigação+na+escola+[recurso+eletrônico]:+?educar+para+a+democracia+e+a+justiça+social">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SANTOS, Luana Z. <b>dos. Todos na produção: etnografia de narrativas sônicas e raps em espaços urbanos populares</b>. 1 ed. Jundiaí: Paco, 2017. v. 1, p. 3000. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=dos.+Todos+na+produção:+etnografia+de+narrativas+sônicas+e+raps+em+espaços+urbanos+populares&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=dos.+Todos+na+produção:+etnografia+de+narrativas+sônicas+e+raps+em+espaços+urbanos+populares">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=dos.+Todos+na+produção:+etnografia+de+narrativas+sônicas+e+raps+em+espaços+urbanos+populares">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>SCHWARTZ, S. <b>Alfabetização de jovens e adultos:teoria e prática</b>. 5a ed. Petrópolis: Vozes, 2017. v. 1, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Alfabetização+de+jovens+e+adultos:teoria+e+prática&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Alfabetização+de+jovens+e+adultos:teoria+e+prática">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Alfabetização+de+jovens+e+adultos:teoria+e+prática">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BASTOS A. <b>R. B. Cozinha para todos: comunicação alternativa para forno e fogão</b>. 1 ed. Curitiba: Nova Letra, 2016. p. 88. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=R.+B.+Cozinha+para+todos:+comunicação+alternativa+para+forno+e+fogão&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=R.+B.+Cozinha+para+todos:+comunicação+alternativa+para+forno+e+fogão">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=R.+B.+Cozinha+para+todos:+comunicação+alternativa+para+forno+e+fogão">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BICA, A. C.; Martins, Claudete da Silva Lima (Org.) ; PESSANO, Edward (Org.) ; MARINHO, J. C. B (Org.). <b>Tertúlias pedagógicas: curso de formação continuada de professores na perspectiva dialógica</b>. 01 ed. UNIPAMPA, 2016. p. 256. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Tertúlias+pedagógicas:+curso+de+formação+continuada+de+professores+na+perspectiva+dialógica&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Tertúlias+pedagógicas:+curso+de+formação+continuada+de+professores+na+perspectiva+dialógica">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Tertúlias+pedagógicas:+curso+de+formação+continuada+de+professores+na+perspectiva+dialógica">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BORGES DE BASTOS, AMÉLIA ROTA. <b>LELÊ DE BOCA ABERTA</b>. 1 ed. 2016. v. 1, p. 52. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=LELÊ+DE+BOCA+ABERTA&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=LELÊ+DE+BOCA+ABERTA">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=LELÊ+DE+BOCA+ABERTA">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BORGES DE BASTOS, AMÉLIA ROTA; BORGES, L. R. ; DAMBROS, B. F.. <b>LELE SEM LACTOSE: DICAS DE MÃES PROFISSIONAIS PARA TRABALHAR A INTOLERÂNCIA À LACTOSE EM CRIANÇAS PEQUENAS</b>. 1 ed. BAGÉ: LEB, 2016. v. 1, p. 24. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=LELE+SEM+LACTOSE:+DICAS+DE+MÃES+PROFISSIONAIS+PARA+TRABALHAR+A+INTOLERÂNCIA+À+LACTOSE+EM+CRIANÇAS+PEQUENAS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=LELE+SEM+LACTOSE:+DICAS+DE+MÃES+PROFISSIONAIS+PARA+TRABALHAR+A+INTOLERÂNCIA+À+LACTOSE+EM+CRIANÇAS+PEQUENAS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=LELE+SEM+LACTOSE:+DICAS+DE+MÃES+PROFISSIONAIS+PARA+TRABALHAR+A+INTOLERÂNCIA+À+LACTOSE+EM+CRIANÇAS+PEQUENAS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>BORGES DE BASTOS, AMÉLIA ROTA; DORNELLES, C. (Org.) ; AZAMBUJA, F. (Org.). <b>A LIGA DOS SUPER DIREITOS: SUPER HERÓIS EM DEFESA DOS DIREITOS DAS PESSOAS COM DEFICIÊNCIA</b>. 1 ed. BAGE: LEB, 2016. v. 1, p. 80. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+LIGA+DOS+SUPER+DIREITOS:+SUPER+HERÓIS+EM+DEFESA+DOS+DIREITOS+DAS+PESSOAS+COM+DEFICIÊNCIA&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+LIGA+DOS+SUPER+DIREITOS:+SUPER+HERÓIS+EM+DEFESA+DOS+DIREITOS+DAS+PESSOAS+COM+DEFICIÊNCIA">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+LIGA+DOS+SUPER+DIREITOS:+SUPER+HERÓIS+EM+DEFESA+DOS+DIREITOS+DAS+PESSOAS+COM+DEFICIÊNCIA">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>CACCIAMANI, J. L. M. (Org.) ; Coan, C. M. (Org.) ; Ody, L. C. (Org.) ; Dias, L.F. (Org.). <b>INTEGRASUL: Experiências e Reflexões sobre a Feira de Ciências</b>. 01 ed. Errechim: Gráfica e Editora Copiart Ltda, 2016. v. 01, p. 158. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=INTEGRASUL:+Experiências+e+Reflexões+sobre+a+Feira+de+Ciências&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=INTEGRASUL:+Experiências+e+Reflexões+sobre+a+Feira+de+Ciências">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=INTEGRASUL:+Experiências+e+Reflexões+sobre+a+Feira+de+Ciências">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>DIAS, S. L. ; Julio CP Vaghetti ; LIMA, E. C. ; BRASIL, J. L. ; PAVAN, F.A.. <b>Química Analítica Teoria e Práticas Essenciais</b>. 01 ed. Porto Alegre: Bookman Companhia Editora Ltda, 2016. v. 1, p. 382. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Química+Analítica+Teoria+e+Práticas+Essenciais&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Química+Analítica+Teoria+e+Práticas+Essenciais">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Química+Analítica+Teoria+e+Práticas+Essenciais">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>GALIAZZI, M. C. ; HECKLER, V. ; Dorneles, A. M ; MEDEIROS, A. L. S. ; RODRIGUEZ, A. S. M. ; NUNES, B. R. ; MARTINS, D. S. ; ZANOTTA, P. A. ; SOUSA, R. S. ; DIAS, V. M. T. ; SILVA, W. R.. <b>Indagações Dialógicas com Gordon Wells</b>. 1 ed. Rio Grande: Editora da FURG, 2016. v. 1, p. 123. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Indagações+Dialógicas+com+Gordon+Wells&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Indagações+Dialógicas+com+Gordon+Wells">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Indagações+Dialógicas+com+Gordon+Wells">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>IRALA, Valesca Brasil; Miriam Kelm (Org.). <b>Retratos de Linguagem - uma homenagem aos 10 anos da área de Letras da Unipampa - campus Bagé/RS</b>. 01 ed. Bagé: Universidade Federal do Pampa, 2016. v. 01, p. 260. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Retratos+de+Linguagem+-+uma+homenagem+aos+10+anos+da+área+de+Letras+da+Unipampa+-+campus+Bagé/RS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Retratos+de+Linguagem+-+uma+homenagem+aos+10+anos+da+área+de+Letras+da+Unipampa+-+campus+Bagé/RS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Retratos+de+Linguagem+-+uma+homenagem+aos+10+anos+da+área+de+Letras+da+Unipampa+-+campus+Bagé/RS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MACHADO, S. P.; SOARES, I. (Org.) ; ROSA, R. (Org.) ; MACHADO, Sátira P. (Org.). <b>Educomunicação e Diversidade: múltiplas abordagens</b>. 01 ed. São Paulo: ABPEducom, 2016. v. 01, p. 250. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educomunicação+e+Diversidade:+múltiplas+abordagens&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educomunicação+e+Diversidade:+múltiplas+abordagens">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educomunicação+e+Diversidade:+múltiplas+abordagens">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>MARTINS, Claudete da Silva Lima; BICA, A. C. (Org.) ; PESSANO, Edward Frederico Castro (Org.) ; MARINHO, Júlio Ccesar Bresolin (Org.). <b>Tertúlias Pedagógicas: Curso de formação continuada de professores na perspectiva dialógica</b>. 01 ed. Herval D'Oeste -Santa Catarina: Polimpressos, 2016. v. 800, p. 256. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Tertúlias+Pedagógicas:+Curso+de+formação+continuada+de+professores+na+perspectiva+dialógica&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Tertúlias+Pedagógicas:+Curso+de+formação+continuada+de+professores+na+perspectiva+dialógica">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Tertúlias+Pedagógicas:+Curso+de+formação+continuada+de+professores+na+perspectiva+dialógica">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>ROSA, R. (Org.) ; SOARES, I. (Org.) ; MACHADO, Sátira. P. (Org.) ; MACHADO, Sátira P. (Org.). <b>Educomunicação e Diversidade: tecendo saberes</b>. 01 ed. São Paulo: ABPEducom, 2016. v. 01, p. 360. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educomunicação+e+Diversidade:+tecendo+saberes&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educomunicação+e+Diversidade:+tecendo+saberes">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educomunicação+e+Diversidade:+tecendo+saberes">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>SCHWARTZ, S. <b>Inquietudes pedagógicas da prática docente</b>. 1a ed. Petrópolis: Vozes, 2016. p. 120. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Inquietudes+pedagógicas+da+prática+docente&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Inquietudes+pedagógicas+da+prática+docente">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Inquietudes+pedagógicas+da+prática+docente">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>VIANA, C. E. (Org.) ; ROSA, R. (Org.) ; MACHADO, Sátira P. (Org.). <b>Educomunicação e Diversidade: integrando práticas</b>. 01 ed. São Paulo: ABPEducom, 2016. v. 01, p. 300. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educomunicação+e+Diversidade:+integrando+práticas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educomunicação+e+Diversidade:+integrando+práticas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educomunicação+e+Diversidade:+integrando+práticas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Ângelo Luiz Bruggemann (Org.) ; BIANCHI, Paula (Org.) ; Silvan Menezes dos Santos (Org.). <b>Pesquisa e formação em Mídia-Educação Física</b>. 1 ed. Florianópolis: Tribo da Ilha, 2016. v. 1, p. 231. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Pesquisa+e+formação+em+Mídia-Educação+Física&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Pesquisa+e+formação+em+Mídia-Educação+Física">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Pesquisa+e+formação+em+Mídia-Educação+Física">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 15:17:41<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
