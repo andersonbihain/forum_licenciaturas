@@ -1,0 +1,557 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Jaguarao</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Jaguarao</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de organização de eventos'}, 
+series: [{data: [[2016,
+13],
+[2017,
+16],
+[2018,
+7]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de organização de eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 202<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>FREITAS, Renata Dal Sasso; CEZAR, T.. <b>Simpóstio Temático - Teoria da história e historiografia: democracia, liberdades, utopia</b>. 2018. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>FREITAS, Renata Dal Sasso; OLIVEIRA, M. G. ; PEREIRA, A. C. B.. <b>Simpósio Temático: Teoria da História, gênero, interseccionalidades</b>. 2018. Outro</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MAY, Marilú Angela Campagner; MENDES, S. ; RADIKE, C.. <b>He for She</b>. 2018. Outro</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>PINCERATI, W. D.; FARIAS-MARQUES, M. S. A.. <b>Semana de Capacitação dos Docentes EaD 2018.1</b>. 2018. Outro</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>RODRIGUES, Mara Cristina de Matos ; MENDEZ, N. P. ; SILVEIRA, C. D. M. ; FREITAS, Renata Dal Sasso. <b>Ciclo de debates - Mulheres que fazem história</b>. 2018. Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>RIZZON, Carlos ; SIMIONI, LEONOR ; NUNES, Geice P. ; SANTOS, Giane R. ; MARINS, Ida M. ; GOULART, Cátia ; MAROZO, Luís Fernando ; CARNIATO, Míriam C.. <b>I Encontro de Estudos Fronteiriços: Línguas e Literaturas na Fronteira</b>. 2018. Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SOARES, J. L. ; MACHADO, S. M. ; OLIVEIRA, E. M. Z. ; LUZ, P. T. ; MAY, Marilú Angela Campagner ; DARELLI, L. E. ; COSTA FILHO, J. ; BERNARDO, C. M. S. ; PAGLIUSO, J. R. ; AMANTE, P. C.. <b>XXIV QUALIEDUC</b>. 2018. Congresso</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AL-ALAM, CAIUÁ CARDOSO; VENDRAME, M. ; MAUCH, C. ; TORCATO, C. ; VONMUHLEN, C.. <b>III Simpósio Nacional de História do Crime, Polícia e Justiça Criminal / I Encontro Internacional de História do Crime, da Polícia e das Práticas de Justiça e Suas Fontes</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BOESSIO, A. L. M.; PEREZ, G.. <b>COLÓQUIOS DO LALLI</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BOLANOS, A. G. ; GOULART, C. R. D.. <b>SIMPOSIO: Ficciones de la memoria o la memoria de la ficción: Pensamiento y experiencias creativas</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FARIAS-MARQUES, Maria do Socorro de Almeida ; FERRAZ, R. C. ; ANTUNES, Verônica Morales ; Pereira, Aden Rodrigues ; MOSER, Denise Aparecida ; PIOVESAN, Sandra ; MENDES, Elvis. <b>VII Fórum EaD Unipampa e 1º Encontro de Professores e Tutores UAB/UNIPAMPA</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>FARIAS-MARQUES, Maria do Socorro de Almeida ; FERRAZ, R. C. ; Pereira, Aden Rodrigues ; ANTUNES, Verônica Morales ; MOSER, Denise Aparecida ; PIOVESAN, Sandra ; MENDES, Elvis. <b>Colaboradora na equipe executora do VII Fórum EaD UNIPAMPA e I Encontro de Professores e Tutores UAB/UNIPAMPA</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>JESUS, S. C. de; Et. al. <b>Cine Diversa "Mulheres da Terra"</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>JESUS, S. C. de; Et. al. <b>Cine Diversa "Frida Kahlo"</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>JESUS, S. C. de; Et. al. <b>"Roda de Mate com Palestra: Homossexualidades no Movimento Tradicionalista Gaúcho"</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>JESUS, S. C. de; Et. al. <b>Exposição ArteFatos Ameríndios</b>. 2017. Exposição</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>JESUS, S. C. de; GOMES, T. ; GONZAGA, J. G. F. ; Et. al. <b>Roda de conversa e Roda de Capoeira</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>JESUS, SUZANA CAVALHEIRO DE; Et. al. <b>I Encontro Mulheres e Direitos Sociais: a reforma da Previdência em questão</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>JESUS, SUZANA CAVALHEIRO DE; Et. al. <b>I Seminário Antropologia e Educação na formação de professores: saberes indígenas em escolas não indígenas</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>PINCERATI, W. D.; SILVA, V. L. P.. <b>I Semana de Estudos Transversais</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>PINCERATI, W. D.; WERNZ, M. C. G. ; MENEZES, A. L. T. ; FERREIRA, B. ; BERGAMASCHI, M. A. ; DOEBBER, M. B. ; MOURA, O. I. ; OLIVEIRA, A. J.. <b>II Semanas Virtuais de Estudos Transversais</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>SOARES, J. L. ; MAY, Marilú Angela Campagner. <b>XXIII QUALIEDUC - Seminário dos Trabalhadores sobre Qualidade na Educação</b>. 2017. Congresso</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Sobral, Adail ; FARIAS- MARQUES, Maria Do Socorro de Almeida. <b>Simpósio: relações dialógicas, linguagens e práticas sociais</b>. 2017. Outro</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BOESSIO, A. L. M.; MOSER, D. ; SILVEIRA, R.. <b>COLÓQUIOS DO LALLI</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BOESSIO, Ana Lúcia Montano ; MOSER, Denise Aparecida. <b>Os clássicos infantis juvenis e suas leituras contemporâneas</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CARATTI, J. M.; MOREIRA, P. R. S. ; BARROSO, V. ; KUHN, F.. <b>XII Encontro Estadual de História da ANPUH-RS</b>. 2016. Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>COSTA, Larissa; SILVEIRA, A. A. ; SOARES, L. G. ; RAMIL, C. A. ; VIEIRA, C. M. ; KOSCHIER, J. ; BORGES, R. N. ; PERES, E. ; THIES, V. G.. <b>SEMINÁRIO HISALES: 10 ANOS DE PESQUISA EM HISTÓRIA DA ALFABETIZAÇÃO, LEITURA, ESCRITA E DOS LIVROS ESCOLARES</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>FERREIRA, M. ; SAWITZKI, M. C. ; SCHWARTZ, S. <b>I Fórum da Graduação</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>FERREIRA, M. ; SAWITZKI, M. C. ; SCHWARTZ, S. <b>Seminário SISU Gestão 2017</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>FREITAS, Renata Dal Sasso; ARAÚJO, M. C. da S.. <b>Simpósio Temático - O historiador em seu tempo: questões de teoria da história e história da historiografia</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>LOVATO, C. S.; CORACINI, S. R.. <b>I Semana Acadêmica Integrada da UNIPAMPA</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MOURA, A. C. de O. S. de; CICUTO, C. A. T. ; SILVA, D. ; PAZINATO, M. S.. <b>Diálogos sobre a MP 746 - relato do Colóquio Regional Sul Ensino Médio</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>NUNES, Geice Peres; GOULART, C. ; TERRA, E. P. ; OLIVEIRA, M. A. ; JAHNKE, T. S. ; DIAS, K. C. ; ARAUJO, F. S. ; ZDRADEK, F. R. ; MADEIRA, M. ; CALCAGNO, S. H. ; GONCALVES, P. ; BRESQUE, A. L. P. ; SILVEIRA, D. ; BARROS, S. G. ; AVILA, F. P.. <b>V Semana Acadêmica de Letras</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>PERONDI, M.; AMARAL, M. F.. <b>I Simpósio Nacional Aproximações com o Mundo Juvenil</b>. 2016. Congresso</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SAWITZKI, M. C. ; SCHWARTZ, S ; GUTTIER, R.. <b>Seminário dos Núcleos de Desenvolvimento Educacional</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>SOARES, J. L. ; OLIVEIRA, E. M. Z. ; PAGLIUSO, J. R. ; BERNARDO, C. M. S. ; LUZ, P. T. ; MAY, Marilú Angela Campagner ; AMANTE, P. C. ; DARELLI, L. E. ; COSTA FILHO, J.. <b>XXIII Qualieduc</b>. 2016. Congresso</td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AL-ALAM, C. C.. Diálogos sobre História: a Fronteira em questão. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>AL-ALAM, C. C.. I Concurso Literário na Temática Afro-brasileira do IFSUL. 2013. (Concurso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>AL-ALAM, C. C.. Seminário de políticas públicas de inserção da história e da cultura afro-brasileira no currículo escolar rio-grandino. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>AL-ALAM, CAIUÁ CARDOSO. XII Encontro Estadual de História / ANPUH-RS. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>ALVES, S. S.. 7º CONGRESSO BRASILEIRO DE EXTENSÃO UNIVERSITÁRIA,. 2016. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>ALVES, S. S.. I Congresso Latino-Americano de estudos Humanísticos Multidisciplinares e II Encontro Humanístico Multidisciplinar. 2016. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>ALVES, S. S.. I Simpósio Internacional de extensão Universitária em Economia Solidária. 2011. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>ALVES, S. S.. XVII Seminário Internacional sobre Formação de Professores para o MERCOUL/Cone Sul: ideias fundamentais na formação de professores para a educação básica. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>BIANCHI, Paula. Aprender a ser docente en un mundo en cambio. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>BIANCHI, Paula. Coordenadora de Sessão de Pôster no Grupo de Trabalho Temática Comunicação e Mídia do XX Congresso Brasileiro de Ciências do Esporte e VII Congresso Internacional de Ciências do Esporte. 2017. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>BIANCHI, Paula. Fórum das Licenciaturas e Seminário Institucional PIBID - UNIPAMPA. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>BIANCHI, Paula. II Salão Internacional de ensino, pesquisa e extensão - SIEPE. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>BIANCHI, Paula. III SIEPE - Mostra das Profissões. 2011. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>BIANCHI, Paula. Moderadora de Sessão de comunicações orais no grupo de trabalho temático Comunicação e Mídia do XX Congresso Brasileiro de Ciências do Esporte e VII Congresso Internacional de Ciências do Esporte. 2017. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>BIANCHI, Paula. V Seminário de Comunicação e Esporte. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>BIANCHI, Paula. VIII Congresso Sulbrasileiro de Ciências do Esporte. 2016. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>BOESSIO, A. L. M.. IV SIEPE - SALÃO INTERNACIONAL DE ENSINO, PESQUISA E EXTENSÃO. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>BORGES, V. P.. Diálogos Interdisciplinares em Linguística Aplicada: Vozes do Sul. 2015. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>BORGES, V. P.. VI Seminário Nacional sobre Linguagem e Ensino. 2010. (Outro).. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>BOÉSSIO, C. P. D.. Encontro de Professores de Espanhol do Rio Grande do Sul - Etapa Jaguarão. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>BOÉSSIO, C. P. D.. I Taller de Lengua Española- enseñar y aprender. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>BOÉSSIO, C. P. D.. Integración - Reflexões sobre o ensino de Espanhol na fronteira. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>CAMPOS, Rafael da Costa. VI semana de história e IX encontro regional da Anpuh-Go: história cultural e escrita da história. 2006. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>CAMPOS, Rafael da Costa. VII encontro nacional de história oral: história e tradição oral. 2004. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>CARATTI, J. M.. História e Cultura Negra: um processo de revitalização. 2006. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>CARATTI, J. M.. I Jornada de Ensino sobre a Ditadura Militar em Sala de Aula. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>CARATTI, J. M.. IV Mostra de Pesquisa do Arquivo Público do Estado do Rio Grande do Sul. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>CARATTI, J. M.. Treinamento, monitoria de pesquisa e leitura paleográfica em fontes primárias. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>CARNIATO, M. C.. Seminário Lições de nossa prática. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>COSTA, Larissa. I Semana Acadêmica do Curso de Pedagogia. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>COSTA, Larissa. III IntraPIBID. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>CRUXEN, E. B.. Ciclo de Palestras de Arqueologia Histórica - Projeto Apollonia: Missão Arqueológica. 2000. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>CRUXEN, E. B.. Exposição Fotográfica ?Projeto Apollonia: Três anos de Missões Arqueológicas Brasileira no Oriente. 2000. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>CRUXEN, E. B.. Exposição Fotográfica ?Projeto Apollonia: Três anos de Missões Arqueológicas Brasileiras no Oriente. 2000. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>CRUXEN, E. B.. Exposição Fotográfica e de Artefactos ?Projeto Apollonia: Missão Arqueológica?. 2000. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>DE OLIVEIRA, E. F.. Comissão Organizadora 1º Relato da Prática de Ensino na Escola de 1º grau A. 1998. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>DE OLIVEIRA, E. F.. Comissão Organizadora do II Fórum de Estudos: Leituras de Paulo Freire. 2000. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>DE OLIVEIRA, E. F.. I ENCONTRO HUMANÍSTICO MULTIDISCIPLINAR. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>DE OLIVEIRA, E. F.. I ENCONTRO REGIONAL DE EDUCAÇÃO DE JOVENS E ADULTOS. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>DE OLIVEIRA, E. F.. I SEMANA ACADÊMICA DO CURSO DE PEDAGOGIA: O PEDAGOGO NA CONTEMPORANEIDADE. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>DE OLIVEIRA, E. F.. II ENCONTRO DE DISCENTES DA UNIPAMPA. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>DE OLIVEIRA, E. F.. II SEMANA ACADÊMICA DO CURSO DE PEDAGOGIA. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>DE OLIVEIRA, E. F.. II Semana Acadêmica do Curso de Pedagogia. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>DE OLIVEIRA, E. F.. III Congresso Paulista de Extensão Universitária - COPEX e I Congresso de Extensão Universitária da UFABC. 2015. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>DE OLIVEIRA, E. F.. III Semana Acadêmica do Curso de Pedagogia. 2016. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>DE OLIVEIRA, E. F.. III SEMINARIO NACIONAL DE FORMAÇÃO DE EDUCADORES DE EJA - "Políticas Públicas de Formação de Educadores em EJA". 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>DE OLIVEIRA, E. F.. Oficina de Reflexões sobre a diversidade sexual: de onde falamos?. 2016. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>ESCOBAR, G. V.. 1 Encontro Nacional de Clubes e Sociedades Negras. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>ESCOBAR, G. V.. 13a Semana da Consciência Negra. 2001. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>ESCOBAR, G. V.. 14a Semana da Consciência Negra. 2002. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>ESCOBAR, G. V.. 15a Semana da Consciência Negra. 2003. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>ESCOBAR, G. V.. 16a Semana da Consciencia Negra. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>ESCOBAR, G. V.. 17a Semana da Consciencia Negra. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>ESCOBAR, G. V.. 18a Semana da Consciencia Negra - Territorios Negros de Resistencia. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>ESCOBAR, G. V.. 1a Festa das Etnias. 2001. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>ESCOBAR, G. V.. 21a Semana Municipal da Consciencia Negra. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>ESCOBAR, G. V.. 22a Semana Municipal da Consciência Negra de Santa Maria. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>ESCOBAR, G. V.. 2a Festa das Etnias. 2002. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>ESCOBAR, G. V.. 3a Festa das Etnias. 2003. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>ESCOBAR, G. V.. 4a Festa das Etnias. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>ESCOBAR, G. V.. 5a Festa das Etnias. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>ESCOBAR, G. V.. Camafeu. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>ESCOBAR, G. V.. I COPENE SUL - Congresso dos/as Pesquisadores/as Negros/as da Região Sul - Lei 10639/03: Dez anos rompendo fronteiras territoriais, identitárias, culturais, sociais, acadêmicas e políticas no âmbito das relações étnico-raciais na região sul - ABPN. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>ESCOBAR, G. V.. I Seminário do Núcleo de Estudos Afro-brasileiros - NEAB da Faculdade Metodista de Santa Maria - FAMES: Negritude Brasileira, Conquistas e Desafios para o Século XXI. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>ESCOBAR, G. V.. II Jornadas Formação em Museologia Comunitária 2011 - Povos Afrodescendentes e Iniciativas Comunitáriass do Novo Milênio. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>ESCOBAR, G. V.. Semana Municipal da Mulher. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>ESCOBAR, G. V.. Seminario dos Museus de Santa Maria. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>FARIAS- MARQUES, Maria Do Socorro de Almeida. Lançamento dos livros "La frontera que nos une y límites que nos separan" e "La frontera en Cifras".. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>FARIAS- MARQUES, Maria Do Socorro de Almeida. Palestra A Leitura Literária e o novo perfil do jovem leitor. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>FARIAS- MARQUES, Maria Do Socorro de Almeida. VII SENALE: Linguagem, identidade e práticas sociais. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>FARIAS-MARQUES, MARIA DO SOCORRO DE ALMEIDA. II Encontro de professores e tutores. 2018. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>FERREIRA, L. F.. Feira do Livro. 2001. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>FREITAS, Renata Dal Sasso. Simpósio Temático: A história e suas fronteiras: questões de teoria da história e história da historiografia. 2016. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td>GACKI, S. R. S.. XXVII Congresso de Educação do Sudoeste Goiano. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>75. &nbsp;</td> <td>GOULART, C. R. D.. Participação da Unipampa Jaguarão no IV Taller Didáctico-Riqueza Cultural Y Diverdidad. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>76. &nbsp;</td> <td>GOULART, C. R. D.. Projeto de extensão Literatura na Tela: Linguagens em Diálogo. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>77. &nbsp;</td> <td>GOULART, C. R. D.. XX Feira do Livro. 1993. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>78. &nbsp;</td> <td>GUIMARÃES, V. M.. Seminário Interuniversitário de Serviço Social. 1999. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>79. &nbsp;</td> <td>LEIPNITZ, Guinter Tlaija. I Seminário de Teoria da História - UFRGS. 2002. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>80. &nbsp;</td> <td>LEIPNITZ, Guinter Tlaija. II Seminário de Teoria da História - UFRGS. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>81. &nbsp;</td> <td>LEIPNITZ, Guinter Tlaija. Semana Acadêmica da História - UFRGS: A Ditadura Militar no Brasil. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>82. &nbsp;</td> <td>LEIPNITZ, Guinter Tlaija. Semana Acadêmica da História - UFRGS: As Classes Populares na História. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>83. &nbsp;</td> <td>LEIPNITZ, Guinter Tlaija. Semana Acadêmica da História - UFRGS: As Veias Abertas da América Latina. 2003. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>84. &nbsp;</td> <td>MACHADO, J. B.. III Congresso Nacional de Educação. 1999. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>85. &nbsp;</td> <td>MACHADO, J. B.. IV Encontro da Rede Brasileira de Estudos e Pesquisas Feministas. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>86. &nbsp;</td> <td>MARINS, I. M. M.. II Semana Acadêmica de Letras. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>87. &nbsp;</td> <td>MAROZO, L. F. R.. I Semana integrada de letras/pedagogia. 2009. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>88. &nbsp;</td> <td>MAROZO, L. F. R.. Literatura brasileira no vestibular 2006 da FURG. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>89. &nbsp;</td> <td>MAY, Marilú Angela Campagner. Comunidades no âmbito do Bioma Mata Atlantica na Região Sul e Arenizaçao e Desertificação e Novas Territorialidades Humanas. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>90. &nbsp;</td> <td>MAY, Marilú Angela Campagner. Oficina Pedagogia da Natureza: Horta Suspensa. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>91. &nbsp;</td> <td>MAY, Marilú Angela Campagner. VI Simpósio de Geografia: Perspectivas da Geografia no Mundo Contemporâneo. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>92. &nbsp;</td> <td>MAY, Marilú Angela Campagner. XIV Jornada Acadêmica Integrada. 1999. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>93. &nbsp;</td> <td>MAY, Marilú Angela Campagner. XX QUALIEDUC. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>94. &nbsp;</td> <td>MAY, Marilú Angela Campagner. XX Qualieduc. 2014. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>95. &nbsp;</td> <td>MOSER. Neopedagogia: uma nova concepção do ensino gramatical. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>96. &nbsp;</td> <td>MOURA, A. C. de O. S. de. XI Semana Nacional de Oceanografia. 1998. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>97. &nbsp;</td> <td>MOURA, P. S.. Formação Continuada de Julho. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>98. &nbsp;</td> <td>NUNES, Geice Peres. II Simpósio de Literatura, Comparatismo e Crítica Social. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>99. &nbsp;</td> <td>NUNES, Geice Peres. IV Simpósio de Literatura, Comparatismo e Crítica Social. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>100. &nbsp;</td> <td>NUNES, Geice Peres. VI Jornada de Literatura e Autoritarismo e II Simpósio Memórias da Repressão - Estética e Política na Literatura. 2008. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>101. &nbsp;</td> <td>OURIQUE, M. L. H.. II Seminário Nacional de Filosofia e Educação - Confluências. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>102. &nbsp;</td> <td>OURIQUE, M. L. H.. Seminário "Crise de identidade dos professores, crise da escola e crise da modernidade" e Conferência "As consequências da identidade: implicações dos estudos da identidade para pensar e fazer a profissão docente". 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>103. &nbsp;</td> <td>OURIQUE, M. L. H.. Seminário De Docência Orientada. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>104. &nbsp;</td> <td>PASSOS, A. A. A. L.. SEMANA ACADÊMICA INSTITUCIONAL DO UNIEURO - II SEMANA ACADÊMICA DO CURSO DE LETRAS. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>105. &nbsp;</td> <td>PEREIRA, A. R.. VII Fórum EaD UNIPAMPA eI Encontro de Professores e Tutores UAB/UNIPAMPA. 2017. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>106. &nbsp;</td> <td>PEREIRA, Rachel Freitas. II Encontro do CIC: Crianças, Infâncias e Culturas: Pesquisas com crianças. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>107. &nbsp;</td> <td>PEREIRA, Rachel Freitas. VII Seminário Educação Infantil em Debate: Infâncias e Educação em debate. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>108. &nbsp;</td> <td>PERONDI, M.. 16º Encontro Sulriograndense de Pesquisadores em História da Educação. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>109. &nbsp;</td> <td>PERONDI, M.. 3ª Conferência Estadual de Juventude do Rio Grande do Sul. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>110. &nbsp;</td> <td>PERONDI, M.. Encontro Nacional de Responsáveis Diocesanos de Juventude. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>111. &nbsp;</td> <td>PERONDI, M.. I Simpósio Juventudes Contemporâneas. 2018. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>112. &nbsp;</td> <td>PERONDI, M.. II Simpósio Nacional Aproximações com o Mundo Juvenil. 2018. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>113. &nbsp;</td> <td>PERONDI, M.. IX Congresso Latino-Americano Interdisciplinar do Adolescente. 2015. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>114. &nbsp;</td> <td>PINCERATI, W. D.. 15o. Congresso de Leituras do Brasil. 2005. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>115. &nbsp;</td> <td>PINCERATI, W. D.. 16o. COLE - Congresso de Leitura do Brasil. 2007. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>116. &nbsp;</td> <td>PINCERATI, W. D.. 1o. Seminário de Pesquisas na Graduação. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>117. &nbsp;</td> <td>PINCERATI, W. D.. 52o. Seminário do GEL. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>118. &nbsp;</td> <td>PINCERATI, W. D.. I Seminário de Pesquisas e Estudos Negros. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>119. &nbsp;</td> <td>PINCERATI, W. D.. Projeto SEMASOMa no UPA - Unicamp de Portas Abertas. 2005. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>120. &nbsp;</td> <td>PINCERATI, W. D.. Unicamp de Portas Abertas. 2003. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>121. &nbsp;</td> <td>PINCERATI, W. D.. Universidade Aberta. 2000. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>122. &nbsp;</td> <td>PINCERATI, W. D.. VII Encontro Nacional de Educação Matemática. 2001. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>123. &nbsp;</td> <td>PINCERATI, WalKer. UPA - Unicamp de Portas Abertas. 2007. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>124. &nbsp;</td> <td>PINHO, P. M.. 1º Encontro de ALFAGRUPOS. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>125. &nbsp;</td> <td>PINHO, P. M.. 2º Encontro de ALFAGRUPOS. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>126. &nbsp;</td> <td>PINHO, P. M.. 2º Relato de Investigação das Experiências Extra-escolares de Letramento e 1º Encontro de Práticas de Avaliação em Rede na Alfabetização. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>127. &nbsp;</td> <td>PINHO, P. M.. ALFAGRUPOS: formação continuada específica para professores de 1º e 2º anos das redes públicas de ensino de Jaguarão e Arroio Grande e Estudantes do Curso de Pedagogia. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>128. &nbsp;</td> <td>PINHO, P. M.. Oficina de Alfabetização. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>129. &nbsp;</td> <td>PIOVESAN, S. D.. I Encontro Gaúcho de Pós-Graduandos. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>130. &nbsp;</td> <td>PIOVESAN, S. D.. II Encontro de Professores e Tutores Unipampa/UAB. 2018. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>131. &nbsp;</td> <td>PIOVESAN, S. D.. II Jornada Acadêmica da Computação. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>132. &nbsp;</td> <td>PIOVESAN, S. D.. II Salão de Pós-Graduação da APG-UFRGS. 2012. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>133. &nbsp;</td> <td>PIOVESAN, S. D.. Semana Acadêmica para o CTS em Sistemas para Internet. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>134. &nbsp;</td> <td>PIOVESAN, S. D.. VII FÓRUM EaD UNIPAMPA e I ENCONTRO DE PROFESSORES E TUTORES UAB/UNIPAMPA. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>135. &nbsp;</td> <td>PIOVESAN, S. D.. VIII FÓRUM EaD UNIPAMPA. 2018. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>136. &nbsp;</td> <td>POZZOBON, M. C. C.. 1 Mostra do Ensino de Matemática da UNIJUÍ. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>137. &nbsp;</td> <td>POZZOBON, M. C. C.. Coordenadora de Sessão de Comunicação. 2004. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>138. &nbsp;</td> <td>POZZOBON, M. C. C.. Educação Básica: Refletindo o Fazer Administrativo e Pedagógico desse Espaço Educativo. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>139. &nbsp;</td> <td>POZZOBON, M. C. C.. II CNEM - Congresso Nacional de Educação Matemática IX EREM Encontro Regional de Educação Matemática. 2011. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>140. &nbsp;</td> <td>POZZOBON, M. C. C.. Relatos de Experiência de Professores da Educação Básica. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>141. &nbsp;</td> <td>POZZOBON, M. C. C.. Trabalhos Acadêmicos. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>142. &nbsp;</td> <td>POZZOBON, M. C. C.. VII EREM e II EREF. 2007. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>143. &nbsp;</td> <td>POZZOBON, M. C. C.. X EGEM - Encontro Gaucho de Educacao Matematica. 2009. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>144. &nbsp;</td> <td>RICHTER, Marcela Wanglon.. Construindo e Desconstruindo Gênero e Sexualidade. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>145. &nbsp;</td> <td>RICHTER, Marcela Wanglon.. I Semana Feminista do IFRS: Mulheres: o espaço do feminino no IFRS.. 2016. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>146. &nbsp;</td> <td>RICHTER, Marcela Wanglon.. II Semana Feminista do IFRS: Amor, Resistência e Luta. 2017. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>147. &nbsp;</td> <td>RIZZON, C. G.. Ciclo de Palestras Unipampa na Feira Binacional do Livro de Jaguarão. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>148. &nbsp;</td> <td>RODRIGUES, Ana Cristina da S.. wf-15 anos Imagens e Memórias. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>149. &nbsp;</td> <td>RODRIGUES, E. R. N.. Encontro de Formação de Professores que atuam em turmas multisseriadas. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>150. &nbsp;</td> <td>RODRIGUES, E. R. N.. I SEMANA DA CONSCIÊNCIA NEGRA BRASILAFRICA TRANSCENDENDO ESPAÇOS. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>151. &nbsp;</td> <td>ROMEU, D. L.. II Semana Acadêmica de Letras. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>152. &nbsp;</td> <td>SANTOS. A tutoria em cursos na modalidade a distância - Letras Espanhol. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>153. &nbsp;</td> <td>SANTOS. Capacitação de tutores a distância do Curso de Letras Espanhol a Distância. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>154. &nbsp;</td> <td>SANTOS. Capacitação de tutores do Curso de Letras Espanhol a Distância acerca do tema Libras. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>155. &nbsp;</td> <td>SANTOS. I Seminário de Metodologia do Ensino de Línguas e Literaturas- I Smell2007 ( Monitora). 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>156. &nbsp;</td> <td>SANTOS. III Jornada de Elaboração de Materiais, Tecnologia e Aprendizagem de Línguas. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>157. &nbsp;</td> <td>SANTOS. Seminário Nacional sobre Linguagem e Ensino ( Monitora). 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>158. &nbsp;</td> <td>SANTOS. VII Encontro CELSUL 2006 ( Monitora). 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>159. &nbsp;</td> <td>SELAU, B.. O Mestrado em Educação da UNIPAMPA na região. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>160. &nbsp;</td> <td>SELAU, Bento. Educação Física I - XI Salão de Iniciação Científica. 1999. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>161. &nbsp;</td> <td>SELBACH, J. F.. Mesa redonda Meio ambiente no Baixo Parnaíba: olhos no mundo, pés na região. 2008. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>162. &nbsp;</td> <td>SILVA, R. S.. Coordenador Sessão "Discurso e política: leituras plurais". 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>163. &nbsp;</td> <td>SILVA, R. S.. Monitor V SENALE. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>164. &nbsp;</td> <td>TEIXEIRA PINTO, V.. 5º Encontro Nacional de Produção Cultural. 2016. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>165. &nbsp;</td> <td>TEIXEIRA PINTO, V.. IX Semana Acadêmica do curso de Ciências Sociais: Política Contemporânea. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>166. &nbsp;</td> <td>TEIXEIRA PINTO, V.. X Semana Acadêmica do curso de Ciências Sociais: Pobreza, alternativas ao campo e a cidade. 2009. (Outro).. <b></b>. 0. </td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:22:58<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

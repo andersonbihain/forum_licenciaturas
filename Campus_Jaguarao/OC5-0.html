@@ -1,0 +1,213 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Jaguarao</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Jaguarao</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Iniciação científica'}, 
+series: [{data: [[2016,
+16],
+[2017,
+13],
+[2018,
+1]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Iniciação científica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 30<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Fernanda Moreira Gomes. <b>Contribuições do Sobek, ferramenta de mineração de textos, para escrita científica</b>. (Graduando em Educação do Campo) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Crismara Valério Gaia. <b>A formação docente diante do espelho: imagens e autoimagens da docência em tempos de barbárie</b>. (Graduando em Pedagogia) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3241620845064515">Maiane Liana Hatschbach Ourique</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Daniel Chagas Carvalho. <b>Caminhos Metodológicos em Educação Ambiental</b>. (Graduando em Educação do Campo) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Daniel Filipe Soares Souza. <b>Conflitos agrários nos processos judiciais</b>. (Graduando em História - Licenciatura) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4993397958385860">Guinter Tlaija Leipnitz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Fernanda Machado Mena. <b>Projeto de Extensão "Nos diz respeito: diálogos sobre educação do campo e interseccionalidades" - PDA 2017</b>. (Graduando em Educação do Campo) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico - UNIPAMPA. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6494340013752525">Suzana Cavalheiro de Jesus</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Grazielle de Souza Brandão. <b>Formação docente para a Cibercultura: análise dos currículos dos cursos de licenciatura da Unipampa</b>. (Graduando em Pedagogia) - Universidade Federal do Pampa, Pró-Reitoria de Pesquisa, Pós-graduação e Inovação. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5364387277554857">Juliana Brandão Machado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Isabella Bittencourt. <b>Projeto de Extensão "Nos diz respeito: diálogos sobre educação do campo e interseccionalidades" - PROFOR 2017</b>. (Graduando em Enologia) - Universidade Federal do Pampa, Programa de Apoio à Formação Continuada de Profissionais da Educação Básica. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6494340013752525">Suzana Cavalheiro de Jesus</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Jacqueline Silveira Brum. <b>Caminhos metodológicos em Educação Ambiental</b>. (Graduando em Educação do Campo) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Joana Mespaque. <b>Literatura e Informática</b>. Iniciação Científica - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8847030722247192">Marcela Wanglon Richter</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Lisiane dos Santos Moreira. <b>Contribuições do Sobek, ferramenta de mineração de textos, para escrita científica</b>. (Graduando em Educação do Campo) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Lívia Menegrado. <b>Literatura e Informática</b>. Iniciação Científica - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8847030722247192">Marcela Wanglon Richter</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Mari Enilda Albrecht. <b>Projeto de Pesquisa</b>. (Graduando em Educação do Campo) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico - UNIPAMPA. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6494340013752525">Suzana Cavalheiro de Jesus</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Pedro Hiago Vitória Dias. <b>OS SABERES DAS REDES DE COLABORAÇÃO SOLIDÁRIA DA FRONTEIRA DO EXTREMO SUL DO BRASIL</b>. (Graduando em Pedagogia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8832898581140645">Simone Silva Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Renata Dal Sasso Freitas. <b>História e Sensibilidade no romance oitocentista na América: os casos de James Fenimore Cooper e José de Alencar</b>. (Graduando em História) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1522751206827475">Renata Dal Sasso Freitas</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Aline Sabbado Maciel. <b>?O que é destinado às crianças costuma ser malfeito?? O estado de conservação das praças e brinquedos de Jaguarão/RS</b>. (Graduando em Pedagogia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9239744025327102">Bento Selau da Silva Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ana Beatriz Alves de Lima. <b>REPRESENTAÇÕES DE GÊNEROS SOCIAIS: ANÁLISE DA IMAGEM EM EXEMPLARES DA REVISTA JORNAL DA MULHER</b>. (Graduando em Bacharelado Interdisciplinar em Ciência e Tecnologia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7562187381716677">Cristina dos Santos Lovato</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ana Julia Alves de Lima. <b>PRODUTOS CULTURAIS DESTINADOS AO PÚBLICO FEMININO E À NATUREZA FEMININA: ANÁLISE DA AÇÃO DO DISCURSO</b>. (Graduando em Bacharelado Interdisciplinar em Ciência e Tecnologia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7562187381716677">Cristina dos Santos Lovato</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Emilly Gomes Lamotte. <b>O processo de adoção no Brasil: preconceito e desafios</b>. Iniciação Científica - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8847030722247192">Marcela Wanglon Richter</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Fernanda Martinez Conceição Alves. <b>Cibersocialidade e inclusão digital no município de Jaguarão: aprendizagens a partir da pesquisa</b>. (Graduando em Pedagogia) - Universidade Federal do Pampa, Pró-Reitoria de Pesquisa, Pós-graduação e Inovação. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5364387277554857">Juliana Brandão Machado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Gabriel Pagano. <b>O impacto dos video games na sociedade</b>. Iniciação Científica - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8847030722247192">Marcela Wanglon Richter</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Júlia Pelayo Rodrigues. <b>Empatia: as paredes que construímos em torno de nós</b>. Iniciação Científica - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8847030722247192">Marcela Wanglon Richter</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Júlia Pinho Gonçalves. <b>Vegetarianismo</b>. Iniciação Científica - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8847030722247192">Marcela Wanglon Richter</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Karen Lapuente Souza. <b>A constituição da docência para ensinar matemática nos anos iniciais - PNAIC</b>. (Graduando em Pedagogia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9502904964107859">Marta Cristina Cezar Pozzobon</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Lisiane dos Santos Moreira. <b>O Escrever como Ação Formativa do Licenciando: Registros de Estágio no Caderno de Alternância</b>. (Graduando em Educação do Campo) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Lizaine dos Santos Tardiz. <b>Bolsista PDA - Projeto Oralidada e Fronteira</b>. Iniciação Científica - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4864917387386802">Geice Peres Nunes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Natali Cunha Marques. <b>Cibersocialidade e inclusão digital no município de Jaguarão: aprendizagens a partir da pesquisa</b>. (Graduando em Pedagogia) - Universidade Federal do Pampa, Pró-Reitoria de Pesquisa, Pós-graduação e Inovação. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5364387277554857">Juliana Brandão Machado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Sandrine Gonçalves. <b>Viajando com Frozen: reflexões teórico-metodológicas sobre a elaboração de Webquests aplicadas ao ensino de línguas</b>. (Graduando em Licenciatura em Letras modaliade a distância) - Universidade Federal do Pampa, Bolsas de Desenvolvimento Acadêmico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7637826244661176">Camila Gonçalves dos Santos do Canto</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Tiago José de Santana Junior. <b>OS SABERES DAS REDES DE COLABORAÇÃO SOLIDÁRIA DA FRONTEIRA DO EXTREMO SUL DO BRASIL</b>. (Graduando em História) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico-UNIPAMPA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8832898581140645">Simone Silva Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Vitor Furtado. <b>Supervalorização do dinheiro</b>. Iniciação Científica - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8847030722247192">Marcela Wanglon Richter</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Wellyanna Costa dos Santos. <b>OS SABERES DAS REDES DE COLABORAÇÃO SOLIDÁRIA DA FRONTEIRA DO EXTREMO SUL DO BRASIL</b>. (Graduando em Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8832898581140645">Simone Silva Alves</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:22:58<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

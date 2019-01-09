@@ -1,0 +1,211 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Jaguarao</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Jaguarao</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Dissertação de mestrado'}, 
+series: [{data: [[2016,
+15],
+[2017,
+6],
+[2018,
+8]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Dissertação de mestrado</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 29<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Daiane Monique Pagani Lopes. <b>Vivências de Ateliê:pensando as práticas de acompanhamento, registro e avaliação na Educação Infantil</b>. Dissertação (Mestrado em MESTRADO PROFISSIONAL EM EDUCAÇÃO) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8696471514884993">Ana Cristina da Silva Rodrigues</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Emerson Mello da Costa. <b>Turismo Pedagógico: uma estratégia no processo de formação continuada de professores de espanhol</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9026633756865916">Cristina Pureza Duarte Boéssio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ivonete Afonso Jodar. <b>Mediação de conflitos como estratégia de prevenção da violência na escola</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9502904964107859">Marta Cristina Cezar Pozzobon</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>LUIZ ROBERTO MAFALDO DURGANTE JÚNIOR. <b>A GESTÃO DEMOCRÁTICA E A FORMAÇÃO DE GESTORES NO MUNICÍPIO DE ALEGRETE</b>. Dissertação (Mestrado em MESTRADO PROFISSIONAL EM EDUCAÇÃO) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8696471514884993">Ana Cristina da Silva Rodrigues</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MARIA ALICE DE FREITAS SIAS. <b>Avaliação Institucional da Escola: compromissos e contribuições ao Projeto Político-Pedagógico</b>. Dissertação (Mestrado em MESTRADO PROFISSIONAL EM EDUCAÇÃO) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8696471514884993">Ana Cristina da Silva Rodrigues</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5176630571377866">Roberta dos Santos Messa</a>. <b>O ensino de Libras para crianças ouvintes: os resultados de uma pesquisa-intervenção</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9239744025327102">Bento Selau da Silva Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Rosa Maria Martins Carvalho Dutra. <b>Um olhar sobre a avaliação da aprendizagem nos Anos Finais nas Escolas da Rede Municipal de Educação de Jaguarão</b>. Dissertação (Mestrado em MESTRADO PROFISSIONAL EM EDUCAÇÃO) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8696471514884993">Ana Cristina da Silva Rodrigues</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Vivian Cross Turnes. <b>Cursos Técnicos Binacionales en Informática: la utilización de Objetos de aprendizaje para la enseñanza de variedades linguísticas</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9026633756865916">Cristina Pureza Duarte Boéssio</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AURISTELA DE OLIVEIRA FERNANDES. <b>A INCLUSÃO DE ALUNOS COM TRANSTORNO DO ESPECTRO AUTISTA EM ESCOLAS DO MUNICÍPIO DE ALEGRETE, RS</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3827667376371440">Paula Trindade da Silva Selbach</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Lilia Jurema Monteiro Masson. <b>Formação Continuada na e pela Escola: uma proposta partindo do Pacto Nacional pela Alfabetização na Idade Certa</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7000064499140899">Patrícia dos Santos Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Márcia Garcez de Ávila. <b>Ecoálbuns digitais: uma proposta de mediação entre teoria e prática em Educação Ambiental no Ensino Médio</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9239744025327102">Bento Selau da Silva Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Quelen Pereira Pinheiro. <b>Tecendo lã, linha ou mediação de conflito? os alunos como atuantes principais nesta costura</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7000064499140899">Patrícia dos Santos Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6818763209740261">Sástria de Paula Rodrigues</a>. <b>A aprendizagem do conceito científico de fração por alunos com deficiência intelectual: os resultados de uma intervenção</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9239744025327102">Bento Selau da Silva Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Verônica Rodrigues de Lima. <b>Avaliação diagnóstica nas etapas finais da EJA: um convite a outras possibilidades</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7000064499140899">Patrícia dos Santos Moura</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriana Treichel Cesar. <b>Gestão do ambiente escolar para qualidade do trabalho docente e a redução do absenteísmo</b>. Dissertação (Mestrado em Mestrado profissional em educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6851209637611049">Lúcio Jorge Hammes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Alessandra Moura de Oliveira e Silva. <b>Bullying na escola: abordagem e uma proposta de intervenção nos anos iniciais</b>. Dissertação (Mestrado em Mestrado profissional em educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6851209637611049">Lúcio Jorge Hammes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CARLOS HUMBERTO MARQUES VIEIRA. <b>A situação dos alunos do CTBMPEL: condicionantos socioculturais a partir dos estudos de Bourdiu</b>. Dissertação (Mestrado em Mestrado profissional em educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6851209637611049">Lúcio Jorge Hammes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Debora Tatiani Portilho Sanes. <b>ADAPTAÇÃO CURRICULAR INDIVIDUALIZADA: (re) construindo caminhos em uma escola do município de Jaguarão RS</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3827667376371440">Paula Trindade da Silva Selbach</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2032169794971552">FLÁVIA COVALESKY DE SOUZA RODRIGUES</a>. <b>A CONSTRUÇÃO DE ESPAÇOS DE FORMAÇÃO CONTINUADA DE PROFESSORES DA EDUCAÇÃO DE JOVENS E ADULTOS</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5916559361580593">Suzana Schwartz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3823920197492690">Joice Mirapalhete Fabra</a>. <b>As imagens e autoimagens da docência diante do ensino médio politécnico</b>. Dissertação (Mestrado em Mestrado profissional em educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6851209637611049">Lúcio Jorge Hammes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Lisiane Teixeira de Armas Carvalho. <b>A gestão das práticas nas aulas de Educação Física pelo professor referência: psicomotricidade relacional, imitação e interações entre meninos e meninas</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9239744025327102">Bento Selau da Silva Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Lílian Rodrigues Corrêa. <b>ESPAÇOS E TEMPOS DE INFÂNCIA: UMA REFLEXÃO A RESPEITO DA TRANSIÇÃO ENTRE A EDUCAÇÃO INFANTIL E O ENSINO FUNDAMENTAL</b>. Dissertação (Mestrado em MESTRADO PROFISSIONAL EM EDUCAÇÃO) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8696471514884993">Ana Cristina da Silva Rodrigues</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Patrícia Pinho Contreira. <b>As implicações da formação do Pacto Nacional pela Alfabetização na Idade Certa na reconstrução dos planos de estudos dos anos iniciais em uma escola pública estadual</b>. Dissertação (Mestrado em MESTRADO PROFISSIONAL EM EDUCAÇÃO) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8696471514884993">Ana Cristina da Silva Rodrigues</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Renata Colbeich da Silva. <b>?Sou guerreira, sou valente, do Primeiro Regimento, enfermeira e combatente?: Narrativas sobre a Cabo Toco em Cachoeira do Sul?</b>. Dissertação (Mestrado em Ciências Sociais) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6494340013752525">Suzana Cavalheiro de Jesus</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Sandra Amaro A. Deleon. <b>A formação continuada de professores comunitários do programa mais educação em Jaguarão/RS: Educação em tempo integral na perspectiva da educação integral</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9239744025327102">Bento Selau da Silva Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0632444974601789">Silvana Souza Peres de Oliveira</a>. <b>Avaliação Institucional na Educação Infantil: Avaliar o presente para qualificar e planejar o futuro.</b>. Dissertação (Mestrado em MESTRADO PROFISSIONAL EM EDUCAÇÃO) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8696471514884993">Ana Cristina da Silva Rodrigues</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>SILVIA ROZANE DE SOUZA AVILA DE SOUZA. <b>AVALIAÇÕES EXTERNAS EM LARGA ESCALA: IMPACTOS NA ESCOLA E NAS PRÁTICAS DOCENTES</b>. Dissertação (Mestrado em MESTRADO PROFISSIONAL EM EDUCAÇÃO) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8696471514884993">Ana Cristina da Silva Rodrigues</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Tatiana Lourega Soller. <b>Aprofundando as discussões sobre as metodologias e princípios norteadores da prática pedagógica</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9239744025327102">Bento Selau da Silva Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Vivian Cross Turnes. <b>CURSOS TÉCNICOS BINACIONALES EN INFORMÁTICA: LA UTILIZACIÓN DE OBJETOS DE APRENDIZAJE PARA LA ENSEÑANZA DE VARIEDADES LINGÜÍSTICAS</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/5364387277554857">Juliana Brandão Machado</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:22:58<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

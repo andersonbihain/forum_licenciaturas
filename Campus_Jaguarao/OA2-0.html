@@ -1,0 +1,217 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Jaguarao</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Jaguarao</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Dissertação de mestrado'}, 
+series: [{data: [[2016,
+6],
+[2017,
+15],
+[2018,
+11]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Dissertação de mestrado</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 32<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriana Garcia Cabaldi Carvalho. <b>Reconstruir o espaço na sala de aula: buscando caminhos na formação de leitores</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9026633756865916">Cristina Pureza Duarte Boéssio</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Alexandre Zacaria Sebaje. <b>Formação docente: a cultura da paz e a mediação de conflitos no ambiente escolar.</b>. Dissertação (Mestrado profissional em Mestrado profissional em educação) - Universidade Federal do Pampa. (Coorientador)., . In&iacute;cio: 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6851209637611049">Lúcio Jorge Hammes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Amanda Hering. <b>Em andamento</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7637826244661176">Camila Gonçalves dos Santos do Canto</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Bruno Zilli. <b>Em andamento</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7637826244661176">Camila Gonçalves dos Santos do Canto</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Caroline Feijó. <b>Ensino de espanhol nas escolas municipais de Jaguarão/RS</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9177182127478055">Paula Bianchi</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Daniel Moraes. <b>O uso dos espaços públicos de lazer como lugar para aulas de Educação Física</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9177182127478055">Paula Bianchi</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Gislaine Marroche de Brum. <b>Educação Física na educação infantil: uma proposta de formação de professores</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9177182127478055">Paula Bianchi</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Lis Rejane Martins Rolan. <b>A resolução de conflitos e educação para a paz</b>. Dissertação (Mestrado profissional em Mestrado profissional em educação) - Universidade Federal do Pampa. (Coorientador)., . In&iacute;cio: 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6851209637611049">Lúcio Jorge Hammes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Ricardo Gomes de Oliveira. <b>Em andamento</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7637826244661176">Camila Gonçalves dos Santos do Canto</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Sabrina Caetano Fernandes Leal. <b>Qualificando os processos de leitura e de escrita dos alunos em uma escola municipal de Arroio Grande</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9026633756865916">Cristina Pureza Duarte Boéssio</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Tatiane Bandeira Peters. <b>Projeto de Intervenção dinamizando a Biblioteca Escolar: portas abertas para a construção de leitores</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9026633756865916">Cristina Pureza Duarte Boéssio</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Amália Rodrigues. <b>O ensino de língua portuguesa por meio da metodologia WebQuest no ensino Regular: uma proposta didática que inclui a sala de aula no mundo virtual dos aprendizes</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7637826244661176">Camila Gonçalves dos Santos do Canto</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Ariane Barrios Rodrigues. <b>Repensar o papel do coordenador pedagógico como mediador de conflitos: uma intervenção na EMEI Donatos de Santa Vitória do Palmar</b>. Dissertação (Mestrado profissional em Mestrado profissional em educação) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6851209637611049">Lúcio Jorge Hammes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Claudete Botelho Ferreira. <b>Formação de professores e monitores de Educação Especial por meio de grupos de estudos</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9239744025327102">Bento Selau da Silva Junior</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Cleiton Cardoso. <b>as representações midiáticas sobre esporte no imaginário das crianças</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9177182127478055">Paula Bianchi</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Driéle Luize Souza da Silva. <b>Relações de gênero em foco: com a palavra os alunos do quarto ano do ensino fundamental</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5364387277554857">Juliana Brandão Machado</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Elis Regina da Silva Caetano. <b>Concepções dos professores sobre os alunos com necessidades educacionais especiais</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9239744025327102">Bento Selau da Silva Junior</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Janaina Mello Martins. <b>Laboratório de informática e formação de professores</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5364387277554857">Juliana Brandão Machado</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Jarbas Parise Moscato. <b>PRODUÇÃO DE LINGUAGENS CRIATIVAS NA GESTÃO DE PRÁTICAS EDUCATIVAS DO ATENDIMENTO EDUCACIONAL ESPECIALIZADO (AEE) NA ESCOLA E FERNADO CORREA RIBAS</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9177182127478055">Paula Bianchi</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Karla Dufau Silva. <b>Discutindo o PPP e a educação de surdos</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9239744025327102">Bento Selau da Silva Junior</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Katiúscia Texeira Dias Ortiz. <b>Trabalho colaborativo entre discentes: uma estratégia de ensino na aprendizagem de Matemática na Educação de Jovens e Adultos</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9239744025327102">Bento Selau da Silva Junior</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Luciene de Oliveira Fernandes. <b>Construção dos Círculos da paz como mediação de conflitos na escola</b>. Dissertação (Mestrado profissional em Mestrado profissional em educação) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6851209637611049">Lúcio Jorge Hammes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Nandjara Novo Castro. <b>O ensino baseado na relação entre conceitos espontâneos e conceitos científicos: o trabalho conjunto entre supervisão e professores</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9239744025327102">Bento Selau da Silva Junior</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Paula Fernanda Rodrigues Brum. <b>O Uso das Tecnologias como Ferramenta Pedagógica no Ensino Fundamental</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5364387277554857">Juliana Brandão Machado</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>VANDERLEIA LUCIA DICK CONRAD. <b>O PROTAGONISMO DOS JOVENS ADOLESCENTES DO COLÉGIO MILITAR DE PORTO ALEGRE: AUTONOMIA E FORMAÇÃO HUMANA</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3827667376371440">Paula Trindade da Silva Selbach</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Virgínia Ponche Barbosa. <b>O Ensino de Língua Adicional a partir de Comunidades de Prática: uma experiência docente de Sequência Didática para o curso normal</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa. (Coorientador)., . In&iacute;cio: 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/7637826244661176">Camila Gonçalves dos Santos do Canto</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1554365418069098">Alexandre Oliveira Silva</a>. <b>A mediação de conflitos escolares: com a palavra os educadores do IFSUL - Campus Bagé</b>. Dissertação (Mestrado profissional em Mestrado profissional em educação) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6851209637611049">Lúcio Jorge Hammes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Daniela Carine Dohs Machado. <b>Gestão das práticas docentes no despertar da autoimagem dos alunos fronteiriços por meio dos contos literários</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9026633756865916">Cristina Pureza Duarte Boéssio</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ivonete Afonso Jodar. <b>Mediação de conflitos como estratégia para a prevenção da violência na escola</b>. Dissertação (Mestrado profissional em Mestrado profissional em educação) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6851209637611049">Lúcio Jorge Hammes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Juliana da Rosa Brochado da Luz. <b>MULHER, NEGRA e ESTUDANTE: GÊNERO E RAÇA NO CURRÍCULO DA EDUCAÇÃO DE JOVENS E ADULTOS</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5364387277554857">Juliana Brandão Machado</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Marlete Nunes Gome Beiró. <b>Protagonismo estudantil: A organização do Grêmio na Escola João Goulart</b>. Dissertação (Mestrado profissional em Mestrado profissional em educação) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6851209637611049">Lúcio Jorge Hammes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Vagner Moraes Farias. <b>RELAÇÕES DE GÊNERO NA EDUCAÇÃO INFANTIL: CONSTRUINDO PRÁTICAS A PARTIR DA FORMAÇÃO DOCENTE</b>. Dissertação (Mestrado profissional em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5364387277554857">Juliana Brandão Machado</a>.</font></i></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:22:58<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

@@ -1,0 +1,167 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Jaguarao</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Jaguarao</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Artigos aceitos para publicação'}, 
+series: [{data: [[2017,
+1],
+[2018,
+7]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Artigos aceitos para publicação</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 8<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BOESSIO, C.P.D. ; MACHADO, J. B. ; MELGARES, T.M.S. <b>INCLUSÃO DE RECURSOS TECNOLÓGICOS DIGITAIS NAS PRÁTICAS DOCENTES: UMA INTERVENÇÃO PEDAGÓGICA VISANDO À FORMAÇÃO DE PROFESSORES</b>. DIALOGIA. 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=INCLUSÃO+DE+RECURSOS+TECNOLÓGICOS+DIGITAIS+NAS+PRÁTICAS+DOCENTES:+UMA+INTERVENÇÃO+PEDAGÓGICA+VISANDO+À+FORMAÇÃO+DE+PROFESSORES&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=INCLUSÃO+DE+RECURSOS+TECNOLÓGICOS+DIGITAIS+NAS+PRÁTICAS+DOCENTES:+UMA+INTERVENÇÃO+PEDAGÓGICA+VISANDO+À+FORMAÇÃO+DE+PROFESSORES">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=INCLUSÃO+DE+RECURSOS+TECNOLÓGICOS+DIGITAIS+NAS+PRÁTICAS+DOCENTES:+UMA+INTERVENÇÃO+PEDAGÓGICA+VISANDO+À+FORMAÇÃO+DE+PROFESSORES">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MOURA, P. S. <b>As mobilizações dos usos dos números e dos seus registros na produção e no governo das condutas em práticas escolares</b>. Revista de Educação, Ciência e Cultura. 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=As+mobilizações+dos+usos+dos+números+e+dos+seus+registros+na+produção+e+no+governo+das+condutas+em+práticas+escolares&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=As+mobilizações+dos+usos+dos+números+e+dos+seus+registros+na+produção+e+no+governo+das+condutas+em+práticas+escolares">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=As+mobilizações+dos+usos+dos+números+e+dos+seus+registros+na+produção+e+no+governo+das+condutas+em+práticas+escolares">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>PEREIRA, A. R. <b>Mary Wollstonecraft: ensaio de perfil predominantemente mentalsomático</b>. Interparadigmas. 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Mary+Wollstonecraft:+ensaio+de+perfil+predominantemente+mentalsomático&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Mary+Wollstonecraft:+ensaio+de+perfil+predominantemente+mentalsomático">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Mary+Wollstonecraft:+ensaio+de+perfil+predominantemente+mentalsomático">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>PEREIRA, A. R. <b>Autoidentificação do veio proexológico: hipótese do letramento grafológico</b>. PROEXOLOGIA. 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Autoidentificação+do+veio+proexológico:+hipótese+do+letramento+grafológico&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Autoidentificação+do+veio+proexológico:+hipótese+do+letramento+grafológico">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Autoidentificação+do+veio+proexológico:+hipótese+do+letramento+grafológico">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>PINCERATI, W. D. <b>Silêncio na Pinacoteca: Estudo para Libertação dos Escravos no campo dos discursos</b>. Linguagem Ensino (UCPel). 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Silêncio+na+Pinacoteca:+Estudo+para+Libertação+dos+Escravos+no+campo+dos+discursos&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Silêncio+na+Pinacoteca:+Estudo+para+Libertação+dos+Escravos+no+campo+dos+discursos">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Silêncio+na+Pinacoteca:+Estudo+para+Libertação+dos+Escravos+no+campo+dos+discursos">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>RODRIGUES, Ana Cristina da S.; OLIVEIRA, S. S. P.. <b>AVALIAÇÃO INSTITUCIONAL NA EDUCAÇÃO INFANTIL: ENGAJAMENTO, PARTICIPAÇÃO E REFLEXÕES DE DIFERENTES SEGMENTOS ESCOLARES</b>. REVISTA COCAR (ONLINE). 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=AVALIAÇÃO+INSTITUCIONAL+NA+EDUCAÇÃO+INFANTIL:+ENGAJAMENTO,+PARTICIPAÇÃO+E+REFLEXÕES+DE+DIFERENTES+SEGMENTOS+ESCOLARES&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=AVALIAÇÃO+INSTITUCIONAL+NA+EDUCAÇÃO+INFANTIL:+ENGAJAMENTO,+PARTICIPAÇÃO+E+REFLEXÕES+DE+DIFERENTES+SEGMENTOS+ESCOLARES">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=AVALIAÇÃO+INSTITUCIONAL+NA+EDUCAÇÃO+INFANTIL:+ENGAJAMENTO,+PARTICIPAÇÃO+E+REFLEXÕES+DE+DIFERENTES+SEGMENTOS+ESCOLARES">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SCHNEIDER, V. J. <b>Armadilhas da linguagem: criatividade epistemológica de Ferdinand de Saussure em um manuscrito de 1894. Leitura</b>. Revista do Programa de Pós-Graduação em Letras (UFAL). 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Armadilhas+da+linguagem:+criatividade+epistemológica+de+Ferdinand+de+Saussure+em+um+manuscrito+de+1894.+Leitura&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Armadilhas+da+linguagem:+criatividade+epistemológica+de+Ferdinand+de+Saussure+em+um+manuscrito+de+1894.+Leitura">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Armadilhas+da+linguagem:+criatividade+epistemológica+de+Ferdinand+de+Saussure+em+um+manuscrito+de+1894.+Leitura">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BORGES, V. P.; TORNQUIST, G ; MATZENAUER, C.. <b>Processamento dos afixos do PB: O reconhecimento de morfemas por crianças não alfabetizadas e em processo de alfabetização</b>. LETRÔNICA. 2017. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Processamento+dos+afixos+do+PB:+O+reconhecimento+de+morfemas+por+crianças+não+alfabetizadas+e+em+processo+de+alfabetização&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Processamento+dos+afixos+do+PB:+O+reconhecimento+de+morfemas+por+crianças+não+alfabetizadas+e+em+processo+de+alfabetização">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Processamento+dos+afixos+do+PB:+O+reconhecimento+de+morfemas+por+crianças+não+alfabetizadas+e+em+processo+de+alfabetização">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:22:58<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

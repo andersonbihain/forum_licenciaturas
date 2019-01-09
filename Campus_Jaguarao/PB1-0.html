@@ -1,0 +1,201 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Jaguarao</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Jaguarao</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Livros publicados/organizados ou edições'}, 
+series: [{data: [[2016,
+11],
+[2017,
+5],
+[2018,
+8]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Livros publicados/organizados ou edições</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 24<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AL-ALAM, CAIUÁ CARDOSO; ESCOBAR, G. V. (Org.) ; MUNARETTO, S. (Org.). <b>Clube 24 de Agosto (1918-2018): 100 anos de resistência de um clube social negro na fronteira Brasil-Uruguai</b>. 1 ed. Porto Alegre: ILU, 2018. v. 1, p. 207. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Clube+24+de+Agosto+(1918-2018):+100+anos+de+resistência+de+um+clube+social+negro+na+fronteira+Brasil-Uruguai&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Clube+24+de+Agosto+(1918-2018):+100+anos+de+resistência+de+um+clube+social+negro+na+fronteira+Brasil-Uruguai">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Clube+24+de+Agosto+(1918-2018):+100+anos+de+resistência+de+um+clube+social+negro+na+fronteira+Brasil-Uruguai">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ALVES, S. S.; MACEDO, Y. M. (Org.). <b>Universalização transversal: múltiplos olhares educativos</b>. 01 ed. Belo Horizonte: Nandyala, 2018. v. 01, p. 240. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Universalização+transversal:+múltiplos+olhares+educativos&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Universalização+transversal:+múltiplos+olhares+educativos">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Universalização+transversal:+múltiplos+olhares+educativos">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>ESCOBAR, G. V.; AL-ALAM, C. C. ; MUNARETTO, S. T.. <b>Clube 24 de Agosto: 100 anos de resistência de um clube social negro na fronteira Brasil-Uruguai</b>. 1 ed. Porto Alegre: Ilu Editora, 2018. v. 1, p. 208. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Clube+24+de+Agosto:+100+anos+de+resistência+de+um+clube+social+negro+na+fronteira+Brasil-Uruguai&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Clube+24+de+Agosto:+100+anos+de+resistência+de+um+clube+social+negro+na+fronteira+Brasil-Uruguai">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Clube+24+de+Agosto:+100+anos+de+resistência+de+um+clube+social+negro+na+fronteira+Brasil-Uruguai">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>LEIPNITZ, Guinter Tlaija. <b>Vida independente, ainda que modesta: dependentes, trabalhadores rurais e pequenos produtores na fronteira meridional do Brasil (c. 1884-c.1920)</b>. 1 ed. São Leopoldo: Oikos, 2018. v. 1, p. 354. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Vida+independente,+ainda+que+modesta:+dependentes,+trabalhadores+rurais+e+pequenos+produtores+na+fronteira+meridional+do+Brasil+(c.+1884-c.1920)&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Vida+independente,+ainda+que+modesta:+dependentes,+trabalhadores+rurais+e+pequenos+produtores+na+fronteira+meridional+do+Brasil+(c.+1884-c.1920)">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Vida+independente,+ainda+que+modesta:+dependentes,+trabalhadores+rurais+e+pequenos+produtores+na+fronteira+meridional+do+Brasil+(c.+1884-c.1920)">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MACHADO, J. B. (Org.) ; MOURA, P. S. (Org.). <b>Práticas de Iniciação à Docência: A experiência do PIBID na fronteira Jaguarão-BR/Rio Branco-UY</b>. 1 ed. São Leopoldo: Oikos, 2018. v. 1, p. 174. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Práticas+de+Iniciação+à+Docência:+A+experiência+do+PIBID+na+fronteira+Jaguarão-BR/Rio+Branco-UY&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Práticas+de+Iniciação+à+Docência:+A+experiência+do+PIBID+na+fronteira+Jaguarão-BR/Rio+Branco-UY">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Práticas+de+Iniciação+à+Docência:+A+experiência+do+PIBID+na+fronteira+Jaguarão-BR/Rio+Branco-UY">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>PERONDI, M.; SCHERER, G. A. (Org.) ; VIEIRA, P. M. (Org.). <b>Infâncias, adolescências e juventudes na perspectiva dos direitos humanos : onde estamos? Para onde vamos?</b>. 1 ed. Porto Alegre: EDIPUCRS, 2018. v. 1, p. 285. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Infâncias,+adolescências+e+juventudes+na+perspectiva+dos+direitos+humanos+:+onde+estamos?+Para+onde+vamos?&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Infâncias,+adolescências+e+juventudes+na+perspectiva+dos+direitos+humanos+:+onde+estamos?+Para+onde+vamos?">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Infâncias,+adolescências+e+juventudes+na+perspectiva+dos+direitos+humanos+:+onde+estamos?+Para+onde+vamos?">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SCHWARTZ, S. <b>Falar e escutar na sala de aula: propostas de atividades práticas</b>. 1a ed. Petrópolis: Vozes, 2018. v. 01, p. 96. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Falar+e+escutar+na+sala+de+aula:+propostas+de+atividades+práticas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Falar+e+escutar+na+sala+de+aula:+propostas+de+atividades+práticas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Falar+e+escutar+na+sala+de+aula:+propostas+de+atividades+práticas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SCHWARTZ, SUZANA. <b>Entre a indignação e a esperança: alfabetização de jovens e adultos</b>. 1 ed. Mauritius: Nova Edições Acadêmicas, 2018. v. 1, p. 249. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Entre+a+indignação+e+a+esperança:+alfabetização+de+jovens+e+adultos&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Entre+a+indignação+e+a+esperança:+alfabetização+de+jovens+e+adultos">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Entre+a+indignação+e+a+esperança:+alfabetização+de+jovens+e+adultos">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AL-ALAM, CAIUÁ CARDOSO; VENDRAME, M. I. (Org.) ; VONMUHLEN, C. (Org.). <b>CRIMINALIDADE, VIOLÊNCIA E JUSTIÇA: REFLEXÕES E NOVAS POSSIBILIDADES</b>. 1 ed. São Leopoldo: Editora Oikos, 2017. v. 1, p. 475. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=CRIMINALIDADE,+VIOLÊNCIA+E+JUSTIÇA:+REFLEXÕES+E+NOVAS+POSSIBILIDADES&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=CRIMINALIDADE,+VIOLÊNCIA+E+JUSTIÇA:+REFLEXÕES+E+NOVAS+POSSIBILIDADES">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=CRIMINALIDADE,+VIOLÊNCIA+E+JUSTIÇA:+REFLEXÕES+E+NOVAS+POSSIBILIDADES">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Dias, Catia Goulart (Org.) ; Boéssio, Cristina Pureza (Org.) ; Martins, Ida (Org.) ; FARIAS- MARQUES, Maria Do Socorro de Almeida (Org.) ; Boéssio, Ana Lucia Montano (Org.) ; Marozo, Luis Fernando (Org.) ; Rizzon, Carlos (Org.) ; DOMINGO, L. C. (Org.) ; Simioni, Leonor (Org.) ; Santos, G. R (Org.) ; Silva, Renata (Org.). <b>Memórias e Perspectivas: 10 anos do curso de Letras - Universidade Federal do pampa - campus Jaguarão</b>. 1a. ed. São Paulo: Todas as Musas, 2017. v. 100, p. 302. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Memórias+e+Perspectivas:+10+anos+do+curso+de+Letras+-+Universidade+Federal+do+pampa+-+campus+Jaguarão&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Memórias+e+Perspectivas:+10+anos+do+curso+de+Letras+-+Universidade+Federal+do+pampa+-+campus+Jaguarão">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Memórias+e+Perspectivas:+10+anos+do+curso+de+Letras+-+Universidade+Federal+do+pampa+-+campus+Jaguarão">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SCHWARTZ, S. <b>Alfabetização de jovens e adultos:teoria e prática</b>. 5a ed. Petrópolis: Vozes, 2017. v. 1, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Alfabetização+de+jovens+e+adultos:teoria+e+prática&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Alfabetização+de+jovens+e+adultos:teoria+e+prática">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Alfabetização+de+jovens+e+adultos:teoria+e+prática">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Selbach, Jeferson; BRUM, R. F.. <b>Ruralização e viver em fronteira: Jaguarão/RS</b>. 1 ed. Porto Alegre: Animal, 2017. v. 1, p. 573. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Ruralização+e+viver+em+fronteira:+Jaguarão/RS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Ruralização+e+viver+em+fronteira:+Jaguarão/RS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Ruralização+e+viver+em+fronteira:+Jaguarão/RS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>ZITKOSKI, J. J. (Org.) ; HAMMES, L. J. (Org.) ; LEMES, R. K. (Org.). <b>A formação de professores na contemporaneidade: perspectivas interdisciplinares</b>. 1. ed. Lajeado: Univates, 2017. v. 1, p. 256. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+formação+de+professores+na+contemporaneidade:+perspectivas+interdisciplinares&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+formação+de+professores+na+contemporaneidade:+perspectivas+interdisciplinares">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+formação+de+professores+na+contemporaneidade:+perspectivas+interdisciplinares">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AL-ALAM, CAIUÁ CARDOSO. <b>Palácio das misérias: populares, delegados e carcereiros em Pelotas, 1869-1889</b>. 1 ed. São Leopoldo - RS: Editora Oikos Ltda., 2016. v. 1, p. 256. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Palácio+das+misérias:+populares,+delegados+e+carcereiros+em+Pelotas,+1869-1889&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Palácio+das+misérias:+populares,+delegados+e+carcereiros+em+Pelotas,+1869-1889">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Palácio+das+misérias:+populares,+delegados+e+carcereiros+em+Pelotas,+1869-1889">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>DA ROLT, Clóvis. <b>A orientação das serpentes</b>. 01 ed. Porto Alegre: Editora Modelo de Nuvem, 2016. v. 01, p. 70. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+orientação+das+serpentes&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+orientação+das+serpentes">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+orientação+das+serpentes">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>JESUS, S. C. de; SILVEIRA, N. H. (Org.) ; MELO, C. R. (Org.). <b>Diálogos com os Guarani: articulando compreensões antropológicas e indígenas</b>. 1ª ed. Florianópolis: Editora UFSC, 2016. v. 1, p. 254. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Diálogos+com+os+Guarani:+articulando+compreensões+antropológicas+e+indígenas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Diálogos+com+os+Guarani:+articulando+compreensões+antropológicas+e+indígenas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Diálogos+com+os+Guarani:+articulando+compreensões+antropológicas+e+indígenas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MACHADO, S. P.; SOARES, I. (Org.) ; ROSA, R. (Org.) ; MACHADO, Sátira P. (Org.). <b>Educomunicação e Diversidade: múltiplas abordagens</b>. 01 ed. São Paulo: ABPEducom, 2016. v. 01, p. 250. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educomunicação+e+Diversidade:+múltiplas+abordagens&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educomunicação+e+Diversidade:+múltiplas+abordagens">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educomunicação+e+Diversidade:+múltiplas+abordagens">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MOURA, A. C. de O. S. de; LAURINO, D. P. (Org.). <b>Percursos metodológicos de cartógrafos no educar</b>. 1 ed. Rio Grande, RS: Editora FURG, 2016. p. 178. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Percursos+metodológicos+de+cartógrafos+no+educar&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Percursos+metodológicos+de+cartógrafos+no+educar">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Percursos+metodológicos+de+cartógrafos+no+educar">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>MOURA, A. C. de O. S. de; VANIEL, B. V. (Org.) ; LAURINO, Débora Pereira. (Org.). <b>Educar em interações digitais: pesquisa, tecnologias e formação de professores</b>. 1 ed. Rio Grande, RS: Editora da FURG, 2016. v. 1, p. 299. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educar+em+interações+digitais:+pesquisa,+tecnologias+e+formação+de+professores&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educar+em+interações+digitais:+pesquisa,+tecnologias+e+formação+de+professores">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educar+em+interações+digitais:+pesquisa,+tecnologias+e+formação+de+professores">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>ROSA, R. (Org.) ; SOARES, I. (Org.) ; MACHADO, Sátira. P. (Org.) ; MACHADO, Sátira P. (Org.). <b>Educomunicação e Diversidade: tecendo saberes</b>. 01 ed. São Paulo: ABPEducom, 2016. v. 01, p. 360. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educomunicação+e+Diversidade:+tecendo+saberes&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educomunicação+e+Diversidade:+tecendo+saberes">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educomunicação+e+Diversidade:+tecendo+saberes">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SCHWARTZ, S. <b>Inquietudes pedagógicas da prática docente</b>. 1a ed. Petrópolis: Vozes, 2016. p. 120. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Inquietudes+pedagógicas+da+prática+docente&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Inquietudes+pedagógicas+da+prática+docente">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Inquietudes+pedagógicas+da+prática+docente">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SILVEIRA, C. D. M. <b>Sociedade Partenon Literário: literatura e política na Porto Alegre do século XIX</b>. 1 ed. Curitiba: Prismas, 2016. .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Sociedade+Partenon+Literário:+literatura+e+política+na+Porto+Alegre+do+século+XIX&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Sociedade+Partenon+Literário:+literatura+e+política+na+Porto+Alegre+do+século+XIX">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Sociedade+Partenon+Literário:+literatura+e+política+na+Porto+Alegre+do+século+XIX">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>VIANA, C. E. (Org.) ; ROSA, R. (Org.) ; MACHADO, Sátira P. (Org.). <b>Educomunicação e Diversidade: integrando práticas</b>. 01 ed. São Paulo: ABPEducom, 2016. v. 01, p. 300. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educomunicação+e+Diversidade:+integrando+práticas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educomunicação+e+Diversidade:+integrando+práticas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educomunicação+e+Diversidade:+integrando+práticas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Ângelo Luiz Bruggemann (Org.) ; BIANCHI, Paula (Org.) ; Silvan Menezes dos Santos (Org.). <b>Pesquisa e formação em Mídia-Educação Física</b>. 1 ed. Florianópolis: Tribo da Ilha, 2016. v. 1, p. 231. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Pesquisa+e+formação+em+Mídia-Educação+Física&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Pesquisa+e+formação+em+Mídia-Educação+Física">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Pesquisa+e+formação+em+Mídia-Educação+Física">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:22:58<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

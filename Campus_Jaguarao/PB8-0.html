@@ -1,0 +1,533 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Jaguarao</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Jaguarao</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Apresentações de trabalho'}, 
+series: [{data: [[2016,
+82],
+[2017,
+66],
+[2018,
+41]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Apresentações de trabalho</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 190<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AL-ALAM, CAIUÁ CARDOSO. <b>Clube Social 24 de Agosto: centenário de um clube negro</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>AL-ALAM, CAIUÁ CARDOSO. <b>Protagonismo negro na história da fronteira sul do Brasil</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>AL-ALAM, CAIUÁ CARDOSO; SABINO, V.. <b>O Colégio Noturno 20 de Setembro: a comunidade negra em agência por projetos de educação</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ALVES, S. S.; ALBUQUERQUE, Paulo Peixoto ; STOLL, V. G.. <b>A Economia Solidária como Contraponto á Desigualdade, a Pobreza e a Exclusão Social</b>. 2018. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>ALVES, S. S.; PRAZERES, A. R. S.. <b>Ensino da Cultura Afro-Brasileira na Formação de Pedagogos/as no Extremo Sul do País</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>ALVES, S. S.; STOLL, V. G.. <b>Os Saberes das Redes de Economia Popular Solidária: Análise do Município de Jaguarão/RS</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>AVILA, M. G. ; MUNHOZ, C. G. ; SELAU, B. ; TURNES, V. C.. <b>A Educação Ambiental no Ensino Médio: a importância da prática testemunhal docente</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Bento Selau. <b>O conceito de superação em Vygotski e as possíveis implicações educacionais</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>ESCOBAR, G. V. <b>Rainhas Negras do Clube 24 de Agosto: identidades, representações e trajetórias de mulheres de um Clube Social Negro na fronteira Brasil-Uruguai</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Ferreira, D. N. ; BOÉSSIO, C. P. D. ; SELBACH, P. T.. <b>O SISU e as diversas culturas: modificações na Prática Pedagógica</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>FRIEDRICH, M. A.; KLEIN, C. B. M.. <b>O ensino de Libras através da escrita de sinais na escola Bilíngue para surdos</b>. 2018. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>GRUTZMANN, T. P. ; LEBEDEFF, T. B. ; VIANA, J. M. ; MARTINS, M. A. S. ; FRIEDRICH, M. A.. <b>MATHLIBRAS COMO TECNOLOGIA ASSISTIVA: VÍDEOS DE MATEMÁTICA COM LIBRAS</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>HAMMES, L. J. <b>A conjuntura das políticas de Pós-Graduação e suas relações com a docência</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>LOVATO, C. S. <b>Representatividade feminina na ciência</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>MADEIRA, C. R. ; JANKES, M. F. G. ; JANKE, G. ; MAY, Marilú Angela Campagner. <b>Jogos Pedagógicos: Trilha silábica escondida com dado</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>MARIN, J. M. ; BIANCHI, Paula. <b>La representación de Brasil durante la ceremonia de apertura de los Juegos Olímpicos de Río 2016. Análisis comparativo entre Globo.com y Rtve.es</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>MAY, Marilú Angela Campagner; RODRIGUES, A. C. ; BORGES, L. ; BUCCO, N. ; NUNES, F. L. T. ; MELGARES, J.. <b>He for She</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>NEHRING, Cátia Maria ; BATTISTI, I. K. ; POZZOBON, M. C. C.. <b>A organização do ensino por licenciandos em estágio e o processo de formação do professor de Matemática</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>OURIQUE, M. L. H. <b>Prática pedagógica e experiências de si: prismas da formação humana</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>PASSOS, A. A. A. L.; BITTENCOURT, C. P. N. ; BITTENCOURT, C. H. S. ; CORDOVA, R. A.. <b>Elementos e estratégias de acesso no estudo via educação a distância</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>PEREIRA, I. D. M. <b>ENSINO DE CIÊNCIAS NA PERSPECTIVA DA ALFABETIZAÇÃO CIENTÍFICA: PRÁTICA PEDAGÓGICA NO CICLO DE ALFABETIZAÇÃO</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>PEREIRA, I. D. M.; NORNBERG, M.. <b>ENSINO DE CIÊNCIAS E ALFABETIZAÇÃO CIENTÍFICA NOS ANOS INICIAIS</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>PEREIRA, I. D. M.; NORNBERG, M.. <b>ENSINO DE CIÊNCIAS, ALFABETIZAÇÃO CIENTÍFICA E PRÁTICA PEDAGÓGICA NO CICLO DE ALFABETIZAÇÃO</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>POZZOBON, M. C. C. <b>O ensino de Matemática: 4º e 5º anos do Ensino Fundamental</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>POZZOBON, M. C. C. <b>Ensino de Matemática: 1º ao 3º anos do Ensino Fundamental</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>POZZOBON, M. C. C. <b>Interações, brincadeiras, matemática</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>POZZOBON, M. C. C. <b>O ensino de matemática: algumas possibilidades</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>POZZOBON, M. C. C.; OLIVEIRA, C. J. ; NEHRING, Catia Maria ; BATTISTI, I. K.. <b>A formação de professores que ensinam Matemática nos anos iniciais em cursos de Pedagogia</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>RIZZON, C. G. <b>A cultura de e na fronteira</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>RIZZON, C. G. <b>Línguas sem fronteiras: português e espanhol no Rio Grande do Sul e no Uruguai</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>SCHNEIDER, V. J. <b>Como sair do jogo da velha: o lúdico como satisfator sinérgico</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>SCHNEIDER, V. J. <b>Pedra, pedra e palavra: algumas palavras e imagens</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>SELAU, B. <b>A psicologia histórico-cultural de L. S. Vygotski</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>SELAU, Bento. <b>A Teoria Histórico-Cultural de Vigotski: aportes nas pesquisas em Educação</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>SILVA JÚNIOR, B. S. <b>O conceito de superação em Vygotski</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>SILVA, I. C. ; OURIQUE, M. L. H.. <b>A visão da comunidade sobre a Universidade Federal do Pampa - Campus Jaguarão</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>SIMIONI, LEONOR. <b>'Ter' and 'haver' in Uruguayan Portuguese</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>SIMIONI, LEONOR. <b>A realização de sujeitos e objetos pronominais no português uruguaio</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>SIMIONI, LEONOR. <b>O português no Uruguai</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>SIMIONI, LEONOR; CAVALCANTE, Rerisson. <b>'Capaz' as an emphatic negative marker in Gaucho Brazilian Portuguese</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>VIEIRA, V. C. ; RODRIGUES, E. R. N. ; BRANDAO, G. S.. <b>ENSINANDO CIÊNCIAS: PLANTAS MEDICINAIS</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AL-ALAM, CAIUÁ CARDOSO. <b>Protagonismos na Pelotas do século XIX: um convite para uma leitura interseccional</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>AL-ALAM, CAIUÁ CARDOSO. <b>Protagonismo negro em Pelotas</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>ALVES, S. S.; MACEDO, Y. M. ; CARDOSO, M. E. R. C.. <b>Enfrentando o racismo na Formação de Professores: um problema estruturado no Município de Jaguarão/RS</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ALVES, S. S.; ZDRADEK, F. R. ; STOLL, V. G.. <b>Formação de empreendedores Sociais em Jaguarão-RS</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>BIANCHI, Paula; PAIXAO, H. J. Z. ; LANDIM, I. ; FERRER, E. ; ROMEU, D. L. ; GONCALVES, F. N. ; GARCIA, M. M.. <b>INTERFACES UNIVERSIDADE E ESCOLA: UMA PROPOSTA DE GESTÃO DE RECURSOS HUMANOS PARA A EDUCAÇÃO BÁSICA</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>BOESSIO, A. L. M. <b>LUGAR DE LITERATURA E NA SALA DE AULA</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>BOESSIO, A. L. M.; CALDEIRAO, A.. <b>FORMAÇÃO ACADÊMICA NA CIBERCULTURA</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>BRANCO, B. A. ; QUADROS N, P. F. R. ; SCHWARTZ, S. <b>PROCRASTINAÇÃO: O FENÔMENO EM ESTUDANTES UNIVERSITÁRIOS</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>CANTO, Camila Gonçalves dos Santos do. <b>Repensando a elaboração de Webquests para a modalidade a distância</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>CANTO, Camila Gonçalves dos Santos do. <b>Prática em Linguagem I</b>. 2017. Desenvolvimento de material didático ou instrucional - Disciplina</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>CANTO, Camila Gonçalves dos Santos do. <b>Tutoria e EaD</b>. 2017. Desenvolvimento de material didático ou instrucional - Curso de Capacitação Tutoria e Ambiente virtual de aprendizagem</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>CANTO, Camila Gonçalves dos Santos do. <b>Manual do aluno EaD</b>. 2017. Desenvolvimento de material didático ou instrucional - Manual</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>CANTO, Camila Gonçalves dos Santos do; CORREA, C. C. ; FARIAS-MARQUES, M. S. A.. <b>UNIPAMPA: primeiros passos rumo à institucionalização</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>CANTO, Camila Gonçalves dos Santos do; PINCERATI, W. D. ; CARDOZO, R.. <b>A formação docente em contextos de crise</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>CHAVES, Lurian S. ; SOUZA, Karoline G. ; SIMIONI, LEONOR. <b>Uma investigação sobre as propriedades de sujeito nulo no português de Poblado Uruguay</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>DA ROLT, Clóvis. <b>A docência entre duas margens: ética e estética como alicerces de formação</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>ESCOBAR, G. V.; SILVA, F. O. ; CUNHA, J.. <b>'ATINUKÉ': IDENTIDADES E REPRESENTAÇÕES A PARTIR DO PENSAMENTO DE MULHERES NEGRAS DO SUL DO BRASIL</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>FERREIRA, L. F.; XANGO, Mãe. Nice. ; EMILIANO, D.. <b>Um diálogo afroindígena: encontros com xamãs e orixás, com Mãe de Nice de Xangô e Darci</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>FREITAS, Renata Dal Sasso. <b>O romance histórico e o papel da história: o caso das Legends of the Thirteen Republics de James Fenimore Cooper</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>FREITAS, Renata Dal Sasso. <b>Leituras da história em The Wanderer (1814) de Frances Burney</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>FREITAS, Renata Dal Sasso. <b>Mary Wollstonecraft e a história</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>GOULART, C. R. D. <b>Experiências de leitura, a formação do leitor e estágios de Curso de Letras</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>GOULART, C. R. D. <b>Por um pensamento de fronteira - labirintos da crítica na América Latina, as fronteiras em que me situo</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>HIRSCHMANN, A.; KASPER, C. B.. <b>Minicurso: Diversidade de Peixes de Água Doce Neotropicais</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>JESUS, S. <b>C. de. Demarcando espaços, saberes e conflitos: notas sobre a presença de crianças indígenas na universidade</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>JESUS, S. C. de; TASSINARI, A. M. I.. <b>Coordenação do Simpósio Temático 'Mulheres Indígenas e Conhecimentos: conflitos, territorialidades e agências'</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>MARIN, J. M. ; BIANCHI, Paula. <b>Rafaela Silva y Carolina Marín. Media representations of Olympic heroines at the Rio 2016 Games</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>MAROZO, L. F. R. <b>A tragédia grega na perspectiva aristotélica</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>MAROZO, L. F. R. <b>O sistema de Even-Zohar para o estudo da literatura</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>MATTOS, J. V. <b>Para ler textos teóricos</b>. 2017. Desenvolvimento de material didático ou instrucional - Vídeo-aula</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>MATTOS, J. V. <b>Revisão: Leituras do Fato Literário II</b>. 2017. Desenvolvimento de material didático ou instrucional - Vídeo-aula</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>MATTOS, J. V. <b>Revisão:Teorias Literárias</b>. 2017. Desenvolvimento de material didático ou instrucional - Vídeo-aula</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>MATTOS, J. V. <b>Revisão/finalização: Literatura e outras linguagens como estratégias de letramento</b>. 2017. Desenvolvimento de material didático ou instrucional - Vídeo-aula</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>MAY, Marilú Angela Campagner. <b>1o Encontro de Ogãs de Candomblé: músicos e místicos</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>MOSER, Denise Aparecida; Pereira, Aden Rodrigues. <b>Workshop - Docência na EaD</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>MOURA, A. <b>C. de O. S. de. Educação Ambiental e Sustentabilidade</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>MOURA, A. C. de O. S. de; MONTEIRO, A. F.. <b>Permanências na Educação a Distância: Diálogos e Diretrizes</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>MOURA, P. S. <b>Avaliação: Construindo Formas de Olhar para o Aluno</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>PEREIRA, A. R. <b>Revisitando o vanguardismo feminista de Mary Wollstonecraft: bases de um estudo biográfico</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>PEREIRA, A. R. <b>Cine-debate sobre o documentários 'Do we need to talk to men?'</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>PINCERATI, W. D. <b>Silêncio na Pinacoteca - Estudo para Libertação dos Escravos no campo dos discursos</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>PINCERATI, W. D. <b>Mal-estar Docente na Cibercultura</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>POZZOBON, M. C. C. <b>Saberes Docentes e Docência</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>PRAZERES, A. R. S. ; GAIA, C. V. ; DAMIN, F. ; CALIXTO, S. B. ; OURIQUE, M. L. H.. <b>Educação Infantil: aspectos estruturais das instituições que estão se adequando ao Plano Nacional de Educação</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>PRAZERES, A. R. S. ; GAIA, C. V. ; DAMIN, F. ; CALIXTO, S. B. ; OURIQUE, M. L. H.. <b>O acesso à Educação Infantil: uma discussão a partir do Plano Nacional de Educação</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>RICHTER, Marcela Wanglon. <b>Apontamentos para uma juventude revolucionária</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>RICHTER, Marcela Wanglon. <b>Oficina: Poesia em Foco</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>RICHTER, Marcela Wanglon. <b>Poesia para crianças: Limeriques</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>RICHTER, Marcela Wanglon. <b>Cine-debate: Discutindo gênero e sexualidade</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>RIZZON, C. G. <b>Fronteira de uma terra indecisa</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>RODRIGUES, E. R. N. <b>A MATEADA ESCOLAR COMO FORMA DE MANUTENÇÃO E DISSEMINAÇÃO DA CULTURA TRADICIONAL GAÚCHA</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>RODRIGUES, E. R. N. <b>O DESAFIO DE ORIENTAR FUTUROS DOCENTES PARA UMA DOCÊNCIA EMANCIPADORA</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>RODRIGUES, E. R. N.; CARDOSO, K. S.. <b>TU TENS MEDO DE QUÊ?</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>ROSA, S. P. ; AVEIRO, G. O. ; BRISOLLA, K. C. ; ESCOBAR, G. V.. <b>Rainhas negras do Clube 24 de Agosto: identidades e representações de mulheres na fronteira Brasil-Uruguai</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>SCHNEIDER, V. J. <b>Pedagogia cartonera: estatégias para o ensino de produção textual</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>SCHNEIDER, V. J. <b>La epistemología saussuriana en un manuscrito de 1894</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>SCHNEIDER, V. J. <b>El libro cartonero como herramienta pedagógica</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>SCHNEIDER, V. J. <b>El libro cartonero: instrumento cultural y pedagógico</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>SCHNEIDER, V. J. <b>Pedra, papel e palavra: o que são jogos de letramento?</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>SILVA JÚNIOR, Bento Selau. <b>O Mestrado em Educação da UNIPAMPA na região</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>SIMIONI, LEONOR. <b>Critérios sintáticos para uma definição do português uruguaio</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>SIMIONI, LEONOR. <b>A sintaxe do português uruguaio: novos dados, novas análises?</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>STEIN, J. Q. <b>Por um ensino de escrita que sirva para viver</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>ZDRADEK, F. R. ; ALVES, S. S. ; ALVES, S. S.. <b>Empreendedores Sociais: Fomentando a Geração de Trabalho e Renda</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>ZDRADEK, F. R. ; JUNCAL, J. C. ; MAROZO, L. F. R.. <b>Jornal Escolar: formação de leitores proficientes em diferentes ambientes</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>ZDRADEK, F. R. ; JUNCAL, J. C. ; MAROZO, L. F. R.. <b>Jornal Escolar: uma proposta de ensino para a formação de leitores proficientes</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AL-ALAM, C. C.; MOREIRA, PAULO ROBERTO STAUDT ; PINTO, NATÁLIA GARCIA. <b>Os Calhambolas do General Padeiro: narrativas documentais de experiências quilombolas</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>AL-ALAM, CAIUÁ CARDOSO. <b>Projeto de Pesquisa em Debate - 'Século XXI: Prisão e segregações da etnia negra em Pelotas'</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>AL-ALAM, CAIUÁ CARDOSO. <b>DA CASA AMARELA AO PALÁCIO DAS MISÉRIAS: SISTEMA PRISIONAL EM PELOTAS NO FINAL DO SÉCULO XIX</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>AL-ALAM, CAIUÁ CARDOSO. <b>História, castigo e delito: segregações e vulnerabilidades</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>AL-ALAM, CAIUÁ CARDOSO. <b>A questão racial no contexto histórico da cidade de Pelotas</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>ALCÂNTARA, Cíntia ; AZEVEDO, ROBERTA QUINTANILHA ; CARNIATO, M. C.. <b>Aquisição das vogais do francês por falantes nativos do português brasileiro: uma análise à luz da Teoria da Otimidade Estocástica</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>ALVES, S. S.; FIGUEIRA, L. N.. <b>Rompendo com o Silêncio na Formação de Professores: Despertar a Conscientização e a Valorização da Cultura Africana e Afro- Brasileira</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>ALVES, S. S.; STOLL, V. G.. <b>ROMPENDO COM O SILÊNCIO: A EDUCAÇÃO PARA RELAÇÕES ÉTNICO-RACIAIS NA FORMAÇÃO DE PROFESSORES</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>ALVES, S. S.; STOLL, V. G. ; SANTANA JUNIOR, T. ; ESPINDOLA, Q. C.. <b>SABERES CULTURAIS: OBJETO BASILAR DA ECONOMIA POPULAR SOLIDÁRIA NA FRONTEIRA SUL DO BRASIL</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>AZEVEDO, ROBERTA QUINTANILHA ; CARNIATO, M. C.. <b>Padrões acústicos na produção das vogais epentéticas do português brasileiro e europeu</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>BIANCHI, Paula. <b>Experiências com observatórios em Educação Física: possibilidades de contribuição social e acadêmica</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>BIANCHI, Paula; MARIN, J. M. ; HATJE, Marli. <b>MÍDIA, ESTILO DE VIDA SAUDÁVEL E IDOSOS: A PERCEPÇÃO DOCENTE</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>BOESSIO, A. L. M. <b>A literariedade como instrumento de desvelamento do olhar crítico de Maquiavel sobre o mundo</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>BOESSIO, A. L. M. <b>ENTRE A MARGEM DIREITA E A ESQUERDA: A LITERATURA E A REPRESENTAÇÃO DO MUNDO NO SILÊNCIO DO FEMININO</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>BORGES, V. P.; MATZENAUER, C. L. B. ; TORNQUIST, G. <b>Um estudo sobre o desenvolvimento da Consciência Morfológica: Produção e reconhecimento de afixos do PB por crianças não alfabetizadas e em processo de alfabetização</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>BORGES, V. P.; MATZENAUER, C. L. B. ; TORNQUIST, G. <b>Processamento dos afixos do PB: O reconhecimento de morfemas por crianças alfabetizadas e não alfabetizadas</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>BORGES, V. P.; TORNQUIST, G ; LINO, V. P. J. ; MATZENAUER, C. L. B.. <b>Produção e reconhecimento de prefixos: um estudo do desenvolvimento da Consciência Morfológica</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>BORGES, V. P.; TORNQUIST, G ; MATZENAUER, C. L. B.. <b>Um estudo sobre o desenvolvimento da Consciência Morfológica: Produção e reconhecimento de afixos do PB por crianças não alfabetizadas e em processo de alfabetização</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>CAMPOS, Rafael da Costa. <b>História Política: uma trajetória de pesquisa sobre a institucionalização do Principado</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>CAMPOS, Rafael da Costa. <b>A configuração do culto imperial e a construção do consenso durante o início do Principado: entre Augusto e Tibério</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>CANTO, Camila Gonçalves dos Santos do. <b>Invertendo a sala de aula no ensino superior: contribuições das TDIC e da aprendizagem baseada na resolução de problemas</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>CANTO, Camila Gonçalves dos Santos do. <b>O letramento digital e o uso das tecnologias no ensino e aprendizagem de línguas</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>CANTO, Camila Gonçalves dos Santos do. <b>O Letramento digital e o uso das tecnologias no processo de ensino e aprendizagem de línguas</b>. 2016. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>CANTO, Camila Gonçalves dos Santos do; MACHADO, J. B. ; OLIVEIRA, E. F.. <b>Perspectivas da atuação docente na EaD</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>CARATTI, J. M. <b>Repensando os marcos referenciais: planejamento e trabalho docente</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>CARNIATO, M. C.; AZEVEDO, ROBERTA QUINTANILHA. <b>O 'Yeísmo' na língua espanhola sob a perspectiva da Gramática Harmônica</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>CARNIATO, M. C.; NEUSCHRANK, ALINE. <b>A percepção das vogais médias por falantes nativos do espanhol da cidade uruguaia de Rio Branco</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>COSTA, Larissa. <b>Caracterizando os aspectos percepto-visio-motores nas atividades do período preparatório da alfabetização: uma pesquisa em cadernos escolares de crianças (1985 ? 2014)</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>COSTA, Larissa. <b>O período preparatório da alfabetização em manuais pedagógicos de formação docente (1936-1978)</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>COSTA, Larissa; PERES, E.. <b>OS TESTES ABC E O PERÍODO PREPARATÓRIO DA ALFABETIZAÇÃO: RELAÇÕES HISTÓRICAS E INDÍCIOS NO TEMPO PRESENTE EM CADERNOS ESCOLARES DE ALUNOS</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>COSTA, Larissa; SILVEIRA, A. A. ; VIEIRA, C. M.. <b>Descrição do acervo de cadernos de alunos do grupo de pesquisa História da Alfabetização, leitura, escrita e dos livros escolares (HISALES): pesquisas realizadas e possibilidades de estudos</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>CRUXEN, E. B. <b>Construção de uma Paisagem Fronteiriça Fortificada: A Raya Luso-Castelhana no Período Tardo Medieval (Séc. XV-XVI)</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>DE OLIVEIRA, E. F. <b>INCLUSÃO SEM LIMITES</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>DE OLIVEIRA, E. F. <b>POLÍTICAS PUBLICAS DA EDUCAÇÃO DE JOVENS E ADULTOS</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>DE OLIVEIRA, E. F. <b>Politicas Públicas da Educação de Jovens e Adultos</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>DOMINGO, L. C. <b>Letramento Intercultural na formação de professores</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>FARIAS-MARQUES, Maria do Socorro de Almeida ; MOSER, Denise Aparecida ; CANTO, C. G. S. ; PÉREZ, C. C. C.. <b>Curso de Licenciatura em Letras na Modalidade a Distância: Pioneirismo na Unipampa /Brasil/RS</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>FREITAS, Renata Dal Sasso. <b>O peso da História: The Wanderer (1814) de Frances Burney</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>FREITAS, Renata Dal Sasso. <b>Jane Austen e a despolitização do romance setecentista: Mansfield Park (1814)</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>FREITAS, Renata Dal Sasso. <b>History, empathy and gender - an analysis of Frances Burney's The Wanderer, Jane Austen's Mansfield Park and Walter Scott's Waverley</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>FREITAS, Renata Dal Sasso. <b>As Fronteiras do Romance: The Pioneers (1823) de J. F. Cooper</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>FRIEDRICH, M. A. <b>A importância da Língua Portuguesa na vida de um profissional surdo</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>FRIEDRICH, M. A. <b>O surdo e a imersão no mundo das letras</b>. 2016. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>GACKI, S. R. S. <b>Escola e Universidade: utopias, tempos e experiências</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>GACKI, S. R. S.; PROHMANN, P. R.. <b>Diálogo hermenêutico na sociedade biopolítica: encontrar o outro na formação de professores</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>HAMMES, L. J.; ZITKOSKI, J. J.. <b>A formação docente numa perspectiva interdisciplinar: uma leitura desde a educação do campo</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>LEGEMANN, Marli ; PINHEIRO, P. H. L. ; SOUZA, F. C. R. ; SCHWARTZ, S. <b>Mestrado Profissional Em Educação: Panoramas, Possibilidades E Desafios</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>LEGEMANN, Marli ; SCHWARTZ, S. <b>Encontros, Saberes, Ações: A Construção De Um Espaço De Foramação Continuada Com Professoras Alfabetizadoras Da Eja</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>LEIPNITZ, Guinter Tlaija. <b>Vida independente, ainda que modesta: dependentes, trabalhadores rurais e pequenos produtores na fronteira meridional do brasil (c. 1884 ? c. 1920)</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>LEIPNITZ, Guinter Tlaija. <b>Um ?mercado internacional de trabalho? na fronteira BrasilUruguai-Argentina?</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>LINO, V. ; BORGES, V. P. ; MATZENAUER, C. L. B.. <b>Condicionamento fonológico de /L/ sobre /R/ no processo de aquisição do rótico coronal do PB: evidências fonético-acústicas? no Simpósio intitulado Fonética/Fonologia: Aquisição e Variação da Linguagem</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>LINO, V. P. J. ; BORGES, V. P. ; TORNQUIST, G ; MATZENAUER, C. L. B.. <b>Condicionamento fonológico no processo de aquisição do rótico coronal do PB: Estratégia de desenvolvimento</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>MARIN, J. M. ; BIANCHI, Paula. <b>Analisis comparativo del tratamiento televisivo de la ceremonia de clausura de la Copa de Mundo FIFA Brasil 2014</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>MARINS, I. M. M. <b>Vivências Pedagógicas Interculturais</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>MARINS, I. M. M. <b>Identidade Intercultural em formação</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>MAY, Marilú Angela Campagner. <b>Do teórico ao Lúdico, ressignificando o Curriculo</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>MOSER, Denise Aparecida; SOUZA, Y. S. ; CARDOSO, A. P.. <b>O Esperanto como língua materna</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>NEHRING, Catia Maria ; BATTISTI, I. K. ; A. Q. M. Reis ; MAGIO, D. P. ; POZZOBON, M. C. C.. <b>O processo de ensinar e de aprender matemática: alguns pressupostos e entendimentos</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>NEHRING, Catia Maria ; POZZOBON, M. C. C. ; OLIVEIRA, C. J.. <b>A constituição da docência para ensinar matemática na Educação Básica: problematizações e possibilidades</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>NUNES, Geice Peres. <b>Narrativas orais na região fronteiriça do extremo sul do Brasil</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>NUNES, Geice Peres. <b>Las voces resonantes en Don Quijote</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>NUNES, Geice Peres; TARDIZ, L. S. ; FARIA, A. P. B. ; CLOS, A. B. ; NUNES, S.. <b>A fronteira como cenário de cantos e contos</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>PACHECO, C. A. B. ; OLIVEIRA, H. B. C. ; DE OLIVEIRA, E. F.. <b>PROJETO PORTAL: ANÁLISE DE MATERIAIS E PRÁTICAS DO ENSINAR E APRENDER NA ALFABETIZAÇÃO DE ADULTOS</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>PEREIRA, A. R. <b>Pesquisa de Tradução de Expressões Multipalavra (EM) em corpus do par linguístico português brasileiro-espanhol latino americano</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>PEREIRA, A. R.; FINATTO, M. J. B. ; EVERS, A.. <b>Estudo de expressão multipalavra (EM) em corpus de tradução de português brasileiro e espanhol latino-americano</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>PEREIRA, I. D. M. <b>L4 Mestrado - Igor Daniel Martins Pereira</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>PINCERATI, W. D. <b>O efeito neológico e o neologismo ou paralogismo no dizer de uma mãe psicótica</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>RICHTER, Marcela Wanglon. <b>A proposta do Letramento literário: Projeto Colcha de Retalhos</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>RICHTER, Marcela Wanglon. <b>Mulher, terra e poesia: Catarina Eufemia por Sophia de Mello Breyner Andresen</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>ROCHA, E. L. ; DE OLIVEIRA, E. F.. <b>A DOCÊNCIA COMPARTILHADA NO PROCESSO DE FORMAÇÃO DE EDUCADORES PARA A EDUCAÇÃO DE JOVENS E ADULTOS</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>RODRIGUES, Ana Cristina da S.; SOUZA, S. R. S. A. ; ALANIZ, V. N.. <b>Avaliações em Larga Escala:reflexões sobre o impacto nas práticas pedagógicas e na gestão da escola</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>RODRIGUES, E. R. N. <b>BRINCANDO COM MARIO QUINTANA</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>SCHNEIDER, V. J. <b>Ferdinand de Saussure cem anos depois</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td>SCHNEIDER, V. J. <b>Do acento lituano às entidades concretas da língua</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>75. &nbsp;</td> <td>SCHNEIDER, V. J. <b>Didática do português como língua adicional</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>76. &nbsp;</td> <td>SELAU, Bento; WERLE, F. ; CUNHA, A. P. A.. <b>Mestrados Profissionais e suas interlocuções com a Educação Básica: agentes, meios e práticas</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>77. &nbsp;</td> <td>SIMIONI, LEONOR. <b>Uma investigação sobre a ocorrência de singulares nus no português uruguaio</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>78. &nbsp;</td> <td>STEIN, J. Q. <b>Eu não sou essa escrita aí e, ao mesmo tempo, essa escrita é minha!?: sobre o percurso de constituição de uma tese</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>79. &nbsp;</td> <td>STEIN, J. Q. <b>'Eu não sou essa escrita aí e, ao mesmo tempo, essa escrita é minha!': sobre o percurso de constituição de uma tese</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>80. &nbsp;</td> <td>STOLL, V. G. ; ALVES, S. S.. <b>Educação de Jovens e Adultos: a concepção dos licenciandos de um Curso de Licenciatura em Ciências da Natureza</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>81. &nbsp;</td> <td>TORNQUIST, G ; BORGES, V. P. ; LINO, V. P. J. ; MATZENAUER, C. L. B.. <b>Vogais médias átonas em palavras proparoxítonas na fronteira Brasil-Uruguai</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>82. &nbsp;</td> <td>TORNQUIST, G ; BORGES, V. P. ; MATZENAUER, C. L. B.. <b>Mapeamento da fala na fronteira Brasil-Uruguai: Um estudo preliminar sobre as vogais médias postônicas</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BIANCHI, Paula; HATJE, Marli ; SCHUBERT, Jucélia Medianeira. <b>As tecnologias de informação e comunicação</b>. 0. TICs</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:22:58<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

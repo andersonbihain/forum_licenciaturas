@@ -1,0 +1,651 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Jaguarao</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Jaguarao</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de participação em eventos'}, 
+series: [{data: [[2016,
+93],
+[2017,
+110],
+[2018,
+45]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de participação em eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 249<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>10º Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE). 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>17 MPU - 20° Encontro de Pós-Graduação. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>36º SEURS - Seminário de Extensão Universitária da Região Sul.Galeria Intercultural Magliani: fomento a cultura como desenvolvimento no âmbito acadêmico. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>4ª Jornada de Estudos da Linguagem - 4ª JEL.O ENSINO DE LIBRAS ATRAVÉS DA ESCRITA DE SINAIS NA ESCOLA BÍLINGUE PARA SURDOS. 2018. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>5 The Wolld Conference Remedies to Racial Ethnic Economic Inequality e X Seminário Nacional de Educação das Relações Étnico-Raciaiss Brasileiras.Ensino da Cultura Afro-Brasileira na Formação de Pedagogos/as no Extremo Sul do Brasil. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>BNCC e a Educação Básica. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Ciclo de debates - Mulheres que fazem história.Escrita feminina e historiografia. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Ciclo de debates Mulheres que fazem história: universidade, privilégios e produção de conhecimento. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>CIP 2018 Congreso Iberoamericano de Pedagogia. INGRESO DE URUGUAYOS FRONTERIZOS A LA EDUCACIÓN TERCIARIA BRASILEÑA: DESAFÍOS IMPUESTOS. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>CIP 2018. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Congreso Internacional Investigadores sobre Juventud. Entre o Juvenicidio e a Retração de Políticas Públicas: Reflexões sobre a Mortalidade Juvenil no Contexto Brasileiro. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Forum das Licenciaturas.GT 7 - Tecnologias Digitais para o ensinar-aprender presencial e à distância. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Fórum das licenciaturas UNIPAMPA. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Fórum das Licenciaturas. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>I Bienal do Jogo e Educação.Jogos Pedagógicos: Trilha silábica escondida com dado. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>I Colóquio-conversação Experiências Acontecendo. Pedra, pedra e palavra: algumas palavras e imagens. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>I Encontro de Curricularização da Extensão na Unipampa.. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>I Encontro Nacional das Comissões de Heteroidentificação. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>II CIEPS - Congresso Internacional de Economia Popular e Solidária e Desenvolvimento Local: como trabalhar e produzir na contramão do empreendedorismo?. Os Saberes das Redes de Economia Popular Solidária: Análise do Município de Jaguarão/RS. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>II Encontro de Professores e Tutores UAB/UNIPAMPA. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>II Encontro de Professores e Tutores. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>II Encontro Internacional de Pesquisa em Educação.ENSINO DE CIÊNCIAS NA PERSPECTIVA DA ALFABETIZAÇÃO CIENTÍFICA: PRÁTICA PEDAGÓGICA NO CICLO DE ALFABETIZAÇÃO. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>II Simpósio Nacional Aproximações com o Mundo Juvenil.Juventudes e ações coletivas contemporâneas. 2018. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>III ENPLES - Encontro Nacional de Professores de Libras no Ensino Superior. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>III Seminário Internacional Michel Foucault: por uma vida não fascista.As relações de poder em Foucault: o cuidado em educação e a alfabetização científica. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>III Seminário Nacional dos Movimentos Bilíngues dos Surdos.Participação. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>IV SIIEPE - Semana Integrada de Inovação, Ensino, Pesquisa e Extensão - XX ENPOS - Encontro de Pós-Graduação.Ensino de Ciências, Alfabetização Científica e Prática Pedagógica nos anos iniciais. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Movimento para Implementação da Política Lingüística de Educação Bilíngue no RS. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Reunião Técnica INEP. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Semana de Capacitação dos Docentes EaD 2018.1. 2018. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Semana de Capacitação dos Docentes EaD. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Seminário Final PNAIC Pré-escola e II Seminário LEPI/BH.Relato das formações do eixo Educação Infantil PNAIC/UNIPAMPA. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Seminário Regional UniRede - Região Sul. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>SENACORPOS: Seminário corpos possíveis no Brasil profundo.Escapando do jogo da velha: o lúdico como satisfator sinérgico. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>UNIVERSIDAD 2018 - CONGRESSO INTERNACIONAL DE EDUCAÇÃO SUPERIOR. Alfabetização acadêmica e a formação de professores. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>V Seminário Nacional de Inclusão Digital - SENID 2018.Soluções Assistivas, ampliando o conceito de Tecnologia Assistiva a partir da inserção na Educação e no Mercado de Trabalho de pessoas com deficiência.. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>VIII FÓRUM EaD UNIPAMPA.Etapa Presencial e Virtual. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>X CIDU CONGRESSO IBERO-AMERICANO DE DOCÊNCIA UNIVERSITÁRIA SOBRE ?O ENVOLVIMENTO ESTUDANTIL?. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>X Seminário Brasileiro de Teoria e História da Historiografia.A filosofia da história de Mary Wollstonecraft: reflexões sobre 'Uma visão histórica e moral da Revolução Francesa (1794)'. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>XI Seminário Internacional de Educação Superior. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>XII Colóquio Internacional Educação e Contemporaneidade,.Alfabetização acadêmica: processos de ensinar e aprender. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>XII Colóquio Internacional Educação e Contemporaneidade,.Gestão do ensino superior: desafios e perspectivas em processos de implementação de PDI. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>XII Colóquio Internacional Educação e Contemporaneidade,.Mestrado profissional em educação: limites e possibilidades. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>XIV Encontro Estadual de História.Edições políticas no Rio Grande do Sul nas primeiras décadas da República. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>XIX ENDIPE - Encontro Nacional de Didática e Práticas de Ensino. 2018. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>12º Encontro Gaúcho de Esperanto. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>13º Mundo das Mulheres e Fazendo Gênero 11. Gênero e formação de professores: por uma prática pedagógica crítica e reflexiva, em busca da equidade. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>13º Mundo de Mulheres Fazendo Gênero 11.Coordenação do ST "Mulheres indígenas e conhecimentos: territorialidades, conflitos e agências". 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>1o. Fórum do Núcleo de Estudos Afro-Brasileiros e Indígenas da Unipampa.Montagem do Neabi Jaguarão. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>2017 Edition of the International Association for Media and Communication Research Conference. Rafaela Silva y Carolina Marin. Media representations of Olympic heroines at the Rio 2016 Games. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>20th European Conference on Literacy. Por um ensino de escrita que sirva para viver. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>35º Seminário de extensão universitária da região Sul.O Gênero notícia em sala de aula. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>38ª Reunião da ANPED - Associação Nacional de Pós-Graduação e Pesquisa em Educação. Topias, utopias e projeções de futuro de jovens participantes de coletivos sociais. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>44ª Feira do Livro da Universidade Federal do Rio Grande (FURG). 2017. (Feira).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>6 Foro Iberoamericano sobre Literacidad y Aprendizaje.Por um ensino de escrita que sirva para viver. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>6º Seminário Nacional de Linguística e Ensino de Língua Portuguesa ? SENALLP.EXPERIÊNCIAS DE LEITURA, A FORMAÇÃO DO LEITOR E ESTÁGIOS DE CURSO DE LETRAS. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>8º Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE).Avaliador de resumos submetidos para a Mostra Científica do 8º Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE).. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>9º Salão Internacional de Ensino, Pesquisa e Extensão. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>9º Salão Internacional de Ensino, Pesquisa e Extensão. Avaliadora de apresentações orais. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>9º Salão Internacional de Ensino, Pesquisa e Extensão. Avaliadora de resumos submetidos. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>9º Salão Internacional de Ensino, Pesquisa e Extensão.Economia popular solidária: desafios e possibilidades. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>9º SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>9º Siepe - Salão Internacional de Ensino, Pesquisa e Extensão.Rainhas negras do Clube 24 de Agosto: Identidades e representações de mulheres na fronteira Brasil-Uruguai. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>A Defesa da Educação Pública e a Construção da Sociedade Democrática. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Capacitação PET: produção de unidades didáticas em Língua. 2017. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Conferência Nacional de Libras - CONALI. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>ESUD. UNIPAMPA: primeiros passos rumo à institucionalização. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>FLAA - Feira do livro artesanal e de artista.Mesa redonda: Livros artesanais e de artista. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Fórum das Licenciaturas/ Seminário institucional PIBID - UNIPAMPA. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Gênero e Participação Feminina na África Contemporânea. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>I Encontro Internacional de Pesquisa em Ciências Humanas. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>I Encontro Internacional de Pesquisa em Ciências Humanas.Empreendedores Sociais: fomentando a geração de trabalho e renda. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>I ENCONTRO NACIONAL DE TRADUTORES PÚBLICOS E INTÉRPRETES COMERCIAISES. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>I SAD - A Pesquisa em Análise de Discurso na Região Sul.Mesa-redonda 1: Análise de Discurso, Política e Resistência. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>I Semana Acadêmica de História - Religiões e Religiosidades.Diálogos afroindígena: encontros com xamãs e orixás. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>I Semana Acadêmica de História - Unipampa/Campus Jaguarão.Um diálogo afroindígena: encontros com xamãs e orixás, com Mãe de Nice de Xangô e Darci. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>I Semana Acadêmica de História: Religiões e religiosidades. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>II CONGRESSO JUNGUIANO IJEP. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>II Jornada de Reflexões sobre Ensino de Línguas. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>II Seminário do GT de História Política.Trajetórias intelectuais na Primeira República. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>II Seminário Integrador OBEDUC-PACTO: Formação de professores, leitura e escrita no clico de Alfabetização. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>II Seminário Integrador OBEDUC-PACTO: Formação de professores, leitura e escrita no clico de alfabetização.Ensino de Ciências: alfabetização científica no ciclo de alfabetização. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>III Congresso Internacional de Educação Superior a Distância e XIV Congresso Brasileiro de Ensino Superior a Distância. Permanências na Educação a Distância: Diálogos e Diretrizes. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>III ENCONTRO HUMANÍSTICO MULTIDISCIPLINAR E II CONGRESSO LATINO-AMERICANO EM ESTUDOS HUMANÍSTICOS MULTIDISCIPLINARES. LITERATURA, LINGUAGENS E ARTES. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>III Encontro Humanístico Multidisciplinar/ II Congresso Latino-Americano em Estudos Humanísticos Multidisciplinares.(Re) significando o ensino da língua portuguesa nas escola: os gêneros e a dinâmica das sequências didáticas. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>III Encontro Humanístico Multidisciplinar/ II Congresso Latino-Americano em Estudos Humanísticos Multidisciplinares.Literatura, Linguagens e Artes. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>III Encontro Humanístico Multidisciplinar/ II Congresso Latino-Americano em Estudos Humanísticos Multidisciplinares.Mesa de Abertura: Interculturalidade e Fronteiras: Desafios para a Educação. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>III ENCONTRO INTERNACIONAL - REDES INTELECTUAIS E ESPAÇOS DE FRONTEIRA: ULTRAPASSANDO O ÂMBITO DO ESTADO NAÇÃO..Por um Pensamento de Fronteira - labirintos da crítica na América latina, as fronteiras em que me situo. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>III PROMOVEAD. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>III SIMPÓSIO NACIONAL HISTÓRIA DO CRIME, POLÍCIA E JUSTIÇA CRIMINAL / I ENCONTRO INTERNACIONAL DE HISTÓRIA DO CRIME, DA POLÍCIA E DAS PRÁTICAS DE JUSTIÇA E SUAS FONTES..Prisão: História e Sociedade. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>III SIMPÓSIO NACIONAL HISTÓRIA DO CRIME, POLÍCIA E JUSTIÇA CRIMINAL / I ENCONTRO INTERNACIONAL DE HISTÓRIA DO CRIME, DA POLÍCIA E DAS PRÁTICAS DE JUSTIÇA E SUAS FONTES.Perspectivas transnacionais: crimes e práticas de justiça. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>Internacional Conference of Sign Language Users - SIGN8. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>Internacional Conference of Sign Language Users - SIGN8. Estudo da interpretação com enfase na área da administração: Uma proposta de glossário temático. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>IV Congreso Internacional de Filosofía de la Historia. Mary Wollstonecraft e a história. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>IV Semana Acadêmica do Curso de Pedagogia: A formação docente em contexto de crise.Mal-estar Docente na Cibercultura. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>IV Seminário Brasileiro de Poéticas Orais. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>IV SEMINÁRIO BRASILEIRO DE POÉTICAS ORAIS.A MATEADA ESCOLAR COMO FORMA DE MANUTENÇÃO E DISSEMINAÇÃO DA CULTURA TRADICIONAL GAÚCHA. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>IV Seminário Brasileiro de Poéticas Orais.Ressignificações da literatura oral popular na dramaturgia de Velho Chico. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>IV Seminário Corpos, Gêneros, Sexualidades e Relações Étnico-Raciais na educação: avanços e retrocessos nas práticas sociais e na produção de subjetividades."ATINUKÉ": IDENTIDADES E REPRESENTAÇÕES A PARTIR DO PENSAMENTO DE MULHERES NEGRAS DO SUL DO BRASIL. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>IX Seminário Nacional de Educação das Relações étnico-raciais brasileiras.Enfrentando o racismo na formação de professores: um problema estruturado no município de Jaguarão. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>IX SIGET.Eso te dijeron? nooo! el español coloquial en las clases de español. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>Mestrado Profissional Gestão Educacional: Identidades em Construção"!.CONCEPÇÕES DOCENTES E REFLEXÕES SOBRE A AVALIAÇÃO NA EDUCAÇÃO INFANTIL. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>Pré-Fórum de Estudos Leituras de Paulo Freire: Ações afirmativas, universidade e educação popular.Ações afirmativas, universidade e educação popular. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>Seminário de Desenvolvimento Acadêmico - PUCRS. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>Seminário de Pesquisa: Pesquisa e práticas em discussão. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>Seminário dos Novos Dirigentes.Apresentação da Diretoria de Educação a Distância. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>Seminário Integrador 15 anos do GESE: interlocuções sobre gênero e sexualidade. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>Seminário Nacional de Tecnologias da Educação. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>Symposium on Virtual and Augmented Reality - SVR 2017. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>Symposium on Virtual and Augmented Reality - SVR 2017.Capacitação de Pessoas com Deficiência Intelectual Através do Uso de um Sistema Imersivo. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>V Seminário de Defesa e Garantia de Direitos: Juventudes, Violências e Políticas Públicas. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>V Seminário Internacional de Políticas Públicas da Educação Básica e Superior.AVALIAÇÃO INSTITUCIONAL E PROJETO POLÍTICO-PEDAGÓGICO: REFLEXÕES SOBRE PARTICIPAÇÃO E CONSTRUÇÃO DA IDENTIDADE DA ESCOLA. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>V SIMPÓSIO DO GRUPO DE TRABALHO HISTÓRIA DAS RELIGIÕES E RELIGIOSIDADES - REGIONAL SUL:. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>VI Congresso Internacional de Estudos Linguísticos. Critérios sintáticos para a definição do português uruguaio. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>VI JORNADA DE ESTUDOS CLÁSSICOS DA UNIVERSIDADE FEDERAL DO ESPÍRITO SANTO.Como ser um governante impopular: a Relação de Tibério César Augusto com os Ludi Romani durante o seu Principado. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>VI JORNADAS TREINTAITRESINAS- Las voces de un lugar al Este. Canto y Poesia.A CRIAÇÃO DE UMA UNIVERSIDADE DE FRONTEIRA E A PESQUISA NA ÁREA DA LITERATURA, UMA PERSPECTIVA. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>VI Jornadas Treintaitresinas.La poesía y la canción en el aula como herramientas de creación y reflexión. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>VI Jornadas Treintaitresinas: Las voces de un lugar al Este.o mercado editorial do cordel delineado na trajetória de Manoel Camilo dos Santos. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td>VI Seminário Nacional de Linguística e Ensino de Língua Portuguesa.Pedagogia cartonera: estratégias para o ensino de produção textual. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>75. &nbsp;</td> <td>VII Encontro Internacional do GELIC.A sintaxe do português uruguaio: novos dados, novas análises?. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>76. &nbsp;</td> <td>VII Encontro Internacional do GELIC.Uma investigação sobre as propriedades de sujeito nulo no português de Poblado Uruguay. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>77. &nbsp;</td> <td>VII Fórum EaD UNIPAMPA e I Encontro de Professores e Tutores UAB/UNIPAMPA - Etapa Virtual e Presencial. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>78. &nbsp;</td> <td>VII Fórum EaD Unipampa e I Encontro de Professores e tutores UAB/UNIPAMPA. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>79. &nbsp;</td> <td>VII Fórum EAD UNIPAMPA e I Encontro de Professores e Tutores UAB/UNIPAMPA.?Desafios da Evasão e Permanência na EaD?. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>80. &nbsp;</td> <td>VII Fórum EaD UNIPAMPA e I Encontro de Professores e Tutores UAB/UNIPAMPA.Coordenadora de Workshop - Docência na EaD. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>81. &nbsp;</td> <td>VII Fórum EaD UNIPAMPA e I Encontro de Professores e Tutores UAB/UNIPAMPA.Tira Dúvidas Ambiente Virtual MOODLE e MCONF. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>82. &nbsp;</td> <td>VII Jornada de Elaboração de Materiais, Tecnologia e Aprendizagem de Línguas.Repensando a elaboração de Webquests para a modalidade a distância. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>83. &nbsp;</td> <td>VII Jornadas de Investigación de la Facultad de Humanidades y Ciencias de la Educación.La epistemología saussuriana en un manuscrito de 1894. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>84. &nbsp;</td> <td>VII Jornadas de Investigación de la Facultad de Humanidades y Ciencias de la Educación.Libro cartonero: herramienta cultural y pedagógica. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>85. &nbsp;</td> <td>VIII Jornadas Internacionales de Teoría y Filosofía de la Historia: La utilidad de la historia. O romance histórico e o papel da história: o caso das Legends of the Thirteen Republics de James Fenimore Cooper. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>86. &nbsp;</td> <td>VIII SENALE- Seminário Nacional Linguagem e Ensino. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>87. &nbsp;</td> <td>VIII SENALE- Seminário Nacional Linguagem e Ensino.El registro coloquial en las clases de español: en busca de aportes metodologicos. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>88. &nbsp;</td> <td>XII Seminário Internacional de História da Literatura. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>89. &nbsp;</td> <td>XII Seminário Internacional de História da Literatura.Escritores e modernização no Rio Grande do Sul. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>90. &nbsp;</td> <td>XII Seminário Internacional de História da Literatura.Leituras da história em The Wanderer (1814) de Frances Burney. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>91. &nbsp;</td> <td>XII Seminário Internacional de História da Literatura.O sistema de Even-Zohar para o estudo da literatura. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>92. &nbsp;</td> <td>XII Seminário Internacional de História da Literatura.Satolep em um espelhamento da Comarca Pampiana. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>93. &nbsp;</td> <td>XIV Congresso Brasileiro de Ensino Superior a Distância e III Congresso Internacional de Educação Superior a Distância - Caminhos da Autoria e e Criatividade na EAD. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>94. &nbsp;</td> <td>XIV Congresso Brasileiro de ensino superior a distância e III Congresso Internacional dede educação superior a distância. UNIPAMPA: primeiros passos rumo à institucionalização. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>95. &nbsp;</td> <td>XIV Congresso Brasileiro de Ensino Superior a Distância e o III Congresso Internacional de Educação Superior a Distância. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>96. &nbsp;</td> <td>XIV Congresso Brasileiro de Ensino Superior a Distância e o III Congresso Internacional de Educação Superior a Distância. Educação a Distância: Da Concepção a Execução. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>97. &nbsp;</td> <td>XIX Forum de Estudos-Leituras de Paulo Freire -Reiventando Paulo Freire na atualidade: pedagogias na luta contra opressões.A INICIAÇÃO A DOCÊNCIA SEM MEDOS E COM MUITAS OUSADIAS. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>98. &nbsp;</td> <td>XIX FORUM DE ESTUDOS: LEITURAS DE PAULO FREIRE. O DESAFIO DE ORIENTAR FUTUROS DOCENTES PARA UMA DOCÊNCIA EMANCIPADORA. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>99. &nbsp;</td> <td>XIX Fórum de Estudos: Leituras de Paulo Freire. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>100. &nbsp;</td> <td>XIX Fórum de Estudos: Leituras de Paulo Freire.Articulações Possíveis na Luta Contra as Opressões: Alfabetização de Adultos, Educação Dialógica Freiriana Teorias Bioecológicas do Desenvolvimento Humano no Campus Jaguarão. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>101. &nbsp;</td> <td>XIX FÓRUM DE ESTUDOS: LEITURAS DE PAULO FREIRE.Espaços de aprendizagem além da instituição escolar. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>102. &nbsp;</td> <td>XIX Fórum de Estudos: Leituras de Paulo Freire.Formação de empreendedores sociais em Jaguarão - RS. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>103. &nbsp;</td> <td>XIX Fórum de Estudos: Leituras de Paulo Freire.Iniciação à docência numa perspectiva freiriana e o caráter político na formação inicial e continuada de professores. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>104. &nbsp;</td> <td>XIX FÓRUM DE ESTUDOS: LEITURAS DE PAULO FREIRE.O diálogo como prática no processo de ensinar e aprender. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>105. &nbsp;</td> <td>XVII Jornada Corpolinguagem e IX Encontro Outrarte - a anatomia E o destino. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>106. &nbsp;</td> <td>XX Congresso Brasileiro de Ciências do Esporte e VII Congresso Internacional de Ciências do Esporte. Narrativas histórico-culturais sobre a identidade nacional na abertura dos Jogos Olímpicos Rio/2016: repercussões em portais jornalísticos e no twitter. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>107. &nbsp;</td> <td>XXII Conferência Internacional sobre Informática na Educação. - TISE 2017. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>108. &nbsp;</td> <td>XXII Conferência Internacional sobre Informática na Educação. - TISE 2017.Capacitação de Tutores: Um Projeto Multicampi. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>109. &nbsp;</td> <td>XXII Conferência Internacional sobre Informática na Educação. - TISE 2017.Modelagem do "Sistema Imersivo da Unipampa" Campus Bagé. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>110. &nbsp;</td> <td>XXVIII Simpósio Brasileiro de Política e Administração da Educação.COMPREENDENDO A GESTÃO DEMOCRÁTICA E OS DESAFIOS PARA A FORMAÇÃO DE GESTORES DO MUNICÍPIO DE ALEGRETE/RS. 2017. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1 Fórum de Graduação da Universidade Federal do Pampa. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>27a Semana de Letras da UCS. Ferdinand de Saussure cem anos depois. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>2nd Conference of the International Network for Theory of History - The Practical Past: on the advantages and disavantages of History for life. History, empathy and gender - an analysis of Frances Burney's The Wanderer, Jane Austen's Mansfield Park and Walter Scott's Waverley. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>30a. Reunião Brasileira de Antropologia. Debatedora- GT: Cidades, Turismo e Experiências Urbanas. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>5° Congresso Nacional de Pesquisas em Linguística de Sinais. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>5° Congresso Nacional de Pesquisas em Tradução e Interpretação de Libras e Língua Portuguesa. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>5º GRUPECI - Seminário de Grupos de Pesquisa sobre Crianças e Infâncias.AS crianças bem pequenas na coletividade da Educação Infantil: suas particip(ações) e produções culturais. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>8° SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão.Avaliador. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>VIII Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE). 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>8º Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE).OFICINA DE DANÇAS CIRCULARES: INTEGRAÇÃO E BEM ESTAR NA EDUCAÇÃO. 2016. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>8º Salão Internacional de Ensino, Pesquisa e Extensão.PIBID MODALIDADES DE ENSINO: APRENDENDO A DOCÊNCIA. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>9o Seminário Brasileiro de História da Historiografia.O peso da História: The Wanderer (1814) de Frances Burney. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>A Gestão do Ensino de Línguas no Contexto da Internacionalização da Universidade Federal do Pampa. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Aula Inaugural: Complexidade e dinamicidade na organização gramatical, da área de Estudos da Linguagem. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>CONFITEA BRASIL + 6 - Seminário Internacional de Educação ao Longo da Vida e Balanço Intermediário da VI CONFINTEA no Brasil. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Congresso Regional sobre Tecnologias na Educação - Ctrl+E. Avaliador de Trabalhos. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Encontro de Corais.Encontro de Corais. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>ENTRAD Tradição e Inovação - XII Encontro Nacional de Tradutores e VI Encontro Internacional de Tradutores. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>ENTRAD Tradição e Inovação - XII Encontro Nacional de Tradutores e VI Encontro Internacional de Tradutores.Pesquisa de Tradução de Expressões Multipalavra (EM) em corpus do par linguístico português brasileiro-espanhol latino americano. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Fórum de discussão sobre a disciplina de Libras na formação de professores: que desafios se apresentam após 10 anos da promulgação do Decreto Federal nº 5.626/2005.O que estamos ensinando nas disciplinas de Libras para futuros professores?. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Fórum Sul de Coordenadores de Programas de Pós-Graduação em Educação/FORPRED. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>I CIDI - CONGRESSO INTERNACIONAL DE DIÁLOGOS INTERDISCIPLINARES: CULTURA, COMUNICAÇÃO E DIVERSIDADE NO CONTEXTO CONTEMPORÂN DE DIVERSIDADE CULTURAL E INCLUSÃO SOCIAL.EO. II CONGRESSO DE INDÚSTRIA CRIATIVA. III SEMINÁRIO INTERNACIONAL. ENTRE A MARGEM DIREITA E A ESQUERDA: A LITERATURA E A REPRESENTAÇÃO DO MUNDO NO SILÊNCIO FEMININO. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>I CONGRESO DE INVESTIGACIÓN Y CRÍTICA DE LITERATURA ESPAÑOLA. Las voces resonantes en Don Quijote. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>I Seminário Traduzindo a Tradução: Even-Zohar.A CONTRIBUIÇÃO DE EVEN-ZOHAR PARA A ABORDAGEM DA LITERATURA. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>I Simpósio Aproximações com o Mundo Juvenil.Políticas públicas e a tematização da questão juvenil: desafios e agendas dos Observatórios de Juventude. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>II Congresso Internacional de Linguística e Filologia.O "Yeísmo" na língua espanhol sob a perspectiva da Gramática Harmônica. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>II Congresso Internacional de Linguística e Filologia.O. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>II Congresso Sofie - Filosofia da Educação: entre a formação de educadores e a qualificação profissional. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>II Congresso Sofie - Filosofia da Educação: entre a formação de educadores e a qualificação profissional. Violência simbólica e mediação na formação de licenciaturas. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>II Encontro Humanístico Multidisciplinar e I Congresso Latino-Americano de Estudos Humanísticos Multidisciplinares. Esperanto como língua materna. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>II Encontro Humanístico Multidisciplinar.GT Ensino de línguas e a construção de identidade. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>II Fórum da Comunidade Surda de Alegrete: cidadania e políticas públicas.O uso dos classificadores na Libras. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>II Semana Acadêmica de Ciências Humanas: metodologias para o ensino das Ciências Humanas - uma reflexão sobre a prática docente. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>II Seminário Internacional Michel Foucault. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>III Encontro de Coros.Encontro de Corais. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>III Encontro do Fórum Nacional dos Mestrados Profissionais em Educação. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>III Encontro Internacional de Alfabetização e Educação de Jovens e Adultos. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>III Encontro Internacional de Alfabetização e Educação de Jovens e Adultos.A DOCÊNCIA COMPARTILHADA NO PROCESSO DE FORMAÇÃO DE EDUCADORES PARA A EDUCAÇÃO DE JOVENS E ADULTOS,. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>III Encontro Internacional de Alfabetização e Educação de Jovens e Adultos.PROJETO PORTAL: ANÁLISE DE MATERIAIS E PRÁTICAS DO ENSINAR E APRENDER NA ALFABETIZAÇÃO DE ADULTOS. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>III Encontro Internacional Fronteiras e Identidades.Um ?mercado internacional de trabalho? na fronteira BrasilUruguai-Argentina?. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>III Encontro Nacional de Professores. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>IV Colóquio do PPG em Letras da UFRGS.Das Notas ao Curso: uma leitura da ciência saussuriana. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>IV ENTEC ENCONTRO NACIONAL DE TRABALHADORES EM EDUCAÇÃO E CULTURA.titular das sessões plenárias e trabalhos em grupo. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>IV Seminário Interfaces Pedagógica: Licenciaturas em Diálogo: utopias, tempos e experiências. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>IV Seminário Interfaces Pedagógica: Licenciaturas em Diálogo: utopias, tempos e experiências.Escola e Universidade: utopias, tempos e experiências. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>IV Seminário Interfaces Pedagógica: Licenciaturas em Diálogo: utopias, tempos e experiências.Escola e Universidade: utopias, tempos e experiências. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>IX Fórum Estadual de Educação de Surdos - FEES. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>IX Fórum Estadual de Educação de Surdos - FEES.Educação. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>IX Fórum Estadual de Educação de Surdos - FEES: Educação escolar bilíngue para surdos: o que temos produzido?. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>IX Seminário de ensino de línguas estrangeiras (SELES).Elaborando materiais para cursos de graduação em letras na modalidade a distância: reflexões teórico-metodológicas. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>IX Simpósio Nacional de Educação e III Colóquio Internacional de P. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>IX Simpósio Nacional de Educação e III Colóquio Internacional de Políticas Educacionais e Formação de Professores.Coordenação do GT - Mestrados Profissionais em Educação: Desafios, possibilidades e contribuições à formação continuada de professores da Educação Básica. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>IX Workshop: Quarentenário da ausência-presença de Émile Benveniste,. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>IX Workshop: Quarentenário da ausência-presença de Émile Benveniste,.Émile Benveniste e o Projeto de uma Ciência Geral do Homem.. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>Jaguararte.Canto Coral. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>Mostra Científica do 8º Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE)..Avaliação de trabalhos. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>Os clássicos infantis juvenis e suas leituras contemporâneas.Os clássicos infantis juvenis e suas leituras contemporâneas. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>Salão Universitário 2016. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>Semana acadêmica - Letras UFPel.Minicurso - O letramento digital e o uso das tecnologias no processo de ensino e aprendizagem de línguas. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>Semana Acadêmica de Letras. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>Seminario Internacional III Encuentro GENIND: La Generación in.Otoño brasileño: la participación de jóvenes en las movilizaciones de 2013 en Porto Alegre. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>Simposio Internacional Lenguajes, Identidades, Corpo (reidades) y cy culturas fronterizas.A identidade fronteiriça em dois momentos: da imersão forçada à estrangeiridade reconehcida. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>Simposio Internacional Lenguajes, Identidades, Corpo(reidades) y Culturas Fronterizas vv.Por um ensino de espanhol histórico e culturalmente situado: aportes do Grupo Modernidad/ Colonialidad. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>Simpósio Internacional de linguagens, identidades, corpo(reidades) e culturas fronteiriças.Identidade intercultural em formação. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>V Colóquio Internacional IHU - VII Colóquio Cátedra Unesco. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>V Colóquio Internacional IHU - VII Colóquio Cátedra Unesco.Diálogo hermenêutico na sociedade biopolítica: encontrar o outro na formação de professores. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>V Congreso de la Asociación Española de Investigación de la Comunicación, Congreso Iberoamericano de Comunicación, Cultura y Cooperación. Analisis comparativo del tratamiento televisivo de la ceremonia de clausura de la Copa de Mundo FIFA Brasil 2014. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>V Jornadas Treintaitresinas.A fronteira como cenário de cantos e contos. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>V Semana Acadêmcia de Letras - UNIPAMPA Jaguarão. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>V Semana Acadêmica de Letras Pluriversidade: com que saberes lidam as Letras?.Mediadora - Un espacio de bilingüísmo en la clase de lengua extranjera. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>V Semana Acadêmica de Letras. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>V Semana Acadêmica de Letras.Oficina de Libras. 2016. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>VI Jornada de Elaboração de Materiais, Tecnologia e Aprendizagem de Línguas 9JETAL).Invertendo a sala de aula no ensino superior: contribuições das TDIC e da Aprendizagem Baseada na Resolução de Problemas. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td>VII Congresso Mundial de Estilos de Aprendizagem. Curso de licenciatura em Letras na modalidade a distância: pioneirismo na Unipampa/ Brasil/RS. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>75. &nbsp;</td> <td>VIII Congresso Sulbrasileiro de Ciências do Esporte. Mídia, estilo de vida saudável e idosos: a percepção docente. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>76. &nbsp;</td> <td>VIII Congresso Sulbrasileiro de Ciências do Esporte. Mídia, estilo de vida saudável e idosos: percepção docente.. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>77. &nbsp;</td> <td>VIII Seminário Integrado de Pesquisas em Linguística. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>78. &nbsp;</td> <td>VIII SENALE. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>79. &nbsp;</td> <td>XI Anped Sul - Reunião Científica Regional da Anped. Os desafios da formação docente no contexto da inclusão digital: análise de práticas pedagógicas. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>80. &nbsp;</td> <td>XI ANPED SUL - XI Reunião Científica Regional da Associação Nacional de Pesquisa e Pós-Graduação.A participação social social de jovens e a construção de suas identidades. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>81. &nbsp;</td> <td>XI CONSIPLE. Vivências pedagógicas interculturais em região de fronteira. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>82. &nbsp;</td> <td>XI Reunião Científica Regional da ANPEd Sul. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>83. &nbsp;</td> <td>XII Círculo de Estudos Linguísticos do Sul. Do acento lituano às entidades concretas da língua. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>84. &nbsp;</td> <td>XII Encontro do Celsul. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>85. &nbsp;</td> <td>XII Encontro do Celsul.Painel: Processamento da linguagem: desdobramentos e perspectivas. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>86. &nbsp;</td> <td>XII Encontro do Celsul.Uma investigação sobre a ocorrência de singulares nus no português uruguaio. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>87. &nbsp;</td> <td>XII Encontro do Círculo de Estudos Linguísticos do Sul.Do acento lituano às entidades concretas da língua. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>88. &nbsp;</td> <td>XIII Encontro Estadual de História.Jane Austen e a despolitização do romance setecentista: Mansfield Park (1814). 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>89. &nbsp;</td> <td>XVIII ENDIPE.AVALIAÇÕES EM LARGA ESCALA: REFLEXÕES SOBRE O IMPACTO NAS PRÁTICAS PEDAGÓGICAS E NA GESTÃO DA ESCOLA. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>90. &nbsp;</td> <td>XVIII FORUM DE ESTUDOS: LEITURAS DE PAULO FREIRE FRONTEIRAS FREIRIANAS: DIÁLOGOS E TRAJETÓRIAS.EDUCAÇÃO INTEGRAL COMO POSSIBILIDADE DE ERRADICAÇÃO DO TRABALHO INFANTIL NA CULTURA DO TABACO. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>91. &nbsp;</td> <td>XX congresso Nacional de Linguística e Filologia. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>92. &nbsp;</td> <td>XXII QUALIEDUC - Valorização do Profissional da Educação.Coordenador de Grupo. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>93. &nbsp;</td> <td>XXXI ENANPOLL.Narrativas orais na região fronteiriça do extremo sul do Brasil. 2016. (Encontro).</td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>VII Seminário Nacional Diálogos com Paulo Freire.A Descoberta do Povo em Paulo Freire: saberes em luta na contrução da consci6encia. 2103. (Seminário).</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:22:58<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

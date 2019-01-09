@@ -1,0 +1,191 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Jaguarao</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Jaguarao</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Textos em jornais de notícias/revistas'}, 
+series: [{data: [[2016,
+4],
+[2017,
+2],
+[2018,
+2]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Textos em jornais de notícias/revistas</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 19<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>HAMMES, L. J. <b>Ser cidadão em tempo de crise</b>. Integração: Revista diocesana de Santa Cruz do Sul, Santa Cruz do Sul, RS, p. 24-24, 01 jul. 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Ser+cidadão+em+tempo+de+crise&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Ser+cidadão+em+tempo+de+crise">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Ser+cidadão+em+tempo+de+crise">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>SILVEIRA, C. D. M. <b>150 anos do Partenon Literário: o legado histórico de uma sociedade</b>. Correio do Povo, Porto Alegre, p. 2-2, 16 jun. 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=150+anos+do+Partenon+Literário:+o+legado+histórico+de+uma+sociedade&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=150+anos+do+Partenon+Literário:+o+legado+histórico+de+uma+sociedade">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=150+anos+do+Partenon+Literário:+o+legado+histórico+de+uma+sociedade">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CARATTI, J. M. <b>História do Esporte e o Papel da Imprensa</b>. Correio do Povo, Porto Alegre, p. 2-2, 08 fev. 2017. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=História+do+Esporte+e+o+Papel+da+Imprensa&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=História+do+Esporte+e+o+Papel+da+Imprensa">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=História+do+Esporte+e+o+Papel+da+Imprensa">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>HAMMES, LUCIO JORGE. <b>A cidadania requer maturidade intelectual e militância</b>. Jornal integração, Santa Cruz do Sul, p. 19-19, 06 out. 2017. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+cidadania+requer+maturidade+intelectual+e+militância&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+cidadania+requer+maturidade+intelectual+e+militância">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+cidadania+requer+maturidade+intelectual+e+militância">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CARATTI, J. M. <b>Porto Alegre Esportiva</b>. Zero Hora, p. 24-25, 07 jul. 2016. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Porto+Alegre+Esportiva&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Porto+Alegre+Esportiva">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Porto+Alegre+Esportiva">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CARATTI, J. M. <b>Para debaixo do tapete</b>. Zero Hora, Porto Alegre, p. 22-22, 02 maio 2016. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Para+debaixo+do+tapete&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Para+debaixo+do+tapete">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Para+debaixo+do+tapete">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>HAMMES, L. J. <b>Educação em tempos de crise</b>. Integração, Santa Cruz do Sul, p. 19-19, 01 jul. 2016. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educação+em+tempos+de+crise&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educação+em+tempos+de+crise">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educação+em+tempos+de+crise">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>HAMMES, L. J. <b>Por uma cidadania paaticipativa</b>. Jornal Integração, p. 19-19, 01 mar. 2016. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Por+uma+cidadania+paaticipativa&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Por+uma+cidadania+paaticipativa">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Por+uma+cidadania+paaticipativa">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ARANDA, S. M.; AVILA, I. S. ; XAVIER, M. L.. <b>Plano de atenção à infância: objetivos e metas na área pedagógica</b>. Cadernos de Educação Infantil, Porto Alegre, p. 25-38, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Plano+de+atenção+à+infância:+objetivos+e+metas+na+área+pedagógica&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Plano+de+atenção+à+infância:+objetivos+e+metas+na+área+pedagógica">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Plano+de+atenção+à+infância:+objetivos+e+metas+na+área+pedagógica">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BOESSIO, A. L. M. <b>O Papel do professor na educacão</b>. O CONTEXTO, Carlos Barbosa / RS, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+Papel+do+professor+na+educacão&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+Papel+do+professor+na+educacão">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+Papel+do+professor+na+educacão">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BOESSIO, A. L. M. <b>A importancia do ensino de lingua italiana nas escolas publicas</b>. O CONTEXTO, CARLOS BARBOSA / RS, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+importancia+do+ensino+de+lingua+italiana+nas+escolas+publicas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+importancia+do+ensino+de+lingua+italiana+nas+escolas+publicas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+importancia+do+ensino+de+lingua+italiana+nas+escolas+publicas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ESCOBAR, G. V. <b>Sociedade 13 de Maio: Patrimônio Negro de Santa Maria</b>. Conexão Negra - Política, Economia e Cultura - Ano I - Nº 02 - jan/fev/mar 2003, Porto Alegre, p. 26-26, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Sociedade+13+de+Maio:+Patrimônio+Negro+de+Santa+Maria&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Sociedade+13+de+Maio:+Patrimônio+Negro+de+Santa+Maria">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Sociedade+13+de+Maio:+Patrimônio+Negro+de+Santa+Maria">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>ESCOBAR, G. V. <b>Afro-brasileiros: A Sociedade Cultural Ferroviária 13 de Maio</b>. Memória e Etnicidade, Santa Maria - NEP-UFSM, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Afro-brasileiros:+A+Sociedade+Cultural+Ferroviária+13+de+Maio&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Afro-brasileiros:+A+Sociedade+Cultural+Ferroviária+13+de+Maio">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Afro-brasileiros:+A+Sociedade+Cultural+Ferroviária+13+de+Maio">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>ESCOBAR, G. V. <b>Um Museu Afro-Brasileiro em Santa Maria?</b>. A Razão do Leitor, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Um+Museu+Afro-Brasileiro+em+Santa+Maria?&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Um+Museu+Afro-Brasileiro+em+Santa+Maria?">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Um+Museu+Afro-Brasileiro+em+Santa+Maria?">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>MACHADO, Sátira P.; CHAVES, Leslie S.. <b>Boletim "Gênero e Raça no Mundo do Trabalho" - Nº 01</b>. Boletim "Gênero e Raça no Mundo do Trabalho" - Nº 01, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Boletim+"Gênero+e+Raça+no+Mundo+do+Trabalho"+-+Nº+01&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Boletim+"Gênero+e+Raça+no+Mundo+do+Trabalho"+-+Nº+01">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Boletim+"Gênero+e+Raça+no+Mundo+do+Trabalho"+-+Nº+01">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>MACHADO, Sátira P.; CHAVES, Leslie S.. <b>Boletim "Gênero e Raça no Mundo do Trabalho" - Nº 03</b>. Boletim "Gênero e Raça no Mundo do Trabalho" - Nº 03, Brasília, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Boletim+"Gênero+e+Raça+no+Mundo+do+Trabalho"+-+Nº+03&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Boletim+"Gênero+e+Raça+no+Mundo+do+Trabalho"+-+Nº+03">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Boletim+"Gênero+e+Raça+no+Mundo+do+Trabalho"+-+Nº+03">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MACHADO, Sátira P.; CHAVES, Leslie S.. <b>Boletim "Gênero e Raça no Mundo do Trabalho" - Nº 02</b>. Boletim "Gênero e Raça no Mundo do Trabalho" - Nº 02, Brasília, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Boletim+"Gênero+e+Raça+no+Mundo+do+Trabalho"+-+Nº+02&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Boletim+"Gênero+e+Raça+no+Mundo+do+Trabalho"+-+Nº+02">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Boletim+"Gênero+e+Raça+no+Mundo+do+Trabalho"+-+Nº+02">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>NEHRING, Catia Maria ; DALABRIDA, L. ; POZZOBON, M. C. C.. <b>A formação de educadores matemáticos - temática de pesquisas</b>. Revista informação (Ijuí), Ijuí, p. 16-17, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+formação+de+educadores+matemáticos+-+temática+de+pesquisas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+formação+de+educadores+matemáticos+-+temática+de+pesquisas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+formação+de+educadores+matemáticos+-+temática+de+pesquisas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>PEREIRA, Rachel Freitas. <b>Dança para a terceira idade</b>. Núcleo Universitário da Terceira Idade - Programa de lazer, educação e cultura para idosos da comunidade do Rio Grande, Rio Grande, p. 07-07, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Dança+para+a+terceira+idade&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Dança+para+a+terceira+idade">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Dança+para+a+terceira+idade">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:22:58<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
