@@ -1,0 +1,189 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Uruguaiana</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Uruguaiana</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Textos em jornais de notícias/revistas'}, 
+series: [{data: [[2016,
+3]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Textos em jornais de notícias/revistas</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 20<br>
+                    
+                    
+                    <div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CARVALHO, M. A. L. ; BANDEIRA, M. A. ; Oaigen, R.P.. <b>Benchmarking na bovinocultura de corte- Parte III</b>. Boletim da Pecuária, p. 1-8, 09 nov. 2016. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Benchmarking+na+bovinocultura+de+corte-+Parte+III&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Benchmarking+na+bovinocultura+de+corte-+Parte+III">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Benchmarking+na+bovinocultura+de+corte-+Parte+III">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Oaigen, R.P.; CARVALHO, M. A. L. ; BANDEIRA, M. A.. <b>Benchmarking na bovinocultura de corte ? Parte 2</b>. Boletim da Pecuária, p. 1-8, 03 ago. 2016. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Benchmarking+na+bovinocultura+de+corte+?+Parte+2&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Benchmarking+na+bovinocultura+de+corte+?+Parte+2">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Benchmarking+na+bovinocultura+de+corte+?+Parte+2">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Oaigen, R.P.; CARVALHO, M. A. L. ; BANDEIRA, M. A.. <b>Benchmarking na bovinocultura de corte ? Parte 1</b>. Boletim da Pecuária, p. 1-8, 04 abr. 2016. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Benchmarking+na+bovinocultura+de+corte+?+Parte+1&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Benchmarking+na+bovinocultura+de+corte+?+Parte+1">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Benchmarking+na+bovinocultura+de+corte+?+Parte+1">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Barcellos, Júlio Otávio Jardim ; OAIGEN, Ricardo Pedroso. <b>O médico veterinário no agronegócio</b>. REVISTA DO CONSELHO FEDERAL DE MEDICINA VETERINARIA, p. 51-52, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+médico+veterinário+no+agronegócio&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+médico+veterinário+no+agronegócio">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+médico+veterinário+no+agronegócio">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Barcellos, Júlio Otávio Jardim ; RIBEIRO FILHO, C. H. A. ; ARAUJO, R. B. ; REGO, G. M. C. P. ; OAIGEN, Ricardo Pedroso. <b>Da visibilidade social à participação representativa</b>. REVISTA DO CONSELHO FEDERAL DE MEDICINA VETERINARIA, p. 12-13, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Da+visibilidade+social+à+participação+representativa&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Da+visibilidade+social+à+participação+representativa">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Da+visibilidade+social+à+participação+representativa">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>GLOCK RS. <b>O Beit Chabad Porto Alegre - Jornal da Federação Israelita do Rio Grande do Sul</b>. Jornal da Federação Israelita do Rio Grande do Sul, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+Beit+Chabad+Porto+Alegre+-+Jornal+da+Federação+Israelita+do+Rio+Grande+do+Sul&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+Beit+Chabad+Porto+Alegre+-+Jornal+da+Federação+Israelita+do+Rio+Grande+do+Sul">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+Beit+Chabad+Porto+Alegre+-+Jornal+da+Federação+Israelita+do+Rio+Grande+do+Sul">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>GLOCK RS. <b>Entrevistada sobre Ética em Pesquisa - Canal de Biotecnologia do Portal Terra</b>. Canal de Biotecnologia do Portal Terra, internet, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Entrevistada+sobre+Ética+em+Pesquisa+-+Canal+de+Biotecnologia+do+Portal+Terra&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Entrevistada+sobre+Ética+em+Pesquisa+-+Canal+de+Biotecnologia+do+Portal+Terra">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Entrevistada+sobre+Ética+em+Pesquisa+-+Canal+de+Biotecnologia+do+Portal+Terra">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>GLOCK RS. <b>Jornal Ibiá, da cidade de Montenegro - entrevistada sobre Bioética e Ética Profissional</b>. Jornal Ibiá, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Jornal+Ibiá,+da+cidade+de+Montenegro+-+entrevistada+sobre+Bioética+e+Ética+Profissional&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Jornal+Ibiá,+da+cidade+de+Montenegro+-+entrevistada+sobre+Bioética+e+Ética+Profissional">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Jornal+Ibiá,+da+cidade+de+Montenegro+-+entrevistada+sobre+Bioética+e+Ética+Profissional">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>GLOCK RS. <b>Entrevistada sobre Pesquisa na área de Recursos Humanos - Revista PUCRS Informação</b>. Revista PUCRS Informação novembro/dezembro 2004, PUCRS Porto Alegre, , v. 122, p. 12, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Entrevistada+sobre+Pesquisa+na+área+de+Recursos+Humanos+-+Revista+PUCRS+Informação&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Entrevistada+sobre+Pesquisa+na+área+de+Recursos+Humanos+-+Revista+PUCRS+Informação">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Entrevistada+sobre+Pesquisa+na+área+de+Recursos+Humanos+-+Revista+PUCRS+Informação">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>GLOCK RS. <b>Vento (poesia)</b>. Revista Ensaio, UFSM, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Vento+(poesia)&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Vento+(poesia)">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Vento+(poesia)">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>GLOCK RS. <b>Diluir (poesia)</b>. Revista Ensaio, UFSM, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Diluir+(poesia)&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Diluir+(poesia)">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Diluir+(poesia)">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MAIA, J. T. S. ; Oaigen, Ricardo Pedroso ; DOMINGUES, F.N. ; BARROS, J. E. A. ; GONCALVES, T. L.. <b>Experimento no norte do Brasil apresenta bons resultados com animais cruzados com Charolês</b>. Charolês, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Experimento+no+norte+do+Brasil+apresenta+bons+resultados+com+animais+cruzados+com+Charolês&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Experimento+no+norte+do+Brasil+apresenta+bons+resultados+com+animais+cruzados+com+Charolês">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Experimento+no+norte+do+Brasil+apresenta+bons+resultados+com+animais+cruzados+com+Charolês">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MELLO, Elena Mª Billig. <b>Educação e as Transformações no Mundo do Trabalho. Concurso do Magistério - Conhecimentos Gerais e Pedagógicos, 19 jun</b>. 2201, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educação+e+as+Transformações+no+Mundo+do+Trabalho.+Concurso+do+Magistério+-+Conhecimentos+Gerais+e+Pedagógicos,+19+jun&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educação+e+as+Transformações+no+Mundo+do+Trabalho.+Concurso+do+Magistério+-+Conhecimentos+Gerais+e+Pedagógicos,+19+jun">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educação+e+as+Transformações+no+Mundo+do+Trabalho.+Concurso+do+Magistério+-+Conhecimentos+Gerais+e+Pedagógicos,+19+jun">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>MELLO, Elena Mª Billig; CARVALHO, Cláudia Regina Rodrigues de ; MELLO, Reynaldo Irapuã de Camargo. <b>Educação e Desenvolvimento Sustentável. Concurso do Magistério - Conhecimentos Gerais e Pedagógicos, 19 jun</b>. 2201, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educação+e+Desenvolvimento+Sustentável.+Concurso+do+Magistério+-+Conhecimentos+Gerais+e+Pedagógicos,+19+jun&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educação+e+Desenvolvimento+Sustentável.+Concurso+do+Magistério+-+Conhecimentos+Gerais+e+Pedagógicos,+19+jun">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educação+e+Desenvolvimento+Sustentável.+Concurso+do+Magistério+-+Conhecimentos+Gerais+e+Pedagógicos,+19+jun">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>MELLO, Elena Mª Billig; CARVALHO, Cláudia Regina Rodrigues de ; MELLO, Reynaldo Irapuã de Camargo. <b>Educação Para o Trabalho: Uma Visão Dialética. Concurso do Magistério - Conhecimentos Gerais e Pedagógicos, 19 jun</b>. 2201, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educação+Para+o+Trabalho:+Uma+Visão+Dialética.+Concurso+do+Magistério+-+Conhecimentos+Gerais+e+Pedagógicos,+19+jun&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educação+Para+o+Trabalho:+Uma+Visão+Dialética.+Concurso+do+Magistério+-+Conhecimentos+Gerais+e+Pedagógicos,+19+jun">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educação+Para+o+Trabalho:+Uma+Visão+Dialética.+Concurso+do+Magistério+-+Conhecimentos+Gerais+e+Pedagógicos,+19+jun">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>OAIGEN, Ricardo Pedroso. <b>Controle dos Custos de Produção: Um Requisito Básico para o Pecuarista!</b>. Informativo FEFA-RO, Ji-Paraná/RO, p. 4-4, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Controle+dos+Custos+de+Produção:+Um+Requisito+Básico+para+o+Pecuarista!&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Controle+dos+Custos+de+Produção:+Um+Requisito+Básico+para+o+Pecuarista!">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Controle+dos+Custos+de+Produção:+Um+Requisito+Básico+para+o+Pecuarista!">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>OAIGEN, Ricardo Pedroso; BARCELLOS, Júlio Otávio Jardim. <b>Como ser competitivo na bovinocultura de corte? - parte 1</b>. Angus@news, Porto Alegre, p. 68-68, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Como+ser+competitivo+na+bovinocultura+de+corte?+-+parte+1&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Como+ser+competitivo+na+bovinocultura+de+corte?+-+parte+1">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Como+ser+competitivo+na+bovinocultura+de+corte?+-+parte+1">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>OAIGEN, Ricardo Pedroso; BARCELLOS, Júlio Otávio Jardim. <b>Como ser competitivo na bovinocultura de corte? - parte 2</b>. Angus@news, Porto Alegre, p. 61-61, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Como+ser+competitivo+na+bovinocultura+de+corte?+-+parte+2&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Como+ser+competitivo+na+bovinocultura+de+corte?+-+parte+2">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Como+ser+competitivo+na+bovinocultura+de+corte?+-+parte+2">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>OAIGEN, Ricardo Pedroso; BARCELLOS, Júlio Otávio Jardim. <b>Como ser competitivo na bovinocultura de corte? - parte Final</b>. Angus@news, Porto Alegre, p. 69-69, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Como+ser+competitivo+na+bovinocultura+de+corte?+-+parte+Final&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Como+ser+competitivo+na+bovinocultura+de+corte?+-+parte+Final">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Como+ser+competitivo+na+bovinocultura+de+corte?+-+parte+Final">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>OAIGEN, Ricardo Pedroso; GRECELLÉ, Roberto Andrade ; JACONI JUNIOR, I. ; SOUZA, R. M.. <b>Alternativas de suplementação para a época da seca</b>. Informativo FEFA-RO, Ji-Paraná/RO, .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Alternativas+de+suplementação+para+a+época+da+seca&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Alternativas+de+suplementação+para+a+época+da+seca">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Alternativas+de+suplementação+para+a+época+da+seca">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:24:59<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

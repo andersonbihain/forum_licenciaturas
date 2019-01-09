@@ -1,0 +1,209 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Uruguaiana</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Uruguaiana</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Tese de doutorado'}, 
+series: [{data: [[2016,
+6],
+[2017,
+6],
+[2018,
+16]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Tese de doutorado</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 28<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4578163028362070">Alex Sandro Gomes Leão</a>. <b>O paradoxo da formação inicial e continuada e a práxis docente</b>. Tese (Doutorado em Educação em Ciências: Química da Vida e Saúde) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2760002240063004">Edward Frederico Castro Pessano</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Anderson da Silva Rosa. <b>O papel do ensino de química como ferramenta para formação do indivíduo em países do Mercosul.</b>. Tese (Doutorado em ​Educação em Ciências: Química da Vida e Saúde) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8589016214620796">Carla Denize Ott Felcher</a>. <b>A Influência da Formação Inicial Perpassada por Tecnologias Digitais no Ensino de Matemática</b>. Tese (Doutorado em Educação em Ciências Quìmica da Vida e Saúde ( Ufsm - Furg)) - Universidade Federal do Rio Grande do Sul, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2756461468265473">Cátia Silene Carrazoni Lopes Viçosa</a>. <b>Investigações acerca de ações transversais em escolas do Brasil, Uruguai e Argentina</b>. Tese (Doutorado em Educação em Ciências: Química da Vida e Saúde) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2116886336140986">Daniele Missio</a>. <b>Estresse metabólico em bovinos: efeito em folículo - fase inicial</b>. Tese (Doutorado em Medicina Veterinária) - Universidade Federal de Santa Maria, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5837260966665885">Paulo Bayard Dias Goncalves</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6368415632816463">Fernanda Almeida Fettermann</a>. <b>Análise do processo de ensino e aprendizagem na Educação a Distância</b>. Tese (Doutorado em Educação em Ciências Quìmica da Vida e Saúde ( Ufsm - Furg)) - Universidade Federal do Rio Grande do Sul, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Francieli Martins Chibiaque. <b>Os Estágios Curriculares Supervisionados dos cursos de Licenciatura em Química da região Sul do Brasil</b>. Tese (Doutorado em Educação em Ciências: Química da Vida e Saúde) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2760002240063004">Edward Frederico Castro Pessano</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6238617006920336">Gustavo Griebler</a>. <b>Reconfigurando e ressignificando a avaliação do aprendizado escolar com as tecnologias da informação e da comunicação</b>. Tese (Doutorado em ​Educação em Ciências: Química da Vida e Saúde) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Karina Braccini Pereira. <b>A Formaçao em Educaçao Ambiental de Licenciandos do Curso de Graduaçao em Ciencias da Natureza</b>. Tese (Doutorado em Educação em Ciências: Química da Vida e Saúde) - Universidade Federal do Pampa. (Coorientador)., . In&iacute;cio: 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/2760002240063004">Edward Frederico Castro Pessano</a>, <a href="http://lattes.cnpq.br/0473681435809042">Ailton Jesus Dinardi</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8200767495769266">Karine Josibel Velasques Stoelben</a>. <b>Efeitos de treinamento de potência sobre fatores de risco para lesão de joelho</b>. Tese (Doutorado em Ciências Fisiológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6246849412827476">LUIS ROBERVAL BORTOLUZZI CASTRO</a>. <b>O BIOMA PAMPA COMO TEMA CONTEXTUALIZADOR INTEGRADOR: CONTRIBUINDO COM ESTRATÉGIAS EDUCACIONAIS</b>. Tese (Doutorado em Educação em Ciências: Química da Vida e Saúde) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2760002240063004">Edward Frederico Castro Pessano</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2197977431350181">Marcelo Gomes de Gomes</a>. <b>Efeito do tratamento crônico com o ácido graxo poliinsaturado ômega-3 e gordura vegetal hidrogenada em um modelo de comportamento doentio: influência da via da quinurenina nas alterações neurocomportamentais</b>. Tese (Doutorado em BIOQUÍMICA) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1134532326779900">Robson Luiz Puntel</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Renata Giacomelli. <b>Potencial biológico de Nanoparticulas contendo curcumina</b>. Tese (Doutorado em BIOQUÍMICA) - Universidade Federal do Pampa. (Coorientador)., . In&iacute;cio: 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3386254513964221">Rhenan Ferraz de Jesus</a>. <b>O emprego de distintas Metodologias ativas no processo de ensino e de aprendizagem: pensando a promoção da Literacia em saúde no Ensino Fundamental</b>. Tese (Doutorado em Educação em Ciências Quìmica da Vida e Saúde ( Ufsm - Furg)) - Universidade Federal do Rio Grande do Sul, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Zigomar da Silva. <b>Não definida</b>. Tese (Doutorado em Medicina Veterinária) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador).. In&iacute;cio: 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/5837260966665885">Paulo Bayard Dias Goncalves</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2558699485502251">Álvaro Sosa Machado</a>. <b>Estudo de fatores influenciadores da dor e seus efeitos no controle motor</b>. Tese (Doutorado em Doutorado em Bioquímica) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1241523269166055">Bruna Piaia Ramborger</a>. <b>Avaliação da influência das condições biótica e abióticas no óleo de plectranthus neochilus</b>. Tese (Doutorado em BIOQUÍMICA) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Fernanda Nascimento da Silva. <b>LGBTs e mídia: recepção e produção de identidades</b>. Tese (Doutorado em Doutorado Interdisciplinar em Ciências Humanas) - Universidade Federal de Santa Catarina. (Coorientador)., . In&iacute;cio: 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9365069870272242">Alinne de Lima Bonetti</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3868528104536319">João Ricardo Malheiros de Souza</a>. <b>A definir</b>. Tese (Doutorado em Medicina Veterinária) - Universidade Federal de Santa Maria, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5837260966665885">Paulo Bayard Dias Goncalves</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0316035030727687">Marcos Roberto Kunzler</a>. <b>Efeito agudo do exercício físico em diferentes horas do dia sobre a função neuromuscular e cognitiva</b>. Tese (Doutorado em Ciências Fisiológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3538301304445412">Márcio Tavares Costa</a>. <b>Avaliação do potencial toxicológico, antioxidante e antiofídico do extrato hidroalcoólico da casca do Ipê-amarelo) frente ao veneno da serpente Philodryas patagoniensis</b>. Tese (Doutorado em BIOQUÍMICA) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2700251432167121">Renato Ribeiro Azevedo</a>. <b>Influência de características neuromusculares, bioquímicas e neuromecânicas sobre a percepção subjetiva de esforço de atletas de endurance</b>. Tese (Doutorado em Ciências Fisiológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4273636582098573">Eloá Ferreira Yamada</a>. <b>Laser de Baixa Potência e Sida Tuberculata na Osteoartrite de Joelho</b>. Tese (Doutorado em BIOQUÍMICA) - Universidade Federal do Pampa. (Coorientador)., . In&iacute;cio: 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3739454180438348">Filippo Cogo Mendes</a>. <b>Reconhecimento materno da gestação em bovinos</b>. Tese (Doutorado em Medicina Veterinária) - Universidade Federal de Santa Maria, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5837260966665885">Paulo Bayard Dias Goncalves</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1742001049196835">José Luiz Ribeiro Portela</a>. <b>Avaliação do efeito protetor da Ilex paraguariensis frente a toxicidade induzida por ácido malônico e metil-malônico em Drosophila melanogaster</b>. Tese (Doutorado em BIOQUÍMICA) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1134532326779900">Robson Luiz Puntel</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7452840783938989">Juliana Germano Ferst</a>. <b>Em fase inicial do doutorado</b>. Tese (Doutorado em Medicina Veterinária) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5837260966665885">Paulo Bayard Dias Goncalves</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Luciana Uchôa Barbosa. <b>Educação sexual como tema gerador para uma pratica pedagógica a partir da metodologia da problematização</b>. Tese (Doutorado em Educação em Ciências Quìmica da Vida e Saúde ( Ufsm - Furg)) - Universidade Federal do Rio Grande do Sul, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8127782966998097">Marlise da Silveira Grecco</a>. <b>A Educação Ambiental e seu diagnóstico na escola</b>. Tese (Doutorado em PPG Educação em Ciências, Química da Vida e Saúde) - Universidade Federal de Santa Maria, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2760002240063004">Edward Frederico Castro Pessano</a>.</font></i></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:24:59<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

@@ -1,0 +1,379 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Uruguaiana</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Uruguaiana</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Apresentações de trabalho'}, 
+series: [{data: [[2016,
+51],
+[2017,
+42],
+[2018,
+19]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Apresentações de trabalho</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 113<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BONETTI, A. L. <b>Academic feminism and anthropology in Brazil: mapping the constitution of brazilian feminist anthropology</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BONETTI, A. L. <b>Feminismo acadêmico no Brasil: militância epistemológica e transformação social</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CARDOSO, F. S. S. ; SALOMÃO DE FREITAS, Diana Paula ; MELLO, Elena Mª Billig ; TERRA, G. G.. <b>ELEMENTOS DE INOVAÇÃO PEDAGÓGICA EM CURSOS DE GRADUAÇÃO</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Delarcina Jr, S. ; PAULA, F. R.. <b>Chair palestra: Integrity - Acelerando a pesquisa em fármacos</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>ENDERLE, J. ; SOARES, J. J. ; SOUZA, L. B. ; BIANCHINI, M. C. ; ROEHRS, R. ; DENARDIN, E.L.G.. <b>C Nutans: atividade antioxidante frente ás espécies reativas ao ácido tiobarbitúrico</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>LIMA, E. <b>F.. The Birth of Stars</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>LIMA, E. F. <b>Astronomia como ferramenta de Ensino-Aprendizagem</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>LIMA, E. F. <b>O Cerro do Jarau e observações astronômicas</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MARIN, J. M. ; BIANCHI, Paula. <b>La representación de Brasil durante la ceremonia de apertura de los Juegos Olímpicos de Río 2016. Análisis comparativo entre Globo.com y Rtve.es</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MELLO, Elena Mª Billig. <b>Pedagogia Universitária: docência no ensino superior</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>MELLO, Elena Mª Billig. <b>Pedagogia universitária: reflexões sobre o processo de ensinagem</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>MELLO, Elena Mª Billig; RORATO, A. ; SILVA, L. G.. <b>BNCC PARA QUE(M)? Disfarces e contradições num processo marcado por muitas (in)definições</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>MELLO, Elena Mª Billig; SALOMÃO DE FREITAS, Diana Paula ; JUNQUEIRA, S. M. S.. <b>METODOLOGIAS ATIVAS E A TÉCNICA DA APRENDIZAGEM ESPAÇADA NA SALA DE AULA DA PÓS- GRADUAÇÃO SOB A PERSPECTIVA DIALÉTICA</b>. 2018. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>NASCIMENTO, C. C. ; MELLO, Elena Mª Billig ; KONFLANZ, G. M. ; SALOMÃO DE FREITAS, Diana Paula. <b>REGISTROS CRÍTICO-REFLEXIVOS SOBRE O I SEMINÁRIO DE INOVAÇÃO PEDAGÓGICA</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>PAULA, F. R. <b>Biological Drugs and Medicinal Chemistry: Integrated Technologies</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>PINHEIRO, P. O. ; MELLO, Elena Mª Billig. <b>INTERCÂMBIO ACADÊMICO INTERNACIONAL NA UNIVERSIDADE FEDERAL DO PAMPA: ESTUDO PRELIMINAR</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>RODRIGUES, A. R. B. ; SALOMÃO DE FREITAS, Diana Paula ; BIAVASCHI, A. S. ; MELLO, Elena Mª Billig. <b>PROJETO PEDAGÓGICO DE CURSO E INOVAÇÃO PEDAGÓGICA: APONTAMENTOS INICIAIS</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>RORATO, A. ; DUMMER, L. M. E. ; MELLO, Elena Mª Billig ; CORREA, S. M. ; JUNQUEIRA, S. M. S.. <b>CURRÍCULO NA EDUCAÇÃO INFANTIL: TERRITÓRIOS DE EXISTÊNCIA - RELATO DE UMA EXPERIÊNCIA</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>SILVEIRA, R. C. A. ; KONFLANZ, G. M. ; SALOMÃO DE FREITAS, Diana Paula ; MELLO, Elena Mª Billig. <b>INDÍCIOS DE INOVAÇÃO PEDAGÓGICA NO PROJETO PEDAGÓGICO DO CURSO DE LICENCIATURA EM MATEMÁTICA DA UNIPAMPA</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BIANCHI, Paula; PAIXAO, H. J. Z. ; LANDIM, I. ; FERRER, E. ; ROMEU, D. L. ; GONCALVES, F. N. ; GARCIA, M. M.. <b>INTERFACES UNIVERSIDADE E ESCOLA: UMA PROPOSTA DE GESTÃO DE RECURSOS HUMANOS PARA A EDUCAÇÃO BÁSICA</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BIAVASCHI, A. S. ; LIMA, C. C. ; MELLO, Elena Mª Billig. <b>PROJETO POLÍTICO PEDAGÓGICO DE UMA ESCOLA ESTADUAL: REFLEXÕES E ANÁLISE DAS SUAS DIMENSÕES</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>E.F. LIMA; Peres,B. P. ; Benites, L. B. ; LIANO, M. S. ; CHIQUETTI, M. A.. <b>Planetário da Unipampa - Astronomia para Todos</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>GRAZZIOTIN, C. P. ; MELLO, Elena Mª Billig. <b>FORMAÇÃO ACADÊMICO-PROFISSIONAL DE COORDENAÇÕES PEDAGÓGICAS DA EDUCAÇÃO INFANTIL</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>LIMA, E. F. <b>O CERRO DO JARAU: UM LABORATORIO CULTURAL E ASTRONÔMICO</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>LIMA, E. F. <b>Crateras de Impacto na Região</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>MARIN, J. M. ; BIANCHI, Paula. <b>Rafaela Silva y Carolina Marín. Media representations of Olympic heroines at the Rio 2016 Games</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>MARQUES, I. D. ; CARRICO, M. R. S. ; ROEHRS, RAFAEL ; PAIM, C. S. ; DENARDIN, E.L.G. ; SOARES, J. J.. <b>Quantificaçãode fenóis totais e ação antioxidante de condimentos</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MARQUES, I. D. ; CARRICO, M. R. S. ; SOARES, J. J. ; ROEHRS, RAFAEL ; DENARDIN, E.L.G. ; PAIM, C. S.. <b>Desencolvimento de método analítico por cromatografia a gás com detecção por espectrometria de massas para a determinação de pesticidas em água</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MARTY, M. R. ; BONETTI, A. L.. <b>ESCOLA SEM PARTIDO: UMA NETNOGRAFIA SOBRE O PL 01/2017 EM URUGUAIANA ? RS</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>MARTY, M. R. ; BONETTI, A. L.. <b>ESCOLA SEM PARTIDO: UMA NETNOGRAFIA SOBRE O PL 01/2017 EM URUGUAIANA ? RS</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>MARZARI, M. R. B. <b>Vidrarias: Conhecendo e Aprendendo a Cuidar</b>. 2017. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>MELLO, Elena Maria Billig ; SILVA, Fabiane Ferreira ; FREITAS, Diana Paula Salomão de ; LINDEMANN, R. H. ; SOARES, C. B.. <b>Anais do XIV encontro sobre investigação na escola: educar para a democracia e a justiça social</b>. 2017. Editoração/Anais</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>MELLO, Elena Mª Billig. <b>SER E FAZER-SE DOCENTE: PROFISSIONALIZAÇÃO DO(A) PROFESSOR(A) DA EDUCAÇÃO SUPERIOR</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>MELLO, Elena Mª Billig. <b>Apontamentos sobre política educacional em 'tempos de crise?</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>MELLO, Elena Mª Billig; SALOMÃO DE FREITAS, D. P. S.. <b>A formação docente no viés da inovação pedagógica: processo em construção</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>MELLO, Elena Mª Billig; SALOMÃO DE FREITAS, D. P. S. ; BRIZOLLA, F. ; MARTINS, C. S. L. ; LUCE, M. B.. <b>FORMAÇÃO ACADÊMICO-PROFISSIONAL DE PROFESSORES(AS): COM- PARCERIA UNIVERSIDADE E EDUCAÇÃO BÁSICA</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>MELLO, Elena Mª Billig; SALOMÃO DE FREITAS, Diana Paula ; RODRIGUES, A. R. B. ; NORONHA, D. M. ; REHERMANN, S. R. S.. <b>GRUPI - GRUPO DE PESQUISA EM INOVAÇÃO PEDAGÓGICA NA FORMAÇÃO ACADÊMICO- PROFISSIONAL DE PROFISSIONAIS DA EDUCAÇÃO: CAMINHADA NA/DA INVESTIGAÇÃO</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>OAIGEN, Ricardo Pedroso. <b>Gestão na bovinocultura de corte</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>OAIGEN, Ricardo Pedroso. <b>Mercado da carne bovina</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>OAIGEN, Ricardo Pedroso. <b>Mercado da carne bovina_ case do Boletim da Pecuária</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>PANERAI, A. V. ; BONETTI, A. L.. <b>ONDE ESTÁ O NOSSO PRETOGUÊS? BREVE ANÁLISE SOBRE A INFLUÊNCIA DAS LÍNGUAS AFRICANAS NO PORTUGUÊS BRASILEIRO</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>PAULA, FÁVERO REISDORFER. <b>Uso de Ferramentas Computacionais no Desenvolvimento de Antibacterianos a partir de Compostos de Origem Natural</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>PINHEIRO, F. L. ; MELLO, Elena Mª Billig. <b>Artefatos Pedagógicos para o Ensino de Ciências da Natureza: reflexões acerca de uma prática inovadora e mobilizadora para o conhecimento</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>PINHEIRO, F. L. ; MELLO, Elena Mª Billig. <b>CONCEPÇÕES DE INOVAÇÃO: ANÁLISE DE UM PROJETO POLÍTICO-PEDAGÓGICO</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>PONSE, C. E. M. ; BONETTI, A. L.. <b>GE PẼ ẼG NỸTĨ: REFLEXÕES SOBRE A EXPERIÊNCIA DE TUTORIA-MONITORA COM INDÍGENAS KAINGANG NO CURSO DE ENFERMAGEM/UNIPAMPA ? CAMPUS URUGUAIANA</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>PONSE, C. E. M. ; BONETTI, A. L.. <b>5. GE PẼ ẼG NỸTĨ: REFLEXÕES SOBRE A EXPERIÊNCIA DE TUTORIA-MONITORA COM INDÍGENAS KAINGANG NO CURSO DE ENFERMAGEM/UNIPAMPA ? CAMPUS URUGUAIANA</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>REHERMANN, S. R. S. ; MELLO, Elena Mª Billig ; SCOLA, E. L. ; RODRIGUES, A. R. B. ; TAHA, M. S. ; SALOMÃO DE FREITAS, D. P. S.. <b>INOVAÇÃO PEDAGÓGICA NO PROJETO POLÍTICO-PEDAGÓGICO: PRIMEIRAS IMPRESSÕES</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>RODRIGUES, A. R. B. ; MELLO, Elena Mª Billig ; CAMPOS, M. E. C.. <b>PROJETO POLÍTICO-PEDAGÓGICO: ANALISANDO AS TERMINOLOGIAS EMPREGADAS</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>RORATO, A. ; MELLO, Elena Mª Billig. <b>INOVAÇÃO PEDAGÓGICA E QUALIDADE NA EDUCAÇÃO INFANTIL: UMA ANÁLISE A PARTIR DO PROJETO POLÍTICO PEDAGÓGICO</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>RUPPENTHAL, R. <b>Ciências nos anos iniciais: possibilidades, planejamento e práticas</b>. 2017. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>RUTZ, K. P. ; MARINHO, J. C. B. ; SILVA, F. F.. <b>O uso de situações-problema como ferramenta didática no Ensino de Ciências</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>SCOLA, E. L. ; MELLO, Elena Mª Billig. <b>PROCESSO EXTENSIONISTA NO VIÉS DA INOVAÇÃO PEDAGÓGICA NA FORMAÇÃO ACADÊMICO-PROFISSIONAL</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>SILVA, C. L. ; ZARNOTT, D. D. ; RODRIGUES, M. G. K. ; MELLO, Elena Mª Billig. <b>Intenções, tensões e contradições: um olhar sobre a formação acadêmico-profissional dos(as) coordenadores(as) pedagógicos(as) das escolas de Educação infantil de São Lourenço do Sul</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>SILVA, F. F. <b>A inserção das mulheres na ciência</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>SILVA, F. F. <b>Gênero e sexualidade na educação</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>SILVA, L. G. ; MELLO, Elena Mª Billig. <b>RELATO DO USO DE ESTRATÉGIAS PEDAGÓGICAS NA INCLUSÃO</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>SOARES, C. B. ; BONETTI, A. L.. <b>RAÇA E EDUCAÇÃO: OS (DES)CAMINHOS DA EDUCAÇÃO BRASILEIRA</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>SOUZA, M. A. <b>II Workshop de Técnicas Bioquímicas Aplicadas à Neurociência</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. <b>GESTÃO PARTICIPATIVA NA ATIVIDADE PESQUEIRA DO RIO GRANDE DO SUL</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de. <b>PLANEJAMENTO DA PRODUÇÃO DE TILÁPIA NA FRONTEIRA OESTE DO RIO GRANDE DO SUL</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>SOUZA, Marco Aurélio Alves de; GAVIAO, E. ; RODRIGUES, A. T. ; cunha, andrea ; DORNELES, L. A.. <b>UTILIZAÇÃO DA PLANILHA ELETRÔNICA DO EXCEL COMO FERRAMENTA NO GERENCIAMENTO DA PRODUÇÃO AQUÍCOLA</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ARAUJO, S. C. ; MELLO, Elena Mª Billig. <b>MONITORIA EM VIVÊNCIAS INTERDISCIPLINARES EM TEORIAS DA EDUCAÇÃO E EM PRÁTICAS PEDAGÓGICAS III</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ARAUJO, S. C. ; MELLO, Elena Mª Billig. <b>RELATO DE EXPERIÊNCIA NO PROJETO DE MONITORIA EM VIVÊNCIAS INTERDISCIPLINARES EM TEORIAS DA EDUCAÇÃO E EM PRÁTICAS PEDAGÓGICAS III A PARTIR DA UTILIZAÇÃO DA PLATAFORMA MOODLE COMO FERRAMENTA DIDÁTICO-PEDAGÓGICA</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BERGMANN, M. L. A. <b>Importância do PIBID na formação inicial e continuada na Educação Física</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Bergmann, Mauren Lúcia de Araújo. <b>Curso 3: Formação do Professor no Ensino da EF</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Bergmann, Mauren Lúcia de Araújo. <b>Formação do Professor no Ensino da Educação Física</b>. 2016. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>BIANCHI, Paula. <b>Experiências com observatórios em Educação Física: possibilidades de contribuição social e acadêmica</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>BIANCHI, Paula; MARIN, J. M. ; HATJE, Marli. <b>MÍDIA, ESTILO DE VIDA SAUDÁVEL E IDOSOS: A PERCEPÇÃO DOCENTE</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>BONETTI, A. L. ; SILVA, Fabiane Ferreira ; SOARES, C. B.. <b>III Seminário Corpos, gêneros, sexualidades e relações étnico-racionais na educação: desafios dos feminismos e a garantias dos direitos humanos</b>. 2016. Editoração/Anais</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>BRAGA, M. S. ; Bergmann, Mauren Lúcia de Araújo. <b>SEMINÁRIO SOBRE DOCÊNCIA EM EDUCAÇÃO FÍSICA ESCOLAR</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>BRAGA, M. S. ; Bergmann, Mauren Lúcia de Araújo. <b>Perspectivas sobre docência em Educação Física</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>CARRAZONI, G. S. ; MACHADO, F. M. ; Bergmann, Mauren Lúcia de Araújo. <b>RELATO DE EXPERIÊNCIA: A ELABORAÇÃO DE UMA FEIRA DE SAÚDE E MEIO AMBIENTE PARA ESCOLAS PARTICIPANTES DO PIBID</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>CARRAZONI, G. S. ; MACHADO, F. M. ; Bergmann, Mauren Lúcia de Araújo. <b>O IMPACTO DO PIBID NA FORMAÇÃO INICIAL DE PROFESSORES</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>DINARDI, A. J. <b>A Educação Ambiental (EA) que praticamos: regionalizar para impactar</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>DINARDI, A. J. <b>Nossas concepções de Educação Ambiental</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>FELIPPELLI, H. E. ; DINARDI, A. J.. <b>A PRAÇA DO PARCÃO (PRAÇA DOM PEDRO II) COMO ESPAÇO PARA ATIVIDADES EDUCACIONAIS</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>FRANCO, R. M. ; SALOMÃO DE FREITAS, D. P. S. ; MELLO, Elena Mª Billig. <b>AS CONTRIBUIÇÕES DA PEDAGOGIA FREIREANA PARA A DISCUSSÃO DAS QUESTÕES DE GÊNERO E RELAÇÕES ÉTNICO-RACIAIS</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>KUNZLER, M. R.; QUESADA, J. I. P. ; CARPES, F. P.. <b>Efeitos do uso de meias térmicas compressivas sobre a cinemática da corrida</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>KUNZLER, M.R.; ROCHA, E. S. ; CARPES, F. P.. <b>COMPORTAMENTO DE IDOSOS DURANTE A LOCOMOÇÃO SOBRE ESCADAS EM DIFERENTES CONDIÇÕES DE EXERCÍCIO</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>LIMA, E. F. <b>Complexos de Formação Estelar da Galáxia</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>MACHADO, F. M. ; CARRAZONI, G. S. ; Bergmann, Mauren Lúcia de Araújo. <b>Educação Física: brincando e aprendendo</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>MACHADO, F. M. ; MULER, T. P. ; CARRAZONI, G. S. ; Bergmann, Mauren Lúcia de Araújo. <b>A importância da troca de conhecimento entre supervisores e bolsistas discentes no subprojeto PIBID</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>MARASCA, L. T. ; MACHADO, F. M. ; CARRAZONI, G. S. ; Bergmann, Mauren Lúcia de Araújo. <b>A EXPERIÊNCIA COMO DOCENTE, E A RESPONSABILIDADE DIANTE DE UMA TURMA</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>MARASCA, L. T. ; RODRIGUES, N. C. ; CARRAZONI, G. S. ; Bergmann, Mauren Lúcia de Araújo. <b>EXPERIÊNCIAS DA EDUCAÇÃO FÍSICA ESCOLAR</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>MARIN, J. M. ; BIANCHI, Paula. <b>Analisis comparativo del tratamiento televisivo de la ceremonia de clausura de la Copa de Mundo FIFA Brasil 2014</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>MARTINS, A. C. ; SANTANA, E. B. ; BILHALVA, W. P. ; MELLO, Elena Mª Billig. <b>ANÁLISE INVESTIGATIVA DIANTE DA METODOLOGIA E DAS TEORIAS DA EDUCAÇÃO ENCONTRADAS NO PROJETO POLÍTICO-PEDAGÓGICO (PPP) E EM PRÁTICAS NA ÁREA DE CIÊNCIAS DA NATUREZA</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>MARTINS, M. A. R. ; HARTMANN, A. M. ; Bergmann, Mauren Lúcia de Araújo ; SILVEIRA, M. M.. <b>PROGRAMA INSTITUCIONAL DE BOLSA DE INICIAÇÃO À DOCÊNCIA ? PIBID</b>. 2016. RELATÓRIO ANUAL DE ATIVIDADES</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>MELLO, Elena Mª Billig. <b>Projeto Político-Pedagógico: instrumento de inovação pedagógica</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>MELLO, Elena Mª Billig. <b>Projeto Político-Pedagógico da Escola: identidade profissional e organizacional</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>MELLO, Elena Mª Billig. <b>Currículo e Projeto Político-Pedagógico: intersecções possíveis para a prática pedagógica reflexiva e inovadora</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>MELLO, Elena Mª Billig. <b>Escrita como processo epistemológico - apontamentos sobre o artigo científico</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>MELLO, Elena Mª Billig. <b>EXPERIÊNCIA DOCENTE NA FORMAÇÃO ACADÊMICO-PROFISSIONAL DE PROFESSORES(AS) COM PROPOSIÇÃO DE PROJETOS DE INVESTIGAÇÃO INTERDISCIPLINARES</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>MELLO, Elena Mª Billig. <b>EXPERIÊNCIA DOCENTE NA FORMAÇÃO ACADÊMICO-PROFISSIONAL DE PROFESSORES(AS) COM PROPOSIÇÃO DE PROJETOS DE INVESTIGAÇÃO INTERDISCIPLINARES</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>MELLO, Elena Mª Billig; MARTINS, C. S. L. ; SALOMÃO DE FREITAS, D. P. S.. <b>Olhar da equipe executora do Projeto Tertúlias Pedagógicas do Pampa no contexto da política de formação de professores(as)</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>OAIGEN, Ricardo Pedroso. <b>Gestao do negocio pecuario</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>PARISOTO, A. ; Silva, C.E.R ; MORAES, B.K.S. ; AMARAL, M. ; LIMA, L. M. ; BARREIRO, E.J. ; COSTA, Teresa Dalla ; HAAS, S. E.. <b>Pharmacokinetic profile of LASSBio- 1736 cysteine protease leishmanicidal in rats</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>PAULA, F. R. <b>Uso de modelagem molecular no desenvolvimento de antibacterianos a partir de compostos de origem natural</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>PINHEIRO, F. L. ; MELLO, Elena Mª Billig. <b>ARTEFATOS PEDAGÓGICOS: O PROCESSO DE (RE)CONSTRUÇÃO DO ENSINO DE CIÊNCIAS DA NATUREZA</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>PINHEIRO, F. L. ; MELLO, Elena Mª Billig. <b>ARTEFATOS PEDAGÓGICOS: CONSTRUINDO UM NOVO JEITO DE ENSINAR CIÊNCIAS DA NATUREZA</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>RODRIGUES, N. C. ; CARRAZONI, G. S. ; Bergmann, Mauren Lúcia de Araújo. <b>POSSIBILIDADES DE EXPERIÊNCIAS DOCENTES A PARTIR DO PIBID</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>RODRIGUES, T. F. ; BOMBACH, G. D. ; COPETTI, J.. <b>A educação física e suas contribuições para além do corpo</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>SALOMÃO DE FREITAS, D. P. S. ; MARTINS, C. S. L. ; MELLO, Elena Mª Billig. <b>ENSINO POR PRÁTICAS EDUCATIVAS INVESTIGATIVAS: CONSIDERAÇÕES TEÓRICO-METODOLÓGICAS NA FORMAÇÃO DE PROFESSORES(AS)</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>SANTOS, T. L. ; CARRAZONI, G. S. ; Bergmann, Mauren Lúcia de Araújo. <b>A Influência das aulas de Educação Física para a formação dos alunos do Ensino Médio de uma Escola Pública de Uruguaiana</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>SILVA, C. E. I. ; RODRIGUES, T. F. ; COPETTI, J.. <b>Os benefícios da Educação física na Educação Infantil</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>SILVA, C. L. ; ZARNOTT, D. D. ; RODRIGUES, M. G. K. ; MELLO, Elena Mª Billig. <b>Intenções, tensões e contradições: um olhar sobre a formação acadêmico-profissional dos(as) coordenadores(as) pedagógicos(as) das escolas de educação infantil de São Lourenço do Sul</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>SILVA, F. F. <b>Gênero: o 'vilão' dos Planos de Educação</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>SILVA, Fabiane Ferreira ; MAGALHAES, J. C. ; SOARES, C. B.. <b>Educação para a sexualidade: dos currículos escolares aos espaços educativos</b>. 2016. Curso de curta duração ministrado/Extensão</td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>SILVA, L. G. ; MELLO, Elena Mª Billig. <b>ACESSIBILIDADE PEDAGÓGICA COM ESTRATÉGIAS DE ENSINOAPRENDIZAGEM BASEADAS NA NEUROCIÊNCIA</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>SOARES, C. B.; BONETTI, A. L.. <b>A RELAÇÃO ENTRE RAÇA E EDUCAÇÃO NOS CADERNOS DE PESQUISAS (FCC): MAPEAMENTO DE UM CAMPO DE PESQUISA BRASIELIRO</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>Souza, Mauren Assis. <b>I Workshop de Técnicas Bioquímicas Aplicadas à Neurociência</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>Souza, Mauren Assis; Altermann, C. ; Martins, A. ; Sosa, P.M. ; Mello-Carpes, P.B.M.. <b>GREEN TEA TREATMENT ATTENUATES OXIDATIVE DAMAGE AND NEUROMOTOR DEFICIT INDUCED BY AN EXPERIMENTAL MODEL OF INTRACEREBRAL HEMORRHAGE IN RATS</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>SPOHR, C. B.; SCHACHT, M. ; RODRIGUES, E. A. M.. <b>Circuito elétrico gerador de energia elétrica a partir de um sistema de som automotivo</b>. 2016. Desenvolvimento de material didático ou instrucional - Material didático para ensino de eletromagnetismo</td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BIANCHI, Paula; HATJE, Marli ; SCHUBERT, Jucélia Medianeira. <b>As tecnologias de informação e comunicação</b>. 0. TICs</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:24:59<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

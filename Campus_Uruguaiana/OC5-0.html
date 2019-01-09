@@ -1,0 +1,277 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Uruguaiana</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Uruguaiana</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Iniciação científica'}, 
+series: [{data: [[2016,
+36],
+[2017,
+23],
+[2018,
+3]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Iniciação científica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 62<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Aline da Silva Goulart. <b>Avaliação toxicológica do extrato hidroetanólico da casca do ipê-amarelo Tabebuia chrysotricha e seu efeito protetor frente ao veneno de Philodryas patagoniensis</b>. Iniciação Científica - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Murilo Ricardo Sigal Carriço. <b>Desenvolvimentos de processos de Fitorremediação de solo e recursos hídricos contaminados por compostos orgânicos utilizando plantas aquáticas e terrestres: uma solução verde para minimizar impactos ambientais</b>. (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Richard Ortiz Ocampo. <b>Potencial farmacológico de nanocápsulas poliméricas contendo a associação de anti-inflamatório e antioxidante em um modelo da doença de Alzheimer em roedores</b>. (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1205982002582299">Simone Pinton</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Allyson Ardais Boneberg. <b>Potencial farmacológico da 5-cloro-isatina-3-oxina em ratos expostos ao organofosforado malation</b>. Iniciação Científica - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1205982002582299">Simone Pinton</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Allyson Henrique Souza Feiffe. <b>Fitorremediação de solo e de recursos hídricos e a avaliação da resposta das plantas a esse processo</b>. (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Anthony Renan Brum Rodrigues. <b>Projeto de pesquisa</b>. (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Carolina Sousa Martins. <b>Efeito da compressão sobre a recuperação pós-exercício físico</b>. (Graduando em Fisioterapia) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico Unipampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Diego de Matos Noronha. <b>Projeto de pesquisa</b>. (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, UNIPAMPA. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Ilana Popoviche de Campos. <b>Desenvolvimento e avaliacao biologica de sistemas nanoparticulados</b>. (Graduando em Farmácia) - Universidade Federal do Pampa, Programa PBDA. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Ilana Popoviche de Freitas. <b>Desenvolvimento de Nanoparticulas com funcionalidade antimicrobiana</b>. (Graduando em Farmácia) - Universidade Federal do Pampa, Programa PBDA. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Jonatas Rodrigues. <b>Nanotecnologia e Nanociencia: estratégias de popularização e divulgação</b>. (Graduando em Farmácia) - Universidade Federal do Pampa, Programa PBDA. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Jozyê Milena da Silva Guerra. <b>Contribuições de intervenções formativas na (re)construção de práticas de Promoção da Saúde nas Estratégias Saúde da Família e escolas adstritas</b>. (Graduando em Educação Física) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0390762757228334">Phillip Vilanova Ilha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Júlia Guimarães de Moraes. <b>Adesão, permanência e barreiras percebidas na prática do futebol</b>. (Graduando em Educação Física) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0390762757228334">Phillip Vilanova Ilha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Kelly Ayumi Nakama. <b>Avaliação biofarmacêutica de compostos e formulações para malaria</b>. (Graduando em Farmácia) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Khayan Pimentel. <b>Avaliacao dos conhecimentos de escolares sobre o cancer de pele</b>. (Graduando em Farmácia) - Universidade Federal do Pampa, Programa PBDA. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Khayan Pimentel Capsitrano. <b>Fotoeducação</b>. (Graduando em Farmácia) - Universidade Federal do Pampa, Programa PBDA. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Leticia Bordignon de Carvalho Ramos. <b>Estudo da capacidade da Alface d'água (Pistia Stratiotes) como organismo bioindicador de poluição</b>. (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Marciele Amaral. <b>Avaliação fitoquímica do ipê-amarelo Tabebuia chrysotricha</b>. (Graduando em Fisioterapia) - Universidade Federal do Pampa, Fundação Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Maria Eduarda Ziani Gutierrez. <b>Potencial farmacológico de nanocápsulas poliméricas contendo a associação de anti-inflamatório e antioxidante em um modelo da doença de Alzheimer em roedores</b>. (Graduando em Enfermagem) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1205982002582299">Simone Pinton</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Mariana Sabo Fernandes. <b>Estudos de Docking Molecular de Compostos Bioativos</b>. (Graduando em Farmácia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4455461576886254">Favero Reisdorfer Paula</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Marina dos Reis Marty. <b>Marcadores da diferença, interseccionalidades e a produção de alteridades nos processos educativos e de socialização: a tramitação do PL 01/2017 (ESP) em Uruguaiana</b>. (Graduando em Fisioterapia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9365069870272242">Alinne de Lima Bonetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Nathália Cardoso Fonseca. <b>Efeito Protetor da 5-Cloro-isatina-3-oxima frente a Toxicidade Induzida pelo Organofosforado Malation</b>. (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1205982002582299">Simone Pinton</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Renata Bem dos Santos. <b>Busca por novas opcoes terapeuticas para Doenca de Alzheimer</b>. (Graduando em Farmácia) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Richard Ortiz Ocampo. <b>Potencial farmacológico de nanocápsulas poliméricas contendo a associação de anti-inflamatório e antioxidante em um modelo da doença de Alzheimer em roedores</b>. Iniciação Científica - Universidade Federal do Pampa, Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1205982002582299">Simone Pinton</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Roberto Porto. <b>Mapas conceituais em Farmacologia</b>. (Graduando em Farmácia) - Universidade Federal do Pampa, Programa PBDA. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Sindje Rayane da Silva Rehermann. <b>Projeto de pesquisa</b>. (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alcides Parisoto. <b>Avaliação farmacocinética de novas moléculas</b>. (Graduando em Farmácia) - Universidade Federal do Pampa, Programa PBDA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Amanda Machado Teixeira. <b>Estudo de investigação da Educação Física escolar na cidade de Uruguaiana</b>. (Graduando em Educação Física) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico - UNIPAMPA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Amanda Machado Teixeira. <b>Estudo de investigação da Educação Física escolar na cidade de Uruguaiana</b>. (Graduando em Educação Física) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico - UNIPAMPA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Andressa Huppes Luft. <b>Validação de indicadores comportamentais para o monitoramento da saúde de vacas leiteiras no período de transição</b>. (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8978799324980898">Mirela Noro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Anne Ribeiro Streb. <b>Intensidade dos esforços físicos em programas de atividae física para crianças e adolescentes</b>. (Graduando em Educação Física) - Universidade Federal do Pampa, Programa de Desenvovimento Acadêmico - Unipampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7751701952514459">Gabriel Gustavo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Anne Suely Pinto Savall. <b>AVALIAÇÃO DO POTENCIAL FARMACOLÓGICO DE ISATINAS-OXIMAS FRENTE À TOXICIDADE INDUZIDA POR ORGANOFOSFORADOS</b>. (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1205982002582299">Simone Pinton</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Anthony Renan Brum Rodrigues. <b>Avaliação do Potencial Toxicológico e Farmacológico de Produtos Naturais Utilizando Drosophila melanogaster como Modelo Biológico</b>. (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1134532326779900">Robson Luiz Puntel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Bruna Sarini Cardoso Alifredi. <b>AVALIAÇÃO DO POTENCIAL FARMACOLÓGICO DE ISATINAS-OXIMAS FRENTE À TOXICIDADE INDUZIDA POR ORGANOFOSFORADOS</b>. (Graduando em Enfermagem) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1205982002582299">Simone Pinton</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Bruno Machado Maroneze. <b>Efeitos da compressão sobre a cinemática de saltos em condição de fadiga</b>. (Graduando em Fisioterapia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Bárbara Marmor Bachinski. <b>Estudos de Docking Molecular de Compostos Bioativos</b>. (Graduando em Farmácia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4455461576886254">Favero Reisdorfer Paula</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Carlos Eduardo da Rosa Silva. <b>Desenvolvimento e avaliacao biologica de Nanoparticulas polimericas para doenças inflamatórias</b>. (Graduando em Farmácia) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Cassiane Freitas de Freitas. <b>A utilização do exercício físico na prevenção da neuroinflamação e déficit neuromotor induzido pela hemorragia intracerebral em ratos.</b>. Iniciação Científica - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1571752069730472">Mauren Assis de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Daniela Teixeira Rodrigues. <b>Fitorremediação de solo e de recursos hídricos e a avaliação da resposta das plantas a esse processo</b>. (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Dérick dos Santos Noronha. <b>Perfil Bioquímico de Indivíduos Diabéticos do Município de Uruguaiana/RS que Utilizam Plantas Medicinais para Controle Glicêmico</b>. (Graduando em Aquicultura) - Universidade Federal do Pampa, Fundação Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Eduarda Martini. <b>Desenvolvimento e avaliacao biologica de Nanoparticulas polimericas contendo clozapina</b>. Iniciação Científica - Universidade Federal do Pampa, Programa PBDA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Eduarda Monteiro Fidelis. <b>Efeito Protetor da 5-Cloro-isatina-3-oxima frente a Toxicidade Induzida pelo Organofosforado Malation</b>. (Graduando em Aqüicultura) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1205982002582299">Simone Pinton</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Felipe Müller Machado. <b>Estudo de investigação da Educação Física escolar na cidade de Uruguaiana</b>. (Graduando em Educação Física) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico - UNIPAMPA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Graziela Scheuer Gomes. <b>Sistemas nanoparticulados bifuncionais inovadores para o tratamento da malária através da associação de fármacos antimaláricos e óleos vegetais: desenvolvimento, caracterização e avaliação biológica</b>. (Graduando em Farmácia) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Guilherme de Oliveira Gavião. <b>Desenvolvimento de formulações inovadoras contendo fármacos anti-inflamatórios para o tratamento de doenças neurodegenerativas</b>. (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1205982002582299">Simone Pinton</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Jéssica Mello Lopes. <b>Estágio Supervisionado: percepções de professores, alunos e responsáveis sobre as aulas de Educação Física</b>. (Graduando em Educação Física) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Ketelin Monique Cavalheiro. <b>Utilização do ensaio Allium cepa na determinação de toxicidade de extratos vegetais</b>. (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Lara Pedroso da Fontoura. <b>ESTUDO TOXICOLOGICO DE POLUENTES AMBIENTAIS EM MODELOS BIOLÓGICOS ALTERNATIVOS</b>. (Graduando em Farmácia) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1205982002582299">Simone Pinton</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Leonardo Barboza Benites. <b>Avaliação do potencial farmacológico de nanocápsulas poliméricas contendo a associação de anti-inflamatório e antioxidantes em um modelo da doença de Alzheimer em roedores</b>. (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1205982002582299">Simone Pinton</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Maiara Bairros de Bastiani. <b>Avaliação do Potencial Toxicológico e Farmacológico de Produtos Naturais Utilizando Drosophila melanogaster como Modelo Biológico</b>. (Graduando em Farmácia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1134532326779900">Robson Luiz Puntel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Maria Clara Machado. <b>Efeitos do tratamento com chá verde no dano oxidativo e déficit de memoria induzido pelo Acidente Vascular Encefálico isquêmico e hemorrágico em ratos</b>. Iniciação Científica - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1571752069730472">Mauren Assis de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Maria Eduarda Ziani Gutierrez. <b>Potencial farmacológico de nanocápsulas poliméricas contendo a associação de anti-inflamatório e antioxidante em um modelo da doença de Alzheimer em roedores</b>. (Graduando em Enfermagem) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1205982002582299">Simone Pinton</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Marianne Pires da Silva. <b>Perfil Bioquímico de Indivíduos Diabéticos do Município de Uruguaiana/RS que Utilizam Plantas Medicinais para Controle Glicêmico</b>. (Graduando em Aquicultura) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Marina da Costa Monteiro Guedes. <b>Potencial farmacológico de nanocápsulas poliméricas contendo a associação de anti-inflamatório e antioxidante em um modelo da doença de Alzheimer em roedores</b>. (Graduando em Enfermagem) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1205982002582299">Simone Pinton</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Matheus Chimelo Bianchini. <b>Avaliação do Potencial Toxicológico e Farmacológico de Produtos Naturais Utilizando Drosophila melanogaster como Modelo Biológico</b>. (Graduando em Farmácia) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1134532326779900">Robson Luiz Puntel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Monica Navarro. <b>Avaliação do Potencial Toxicológico e Farmacológico de Produtos Naturais Utilizando Drosophila melanogaster como Modelo Biológico</b>. (Graduando em Farmácia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1134532326779900">Robson Luiz Puntel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Nathalia Locateli Leal. <b>METODOLOGIA PARA AFERIÇÃO DA COMPETITIVIDADE DE SISTEMAS DE CRIA DABOVINOCULTURA DE CORTE</b>. (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8056365542183068">Ricardo Pedroso Oaigen</a>.</font></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Roberto Pires Porto. <b>Praticas alternativas ao uso de animais no ensino de Farmacologia</b>. (Graduando em Farmácia) - Universidade Federal do Pampa, Programa PBDA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Sabrina Dorneles Paz. <b>Estágio Supervisionado: percepções de professores, alunos e responsáveis sobre as aulas de Educação Física</b>. (Graduando em Educação Física) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Sindje Rayane da Silva Rehermann. <b>Inovação pedagógica na formação de profissionais do magistério/da educação.</b>. (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>THAIS LOPES GONCALVES. <b>PERFIL DA COMERCIALIZACAO DE REPRODUTORES NO RS</b>. (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8056365542183068">Ricardo Pedroso Oaigen</a>.</font></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Waldemar Pinto Bilhalva. <b>Inovação pedagógica na formação de profissionais do magistério/da educação</b>. (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:24:59<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

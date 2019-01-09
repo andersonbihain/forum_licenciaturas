@@ -1,0 +1,191 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Uruguaiana</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Uruguaiana</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Orientações de outra natureza'}, 
+series: [{data: [[2016,
+7],
+[2017,
+1],
+[2018,
+11]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Orientações de outra natureza</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 19<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Carla Assunção dos Santos. <b>Ge pẽ ẽg nỹtĩ: aprendendo com a cultura Kaingang no campus Uruguaiana</b>. Orientação de outra natureza. Universidade Federal do Pampa. Programa de Desenvolvimento Acadêmica - Unipampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9365069870272242">Alinne de Lima Bonetti</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Bruno Peruzzi Peres. <b>O Cerro do Jarau: um laboratório cultural e astronômico</b>. Orientação de outra natureza. Universidade Federal do Pampa. Universidade Federal do Pampa - PDA, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Cassiano Sales. <b>Ge pẽ ẽg nỹtĩ: aprendendo com a cultura Kaingang no campus Uruguaiana</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9365069870272242">Alinne de Lima Bonetti</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Celi Carvalho do Nascimento. <b>II Seminário de Inovação Pedagógica: formação acadêmico-profissional</b>. Orientação de outra natureza. Universidade Federal do Pampa. Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Gabriel Müller Konflanz. <b>II Seminário de Inovação Pedagógica: formação acadêmico-profissional</b>. Orientação de outra natureza. Universidade Federal do Pampa. UNIPAMPA, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Gabriel Santana de Araujo. <b>O Cerro do Jarau: um laboratório cultural e astronômico</b>. Orientação de outra natureza. Universidade Federal do Pampa. Universidade Federal do Pampa - PDA, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Ivete Darfais. <b>Ge pẽ ẽg nỹtĩ: aprendendo com a cultura Kaingang no campus Uruguaiana</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9365069870272242">Alinne de Lima Bonetti</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Khayan Pimentel Capistrano. <b>Ge pẽ ẽg nỹtĩ: aprendendo com a cultura Kaingang no campus Uruguaiana</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9365069870272242">Alinne de Lima Bonetti</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Rafaela Belino Xetá. <b>Ge pẽ ẽg nỹtĩ: aprendendo com a cultura Kaingang no campus Uruguaiana</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9365069870272242">Alinne de Lima Bonetti</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Renata Garcez Amaral. <b>Monitoria de Iniciação a Medicina Veterinária</b>. Orientação de outra natureza. Universidade Federal do Pampa. Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8056365542183068">Ricardo Pedroso Oaigen</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Sue Ellen Doleski Webwr. <b>Monitoria de Física Básica</b>. Orientação de outra natureza. Universidade Federal do Pampa. Universidade Federal do Pampa - PDA, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Farnei Campos Sales. <b>Ge pẽ ẽg nỹtĩ: aprendendo com a cultura Kaingang no campus Uruguaiana</b>. Orientação de outra natureza. Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9365069870272242">Alinne de Lima Bonetti</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alessandra Bridi. <b>Regulação da maturação oocitária e ovulação em bovinos: ação do EGF, Angiotensina II, MAPK e mTORC1</b>. Orientação de outra natureza. Universidade Federal de Santa Maria. Conselho Nacional de Desenvolvimento Científico e Tecnológico, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5837260966665885">Paulo Bayard Dias Goncalves</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Any Gracyelle Brun dos Santos. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. Orientação de outra natureza. Universidade Federal do Pampa. Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Carmem Maria dos Santos. <b>Iniciação à docência: Estudos em Educação Física escolar</b>. Orientação de outra natureza. Universidade Federal do Pampa. Programa de Desenvolvimento Acadêmico - UNIPAMPA, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Luciano Tadiello Marasca. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. Orientação de outra natureza. Universidade Federal do Pampa. Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Noelia Carolina Rodrigues. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. Orientação de outra natureza. Universidade Federal do Pampa. Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Thaís de Lima dos Santos. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. Orientação de outra natureza. Universidade Federal do Pampa. Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>VANUZA AZOLIN. <b>Boletim da Pecuária</b>. Orientação de outra natureza. Universidade Federal do Pampa. PRÓ-REITORIA DE EXTENSÃO, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8056365542183068">Ricardo Pedroso Oaigen</a>.</font></i></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:24:59<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

@@ -1,0 +1,335 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Uruguaiana</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Uruguaiana</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Trabalho de conclusão de curso de graduação'}, 
+series: [{data: [[2016,
+49],
+[2017,
+34],
+[2018,
+8]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Trabalho de conclusão de curso de graduação</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 91<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Aline da Silva Goulart. <b>Percepção de alunos do Ensino Fundamental sobre o Ciclo de vida da Drosophila melanogaster: uso de modelo didático para ensino de Ciências</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Antônio Kleu da Silva Scholz. <b>Iniciação esportiva ao Tênis através de um projeto social: relato de experiência</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9971842553577002">Susane Graup</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Carolina Selbach. <b>Fotodegradação da sinefrina: estudos experimentais e teóricos</b>. (Graduação em Farmácia) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4455461576886254">Favero Reisdorfer Paula</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Juliane de Souza Calixto e Dênis Ricardo Amaro Rosa. <b>Inclusão de alunos com Transtorno do Espectro Autista nas aulas de Educação Física</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9971842553577002">Susane Graup</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Ketelin Monique Cavalheiro. <b>Ciclo Celular: construção e validação de ua sequencia didatica pela metodologia da engenharia didática</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Maria Eduarda Trindade Barreto. <b>Muito além de uma questão jurídica: o posicionamento de discentes da Universidade Federal do Pampa sobre o aborto</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8442280124362170">Fabiane Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Mariana Sabo Fernandes. <b>Estudo de planejamento de eicdiesteróides com ação analgésica potencial: docking molecular e farmacóforo</b>. (Graduação em Farmácia) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4455461576886254">Favero Reisdorfer Paula</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Suele Pinto Tavares. <b>Fatores motivacionais que levam as mulheres para a prática da corrida de rua em Uruguaiana/RS</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9971842553577002">Susane Graup</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Anne S P Savall. <b>AVALIAÇÃO DA TOXICIDADE ORAL AGUDA DA 5-CLORO- ISATINA-3- OXIMA E SEU EFEITO TIPO DEPRESSIVO EM RATOS EXPOSTOS AO MALATION</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1205982002582299">Simone Pinton</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Arielle Santana Martins. <b>Análise das características musculares e funcionais em membros inferiores de atletas praticantes de ciclismo por meio da avaliação de força, potência e desequilíbrios musculares</b>. (Graduação em Fisioterapia) - Universidade Estadual de Goiás, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Bruno Machado Maroneze. <b>Efeito de bermudas compressivas na fadiga de saltos</b>. (Graduação em Fisioterapia) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico Unipampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Christielen Segala dos Santos. <b>Cinemática da marcha com obstáculos em idosas usando diferentes tipos de calçado</b>. (Graduação em Fisioterapia) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/0316035030727687">Marcos Roberto Kunzler</a>, <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Cristiane Fraga Moro. <b>Determinação do número ideal de pisadas para análises da pressão plantar na avaliação clínica da marcha</b>. (Graduação em Fisioterapia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Daniela Teixeira Rodrigues. <b>Desenvolvimento de método de extração em fase sólida para compostos em matriz aquosa com diferentes sorbentes</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Eduarda Martini Piegas. <b>Desenvolvimento de Nanoparticulas contendo antipsicoticos</b>. (Graduação em Farmácia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Ellen Pinto. <b>Comparação de características do tendão de Aquiles e patelar em pessoas com diferentes níveis de atividade física</b>. (Graduação em Fisioterapia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Felipe Safons. <b>Fatores motivacionais para a prática de futebol de campo em jovens atletas</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0390762757228334">Phillip Vilanova Ilha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Fernanda de Lima Pinheiro. <b>Artefatos pedagógicos o ensino de Ciências da Natureza em uma abordagem interdisciplinar e de inovação.</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Fernanda Gomes. <b>Barreiras e facilitadores do processo de inclusão de estudantes com Paralisia Cerebral no Ensino Regular</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9971842553577002">Susane Graup</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Franciele Caroline Fernandes Ramos. <b>O experimento do feijão: uma nova abordagem experimental</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Gabriel Lannes Duering. <b>Relatório de Estágio Curricular</b>. (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8978799324980898">Mirela Noro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Graziela Scheuer Gomes. <b>Judicialização de medicamentos em Uruguaiana-RS</b>. (Graduação em Farmácia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Guilherme Salgado Carrazoni. <b>Comparação de variáveis de aptidão física relacionada à saúde e ao desempenho entre escolares que participam ou não de educação física escolar e/ou equipes de competição escolar</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4569568927785852">Leonardo Magno Rambo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Jéssica Almeida Isbarrola. <b>Percepções de estagiários da Educação Física sobre o estágio supervisionado na Educação Infantil</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Jéssica Mello Lopes e Vânela Soares. <b>Percepção de pais ou responsáveis sobre a prática de Educação Física na Educação Infantil e Anos Iniciais</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Lidiane Kelling. <b>A fitorremediação de corantes de tecido: uma proposta experimental de Educação Ambiental</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Marina Kônig Lauer. <b>Assimetrias de força muscular influenciam assimetrias na marcha de idosos?</b>. (Graduação em Fisioterapia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Mateus Cristofari Gayer. <b>Avaliação Toxicológica do herbicida Sulfentrazone (BORAL 500SCr) em Drosophila melanogaster</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Matheus Dotto Pereira. <b>Efeito da hora do dia sobre sobre o desempenho e fadiga em saltos verticais</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico Unipampa. 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/0316035030727687">Marcos Roberto Kunzler</a>, <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Mirelli Maycá. <b>Análise dos torques articulares em idosos na tarefa de sentar e levantar</b>. (Graduação em Fisioterapia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Murilo Ricardo Sigal Carriço. <b>Quantificação de compostos fenólicos e potencial antioxidante de extratos de plectranthus neochilus sobre variação nas condições de infusão</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Nira Regina Farias. <b>Inserção da temática ambiental nos cursos de licenciatura da Universidade Federal do Pampa - UNIPAMPA</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0473681435809042">Ailton Jesus Dinardi</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>PABLO CALEGARO DALLA CORTE. RELATÓRIO DE ESTÁGIO SUPERVISIONADO FINAL EM MED. <b>VETERINÁRIA</b>. (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8056365542183068">Ricardo Pedroso Oaigen</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Paula Celina Sobral Gavião. <b>Adesão, permanência e barreiras percebidas na prática do futebol</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0390762757228334">Phillip Vilanova Ilha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Pricyele Serpa. <b>Medicamentos na Pediatria</b>. (Graduação em Farmácia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Rafael Magrini da Silva. <b>PREVALÊNCIA DO USO DE ESTEROIDES ANDRÓGENOS ANABOLIZANTES (EAAS) NO BRASIL: UMA REVISÃO SISTEMÁTICA</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/4569568927785852">Leonardo Magno Rambo</a>, <a href="http://lattes.cnpq.br/9971842553577002">Susane Graup</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Ramon Felipe Duarte da Rosa Pereira. <b>Educação Física na 1ª série do ensino fundamental: contribuições na aptidão física e no desenvolvimento cognitivo</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0390762757228334">Phillip Vilanova Ilha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Renata Arruda de Melo Duarte e Ramon Duarte da Rosa Pereira. <b>Educação Física nos anos iniciais do ensino fundamental e suas contribuições no desenvolvimento cognitivo, aptidão física e desempenho escolar</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Romeu Neres Cavassa. <b>Impacto de projetos sociais na vida de seus ex-participantes</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/0390762757228334">Phillip Vilanova Ilha</a>, <a href="http://lattes.cnpq.br/9971842553577002">Susane Graup</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Ruth Margô Galarça Rodrigues. <b>Parecer descritivo no Ensino Fundamental na área de Ciências da Natureza: limites e possibilidades para inovação pedagógica</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>THAIS LOPES GONÇALVES. RELATÓRIO DE ESTÁGIO SUPERVISIONADO FINAL EM MED. <b>VETERINÁRIA</b>. (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8056365542183068">Ricardo Pedroso Oaigen</a>.</font></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>WILLIAN KLEIN. RELATÓRIO DE ESTÁGIO SUPERVISIONADO FINAL EM MED. <b>VETERINÁRIA</b>. (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8056365542183068">Ricardo Pedroso Oaigen</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Aline Lorenset. <b>Revisão bibliográfica sobre nanoparticulas</b>. (Graduação em Farmácia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Amanda Machado Teixeira. <b>INCLUSÃO DE ESTUDANTES COM SÍNDROME DE DOWN NAS AULAS DE EDUCAÇÃO FÍSICA ESCOLAR DE URUGUAIANA/RS</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Anelise Pereira Bordignon. <b>Análise epistemológica das metodologias de ensino de professores(as) da área de Ciências da Natureza (Registro SIPPEE-UNIPAMPA sob nº 10.046.15)</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Anna Paula Barp. <b>A prevalência da Síndrome do Esgotamento Profissional e fatores associados em professores do ensino fundamental da rede municipal de Uruguaiana/RS</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9971842553577002">Susane Graup</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Ariadna Boldori. <b>Caracterização da prática e lesões em bailarinas realizando ou não treinamento complementar</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, Programa Institucional de Iniciação à Docência. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Brasilia Castelhano Soares. <b>A IMPORTÂNCIA DA EXPERIMENTAÇÃO NO ENSINO DE CIÊNCIAS PARA O NÍVEL FUNDAMENTAL</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Bruna Adamar Castelhano Soares. <b>Atividade Física de universitários: conhecimento e perspectiva para a prática na instituição</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7751701952514459">Gabriel Gustavo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Bruna Medina de Quevedo. <b>PIBID E A FORMAÇÃO INICIAL DE PROFESSORES DE EDUCAÇÃO FÍSICA</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Camila Thomazi Ruviaro. <b>A inserção da física nos livros didáticos de ciências do 4º ano do ensino fundamental</b>. (Graduação em Licenciatura em Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3006889738861726">Carla Beatriz Spohr</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Carla Rosângela Bairros Alves. <b>Análise das mudanças na Meta 4 do PNE pelo PEE do Rio Grande do Sul e PME de Uruguaiana</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0473681435809042">Ailton Jesus Dinardi</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Carlos Eduardo da Rosa Silva. <b>Desenvolvimento e avaliacao biologica de Nanoparticulas polimericas contendo anti-inflamatórios</b>. (Graduação em Farmácia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Carlos Luciano Alves. <b>TEMATIZANDO O ESPORTE DE ORIENTAÇÃO NOS ANOS FINAIS DO ENSINO FUNDAMENTAL</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Cecília Elenir dos Santos Rocha. <b>O uso de mapas conceituais como instrumento didático para identificar indícios de aprendizagem significativa</b>. (Graduação em Licenciatura em Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3006889738861726">Carla Beatriz Spohr</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Christina Manfio Christmann. <b>dEfesa de relatório do estagio supervisionado em Medicina Veterinária</b>. (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8056365542183068">Ricardo Pedroso Oaigen</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Daniele Medeiros e Sabrina Dornelles. <b>Fatores de risco de doenças crônicas e fatores associados em usuários do Centro de Atenção Psicossocial (CAPSII) de Uruguaiana/RS</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9971842553577002">Susane Graup</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Danillo Baptista Pereira. <b>Estudo de grupos farmacofóricos de chalconas com atividade contra cepas de Staphylococcus aureus e seu emprego em triagem virtual de novos fármacos</b>. (Graduação em Farmácia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4455461576886254">Favero Reisdorfer Paula</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Deivid Cristiano Cooper Alves. <b>Prevalência de uso das acadêmias ao ar livre e fatores sociodemográficos e de saúde associados em adultos de Uruguaiana-RS</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7751701952514459">Gabriel Gustavo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Diego Renato Dias Goulart. <b>Experiências sobre o rugby na educação física escolar</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7751701952514459">Gabriel Gustavo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Dérick dos Santos Noronha. <b>Padronização de um modelo experimental de Diabetes mellitus tipo 1 e avaliação de parâmetros de estresse oxidativo em jundiá (Rhamdia quelen)</b>. (Graduação em Aquicultura) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Eduardo Amandia Marçal Rodrigues. <b>O uso de um sistema de som automotivo gerador de energia em uma proposta de ensino por investigação</b>. (Graduação em Licenciatura em Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3006889738861726">Carla Beatriz Spohr</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Emerson Juliano dos Santos Silva. <b>Avaliação da fitorremediação de propanil, 3,4-DCA e 3,5-DCA por Pistia Stratiotes</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Evelen da Mota Frescura. <b>Caracterização clínica e bioquímica de atletas de futsal feminino</b>. (Graduação em Fisioterapia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Felipe Reinheimer dos Santos. <b>Relatório de Conclusão de Curso</b>. (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8978799324980898">Mirela Noro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Flavio Plautz. <b>A conscientização sobre zoonoses utilizando atividades lúdicas</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Frederico de Araujo Flores. <b>O voleibol na educação física escolar: análise sobre a abordagem dos aspectos táticos durante as aulas</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7751701952514459">Gabriel Gustavo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Gabrieli Deponti Bombach. <b>PREVALÊNCIA DE DORES MUSCULOESQUELETICAS E FATORES ASSOCIADOS EM TRABALHADORES DO COMÉRCIO DE URUGUAIANA/RS</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9971842553577002">Susane Graup</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Guilherme Salgueiro Goulart. <b>A produção do conhecimento a respeito da formação inicial de professores: desafios e expectativas</b>. (Graduação em Licenciatura em Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3006889738861726">Carla Beatriz Spohr</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Gustavo Salgado Carrazoni. <b>Educação física e esporte na escola: associação com o nível de atividade física em adultos jovens</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7751701952514459">Gabriel Gustavo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Gustavo Santi. <b>Avaliação da toxicidade in vitro e in silico e estudo da influência estrutura-toxicidade de 4´-aminochalconas</b>. (Graduação em Farmácia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4455461576886254">Favero Reisdorfer Paula</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Isabelle Nunes Miiller. <b>Relatório de conclusão de curso</b>. (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8978799324980898">Mirela Noro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Jean Rodrigo Thomaz. <b>As inteligências múltiplas e os processos de avaliação de aprendizagem</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Jeferson Maurício Nolasco Arcaro. <b>Potencial farmacológico de novos compostos contra a toxicidade induzida por organofosforado em Artemia salina</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1205982002582299">Simone Pinton</a>.</font></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Jessé Pacheco Fernandes. <b>Estudo de modelagem molecular e de relações quantitativas entre estrutura-atividade antilamárica de compostos derivados de chalconas biotivas</b>. (Graduação em Farmácia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4455461576886254">Favero Reisdorfer Paula</a>.</font></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Leonardo Ghisolfi Rodrigues. <b>Educação em segurança e saúde no trabalho: questões possíveis para o ensino médio</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8442280124362170">Fabiane Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>LUIS FERNANDO PELLEGRINI FILHO. <b>Defesa de relatório do estagio supervisionado em Medicina Veterinária</b>. (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8056365542183068">Ricardo Pedroso Oaigen</a>.</font></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Maiara Bairros de Bastiani. <b>Efeito do pré-tratamento com ácido siríngico sobre as disfunções motoras e oxidativas induzidas pela exposição ao alumínio em Drosophila melanogaster</b>. (Graduação em Farmácia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1134532326779900">Robson Luiz Puntel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Marcos Ferrari. <b>Prevalência de uso das acadêmias ao ar livre e fatores sociodemográficos e de saúde associados em adultos de Uruguaiana-RS</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7751701952514459">Gabriel Gustavo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Maria Luisa Candido Zago. <b>Fitorremediação do herbicida imazetapir por alface d?água (Pistia stratiotes)</b>. (Graduação em Farmácia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Marianne Pires da Silva. <b>Efeitos da exposição ao glifosato sobre biomarcadores de estresse oxidativo em jundiás (Rhamdia quelen)</b>. (Graduação em Aquicultura) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>Marina Monteiro Guedes. <b>Potencial farmacológico de nanocápsulas poliméricas contendo a associação de antiinflamatório e antioxidanteem um modelo de Doença de Alzheimer em roedore</b>. (Graduação em Enfermagem) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1205982002582299">Simone Pinton</a>.</font></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>Marília de Soares Braga. <b>As experiências que constroem a prática pedagógica: um estudo do tipo etnográfico com professores de Educação Física do município de Uruguaiana ? RS.</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>Matheus Chimelo Bianchini. <b>Estudo do efeito protetor do extrato aquoso de Peumus boldus e do alcalóide boldina contra a toxicidade induzida por manganês em Drosophila melanogaster</b>. (Graduação em Farmácia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1134532326779900">Robson Luiz Puntel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Mônica Almeida de Oliveira. <b>Valorização dos profissionais em educação prevista no Plano Nacional de Educãção</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0473681435809042">Ailton Jesus Dinardi</a>.</font></td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>RUDINEI COPCESKI. <b>ESTUDO DA MARGEM E MARKUP NA COMERCIALIZAÇÃODO PEIXE NATIVO NA CIDADE DE URUGUAIANA/RS</b>. (Graduação em curso Superior de Tecnologia em Aquicultura) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8606207704187820">Marco Aurélio Alves de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>Samanta Iara Nardes. <b>Relatório de Conclusão de curso</b>. (Graduação em Medicina Veterinária) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8978799324980898">Mirela Noro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>Silvana Chaves Araujo. <b>Livros de Monteiro Lobato enquanto artefato pedagógico no ensino de ciências</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8442280124362170">Fabiane Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>Taís Prates Muler. <b>As experiências que constroem a prática pedagógica: um estudo do tipo etnográfico com professores de Educação Física do município de Uruguaiana ? RS.</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>Thiago Francisco Rodrigues e Carlos Eduardo Izaguirre. <b>O espaço ocupado pela educação física noa anos iniciais do Ensino Fundamental</b>. (Graduação em Educação Física) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>Vera Beatriz Borgmann Reppeto. <b>Análise comparativa das mudanças nas estratégias das Metas 2 e 3 do PNE pelo PEE do Rio Grande do Sul e PME de Uruguaina</b>. (Graduação em Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0473681435809042">Ailton Jesus Dinardi</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:24:59<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

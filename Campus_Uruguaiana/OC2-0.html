@@ -1,0 +1,243 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Uruguaiana</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Uruguaiana</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Dissertação de mestrado'}, 
+series: [{data: [[2016,
+18],
+[2017,
+13],
+[2018,
+14]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Dissertação de mestrado</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 45<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Cacildo dos Santos Machado. <b>Influências e e impactos da atual política educacional na gestão administrativo-pedagógica do Instituto Federal Sul-rio-grandense,campus Santana do Livramento</b>. Dissertação (Mestrado em Mestrado em Administração) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1780371370918902">Camila Ceolin da Silva</a>. <b>Adaptações neuromecânicas agudas nos membros inferiores em resposta à corrida descalça</b>. Dissertação (Mestrado em EDUCAÇÃO FÍSICA) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9024651311300971">Camila Coelho Rodrigues</a>. <b>Estudo da apocinina, diapocinina e derivados: Síntese, modelagem molecular, avaliação da atividade aceptora de radicais e neuroprotetora frente a sintomas da doença de Parkinson</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4455461576886254">Favero Reisdorfer Paula</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Denize Milena Almeida Santos. <b>Avaliação do potencial anti-inflamatóorio e citotóxico de nannoparticulas de reina em modelo animal</b>. Dissertação (Mestrado em Qualidade Ambiental) - Universidade Feevale, . 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9998416953507852">Geovana da Cruz Pereira</a>. <b>Estudo de viabilidade de fitorremediação de sulfentrazone (Boral 500) por Boldo Gambá (Plactranthus neochilis) em meio aquoso</b>. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5318786079181031">Gislaine Regina Santos dos Santos</a>. <b>Efeitos agudos da corrida na sensibilidade, pressão plantar e estabilidade corporal de corredores</b>. Dissertação (Mestrado em EDUCAÇÃO FÍSICA) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0722871799239620">Janice Machado Villela</a>. <b>DISTOCIA: FATORES DE RISCO E IMPACTO NA SAÚDE E PRODUÇÃO DE VACAS LEITEIRAS</b>. Dissertação (Mestrado em CIÊNCIA ANIMAL) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8978799324980898">Mirela Noro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6850621290147009">Jessica Izoton</a>. <b>Desenvolvimento e avaliacao biologica de Nanoparticulas polimericas</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5583802330402324">Liege Brum Porto</a>. <b>Efeitos do foam roller sobre a dor lombar e o desempenho de corredores</b>. Dissertação (Mestrado em EDUCAÇÃO FÍSICA) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2867613977243069">Liver Alexandre Arnolde Priario</a>. <b>Efeitos de um treinamento multicomponente sobre o desempenho funcional e cognitivo de idosos</b>. Dissertação (Mestrado em EDUCAÇÃO FÍSICA) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6246849412827476">Luis Roberval Bortoluzzi Castro</a>. <b>O Bioma Pampa como tema de investigação no Ensino Médio</b>. Dissertação (Mestrado em Programa de Pós Graduação de Educação em Ciências) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2760002240063004">Edward Frederico Castro Pessano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Marcos Vinicius Dalagostini Bidarte. <b>Gênero e Relações de Trabalho: uma análise no município gaúcho de Santana do Livramento</b>. Dissertação (Mestrado em Mestrado em Administração) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Maurício Rodrigues Parra. <b>Análise da produção acadêmica na graduação e pós-graduação na área de Ciências da Natureza da Universidade Federal do Pampa</b>. Dissertação (Mestrado em Programa de Pós Graduação de Educação em Ciências) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2760002240063004">Edward Frederico Castro Pessano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2558699485502251">Álvaro Sosa Machado</a>. <b>Efeitos da suplementação com extrato de chá verde sobre biomarcadores de fadiga e desempenho neuromuscular</b>. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Carlene Lima. <b>Intenções, Tensões e Contradições na Formação Acadêmico-profissional para os(as) Coordenadores(as) Pedagógicos(as) da Rede Municipal de Ensino de São Lourenço do Sul.</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9608080126766096">Claudia Alves Ortiz Gularte</a>. <b>Efeito do ácido siríngico nas alterações comportamentais e oxidativas induzidas por cloreto de alumínio em Drosophila melanogaster</b>. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1134532326779900">Robson Luiz Puntel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Cátia Silene Carrazoni Lopes Viçosa. <b>Investigações acerca da abordagem do tema Meio Ambiente e do desenvolvimento de ações interdisciplinares no Ensino Fundamental: Um estudo de caso</b>. Dissertação (Mestrado em Programa de Pós Graduação de Educação em Ciências) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/2760002240063004">Edward Frederico Castro Pessano</a>, <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Dandara Fidélis Escoto. <b>Uso da Pistia stratiotes como fitorremediadora de recurso shídricos contaminados por clomazone</b>. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1746995870631527">Eduardo Massoco Rios</a>. <b>Determinação da distancia de alcance dos pesticidas utilizados em forma de spray automático</b>. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Emerson de Lima Soares. <b>As representações do corpo humano nas práticas de professoras de Ciências do Ensino Fundamental</b>. Dissertação (Mestrado em Programa de Pós Graduação de Educação em Ciências) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/2760002240063004">Edward Frederico Castro Pessano</a>, <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6642051569443991">Fernando Gomes Ceccon</a>. <b>Influência do risco de queda na marcha com obstáculos em idosos</b>. Dissertação (Mestrado em EDUCAÇÃO FÍSICA) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3868528104536319">João Ricardo Malheiros de Souza</a>. <b>Injeção Intracitoplasmática de Espermatozoide: Métodos de Ativação Oocitária e Desestabilização da Membrana Espermática</b>. Dissertação (Mestrado em Medicina Veterinária) - Universidade Federal de Santa Maria, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5837260966665885">Paulo Bayard Dias Goncalves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2427953243602951">Mauricio Parra</a>. <b>Análise da Produção Acadêmica dos Cursos de Ciências da Natureza da Unipampa</b>. Dissertação (Mestrado em Programa de Pós Graduação de Educação em Ciências) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2760002240063004">Edward Frederico Castro Pessano</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1045447425802459">Otávio Backes Meotti</a>. <b>Escore de enchimento ruminal como ferramenta de monitoramento da saúde em vacas leiteiras no período de transição</b>. Dissertação (Mestrado em CIÊNCIA ANIMAL) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8978799324980898">Mirela Noro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2700251432167121">Renato Ribeiro Azevedo</a>. <b>Influência da prática do futebol sobre características neuromecânicas dos pés de jovens futebolistas</b>. Dissertação (Mestrado em EDUCAÇÃO FÍSICA) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Rui Carlos Gomes Dorneles. <b>Dependência de exercício físico em academias de uma cidade da fronteira oeste do Rio Grande do Sul</b>. Dissertação (Mestrado em Educação Física) - Universidade Federal de Pelotas, . 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/7751701952514459">Gabriel Gustavo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2940653151754341">Willian da Silva</a>. <b>Efeito da suplementação com extrato do chá verde sobre o dano muscular e dor muscular de início tardio</b>. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alvaro Sosa Machado. <b>Efeitos da suplementação com extrato do chá verde sobre biomarcadores de fadiga e desempenho muscular</b>. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1571752069730472">Mauren Assis de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1241523269166055">Bruna Piaia Ramborger</a>. <b>Fitorremediação do 2,4-Diclorofenoxiacético pelo Plectranthus neochilus</b>. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0231989094086955">Carmem Lúcia dos Santos Machado</a>. <b>Síntese, modelagem molecular e avaliação da atividade aceptora de radicais e antibacteriana de chalconas derivadas da apocinina e da diapocinina</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4455461576886254">Favero Reisdorfer Paula</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Carolina Baeza. <b>Evaluación de la calidad de la canal y de la carne de corderos y su relación con los indicadores de salud y estrés</b>. Dissertação (Mestrado em Magister Ciencias Mención Salud Animal) - Universidad Austral de Chile, . 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/8978799324980898">Mirela Noro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Deividi Soares. <b>Avaliação do efeito do pentilenotetrazol e 4-aminopiridina sobre os parâmteros de sobrevivência, locomotores e bioquímicos em Drosophila melanogaster</b>. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1134532326779900">Robson Luiz Puntel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1125831330641800">Emmanuel Souza da Rocha</a>. <b>Efeito da caminhada prolongada sobre a cinemática da marcha de idosos ativos e sedentários</b>. Dissertação (Mestrado em EDUCAÇÃO FÍSICA) - Universidade Federal de Santa Maria, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1742001049196835">José Luiz Ribeiro Portela</a>. <b>Estudo comparativo do extrato aquoso de Ilex paraguariensis e de seus compostos isolados no dano oxidativo em eritrócitos humano em diferentes tempos de exposição</b>. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1134532326779900">Robson Luiz Puntel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Juliana Campodonico Madeira. <b>Efeito do ultrassom associado ao gel de Ilex Paraguariensis sobre a inflamação muscular induzida por carragenina em ratos.</b>. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1571752069730472">Mauren Assis de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4051532497223225">Kelle Velasques</a>. <b>Desenvolvimento de formulações nanoparticuladas para o tratamento de malaria cerebral</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5198789811138759">Luana Roberta Michels</a>. <b>Desenvolvimento de sistemas nanoparticulados contendo antimaláricos</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Marina Bianchin. <b>CARACTERIZAÇÃO FOTOMÉTRICA DE AGLOMERADOS ESTELARES NAS REGIÕES W31 E NGC6334</b>. Dissertação (Mestrado em Física) - Universidade Federal de Santa Maria, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0169570927376387">Morgana Alves de Britto</a>. <b>Influência de roupas compressivas na cinética e cinemática de saltos e aterrissagens</b>. Dissertação (Mestrado em EDUCAÇÃO FÍSICA) - Universidade Federal de Santa Maria, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3538301304445412">Márcio Tavares Costa</a>. <b>Avaliações toxicológicas da zootoxina de Philodryas patagoniensis (Serpente: Dipsadidae)</b>. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6034018165316125">Mário Olavo da Silva Lopes</a>. <b>Abordagem e Representação do Negro no Livro Didático de Ciências</b>. Dissertação (Mestrado em Educação em Ciências Quìmica da Vida e Saúde ( Ufsm - Furg)) - Universidade Federal do Rio Grande do Sul, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Patrícia Becker Engers. <b>Desenvolvimento de um instrumento para identificar as barreiras para a prática de atividade física em crianças</b>. Dissertação (Mestrado em Educação Física) - Universidade Federal de Pelotas, . 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/7751701952514459">Gabriel Gustavo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8959456606054108">Pedro Silvelo Franco</a>. <b>Análise da repetibilidade na pressão plantar durante a marcha de crianças, adultos e idosos</b>. Dissertação (Mestrado em EDUCAÇÃO FÍSICA) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Silene Gonçalves Silva Comin. <b>A formação acadêmico-profissional de professores do Ensino Médio: reflexões sobre a interdisciplinaridade e a contextualização na prática educativa.</b>. Dissertação (Mestrado em Mestrado Profissional em Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Willian da Silva. <b>Efeito da suplementação com chá verde sobre o dano muscular e dor muscular tardia resultante do exercício.</b>. Dissertação (Mestrado em BIOQUÍMICA) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1571752069730472">Mauren Assis de Souza</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:24:59<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

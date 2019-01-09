@@ -1,0 +1,425 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Uruguaiana</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Uruguaiana</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de participação em eventos'}, 
+series: [{data: [[2016,
+55],
+[2017,
+41],
+[2018,
+40]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de participação em eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 136<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>18th IUAES World Congress - World (of) encounters: the Past, Present and Future of Anthropological KnowledgeKe. Academic feminism and anthropology in Brazil: mapping the constitution of brazilian feminist anthropology. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>2nd Latin American Congress of Clinical and Laboratorial Toxicology. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>3º Workshop de corrida de rua. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>41a Reunião Anual da Sociedade Brasileira de Química. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>5º Congresso Uruguaio de Química Analítica. Estequiometria como prática inclusiva para o aluno deficiente visual. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>7º ENAS - Encontro Nacional de Aprendizagem Significativa. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>7º ENAS - Encontro Nacional de Aprendizagem Significativa.Asserção do processo de ensino e aprendizagem como campo conceitual. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>7º ENAS - Encontro Nacional de Aprendizagem Significativa.Minicurso: Uma UEPS para o ensino de eletromagnetismo a partir de um circuito elétrico transformador de energia sonora em elétrica. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>7º ENAS - Encontro Nacional de Aprendizagem Significativa.Proposta de ensino: Utilizando um organizador prévio como estratégia para a aprendizagem do conceito de corrente ellétrica. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>7º ENAS - Encontro Nacional de Aprendizagem Significativa.Uma UEPS para o ensino de eletromagnetismo a partir de um sistema de som automotivo transformador de energia elétrica em sonora: identificando evidências de aprendizagem significativa. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>8th World Congress of Biomechanics. National Biomechanics Day: STEM outeach for high school students through the 21st century's breakthrough science. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>9th VISTA Variables in the Vía Lactea Survey.The connection between W31 complex and the stellar cluster towards. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Colóquios em Fisiologia. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Curso de formação para professores e licenciandos: Dialogando estratégias para o trabalho com Educaçao Ambiental.Inovação Pedagógica na Educação Ambiental: reflexões iniciais. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Encontro dos Conselhos Municipais de Educação da Região da ANFRO RS.Abordagem geral sobre a política curricular com foco na Base Nacional Comum Curricular - BNCC. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>I Congreso Iberoamericano de ciencias del ciclismo. Estudio de las asimetrías en la técnica de pedaleo. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>I Semana de Integração em Manejo e Tecnologia de Recursos Renováveis ? SIMATER.DESENVOLVIMENTO EM ALTURA E DIÂMETRO DE Eucalyptus spp. EM DIFERENTES ESPAÇAMENTOS PARA A PRODUÇÃO DE BIOMASSA FLORESTAL. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>I SEMANA DE INTEGRAÇÃO EM MANEJO E TECNOLOGIAS DE RECURSOS RENOVÁVEIS ? 2018.Viabilidade econômico-financeira de povoamentos de Eucalyptus spp. sob diferentes espaçamentos para fins energéticos.. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>I Seminário de Formação Pedagógica do Curso de Fisioterapia. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>I Seminário de Formação Pedagógica do Curso de Fisioterapia.Reflexões teórico-práticas sobre o processo de ensinagem no Ensino Superior. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>I Seminário Elas nas Exatas. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>II Encontro Regional de Ensino de Ciências. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>II EREC - Encontro Regional de Ensino de Ciências.A EXPERIMENTAÇÃO COMO PROPOSTA NO ENSINO DE QUÍMICA. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>II Seminário de Educação: educar para transformar.A inovação pedagógica na formação acadêmico-profissional dos professores da Educação Básica.. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>III Diálogo Elas nas Exatas. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>International Society of Biomechanics in Sports 2018 Auckland Conference. Member of the Scientific Committee of Reviewers. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>IV Congress of Brazilian Association of Pharmaceutical Sciences. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>IX Congresso Brasileiro de Comportamento Motor. Me convença se for capaz: a variabilidade é boa para o movimento humano. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>IX Simpósio em Neuromecânica Aplicada.Risco x benefícios na corrida de longa duração. 2018. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Reunião Científica da Regional Sul da ANPEd ? XII ANPEd Sul. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Reunião Científica da Regional Sul da ANPEd ? XII ANPEd Sul.BNCC PARA QUE(M)? Disfarces e contradições num processo marcado por muitas (in)definições. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Reunião Técnica INEP. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>V Seminário da Associação Nacional de Políticas e Administração da Educação (ANPAE) - Regional Sul,. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>V Seminário da Associação Nacional de Políticas e Administração de Educação (ANPAE) - Regional Sul.Políticas de formação e valorização dos profissionais da educação. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>VI Congresso Internacional de Educação. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>X Simpósio de Neuromecânica Aplicada. 2018. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>XIX Encontro Nacional de Didática e Práticas de Ensino - XIX ENDIPE.Educação Permanente: estratégias metodológicas em questão. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>XV Encontro sobre Investigação na Escola.A INSERÇÃO DE LUDICIDADE NO PROCESSO DE ENSINO- APRENDIZAGEM DE QUÍMICA: UM DESAFIO PARA O ENSINO MÉDIO. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>XXXIII Federação de Sociedades de Biologia Experimental. Physical Exercise and functional recovery after stroke. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>XXXIII Federação de Sociedades de Biologia Experimental. The importance of Science divulgation as a carrier option for girls. 2018. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1ª Conferência Municipal de Promoção da Igualdade Racial de Uruguaiana. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>2017 Edition of the International Association for Media and Communication Research Conference. Rafaela Silva y Carolina Marin. Media representations of Olympic heroines at the Rio 2016 Games. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>36º Simpósio Nacional de Educação Física. Aplicações Biomecânicas no Esporte: Potência e Velocidade. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>38th World Congress of the International Union of Physiological Sciences. Does thermography data correlate with inflammatory markers in condition of muscle soreness after eccentric exercise?. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>69ª Reunião Anual da SBPC. Membro da Comissão Científica. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>6º Fórum Internacional ECOINOVAR.GESTÃO PARTICIPATIVA NA ATIVIDADE PESQUEIRA DO RIO GRANDE DO SUL. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>6º Fórum Internacional ECOINOVAR.PLANEJAMENTO DA PRODUÇÃO DE TILÁPIA NA FRONTEIRA OESTE DO RIO GRANDE DO SUL. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>6º Fórum Internacional ECOINOVAR.UTILIZAÇÃO DA PLANILHA ELETRÔNICA DO EXCEL COMO FERRAMENTA NO GERENCIAMENTO DA PRODUÇÃO AQUÍCOLA. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>9o Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE). 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>9º Salão Internacional de Ensino, Pesquisa e Extensão.Avaliador de Resumos. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Bate-papo científico. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Convenção das Licenciaturas. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Encontro da Comission Binacional de Meio Ambiente e Salud.Educação Ambiental em espaço não formal. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>FÓRUM DAS LICENCIATURAS / SEMINÁRIO INSTITUCIONAL PIBID-UNIPAMPA. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>I Congresso de Obesidade, Doenças Metabólicas e Exercício Físico. Adaptações Neuromotoras na Obesidade. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>I Encontro Regional de Ensino de Ciências ? I EREC. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>I Encontro Regional de Ensino de Ciências. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>I Simpósio de Fisioterapia Esportiva aplicada ao triathlon, corrida e ciclismo.Bikefit: biomecânica x aerodinâmica x performance. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>I Simpósio integrado dos PPGs da Unipampa. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>II Workshop de Técnicas Bioquímicas Aplicadas à Neurociência. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>IUPS ADInstruments Teaching Workshop 2017. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>IV Seminario Corpos Gêneros, Sexualidades e relações étnico-raciais na educação.Raça e educação: os (descaminhos) da educação brasileira. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>IV Seminário Corpos, Gêneros, Sexualidades e Relações Ètnico-raciais: avanços e e retrocessos nas práticas sociais e na produção de subjetividades.Apontamentos sobre política educacional em tempos de. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Jornada Goiana de Ciência e Saúde.A biomecânica aplicada aos tecidos orgânicos. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Jornada Goiana de Ciência e Saúde.Análise Biomecânica no Ciclismo. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Seminário de Inovação Pedagógica: repensando estratégias de formação acadêmico-profissional em diálogo entre Educação Básica e Educação Superior.RELATO DO USO DE ESTRATÉGIAS PEDAGÓGICAS NA INCLUSÃO. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Seminário Reflexivo da Semana Nacional da Consciência Negra. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>VII Encontro Estadual de Ensino de Física RS. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>VIII Congresso Brasileiro e VI Congresso Internacional da Sociedade Nacional de Fisioterapia Esportiva. Tecnologias em Fisioterapia Esportiva. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>VIII Simpósio em Neuromecânica Aplicada.VIII Simpósio em Neuromecânica Aplicada. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>X Seminário Internacional de Educação Superior.FORMAÇÃO ACADÊMICO-PROFISSIONAL DE PROFESSORES(AS): COM-PARCERIA UNIVERSIDADE E EDUCAÇÃO BÁSICA. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>XI ENPEC (Encontro Nacional de Pesquisa em Educação em Ciências).Artefatos Pedagógicos para o Ensino de Ciências da Natureza: reflexões acerca de uma prática inovadora e mobilizadora para o conhecimento. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>XI Seminário Educação Infantil: políticas e pedagogias para a pequena infância.Intenções, tensões e contradições: um olhar sobre a formação acadêmico-profissional dos(as) coordenadores(as) pedagógicos(as) das escolas de educação infantil de São Lourenço do Sul. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>XIII Semana de Investigación. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>XIII Semana de Investigación.Concepções de ensino e aprendizagem e formação inicial: um estudo de caso. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>XVI Encontro Paranaense de Educação Ambiental.Meio Ambiente e Educação Ambiental: concepções dos graduandos de uma universidade pública. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>XVII Congresso Brasileiro de Biomecânica. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>XVII Congresso Brasileiro de Biomecânica. I Encontro Latino Americano de Biomecânica. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>XX Congresso Brasileiro de Ciências do Esporte e VII Congresso Internacional de Ciências do Esporte. Narrativas histórico-culturais sobre a identidade nacional na abertura dos Jogos Olímpicos Rio/2016: repercussões em portais jornalísticos e no twitter. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>XXIV Simpósio de Engenharia de Produção.Avaliador de Resumos. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>XXVIII Simpósio de Política e Administração da Educação.A formação docente no viés da inovação pedagógica: processo em construção. 2017. (Simpósio).</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1ª MEEPI - Mostra de Educação: ensino por práticas investigativas.ANÁLISE INVESTIGATIVA DIANTE DA METODOLOGIA E DAS TEORIAS DA EDUCAÇÃO ENCONTRADAS NO PROJETO POLÍTICO-PEDAGÓGICO (PPP) E EM PRÁTICAS NA ÁREA DE CIÊNCIAS DA NATUREZA.. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>1º Seminário de Educação Ambiental: contribuindo com novos olhares.O papel da educação na gestão ambiental. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>1º Workshop de Compostos Bioativos e Qualidade de Alimentos. 2016. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>8º SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>8º SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão.ARTEFATOS PEDAGÓGICOS: O PROCESSO DE (RE)CONSTRUÇÃO DO ENSINO DE CIÊNCIAS DA NATUREZA. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Colóquios em Fisiologia do Sistema Nervoso. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Colóquios em Fisiologia do Sistema Nervoso.Adaptações Neuromusculares ao Envelhecimento.. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Colóquios em Fisiologia do Sistema Nervoso.Controle Neural da Marcha. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Colóquios em Fisiologia do Sistema Nervoso.Neurociência e Educação. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Colóquios em Fisiologia do Sistema Nervoso.Neurociência e Educação. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Congresso Sul Brasileiro de Atividade Física e Saúde. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Congresso Sul Brasileiro de Atividade Física e Saúde. Diferentes percepções sobre saúde o contexto escolar. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Congresso Sul Brasileiro de Atividade Física e Saúde. Diferentes percepções sobre saúde o contexto escolar. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Encontro Astronomia nas Culturas. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>I Congreso de la Asociacion Chilena de Ciencias del Movimiento. LOWER EXTREMITY ASYMMETRY AND ITS IMPLICATION FOR PERFORMANCE AND INJURY RISK IN SPORTS. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>I Fórum de Graduação da Universidade Federal do Pampa. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>I Reunião da ABECO e V Simpósio de Ecologia Teórica. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>I Seminário de Educação Ambiental. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>I Seminário Institucional de Formação Docente da Unifesspa.Formação docente para a Educação Superior: desafios e perspectivas da Pedagogia Universitária.. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>I Seminário Institucional de Formação Docente da Unifesspa:. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>I Workshop de Técnicas Bioquímicas Aplicadas à Neurociência. 2016. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>II CONGRESS OF THE BRAZILIAN ASSOCIATION OF. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>II Encontro Humanístico Interdisciplinar e I Congresso Latino-Americano de Estudos Humanísticos Multidisciplinares. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>II Encontro Humanístico Multidisciplinar (EHM) e I Congresso Latino Americano de Estudos .... 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>III Seminário Nacional de Neurociência Aplicada à Educação - habilidades cognitivas e socioemocionais. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>III Seminário Nacional de Neurociência Aplicada à Educação - habilidades cognitivas e socioemocionais.ACESSIBILIDADE PEDAGÓGICA COM ESTRATÉGIAS DE ENSINOAPRENDIZAGEM BASEADAS NA NEUROCIÊNCIA. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Marcha, envelhecimento e neurodegeneração. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Palestra marcha, envelhecimento e neurodegeneração. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Salão UFRGS 2016 - Ações Afirmativas. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Seminário de Extensão Universitária da Região Sul - SEURS.A PRAÇA DO PARCÃO (PRAÇA DOM PEDRO II) COMO ESPAÇO PARA ATIVIDADES EDUCACIONAIS. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão.Oficina: Eletromagnetismo a partir de um circuito elétrico transformador de energia sonora em elétrica.. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Simpósio Internacional de Pesquisa em Estilos de Vida e Saúde.Obesidade na infância e adolescência: prevalência e estratégias de intervenção. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>V Congreso de la Asociación Española de Investigación de la Comunicación, Congreso Iberoamericano de Comunicación, Cultura y Cooperación. Analisis comparativo del tratamiento televisivo de la ceremonia de clausura de la Copa de Mundo FIFA Brasil 2014. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>V Congresso Ibero-Americano e VIII Congresso Luso-Brasileiro de Política e Administração da Educação. Olhar da equipe executora do Projeto Tertúlias Pedagógicas do Pampa no contexto da política de formação de professores(as). 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>V Semana Nacional do Cérebro. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>VII Simpósio em Neuromecânica Aplicada. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>VIII CONGRESSO BRASILEIRO DE COMPORTAMENTO MOTOR. COMPORTAMENTO DE IDOSOS DURANTE A LOCOMOÇÃO SOBRE ESCADAS EM DIFERENTES CONDIÇÕES DE EXERCÍCIO. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>VIII Congresso Sulbrasileiro de Ciências do Esporte. Mídia, estilo de vida saudável e idosos: a percepção docente. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>VIII Congresso Sulbrasileiro de Ciências do Esporte. Mídia, estilo de vida saudável e idosos: percepção docente.. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>World Congress on Brain, Behavior and Emotions 2016. GREEN TEA TREATMENT ATTENUATES OXIDATIVE DAMAGE AND NEUROMOTOR DEFICIT INDUCED BY AN EXPERIMENTAL MODEL OF INTRACEREBRAL HEMORRHAGE IN RATS.. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>XI Reunião Científica Regional da Associação Nacional de Pesquisa e Pós-Graduação - Anped Sul.ENSINO POR PRÁTICAS EDUCATIVAS INVESTIGATIVAS: CONSIDERAÇÕES TEÓRICO-METODOLÓGICAS NA FORMAÇÃO DE PROFESSORES(AS). 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>XIV Encontro sobre Investigação na Escola.Estágio: um momento para refletir e crescer. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>XIV Encontro sobre Investigação na Escola: "Educar para a Democracia e a Justiça Social".Raça e Educação: uma análise da edição especial "Raça Negra e Educação". 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>XIV Encontro sobre Investigação na Escola: educar democracia e justiça social.ANÁLISE INVESTIGATIVA DIANTE DA METODOLOGIA E DAS TEORIAS DA EDUCAÇÃO ENCONTRADAS NO PROJETO POLÍTICO-PEDAGÓGICO (PPP) E EM PRÁTICAS NA ÁREA DE CIÊNCIAS DA NATUREZA. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>XIV Encontro sobre Investigação na Escola: educar democracia e justiça social.ARTEFATOS PEDAGÓGICOS: CONSTRUINDO UM NOVO JEITO DE ENSINAR CIÊNCIAS DA NATUREZA. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>XIV Encontro sobre Investigação na Escola: educar democracia e justiça social.EXPERIÊNCIA DOCENTE NA FORMAÇÃO ACADÊMICO-PROFISSIONAL DE PROFESSORES(AS) COM PROPOSIÇÃO DE PROJETOS DE INVESTIGAÇÃO INTERDISCIPLINARES. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>XIV Encontro sobre Investigação na Escola: educar democracia e justiça social.RELATO DE EXPERIÊNCIA NO PROJETO DE MONITORIA EM VIVÊNCIAS INTERDISCIPLINARES EM TEORIAS DA EDUCAÇÃO E EM PRÁTICAS PEDAGÓGICAS III A PARTIR DA UTILIZAÇÃO DA PLATAFORMA MOODLE COMO FERRAMENTA DIDÁTICO-PEDAGÓGICA. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>XL Reunião Anual da SAB.THE PMS SIGNATURE OF THE SGR 1806-20 STAR CLUSTER: CONSTRAINTS ON DISTANCE. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>XX Congreso Nacional de Kinesiología. Gait biomechanics - general adaptations to the aging process. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>XXXV Simpósio de Educação Física ? 35o . SNEF.Curso 3: Formação do Professor no Ensino da EF. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>XXXV Simpósio de Educação Física ? 35o . SNEF.EDUCAÇÃO FÍSICA ESCOLAR: BRINCANDO E APRENDENDO. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>XXXV Simpósio de Educação Física ? 35o . SNEF.EXPERIÊNCIAS DA EDUCAÇÃO FÍSICA ESCOLAR. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>XXXV Simpósio de Educação Física ? 35o . SNEF.Importância do PIBID na formação inicial e continuada na Educação Física. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>XXXV Simpósio de Educação Física ? 35o . SNEF.RELATO DE EXPERIÊNCIA: A ELABORAÇÃO DE UMA FEIRA DE SAÚDE E MEIO AMBIENTE PARA ESCOLAS PARTICIPANTES DO PIBID. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>Ética nas Relações Interpessoais. 2016. (Outra).</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:24:59<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

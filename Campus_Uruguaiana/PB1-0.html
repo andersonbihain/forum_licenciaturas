@@ -1,0 +1,189 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Uruguaiana</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Uruguaiana</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Livros publicados/organizados ou edições'}, 
+series: [{data: [[2016,
+5],
+[2017,
+4],
+[2018,
+9]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Livros publicados/organizados ou edições</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 18<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>COPETTI, J. (Org.) ; SOARES, R. G. (Org.) ; FOLMER, V. (Org.). <b>Educação e saúde no contexto Escolar: compartilhando vivências, explorando possibilidades</b>. 2 ed. Uruguaiana: Universidade Federal do Pampa, 2018. v. 01, p. 183. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educação+e+saúde+no+contexto+Escolar:+compartilhando+vivências,+explorando+possibilidades&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educação+e+saúde+no+contexto+Escolar:+compartilhando+vivências,+explorando+possibilidades">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educação+e+saúde+no+contexto+Escolar:+compartilhando+vivências,+explorando+possibilidades">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>DINARDI, A. J.; CUNHA, A. L. A. (Org.) ; CASTRO, L. R. B. (Org.). <b>Educação Ambiental: Discussões através de práticas pedagógicas em Uruguaiana</b>. 1ª ed. Bagé-RS: EdUNIPAMPA ? Editora da Fundação Universidade Federal do Pampa, 2018. v. 1, p. 291. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educação+Ambiental:+Discussões+através+de+práticas+pedagógicas+em+Uruguaiana&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educação+Ambiental:+Discussões+através+de+práticas+pedagógicas+em+Uruguaiana">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educação+Ambiental:+Discussões+através+de+práticas+pedagógicas+em+Uruguaiana">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>GROSSI, M.P. (Org.) ; BONETTI, A. L. (Org.). <b>Caminhos Feministas no Brasil: teorias e movimentos sociais</b>. 1a. ed. Tubarão e Florianópolis: Copiart e Tribo da Ilha, 2018. p. 264. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Caminhos+Feministas+no+Brasil:+teorias+e+movimentos+sociais&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Caminhos+Feministas+no+Brasil:+teorias+e+movimentos+sociais">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Caminhos+Feministas+no+Brasil:+teorias+e+movimentos+sociais">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>MELLO, Elena Mª Billig; SALOMÃO DE FREITAS, Diana Paula (Org.) ; SCOLA, E. L. (Org.) ; NORONHA, D. M. (Org.) ; RODRIGUES, A. R. B. (Org.). <b>Anais do Seminário Inovação Pedagógica [recurso eletrônico]: ?Repensando estratégias de formação acadêmico-profissional em diálogo entre Educação Básica e Educação Superior?</b>. 1 ed. Uruguaiana: UNIPAMPA, 2018. v. 1, p. 137. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Anais+do+Seminário+Inovação+Pedagógica+[recurso+eletrônico]:+?Repensando+estratégias+de+formação+acadêmico-profissional+em+diálogo+entre+Educação+Básica+e+Educação+Superior?&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Anais+do+Seminário+Inovação+Pedagógica+[recurso+eletrônico]:+?Repensando+estratégias+de+formação+acadêmico-profissional+em+diálogo+entre+Educação+Básica+e+Educação+Superior?">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Anais+do+Seminário+Inovação+Pedagógica+[recurso+eletrônico]:+?Repensando+estratégias+de+formação+acadêmico-profissional+em+diálogo+entre+Educação+Básica+e+Educação+Superior?">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>OLIVEIRA, M. J. D. ; ARAUJO, S. C. ; DINARDI, A. J.. <b>nais do Seminário ?Inovação Pedagógica: repensando estratégias de formação acadêmico-profissional em diálogo entre Educação Básica e Educação Superior?</b>. 1 ed. Uruguaiana: Unipampa, 2018. v. 1, p. 137. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=nais+do+Seminário+?Inovação+Pedagógica:+repensando+estratégias+de+formação+acadêmico-profissional+em+diálogo+entre+Educação+Básica+e+Educação+Superior?&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=nais+do+Seminário+?Inovação+Pedagógica:+repensando+estratégias+de+formação+acadêmico-profissional+em+diálogo+entre+Educação+Básica+e+Educação+Superior?">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=nais+do+Seminário+?Inovação+Pedagógica:+repensando+estratégias+de+formação+acadêmico-profissional+em+diálogo+entre+Educação+Básica+e+Educação+Superior?">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>QUEROL, Marcus Morini (Org.) ; PESSANO, EDWARD CASTRO (Org.) ; MACHADO, M. M (Org.) ; OLIVEIRA, L. F. (Org.). <b>Rio Uruguai: Contribuições Científicas</b>. 1 ed. Bagé: Unipampa, 2018. v. 1, p. 249. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Rio+Uruguai:+Contribuições+Científicas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Rio+Uruguai:+Contribuições+Científicas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Rio+Uruguai:+Contribuições+Científicas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SILVA, F. F. (Org.) ; Dutra, C. M. (Org.). <b>Subprojeto PIBID Ciencias da Natureza: Ações, intervenções e reflexões dos Pibidianos</b>. 1 ed. São Leopoldo: Oikos, 2018. p. 173. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Subprojeto+PIBID+Ciencias+da+Natureza:+Ações,+intervenções+e+reflexões+dos+Pibidianos&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Subprojeto+PIBID+Ciencias+da+Natureza:+Ações,+intervenções+e+reflexões+dos+Pibidianos">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Subprojeto+PIBID+Ciencias+da+Natureza:+Ações,+intervenções+e+reflexões+dos+Pibidianos">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SILVA, F. F.; BONETTI, A. L. (Org.). <b>IV SEMINÁRIO CORPOS, GÊNEROS, SEXUALIDADES E RELAÇÕES ÉTNICO-RACIAIS NA EDUCAÇÃO</b>. 1 ed. Uruguaiana: UNIPAMPA, 2018. p. 344. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=IV+SEMINÁRIO+CORPOS,+GÊNEROS,+SEXUALIDADES+E+RELAÇÕES+ÉTNICO-RACIAIS+NA+EDUCAÇÃO&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=IV+SEMINÁRIO+CORPOS,+GÊNEROS,+SEXUALIDADES+E+RELAÇÕES+ÉTNICO-RACIAIS+NA+EDUCAÇÃO">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=IV+SEMINÁRIO+CORPOS,+GÊNEROS,+SEXUALIDADES+E+RELAÇÕES+ÉTNICO-RACIAIS+NA+EDUCAÇÃO">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SILVA, F. F.; DUTRA, C. M. (Org.). <b>Subprojeto PIBID Ciências da Natureza: ações, intervenções e reflexões de pibidianos(as)</b>. 1 ed. São Leopoldo: Oikos, 2018. p. 173. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Subprojeto+PIBID+Ciências+da+Natureza:+ações,+intervenções+e+reflexões+de+pibidianos(as)&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Subprojeto+PIBID+Ciências+da+Natureza:+ações,+intervenções+e+reflexões+de+pibidianos(as)">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Subprojeto+PIBID+Ciências+da+Natureza:+ações,+intervenções+e+reflexões+de+pibidianos(as)">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CASTRO, Luis Roberval Bortoluzzi ; CARVALHO, A. V. ; QUEROL, Marcus Morini ; PESSANO, EDWARD CASTRO. <b>Macroinvertebrados Aquáticos e a Qualidade das Águas no Pampa Brasileiro: com guia para a identificação dos principais grupos</b>. 1 ed. Bagé: Unipampa, 2017. v. 1, p. 80. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Macroinvertebrados+Aquáticos+e+a+Qualidade+das+Águas+no+Pampa+Brasileiro:+com+guia+para+a+identificação+dos+principais+grupos&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Macroinvertebrados+Aquáticos+e+a+Qualidade+das+Águas+no+Pampa+Brasileiro:+com+guia+para+a+identificação+dos+principais+grupos">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Macroinvertebrados+Aquáticos+e+a+Qualidade+das+Águas+no+Pampa+Brasileiro:+com+guia+para+a+identificação+dos+principais+grupos">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Mello, E. M. B. (Org.) ; SALOMÃO DE FREITAS, D. P. (Org.) ; SILVA, F. F. (Org.) ; LINDEMANN, R. H. (Org.). <b>ANAIS XIV ENCONTRO SOBRE INVESTIGAÇÃO NA ESCOLA: EDUCAR PARA A DEMOCRACIA E A JUSTIÇA SOCIAL [recurso eletrônico]</b>. 1 ed. Uruguaiana: Unipampa, 2017. p. 1198. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=ANAIS+XIV+ENCONTRO+SOBRE+INVESTIGAÇÃO+NA+ESCOLA:+EDUCAR+PARA+A+DEMOCRACIA+E+A+JUSTIÇA+SOCIAL+[recurso+eletrônico]&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=ANAIS+XIV+ENCONTRO+SOBRE+INVESTIGAÇÃO+NA+ESCOLA:+EDUCAR+PARA+A+DEMOCRACIA+E+A+JUSTIÇA+SOCIAL+[recurso+eletrônico]">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=ANAIS+XIV+ENCONTRO+SOBRE+INVESTIGAÇÃO+NA+ESCOLA:+EDUCAR+PARA+A+DEMOCRACIA+E+A+JUSTIÇA+SOCIAL+[recurso+eletrônico]">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>MELLO, Elena Mª Billig; SALOMÃO DE FREITAS, D. P. S. (Org.) ; SILVA, Fabiane F. (Org.) ; Lindermann, Renata Hernandez (Org.). <b>Anais do XIV Encontro sobre investigação na escola: ?educar para a democracia e a justiça social?</b>. 1 ed. Uruguaiana: UNIPAMPA, 2017. v. 1, p. 1198. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Anais+do+XIV+Encontro+sobre+investigação+na+escola:+?educar+para+a+democracia+e+a+justiça+social?&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Anais+do+XIV+Encontro+sobre+investigação+na+escola:+?educar+para+a+democracia+e+a+justiça+social?">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Anais+do+XIV+Encontro+sobre+investigação+na+escola:+?educar+para+a+democracia+e+a+justiça+social?">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>PESSANO, EDWARD C; QUEROL, Marcus Morini (Org.) ; LIMA, A. P. S (Org.) ; CASTRO, Luis Roberval Bortoluzzi (Org.). <b>Contribuição para o Ensino de Ciências: Alfabetização Científica, Aprendizagem Significativa, Contextualização e Interdisciplinaridade</b>. 1 ed. Bagé: Unipampa, 2017. v. 1, p. 112. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Contribuição+para+o+Ensino+de+Ciências:+Alfabetização+Científica,+Aprendizagem+Significativa,+Contextualização+e+Interdisciplinaridade&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Contribuição+para+o+Ensino+de+Ciências:+Alfabetização+Científica,+Aprendizagem+Significativa,+Contextualização+e+Interdisciplinaridade">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Contribuição+para+o+Ensino+de+Ciências:+Alfabetização+Científica,+Aprendizagem+Significativa,+Contextualização+e+Interdisciplinaridade">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Filipin, G.E. ; Vargas, L.S. ; Souza, Mauren Assis ; Mello-Carpes, P.B.M.. <b>Guia prático de atividades para popularização e divulgação da neurociência</b>. 1 ed. São Paulo: Livrobits, 2016. p. 173. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Guia+prático+de+atividades+para+popularização+e+divulgação+da+neurociência&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Guia+prático+de+atividades+para+popularização+e+divulgação+da+neurociência">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Guia+prático+de+atividades+para+popularização+e+divulgação+da+neurociência">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>LIMA, C (Org.) ; BICA, A. C. (Org.) ; PESSANO, Edward (Org.) ; MARINHO, J. C. B. (Org.). <b>Tertúlias Pedagógicas: Curso de formação continuada de professores na perspectiva dialógica</b>. 01 ed. Bagé: Unipampa, 2016. v. 01, p. 256. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Tertúlias+Pedagógicas:+Curso+de+formação+continuada+de+professores+na+perspectiva+dialógica&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Tertúlias+Pedagógicas:+Curso+de+formação+continuada+de+professores+na+perspectiva+dialógica">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Tertúlias+Pedagógicas:+Curso+de+formação+continuada+de+professores+na+perspectiva+dialógica">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BONETTI, A. L.; SILVA, F.F. (Org.) ; MELLO, E. B. (Org.) ; HAMPE, F. (Org.) ; BRIZOLLA, F. (Org.) ; ROSA, W. (Org.) ; CARMO, I.N. (Org.) ; SILVA, M. V. (Org.) ; FREITAS, D. P. S. (Org.) ; JESUS, S. C. (Org.) ; FARIAS, A. A. N. (Org.) ; BARROS, B. M. (Org.) ; BARROCO, L. M. (Org.) ; CAUMO, M. B. (Org.) ; BRANCO, N. L. (Org.) ; SILVEIRA, R. C. A. (Org.) ; GUTTIER, R. A. C. (Org.). <b>Gênero, Interseccionalidades e Feminismos: desafios contemporâneos para a Educação</b>. 1a. ed. São Leopoldo: Oikos, 2016. v. 1, p. 128. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Gênero,+Interseccionalidades+e+Feminismos:+desafios+contemporâneos+para+a+Educação&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Gênero,+Interseccionalidades+e+Feminismos:+desafios+contemporâneos+para+a+Educação">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Gênero,+Interseccionalidades+e+Feminismos:+desafios+contemporâneos+para+a+Educação">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SILVA, F. F.; BONETTI, A. L. (Org.) ; SOARES, C. B. (Org.). <b>III Seminário corpos, gêneros, sexualidades e relações étnico-raciais na educação [recurso eletrônico]: desafios dos feminismos e a garantia dos direitos humanos</b>. 1 ed. 2016. .<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=III+Seminário+corpos,+gêneros,+sexualidades+e+relações+étnico-raciais+na+educação+[recurso+eletrônico]:+desafios+dos+feminismos+e+a+garantia+dos+direitos+humanos&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=III+Seminário+corpos,+gêneros,+sexualidades+e+relações+étnico-raciais+na+educação+[recurso+eletrônico]:+desafios+dos+feminismos+e+a+garantia+dos+direitos+humanos">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=III+Seminário+corpos,+gêneros,+sexualidades+e+relações+étnico-raciais+na+educação+[recurso+eletrônico]:+desafios+dos+feminismos+e+a+garantia+dos+direitos+humanos">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Ângelo Luiz Bruggemann (Org.) ; BIANCHI, Paula (Org.) ; Silvan Menezes dos Santos (Org.). <b>Pesquisa e formação em Mídia-Educação Física</b>. 1 ed. Florianópolis: Tribo da Ilha, 2016. v. 1, p. 231. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Pesquisa+e+formação+em+Mídia-Educação+Física&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Pesquisa+e+formação+em+Mídia-Educação+Física">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Pesquisa+e+formação+em+Mídia-Educação+Física">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:24:59<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

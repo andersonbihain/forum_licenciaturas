@@ -1,0 +1,181 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Uruguaiana</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Uruguaiana</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Artigos aceitos para publicação'}, 
+series: [{data: [[2018,
+16]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Artigos aceitos para publicação</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 16<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BAGATINI, M. ; BERTOLIN, K. ; Bridi, A. ; Pelison, LP ; Bonadiman, BSR ; Pillat, MM ; GONÇALVES, P. B. D. ; Ulrich, H ; Schetinger, M.R.C. ; Morsch, VMM. <b>1α,25-dihydroxyvitamin D3 alters ectonucleotidase expression and activity in human cutaneous melanoma cells.</b>. JOURNAL OF CELLULAR BIOCHEMISTRY. 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=1α,25-dihydroxyvitamin+D3+alters+ectonucleotidase+expression+and+activity+in+human+cutaneous+melanoma+cells.&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=1α,25-dihydroxyvitamin+D3+alters+ectonucleotidase+expression+and+activity+in+human+cutaneous+melanoma+cells.">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=1α,25-dihydroxyvitamin+D3+alters+ectonucleotidase+expression+and+activity+in+human+cutaneous+melanoma+cells.">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BIANCHIN, M. ; LIMA, E. F. ; RIFFEL, R. A. ; Bica, E. ; BONATO, C. ; Saito, R. K.. <b>The connection between SGR 1806 − 20 and the W 31 complex probed by the VVV survey</b>. MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY. 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=The+connection+between+SGR+1806+−+20+and+the+W+31+complex+probed+by+the+VVV+survey&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=The+connection+between+SGR+1806+−+20+and+the+W+31+complex+probed+by+the+VVV+survey">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=The+connection+between+SGR+1806+−+20+and+the+W+31+complex+probed+by+the+VVV+survey">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BIANCHINI, MATHEUS C ; GULARTE, CLAUDIA ; NOGARA, PABLO ANDREI ; KRUM, BÁRBARA ; GAYER, MATEUS ; BRIDI, JESSIKA ; ROOS, DANIEL ; ROEHRS, RAFAEL ; FACHINETTO, Roselei ; PINTON, SIMONE ; AVILA, DAIANA ; HIRTH, FRANK ; ROCHA, JOAO B. T. ; PUNTEL, ROBSON. <b>Thimerosal Inhibits Drosophila melanogaster Tyrosine Hydroxylase (DmTyrH) Leading to Changes in Dopamine Levels and Impaired Motor Behavior: Implications for Neurotoxicity</b>. Metallomics. 2018. <a href="http://dx.doi.org/10.1039/C8MT00268A" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Thimerosal+Inhibits+Drosophila+melanogaster+Tyrosine+Hydroxylase+(DmTyrH)+Leading+to+Changes+in+Dopamine+Levels+and+Impaired+Motor+Behavior:+Implications+for+Neurotoxicity&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Thimerosal+Inhibits+Drosophila+melanogaster+Tyrosine+Hydroxylase+(DmTyrH)+Leading+to+Changes+in+Dopamine+Levels+and+Impaired+Motor+Behavior:+Implications+for+Neurotoxicity">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Thimerosal+Inhibits+Drosophila+melanogaster+Tyrosine+Hydroxylase+(DmTyrH)+Leading+to+Changes+in+Dopamine+Levels+and+Impaired+Motor+Behavior:+Implications+for+Neurotoxicity">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BICCA, M. S. ; CARPES, P. B. M. ; ROEHRS, R.. <b>A NEUROCIÊNCIA E AS MÚLTIPLAS REPRESENTAÇÕES: POSSÍVEIS CONVERGÊNCIAS PARA O ENSINO DE CIÊNCIAS</b>. Tear: Revista de Educação, Ciência e Tecnologia. 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+NEUROCIÊNCIA+E+AS+MÚLTIPLAS+REPRESENTAÇÕES:+POSSÍVEIS+CONVERGÊNCIAS+PARA+O+ENSINO+DE+CIÊNCIAS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+NEUROCIÊNCIA+E+AS+MÚLTIPLAS+REPRESENTAÇÕES:+POSSÍVEIS+CONVERGÊNCIAS+PARA+O+ENSINO+DE+CIÊNCIAS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+NEUROCIÊNCIA+E+AS+MÚLTIPLAS+REPRESENTAÇÕES:+POSSÍVEIS+CONVERGÊNCIAS+PARA+O+ENSINO+DE+CIÊNCIAS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>BORELLA, C. ; DA ROCHA, EMMANUEL S. ; FRANCO, P. S. ; CECCON, F. G. ; CARPES, FP. <b>O uso do calçado habitual influencia o controle postural?</b>. REVISTA BRASILEIRA DE CIÊNCIA E MOVIMENTO. 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+uso+do+calçado+habitual+influencia+o+controle+postural?&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+uso+do+calçado+habitual+influencia+o+controle+postural?">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+uso+do+calçado+habitual+influencia+o+controle+postural?">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Cordeiro, E.W.F. ; MALESUIK, M. D. ; Hilgert, R. M. ; Batista, L.A.C. ; SOUZA, R. O. ; Oliveira, L. F. S. ; Machado, M. M. ; PAULA, F. R. ; STOPIGLIA, C. D. O. ; PAIM, C. S.. <b>Validation of analytical method by LC and microbiological assay, biological safety studies and in silico toxicity for danofloxacin</b>. BRAZILIAN JOURNAL OF PHARMACEUTICAL SCIENCES (ONLINE). 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Validation+of+analytical+method+by+LC+and+microbiological+assay,+biological+safety+studies+and+in+silico+toxicity+for+danofloxacin&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Validation+of+analytical+method+by+LC+and+microbiological+assay,+biological+safety+studies+and+in+silico+toxicity+for+danofloxacin">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Validation+of+analytical+method+by+LC+and+microbiological+assay,+biological+safety+studies+and+in+silico+toxicity+for+danofloxacin">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>DA SILVA, WILLIAN ; MACHADO, ÁLVARO S ; SOUZA, MAUREN A ; KUNZLER, MARCOS R ; PRIEGO QUESADA, JOSE IGNACIO ; CARPES, FELIPE P. <b>Can exercise induced muscle damage be related to changes in skin temperature?</b>. Physiological Measurement. 2018. <a href="http://dx.doi.org/10.1088/1361-6579/aae6df" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Can+exercise+induced+muscle+damage+be+related+to+changes+in+skin+temperature?&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Can+exercise+induced+muscle+damage+be+related+to+changes+in+skin+temperature?">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Can+exercise+induced+muscle+damage+be+related+to+changes+in+skin+temperature?">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>DE GOMES, MARCELO GOMES ; DONATO, FRANCIELE ; SOUZA, LEANDRO CATTELAN ; GOES, ANDRÉ ROSSITO ; FILHO, CARLOS BORGES ; FABBRO, LUCIAN DEL ; BIANCHINI, MATHEUS CHIMELO ; HASSAN, WASEEM ; BOEIRA, SILVANA PETERINI ; PUNTEL, ROBSON LUIZ ; JESSE, CRISTIANO RICARDO. <b>#947;-Oryzanol supplementation modifies the inflammatory and oxidative response in fulminant hepatic failure in mice</b>. PHARMANUTRITION. 2018. <a href="http://dx.doi.org/10.1016/j.phanu.2018.10.002" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=#947;-Oryzanol+supplementation+modifies+the+inflammatory+and+oxidative+response+in+fulminant+hepatic+failure+in+mice&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=#947;-Oryzanol+supplementation+modifies+the+inflammatory+and+oxidative+response+in+fulminant+hepatic+failure+in+mice">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=#947;-Oryzanol+supplementation+modifies+the+inflammatory+and+oxidative+response+in+fulminant+hepatic+failure+in+mice">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>FARIAS, V. M. ; BERGMANN, G. G. ; VAZ, L. M. T. ; PINHEIRO, E. S.. <b>GOAL SCORING FREQUENCY IN SOCCER IN DIFFERENT AGE GROUPS</b>. REVISTA BRASILEIRA DE CIÊNCIA E MOVIMENTO. 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=GOAL+SCORING+FREQUENCY+IN+SOCCER+IN+DIFFERENT+AGE+GROUPS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=GOAL+SCORING+FREQUENCY+IN+SOCCER+IN+DIFFERENT+AGE+GROUPS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=GOAL+SCORING+FREQUENCY+IN+SOCCER+IN+DIFFERENT+AGE+GROUPS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>GAVIAO, P. C. S. ; FALCAO, C. P. ; ILHA, P. V.. <b>Adesão, permanência e barreiras percebidas na prática do futebol feminino</b>. REVISTA BRASILEIRA DE FUTSAL E FUTEBOL. 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Adesão,+permanência+e+barreiras+percebidas+na+prática+do+futebol+feminino&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Adesão,+permanência+e+barreiras+percebidas+na+prática+do+futebol+feminino">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Adesão,+permanência+e+barreiras+percebidas+na+prática+do+futebol+feminino">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>LOPES, J. F. ; Barcellos, Júlio Otávio Jardim ; GONCALVES, T. L. ; OAIGEN, Ricardo Pedroso. <b>KEY FACTORS INFLUENCING THE SALE OF BULLS IN LIVESTOCK AUCTIONS</b>. Revista Mexicana de Ciencias Pecuarias. 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=KEY+FACTORS+INFLUENCING+THE+SALE+OF+BULLS+IN+LIVESTOCK+AUCTIONS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=KEY+FACTORS+INFLUENCING+THE+SALE+OF+BULLS+IN+LIVESTOCK+AUCTIONS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=KEY+FACTORS+INFLUENCING+THE+SALE+OF+BULLS+IN+LIVESTOCK+AUCTIONS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>NUNES, T. T. G. ; GRAUP, SUSANE ; TEIXEIRA, L. P. ; BALK, R. ; LARA, S.. <b>CONTROLE POSTURAL NA INFÂNCIA: EFEITOS DO MÉTODO PILATES SOBRE O EQUILÍBRIO</b>. REVISTA BRASILEIRA DE CIÊNCIA E MOVIMENTO. 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=CONTROLE+POSTURAL+NA+INFÂNCIA:+EFEITOS+DO+MÉTODO+PILATES+SOBRE+O+EQUILÍBRIO&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=CONTROLE+POSTURAL+NA+INFÂNCIA:+EFEITOS+DO+MÉTODO+PILATES+SOBRE+O+EQUILÍBRIO">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=CONTROLE+POSTURAL+NA+INFÂNCIA:+EFEITOS+DO+MÉTODO+PILATES+SOBRE+O+EQUILÍBRIO">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Pacheco, B. S. ; dos Santos, M. A. Z. ; SCHULTZE, E. ; Martins, R. M. ; Lund, R. G. ; Seixas, F. K. ; Colepicolo, P. ; Collares, T. ; PAULA, F. R. ; de Pereira, C. M. P.. <b>Cytotoxic Activity of Fatty Acids from Antarctic Macroalgae on the Growth of Human Breast Cancer Cells</b>. FRONTIERS IN BIOENGINEERING AND BIOTECHNOLOGY. 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Cytotoxic+Activity+of+Fatty+Acids+from+Antarctic+Macroalgae+on+the+Growth+of+Human+Breast+Cancer+Cells&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Cytotoxic+Activity+of+Fatty+Acids+from+Antarctic+Macroalgae+on+the+Growth+of+Human+Breast+Cancer+Cells">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Cytotoxic+Activity+of+Fatty+Acids+from+Antarctic+Macroalgae+on+the+Growth+of+Human+Breast+Cancer+Cells">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>PEREIRA, V. I. A. ; GOBBI, L. T. B. ; ZAGATTO, A. M. ; SANTOS, P. C. R. ; SIMIELI, L. ; BARBIERI, R. A. ; CARPES F ; BARBIERI, F. A.. <b>Muscle fatigue does not change the effects on lower limbs strength caused by aging and Parkinson disease</b>. Aging and Disease. 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Muscle+fatigue+does+not+change+the+effects+on+lower+limbs+strength+caused+by+aging+and+Parkinson+disease&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Muscle+fatigue+does+not+change+the+effects+on+lower+limbs+strength+caused+by+aging+and+Parkinson+disease">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Muscle+fatigue+does+not+change+the+effects+on+lower+limbs+strength+caused+by+aging+and+Parkinson+disease">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>RONCATO, J. ; CAMARA, D. ; BRUSSOLO, T. ; QUINES, C. ; COLOME, L. M. ; DENARDIN, CRISTIANE C. ; HAAS, S. E. ; DAVILA, D. S.. <b>Lipid Reducing potential of liposomes loaded with ethanolic extract of purple pitanga (Eugenia uniflora) administered to Caenorhabditis elegans</b>. JOURNAL OF LIPOSOME RESEARCH. 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Lipid+Reducing+potential+of+liposomes+loaded+with+ethanolic+extract+of+purple+pitanga+(Eugenia+uniflora)+administered+to+Caenorhabditis+elegans&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Lipid+Reducing+potential+of+liposomes+loaded+with+ethanolic+extract+of+purple+pitanga+(Eugenia+uniflora)+administered+to+Caenorhabditis+elegans">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Lipid+Reducing+potential+of+liposomes+loaded+with+ethanolic+extract+of+purple+pitanga+(Eugenia+uniflora)+administered+to+Caenorhabditis+elegans">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>SANTOS, J. A. ; BERGMANN, G. G. ; FERREIRA, G. D. ; PINHEIRO, E. S.. <b>ASSOCIAÇÃO ENTRE O FUNCTIONAL MOVEMENT SCREEN E APTIDÃO FÍSICA EM ESCOLARES</b>. REVISTA BRASILEIRA DE CIÊNCIA E MOVIMENTO. 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=ASSOCIAÇÃO+ENTRE+O+FUNCTIONAL+MOVEMENT+SCREEN+E+APTIDÃO+FÍSICA+EM+ESCOLARES&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=ASSOCIAÇÃO+ENTRE+O+FUNCTIONAL+MOVEMENT+SCREEN+E+APTIDÃO+FÍSICA+EM+ESCOLARES">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=ASSOCIAÇÃO+ENTRE+O+FUNCTIONAL+MOVEMENT+SCREEN+E+APTIDÃO+FÍSICA+EM+ESCOLARES">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:24:59<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
