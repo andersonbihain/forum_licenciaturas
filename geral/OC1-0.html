@@ -1,0 +1,211 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>teste-04</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>teste-04</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Tese de doutorado'}, 
+series: [{data: [[2016,
+10],
+[2017,
+15],
+[2018,
+4]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Tese de doutorado</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 29<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Bruno Madalozzo. <b>Variação latitudinal nos limites de tolerância e plasticidade térmica em anfíbios em um cenário de mudanças climáticas: efeito dos micro-habitats, sazonalidade e filogenia</b>. Tese (Doutorado em Biodiversidade Animal) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/5811514780628956">Tiago Gomes dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Eliane Celina Guadagnin. <b>Mobilidade funcional em idosos: influência de parâmetros musculares e de treinamento</b>. Tese (Doutorado em Ciências do Movimento Humano) - Universidade Federal do Rio Grande do Sul, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1680757164306796">Helen Lidiane Schimidt</a>. <b>Potencial neuroprotetor da camellia sinensis e do exercicío físico em um modelo de doença de alzheimer</b>. Tese (Doutorado em Doutorado em Bioquímica) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8208433001265721">Rafael Pla Matielo Lemos. GENÔMICA vs AMBIENTE: POTENCIAL DISTRIBUIÇÃO MUNDIAL E PADRÕES GENÉTICOS DE DIFERENCIAÇÃO EM POPULAÇÕES NATURAIS DE Schinus molle L</a>. <b>PROVENIENTES DE TRÊS BIOMAS BRASILEIROS</b>. Tese (Doutorado em Ciências Biológicas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6868213051236665">Valdir Marcos Stefenon</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1332250364537466">Ana Zilda Ceolin Colpo</a>. <b>Efeitos dos extratos de erva-mate sobre danos oxidativos e sua relação com anti e co-genotoxicidade</b>. Tese (Doutorado em Bioquímica) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3916902905583738">Andressa Minussi Pereira</a>. <b>Sistema renina-angiotensina nas células da teca e granulosa durante a ovulação e luteinização em bovinos</b>. Tese (Doutorado em Medicina Veterinária) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5837260966665885">Paulo Bayard Dias Goncalves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Aryele Pinto Izaguirry. <b>Avaliação de quinina livre e nanocápsulas contendo quinina sobre o sistema reprodutivo e toxicidade pré-natal em ratos</b>. Tese (Doutorado em BIOQUÍMICA) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>, <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Filipe Selau Carlos. <b>Dinâmica microbiológica e bioquímica de solos de terras baixas</b>. Tese (Doutorado em CIENCIA DO SOLO - UFRGS) - Universidade Federal do Rio Grande do Sul, . 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/4304180741961721">Luiz Fernando Wurdig Roesch</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3564202226801261">Gerlania de Oliveira Leite</a>. <b>Avaliação da Vanillosmopsis arborea Baker e (-)-α-bisabolol frente a parâmetros oxidativos e toxicológicos</b>. Tese (Doutorado em Farmacologia) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4004565241849091">Caroline Wagner</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1505372017784905">Hemerson Silva da Rosa. Caracterização fitoquímica e efeitos antinociceptivos e anti-inflamatórios de Sida tuberculata r.e</a>. <b>fries ?guanxuma?</b>. Tese (Doutorado em Bioquímica) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Jose Ignacio Priego Quesada. <b>THERMOBIKE: Applicability of infrared thermography in the assessment of the efficiency, performance, and posture of the cyclist</b>. Tese (Doutorado em Doctoral Program in Physiology) - Universitat de València, Ministerio de Educación, Cultura y Deporte. 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8617047231470561">Larissa Finger Schaffer</a>. <b>: INFLUÊNCIA DE Harpagophytum procumbens SOBRE PARÂMETROS MOLECULARES E COMPORTAMENTAIS EM UM MODELO DE DISCINESIA OROFACIAL EM RATOS</b>. Tese (Doutorado em Farmacologia) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4004565241849091">Caroline Wagner</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Lilian de Oliveira Machado. ANÁLISE COMPARATIVA DO GENOMA PLASTIDIAL DE Myrtaceae: Acca sellowiana (O. <b>Berg) Burret, Eugenia uniflora L., Campomanesia xanthocarpa (Mart.) O.Berg, Plinia cauliflora (Mart.) Kausel, Plinia aureana (Mattos) Mattos e Plinia sp</b>. Tese (Doutorado em Recursos Genéticos Vegetais) - Universidade Federal de Santa Catarina, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/6868213051236665">Valdir Marcos Stefenon</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/0739341240075133">Lilian Oliveira de Oliveira</a>. <b>Concepções acerca de Obesidade e Diabetes mellitus: a Metodologia da Problematização como uma proposta para Educação em Saúde</b>. Tese (Doutorado em Educação em Ciências Quìmica da Vida e Saúde ( Ufsm - Furg)) - Universidade Federal do Rio Grande do Sul, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Litiele Cezar da Cruz. <b>Estudo do potencial neuroprotetor do mel e seus derivados em modelo de Doença de Parkinson induzido por rotenona, paraquat e ferro em Drosophila melanogaster</b>. Tese (Doutorado em Ciências Biológicas (Bioquímica Toxicológica)) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/1680065573338339">Jeferson Luis Franco</a>, <a href="http://lattes.cnpq.br/2277857386983441">Thais Posser</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9880332007728108">Maria Eduarda de Lima</a>. <b>Caracterização das Propriedades Antioxidantes, Hipoglicemiantes e Neuroprotetoras da Erva Mate em Diferentes Modelos</b>. Tese (Doutorado em Bioquímica) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Mariane Trindade de Paula. Efeitos de difenil disseleneto sobre o metabolismo de D. <b>melanogaster</b>. Tese (Doutorado em Bioquìmica) - UNIPAMPA, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2277857386983441">Thais Posser</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9655476765133340">Matheus Pedrotti De Cesaro</a>. <b>Regulação do sistema peptídeos natriuréticos nas células da granulosa e do cumulus na foliculogênese em bovinos</b>. Tese (Doutorado em Medicina Veterinária) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5837260966665885">Paulo Bayard Dias Goncalves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5009018782344690">Victor Mendes Lipinski</a>. <b>O PAPEL DA HETEROGENEIDADE AMBIENTAL E DA RADIAÇÃO ULTRAVIOLETA SOBRE A ESTRUTURA E ORGANIZAÇÃO ESPACIAL EM COMUNIDADES DE ANUROS DO SUL DO BRASIL</b>. Tese (Doutorado em Biodiversidade Animal) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5811514780628956">Tiago Gomes dos Santos</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Afnan Khalil Ahmad Suleiman. <b>Impacto dos diferentes usos da terra na diversidade microbiana do solo</b>. Tese (Doutorado em Ciência do Solo) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/4304180741961721">Luiz Fernando Wurdig Roesch</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4227930656962816">Antônio Ivanildo Pinho</a>. <b>Ação bioinseticida do oleo essencial de Psidium guajava em Drosophila melanogaster</b>. Tese (Doutorado em Ciências Biológicas (Bioquímica Toxicológica)) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1680065573338339">Jeferson Luis Franco</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4808691086584861">Dennyura Oliveira Galvão</a>. <b>AVALIAÇÃO DO POTENCIAL ANTIOXIDANTE DOS EXTRATOS AQUOSO E ETANÓLICO DE MENTHA PULEGIUM, UNCARIA TOMENTOSA E PHYLLANTHUS NIRURI FRENTE ÀS ALTERAÇÕES INDUZIDAS POR T-BUTIL HIDROPERÓXIDO EM ERITRÓCITOS HUMANOS IN VITRO</b>. Tese (Doutorado em Ciências Biológicas (Bioquímica Toxicológica)) - Universidade Federal de Santa Maria, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1134532326779900">Robson Luiz Puntel</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3887831555602065">Francisco Assis Bezerra Cunha</a>. <b>Ação bioinseticida do oleo essencial de Eugenia uniflora em Drosophila melanogaster</b>. Tese (Doutorado em Ciências Biológicas (Bioquímica Toxicológica)) - Universidade Federal de Santa Maria, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1680065573338339">Jeferson Luis Franco</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Francisco Cunha. <b>Ação bioinseticida do oleo essencial de Eugenia uniflora em Drosophila melanogaster</b>. Tese (Doutorado em Bioquímica Toxicológica) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2277857386983441">Thais Posser</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Francisco Ivanildo Pinho. <b>Ação bioinseticida do oleo essencial de Psidium guajava em Drosophila melanogaster</b>. Tese (Doutorado em Ciências Biológicas (Bioquímica Toxicológica)) - Universidade Federal de Santa Maria, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2277857386983441">Thais Posser</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5268510307155862">Jeferson Luis Lopez Goularte</a>. <b>La enseñanza de contabilidad frente a las principales alteraciones de la convergencia de la contabilidada brasileña a las normas intercionales de la contabilidad</b>. Tese (Doutorado em Ciencias de la Educación) - Universidad Nacional de Rosario, . 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9707343593567031">Jefferson Marçal da Rocha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7999775948933775">Patrícia Bräunig</a>. <b>CARACTERIZAÇÃO DE CÉLULAS-TRONCO MESENQUIMAIS DERIVADAS DO TECIDO ADIPOSO E SEU POTENCIAL DE DIFERENCIAÇÃO</b>. Tese (Doutorado em Medicina Veterinária) - Universidade Federal de Santa Maria, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5837260966665885">Paulo Bayard Dias Goncalves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5601930041526765">Paulo Roberto Antunes da Rosa</a>. <b>CARACTERIZAÇÃO DE UM NOVO MODELO DE MATURAÇÃO DE OÓCITO IN VITRO E PARTICIPAÇÃO DO MTOR NA OVULAÇÃO EM BOVINOS</b>. Tese (Doutorado em Medicina Veterinária) - Universidade Federal de Santa Maria, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5837260966665885">Paulo Bayard Dias Goncalves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/4732521669621196">Werner Giehl Glanzner</a>. <b>EPIGENÉTICA NA REPROGRAMAÇÃO CELULAR E NO DESENVOLVIMENTO EMBRIONÁRIO</b>. Tese (Doutorado em Medicina Veterinária) - Universidade Federal de Santa Maria, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5837260966665885">Paulo Bayard Dias Goncalves</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 08/01/2019 18:23:13<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

@@ -1,0 +1,885 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>teste-04</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>teste-04</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Orientações de outra natureza'}, 
+series: [{data: [[2016,
+205],
+[2017,
+150],
+[2018,
+10]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Orientações de outra natureza</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 366<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Caroline Machado Soares. <b>Produção de mudas e utilização junto a entidades públicas do município de São Gabriel, RS</b>. (Ciências Biológicas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7239967672848394">Silvane Vestena</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Aniele Valdez Machado. <b>COTIDIANO DA ESCOLA: REGÊNCIA I</b>. (Ciências Exatas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0808253492421363">André Luís Silva da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Calos Roberto Silva Nunes. <b>PIBID-Programa Institucional de Bolsa de Iniciação à Docência</b>. (Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5554712337594367">Eduardo de Oliveira Dutra</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Camila Alves Viana. <b>Monitoria de Cálculo III</b>. (Geologia) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5764733726937478">Daniela de Rosso Tolfo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Doglas Rodrigues da Silva. <b>Monitoria em Atletismo</b>. (Educação Física) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0390762757228334">Phillip Vilanova Ilha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Ferdinando Bisogno de Castro. <b>Acompanhamento das atividades e projetos no Laboratório de Recursos Hídricos e Saneamento Ambiental</b>. (Gestão Ambiental) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3469385544914151">Beatriz Stoll Moraes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Helena de Oliveira Soares Jardim. <b>PIBID-Programa Institucional de Bolsa de Iniciação à Docência</b>. (Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5554712337594367">Eduardo de Oliveira Dutra</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Lana Dorneles Pedroso. <b>Produção de mudas e utilização junto a entidades públicas do município de São Gabriel, RS</b>. (Ciências Biológicas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7239967672848394">Silvane Vestena</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Leo da Silva Siqueira. <b>Monitoria em Esporte Coletivo I</b>. (Educação Física) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0390762757228334">Phillip Vilanova Ilha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Marcelo Fonseca Vivian. <b>COTIDIANO DA ESCOLA: REGÊNCIA II</b>. (Ciências Exatas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0808253492421363">André Luís Silva da Silva</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriana Lamana Balbueno. <b>Estágio supervisionado IV</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5499729844691575">Victor da Silva Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Alisson Solon Pandolfo Bonotto. <b>Estágio Curricular Obrigatório: setor de Comunicação e Marketing da URI Frederico Westphalen</b>. (Bacharelado em Relações Públicas) - Universidade Federal de Santa Maria - Campus Frederico Westphalen, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3992717755933028">Larissa Conceição dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Allan Mamede de Souza. <b>Estágio Curricular em Geografia e Filosofia - Ensino Médio</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Amanda Oliveira Travessas. <b>Monitoria em Fisiologia Vegetal na Universidade Federal do Pampa - Campus São Gabriel - 2017</b>. (Ciências Biológicas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8786959920026227">Alice Hirschmann</a>, <a href="http://lattes.cnpq.br/7239967672848394">Silvane Vestena</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Ana Alice Santos de Souza. <b>Estágio curricular obrigatória em História - Ensino Fundamental.</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5819114335361707">Camila de Almeida Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Ana Carolina da Rosa Machado. <b>Estágio Supervisionado II - Ensino Médio</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Ana Carolina da Rosa Machado. <b>Estágio Supervisionado I - Ensino Fundamental</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Ana Paula Pinto de Lima. <b>Pluralidade Cultural: Alfabetização e Educação de Jovens e Adultos.</b>. (Pedagogia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8832898581140645">Simone Silva Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Anderson Tavares Soares. <b>Estudo Teórico e Aplicações de Cálculo Diferencial</b>. (Matemática-Licenciatura) - Universidade Federal do Pampa/Campus Itaqui, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7199536513974481">Karla Beatriz Vivian Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Andreia Cardoso. <b>Orientação de Estágio Docente em Ciências Humanas</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8063504518653314">Gerson de Lima Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Andressa Xavier Rodrigues Deloss. <b>Orientação do Estágio Curricular no Ensino Médio.</b>. (Ciências Biológicas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8786959920026227">Alice Hirschmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Angélica Vieira Aguiar. <b>Monitoria em Fisiologia Vegetal na Universidade Federal do Pampa - Campus São Gabriel - 2017</b>. (Ciências Biológicas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7239967672848394">Silvane Vestena</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Beatriz Wardzinski Barbosa. <b>ACOMPANHAMENTO DAS ATIVIDADES DE DESTINAÇÃO FINAL PARA O LODO PRODUZIDO EM UMA ESTAÇÃO DE TRATAMENTO DE ÁGUA</b>. (Gestão Ambiental) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2256892090251117">Mirla Andrade Weber</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Bruna Cordeiros Lira. <b>A Yiabasé no cuidado com o alimento para o corpo e a alma - Ilê Axé Mãe Nice D'Xangô</b>. Orientação de outra natureza - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9076251806577555">Giane Vargas Escobar</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Bruno Peruzzi Peres. <b>Astronomia para todos</b>. (Ciências da Natureza) - Universidade Federal do Pampa, Ministério da Educação. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Caique Nunes Maria Santana. <b>Monitoria de Cálculo I</b>. (Engenharia de Energia) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8335102549502386">Denice Aparecida Fontana Nisxota Menegais</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Camila Dinat Campos. <b>Estágio Curricular em Geografia e Filosofia- Ensino Médio</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8063504518653314">Gerson de Lima Oliveira</a>, <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Carine Alves dos Santos. <b>Orientação do Estágio Curricular no Ensino Fundamental.</b>. (Ciências Biológicas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8786959920026227">Alice Hirschmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Carine Boeira. <b>Estágio Curricular em Geografia e História- Ensino Fundamental</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Carlos Alberto Pereira Pedroso. <b>COTIDIANO DA ESCOLA: REGÊNCIA II</b>. Orientação de outra natureza - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0808253492421363">André Luís Silva da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Carlos Eduardo Messa Ponse. <b>Ge pẽ ẽg nỹtĩ: aprendendo com a cultura Kaingang no campus Uruguaiana</b>. (Enfermagem) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9365069870272242">Alinne de Lima Bonetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Caroline Perceval Paz. <b>Orientação do Estágio Curricular no Ensino Fundamental.</b>. (Ciências Biológicas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8786959920026227">Alice Hirschmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Cassiano Estigarribia dos Santos Santiago. <b>Regência de estágio no Ensino Fundamental e Médio</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2185779366488602">Rafael Bruno Gonçalves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Claudia Dornelles Marques. <b>Estágio supervisionado IV</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5499729844691575">Victor da Silva Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Claudia Vanuza Etchegaray Gonçalves. <b>Relatório de Estágio Supervisionado no Ensino Fundamental</b>. (Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8335102549502386">Denice Aparecida Fontana Nisxota Menegais</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Cristiano de Oliveira Morais. <b>LEVANTAMENTO DA SITUAÇÃO DA ESTAÇÃO DE TRATAMENTO DE ESGOTO DA SÃO GABRIEL SANEAMENTO NO MUNICÍPIO DE SÃO GABRIEL - RS</b>. (Gestão Ambiental) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3469385544914151">Beatriz Stoll Moraes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Daiani de Lima Batalha. <b>Estágio Supervisionado I - Ensino Fundamental</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Daniane Stock Machado. <b>COTIDIANO DA ESCOLA: REGÊNCIA II</b>. Orientação de outra natureza - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0808253492421363">André Luís Silva da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Daniel Fonseca Corradini Ferrando. <b>Programa Institucional de Bolsa de Iniciação à Docência ? PIBID/UNIPAMPA</b>. (Licenciatura em Física) - Fundação Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3738313938168252">Edson Massayuki Kakuno</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Daniel Lemos Guimarães. <b>Estágio curricular obrigatório em História - Ensino Fundamental.</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/2185779366488602">Rafael Bruno Gonçalves</a>, <a href="http://lattes.cnpq.br/5819114335361707">Camila de Almeida Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Deise Pacheco Corrêa. <b>Estágio Curricular Supervisionado</b>. Orientação de outra natureza - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6414093380131120">Ida Maria Morales Marins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Desire Menezes Leal Goulart. <b>Apresentando a Literatura através do gênero Histórias em Quadrinhos e seus hipergêneros</b>. (Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Diênifer Alves Ramos da Rosa. <b>A extensão universitária através da experiência do Núcleo de Línguas Adicionais</b>. (Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7307557102781133">Sara dos Santos Mota</a>.</font></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Douglas Brum Tavares. <b>Estágio Supervisionado I - Ensino Fundamental</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Eduardo Teixeira Santos. <b>Monitoria de Cálculo II</b>. (Engenharia Química) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8115629381483348">Francieli Aparecida Vaz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Eliana Caetano Sisti. <b>Estágio supervisionado II</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5499729844691575">Victor da Silva Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Elizabeth Orestin. <b>Estágio Supervisionado I - Ensino Fundamental</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Emmanuel Demutti. <b>Estágio Supervisionado II - Ensino Médio</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Enedir Ramires. <b>Orientação de Estágio Docente em Ciências Humanas</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8063504518653314">Gerson de Lima Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>Evanildo Franco De Jesus. <b>Relatório de Estágio Supervisionado no Ensino Fundamental</b>. (Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8335102549502386">Denice Aparecida Fontana Nisxota Menegais</a>.</font></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>Fabiana Moraes de Oliveira. <b>Orientação do Estágio Curricular no Ensino Médio.</b>. (Ciências Biológicas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8786959920026227">Alice Hirschmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>Felipe Domingues Teixeira. <b>Uma experiência na Biblioteca Pública de Jaguarão</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9076251806577555">Giane Vargas Escobar</a>.</font></td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Flavia Morales Antunes. <b>Projeto de Inclusão Digital na Unipampa</b>. (Engenharia de Computação) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0501764855693100">Sandra Dutra Piovesan</a>.</font></td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Franciele Trindade Vivian. <b>Avaliação e tratamento de Resíduos Sólidos em Frigorífico</b>. (Engenharia Ambiental e Sanitária) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>Francine da Silva Soares Rodrigues. <b>Estágio Supervisionado II - Ensino Médio</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>Francine Soares. <b>Estágio Supervisionada na Biblioteca Pública Municipal Oscar Furtado de Azambuja, em Jaguarão</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9076251806577555">Giane Vargas Escobar</a>.</font></td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>Francisco Machado. <b>Astronomia para Todos</b>. (Licenciatura em Física) - Universidade Federal do Pampa, Ministério da Educação. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2906182031441331">Márcia Maria Lucchese</a>.</font></td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>Fredi Silva. <b>Orientação de Estágio Docente em Ciências Humanas</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8063504518653314">Gerson de Lima Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>Fábio Duarte da Cunha. <b>Estágio Supervisionado I - Ensino Fundamental</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>Fábio Luiz Minuto Direne. <b>A importância do texto notícia e sua contribuição para a formação de leitores</b>. (Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>Fábio Pelinson. <b>Estágio Curricular Obrigatório: setor de Comunicação e Marketing da URI - Frederico Westphalen</b>. (Bacharelado em Relações Públicas) - Universidade Federal de Santa Maria - Campus Frederico Westphalen, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3992717755933028">Larissa Conceição dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>Gabriéli Deponti Bombach. <b>Avaliação do desenvolvimento motor e cognitivo de escolares com dificuldades de aprendizagem pré e pós intervenção baseada em recursos pedagógicos da educação física escolar</b>. (Especialização em Neurociência aplicada à Educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>Gian Silveira. <b>Estágio Supervisionada na Biblioteca Pública Municipal Oscar Furtado de Azambuja, em Jaguarão</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9076251806577555">Giane Vargas Escobar</a>.</font></td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>Giovanni Tetsuo Fujimura. <b>Seminários de Análise Funcional para Complementação de Estudos de Álgebra Linear</b>. (Engenharia de Energia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3603202046788146">Fernando Luis Dias</a>.</font></td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>Giselda da Rocha Dutra. <b>Estágio Curricular Supervisionado</b>. Orientação de outra natureza - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6414093380131120">Ida Maria Morales Marins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>Gisele De Lima Munhoz. <b>Relatório de Estágio Supervisionado no Ensino Fundamental</b>. (Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8335102549502386">Denice Aparecida Fontana Nisxota Menegais</a>.</font></td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>Gladis Kunz Rosa. <b>Estágio curricular obrigatória em História - Ensino Fundamental.</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5819114335361707">Camila de Almeida Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>Gregório Bages Sanches. <b>Relatório de Estágio Supervisionado no Ensino Fundamental</b>. (Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8335102549502386">Denice Aparecida Fontana Nisxota Menegais</a>.</font></td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>Gyheniffer Fontella Borges. <b>Estágio Curricular em Geografia e História- Ensino Fundamental</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>Hector Junior Zapata Paixão. <b>Estágio Supervisionado I - Ensino Fundamental</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>Hellen da Silva Teixeira. <b>Estudo de filas de espera aplicado a uma instituição financeira cooperativa</b>. (Engenharia de Produção) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9275783294761141">Elizangela Dias Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>Igor Silveira Elesbão. <b>TESTES DE ADERÊNCIA APLICADOS NO AJUSTAMENTO DA DISTRIBUIÇÃO NORMAL ÀS NOTAS MÉDIAS DE DUAS TURMAS DA DISCIPLICA DE ESTATÍSTICA E PROBABILIDADE</b>. (Engenharia de Agrimensura) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2217949943647601">Gilberto Rodrigues Liska</a>.</font></td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>Jaime Soares Seivald. <b>Estágio Curricular em Geografia e Filosofia - Ensino Médio</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8063504518653314">Gerson de Lima Oliveira</a>, <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>Jaqueline da Silva e Silva. <b>Estágio Supervisionado I - Ensino Fundamental</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>Jayme Santana de Oliveira. <b>Estágio Supervisionado I - Ensino Fundamental</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>Jenifer dos Santos Fernandes. <b>Regência de estágio no Ensino Fundamental e Médio</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2185779366488602">Rafael Bruno Gonçalves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>Jessica Queretti Pereira. <b>Orientação do Estágio Curricular no Ensino Fundamental.</b>. (Ciências Biológicas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8786959920026227">Alice Hirschmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>John Welvins Barros de Araujo. <b>Programa Institucional de Bolsa de Iniciação à Docência ? PIBID/UNIPAMPA</b>. (Licenciatura em Física) - Fundação Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3738313938168252">Edson Massayuki Kakuno</a>.</font></td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>Josué Costa Gonçalves. <b>Estágio Supervisionado I - Ensino Fundamental</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>José Carlos Vieira Martins. <b>Educação Ambiental na educação de Jovens e adultos</b>. (Pedagogia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8832898581140645">Simone Silva Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>José Gonçalves Medeiros Júnior. <b>Estágio Supervisionado II - Ensino Médio</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>João Bosco Rodrigues. <b>Proposta de sequência didática para o 2º ano do ensino médio: gênero textual carta do leitor</b>. (Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>João Pedro Sgarbi Rocha. <b>Núcleo de Formação do Leitor Literário NULI</b>. (Letras - Português) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9502583808865478">Zíla Letícia Goulart Pereira Rêgo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td>Joílson da Silva Almeida. <b>Estágio supervisionado IV</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5499729844691575">Victor da Silva Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>75. &nbsp;</td> <td>Karoline Gasque de Souza. <b>O REGIONALISMO TRANSNACIONAL: ?DONA RACHEL?, DE ALDYR GARCIA SCHLEE</b>. (Letras - Português/Espanhol/Literatura) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/5260632872182857">Leonor Simioni</a>, <a href="http://lattes.cnpq.br/4487272773851650">Cátia Rosana Dias Goulart</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>76. &nbsp;</td> <td>Katiúscia Cruz Gonçalves. <b>O Lúdico na Educação Infantil</b>. (Pedagogia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8832898581140645">Simone Silva Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>77. &nbsp;</td> <td>Lana Dorneles Pedroso. <b>Monitoria em Fisiologia Vegetal na Universidade Federal do Pampa - Campus São Gabriel - 2017</b>. (Ciências Biológicas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7239967672848394">Silvane Vestena</a>.</font></td></tr>
+            
+            <tr valign="top"><td>78. &nbsp;</td> <td>Larissa Martins. <b>EXPERIÊNCIAS DE LEITURA, A FORMAÇÃO DO LEITOR NO CLUBE 24 DE AGOSTO.</b>. (História) - Universidade Federal do Pampa, Unoversidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4487272773851650">Cátia Rosana Dias Goulart</a>.</font></td></tr>
+            
+            <tr valign="top"><td>79. &nbsp;</td> <td>Laís de Ávila Soares. <b>Estágio supervisionado II</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5499729844691575">Victor da Silva Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>80. &nbsp;</td> <td>Leonardo Barboza Benites. <b>Astronomia para Todos</b>. (Ciências da Natureza) - Universidade Federal do Pampa, Ministério da Educação. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>81. &nbsp;</td> <td>Letiéri da Rosa Freitas. <b>PROCEDIMENTOS DE CAMPO E LABORATÓRIO REALIZADOS NO SETOR DE FÍSICA DO SOLO DO DEPARTAMENTO DE SOLOS DA UNIVERSIDADE FEDERAL DE SANTA MARIA/RS.</b>. (Engenharia Florestal) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2256892090251117">Mirla Andrade Weber</a>.</font></td></tr>
+            
+            <tr valign="top"><td>82. &nbsp;</td> <td>Letícia Chaves. <b>Orientação de Estágio Docente em Ciências Humanas</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8063504518653314">Gerson de Lima Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>83. &nbsp;</td> <td>Liana Nadine Gonzalez Pineiro. <b>Estágio Supervisionado I - Ensino Fundamental</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>84. &nbsp;</td> <td>Lidiane Rocha da Rocha. <b>Estágio curricular obrigatório em História - Ensino Fundamental.</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5819114335361707">Camila de Almeida Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>85. &nbsp;</td> <td>LILIAN SIMONE SOUZA PIRES. <b>Estágio Curricular em Geografia e Filosofia</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>86. &nbsp;</td> <td>Lurian da Silveira Chaves. <b>Estágio Curricular Supervisionado I -Língua Portuguesa</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5260632872182857">Leonor Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>87. &nbsp;</td> <td>Maderley Martins Pereira. <b>Estágio Curricular em Geografia e Filosofia - Ensino Médio</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/8063504518653314">Gerson de Lima Oliveira</a>, <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>88. &nbsp;</td> <td>Magda Elisa Cardoso Khader. <b>Estágio Curricular Supervisionado</b>. Orientação de outra natureza - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6414093380131120">Ida Maria Morales Marins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>89. &nbsp;</td> <td>Maiquel Schneider. <b>Orientação de Estágio Docente em Ciências Humanas</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8063504518653314">Gerson de Lima Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>90. &nbsp;</td> <td>Maitê Gonçalves Oscaberry. <b>Ética na educação de Jovens e adultos</b>. (Pedagogia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8832898581140645">Simone Silva Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>91. &nbsp;</td> <td>Marcelo Fonseca Vivian. <b>COTIDIANO DA ESCOLA: REGÊNCIA I</b>. Orientação de outra natureza - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0808253492421363">André Luís Silva da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>92. &nbsp;</td> <td>Marcia Cristina Cabreira Rodrigues. <b>Estágio Curricular em Geografia e História- Ensino Fundamental</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>93. &nbsp;</td> <td>Marco Aurélio dos Santos Chiquetti. <b>O CERRO DO JARAU: UM LABORATÓRIO CULTURAL E ASTRONÔMICO</b>. (Farmácia) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico - UNIPAMPA. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>94. &nbsp;</td> <td>Maria Cristina Vitali. <b>Orientação de Estágio Docente em Ciências Humanas</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8063504518653314">Gerson de Lima Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>95. &nbsp;</td> <td>Maria Eloisa Rolim Campelo Cardoso. <b>A Cultura Afro-Brasileira na escola</b>. (Pedagogia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8832898581140645">Simone Silva Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>96. &nbsp;</td> <td>Maria Eugênia Figueiredo Piegas. <b>ANÁLISE ESTATÍSTICA DAS ATIVIDADES DE MONITORIA DE UMA COMPONENTE CURRICULAR DO CAMPUS ITAQUI, UNIPAMPA</b>. (Engenharia de Agrimensura) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2217949943647601">Gilberto Rodrigues Liska</a>.</font></td></tr>
+            
+            <tr valign="top"><td>97. &nbsp;</td> <td>Maria Gabriela Faria. <b>Estágio Supervisionado I - Ensino Fundamental</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>98. &nbsp;</td> <td>Maria Helenara Pozzedin Mendes. <b>Trabalhando gêneros discursivos em aula: um olhar na produção de um jornal</b>. (Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>99. &nbsp;</td> <td>Maria Solange Barbosa da Silva. <b>Estágio Curricular Supervisionado</b>. Orientação de outra natureza - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6414093380131120">Ida Maria Morales Marins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>100. &nbsp;</td> <td>Marice da Silva. <b>Orientação de Estágio Docente em Ciências Humanas</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8063504518653314">Gerson de Lima Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>101. &nbsp;</td> <td>Marice Nascimento da Silva. <b>Estágio Curricular em Geografia e História- Ensino Fundamental</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>102. &nbsp;</td> <td>Marice Nascimento da Silva. <b>Estágio Curricular em Sociologia e História- Ensino Médio</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>103. &nbsp;</td> <td>Mariely Souto Liano. <b>O Cerro do Jarau: Um Laboratório Cultural e Astronômico</b>. (Ciências da Natureza) - Universidade Federal do Pampa, Universidade Federal do Pampa - PDA. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>104. &nbsp;</td> <td>Marilete Lima Botelho. <b>PRÁTICA ALFABETIZADORA NA ALFABETIZAÇÃO DE JOVENS E ADULTOS</b>. (Pedagogia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0525659939875391">Igor Daniel Martins Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>105. &nbsp;</td> <td>Marisol Fernandez Garcia Janke. <b>Pluralidade cultural: Educação de Jovens e Adultos</b>. (Pedagogia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8832898581140645">Simone Silva Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>106. &nbsp;</td> <td>Marisol Weber Nene dos Santos. <b>Estágio Curricular em Geografia e Filosofia - Ensino Médio</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>107. &nbsp;</td> <td>Marsal Danrlei de Amorim. <b>Extensão Universitária - Ação Social na Formação do Unipampeano</b>. (Ciências Biológicas - Bacharelado) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9245604354419040">Lucia Helena do Canto Vinade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>108. &nbsp;</td> <td>Mateus Tomas S. Machado. <b>Estágio curricular: COTRIFRED</b>. (Bacharelado em Relações Públicas) - Universidade Federal de Santa Maria - Campus Frederico Westphalen, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3992717755933028">Larissa Conceição dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>109. &nbsp;</td> <td>Matheus Pinto Furtado. <b>Estágio supervisionado II</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5499729844691575">Victor da Silva Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>110. &nbsp;</td> <td>Matthews Teixeira Coutinho Devai. <b>Monitoria de Geometria Analítica</b>. (Licenciatura em Matemática) - Universidade Federal do Pampa, Pró-Reitoria de Assuntos Estudantis e Comunitários. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8015609250219170">Claudia Laus Angelo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>111. &nbsp;</td> <td>Maurício Vieira Ramos. <b>Educação Musical na Educação Infantil</b>. (Pedagogia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8832898581140645">Simone Silva Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>112. &nbsp;</td> <td>Mellani da Silveira Laus. <b>Relatório de estágio Ensino Fundamental</b>. (Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>113. &nbsp;</td> <td>Mellani da Silveira Laus. <b>Relatório de estágio Ensino Médio: preparando para ENEM</b>. (Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>114. &nbsp;</td> <td>Michaella Santos Fernandes de Almeida. <b>Projeto de Extensão Pampa Circular - Danças Circulares no Pampa</b>. (Engenharia de Alimentos) - Universidade Federal do Pampa, Pró-Reitoria de Assuntos Estudantis e Comunitários. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8015609250219170">Claudia Laus Angelo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>115. &nbsp;</td> <td>Michelly Maria Alves Pintos Pereira. <b>Estágio Curricular Supervisionado</b>. Orientação de outra natureza - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6414093380131120">Ida Maria Morales Marins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>116. &nbsp;</td> <td>Morgana Balbueno Ferreira. <b>Programa de boas práticas de fabricação e de gestão da segurança dos alimentos aplicados a agroindústrias da região Fronteira Oeste, RS</b>. (Nutrição) - Universidade Federal do Pampa, PDA UNIPAMPA. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9101858681342985">Cássia Regina Nespolo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>117. &nbsp;</td> <td>Márcia Andréia Facio Silva. <b>Orientação de Estágio Docente em Ciências Humanas</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8063504518653314">Gerson de Lima Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>118. &nbsp;</td> <td>Natiane Damaceno Vieira. <b>Estágio supervisionado IV</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5499729844691575">Victor da Silva Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>119. &nbsp;</td> <td>Neirielle Silva Almeida. <b>Apoio presencial à atividades experimentais e teóricas em química</b>. (Química) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2997329525971185">Fabiana Cristina Missau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>120. &nbsp;</td> <td>Nilcilene de Acis Oliveira. <b>Produção de mudas e utilização junto a entidades públicas do município de São Gabriel, RS</b>. (Engenharia Florestal) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7239967672848394">Silvane Vestena</a>.</font></td></tr>
+            
+            <tr valign="top"><td>121. &nbsp;</td> <td>Nycole Schmitt Andrade. <b>Estágio Supervisionado I - Ensino Fundamental</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>122. &nbsp;</td> <td>Pablo Francisco Benitez Baratto. <b>Matemática: Educação e Ciência discutidas nas escolas de Itaqui</b>. (Engenharia de Agrimensura) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3321947327740091">Radael de Souza Parolin</a>.</font></td></tr>
+            
+            <tr valign="top"><td>123. &nbsp;</td> <td>Patrícia Lima Vergara. <b>Estágio Supervisionado I - Ensino Fundamental</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>124. &nbsp;</td> <td>Priscylla Pirasol de Carvalho Marchioni. <b>Monitoria das disciplinas de Morfologia e Estudos de Fonética e Fonologia</b>. (Letras - Português) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>125. &nbsp;</td> <td>Querina Ramos de Góes. <b>A GESTÃO DE RESÍDUOS NA IRMANDADE DA SANTA CASA DE CARIDADE DE SÃO GABRIEL/RS</b>. (Engenharia Florestal) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2256892090251117">Mirla Andrade Weber</a>.</font></td></tr>
+            
+            <tr valign="top"><td>126. &nbsp;</td> <td>Rafael Pires dos Santos. <b>Monitoria em Fisiologia Vegetal na Universidade Federal do Pampa - Campus São Gabriel - 2017</b>. (Engenharia Florestal) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7239967672848394">Silvane Vestena</a>.</font></td></tr>
+            
+            <tr valign="top"><td>127. &nbsp;</td> <td>Raniere de Oliveira Santos Dourado. <b>Estudo sobre a Salvaguarda dos Jornais da Biblioteca Pública de Jaguarão: apontamentos para a sua preservação</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9076251806577555">Giane Vargas Escobar</a>, <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>128. &nbsp;</td> <td>Rejane Rodrigues Gonçalves. <b>Estágio curricular obrigatório em História - Ensino Fundamental.</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5819114335361707">Camila de Almeida Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>129. &nbsp;</td> <td>Roberto de Rossi Ferreira. <b>ACOMPANHAMENTO DE ATIVIDADES LABORATORIAIS E A CAMPO NO DEPARTAMENTO DE SOLOS DA UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL- UFRGS, RS.</b>. (Engenharia Florestal) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2256892090251117">Mirla Andrade Weber</a>.</font></td></tr>
+            
+            <tr valign="top"><td>130. &nbsp;</td> <td>Rosemary Miranda de Souza. <b>Estágio Curricular em ´Sociologia e História - Ensino Médio</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>131. &nbsp;</td> <td>Rosélia Falcão Martins. <b>Estágio supervisionado IV</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5499729844691575">Victor da Silva Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>132. &nbsp;</td> <td>Rozane Mazzuco. <b>Estágio Curricular em Geografia e História- Ensino Fundamental</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>133. &nbsp;</td> <td>Sabrina Pereira Messa. <b>Produção de material técnico e científico como estratégia de aprendizagem e de divulgação de informações em Ciência e Tecnologia de Alimentos</b>. (Nutrição) - Universidade Federal do Pampa, PDA UNIPAMPA. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9101858681342985">Cássia Regina Nespolo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>134. &nbsp;</td> <td>Shirlei Pereira Rosa. <b>A Yiabasé no cuidado com o alimento para o corpo e a alma - Ilê Axé Mãe Nice D'Xangô</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9076251806577555">Giane Vargas Escobar</a>.</font></td></tr>
+            
+            <tr valign="top"><td>135. &nbsp;</td> <td>Sidônia Brsolin. <b>Monitoria em Equações Diferenciais</b>. (Engenharia de Produção) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8636427420690720">Anderson Luis Jeske Bihain</a>.</font></td></tr>
+            
+            <tr valign="top"><td>136. &nbsp;</td> <td>Silvana Silva Muniz. <b>Estágio curricular obrigatória em História - Ensino Fundamental.</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/2185779366488602">Rafael Bruno Gonçalves</a>, <a href="http://lattes.cnpq.br/5819114335361707">Camila de Almeida Silva</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>137. &nbsp;</td> <td>Silvia Conceição Silveira Cardoso. <b>Estágio Supervisionado I - Ensino Fundamental</b>. (História) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>138. &nbsp;</td> <td>Siuvana Espírito Santo. <b>Aprendendo com Meio Ambiente: experiências na e Educação de Jovens e Adultos</b>. (Pedagogia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8832898581140645">Simone Silva Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>139. &nbsp;</td> <td>Suelen Fonseca de Andrade. <b>Estágio supervisionado II</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5499729844691575">Victor da Silva Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>140. &nbsp;</td> <td>Tatiara da Silva de Armas. <b>Estágio Curricular Supervisionado I -Língua Portuguesa</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5260632872182857">Leonor Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>141. &nbsp;</td> <td>Thiago Francisco Rodrigues. <b>A importância da Educação Física escolar no desempenho motor e cognitivo de alunos dos anos iniciais do ensino fundamental</b>. (Especialização em Neurociência aplicada à Educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>142. &nbsp;</td> <td>Tiago Lucho Rangel. <b>Estágio curricular obrigatória em História - Ensino Fundamental.</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5819114335361707">Camila de Almeida Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>143. &nbsp;</td> <td>Tiziane Rodrigues Ferraz Muniz. <b>Ética: Múltiplas Linguagens na Educação Infantil.</b>. (Pedagogia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8832898581140645">Simone Silva Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>144. &nbsp;</td> <td>Vanessa dos Santos Martins. <b>Estágio Curricular em Geografia e História- Ensino Fundamental</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>145. &nbsp;</td> <td>Vera Elizabeth Chaves Souza. <b>Estágio curricular obrigatório em História - Ensino Fundamental.</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/5819114335361707">Camila de Almeida Silva</a>, <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>146. &nbsp;</td> <td>Verônica Maria Velasques. <b>Mercado de trabalho: a escolha da profissão no ensino médio</b>. (Letras - Português) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>147. &nbsp;</td> <td>Vitiele Rodrigues Fernandes. <b>Estágio Curricular em Geografia e Filosofia - Ensino Médio</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>148. &nbsp;</td> <td>Vitória Silveira de Bairros. <b>Regência de estágio no Ensino Fundamental e Médio</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2185779366488602">Rafael Bruno Gonçalves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>149. &nbsp;</td> <td>Zenilda Machado Garcia. <b>Estágio supervisionado IV</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5499729844691575">Victor da Silva Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>150. &nbsp;</td> <td>Écliton Lopes Scola. <b>Seminário Inovação Pedagógica: repensando estratégias de formação acadêmico-profissional em diálogo entre Educação Básica e Educação Superior</b>. (Ciências da Natureza) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adalgiza Oliveira Rattes. <b>Estagio Acadêmico em Regência de Classe na Educação Básica.</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2869652027513088">Anderson Romário Pereira Corrêa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ADRIANA BATISTA LOPES. <b>Estágio IV Supervisionado Obrigatório</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9516222555613323">Giane Rodrigues dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ailson Ribeiro Rodrigues Junior. <b>Levantamento de eletrorressistividade e a campanha de sondagem a trado para o reconhecimento do solo</b>. (Geologia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Alan Cristian Gularte de Vargas. <b>Projeto de Extensão Pampa Circular-Danças Circulares no Pampa</b>. (Engenharia Química) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8015609250219170">Claudia Laus Angelo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Albert Ayres Landim. <b>Análises Físico-químicas em Estação de Tratamento de água-CORSAN</b>. (Engenharia Sanitária e Ambiental) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4900675368665056">Zilda Baratto Vendrame</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Alice Lemos Costa. <b>ESTUDO DE BOTÂNICA NA ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL PEDRO FERRAZ NETO NO MUNICÍPIO DE SÃO GABRIEL, RS</b>. (Ciências Biológicas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7239967672848394">Silvane Vestena</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Amanda de Oliveira Travessas. <b>ESTUDO DE BOTÂNICA NA ESCOLA MUNICIPAL DE ENSINO FUNDAMENTAL PEDRO FERRAZ NETO NO MUNICÍPIO DE SÃO GABRIEL, RS</b>. (Ciências Biológicas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7239967672848394">Silvane Vestena</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Amanda Machado Teixeira. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. (Educação Física) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Ana Caren Machado Saravia. <b>Experiencias de leitura:a formação do leitor e o multiletramento</b>. (Letras - Português/Espanhol/Literatura) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4487272773851650">Cátia Rosana Dias Goulart</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Ana Grisel Quintana de Oliveira. <b>O trabalho com contos nas turmas de EJA no ensino fundamental</b>. (Letras) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Ana Lúcia Domingues dos Santos. <b>Fábulas e minicontos na sala de aula</b>. (Letras) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Ana Lúcia Domingues dos Santos. <b>Projeto de ensino para o primeiro ano do ensino médio</b>. (Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Ana Paula Falcão da Silveira Gomes. <b>Relatório de Estágio Supervisionado do Ensino Fundamental</b>. (Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Ana Paula Henck Alves. <b>Estágio curricular supervisionado II</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4864917387386802">Geice Peres Nunes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Ana Valeria Goulart dos Santos. <b>Estágio de Observação em Língua Portuguesa</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8943707248628981">Bianca Alves Lehmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Andreia Balbueno de Miranda. <b>Estágio IV - Licenciatura em Ciências Humanas</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7031094369974040">Adriana Hartemink Cantini</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>André Garcia Peruzzo. <b>Relatório de Estágio Supervisionado do Ensino Fundamental</b>. (Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>André Garcia Peruzzo. <b>Relatório de Estágio Supervisionado do Ensino Médio</b>. (Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Andréa Pereira Machado. <b>Educação para as Relações Étnico-Raciais: experiências de linguagem oral e escrita.</b>. (Pedagogia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8832898581140645">Simone Silva Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Andréia Martins de Medeiros. <b>Corporeidade e Educação</b>. (Pedagogia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8832898581140645">Simone Silva Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Andréia Paz Castro Fagundes. <b>PIBID (Programa Institucional de Iniciação à Docência)</b>. (Letras - Português) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>ANTONELLA ROMINA SAVIA VIDALES. <b>Estágio II Supervisionado Obrigatório</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9516222555613323">Giane Rodrigues dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Antonella Savia Vidales. <b>Estágio Curricular Supervisionado em Língua portuguesa e Literatura</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6414093380131120">Ida Maria Morales Marins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Ariadine Rodrigues Barbosa. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. (Educação Física) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Arielle de Jesus Meireles Teixeira. <b>PIBID (Programa Institucional de Iniciação à Docência)</b>. Orientação de outra natureza - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Barbara Akemi Basto Ogata. <b>Estágio Curricular Obrigatório em Biotecnologia</b>. (Biotecnologia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0382799433347639">Luís Fabiano Santos da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Bianca Araújo Espíndola. <b>Estágio Curricular Supervisionado I - Língua Portuguesa</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5260632872182857">Leonor Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Bruna Adamar Castelhano Soares. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. (Educação Física) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Bruna Carvalho Antunes. <b>A Física na Casa do Guri</b>. (Engenharia de Energias Renováveis e Ambiente) - Universidade Federal do Pampa, PDA / UNIPAMPA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2965334039603843">Rosana Cavalcanti Maia Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Bruna Castelhano Soares. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. (Educação Física) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Bruna Madeira Noguez. <b>A Física na Casa do Guri</b>. (Engenharia de Alimentos) - Universidade Federal do Pampa, PROEXT / UNIPAMPA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2965334039603843">Rosana Cavalcanti Maia Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Bruna Medina. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. (Educação Física) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Bruno Escalante Ferreira. <b>Estágio Supervisionado II - Ensino Médio</b>. (História) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Bruno Leal Corsino. <b>Relato das atividades desenvolvidas na Emater de Santa Margarida do Sul</b>. (Gestão Ambiental) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9707343593567031">Jefferson Marçal da Rocha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Bruno Peruzzi Peres. <b>Astronomia para Todos</b>. Orientação de outra natureza - Universidade Federal do Pampa, Ministério da Educação. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Camila Cananea Martins. <b>Estágio IV - Licenciatura em Ciências Humanas</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7031094369974040">Adriana Hartemink Cantini</a>.</font></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Camila da Luz Peralta. <b>PIBID (Programa Institucional de Iniciação à Docência)</b>. (Letras - Português) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Carla Machado Bulsing Dutra. <b>Relatório de Estágio Supervisionado do Ensino Médio</b>. (Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Carlos Denilson Quevedo Moraes. <b>Estagio Acadêmico em Regência de Classe na Educação Básica.</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2869652027513088">Anderson Romário Pereira Corrêa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>Carmem Lucia Soares Vieira. <b>Estágio Curricular Supervisionado I - Língua Portuguesa</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5260632872182857">Leonor Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>Carmem Maria Silva dos Santos. <b>Estudos em Educação Física escolar</b>. (Educação Física) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico - UNIPAMPA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>Caroline Vieira Siqueira. <b>Estágio Supervisionado Obrigatório: Estágio III - Língua Portuguesa/Literatura</b>. (Letras: Português/Espanhol e respectivas Literaturas) - Universidade Federal do Pampa - Campus Jaguarão, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6468309464240697">Denise Aparecida Moser</a>.</font></td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Clarice do Carmo Castro. <b>Estágio de Observação das aulas de Língua Portuguesa.</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8943707248628981">Bianca Alves Lehmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>CRISTIANE CAPOZZI PAVANI. <b>Estágio IV Supervisionado Obrigatório</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9516222555613323">Giane Rodrigues dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>Cristiane da Rosa Cunha. <b>A Educação para as Relações Étnico-Raciais na escola</b>. (Pedagogia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8832898581140645">Simone Silva Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>Cristiane Ireno. <b>Estágio Supervisionado</b>. (Música) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9175937699446405">Matheus de Carvalho Leite</a>.</font></td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>Cristiane São João Mendonça. <b>Estágio Curricular Supervisionado Obrigatório - Compreender a escola como Instituição Pública</b>. (Educação do Campo) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>Daniane Stock Machado. <b>COTIDIANO DA ESCOLA - REGÊNCIA I</b>. (Licenciatura em Ciências Exatas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0808253492421363">André Luís Silva da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>Daniel Fonseca Corradini Ferrando. <b>Programa Institucional de Bolsa de Iniciação à Docência ? PIBID/UNIPAMPA.</b>. (Licenciatura em Física) - Fundação Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3738313938168252">Edson Massayuki Kakuno</a>.</font></td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>Daniele Furtado Rodales. <b>Experiencias de leitura, a formação do leitor e o multiletramento</b>. (Letras - Português/Espanhol/Literatura) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4487272773851650">Cátia Rosana Dias Goulart</a>.</font></td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>Daniele Martins Soares. <b>Auxilio na elaboração de material complementar para a disciplina de álgebra linear e acessoria através de monitoria aos alunos desta componente curricular</b>. (Geologia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0118710960920352">Reginaldo Fabiano da Silva Afonso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>Daniele Martins Soares. <b>Auxilio na elaboração de material complementar para a disciplina de álgebra linear e geometria analítica e acessoria através de monitoria aos alunos desta componente curricular</b>. (Geologia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0118710960920352">Reginaldo Fabiano da Silva Afonso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>Danieli Morales de Lima. <b>Curso de Nivelamento de Matemática ? Pré-cálculo</b>. (Matemática) - Universidade Federal do Pampa, Universiade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8636427420690720">Anderson Luis Jeske Bihain</a>.</font></td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>Diana J. Tonellotto. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. (Educação Física) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>Dionatan Daniel Giusti. <b>Estágio</b>. (Geologia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>Edegar Alonso Junior. <b>Estágio Supervisionado II - Ensino Médio</b>. (História) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>Edila Rosane Alves da Silva. <b>MONITORIA VOLUNTÁRIA</b>. (Licenciatura em Ciências Exatas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0808253492421363">André Luís Silva da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>Edinéia da Silva Augusti. <b>Conhecer para cuidar: desenvolvendo atividades de Educação Ambiental com alunos e professores da EEEF Sueni Goulart dos Santos, no Município de São Gabriel,RS</b>. (Gestão Ambiental) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4218915379129113">Luciana Borba Benetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>Edryeise Gavião. <b>Planilha de gerenciamento de atividades aquicolas</b>. (Curso Superior Tecnólogo em Aquicultura) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8606207704187820">Marco Aurélio Alves de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>EDUARDO BARROS DAL SANTOS. <b>CTPEC - CENTRO DE TECNOLOGIA EM PECUARIA</b>. (Medicina Veterinária) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8056365542183068">Ricardo Pedroso Oaigen</a>.</font></td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>ELENICE PACHECO TERRA. <b>Estágio IV Supervisionado Obrigatório</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9516222555613323">Giane Rodrigues dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>Elenice Terra Pacheco. <b>Projeto de Extensão: Centro de Línguas - Letras</b>. (Letras: Português/Espanhol e respectivas Literaturas) - Universidade Federal do Pampa - Campus Jaguarão, Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6468309464240697">Denise Aparecida Moser</a>.</font></td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>ELIAS ASSIS SCHIMMELPHENNING. <b>Estágio IV Supervisionado Obrigatório</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9516222555613323">Giane Rodrigues dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>Elisabete Silva dos Santos. <b>Estágio curricular supervisionado II</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/4864917387386802">Geice Peres Nunes</a>, <a href="http://lattes.cnpq.br/6414093380131120">Ida Maria Morales Marins</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>Elisangela Dorneles. <b>Estágio Curricular Supervisionado em Ciências Humanas</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4358910526888940">Lauren de Lacerda Nunes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>Ellen Goulart Jacintho. <b>Estágio Curricular Supervisionado Obrigatório - Compreender a escola como Instituição Pública</b>. (Educação do Campo) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>Ewerton da Silva Ferreira. <b>LEME: oficinas preparatórias para o ENEM - segunda edição</b>. (Ciências Humanas) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico da UNIPAMPA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4358910526888940">Lauren de Lacerda Nunes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>FABIANO RODRIGO ZDRADEK. <b>Estágio II Supervisionado Obrigatório</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9516222555613323">Giane Rodrigues dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>Fabiola Dalla Nora. <b>Planetário da Unipampa</b>. (Engenharia Química) - Universidade Federal do Pampa, Ministério da Educação. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2906182031441331">Márcia Maria Lucchese</a>.</font></td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>Felipe Domingues Teixeira. <b>Estágio Supervisionado II - Ensino Médio</b>. (História) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>Felipe Quartieri da Rocha. <b>As práticas de extensão rural realizadas pela Emater em Santa Margarida do Sul</b>. (Gestão Ambiental) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9707343593567031">Jefferson Marçal da Rocha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>Fernanda Castro Montiel. <b>Estágio Curricular Supervisionado Obrigatório - Compreender a escola como Instituição Pública</b>. (Educação do Campo) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>FERNANDA DA SILVA ARAÚJO. <b>Estágio IV Supervisionado Obrigatório</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9516222555613323">Giane Rodrigues dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td>FERNANDA PINTO ÁVILA. <b>Estágio IV Supervisionado Obrigatório</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9516222555613323">Giane Rodrigues dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>75. &nbsp;</td> <td>Fernanda Vitória Nunes. <b>Estágio Supervisionado Obrigatório: Estágio III - Língua Portuguesa/Literatura</b>. (Letras: Português/Espanhol e respectivas Literaturas) - Universidade Federal do Pampa - Campus Jaguarão, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6468309464240697">Denise Aparecida Moser</a>.</font></td></tr>
+            
+            <tr valign="top"><td>76. &nbsp;</td> <td>Franciele Aguirre de Leon. <b>Matemática: Educação e Ciência discutidas nas escolas de Itaqui</b>. (Matemática) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3321947327740091">Radael de Souza Parolin</a>.</font></td></tr>
+            
+            <tr valign="top"><td>77. &nbsp;</td> <td>Franciele Pinheiro da Silva. <b>Relatório de estágio Ensino Fundamental</b>. (Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>78. &nbsp;</td> <td>Franciele Pinheiro Silva. <b>Autoestima na sala de aula</b>. (Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>79. &nbsp;</td> <td>Francieli Educarda Santana. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. (Educação Física) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>80. &nbsp;</td> <td>Francielle Hambrecht. <b>Grupo de leituras de literaturas latino-americanas</b>. (Letras - Português) - Universidade Federal do Pampa, Fundo Nacional do Desenvolvimento da Educação. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>81. &nbsp;</td> <td>Francisco Machado. <b>Elaborando materiais didáticos relacionados ao tema fontes de energia</b>. (Licenciatura em Física) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2906182031441331">Márcia Maria Lucchese</a>.</font></td></tr>
+            
+            <tr valign="top"><td>82. &nbsp;</td> <td>Frederico de Araújo Flores. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. (Educação Física) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>83. &nbsp;</td> <td>Fábio Vieira Ávila. <b>Estágio Supervisionado Obrigatório: Estágio III - Língua Portuguesa/Literatura</b>. (Letras: Português/Espanhol e respectivas Literaturas) - Universidade Federal do Pampa - Campus Jaguarão, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6468309464240697">Denise Aparecida Moser</a>.</font></td></tr>
+            
+            <tr valign="top"><td>84. &nbsp;</td> <td>Félix Roman Munieweg. <b>Produção do hidromel como alternativa de renda para apicultores do município de Itaqui, RS</b>. (Nutrição) - Universidade Federal do Pampa, PDA UNIPAMPA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9101858681342985">Cássia Regina Nespolo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>85. &nbsp;</td> <td>GEAN CARLOS FRANCO GOUVEIA. <b>Estágio II Supervisionado Obrigatório</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9516222555613323">Giane Rodrigues dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>86. &nbsp;</td> <td>Gleison Dutra Vieira. <b>Estágio Curricular Obrigatório em Biotecnologia</b>. (Biotecnologia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0382799433347639">Luís Fabiano Santos da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>87. &nbsp;</td> <td>Greice Kelly Oliveira Jorge. <b>Mobilizando as memórias e histórias de vida dos idosos: poesia e afetividade em asilos</b>. (Letras - Português) - Universidade Federal do Pampa, Fundo Nacional do Desenvolvimento da Educação. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>88. &nbsp;</td> <td>Guilherme Cruz Sencever. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. (Educação Física) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>89. &nbsp;</td> <td>Guilherme Otavio Bertodo. <b>NOITE DA PECUARIA</b>. (Medicina Veterinária) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8056365542183068">Ricardo Pedroso Oaigen</a>.</font></td></tr>
+            
+            <tr valign="top"><td>90. &nbsp;</td> <td>Gustavo Salgado Carrazoni. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. (Educação Física) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>91. &nbsp;</td> <td>Heverton Schimitz Lopes. <b>Diálogos sobre literaturas anglófonas: a colonização cultural manifestada através da literatura</b>. (Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>92. &nbsp;</td> <td>Héllen Teixeira Vargas. <b>Acessibilidade e inclusão de pessoas com deficiência em locais de lazer, esporte e eventos em Sapucaia do Sul</b>. (Técnico em Eventos) - Instituto Federal de Educação, Ciência e Tecnologia Sul-Rio-Grandense. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8063504518653314">Gerson de Lima Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>93. &nbsp;</td> <td>Igor Darci Campos Araújo. <b>Estagio Acadêmico em Regência de Classe na Educação Básica.</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2869652027513088">Anderson Romário Pereira Corrêa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>94. &nbsp;</td> <td>Jairo de Almeida Santa. <b>Estágio Supervisionado Obrigatório: Estágio III - Língua Portuguesa/Literatura</b>. (Letras: Português/Espanhol e respectivas Literaturas) - Universidade Federal do Pampa - Campus Jaguarão, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6468309464240697">Denise Aparecida Moser</a>.</font></td></tr>
+            
+            <tr valign="top"><td>95. &nbsp;</td> <td>Jairo Oliveira. <b>Supervisão das aulas de inglês no Núcleo de Línguas Adicionais - Estágio de Docência do Mestrado</b>. (Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/6376117076673020">Simone Silva Pires de Assumpção</a>, <a href="http://lattes.cnpq.br/4864917387386802">Geice Peres Nunes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>96. &nbsp;</td> <td>Jakeline Santos Quaresma. <b>Análises físico-químicas no farelo e óleo bruto de arroz - Relatório de Estágio Supervisionado</b>. (Ciência e Tecnologia de Alimentos) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9101858681342985">Cássia Regina Nespolo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>97. &nbsp;</td> <td>Jessica Biltches Costa. <b>Estágio de Observação em Língua Portuguesa</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8943707248628981">Bianca Alves Lehmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>98. &nbsp;</td> <td>John Welvins Barros de Araujo. <b>Iniciação ao ensino/monitoria da componente curricular de Física I e Física Geral I</b>. (Licenciatura em Física) - Fundação Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/6432341940154857">Carla Judite Kipper</a>, <a href="http://lattes.cnpq.br/3738313938168252">Edson Massayuki Kakuno</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>99. &nbsp;</td> <td>Joilson da Silva Almeida. <b>Estágio Curricular em Sociologia e História - Ensino Médio</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>100. &nbsp;</td> <td>José Gonçalves Medeiros Júnior. <b>Estágio Supervisionado II - Ensino Médio</b>. (História) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>101. &nbsp;</td> <td>Juliana Alves. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. (Educação Física) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>102. &nbsp;</td> <td>Jéssica Almeida Isbarrola. <b>Estudos em Educação Física escolar</b>. (Educação Física) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico - UNIPAMPA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>103. &nbsp;</td> <td>Jéssica Godoy Pinto. <b>Estágio</b>. (Geologia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>104. &nbsp;</td> <td>Júlia Epping Brito. <b>TED: Tecnologia, Educação e Design</b>. (Técnico em Eventos) - Instituto Federal Sul-Rio-Grandense, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8063504518653314">Gerson de Lima Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>105. &nbsp;</td> <td>Júlia Scherer Lodi; Suéllen de Cássia Garcia Vaz. <b>Os eventos da Rota Romântica como fator de desenvolvimento local</b>. (Técnico em Eventos) - Instituto Federal Sul-Rio-Grandense, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8063504518653314">Gerson de Lima Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>106. &nbsp;</td> <td>Kaique Martins Keller. <b>Monitoria de Componentes Curriculares de Cálculo Diferencial e Integral</b>. (Engenharia de Agrimensura) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3321947327740091">Radael de Souza Parolin</a>.</font></td></tr>
+            
+            <tr valign="top"><td>107. &nbsp;</td> <td>Karine Junges. <b>Estágio</b>. (Geologia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>108. &nbsp;</td> <td>Karoline Gasque de Souza. <b>Estágio de Observação em Língua Portuguesa</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8943707248628981">Bianca Alves Lehmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>109. &nbsp;</td> <td>KATIELE SANTANA DA SILVA. <b>Estágio II Supervisionado Obrigatório</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9516222555613323">Giane Rodrigues dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>110. &nbsp;</td> <td>Keli Cristiane Daniel. <b>Estágio IV - Licenciatura em Ciências Humanas</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7031094369974040">Adriana Hartemink Cantini</a>.</font></td></tr>
+            
+            <tr valign="top"><td>111. &nbsp;</td> <td>Kimberly Ferreira Costa. <b>Estágio Curricular Supervisionado I - Língua Portuguesa</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5260632872182857">Leonor Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>112. &nbsp;</td> <td>Leandro Marcos Lassen. <b>Supervisão das aulas de inglês no Núcleo de Línguas Adicionais - Estágio de Docência do Mestrado</b>. (Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6376117076673020">Simone Silva Pires de Assumpção</a>.</font></td></tr>
+            
+            <tr valign="top"><td>113. &nbsp;</td> <td>Leonardo Barboza Benites. <b>Astronomia para Todos</b>. Orientação de outra natureza - Universidade Federal do Pampa, Ministério da Educação. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>114. &nbsp;</td> <td>Leticia Oliveira Chaves. <b>Estágio Curricular em Sociologia e História - Ensino Médio</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>115. &nbsp;</td> <td>Letícia Oliveira Chaves. <b>Estágio Curricular em Geografia e História- Ensino Fundamental</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>116. &nbsp;</td> <td>Letícia Pinto Meireles. <b>Estágio Curricular</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0043376390965232">Andréa Becker Narvaes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>117. &nbsp;</td> <td>Liane dos Santos Rodrigues. <b>Estágio Curricular Supervisionado Obrigatório - Compreender a escola como Instituição Pública</b>. (Educação do Campo) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>118. &nbsp;</td> <td>Lidiane dos Santos Moreira. <b>Estágio Curricular Supervisionado Obrigatório - Compreender a escola como Instituição Pública</b>. (Educação do Campo) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>119. &nbsp;</td> <td>Lisiane dos Santos Moreira. <b>Estágio Curricular Supervisionado Obrigatório - Compreender a escola como Instituição Pública</b>. (Educação do Campo) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>120. &nbsp;</td> <td>Lorena Garces Silva e Viviani Epifanio Machado Ferreira. <b>ANÁLISE DO LIVRO DIDÁTICO DO ENSINO FUNDAMENTAL: EJA SÉRIES FINAIS- COLEÇÃO EJA MODERNA</b>. (Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0119982097901088">Juliana Colozzo Gregorio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>121. &nbsp;</td> <td>Luana Rodrigues Seno. <b>Estágio Curricular Supervisionado Obrigatório - Compreender a escola como Instituição Pública</b>. (Educação do Campo) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>122. &nbsp;</td> <td>Lucas Freitas de Oliveira. <b>Relatório de Estágio Supervisionado do Ensino Fundamental</b>. (Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>123. &nbsp;</td> <td>Lucas Giovan Gomes Acosta. <b>Estágio Curricular Supervisionado em Ciências Humanas</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4358910526888940">Lauren de Lacerda Nunes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>124. &nbsp;</td> <td>Lucas Ávila. <b>Estágio Curricular</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0043376390965232">Andréa Becker Narvaes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>125. &nbsp;</td> <td>Luis Antônio Quadros de Quadros. <b>PIBID (Programa Institucional de Iniciação à Docência)</b>. (Letras - Português) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>126. &nbsp;</td> <td>Luis Filipe Gonçalves. <b>Estágio Supervisionado</b>. Orientação de outra natureza - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9175937699446405">Matheus de Carvalho Leite</a>.</font></td></tr>
+            
+            <tr valign="top"><td>127. &nbsp;</td> <td>Luis Renato Fanfa. <b>Estagio Acadêmico em Regência de Classe na Educação Básica.</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2869652027513088">Anderson Romário Pereira Corrêa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>128. &nbsp;</td> <td>Mari Enilda Brasil Albrecht. <b>Estágio Curricular Supervisionado Obrigatório - Compreender a escola como Instituição Pública</b>. (Educação do Campo) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>129. &nbsp;</td> <td>Maria da Graça da Silva Duarte. <b>Estágio Curricular Supervisionado Obrigatório - Compreender a escola como Instituição Pública</b>. (Educação do Campo) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>130. &nbsp;</td> <td>MARIA FERNANDA CARVALHO DIAS. <b>Estágio Supervisionado Obrigatório: Estágio III - Língua Portuguesa/Literatura</b>. (Letras: Português/Espanhol e respectivas Literaturas) - Universidade Federal do Pampa - Campus Jaguarão, . 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9516222555613323">Giane Rodrigues dos Santos</a>, <a href="http://lattes.cnpq.br/6468309464240697">Denise Aparecida Moser</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>131. &nbsp;</td> <td>Maria Helenara Pozzedin Mendes. <b>A diversidade no ensino de língua portuguesa</b>. (Letras) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>132. &nbsp;</td> <td>Maria Solange Barbosa da Silva. <b>Estágio de Observação em Língua Portuguesa</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8943707248628981">Bianca Alves Lehmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>133. &nbsp;</td> <td>Mariel Mendes Arence. <b>Estágio de Observação em Língua Portuguesa</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8943707248628981">Bianca Alves Lehmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>134. &nbsp;</td> <td>Mariele Hernandez. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. (Educação Física) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>135. &nbsp;</td> <td>Marilza Madeira. <b>Monitoria nas disciplinas de Morfossintaxe do Português II e III</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/5260632872182857">Leonor Simioni</a>, <a href="http://lattes.cnpq.br/9516222555613323">Giane Rodrigues dos Santos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>136. &nbsp;</td> <td>Marinês da Costa Della Libra. <b>A sustentabilidade nos preceitos educativos das escolas do campo: uma análise das práticas educativas e de gestão Metade Sul do RS</b>. (Gestão Ambiental) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9707343593567031">Jefferson Marçal da Rocha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>137. &nbsp;</td> <td>Marília de Soares Braga. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. (Educação Física) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico - UNIPAMPA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>138. &nbsp;</td> <td>Marília de Soares Braga. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. (Educação Física) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>139. &nbsp;</td> <td>Marília de Soares Braga. <b>Iniciação à extensão: Perspectivas sobre docência em Educação Física Escolar</b>. (Educação Física) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico - UNIPAMPA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>140. &nbsp;</td> <td>Marília de Soares Braga. <b>Oficinas de Atualização em Educação Física Escolar</b>. (Educação Física) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico - UNIPAMPA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>141. &nbsp;</td> <td>Matheus Rodrigues dos Santos. <b>PIBID (Programa Institucional de Iniciação à Docência)</b>. (Letras - Português) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>142. &nbsp;</td> <td>Millaine de Souza Carvalho. <b>Estágio curricular supervisionado IV</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/4864917387386802">Geice Peres Nunes</a>, <a href="http://lattes.cnpq.br/6414093380131120">Ida Maria Morales Marins</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>143. &nbsp;</td> <td>Morgana Balbueno Ferreira. <b>Desenvolvimento e avaliação ao longo da vida de prateleira do doce de leite ovino com e sem adição de creme de leite</b>. (Nutrição) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9101858681342985">Cássia Regina Nespolo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>144. &nbsp;</td> <td>Morgana Balbueno Ferreira. <b>Produção de material técnico e científico como estratégia de aprendizagem e de divulgação de informações em Ciência e Tecnologia de Alimentos</b>. (Nutrição) - Universidade Federal do Pampa, PDA UNIPAMPA. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9101858681342985">Cássia Regina Nespolo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>145. &nbsp;</td> <td>Mônica Helena Martines Silva. <b>Estágio Curricular Supervisionado</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6414093380131120">Ida Maria Morales Marins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>146. &nbsp;</td> <td>Nadia Ribeiro Rodrigues. <b>Estágio Curricular Supervisionado Obrigatório - Compreender a escola como Instituição Pública</b>. (Educação do Campo) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>147. &nbsp;</td> <td>Natália Fagundes Azevedo. <b>Estágio Supervisionado II - Ensino Médio</b>. (História) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>148. &nbsp;</td> <td>NEEMIAS FLOR BRANDAO. <b>Estágio IV Supervisionado Obrigatório</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9516222555613323">Giane Rodrigues dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>149. &nbsp;</td> <td>Nelson Luís Corrêa. <b>Estágio Supervisionado II - Ensino Médio</b>. (História) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>150. &nbsp;</td> <td>OSWALDO WEY. <b>CTPEC - CENTRO DE TECNOLOGIA EM PECUARIA</b>. (Medicina Veterinária) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8056365542183068">Ricardo Pedroso Oaigen</a>.</font></td></tr>
+            
+            <tr valign="top"><td>151. &nbsp;</td> <td>Pedro Hiago Vitoria Dias. <b>Estágio Supervisionado II - Ensino Médio</b>. (História) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>152. &nbsp;</td> <td>Priscilla Bendersky Gomes. <b>Projeto de Ensino: Cognição e Dialogismo: leitura, escrita e análise linguística</b>. (Letras: Português/Espanhol e respectivas Literaturas) - Universidade Federal do Pampa - Campus Jaguarão, Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6468309464240697">Denise Aparecida Moser</a>.</font></td></tr>
+            
+            <tr valign="top"><td>153. &nbsp;</td> <td>Priscylla Pirasol de Carvalho Marchioni. <b>Monitoria das disciplinas de Morfologia e Estudos de Fonética e Fonologia</b>. (Licenciatura em Letras) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>154. &nbsp;</td> <td>Pâmela Oliveira de Castro. <b>PIBID (Programa Institucional de Iniciação à Docência)</b>. (Letras - Português) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>155. &nbsp;</td> <td>Rafael da Costa Gutierrez. <b>Estágio Supervisionado II - Ensino Médio</b>. (História) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>156. &nbsp;</td> <td>Rafael Gonçalves. <b>Estágio Supervisionado</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9175937699446405">Matheus de Carvalho Leite</a>, <a href="http://lattes.cnpq.br/0043376390965232">Andréa Becker Narvaes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>157. &nbsp;</td> <td>Rafael Magrini da Silva. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. (Educação Física) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>158. &nbsp;</td> <td>Rafael Pires dos Santos. <b>Monitoria em Fisiologia Vegetal na Universidade Federal do Pampa - Campus São Gabriel</b>. (Engenharia Florestal) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7239967672848394">Silvane Vestena</a>.</font></td></tr>
+            
+            <tr valign="top"><td>159. &nbsp;</td> <td>Rafael Schneid dos Santos. <b>Estágio Supervisionado Obrigatório: Estágio III - Língua Portuguesa/Literatura</b>. (Letras: Português/Espanhol e respectivas Literaturas) - Universidade Federal do Pampa - Campus Jaguarão, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6468309464240697">Denise Aparecida Moser</a>.</font></td></tr>
+            
+            <tr valign="top"><td>160. &nbsp;</td> <td>Ranaí Gonçalves Sangic. <b>Relatório de Estágio Supervisionado do Ensino Fundamental</b>. (Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>161. &nbsp;</td> <td>Raquel de Freitas Cunha. <b>Estágio curricular supervisionado IV</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/4864917387386802">Geice Peres Nunes</a>, <a href="http://lattes.cnpq.br/6414093380131120">Ida Maria Morales Marins</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>162. &nbsp;</td> <td>Renata Caon. <b>Rupturas no discurso de representação da mulher através do relato de idosas</b>. (Letras - Português) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>163. &nbsp;</td> <td>Renata de Paiva Tavares. <b>Estágio Supervisionado II - Ensino Médio</b>. (História) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>164. &nbsp;</td> <td>Rita Rollano Garcia Carvalho. <b>Estágio de Observação em Língua Portuguesa</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8943707248628981">Bianca Alves Lehmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>165. &nbsp;</td> <td>Riza Maria Ribeiro Vieira. <b>Estágio Curricular Supervisionado Obrigatório - Compreender a escola como Instituição Pública</b>. (Educação do Campo) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>166. &nbsp;</td> <td>Rosana Dias Neves Botelho. <b>Estágio Supervisionado II - Ensino Médio</b>. (História) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>167. &nbsp;</td> <td>Rosemary Miranda de Souza. <b>Estágio Curricular em Geografia e História- Ensino Fundamental</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>168. &nbsp;</td> <td>Rosinêz Fátima da Luz. <b>Supervisão das aulas de inglês no Núcleo de Línguas Adicionais - Estágio de Docência do Mestrado</b>. (Mestrado Profissional em Ensino de Línguas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6376117076673020">Simone Silva Pires de Assumpção</a>.</font></td></tr>
+            
+            <tr valign="top"><td>169. &nbsp;</td> <td>Sabrina da Rosa Dornelles. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. (Educação Física) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>170. &nbsp;</td> <td>Sabrina Pereira Messa. <b>Bactérias probióticas e parâmetros de qualidade em um produto desenvolvido à base de leite de coco industrializado</b>. (Nutrição) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9101858681342985">Cássia Regina Nespolo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>171. &nbsp;</td> <td>Sabrina Vieira de Oliveira Borba. <b>Estágio de Observação em Língua Portuguesa</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8943707248628981">Bianca Alves Lehmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>172. &nbsp;</td> <td>Saionara Gonçalves Cassal. <b>Estágio curricular supervisionado II</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4864917387386802">Geice Peres Nunes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>173. &nbsp;</td> <td>Sandra Regina da Costa Chaves. <b>Meio ambiente: experiências na escola</b>. (Pedagogia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8832898581140645">Simone Silva Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>174. &nbsp;</td> <td>SANTIAGO BRETANHA FREITAS. <b>Estágio IV Supervisionado Obrigatório</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9516222555613323">Giane Rodrigues dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>175. &nbsp;</td> <td>Sidônia Bresolin. <b>Monitoria de Equações Diferenciais</b>. (Engenharia de Produção) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8636427420690720">Anderson Luis Jeske Bihain</a>.</font></td></tr>
+            
+            <tr valign="top"><td>176. &nbsp;</td> <td>Silvana Chaves Araujo. <b>Monitoria em vivências interdisciplinares em Teorias da Educação, em Prática Pedagógica e em Políticas Públicas, Legislação e Gestão da Educação.</b>. (Ciências da Natureza) - Universidade Federal do Pampa, Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>177. &nbsp;</td> <td>Simone Colvara da Costa. <b>Estágio Curricular Supervisionado</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6414093380131120">Ida Maria Morales Marins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>178. &nbsp;</td> <td>Simone Lima Guedes. <b>PIBID (Programa Institucional de Iniciação à Docência)</b>. (Letras - Português) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>179. &nbsp;</td> <td>Simone Rodrigues. <b>Estágio Supervisionado</b>. (Música) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9175937699446405">Matheus de Carvalho Leite</a>.</font></td></tr>
+            
+            <tr valign="top"><td>180. &nbsp;</td> <td>Suelen de Souza Paim. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. (Educação Física) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>181. &nbsp;</td> <td>Taciane Moro. <b>Estágio Curricular em Geografia e História- Ensino Fundamental</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>182. &nbsp;</td> <td>Taciane Moro. <b>Estágio Curricular em História e Sociologia - Ensino médio</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>183. &nbsp;</td> <td>Taiane Silva de Oliveira. <b>Estágio Supervisionado Obrigatório: Estágio III - Língua Portuguesa/Literatura</b>. (Letras: Português/Espanhol e respectivas Literaturas) - Universidade Federal do Pampa - Campus Jaguarão, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6468309464240697">Denise Aparecida Moser</a>.</font></td></tr>
+            
+            <tr valign="top"><td>184. &nbsp;</td> <td>Tainah Oliveira e Miranda. <b>Estágio Curricular Obrigatório em Biotecnologia</b>. (Biotecnologia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0382799433347639">Luís Fabiano Santos da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>185. &nbsp;</td> <td>Talia Cristina dos Santos Romano Dotto. <b>Estudo de Botânica na Escola Municipal de Ensino Fundamental Pedro Ferraz Neto no município de São Gabriel, RS</b>. (Ciências Biológicas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7239967672848394">Silvane Vestena</a>.</font></td></tr>
+            
+            <tr valign="top"><td>186. &nbsp;</td> <td>Tatiana Fagundes Veber. <b>Estágio Curricular Supervisionado Obrigatório - Compreender a escola como Instituição Pública</b>. (Educação do Campo) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>187. &nbsp;</td> <td>Tayne Melo Motta. <b>Oficina de teatro: escola e cena</b>. (Letras - Português) - Universidade Federal do Pampa, Fundo Nacional do Desenvolvimento da Educação. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5324835582154122">Mônica Ferreira Cassana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>188. &nbsp;</td> <td>Tayná Esteves. <b>USO DO MÉTODO ITERATIVO DE GAUSS SEIDEL PARA ESTIMATIVA DE SOLUÇÃO DE SISTEMAS LINEARES UTILIZANDO O SOFTWARE SCILAB</b>. (Geologia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0118710960920352">Reginaldo Fabiano da Silva Afonso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>189. &nbsp;</td> <td>Tayná Esteves. <b>Auxilio na elaboração de material complementar para a disciplina de de Geometria analítica e acessoria através de monitoria aos alunos desta componente curricular</b>. (Geologia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0118710960920352">Reginaldo Fabiano da Silva Afonso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>190. &nbsp;</td> <td>TaísPrates Muler. <b>Iniciação à docência: Ações para a docência em Educação Física do Programa de bolsas de iniciação à docência _PIBID</b>. (Educação Física) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>191. &nbsp;</td> <td>Thaís Paz Barbosa. <b>PIBID (Programa Institucional de Iniciação à Docência)</b>. (Letras - Português) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>192. &nbsp;</td> <td>Thuanne Souza Jahnke. <b>Estágio Curricular Supervisionado</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6414093380131120">Ida Maria Morales Marins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>193. &nbsp;</td> <td>Thyago Thome do Amaral Santiago. <b>Monitoria na Componentes Curriculares de Química Geral e Química Geral Experimental</b>. (Engenharia de Alimentos) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2487436334048538">Lucilene Dornelles Mello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>194. &nbsp;</td> <td>Tiara Cristiana Pimentel dos Santos. <b>Estagio Acadêmico em Regência de Classe na Educação Básica.</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2869652027513088">Anderson Romário Pereira Corrêa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>195. &nbsp;</td> <td>Vanessa Rosa Pires. <b>Projeto de Extensão Astronomia para Todos</b>. (Engenharia de Alimentos) - Universidade Federal do Pampa, PROEXT-MEC. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8015609250219170">Claudia Laus Angelo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>196. &nbsp;</td> <td>Varleia Fontoura Fernandes. <b>Estágio Curricular Supervisionado Obrigatório - Compreender a escola como Instituição Pública</b>. (Educação do Campo) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>197. &nbsp;</td> <td>Victor da Silva Pacheco dos Santos. <b>Estágio Curricular Supervisionado I - Língua Portuguesa</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5260632872182857">Leonor Simioni</a>.</font></td></tr>
+            
+            <tr valign="top"><td>198. &nbsp;</td> <td>Virgina Barbosa Lucena Caetano. <b>Estágio curricular supervisionado IV</b>. (Letras - Português e Espanhol) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4864917387386802">Geice Peres Nunes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>199. &nbsp;</td> <td>Vitiele Rodrigues Fernandes. <b>Estágio Curricular em Geografia e História- Ensino Fundamental</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>200. &nbsp;</td> <td>Vitiele Rodrigues Fernandes. <b>Estágio Curricular em Sociologia e História - Ensino Médio</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>201. &nbsp;</td> <td>Viviane Carvalho Moraes. <b>Estagio Acadêmico em Regência de Classe na Educação Básica.</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2869652027513088">Anderson Romário Pereira Corrêa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>202. &nbsp;</td> <td>Vladimir da Silva Fortes. <b>Estagio Acadêmico em Regência de Classe na Educação Básica.</b>. (Ciências Humanas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2869652027513088">Anderson Romário Pereira Corrêa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>203. &nbsp;</td> <td>Yasmin Prestes Ferreira. <b>Relatório de Estágio Supervisionado do Ensino Fundamental</b>. (Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>204. &nbsp;</td> <td>Zaira Severo Conceição. <b>Estágio Curricular Supervisionado Obrigatório - Compreender a escola como Instituição Pública</b>. (Educação do Campo) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></td></tr>
+            
+            <tr valign="top"><td>205. &nbsp;</td> <td>Éricles Nunes Meus. <b>MONITORIA:ESTUDO E AMPLIAÇÃO DOS CONHECIMENTOS EM TEORIA ELEMENTAR DOS NÚMEROS</b>. (Matemática-Licenciatura) - Universidade Federal do Pampa/Campus Itaqui, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7199536513974481">Karla Beatriz Vivian Silveira</a>.</font></td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>. <b></b>. Monitoria nas Componentes Curriculares de Química Geral e Analítica, . 0.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2487436334048538">Lucilene Dornelles Mello</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 08/01/2019 18:23:13<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
