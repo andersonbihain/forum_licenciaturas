@@ -1,0 +1,225 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Cacapava</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Cacapava</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Trabalho de conclusão de curso de graduação'}, 
+series: [{data: [[2016,
+14],
+[2017,
+17],
+[2018,
+5]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Trabalho de conclusão de curso de graduação</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 36<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriano Bratkowiski. <b>Análise da inserção da Astronomia na Educação Básica e proposta de elaboração de um plano para seu ensino</b>. (Graduação em Ciências Exatas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0808253492421363">André Luís Silva da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Aniele Valdez Machado. <b>A História da Ciência e o uso de mapas conceituais: uma proposta balizada na Aprendizagem Significativa para o Ensino de Química</b>. (Graduação em Ciências Exatas) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0808253492421363">André Luís Silva da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Marcelo Fonseca Vvian. <b>Formação continuada de professores de Ciências da Natureza: um estudo exploratório em coordenadorias regionais da educação da mesorregião sudeste rio-grandense</b>. (Graduação em Ciências Exatas) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4134633660161244">Mara Elisângela Jappe Goi</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Marcos Vinicios da Silva Ferreira. <b>Contribuições das Atividades Experimentais Investigativas no Ensino de Química da Educação Básica</b>. (Graduação em Ciências Exatas) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4134633660161244">Mara Elisângela Jappe Goi</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Paulo Castro da Rosa. <b>Risco de contaminação ambiental em área de mineração de cobre e estudo toxicológico em Drosophila melanogaster</b>. (Graduação em Engenharia Ambiental e Sanitária) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4004565241849091">Caroline Wagner</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALESSANDRA LUCERO SILVA. <b>ESTUDO DAS EQUAÇÕES DIFERENCIAIS ORDINÁRIAS PROPOSTAS POR LIVROS-TEXTO: UMA ANÁLISE SOB A ÓTICA DA ABORDAGEM QUALITATIVA</b>. (Graduação em Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3103885429038868">Maria Arlita da Silveira Soares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Aline dos Santos Brasil. <b>Abordagem de Temas no âmbito do PIBID: impacto do trabalho a partir de uma proposta CTS</b>. (Graduação em Ciências Exatas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8275677837912851">Sandra Hunsche</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Amanda Mello da Silva Freire. <b>CARACTERIZAÇÃO DAS ROCHAS VULCÂNICAS DO DEPÓSITO POLIMETÁLICO DE SANTA MARIA, CAÇAPAVA DO SUL ? RS</b>. (Graduação em Geologia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Carlos Alberto Pereira Pedroso. <b>Proposição de uma Estrutura Básica para um Laboratório de Química e um Panorama Atual dos Laboratórios nas Escolas de Ensino Médio do Município de Caçapava do Sul (TCC II)</b>. (Graduação em Ciências Exatas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9680419106224563">Paulo Henrique dos Santos Sartori</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Edila Rosane Alves da Silva. <b>Articulação entre Resolução de Problemas e a temática drogas como proposta metodológica para o Ensino de Química</b>. (Graduação em Ciências Exatas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4134633660161244">Mara Elisângela Jappe Goi</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>GABRIELLE NUNES DOS SANTOS. <b>CONTEÚDOS DE ÁLGEBRA LINEAR ENSINADOS NA EDUCAÇÃO BÁSICA: UMA ANÁLISE DE LIVROS DO ENSINO SUPERIOR</b>. (Graduação em Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3103885429038868">Maria Arlita da Silveira Soares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Jackeline da Rosa Moreira. <b>Potencialidade de um Plano de Ensino pautado na Atividade Experimental Problematizada à Alfabetização Científica em Química</b>. (Graduação em Ciências Exatas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0808253492421363">André Luís Silva da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Jocilene Castro Soares. <b>Geometria Analítica: análise de coleções de livros didáticos do Ensino Médio sob a ótica dos Registros de Representação Semiótica</b>. (Graduação em Ciências Exatas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3103885429038868">Maria Arlita da Silveira Soares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Karolyne Estel. <b>QUALIDADE DAS ÁGUAS DO ARROIO DAS LAVRAS SOB INFLUÊNCIA DE ATIVIDADE MINEIRA</b>. (Graduação em Engenharia Ambiental e Sanitária) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Leonardo Santos Souza. <b>Abordagem Temática Freiriana na Formação Continuada de Professores da Educação Básica: possíveis caminhos</b>. (Graduação em Ciências Exatas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8275677837912851">Sandra Hunsche</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Mayara B. Leão. <b>AVALIAÇÃO DOS EFEITOS DA ASSOCIAÇÃO DOS HERBICIDAS 2,4-D E PICLORAM SOBRE PARÂMETROS DE TOXICIDADE EM Drosophila melanogaster</b>. (Graduação em Engenharia Ambiental e Sanitária) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5296284169605317">Cristiane Lenz Dalla Corte</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Mayra dos Santos Lopes. <b>Práticas de gerenciamento aplicadas à resíduos químicos em laboratório de ensino e pesquisa no município de Caçapava do Sul</b>. (Graduação em Engenharia Ambiental e Sanitária) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>PAOLA AQUINO DOS SANTOS. <b>MAPEAMENTO DE PESQUISAS BRASILEIRAS QUANTO AS TENDÊNCIAS TEÓRICO-METODOLÓGICAS NO ENSINO E APRENDIZAGEM DE GEOMETRIA PLANA</b>. (Graduação em Matemática) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3103885429038868">Maria Arlita da Silveira Soares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Priscila Fonseca Luiz. <b>Abordagem CTS na Formação Inicial de Professores: um olhar para o curso de Ciências Exatas Licenciatura</b>. (Graduação em Ciências Exatas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8275677837912851">Sandra Hunsche</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Stephanie da Silva Trindade. <b>ANÁLISE DAS PROPRIEDADES DOS CONJUNTOS NUMÉRICOS E OPERAÇÕES IDENTIFICADAS EM LIVROS DIDÁTICOS DO ENSINO FUNDAMENTAL</b>. (Graduação em Ciências Exatas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3103885429038868">Maria Arlita da Silveira Soares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Tamiris Dias da Rosa. <b>Atividades Experimentais Investigativas no Ensino de Física mediante os Três Momentos Pedagógicos: papel dos estudantes e dos professores</b>. (Graduação em Ciências Exatas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8275677837912851">Sandra Hunsche</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Valéria Oliveira Perceval. <b>CONTEÚDOS DE ÁLGEBRA LINEAR: METANÁLISE DE PESQUISAS NA ÁREA DA EDUCAÇÃO MATEMÁTICA</b>. (Graduação em Ciências Exatas) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3103885429038868">Maria Arlita da Silveira Soares</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Ana Paula de Oliveira Ramos. <b>Mandalas e a construção de saberes em Arte e Matemática</b>. (Graduação em Ciências Exatas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6348630855781978">Angela Maria Hartmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Andressa Sanches Teixeira. <b>Desenvolvimento do pensamento algébrico e os softwares de matemática dinâmica: metanálise de produções brasileiras</b>. (Graduação em Licenciatura em Ciências Exatas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8812847806952873">André Martins Alvarenga</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Carlos Alberto Pereira Pedroso. <b>A Importância da Experimentação no Ensino de Química: Concepções dos Professores sobre Práticas Experimentais X Diagnóstico dos Laboratórios das Escolas de Caçapava do Sul (TCC I)</b>. (Graduação em Ciências Exatas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9680419106224563">Paulo Henrique dos Santos Sartori</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Daniane Stock Machado. <b>Atividade Experimental Problematizada (AEP): possibilidades e contribuições para o Ensino de Química no Ensino Médio Politécnico</b>. (Graduação em Licenciatura em Ciências Exatas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0808253492421363">André Luís Silva da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Danrlei Trindade da Silveira. <b>O CONCEITO DE SEQUÊNCIAS NUMÉRICAS: ANÁLISE DE MATERIAIS DIDÁTICOS PARA O ENSINO MÉDIO E ENSINO SUPERIOR</b>. (Graduação em Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3103885429038868">Maria Arlita da Silveira Soares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Dienifer Ferner da Luz. <b>DESENVOLVIMENTO DO PENSAMENTO GEOMÉTRICO: ANÁLISE DE LIVROS DIDÁTICOS DE MATEMÁTICA DO ENSINO MÉDIO</b>. (Graduação em Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3103885429038868">Maria Arlita da Silveira Soares</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Dionatan Daniel Giusti. <b>USO DE FRX NA DETERMINAÇÃO DE CONTAMINANTES NO SOLO E SEUS POSSÍVEIS IMPACTOS NA SAÚDE HUMANA DEVIDO AS ATIVIDADES MINERADORAS EM LAVRAS DO SUL/RS</b>. (Graduação em Geologia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Janaína Midori Hirata. <b>O CURRÍCULO DE MATEMÁTICA NOS ANOS FINAIS DO ENSINO FUNDAMENTAL: UM OLHAR PARA O REFERENCIAL CURRICULAR EM CAÇAPAVA DO SUL/RS</b>. (Graduação em Ciências Exatas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8275677837912851">Sandra Hunsche</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>JÉSSICA GODOY PINTO. <b>UTILIZAÇÃO DE AEROGEOFISICA PARA CORRELAÇÃO GEOLOGICA E GEOFISICA NO MUNICÍPIO DE SÃO SEPÉ-RS.</b>. (Graduação em Geologia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Karine Junges. <b>ANÁLISE DE CONCENTRAÇÃOES DE NITRATO EM ÁGUAS SUPERFICIAIS E SUBTERRÂNEAS EM CAÇAPAVA DO SUL - RS</b>. (Graduação em Geologia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Paulo César Marques da Silva. <b>Teorema de Tales: uma unidade didática para o Ensino Médio</b>. (Graduação em Ciências Exatas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6348630855781978">Angela Maria Hartmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Rosangela de Camargo. <b>Avaliação microbioquímica da qualidade da água na área urbana de Mata, RS</b>. (Graduação em Engenharia Ambiental e Sanitária) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Taynara Oliveira da Rosa. <b>Potenciação e radiciação: contribuição dos jogos no Ensino Médio</b>. (Graduação em Ciências Exatas) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6348630855781978">Angela Maria Hartmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>VERÔNICA PEREIRA STIVANIN. <b>DIFERENTES INTERPRETAÇÕES DO NÚMERO RACIONAL: UMA ANÁLISE DE LIVROS DIDÁTICOS</b>. (Graduação em Matemática) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3103885429038868">Maria Arlita da Silveira Soares</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 16:26:39<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

@@ -1,0 +1,203 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Cacapava</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Cacapava</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Capítulos de livros publicados'}, 
+series: [{data: [[2016,
+3],
+[2017,
+6],
+[2018,
+16]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Capítulos de livros publicados</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 25<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALVARENGA, A. M.; OLIVEIRA, C. C. V. G. ; FREITAS, R. J. ; SILVA, M. F. S. ; OLIVEIRA, L. F.. <b>Educação Financeira na escola e na comunidade</b>. Em: André Martins Alvarenga, Patrícia Pujol Goulart Carpes. (Org.). Programa Institucional de Bolsa de Iniciação à Docência (PIBID) - UNIPAMPA: um olhar da coordenação institucional e dos subprojetos de Matemática. 1ed.São Leopoldo. : Oikos. 2018.v. 1, p. 95-102. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educação+Financeira+na+escola+e+na+comunidade&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educação+Financeira+na+escola+e+na+comunidade">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educação+Financeira+na+escola+e+na+comunidade">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ALVARENGA, A. M.; SANTOS, A. F. ; OLIVEIRA, R. ; ALVES, W. R.. <b>Reflexão sobre a aprendizagem dos estudantes através de projetos oferecidos pelo Subprojeto Matemática. Programa Institucional de Bolsa de Iniciação à Docência (PIBID) - UNIPAMPA: um olhar da coordenação institucional e dos subprojetos de Matemática. 1ed.São Leopoldo</b>. Em: . : Oikos. 2018.v. 1, p. 109-115. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Reflexão+sobre+a+aprendizagem+dos+estudantes+através+de+projetos+oferecidos+pelo+Subprojeto+Matemática.+Programa+Institucional+de+Bolsa+de+Iniciação+à+Docência+(PIBID)+-+UNIPAMPA:+um+olhar+da+coordenação+institucional+e+dos+subprojetos+de+Matemática.+1ed.São+Leopoldo&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Reflexão+sobre+a+aprendizagem+dos+estudantes+através+de+projetos+oferecidos+pelo+Subprojeto+Matemática.+Programa+Institucional+de+Bolsa+de+Iniciação+à+Docência+(PIBID)+-+UNIPAMPA:+um+olhar+da+coordenação+institucional+e+dos+subprojetos+de+Matemática.+1ed.São+Leopoldo">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Reflexão+sobre+a+aprendizagem+dos+estudantes+através+de+projetos+oferecidos+pelo+Subprojeto+Matemática.+Programa+Institucional+de+Bolsa+de+Iniciação+à+Docência+(PIBID)+-+UNIPAMPA:+um+olhar+da+coordenação+institucional+e+dos+subprojetos+de+Matemática.+1ed.São+Leopoldo">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>ALVARENGA, A. M.; SILVA, I. P. ; PENHA, J. T. ; PERCEVAL, V. O.. <b>Observando o uso dos jogos de Lógica na Educação Básica</b>. Em: André Martins Alvarenga, Patrícia Pujol Goulart Carpes. (Org.). Programa Institucional de Bolsa de Iniciação à Docência (PIBID) - UNIPAMPA: um olhar da coordenação institucional e dos subprojetos de Matemática. 1ed.São Leopoldo. : Oikos. 2018.v. 1, p. 88-94. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Observando+o+uso+dos+jogos+de+Lógica+na+Educação+Básica&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Observando+o+uso+dos+jogos+de+Lógica+na+Educação+Básica">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Observando+o+uso+dos+jogos+de+Lógica+na+Educação+Básica">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ALVARENGA, A. M.; SOARES, J. C. ; AFONSO, L. F. M. ; SEVERO, P. R. M.. <b>Jogos Matemáticos: uma metodologia de avaliação</b>. Em: André Martins Alvarenga, Patrícia Pujol Goulart Carpes. (Org.). Programa Institucional de Bolsa de Iniciação à Docência (PIBID) - UNIPAMPA: um olhar da coordenação institucional e dos subprojetos de Matemática. 1ed.São Leopoldo. : Oikos. 2018.v. 1, p. 103-108. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Jogos+Matemáticos:+uma+metodologia+de+avaliação&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Jogos+Matemáticos:+uma+metodologia+de+avaliação">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Jogos+Matemáticos:+uma+metodologia+de+avaliação">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>BORGES, P. B. P ; GOI, MARA. <b>Formação continuada de professores: os ciclos de formação e as reflexões diante da prática docente</b>. Em: Aline Machado Dorneles, Edi Morales Pinheiro Junior e Maria do Carmo Galiazzi (organizadores). (Org.). E-book do 37º Encontro de Debates sobre o Ensino de Química : EDEQ ? 37 anos: rodas de formação de professores na Educação Química. 1ed.Rio Grande. : Furg. 2018.v. 1, p. 853-860. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Formação+continuada+de+professores:+os+ciclos+de+formação+e+as+reflexões+diante+da+prática+docente&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Formação+continuada+de+professores:+os+ciclos+de+formação+e+as+reflexões+diante+da+prática+docente">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Formação+continuada+de+professores:+os+ciclos+de+formação+e+as+reflexões+diante+da+prática+docente">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>FREITAS, N. F. L. ; GOI, M. E. J.. <b>REFLEXÃO SOBRE A PRÁTICA DOCENTE E AS DIMENSÕES QUE COMPÕEM O UNIVERSO DA ESCOLA ATRAVÉS DA INVESTIGAÇÃO DO SEU COTIDIANO</b>. Em: Aline Machado Dorneles, Edi Morales Pinheiro Junior e Maria do Carmo Galiazzi (organizadores).. (Org.). E-book do 37º Encontro de Debates sobre o Ensino de Química : EDEQ ? 37 anos: rodas de formação de professores na Educação QuímicaANÁLISE DE ATIVIDADES EXPERIMENTAIS PRESENTES EM LIVROS DIDÁTICOS DE CIÊNCIAS DA NATUREZA DO 9º ANO DO ENSINO FUNDAMENTAL. 1ed.Rio Grande. : Furg. 2018.v. 1, p. 1177-1184. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=REFLEXÃO+SOBRE+A+PRÁTICA+DOCENTE+E+AS+DIMENSÕES+QUE+COMPÕEM+O+UNIVERSO+DA+ESCOLA+ATRAVÉS+DA+INVESTIGAÇÃO+DO+SEU+COTIDIANO&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=REFLEXÃO+SOBRE+A+PRÁTICA+DOCENTE+E+AS+DIMENSÕES+QUE+COMPÕEM+O+UNIVERSO+DA+ESCOLA+ATRAVÉS+DA+INVESTIGAÇÃO+DO+SEU+COTIDIANO">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=REFLEXÃO+SOBRE+A+PRÁTICA+DOCENTE+E+AS+DIMENSÕES+QUE+COMPÕEM+O+UNIVERSO+DA+ESCOLA+ATRAVÉS+DA+INVESTIGAÇÃO+DO+SEU+COTIDIANO">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>GOI, M. E. J. ; ELLENSOHN, R. M. ; MEDEIROS, D. R. ; BORBA, F. I. M. O. ; MACHADO, A. C. P. ; PEDROSO, C. A. P. ; FERREIRA, C. R. ; MIRAPALHETE, C. F. ; MACHADO, D. S. ; SILVA, E. R. A. ; SILVA, I. C. T. ; JESUS, L. C. ; VIVIAN, M. F. ; FERREIRA, M. V. S. ; LEAL, P. F. L. ; SANTOS, R. M. ; TRINDADE, S. S. ; SIQUEIRA, V. F. ; SILVA, Y. M. S. E.. <b>A metodologia da Resolução de Problemas no ensino de Ciências na Educação Básica</b>. Em: Mara Elisângela Jappe Goi; Ricardo Machado Ellensohn. (Org.). (RE)FAZENDO CIÊNCIA: Significações, intervenções, e relatos do PIBID Unipampa. 1ºed.São Leopoldo / RS. : Editora Oikos Ltda. 2018.p. 13-78. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+metodologia+da+Resolução+de+Problemas+no+ensino+de+Ciências+na+Educação+Básica&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+metodologia+da+Resolução+de+Problemas+no+ensino+de+Ciências+na+Educação+Básica">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+metodologia+da+Resolução+de+Problemas+no+ensino+de+Ciências+na+Educação+Básica">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>GOI, MARA; HUNSCHE, S. ; ELLENSOHN, R. M.. <b>Experimentos Investigativos no Ensino de Ciências na formação de professores da Educação Básica</b>. Em: Aline Machado Dorneles, Edi Morales Pinheiro Junior e Maria do Carmo Galiazzi (organizadores).. (Org.). E-book do 37º Encontro de Debates sobre o Ensino de Química : EDEQ ? 37 anos: rodas de formação de professores na Educação Química. 1ed.Rio Grande. : Furg. 2018.v. 1, p. 718-725. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Experimentos+Investigativos+no+Ensino+de+Ciências+na+formação+de+professores+da+Educação+Básica&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Experimentos+Investigativos+no+Ensino+de+Ciências+na+formação+de+professores+da+Educação+Básica">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Experimentos+Investigativos+no+Ensino+de+Ciências+na+formação+de+professores+da+Educação+Básica">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Gomes, C.H; DESSART, R. L. ; SPERANDIO, D. G. ; BORGES, N. P. ; BARBOSA, A. S.. <b>The water quality of the Jaguari stream through PCA analysis</b>. Em: Felipe Luis Mazadiego; Eduardo de Miguel Garcia; Fernando Barrio-Parra. (Org.). Geochemistry. 1ed.London. : IntechOpen. 2018.v. 1, p. 1. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=The+water+quality+of+the+Jaguari+stream+through+PCA+analysis&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=The+water+quality+of+the+Jaguari+stream+through+PCA+analysis">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=The+water+quality+of+the+Jaguari+stream+through+PCA+analysis">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Gomes, Cristiane Heredia; Junges, Karine Persea ; Sperandio, Diogo Gabriel ; Dessart, Rafael Lima ; Kemerich, Pedro Daniel da Cunha. <b>CONCENTRAÇÕES DE NITRATO EM ÁGUAS SUPERFICIAIS E SUBTERRÂNEAS EM ÁREA DE ATIVIDADE MINEIRA NO MUNICÍPIO DE CAÇAPAVA DO SUL, RS, BRASIL</b>. Em: Gomes, Ingrid Aparecida. (Org.). Fins da geologia. 1ed. : Antonella Carvalho de Oliveira. 2018.v. 1, p. 69-84. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=CONCENTRAÇÕES+DE+NITRATO+EM+ÁGUAS+SUPERFICIAIS+E+SUBTERRÂNEAS+EM+ÁREA+DE+ATIVIDADE+MINEIRA+NO+MUNICÍPIO+DE+CAÇAPAVA+DO+SUL,+RS,+BRASIL&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=CONCENTRAÇÕES+DE+NITRATO+EM+ÁGUAS+SUPERFICIAIS+E+SUBTERRÂNEAS+EM+ÁREA+DE+ATIVIDADE+MINEIRA+NO+MUNICÍPIO+DE+CAÇAPAVA+DO+SUL,+RS,+BRASIL">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=CONCENTRAÇÕES+DE+NITRATO+EM+ÁGUAS+SUPERFICIAIS+E+SUBTERRÂNEAS+EM+ÁREA+DE+ATIVIDADE+MINEIRA+NO+MUNICÍPIO+DE+CAÇAPAVA+DO+SUL,+RS,+BRASIL">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>GONCALVES, R. P. N. ; GOI, M. E. J.. <b>A Experimentação Investigativa no Ensino de Ciências na Educação Básica</b>. Em: Aline Machado Dorneles, Edi Morales Pinheiro Junior e Maria do Carmo Galiazzi (organizadores).. (Org.). E-book do 37º Encontro de Debates sobre o Ensino de Química : EDEQ ? 37 anos: rodas de formação de professores na Educação Química. 1ed. 2018.v. 1, p. 579-587. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+Experimentação+Investigativa+no+Ensino+de+Ciências+na+Educação+Básica&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+Experimentação+Investigativa+no+Ensino+de+Ciências+na+Educação+Básica">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+Experimentação+Investigativa+no+Ensino+de+Ciências+na+Educação+Básica">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>HUNSCHE, Sandra; OLIVEIRA, D. B. ; MACHADO, F. O. ; SOUZA, L. S. ; BITENCOURT, R. ; MACHADO, A. V. ; MENEZES, I. L.. <b>Formação inicial e continuada de professores: contribuições do PIBID</b>. Em: Pedro Fernando Dorneles; Sandra Hunsche. (Org.). Práticas educativas no Ensino de Ciências desenvolvidas no PIBID Unipampa. 1ed.São Leopoldo/RS. : Oikos. 2018.p. 9-42. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Formação+inicial+e+continuada+de+professores:+contribuições+do+PIBID&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Formação+inicial+e+continuada+de+professores:+contribuições+do+PIBID">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Formação+inicial+e+continuada+de+professores:+contribuições+do+PIBID">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>MACHADO, D. S. ; SILVA, I. T. ; SIQUEIRA, V. F. ; LEAL, P. F. L. ; MACHADO, A. C. P. ; TRINDADE, S. S. ; MIRAPALHETE, C. ; OLIVEIRA, F. I. M. ; GOI, MARA ; ELLENSOHN, R. M.. <b>ANÁLISE DE PROBLEMAS DISPONÍVEIS EM LIVROS DIDÁTICOS DO ENSINO FUNDAMENTAL PNLD-2017</b>. Em: Aline Machado Dorneles, Edi Morales Pinheiro Junior e Maria do Carmo Galiazzi (organizadores). (Org.). E-book do 37º Encontro de Debates sobre o Ensino de Química : EDEQ ? 37 anos: rodas de formação de professores na Educação QuímicaANÁLISE DE ATIVIDADES EXPERIMENTAIS PRESENTES EM LIVROS DIDÁTICOS DE CIÊNCIAS DA NATUREZA DO 9º ANO DO ENSINO FUNDAMENTAL. 1ed.Rio Grande. : Furg. 2018.v. 1, p. 1016-1023. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=ANÁLISE+DE+PROBLEMAS+DISPONÍVEIS+EM+LIVROS+DIDÁTICOS+DO+ENSINO+FUNDAMENTAL+PNLD-2017&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=ANÁLISE+DE+PROBLEMAS+DISPONÍVEIS+EM+LIVROS+DIDÁTICOS+DO+ENSINO+FUNDAMENTAL+PNLD-2017">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=ANÁLISE+DE+PROBLEMAS+DISPONÍVEIS+EM+LIVROS+DIDÁTICOS+DO+ENSINO+FUNDAMENTAL+PNLD-2017">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>MEDEIROS, D. R. ; SILVA, E. R. A. ; FERREIRA, M. V. S. ; VIVIAN, M. F. ; PEDROSO, C. A. P. ; MACHADO, R. ; JESUS, L. C. ; GOI, M. E. J. ; ELLENSOHN, R. M.. <b>ENSINO DE CIÊNCIAS: ANÁLISE DE PROBLEMAS INTERDISCIPLINARES</b>. Em: Aline Machado Dorneles, Edi Morales Pinheiro Junior e Maria do Carmo Galiazzi (organizadores). (Org.). E-book do 37º Encontro de Debates sobre o Ensino de Química : EDEQ ? 37 anos: rodas de formação de professores na Educação Química. 1ed. 2018.v. 1, p. 671-678. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=ENSINO+DE+CIÊNCIAS:+ANÁLISE+DE+PROBLEMAS+INTERDISCIPLINARES&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=ENSINO+DE+CIÊNCIAS:+ANÁLISE+DE+PROBLEMAS+INTERDISCIPLINARES">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=ENSINO+DE+CIÊNCIAS:+ANÁLISE+DE+PROBLEMAS+INTERDISCIPLINARES">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>SILVA, E. R. A. ; PEDROSO, C. A. P. ; VIVIAN, M. F. ; MEDEIROS, D. R. ; GOI, M. E. J. ; ELLENSOHN, R. M.. <b>ATIVIDADES EXPERIMENTAIS EM QUÍMICA: UMA ANÁLISE EM LIVROS DIDÁTICOS</b>. Em: Aline Machado Dorneles, Edi Morales Pinheiro Junior e Maria do Carmo Galiazzi. (Org.). E-book do 37º Encontro de Debates sobre o Ensino de Química : EDEQ ? 37 anos: rodas de formação de professores na Educação Química. 1ed.Rio Grande. : Editora FURG. 2018.v. 1, p. 421-427. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=ATIVIDADES+EXPERIMENTAIS+EM+QUÍMICA:+UMA+ANÁLISE+EM+LIVROS+DIDÁTICOS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=ATIVIDADES+EXPERIMENTAIS+EM+QUÍMICA:+UMA+ANÁLISE+EM+LIVROS+DIDÁTICOS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=ATIVIDADES+EXPERIMENTAIS+EM+QUÍMICA:+UMA+ANÁLISE+EM+LIVROS+DIDÁTICOS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>TRINDADE, S. S. ; TEIXEIRA, I. ; SIQUEIRA, V. F. ; MIRAPALHETE, C. ; OLIVEIRA, F. I. M. ; GOI, M. E. J. ; ELLENSOHN, R. M.. <b>ANÁLISE DE ATIVIDADES EXPERIMENTAIS PRESENTES EM LIVROS DIDÁTICOS DE CIÊNCIAS DA NATUREZA DO 9º ANO DO ENSINO FUNDAMENTAL</b>. Em: Aline Machado Dorneles, Edi Morales Pinheiro Junior e Maria do Carmo Galiazzi. (Org.). E-book do 37º Encontro de Debates sobre o Ensino de Química : EDEQ ? 37 anos: rodas de formação de professores na Educação QuímicaANÁLISE DE ATIVIDADES EXPERIMENTAIS PRESENTES EM LIVROS DIDÁTICOS DE CIÊNCIAS DA NATUREZA DO 9º ANO DO ENSINO FUNDAMENTAL. 1ed.Rio Grande. : FURG. 2018.v. 1, p. 570-577. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=ANÁLISE+DE+ATIVIDADES+EXPERIMENTAIS+PRESENTES+EM+LIVROS+DIDÁTICOS+DE+CIÊNCIAS+DA+NATUREZA+DO+9º+ANO+DO+ENSINO+FUNDAMENTAL&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=ANÁLISE+DE+ATIVIDADES+EXPERIMENTAIS+PRESENTES+EM+LIVROS+DIDÁTICOS+DE+CIÊNCIAS+DA+NATUREZA+DO+9º+ANO+DO+ENSINO+FUNDAMENTAL">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=ANÁLISE+DE+ATIVIDADES+EXPERIMENTAIS+PRESENTES+EM+LIVROS+DIDÁTICOS+DE+CIÊNCIAS+DA+NATUREZA+DO+9º+ANO+DO+ENSINO+FUNDAMENTAL">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MACHADO, S. F. R. ; SILVA, A. L. S. ; PIZZATO, M. C. ; PINO, J. C.. <b>História e Filosofia da Ciência relacionada ao contexto didático: apresentação de uma convergência epistemológica fundamentada na dinamicidade da História da Ciência</b>. Em: Aline Machado Dorneles; Edi Morales Pinheiro Junior; Maria do Carmo Galiazzi. (Org.). E-book do 37° Encontro de Debates sobre o Ensino de Química: EDEQ - 37 anos: ?Rodas de Formação de Professores na Educação Química. 1ed.Rio Grande/RS. : Editora da Furg. 2017.v. 1, p. 909-916. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=História+e+Filosofia+da+Ciência+relacionada+ao+contexto+didático:+apresentação+de+uma+convergência+epistemológica+fundamentada+na+dinamicidade+da+História+da+Ciência&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=História+e+Filosofia+da+Ciência+relacionada+ao+contexto+didático:+apresentação+de+uma+convergência+epistemológica+fundamentada+na+dinamicidade+da+História+da+Ciência">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=História+e+Filosofia+da+Ciência+relacionada+ao+contexto+didático:+apresentação+de+uma+convergência+epistemológica+fundamentada+na+dinamicidade+da+História+da+Ciência">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>NICOLETTI, E.R. <b>ILHAS DE RACIONALIDADE COMO MÉTODO CONTEXTUALIZADOR E INTERDISCIPLINAR</b>. Em: PESSANO, Edward Frederico Castro; QUEROL, Marcus; Vinícius Morini; LIMA, Ana Paula Santos de; CASTRO, Luis Roberval Bortoluzzi. (Org.). ONTRIBUIÇÕES PARA O ENSINO DE CIÊNCIAS: Alfabetização Científica, Aprendizagem Significativa, Contextualização e Interdisciplinaridade. 1ed.Bagé, RS. : EdUNIPAMPA. 2017.v. 1, p. 100-110. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=ILHAS+DE+RACIONALIDADE+COMO+MÉTODO+CONTEXTUALIZADOR+E+INTERDISCIPLINAR&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=ILHAS+DE+RACIONALIDADE+COMO+MÉTODO+CONTEXTUALIZADOR+E+INTERDISCIPLINAR">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=ILHAS+DE+RACIONALIDADE+COMO+MÉTODO+CONTEXTUALIZADOR+E+INTERDISCIPLINAR">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>PILGER, C. V. ; FLÔRES, M. L. P.. <b>Ferramentas de autoria: Cmaps tools ? uma proposta de avaliação do processo ensino aprendizagem</b>. Em: Liane Margarida Rockenbach Tarouco ; Cristiane de Souza Abreu. (Org.). Mídias na Educação: a pedagogia e a tecnologia subjacentes.. 1ed.Porto Alegre RS. : Editora Evangraf. 2017.v. 1, p. 253-272. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Ferramentas+de+autoria:+Cmaps+tools+?+uma+proposta+de+avaliação+do+processo+ensino+aprendizagem&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Ferramentas+de+autoria:+Cmaps+tools+?+uma+proposta+de+avaliação+do+processo+ensino+aprendizagem">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Ferramentas+de+autoria:+Cmaps+tools+?+uma+proposta+de+avaliação+do+processo+ensino+aprendizagem">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Rosso, A. Z. ; FLÔRES, M. L. P. ; FLORES, M. L. P.. <b>A utilização do software educativo na educação de menores infratores</b>. Em: Liane Margarida Rockenbach Tarouco ; Cristiane de Souza Abreu. (Org.). Mídias na Educação: a pedagogia e a tecnologia subjacentes.. 1ed.Porto Alegre RS. : Editora Evangraf. 2017.v. 01, p. 197-220. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+utilização+do+software+educativo+na+educação+de+menores+infratores&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+utilização+do+software+educativo+na+educação+de+menores+infratores">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+utilização+do+software+educativo+na+educação+de+menores+infratores">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SANTOS, R. A. ; HUNSCHE, SANDRA. <b>Abordagem Temática na Educação em Ciências: Práticas Educativas nas perspectivas Freiriana e CTS</b>. Em: Roque Ismael da Costa Güllich; Erica do Espírito Santo Hermel. (Org.). Didática da Biologia. 1ed.Curitiba. : Appris. 2017.p. 71. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Abordagem+Temática+na+Educação+em+Ciências:+Práticas+Educativas+nas+perspectivas+Freiriana+e+CTS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Abordagem+Temática+na+Educação+em+Ciências:+Práticas+Educativas+nas+perspectivas+Freiriana+e+CTS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Abordagem+Temática+na+Educação+em+Ciências:+Práticas+Educativas+nas+perspectivas+Freiriana+e+CTS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SILVA, A. L. S.; MACHADO, D. S.. <b>Tema Gerador e Atividade Experimental Problematizada (AEP) como diretrizes para elaboração de um plano de ensino em Química</b>. Em: Aline Machado Dorneles; Edi Morales Pinheiro Junior; Maria do Carmo Galiazzi. (Org.). E-book do 37° Encontro de Debates sobre o Ensino de Química: EDEQ - 37 anos: ?Rodas de Formação de Professores na Educação Química. 1ed.Rio Grande/RS. : Editora da Furg. 2017.v. 1, p. 448-455. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Tema+Gerador+e+Atividade+Experimental+Problematizada+(AEP)+como+diretrizes+para+elaboração+de+um+plano+de+ensino+em+Química&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Tema+Gerador+e+Atividade+Experimental+Problematizada+(AEP)+como+diretrizes+para+elaboração+de+um+plano+de+ensino+em+Química">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Tema+Gerador+e+Atividade+Experimental+Problematizada+(AEP)+como+diretrizes+para+elaboração+de+um+plano+de+ensino+em+Química">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALVARENGA, A. M.; TAUCHEN, G. ; ALVARENGA, B. T.. <b>Diversidade e interações docentes no processo de organização de uma licenciatura interdisciplinar</b>. Em: Altair Alberto Fávero; Gionara Tauchen. (Org.). Políticas de Educação Superior e docência universitária: diálogos sul-sul. 1ed.Curitiba. : Editora CRV. 2016.v. 1, p. 1-407. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Diversidade+e+interações+docentes+no+processo+de+organização+de+uma+licenciatura+interdisciplinar&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Diversidade+e+interações+docentes+no+processo+de+organização+de+uma+licenciatura+interdisciplinar">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Diversidade+e+interações+docentes+no+processo+de+organização+de+uma+licenciatura+interdisciplinar">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>TAUCHEN, G. ; ALVARENGA, A. M.. <b>Interdisciplinaridade:Da simplificação à abertura</b>. Em: Daniel da Silva Silveira; Rafaele Rodrigues de Araújo. (Org.). Saberes e práticas docentes em Ciências: potencializando redes interdisciplinares de conhecimentos. 1ed.Rio Grande. : Editora da FURG. 2016.v. 26, p. 07-125. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Interdisciplinaridade:Da+simplificação+à+abertura&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Interdisciplinaridade:Da+simplificação+à+abertura">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Interdisciplinaridade:Da+simplificação+à+abertura">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>VESTENA, R. F. ; NICOLETTI, E.R.. <b>Alfabetização Científica para ensinar e aprender</b>. Em: Noemi Boer, Diego Carlos Zanella, Sandra Cadore Peixoto. (Org.). Ensino e profissão docente - Edição Comemorativa aos 25 anos da Jornada Nacional de Educação. 1ed.Santa Maria. : Editora Unifra. 2016.v. 1, p. 178-189. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Alfabetização+Científica+para+ensinar+e+aprender&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Alfabetização+Científica+para+ensinar+e+aprender">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Alfabetização+Científica+para+ensinar+e+aprender">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 16:26:39<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

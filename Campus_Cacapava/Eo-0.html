@@ -1,0 +1,357 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Cacapava</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Cacapava</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de organização de eventos'}, 
+series: [{data: [[2016,
+7],
+[2017,
+7]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de organização de eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 103<br>
+                    
+                    
+                    <div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BALLADARES, A. L. ; HARTMANN, A. M. ; GOMES, C. ; TOLFO, D. R. ; GOI, M. J. ; ELLENSOHN, R. ; HUNSHE, S. ; LUGOKENSKI, T. ; FERREIRA, Z. ; VIANA, C. A. ; FRANCO, N. ; SOARES, M. A. S.. <b>Feira de Ciências 2017 -Unipampa Campus Caçapava do Sul - 7ª Edição. 2017</b>. 2017. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>GOI, M. E. J. ; SARTORI, P. H. S. ; HUNSCHE, S.. <b>VI Seminário dos Estágios do Curso de Licenciatura em Ciências Exatas</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>GOI, M. E. J. ; SARTORI, P. H. S. ; SILVA, A. L. S. ; HARTMANN, A. M. ; SILVA, J. M. ; SOARES, M. A. S.. <b>V Seminário dos Estágios do Curso de Licenciatura em Ciências Exatas</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Gomes, Gomes, C.H; BORDIN, J. R. ; CORTE, C. L. D.. <b>1° Feira de Profissões e 1° Mostra de Projetos Científicos. 2017</b>. 2017. </td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>SILVA, A. L. S. ; HARTMANN, A. M. ; SILVA, J. M. ; GOI, M. E. J. ; SOARES, M. A. S ; SARTORI, P. H. S.. <b>V Seminário dos Estágios do curso de Ciências Exatas Licenciatura</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SILVA, A. L. S. ; SARTORI, P. H. S. ; CESCA FILHO, V.. <b>VI Fórum da Licenciatura</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SILVA, A. L. S.; HARTMAN, A. M. ; GOI, M. E. J. ; SOARES, M. A. S. ; SILVA, J. M. ; SARTORI, P. H. S.. <b>V Seminário de Estágios 2017/I</b>. 2017. Outro</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AFONSO, R. F. S.; ALVARENGA, A. M. ; TOLFO, D. R.. <b>V fórum da licenciatura</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BALLADARES, A. ; ELLENSOHN, R. ; GOI, M. E. J. ; Gomes, C.H ; HUNSHE, S.. <b>Feira de Ciências. 2016</b>. 2016. </td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BALLADARES, A. L. ; HARTMANN, A. M. ; WAGNER, C. ; GOI, M. E. J. ; LUGOKENSKI, T. H. ; M.ELLENSOHN, R. ; HUNSCHE, S. ; CARVALHO, Z. T. ; Gomes, Cristiane Heredia ; TOLFO, D. R.. <b>Feira de Ciências 2016: Difundindo Ciência e Tecnologia na Região da Campanha</b>. 2016. Exposição</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BALLADARES, A. L. ; NEVES, A. ; LIMA, J. ; HARTMANN, A. M. ; WAGNER, C. ; HUNSHE, S. ; LUGOKENSKI, T. ; GOI, M. J. ; ELLENSOHN, R. ; GOMES, C. ; TOLFO, D. R. ; FERREIRA, Z.. <b>Feira de Ciências 2016 - Unipampa Campus Caçapava do Sul - 6ª Edição. 2016</b>. 2016. </td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>GOI, M. E. J. ; MARTINS, M. A. R. ; SILVA, A. L. S. ; HARTMANN, A. M. ; SILVA, J. M. ; SOARES, M. A. S. ; SARTORI, P. H. S.. <b>IV Seminário dos Estágios do Curso de Licenciatura em Ciências Exatas</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>GOI, M. E. J. ; MARTINS, M. A. R. ; SOARES, M. A. S. ; SARTORI, P. H. S.. <b>III Seminário dos Estágios do Curso de Licenciatura em Ciências Exatas</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>GOI, M. E. J.; MARTINS, M. A. R. ; SARTORI, P. H S. ; SOARES, M. A. S. <b>III Seminário de Estágio</b>. 2016. Outro</td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALVARENGA, A. M.. XX Encontro Regional de Estudantes de Matemática da Região Sul - EREMATSUL. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BERNARDES, S.. Projeto Conheça a UEL. 2000. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BERNARDES, S.. VII Semana da Física. 2002. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ELLENSOHN, R. M.. Atuação Profissional em Gestão de Sistemas Ambientais. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>ELLENSOHN, R. M.. Conhecendo o Fascinante Mundo Microscópico. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>ELLENSOHN, R. M.. Dia do Químico - Perspectivas sobre a atuação profissional. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>ELLENSOHN, R. M.. Fabricação de Baterias Chumbo-ácido. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>ELLENSOHN, R. M.. Gestão Ambiental - Um estudo de caso da empresa NICIOLI. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>ELLENSOHN, R. M.. O uso de ferramentas computacionais para o ensino de Química. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>ELLENSOHN, R. M.. Otimização de Processos. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>ELLENSOHN, R. M.. Políticas Ambientais. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>ELLENSOHN, R. M.. Preparo de Materiais no laboratório de microbiologia. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>ELLENSOHN, R. M.. Química de Polímeros - Relação entre estrutura e propriedades. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>ELLENSOHN, R. M.. Transporte de cargas perigosas. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>ELLENSOHN, R. M.. Visita Técnica à GELITA. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>ELLENSOHN, R. M.. Vista Técnica a Milenia Agrociências S/A. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>ELLENSOHN, R. M.. Viver Bem UNOPAR. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>ELLENSOHN, R. M.. Viver Bem UNOPAR. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>ELLENSOHN, R. M.. Viver Bem UNOPAR. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>FLÔRES, M. L. P.. O autor em sala de aula. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>FLÔRES, M. L. P.. Planos de estudo e planejamento nos anos iniciais do ensino fundamental. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>GIULIANI, O. F.. I Escola de Inverno de Educação Matemática de Santa Maria. 2008. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>GIULIANI, O. F.. II Escola de Inverno de Educação Matemática. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>GOI, M. E. J.. 8º SIEPE. 2016. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>GOI, M. E. J.. 9ºSIEPE- Salão Internacional de Ensino, Pesquisa e Extensão. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>GOI, M. E. J.. Feira Científica. 2012. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>GOI, M. E. J.. Feira de Ciências 2017 Difundindo Ciência e Tecnologia na Região da Campanha. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>GOI, M. E. J.. Feira de Ciências e Tecnologia. 2003. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>GOI, M. E. J.. Feira de Ciências e Tecnologia. 2004. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>GOI, M. E. J.. Feira de Ciências. 2005. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>GOI, M. E. J.. Feira de Ciências. 2006. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>GOI, M. E. J.. Feira de Ciências. 2007. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>GOI, M. E. J.. Feira de Ciências. 2008. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>GOI, M. E. J.. Feira de Ciências. 2009. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>GOI, M. E. J.. Feira de Ciências. 2010. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>GOI, M. E. J.. Feira de Ciências. 2010. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>GOI, M. E. J.. Feira de Ciências. 2011. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>GOI, M. E. J.. Feira de ciências. 2013. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Gomes, C.H. E por falar em Rochas. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>Gomes, C.H. E por falar em ROCHAS. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>HARTMANN, ANGELA MARIA. 1a. Mostra Farroupilha. 2011. (Festival).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>HARTMANN, ANGELA MARIA. Escola do Espaço do Centro de Lançamento de Alcântara. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>HARTMANN, ANGELA MARIA. Exposição do Programa AEB Escola. 2009. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>HARTMANN, ANGELA MARIA. Feira de Ciências. 2011. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>HUNSCHE, SANDRA. Feira de Ciências: Difundindo Ciência e Tecnologia na Região da Campanha. 2015. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>MARTINS, M. A. R.. Forum Municipal de Aprendizagem Informatizada. 1997. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>MARTINS, M. A. R.. I Forum Municipal de Aprendizagem e Informática. 1997. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>MARTINS, M. A. R.. Oficinas sobre Criatividade Aplicada. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>MARTINS, M. A. R.. VIII Encontro Nacional de Informática das Escolas Evangélicas. 1997. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>MATOS, C. F.. UFPR: Cursos e Profissões - Uma Feira de Idéias Para seu Futuro. 2007. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>MATOS, C. F.. XIV Encontro Nacional de Ensino de Química. 2008. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>NICOLETTI, E. R.. I Workshop de Ensino de Ciências. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>NICOLETTI, E. R.. XII Encontro Sobre Investigação na Escola. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>SCHMIDT, A. M.. IV Semana Acadêmica de Química da UNIJUÍ. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>SILVA, A. L. S.. Feira de Ciências. 2007. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>SILVA, A. L. S.. Feira de Ciências. 2008. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>SILVA, A. L. S.. Feira de Ciências. 2009. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>SILVA, A. L. S.. Grupo de Trabalho de Educação Profissional. 2015. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>SILVA, A. L. S.. I Feira Interdisciplinar em Ciências. 2010. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>SILVA, A. L. S.. II CURSO DE EDUCAÇÃO INFANTIL E ENSINO FUNDAMENTAL. 2002. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>SILVA, A. L. S.. II Feira Interdisciplinar em Ciências. 2011. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>SILVA, A. L. S.. III Feira Interdisciplinar em Ciências. 2012. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>SILVA, A. L. S.. IV Feira Interdisciplinar em Ciências. 2013. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>SILVA, A. L. S.. IX OLIMPÍADA BRASILEIRA DE ASTRONOMIA E ASTRONÁUTICA. 2006. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>SILVA, A. L. S.. JANELA ABERTA. 2006. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>SILVA, A. L. S.. JANELA ABERTA. 2007. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>SILVA, A. L. S.. JANELA ABERTA. 2009. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>SILVA, A. L. S.. Seminário de Estágios 2016/2. 2016. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>SILVA, A. L. S.. Seminário Internacional de Educação no RS. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>SILVA, A. L. S.. Seminários em Química. 2013. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>SILVA, A. L. S.. Seminários em Química. 2014. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>SILVA, A. L. S.. V Feira Interdisciplinar em Ciências. 2014. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>SILVA, A. L. S.. VII Salão Internacional de Ensino, Pesquisa e Extensão. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td>SILVA, A. L. S.. X OLIMPÍADA BRASILEIRA DE ASTRONOMIA E ASTRONÁUTICA. 2007. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>75. &nbsp;</td> <td>SILVA, A. L. S.. XIII OLIMPÍADA BRASILEIRA DE ASTRONOMIA E ASTRONÁUTICA. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>76. &nbsp;</td> <td>SILVA, A. L. S.. XIV OLIMPÍADA BRASILEIRA DE ASTRONOMIA E ASTRONÁUTICA. 2011. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>77. &nbsp;</td> <td>SILVA, A. L. S.. XV OLIMPÍADA BRASILEIRA DE ASTRONOMIA E ASTRONÁUTICA. 2012. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>78. &nbsp;</td> <td>SILVA, A. L. S.. XVI OLIMPÍADA BRASILEIRA DE ASTRONOMIA E ASTRONÁUTICA. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>79. &nbsp;</td> <td>SILVA, A. L. S.. XVII OLIMPÍADA BRASILEIRA DE ASTRONOMIA E ASTRONÁUTICA. 2014. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>80. &nbsp;</td> <td>SILVA, J. M.. I Mostra e III Semana Acadêmica do Curso de Licenciatura em Ciências Exatas. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>81. &nbsp;</td> <td>SOARES, M. A. S.. A Formação do Professor no Ensino Superior: Temas Atuais. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>82. &nbsp;</td> <td>SOARES, M. A. S.. III Seminário Institucional Integrador de Iniciação à Docência PIBID/URI. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>83. &nbsp;</td> <td>SOARES, M. A. S.. XVI Seminário de Iniciação Científica, VIII Seminário de Extensão e XIV Seminário de Integração de Pesquisa e Pós-Graduação da Universidade Regional Integrada do Alto Uruguai e das Missões. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>84. &nbsp;</td> <td>VARGAS, J. P.. 5ª Semana Acadêmica Integrada do Centro de Ciências Naturais e Exatas. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>85. &nbsp;</td> <td>VARGAS, J. P.. 7ª Semana Acadêmica Integrada do Centro de Ciências Naturais e Exatas. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>86. &nbsp;</td> <td>VARGAS, J. P.. Feira das Profissões - VII Edição. 2006. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>87. &nbsp;</td> <td>Werlang, R. B.. 1ª Mostra Farroupilha da UNIPAMPA - Campus Caçapava do Sul. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>88. &nbsp;</td> <td>Werlang, R. B.. I Semana Acadêmica da Geofísica. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>89. &nbsp;</td> <td>Werlang, R. B.. IX olimpíada Brasileira de Astronomia e Astronáutica. 2006. (Outro).. <b></b>. 0. </td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 16:26:39<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

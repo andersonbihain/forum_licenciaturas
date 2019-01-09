@@ -1,0 +1,227 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Cacapava</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Cacapava</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Apresentações de trabalho'}, 
+series: [{data: [[2016,
+14],
+[2017,
+15],
+[2018,
+8]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Apresentações de trabalho</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 37<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CESCA FILHO, V. <b>Aplicações das Bases de Gröbner</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>FLÔRES, M. L. P.; Alves, R. F. P.. <b>O uso da lousa digital como prática inovadora do ensino e aprendizagem</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>FLÔRES, M. L. P.; MUSSOI, E.M. ; FALKEMBACH, Gilse Antoninha Morgental. <b>Recursos tecnológicos para a docência no século XXI: lousa digital</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FLÔRES, M. L. P.; MUSSOI, E.M. ; FALKEMBACH, Gilse Antoninha Morgental. <b>Recursos tecnológicos para a docência no século XXI: lousa digital</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Gomes, C.H; SILVA, G. S. N. ; VICOZZI, A. ; TEIXEIRA, T. B.. <b>E por falar em Rochas: Caçapava do Sul</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>MATOS, CAROLINA. <b>New nanocarbon-based materials for sustainable applications: Synthesis, characterization and nanotoxicity</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SILVA, C. M. V. <b>O Papel do Intérprete de Libras na escola de inclusão</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Werlang, R. B. <b>Educação em nuvem: há um direcionamento metodológico para a escola nos tempos da cultura digital?</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALVARENGA, A. M. <b>Interdisciplinaridade e Currículo</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>GOI, M. E. J. <b>Resolução de Problemas no Ensino de Ciências</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>GOI, M. E. J.; PASSOS, C. G.. <b>Resolução de Problema no Ensino de Química - fundamentos epistemológicos e metodológicos</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Gomes, C.H; BARBOSA, A. S. ; ECHAGUE, J. T. T. ; GAUNA, F. P. ; BORGES, N. P. ; ARTINE, A. L.. <b>E por falar em Rochas</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>OLIVEIRA, C. C. V. G. ; ALVARENGA, A. M. ; FREITAS, R. J. ; SILVA, M. F. S. ; MACHADO, L. A. ; TOLLER, G.. <b>Educação financeira na escola municipal e na comunidade</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Omar Guilhano Rosa Soares ; Branco, JC ; Wagner, Caroline ; HUNSCHE, S. ; Mayra da Silva Cutruneo Ceschini ; Suélen Silveira Funar. <b>POTENCIALIDADES E LIMITAÇÕES DOS SEMINÁRIOS INTEGRADOS VIA TEMAS</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>SILVA, A. L. S. <b>O PROJETO NA CONSTRUÇÃO DO CONHECIMENTO INTERDISCIPLINAR</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SILVA, C. <b>M. V.. Acessibilidade Digital - Libras nível básico. 2017</b>. 2017. </td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>SILVA, C. M. V. <b>?III Fórum da Comunidade Surda de Alegrete: Língua de Sinais e o Direito a Educação Bilíngue?</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>SILVA, C. M. V. <b>Seminário Acessibilidade dos Surdos</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>SILVA, C. M. V. <b>Libras Básico Edição Caçapava do Sul</b>. 2017. Curso de curta duração ministrado/Outra</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SILVA, J. M.; LUDKE, E.. <b>Reflexões sobre as Contribuições do Enfoque Ciência Tecnologia Sociedade como balizador de propostas nos Seminários Integrados</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Silva, PL ; Denize Marques de Oliveira ; WAGNER, C. <b>ENSINO DE BIOQUÍMICA NO CURSO DE ENGENHARIA AMBIENTAL E SANITÁRIA: VISÃO E AVALIAÇÃO DO DISCENTE</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>SOARES, J. C. ; ALVARENGA, A. M. ; AFONSO, L. F. M. ; SEVERO, P. R. M. ; SANTOS, K. E. ; FORMA, M.. <b>Jogos Matemáticos: uma metodologia de avaliação</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Werlang, R. B. <b>Educação em nuvem: há um direcionamento metodológico para a escola nos tempos da cultura digital?</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AFONSO, R. F. S.; MARTINS, F. L. I. ; SANTOS, E. A. ; MACHADO, M. R. R. ; MAGANO, D. A.. <b>COMPARAÇÃO ENTRE MÉTODOS DE ESTIMATIVAR ÁREA FOLIAR COM SCILAB E QUANT APLICADOS AO LIMOEIRO-CRAVO</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>AFONSO, R. F. S.; SANTOS, E. A. ; MACHADO, M. R. R. ; MAGANO, D. A.. <b>COMPARAÇÃO ENTRE TRÊS MÉTODOS DE ESTIMATIVA DE ÁREA FOLIAR APLICADOS AO LIMOEIRO-CRAVO (CITRUS LIMONIA)</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>ALVARENGA, A. M.; TAUCHEN, G. ; ALVARENGA, B. T.. <b>O princípio dialógico na organização do currículo interdisciplinar</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ALVARENGA, B. T. ; TAUCHEN, G. ; ALVARENGA, A. M.. <b>Os processos inclusivos na universidade</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CONRADO, G. D. R. ; ALVARENGA, A. M.. <b>Educação financeira: experiência no PIBID com os anos finais do ensino fundamental</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>FERREIRA, M. V. S. ; MACHADO, D. S. ; SIQUEIRA, V. F. ; GOI, M. E. J. ; ELLENSOHN, R. M.. <b>Chemsketch como ferramenta de Ensino: Uma proposta de minicurso</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>HUNSCHE, Sandra. <b>Abordagem Temática e a Prática como Componente Curricular: Perspectiva Formativa Interdisciplinar de Futuros Professores de Ciências Exatas</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>MARQUES, S. G. ; HUNSCHE, Sandra. <b>A Reflexão como Alternativa para a Superação da Dicotomia entre Teoria e Prática: Desafios do Estágio na Licenciatura em Física</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MEDEIROS, D. R. ; SILVA, E. R. A. ; VIVIAN, M. F. ; LEAL, P. F. L. ; MACHADO, R. ; CHAVES, L. ; BRAGA, V. H. ; GOI, M. E. J. ; ELLENSOHN, R. M.. <b>Produção de Jogos didáticos na formação Inicial em Química</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MUSSOI, E.M. ; MOREIRA, J. ; FALKEMBACH, Gilse Antoninha Morgental ; FLÔRES, M. L. P.. <b>Realidade aumentada: possibilidades desta tecnologia</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>SARTORI, P. H. S. <b>Experimentação e Interdisciplinaridade</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SILVA, A. L. S. <b>PERSPECTIVAS DE UTILIZAÇÃO DE FUNDAMENTOS CONCEITUAIS E PROCEDIMENTAIS DA TEORIA DA APRENDIZAGEM SIGNIFICATIVA NO CONTEXTO ESCOLAR (DE QUÍMICA)</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>TOLFO, D. R.; CLAEYSSEN, J. C. R.. <b>Espectros de frequências do modelo não local de Timoshenko</b>. 2016. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Werlang, R. B.; CARMINATTI, M. G. ; WAGNER, C. ; Oliveira, V. A. ; MATTE, V. ; CARON, F. ; ALMEIDA, D. P. M.. <b>GEOILHAS - Conceitos básicos de geociências articulado com a ilha interdisciplinar de racionalidade</b>. 2016. Desenvolvimento de material didático ou instrucional - MOOC</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 16:26:39<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
