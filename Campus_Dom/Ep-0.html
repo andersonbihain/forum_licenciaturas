@@ -1,0 +1,297 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Dom</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Dom</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de participação em eventos'}, 
+series: [{data: [[2016,
+27],
+[2017,
+31],
+[2018,
+14]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de participação em eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 72<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>21st World Congress of Soil Science (WCSS). Aggregate Stability in Soil with Humic and Histic Horizons in a Toposequence under Araucaria Forest. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>36 Seminário de Extensão Universitária da Região Sul.POPCIÊNCIAS: POPULARIZAÇÃO DA CIÊNCIA ATRAVÉS DE EXPOSIÇÕES INTERATIVAS. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>41ª Reunião Anual da Sociedade Brasileira de Química. Avaliador. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>4o. Encontro de Ciência e Tecnologia do IFSul Câmpus Bagé.COMO RELACIONAR A CIÊNCIA AO COTIDIANO DOS ALUNOS DO ENSINO MÉDIO NO ENSINO DA BIOLOGIA ATRAVÉS DO PROCESSO DE FERMENTAÇÃO PAUTADO NA EXPERIMENTAÇÃO. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Ciclo de Palestras: TILS e a Educação de Surdos: A Cultura Surda e o Currículo.Participante. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Ciclo de Palestras: Tradução e Interpretação de Língua de Sinais: experiência realizada no Ceará.Participante. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Ciclo de Palestras: Tradução e Interpretação de Língua de Sinais: Um Panorama da Política Linguística da Libras.Participante. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>FÓRUM DAS LICENCIATURAS. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>II EREC - Encontro Regional de Ensino de Ciências.Controvérsias Sociocientíficas. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Sign International Conference of Sign Language Users. Participante. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Sign International Conference of Sign Language Users.Participante, Workshop about International Sign Language. 2018. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>V SEMANA ACADÊMICA DO CURSO DE CIÊNCIAS BIOLÓGICAS - LICENCIATURA,.História do Ensino de Biologia na Região Sul: a área e o papel da SBEnBio. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>VI Seminario Iberamericano CTS.Articulações entre referenciais do movimento CTS e pressupostos da Abordagem Temática Freiriana: refletindo sobre possibilidades para formação de professores. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>VII Encontro Nacional de Ensino de Biologia.Da vida ao vivo: a invenção da Biologia e o seu ensino. 2018. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>13º Mundo de Mulheres Fazendo Gênero 11.Coordenação do ST "Mulheres indígenas e conhecimentos: territorialidades, conflitos e agências". 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>16ª Semana Acadêmica Integrada do Centro de Ciências Naturais e Exatas. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>1ª Mostra de Ciências das Escolas Municipais Profª Isolda Silveira Castilhos. Avaliador. 2017. (Feira).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>37º Encontro de Debates sobre o Ensino de Química.Avaliador de Trabalhos. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>9º Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE). Avaliador. 2017. (Exposição).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>9º Salão Internacional de Ensino, Pesquisa e Extensão - SIEPE.Avaliador de resumos. Apresentação de trabalhos e oficinas.. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Ciclo de Palestras TILS e a Educação de Surdos.Participantes. 2017. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>FÓRUM DAS LICENCIATURAS / SEMINÁRIO INSTITUCIONAL PIBID-UNIPAMPA,. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Fórum das Licenciaturas/Seminário Institucional PIBID-Unipampa.Representante do Núcleo Docente Estruturante - NDE. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>I Encontro Regional de Ensino de Ciências - I EREC.Concepções dos alunos de Pós-graduação sobre métodos educacionais e recursos no Ensino de Ciências. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>I Encontro Regional de Ensino de Ciências.Análise das concepções de estudantes sobre Ligações químicas a partir das zonas filosóficas Realista, Empirista e Racionalista. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>I EREC. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>I Seminário Internacional de Educação em Ciências (I SIEC)/ XVII Encontro Nacional de Educação em Ciências.Perspectiva Integradora em Projetos Interdisciplinares no Ensino de Ciências: revisão narrativa nos periódicos brasileiros. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>II Encontro Interdisciplinar de Ciências da Natureza. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>II Jornada Ibero Americana de Pesquisa em Políticas Públicas e Experiências Interdisciplinares na Educaçãona. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>IV CIECITEC - Congresso Internacional de Ciência e Tecnologia. Análise de sequências didáticas sobre o ensino de zoologia: abordagem da problematização por licenciandos em Educação do Campo. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Programa de Formação Continuada da URI. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Seminário Inovação Pedagógica_repensando estratégias de formação acadêmico-profissional em diálogo entre Educação Básica e Educação Superioor.ENSINO COLABORATIVO E PRODUÇÃO DE RECURSOS PEDAGÓGICOS ACESSÍVEIS NA PERSPECTIVA DA EDUCAÇÃO INCLUSIVA. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>SIIC - XXIII , XXI Seminário de Integração de pesquisa e pós graduação e XV Seminário de Extensão. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>V Seminário Interfaces Pedagógicas: Licenciaturas em diálogo: Formaçãoção, transformação e Cidadania. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>VI Ciclo de Formação Continuada para coordenadores: Gestão estratégica da Rede Colaborativa URIe. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>X Congreso Internacional sobre Investigación en Didáctica de las Ciencias. Estabilidade química: um obstáculo para a construção do conhecimento em ligações químicas. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>X Congreso Internacional sobre Investigación en Didática de las Ciências. Controvérsias sociocientíficas e projetos integrados: condicionantes e potencialidades para o ensino de Ciências. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>X Congreso Internacional sobre Investigación en la Didáctica de las Ciencias. Ambiente de aprendizagem centrado no aluno: um estudo sobre expectativas. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>X Congreso Internacional sobre Investigación en la Didáctica de las Ciencias. Uma abordagem centrada no aluno em Bioquímica: estudo sobre a avaliação da qualidade do ensino. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>XI Encontro Nacional de Pesquisa em Educação em Ciências. Desenvolvimento de uma metodologia para caracterização da resolução de problemas envolvendo representações visuais da estrutura tridimensional de moléculas. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>XI Encontro Nacional de Pesquisa em Educação em Ciências.Discussões de controvérsias sociocientíficas e projetos integrados: perspectivas para o ensino de ciências. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>XI Encontro Nacional de Pesquisa em Educação em Ciências.O Ensino de Física nas Escolas do Campo de Caçapava do Sul: alguns apontamentos. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>XIII Semana de Investigación.CURRÍCULOS INTERDISCIPLINARES E FORMAÇÃO DOCENTE EM CIÊNCIAS DA NATUREZA: DESAFIOS E POSSIBILIDADES. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>XXII Simpósio Nacional de Ensino de Física.Atividades Investigativas na Formação Inicial de Professores: alguns apontamentos. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>XXIV Seminário de Formação Continuada CIAP. 2017. (Seminário).</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1ª MEEPI - Mostra da Educação: Ensino por práticas investigativas.Produção investigativa e didático-pedagógica em Ciências da Natureza. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>1ª Reunião da ABECO 5º Simpósio de Ecologia Teórica.PERFURAR MAIS FUNDO REQUER BROCAS MAIS LONGAS: VARIAÇÃO NO TAMANHO DO OVIPOSITOR DO PARASITOIDE Galeopsomyia sp. (HYMENOPTERA ? EULOPHIDAE) FRENTE A DIFERENTES HOSPEDEIROS INDUTORES DE GALHAS. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>22º Encontro da Associação Sul-Rio-Grandense de Pesquisadores em História da Educação (ASPHE).Membro da Comissão Executora. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>2ª Jornada de Estudos da Linguagem - A Linguagem e suas Manifestações. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>36° Encontro de Debates sobre o Ensino de Química - EDEQ. Mapa conceitual no Ensino de Química: proposta didática para promover a aprendizagem significativa. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>36º EDEQ - Encontro de Debates sobre o Ensino de Química.Mapa Conceitual no ensino de Química: proposta para promover a aprendizagem significativa. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>36º Encontro de Debates sobre o Ensino de Química.Ensino de Ligações químicas: uma análise das estratégias utilizadas pelos professores a partir de seus modelos didáticos. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>8 Salão Internacional de Ensino, Pesquisa e Extensão. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>8º SIEPE - Inovação com Renovação. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>9 Encontro de Formação de Professores. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Colóquio Regional Sul. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Diálogos sobre a MP 746 ? relato do Colóquio Regional Sul ENSINO MÉDIO. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Encontro Interdisciplinar das Ciências da Natureza.As controvérsias sociocientíficas no Ensino de Ciências. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>I Fórum de Graduação da Universidade Federal do Pampa. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>II Seminário Pró-África. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>III Seminário Nacional de Pesquisa em Extensão Popular. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>III Simpósio em Ensino de Ciências e Matemática.Currículo interdisciplinar e formação docente: desafios e possibilidades. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>III SIMPÓSIO EM ENSINO DE CIÊNCIAS E MATEMÁTICA: Pesquisa, desafios e perspectivas.Ensino de Física em Escolas do Campo: lançando um novo olhar. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>IV Congresso Internacional TIC e Educação (ticEDUCA 2016). A Tecnologia Assistiva a favor da inclusão no Ensino Superior. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>IX Fórum Estadual de Educação de Surdos - FEES. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Reunião Anual da Sociedade Brasileira de Bioquímica e Biologia Molecular. Analysis of Motivation, Expectations Attainment and satisfaction of graduate students of the Department of Biochemistry, University of São Paulo. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Salão Internacional de Ensino, Pesquisa e Extensão (Siepe). Uma abordagem centrada no aluno para ensinar química e energia: desafios na Educação do Campo. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Simpósio Internacional de Iniciação Científica e Tecnológica da USP.Desenvolvimento de uma metodologia para análise do processo de exploração de representações tridimensionais de moléculas interativas. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>V Seminário Nacional Educação Infantil do Campo.Bolsa Viajante: estreitando laços de amizades. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>VI Encontro Nacional de Ensino de Biologia/VIII Encontro Regional de Biologia (Regional Sul).Atividades Integradoras como proposta para o Ensino de Ciências em Educação de Jovens e Adultos. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>XI ANPED SUL/Reunião Científica da ANPED: Educação, movimentos sociais e políticas governamentais.Experiências de atendimento educacional especializado para acadêmicos com deficiência nas Universidades Federais de Ensino Superior do Sul do Brasil. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>XXIII Encontro de Química da Região Sul.Relação entre estabilidade química e aspectos energéticos: um obstáculo para a compreensão das ligações químicas. 2016. (Encontro).</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:21:41<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

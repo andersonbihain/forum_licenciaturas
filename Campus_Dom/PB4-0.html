@@ -1,0 +1,223 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Dom</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Dom</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Trabalhos completos publicados em anais de congressos'}, 
+series: [{data: [[2016,
+18],
+[2017,
+13],
+[2018,
+4]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Trabalhos completos publicados em anais de congressos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 35<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>DIAS, F. F.; LEONEL, A. A.. <b>Ensino de Física nas Escolas do Campo: apontamentos sobre a construção do currículo</b>. Em: <font color=#330066>XVII Encontro de Pesquisa em Ensino de Física</font>, 2018.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Ensino+de+Física+nas+Escolas+do+Campo:+apontamentos+sobre+a+construção+do+currículo&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Ensino+de+Física+nas+Escolas+do+Campo:+apontamentos+sobre+a+construção+do+currículo">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Ensino+de+Física+nas+Escolas+do+Campo:+apontamentos+sobre+a+construção+do+currículo">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>DIAS, F. F.; MAGOGA, T. ; MUENCHEN, C. ; LEONEL, A. A.. <b>Reflexões sobre a importância de discussões curriculares em um curso de Física</b>. Em: <font color=#330066>XVII Encontro de Pesquisa em Ensino de Física</font>, 2018.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Reflexões+sobre+a+importância+de+discussões+curriculares+em+um+curso+de+Física&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Reflexões+sobre+a+importância+de+discussões+curriculares+em+um+curso+de+Física">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Reflexões+sobre+a+importância+de+discussões+curriculares+em+um+curso+de+Física">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>KAUFMANN, L. ; LUZ, F. A.. <b>INVESTIGANDO OS INTERESSES E DÚVIDAS DE ALUNOS DO ENSINO FUNDAMENTAL DE DOM PEDRITO SOBRE SEXUALIDADE</b>. Em: <font color=#330066>Seminário Corpos</font>, 2018.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=INVESTIGANDO+OS+INTERESSES+E+DÚVIDAS+DE+ALUNOS+DO+ENSINO+FUNDAMENTAL+DE+DOM+PEDRITO+SOBRE+SEXUALIDADE&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=INVESTIGANDO+OS+INTERESSES+E+DÚVIDAS+DE+ALUNOS+DO+ENSINO+FUNDAMENTAL+DE+DOM+PEDRITO+SOBRE+SEXUALIDADE">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=INVESTIGANDO+OS+INTERESSES+E+DÚVIDAS+DE+ALUNOS+DO+ENSINO+FUNDAMENTAL+DE+DOM+PEDRITO+SOBRE+SEXUALIDADE">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>SANTOS, H. G. ; CICUTO, C. A. T.. <b>Proposta interdisciplinar em ciências da natureza: investigando uma mostra científica no ensino médio</b>. Em: <font color=#330066>38º Encontro de Debates sobre o Ensino de Química (EDEQ)</font>, 2018.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Proposta+interdisciplinar+em+ciências+da+natureza:+investigando+uma+mostra+científica+no+ensino+médio&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Proposta+interdisciplinar+em+ciências+da+natureza:+investigando+uma+mostra+científica+no+ensino+médio">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Proposta+interdisciplinar+em+ciências+da+natureza:+investigando+uma+mostra+científica+no+ensino+médio">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Antunes, A. A. ; Janaína V. Carneiro ; BIERHALZ, C. D. K.. <b>A contribuição das monitorias na formação de professores de Ciências da Natureza</b>. Em: <font color=#330066>Salão Internacional de Ensino</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+contribuição+das+monitorias+na+formação+de+professores+de+Ciências+da+Natureza&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+contribuição+das+monitorias+na+formação+de+professores+de+Ciências+da+Natureza">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+contribuição+das+monitorias+na+formação+de+professores+de+Ciências+da+Natureza">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ARAUJO, A. ; FREITAS, R. T. G. ; OLIVEIRA, L. E. ; MIRANDA, A. C. G. ; PAZINATO, M. S.. <b>Inovações no Ensino: Cartuns como um instrumento para abordagem de Química Orgânica no Ensino Médio</b>. Em: <font color=#330066>37º Encontro de Debates sobre o Ensino de Química</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Inovações+no+Ensino:+Cartuns+como+um+instrumento+para+abordagem+de+Química+Orgânica+no+Ensino+Médio&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Inovações+no+Ensino:+Cartuns+como+um+instrumento+para+abordagem+de+Química+Orgânica+no+Ensino+Médio">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Inovações+no+Ensino:+Cartuns+como+um+instrumento+para+abordagem+de+Química+Orgânica+no+Ensino+Médio">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>AYRES, C. ; CONSOLI, R. A. ; CRUZ, G. N. ; CICUTO, C. A. T. ; MARSON, G. A.. <b>Desenvolvimento de uma metodologia para caracterização da resolução de problemas envolvendo representações visuais da estrutura tridimensional de moléculas</b>. Em: <font color=#330066>XI Encontro Nacional de Pesquisa em Educação em Ciências</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Desenvolvimento+de+uma+metodologia+para+caracterização+da+resolução+de+problemas+envolvendo+representações+visuais+da+estrutura+tridimensional+de+moléculas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Desenvolvimento+de+uma+metodologia+para+caracterização+da+resolução+de+problemas+envolvendo+representações+visuais+da+estrutura+tridimensional+de+moléculas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Desenvolvimento+de+uma+metodologia+para+caracterização+da+resolução+de+problemas+envolvendo+representações+visuais+da+estrutura+tridimensional+de+moléculas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>DIAS, F. F.; HUNSCHE, S.. <b>Atividades Investigativas na Formação Inicial de Professores: alguns apontamentos</b>. Em: <font color=#330066>XXII Simpósio Nacional de Ensino de Física</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Atividades+Investigativas+na+Formação+Inicial+de+Professores:+alguns+apontamentos&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Atividades+Investigativas+na+Formação+Inicial+de+Professores:+alguns+apontamentos">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Atividades+Investigativas+na+Formação+Inicial+de+Professores:+alguns+apontamentos">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>DIAS, F. F.; LEONEL, A. A.. <b>O Ensino de Física nas Escolas do Campo de Caçapava do Sul: alguns apontamentos</b>. Em: <font color=#330066>XI Encontro Nacional de Pesquisa em Educação em Ciências</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+Ensino+de+Física+nas+Escolas+do+Campo+de+Caçapava+do+Sul:+alguns+apontamentos&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+Ensino+de+Física+nas+Escolas+do+Campo+de+Caçapava+do+Sul:+alguns+apontamentos">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+Ensino+de+Física+nas+Escolas+do+Campo+de+Caçapava+do+Sul:+alguns+apontamentos">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>DUSO, Leandro. <b>Discussões de controvérsias sociocientíficas e projetos integrados: perspectivas para o ensino de ciências</b>. Em: <font color=#330066>XI Encontro Nacional de Pesquisa em Educação em Ciências - XI ENPEC</font>, p. 1-10, 2017. <a href="http://dx.doi.org/10.5772/intechopen.68182" target="_blank" style="PADDING-RIGHT:4px;"><img border=0 src="doi.png"></a><br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Discussões+de+controvérsias+sociocientíficas+e+projetos+integrados:+perspectivas+para+o+ensino+de+ciências&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Discussões+de+controvérsias+sociocientíficas+e+projetos+integrados:+perspectivas+para+o+ensino+de+ciências">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Discussões+de+controvérsias+sociocientíficas+e+projetos+integrados:+perspectivas+para+o+ensino+de+ciências">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>FELCHER, C. D. O. ; BIERHALZ, Crisna Daniela K. ; PINTO, A. C. ; DIAS, L. F. ; FERREIRA, A. L. A.. <b>INTEGRANDO E EXPLORANDO AS TECNOLOGIAS DIGITAIS NA FORMAÇÃO DE PROFESSORES DE MATEMÁTICA DA UAB</b>. Em: <font color=#330066>XIV Congresso Brasileiro de Ensino Superior a Distância; III Congresso Internacional de Ensino a Distância</font>, v. 1, p. 296-310, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=INTEGRANDO+E+EXPLORANDO+AS+TECNOLOGIAS+DIGITAIS+NA+FORMAÇÃO+DE+PROFESSORES+DE+MATEMÁTICA+DA+UAB&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=INTEGRANDO+E+EXPLORANDO+AS+TECNOLOGIAS+DIGITAIS+NA+FORMAÇÃO+DE+PROFESSORES+DE+MATEMÁTICA+DA+UAB">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=INTEGRANDO+E+EXPLORANDO+AS+TECNOLOGIAS+DIGITAIS+NA+FORMAÇÃO+DE+PROFESSORES+DE+MATEMÁTICA+DA+UAB">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>FERREIRA, V. E. M. ; SILVA, L. G. ; ANTUNES, A. A. ; Crisna Daniela Krause Bierhalz. <b>INTERDISCIPLINARIDADE E HISTÓRIAS EM QUADRINHOS: CONCEPÇÕES DOS BOLSISTAS PIBID - CIÊNCIAS DA NATUREZA</b>. Em: <font color=#330066>II Jornada Ibero-Americana de Pesquisas em Políticas Educacionais e Experiências Interdisciplinares na Educação</font>, v. 2, p. 1250-1261, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=INTERDISCIPLINARIDADE+E+HISTÓRIAS+EM+QUADRINHOS:+CONCEPÇÕES+DOS+BOLSISTAS+PIBID+-+CIÊNCIAS+DA+NATUREZA&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=INTERDISCIPLINARIDADE+E+HISTÓRIAS+EM+QUADRINHOS:+CONCEPÇÕES+DOS+BOLSISTAS+PIBID+-+CIÊNCIAS+DA+NATUREZA">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=INTERDISCIPLINARIDADE+E+HISTÓRIAS+EM+QUADRINHOS:+CONCEPÇÕES+DOS+BOLSISTAS+PIBID+-+CIÊNCIAS+DA+NATUREZA">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>FONSECA, E. M. ; DUSO, Leandro. <b>Análise de sequências didáticas sobre o ensino de zoologia: abordagem da problematização por licenciandos em educação do campo</b>. Em: <font color=#330066>IV Congresso Internacional de Educação Cientifica e Tecnológica (CIECITEC)</font>, p. 01-08, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Análise+de+sequências+didáticas+sobre+o+ensino+de+zoologia:+abordagem+da+problematização+por+licenciandos+em+educação+do+campo&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Análise+de+sequências+didáticas+sobre+o+ensino+de+zoologia:+abordagem+da+problematização+por+licenciandos+em+educação+do+campo">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Análise+de+sequências+didáticas+sobre+o+ensino+de+zoologia:+abordagem+da+problematização+por+licenciandos+em+educação+do+campo">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>MACHADO, B. L. ; OSORIO, T. R. ; PAZINATO, M. S.. <b>Experimentação em química: uma análise das publicações quanto ao nível de ensino, ao conteúdo e à natureza da atividade experimental</b>. Em: <font color=#330066>37º Encontro de Debates sobre o Ensino de Química</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Experimentação+em+química:+uma+análise+das+publicações+quanto+ao+nível+de+ensino,+ao+conteúdo+e+à+natureza+da+atividade+experimental&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Experimentação+em+química:+uma+análise+das+publicações+quanto+ao+nível+de+ensino,+ao+conteúdo+e+à+natureza+da+atividade+experimental">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Experimentação+em+química:+uma+análise+das+publicações+quanto+ao+nível+de+ensino,+ao+conteúdo+e+à+natureza+da+atividade+experimental">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>OSORIO, T. R. ; KOTOWSKI, L. D. ; MARTINS, M. M. ; PAZINATO, M. S.. <b>O tema Energia no Ensino de Ciências e as Tecnologias de Informação e Comunicação: Contribuições interdisciplinares para o Ensino de Ciências da Natureza</b>. Em: <font color=#330066>3º Encontro de Ciência e Tecnologia do IFSul Câmpus Bagé</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+tema+Energia+no+Ensino+de+Ciências+e+as+Tecnologias+de+Informação+e+Comunicação:+Contribuições+interdisciplinares+para+o+Ensino+de+Ciências+da+Natureza&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+tema+Energia+no+Ensino+de+Ciências+e+as+Tecnologias+de+Informação+e+Comunicação:+Contribuições+interdisciplinares+para+o+Ensino+de+Ciências+da+Natureza">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+tema+Energia+no+Ensino+de+Ciências+e+as+Tecnologias+de+Informação+e+Comunicação:+Contribuições+interdisciplinares+para+o+Ensino+de+Ciências+da+Natureza">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>SANTOS, D. S. dos ; COELHO, FRANCIELE BRAZ DE OLIVEIRA ; BULEGON, Ana. <b>Uso de Simulador no Ensino de Física: Unidade de Aprendizagem para o estudo de Eletrostática</b>. Em: <font color=#330066>7º Simpósio de Hipertexto e Tecnologias na Educação</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Uso+de+Simulador+no+Ensino+de+Física:+Unidade+de+Aprendizagem+para+o+estudo+de+Eletrostática&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Uso+de+Simulador+no+Ensino+de+Física:+Unidade+de+Aprendizagem+para+o+estudo+de+Eletrostática">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Uso+de+Simulador+no+Ensino+de+Física:+Unidade+de+Aprendizagem+para+o+estudo+de+Eletrostática">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>VIANNA, N. S. ; CICUTO, C. A. T. ; PAZINATO, M. S.. <b>Concepções de estudantes do Ensino Médio sobre Tabela Periódica</b>. Em: <font color=#330066>37º EDEQ - Encontros de Debates sobre o Ensino de Química</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Concepções+de+estudantes+do+Ensino+Médio+sobre+Tabela+Periódica&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Concepções+de+estudantes+do+Ensino+Médio+sobre+Tabela+Periódica">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Concepções+de+estudantes+do+Ensino+Médio+sobre+Tabela+Periódica">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALVES, C. C. ; CARNEIRO, J. V. ; ARAUJO, R. R.. <b>O projeto Novos Talentos como espaço de formação de professores de Ciências da Natureza</b>. Em: <font color=#330066>1ª Jornada Ibero-Americana de Pesquisas em Políticas Educacionais e Experiências Interdisciplinares na Educação</font>, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+projeto+Novos+Talentos+como+espaço+de+formação+de+professores+de+Ciências+da+Natureza&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+projeto+Novos+Talentos+como+espaço+de+formação+de+professores+de+Ciências+da+Natureza">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+projeto+Novos+Talentos+como+espaço+de+formação+de+professores+de+Ciências+da+Natureza">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BIERHALZ, Crisna Daniela K. <b>O Ensino de Ciências e Educação Ambiental: considerando as múltiplas tessituras na construção do conhecimento nas escolas do campo</b>. Em: <font color=#330066>9 Encontro Internacional de Educação</font>, v. 9, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+Ensino+de+Ciências+e+Educação+Ambiental:+considerando+as+múltiplas+tessituras+na+construção+do+conhecimento+nas+escolas+do+campo&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+Ensino+de+Ciências+e+Educação+Ambiental:+considerando+as+múltiplas+tessituras+na+construção+do+conhecimento+nas+escolas+do+campo">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+Ensino+de+Ciências+e+Educação+Ambiental:+considerando+as+múltiplas+tessituras+na+construção+do+conhecimento+nas+escolas+do+campo">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BIERHALZ, Crisna Daniela K.; SANTOS, L. Q. G. ; KIESLARCK, G. M. ; VARGAS, I. O.. <b>Extensão Universitária através do Programa Novos Talentos: teclando saberes, conectando gerações</b>. Em: <font color=#330066>III Seminário Nacional de Pesquisa e Extensão Popular</font>, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Extensão+Universitária+através+do+Programa+Novos+Talentos:+teclando+saberes,+conectando+gerações&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Extensão+Universitária+através+do+Programa+Novos+Talentos:+teclando+saberes,+conectando+gerações">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Extensão+Universitária+através+do+Programa+Novos+Talentos:+teclando+saberes,+conectando+gerações">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BRIZOLLA, F.; MARTINS, C. S. L.. <b>Experiências de atendimento educacional especializado para acadêmicos com deficiência nas Universidades Federais de Ensino Superior do Sul do Brasil</b>. Em: <font color=#330066>XI ANPED SUL/Reunião Científica da ANPED SUL</font>, v. 1, p. 1-17, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Experiências+de+atendimento+educacional+especializado+para+acadêmicos+com+deficiência+nas+Universidades+Federais+de+Ensino+Superior+do+Sul+do+Brasil&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Experiências+de+atendimento+educacional+especializado+para+acadêmicos+com+deficiência+nas+Universidades+Federais+de+Ensino+Superior+do+Sul+do+Brasil">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Experiências+de+atendimento+educacional+especializado+para+acadêmicos+com+deficiência+nas+Universidades+Federais+de+Ensino+Superior+do+Sul+do+Brasil">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>DEBLE, L. P.; MOREIRA, B. P. ; Oliveira-Deble, A. S. de. <b>Levantamento de espécies com multipropósito uso na Bacia Hidrográfica do Rio Quaraí</b>. Em: <font color=#330066>Congresso Internacional do Pampa</font>, v. 1, p. 1-3, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Levantamento+de+espécies+com+multipropósito+uso+na+Bacia+Hidrográfica+do+Rio+Quaraí&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Levantamento+de+espécies+com+multipropósito+uso+na+Bacia+Hidrográfica+do+Rio+Quaraí">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Levantamento+de+espécies+com+multipropósito+uso+na+Bacia+Hidrográfica+do+Rio+Quaraí">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>DEBLE, L. P.; OLIVEIRA-DEBLE, Anabela Silveira de ; ALVES, F. S.. <b>Localidade do Jarau, Quaraí/RS: Área prioritária para conservação</b>. Em: <font color=#330066>Congresso Internacional do Pampa</font>, v. 1, p. 1-3, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Localidade+do+Jarau,+Quaraí/RS:+Área+prioritária+para+conservação&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Localidade+do+Jarau,+Quaraí/RS:+Área+prioritária+para+conservação">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Localidade+do+Jarau,+Quaraí/RS:+Área+prioritária+para+conservação">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>JAQUES, E. G. ; CASTRO, C. A. E. ; LOPES, E. T. ; RADMANN, E. B. ; COSTA, P.F.P. da. <b>Controle da deterioração de morangos através da aplicação de coberturas comestíveis</b>. Em: <font color=#330066>Congresso Brasileiro de Ciência e Tecnologia de Alimentos</font>, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Controle+da+deterioração+de+morangos+através+da+aplicação+de+coberturas+comestíveis&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Controle+da+deterioração+de+morangos+através+da+aplicação+de+coberturas+comestíveis">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Controle+da+deterioração+de+morangos+através+da+aplicação+de+coberturas+comestíveis">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>MENA, L. P. ; ESPINDOLA, Q. C. ; BIERHALZ, Crisna Daniela K.. <b>Laboratório Funcional: a Experimentação na Construção de saberes Científicos</b>. Em: <font color=#330066>36 º EDEQ - Encontro de Debates sobre o Ensino de Química</font>, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Laboratório+Funcional:+a+Experimentação+na+Construção+de+saberes+Científicos&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Laboratório+Funcional:+a+Experimentação+na+Construção+de+saberes+Científicos">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Laboratório+Funcional:+a+Experimentação+na+Construção+de+saberes+Científicos">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MIRANDA, A. C. G. ; BRAIBANTE, M. E. F. ; PAZINATO, M. S.. <b>Concepções epistemológicas de um grupo de professores da Educação Básica</b>. Em: <font color=#330066>36º Encontro de Debates sobre o ensino de Química</font>, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Concepções+epistemológicas+de+um+grupo+de+professores+da+Educação+Básica&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Concepções+epistemológicas+de+um+grupo+de+professores+da+Educação+Básica">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Concepções+epistemológicas+de+um+grupo+de+professores+da+Educação+Básica">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Oliveira-Deble, A. S. de ; DEBLE, L. P.. <b>Aspectos fitofisionômicos na Bacia Hidrográfica do rio Santa Maria, RS</b>. Em: <font color=#330066>Congresso Internacional do Pampa</font>, v. 1, p. 1-3, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Aspectos+fitofisionômicos+na+Bacia+Hidrográfica+do+rio+Santa+Maria,+RS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Aspectos+fitofisionômicos+na+Bacia+Hidrográfica+do+rio+Santa+Maria,+RS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Aspectos+fitofisionômicos+na+Bacia+Hidrográfica+do+rio+Santa+Maria,+RS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>OLIVEIRA-DEBLE, Anabela Silveira de ; DEBLE, L. P. ; FERREIRA, M. Z.. <b>Levantamento de Vegetação Campestre na Serra do Sudeste</b>. Em: <font color=#330066>Congresso Internacional do Pampa</font>, v. 1, p. 1-3, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Levantamento+de+Vegetação+Campestre+na+Serra+do+Sudeste&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Levantamento+de+Vegetação+Campestre+na+Serra+do+Sudeste">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Levantamento+de+Vegetação+Campestre+na+Serra+do+Sudeste">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>OSORIO, T. R. ; FONSECA. Eril M. ; BIERHALZ, Crisna Daniela K.. <b>UMA PROPOSTA CIENTÍFICA PARA O ENSINO DE CIÊNCIAS DA NATUREZA - SEXUALIDADE</b>. Em: <font color=#330066>III Encontro de Pesquisas e Práticas em Educação do Campo da Paraíba; II Seminário de Pesquisas e Práticas do Curso de Pedagogia - Educação do Campo</font>, p. 153-160, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=UMA+PROPOSTA+CIENTÍFICA+PARA+O+ENSINO+DE+CIÊNCIAS+DA+NATUREZA+-+SEXUALIDADE&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=UMA+PROPOSTA+CIENTÍFICA+PARA+O+ENSINO+DE+CIÊNCIAS+DA+NATUREZA+-+SEXUALIDADE">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=UMA+PROPOSTA+CIENTÍFICA+PARA+O+ENSINO+DE+CIÊNCIAS+DA+NATUREZA+-+SEXUALIDADE">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>OSORIO, T. R. ; PAZINATO, M. S.. <b>As Oficinas no Ensino de Ciências: uma análise em publicações da área</b>. Em: <font color=#330066>36º Encontro de Debates sobre o Ensino de Química - EDEQ</font>, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=As+Oficinas+no+Ensino+de+Ciências:+uma+análise+em+publicações+da+área&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=As+Oficinas+no+Ensino+de+Ciências:+uma+análise+em+publicações+da+área">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=As+Oficinas+no+Ensino+de+Ciências:+uma+análise+em+publicações+da+área">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>P. Nghiem ; N. Chauvin ; D. Uriot ; M. Comunian ; C. Oliver ; SIMEONI , W. J. ; VALETTE, M.. <b>ADVANCED CONCEPTS AND METHODS FOR VERY HIGH INTENSITY LINACS</b>. Em: <font color=#330066>IPAC 16</font>, p. 3155-3160, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=ADVANCED+CONCEPTS+AND+METHODS+FOR+VERY+HIGH+INTENSITY+LINACS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=ADVANCED+CONCEPTS+AND+METHODS+FOR+VERY+HIGH+INTENSITY+LINACS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=ADVANCED+CONCEPTS+AND+METHODS+FOR+VERY+HIGH+INTENSITY+LINACS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>PAZINATO, M. S. ; FREITAS, R. T. G. ; BRAIBANTE, M. E. F. ; MIRANDA, A. C. G.. <b>Modelos representacionais das ligações químicas: uma análise nos livros didáticos</b>. Em: <font color=#330066>Modelos representacionais das ligações químicas: uma análise nos livros didáticos</font>, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Modelos+representacionais+das+ligações+químicas:+uma+análise+nos+livros+didáticos&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Modelos+representacionais+das+ligações+químicas:+uma+análise+nos+livros+didáticos">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Modelos+representacionais+das+ligações+químicas:+uma+análise+nos+livros+didáticos">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>SANTOS, L. Q. G. ; OSORIO, T. R. ; BIERHALZ, Crisna Daniela K.. <b>O ENSINO DE CIÊNCIAS E EDUCAÇÃO AMBIENTAL: CONSIDERANDO AS MÚLTIPLAS TESSITURAS NA CONSTRUÇÃO DO CONHECIMENTO NAS ESCOLAS DO CAMPO</b>. Em: <font color=#330066>III Encontro de Pesquisas e Práticas em Educação do Campo da Paraíba; II Seminário de Pesquisas e Práticas do Curso de Pedagogia - Educação do Campo</font>, p. 161-172, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+ENSINO+DE+CIÊNCIAS+E+EDUCAÇÃO+AMBIENTAL:+CONSIDERANDO+AS+MÚLTIPLAS+TESSITURAS+NA+CONSTRUÇÃO+DO+CONHECIMENTO+NAS+ESCOLAS+DO+CAMPO&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+ENSINO+DE+CIÊNCIAS+E+EDUCAÇÃO+AMBIENTAL:+CONSIDERANDO+AS+MÚLTIPLAS+TESSITURAS+NA+CONSTRUÇÃO+DO+CONHECIMENTO+NAS+ESCOLAS+DO+CAMPO">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+ENSINO+DE+CIÊNCIAS+E+EDUCAÇÃO+AMBIENTAL:+CONSIDERANDO+AS+MÚLTIPLAS+TESSITURAS+NA+CONSTRUÇÃO+DO+CONHECIMENTO+NAS+ESCOLAS+DO+CAMPO">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>SILVA, L. D. ; MAIA, A. F. ; PAZINATO, M. S. ; SUDATI, J. H.. <b>Percepções dos licenciandos em Ciências da Natureza sobre aminoácidos e proteínas</b>. Em: <font color=#330066>36º Encontro de Debates sobre o Ensino de Química - EDEQ</font>, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Percepções+dos+licenciandos+em+Ciências+da+Natureza+sobre+aminoácidos+e+proteínas&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Percepções+dos+licenciandos+em+Ciências+da+Natureza+sobre+aminoácidos+e+proteínas">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Percepções+dos+licenciandos+em+Ciências+da+Natureza+sobre+aminoácidos+e+proteínas">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>STOLL, V. G. ; ESPINDOLA, Q. C. ; BIERHALZ, Crisna Daniela K.. <b>Educação de Jovens e Adultos: os desafios dos Graduandos de um curso de Licenciatura em Ciências da Natureza no Ensino de Química</b>. Em: <font color=#330066>XVIII ENEQ - Encontro Nacional de Ensino de Quimica</font>, 2016.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educação+de+Jovens+e+Adultos:+os+desafios+dos+Graduandos+de+um+curso+de+Licenciatura+em+Ciências+da+Natureza+no+Ensino+de+Química&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educação+de+Jovens+e+Adultos:+os+desafios+dos+Graduandos+de+um+curso+de+Licenciatura+em+Ciências+da+Natureza+no+Ensino+de+Química">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educação+de+Jovens+e+Adultos:+os+desafios+dos+Graduandos+de+um+curso+de+Licenciatura+em+Ciências+da+Natureza+no+Ensino+de+Química">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:21:41<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

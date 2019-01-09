@@ -1,0 +1,167 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Dom</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Dom</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Demais tipos de produção bibliográfica'}, 
+series: [{data: [[2016,
+6],
+[2017,
+2]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Demais tipos de produção bibliográfica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 8<br>
+                    
+                    
+                    <div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MOURA, A. C. O. S. ; CICUTO, C. A. T.. <b>Gestão de práticas sustentáveis no/do campo 2017 (Projeto interdisciplinar do curso de Educação do</b>. 2017. Projeto interdisciplinar do curso de Educação do Campo (Ciências da Natureza)<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Gestão+de+práticas+sustentáveis+no/do+campo+2017+(Projeto+interdisciplinar+do+curso+de+Educação+do&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Gestão+de+práticas+sustentáveis+no/do+campo+2017+(Projeto+interdisciplinar+do+curso+de+Educação+do">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Gestão+de+práticas+sustentáveis+no/do+campo+2017+(Projeto+interdisciplinar+do+curso+de+Educação+do">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>PAZINATO, M. S.; COELHO, F. B. O. ; CARNEIRO, J. V. ; DEBLE, L. P. ; SUDATI, J. H. ; DUSO, L. ; BIERHALZ, C. D. K. ; LUZ, F. A.. <b>Projeto Pedagógico de Curso Ciências da Natureza - Licenciatura. Dom Pedrito: Universidade Federal do Pampa</b>. 2017. Projeto Pedagógico de Curso Ciências da Natureza - Licenciatura<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Projeto+Pedagógico+de+Curso+Ciências+da+Natureza+-+Licenciatura.+Dom+Pedrito:+Universidade+Federal+do+Pampa&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Projeto+Pedagógico+de+Curso+Ciências+da+Natureza+-+Licenciatura.+Dom+Pedrito:+Universidade+Federal+do+Pampa">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Projeto+Pedagógico+de+Curso+Ciências+da+Natureza+-+Licenciatura.+Dom+Pedrito:+Universidade+Federal+do+Pampa">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BRIZOLLA, F.; MELLO, E. M. B.. <b>PRODOCENCIA - UNIPAMPA: 'Desbravando fronteiras para a consolidação das Licenciaturas de uma Universidade fronteiriça'. São Leopoldo</b>. 2016. Prefácio, Pósfacio/Prefácio<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=PRODOCENCIA+-+UNIPAMPA:+'Desbravando+fronteiras+para+a+consolidação+das+Licenciaturas+de+uma+Universidade+fronteiriça'.+São+Leopoldo&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=PRODOCENCIA+-+UNIPAMPA:+'Desbravando+fronteiras+para+a+consolidação+das+Licenciaturas+de+uma+Universidade+fronteiriça'.+São+Leopoldo">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=PRODOCENCIA+-+UNIPAMPA:+'Desbravando+fronteiras+para+a+consolidação+das+Licenciaturas+de+uma+Universidade+fronteiriça'.+São+Leopoldo">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BRIZOLLA, F.; MELLO, E. M. B. ; SILVEIRA, R. C. A.. <b>PRODOCENCIA - UNIPAMPA: 'Desbravando fronteiras para a consolidação das Licenciaturas de uma Universidade fronteiriça'. Lajeado</b>. 2016. Prefácio, Pósfacio/Apresentação<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=PRODOCENCIA+-+UNIPAMPA:+'Desbravando+fronteiras+para+a+consolidação+das+Licenciaturas+de+uma+Universidade+fronteiriça'.+Lajeado&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=PRODOCENCIA+-+UNIPAMPA:+'Desbravando+fronteiras+para+a+consolidação+das+Licenciaturas+de+uma+Universidade+fronteiriça'.+Lajeado">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=PRODOCENCIA+-+UNIPAMPA:+'Desbravando+fronteiras+para+a+consolidação+das+Licenciaturas+de+uma+Universidade+fronteiriça'.+Lajeado">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>DUSO, L. ; CICUTO, C. A. T. ; MOURA, A. C. O. S. ; MORAES, M. C.. <b>Metodologias do Ensino de Ciências: propostas vinculadas ao cotidiano escolar</b>. 2016. Boletim da PROEXT, "EM REDE"<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Metodologias+do+Ensino+de+Ciências:+propostas+vinculadas+ao+cotidiano+escolar&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Metodologias+do+Ensino+de+Ciências:+propostas+vinculadas+ao+cotidiano+escolar">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Metodologias+do+Ensino+de+Ciências:+propostas+vinculadas+ao+cotidiano+escolar">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>HANKE, D. <b>Composição química e isotópica da matéria orgânica do solo como traçador de mudanças páleo-ambientais</b>. 2016. Seminário<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Composição+química+e+isotópica+da+matéria+orgânica+do+solo+como+traçador+de+mudanças+páleo-ambientais&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Composição+química+e+isotópica+da+matéria+orgânica+do+solo+como+traçador+de+mudanças+páleo-ambientais">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Composição+química+e+isotópica+da+matéria+orgânica+do+solo+como+traçador+de+mudanças+páleo-ambientais">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>HANKE, D.; DICK, D. P.. <b>Funcionalidades ambientais de solos com horizontes húmicos e hísticos no Brasil</b>. 2016. Comunicação Científica<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Funcionalidades+ambientais+de+solos+com+horizontes+húmicos+e+hísticos+no+Brasil&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Funcionalidades+ambientais+de+solos+com+horizontes+húmicos+e+hísticos+no+Brasil">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Funcionalidades+ambientais+de+solos+com+horizontes+húmicos+e+hísticos+no+Brasil">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>PASINI, G. ; BARCELOS, V. H. L. ; MADERS. <b>Cultura e Identidade dos Pampas.. Santa Maria</b>. 2016. Prefácio, Pósfacio/Apresentação<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Cultura+e+Identidade+dos+Pampas..+Santa+Maria&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Cultura+e+Identidade+dos+Pampas..+Santa+Maria">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Cultura+e+Identidade+dos+Pampas..+Santa+Maria">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:21:41<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

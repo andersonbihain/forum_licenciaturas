@@ -1,0 +1,193 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Dom</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Dom</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Demais tipos de produção técnica'}, 
+series: [{data: [[2016,
+9],
+[2017,
+6],
+[2018,
+3]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Demais tipos de produção técnica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 20<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CAON, G.; Medina, R.. <b>Fabricação Caseira de Cerveja e Manipulação de Fermento Cervejeiro</b>. 2018. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Fabricação+Caseira+de+Cerveja+e+Manipulação+de+Fermento+Cervejeiro">busca Google</a> |            <a href="http://www.bing.com/search?q=Fabricação+Caseira+de+Cerveja+e+Manipulação+de+Fermento+Cervejeiro">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>DUSO, Leandro. <b>Temas controversos no Ensino de Ciências: abordagens sócio-científicas em sala de aula</b>. 2018. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Temas+controversos+no+Ensino+de+Ciências:+abordagens+sócio-científicas+em+sala+de+aula">busca Google</a> |            <a href="http://www.bing.com/search?q=Temas+controversos+no+Ensino+de+Ciências:+abordagens+sócio-científicas+em+sala+de+aula">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>DUSO, Leandro. <b>AS CONTROVÉRSIAS SOCIOCIENTÍFICAS E SUAS IMPLICAÇÕES NO ENSINO DE BIOLOGIA</b>. 2018. Oficina Ministrada<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=AS+CONTROVÉRSIAS+SOCIOCIENTÍFICAS+E+SUAS+IMPLICAÇÕES+NO+ENSINO+DE+BIOLOGIA">busca Google</a> |            <a href="http://www.bing.com/search?q=AS+CONTROVÉRSIAS+SOCIOCIENTÍFICAS+E+SUAS+IMPLICAÇÕES+NO+ENSINO+DE+BIOLOGIA">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BRIZOLLA, F.; MARTINS, C. S. L.. <b>Práticas pedagógicas: planejamento de aula acessível com base no Desenho Universal da Aprendizagem (DUA)</b>. 2017. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Práticas+pedagógicas:+planejamento+de+aula+acessível+com+base+no+Desenho+Universal+da+Aprendizagem+(DUA)">busca Google</a> |            <a href="http://www.bing.com/search?q=Práticas+pedagógicas:+planejamento+de+aula+acessível+com+base+no+Desenho+Universal+da+Aprendizagem+(DUA)">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BRIZOLLA, F.; MARTINS, C. S. L.. <b>Práticas pedagógicas: planejamento de aula acessível com base no Desenho Universal da Aprendizagem (DUA)</b>. 2017. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Práticas+pedagógicas:+planejamento+de+aula+acessível+com+base+no+Desenho+Universal+da+Aprendizagem+(DUA)">busca Google</a> |            <a href="http://www.bing.com/search?q=Práticas+pedagógicas:+planejamento+de+aula+acessível+com+base+no+Desenho+Universal+da+Aprendizagem+(DUA)">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CAON, G.; MEDINA, R.. <b>FABRICAÇÃO CASEIRA DE CERVEJA E MANIPULAÇÃO DE FERMENTO CERVEJEIRO</b>. 2017. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=FABRICAÇÃO+CASEIRA+DE+CERVEJA+E+MANIPULAÇÃO+DE+FERMENTO+CERVEJEIRO">busca Google</a> |            <a href="http://www.bing.com/search?q=FABRICAÇÃO+CASEIRA+DE+CERVEJA+E+MANIPULAÇÃO+DE+FERMENTO+CERVEJEIRO">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>CAON, G.; MEDINA, R.. <b>FABRICAÇÃO CASEIRA DE CERVEJA E MANIPULAÇÃO DE FERMENTO CERVEJEIRO</b>. 2017. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=FABRICAÇÃO+CASEIRA+DE+CERVEJA+E+MANIPULAÇÃO+DE+FERMENTO+CERVEJEIRO">busca Google</a> |            <a href="http://www.bing.com/search?q=FABRICAÇÃO+CASEIRA+DE+CERVEJA+E+MANIPULAÇÃO+DE+FERMENTO+CERVEJEIRO">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CARNEIRO, J. V. ; OLIVEIRA, F. B. de ; EVANGELISTA, O. J. A. ; ANTUNES, A. A.. <b>Modelos Didáticos e Atividades Práticas para o Ensino de Eletricidade</b>. 2017. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Modelos+Didáticos+e+Atividades+Práticas+para+o+Ensino+de+Eletricidade">busca Google</a> |            <a href="http://www.bing.com/search?q=Modelos+Didáticos+e+Atividades+Práticas+para+o+Ensino+de+Eletricidade">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>OLIVEIRA, F. B. de; SANTOS, D. S. dos. <b>Construção de um ambiente virtual de aprendizagem com Google Sites</b>. 2017. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Construção+de+um+ambiente+virtual+de+aprendizagem+com+Google+Sites">busca Google</a> |            <a href="http://www.bing.com/search?q=Construção+de+um+ambiente+virtual+de+aprendizagem+com+Google+Sites">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BOLZAN, E. C. V. M. M. ; BOLZAN, T. D. ; DIAS, F. F. ; LEONEL, A. A.. <b>LIBRAS E TÓPICOS DE ASTRONOMIA: POTENCIALIZANDO O ENSINO DE FÍSICA PARA PESSOAS SURDAS</b>. 2016. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=LIBRAS+E+TÓPICOS+DE+ASTRONOMIA:+POTENCIALIZANDO+O+ENSINO+DE+FÍSICA+PARA+PESSOAS+SURDAS">busca Google</a> |            <a href="http://www.bing.com/search?q=LIBRAS+E+TÓPICOS+DE+ASTRONOMIA:+POTENCIALIZANDO+O+ENSINO+DE+FÍSICA+PARA+PESSOAS+SURDAS">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CAON, G.; MEDINA, R.. <b>CURSO DE EXTENSÃO FABRICAÇÃO CASEIRA DE CERVEJA E MANIPULAÇÃO DE FERMENTO CERVEJEIRO (84964)</b>. 2016. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=CURSO+DE+EXTENSÃO+FABRICAÇÃO+CASEIRA+DE+CERVEJA+E+MANIPULAÇÃO+DE+FERMENTO+CERVEJEIRO+(84964)">busca Google</a> |            <a href="http://www.bing.com/search?q=CURSO+DE+EXTENSÃO+FABRICAÇÃO+CASEIRA+DE+CERVEJA+E+MANIPULAÇÃO+DE+FERMENTO+CERVEJEIRO+(84964)">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CAON, G.; MEDINA, R.. <b>CURSO DE EXTENSÃO FABRICAÇÃO CASEIRA DE CERVEJA E MANIPULAÇÃO DE FERMENTO CERVEJEIRO (84694-36-1))</b>. 2016. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=CURSO+DE+EXTENSÃO+FABRICAÇÃO+CASEIRA+DE+CERVEJA+E+MANIPULAÇÃO+DE+FERMENTO+CERVEJEIRO+(84694-36-1))">busca Google</a> |            <a href="http://www.bing.com/search?q=CURSO+DE+EXTENSÃO+FABRICAÇÃO+CASEIRA+DE+CERVEJA+E+MANIPULAÇÃO+DE+FERMENTO+CERVEJEIRO+(84694-36-1))">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Caon, G.S.; Medina, R.. <b>CURSO DE EXTENSÃO FABRICAÇÃO CASEIRA DE CERVEJA E MANIPULAÇÃO DE FERMENTO CERVEJEIRO (89112)</b>. 2016. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=CURSO+DE+EXTENSÃO+FABRICAÇÃO+CASEIRA+DE+CERVEJA+E+MANIPULAÇÃO+DE+FERMENTO+CERVEJEIRO+(89112)">busca Google</a> |            <a href="http://www.bing.com/search?q=CURSO+DE+EXTENSÃO+FABRICAÇÃO+CASEIRA+DE+CERVEJA+E+MANIPULAÇÃO+DE+FERMENTO+CERVEJEIRO+(89112)">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CICUTO, Camila ; DUSO, Leandro. <b>Mapa Conceitual no ensino de Química: proposta para promover a aprendizagem significativa</b>. 2016. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Mapa+Conceitual+no+ensino+de+Química:+proposta+para+promover+a+aprendizagem+significativa">busca Google</a> |            <a href="http://www.bing.com/search?q=Mapa+Conceitual+no+ensino+de+Química:+proposta+para+promover+a+aprendizagem+significativa">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>CICUTO, Camila ; DUSO, LEANDRO. <b>Mapa Conceitual no ensino de Química: proposta didática para promover a aprendizagem significativa</b>. 2016. Oficina Ministrada<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Mapa+Conceitual+no+ensino+de+Química:+proposta+didática+para+promover+a+aprendizagem+significativa">busca Google</a> |            <a href="http://www.bing.com/search?q=Mapa+Conceitual+no+ensino+de+Química:+proposta+didática+para+promover+a+aprendizagem+significativa">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>DUSO, L. ; CICUTO, C. A. T. ; MOURA, A. C. O. S. ; MORAES, M. C.. <b>Metodologias do Ensino de Ciências: propostas vinculadas ao cotidiano escolar</b>. 2016. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Metodologias+do+Ensino+de+Ciências:+propostas+vinculadas+ao+cotidiano+escolar">busca Google</a> |            <a href="http://www.bing.com/search?q=Metodologias+do+Ensino+de+Ciências:+propostas+vinculadas+ao+cotidiano+escolar">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>DUSO, Leandro. <b>Atividades Integradoras como proposta para o Ensino de Ciências em Educação de Jovens e Adultos</b>. 2016. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Atividades+Integradoras+como+proposta+para+o+Ensino+de+Ciências+em+Educação+de+Jovens+e+Adultos">busca Google</a> |            <a href="http://www.bing.com/search?q=Atividades+Integradoras+como+proposta+para+o+Ensino+de+Ciências+em+Educação+de+Jovens+e+Adultos">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>DUSO, Leandro. <b>Atividades integradoras como proposta para o Ensino de Ciências na EJA</b>. 2016. Oficina Ministrada<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Atividades+integradoras+como+proposta+para+o+Ensino+de+Ciências+na+EJA">busca Google</a> |            <a href="http://www.bing.com/search?q=Atividades+integradoras+como+proposta+para+o+Ensino+de+Ciências+na+EJA">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BIERHALZ, Crisna Daniela K. <b>Formação Continuada</b>. 0. séries iniciais<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Formação+Continuada">busca Google</a> |            <a href="http://www.bing.com/search?q=Formação+Continuada">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>COELHO, F. B.de O. <b>Criação de sites</b>. 0. Google Sites<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Criação+de+sites">busca Google</a> |            <a href="http://www.bing.com/search?q=Criação+de+sites">busca Bing</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:21:41<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

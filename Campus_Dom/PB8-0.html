@@ -1,0 +1,343 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Dom</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Dom</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Apresentações de trabalho'}, 
+series: [{data: [[2016,
+26],
+[2017,
+51],
+[2018,
+18]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Apresentações de trabalho</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 95<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ANDRIELI ILHA, B. ; BIERHALZ, Crisna Daniela K. ; OSORIO, T. R.. <b>Vivencia do Estágio a partir de uma experiência interdisciplinar na Educação de Jovens e Adultos</b>. 2018. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BIERHALZ, Crisna Daniela K. <b>Capacitação para compor o Banco de Avaliadores do Sistema Nacional de Avaliação da Educação Superior (BASis)</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CAON, G. <b>Cerveja e saúde: uma nova linha de pesquisa no Brasil</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>DUSO, Leandro. <b>Controvérsias sociocientíficas no Ensino de Ciências</b>. 2018. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>FONSECA, E. M. ; DUSO, Leandro. <b>ELABORAÇÃO DE MATERIAIS DIDÁTICOS: O QUE DIZEM OS LICENCIANDOS EM CIÊNCIAS DA NATUREZA</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>FONSECA, E. M. ; LINDEMANN, R. H. ; DUSO, LEANDRO. <b>A discussão da abordagem temática: estado do conhecimento no Ensino de Ciências</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>FONSECA, ERIL MEDEIROS DA ; OSORIO, T. R. ; BIERHALZ, Crisna Daniela K.. <b>Oficina Temática sobre Energia: possibilidade e aborfagem no Ensino de Ciências</b>. 2018. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Gonçalves, F. ; MADERS, S. ; CAON, G.. <b>COMO RELACIONAR A CIÊNCIA AO COTIDIANO DOS ALUNOS DO ENSINO MÉDIO NO ENSINO DA BIOLOGIA ATRAVÉS DO PROCESSO DE FERMENTAÇÃO PAUTADO NA EXPERIMENTAÇÃO</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>GUNTZEL, F. G. ; STOCHERO, E. B. ; DUSO, Leandro. <b>A FANTÁSTICA VIDA DAS ABELHAS: PRODUÇÃO DE MATERIAIS DIDÁTICOS PARA O ENSINO DE CIÊNCIAS E BIOLOGIA</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>HANKE, D. <b>Sequestro de carbono e manejo da matéria orgânica do solo em sistemas forrageiros</b>. 2018. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>HANKE, D. <b>Controle Biológico no Brasil</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>HANKE, D.; DICK, D. P.. <b>Aggregate Stability in Soil with Humic and Histic Horizons in a Toposequence under Araucaria Forest</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>PAZINATO, M. S. <b>Desafios e possibilidades no ensino de Ligações químicas no nível médio</b>. 2018. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>PAZINATO, M. S.; BRAIBANTE, M. E. F. ; MIRANDA, A. C. G.. <b>Assessment of construction of knowledge in Covalent Bond in high school through the philosophical zones</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Silva, F. A. B. ; COUTINHO, C. ; CANCIAN, R. ; EBLING, L. A. ; SANTOS, E. B. ; TALHAFERRO, J. T. ; BAPTISTA, V. A. ; PUTZKE, J.. <b>DIVULGAÇÃO DO CONHECIMENTO MICOLÓGICO ATRAVÉS DE OFICINAS PEDAGÓGICAS: UM RELATO DE EXPERIÊNCIA</b>. 2018. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>STOLL, V. G. ; OSORIO, T. R. ; BIERHALZ, Crisna Daniela K.. <b>A percepção dos estudantes da EJA sobre o princípio da atraçaõ e repulsão elétrica</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>STOLL, V. G. ; OSORIO, T. R. ; BIERHALZ, Crisna Daniela K.. <b>A Percepção dos estudantes da EJA sobre o Princípio da atração e respulsão Elétrica</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>TAROUCO, F. ; COUTINHO, C. ; RODRIGUES, J. M. ; DUSO, Leandro. <b>A produção de materiais didáticos para o ensino de Ciências: uma proposta para favorecer a aprendizagem</b>. 2018. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AMARAL, C. P. ; COUTINHO, C.. <b>Educação Humanizadora x Ensino médio: Investindo na aprendizagem</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ANTUNES, A. A. ; CARNEIRO, J. V. ; BIERHALZ, Crisna Daniela K.. <b>A contribuição das monitorias na formação de professores de Ciências da Natureza</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BIERHALZ, Crisna Daniela K. <b>Avaliação: concepções sobre o processo avaliativo no Ensino de Ciências</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BIERHALZ, Crisna Daniela K.; STOLL, V. G.. <b>O Portfólio como instrumento minvestigativo e reflexivo no Pibid Ciências da NAtureza</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>CAON, G. <b>Pesquisa, mercado e empreendedorismo na cerveja artesanal: o ca(u)so da Anner</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>CAON, G. <b>O campo profissional do Biólogo</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>CAON, G. <b>Atuação do Biólogo</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>CAVALHEIRO, D. M. ; RODRIGUES, E. B. ; DUSO, Leandro. <b>Escola do Campo como espaço emancipatório: diálogos em construção</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>CICUTO, C. A. T. <b>Ambiente de aprendizagem centrado no aluno: um estudo sobre expectativas</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>CICUTO, C. A. T. <b>Uma abordagem centrada no aluno em Bioquímica: estudo sobre a avaliação da qualidade do ensino</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>CICUTO, C. A. T. <b>Mapas conceituais e modelos de conhecimento no Ensino de Ciências</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>COELHO, FRANCIELE BRAZ DE OLIVEIRA; CURY, H. N.. <b>CURRÍCULOS INTERDISCIPLINARES E FORMAÇÃO DOCENTE EM CIÊNCIAS DA NATUREZA: DESAFIOS E POSSIBILIDADES</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>DIAS, F. F.; HUNSCHE, S.. <b>Atividades Investigativas na Formação Inicial de Professores: alguns apontamentos</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>DIAS, F. F.; LEONEL, A. A.. <b>O Ensino de Física nas Escolas do Campo de Caçapava do Sul: alguns apontamentos</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>DUSO, Leandro. <b>Discussões de controvérsias sociocientíficas e projetos integrados: perspectivas para o ensino de ciências</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>DUSO, Leandro. <b>Questionar para aprender. aprender a questionar</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>DUSO, Leandro. <b>Inteligências Múltiplas e Pluralismo Metodológico</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>DUSO, Leandro. <b>Perspectiva integradora em projetos interdisciplinares: revisão narrativa nos periódicos brasileiros</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>DUSO, Leandro. <b>Metodologia do Ensino de Ciências: propostas vinculadas ao cotidiano escolar</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>DUSO, Leandro; MAESTRELLI, S. R. P.. <b>Controvérsias sociocientíficas e projetos integrados: condicionantes e potencialidades para o ensino de ciências</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>ESPINDOLA, Q. C. ; STOLL, V. G. ; BIERHALZ, Crisna Daniela K.. <b>Drogas: um projeto de ensino com viés social</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>FABRICIO, R. M. ; COUTINHO, C.. <b>A utilização de jogo didático como ferramenta de ensino do Reino Monera</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>FERREIRA, V. E. M. ; LUZ, F. A. ; BIERHALZ, Crisna Daniela K.. <b>Plantas Medicinais: um olhar sobre o uso da temática nas séries finais do ensino fundamental em Dom Pedrito - RS</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>FONSECA, E. M. ; DUSO, Leandro. <b>Concepções dos alunos de pós-graduação sobre métodos educacionais e recursos no ensino de Ciências</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>FONSECA, E. M. ; DUSO, Leandro. <b>Análise de sequências didáticas sobre o ensino de zoologia: abordagem da problematização por licenciandos em educação do campo</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>GOMES, F. ; BIERHALZ, Crisna Daniela K. ; VARGAS, I. O.. <b>Eu danço, tu danças, nós dançamos... aprendendo de forma interdisciplinar</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>GOULART, D. S. M. ; VIANA, J. M.. <b>Minicurso Acessibilidade Educacional de Surdos - Aspectos Básicos</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>GUNTZEL, F. ; BIERHALZ, Crisna Daniela K. ; OLIVEIRA, C. R. A. ; VARGAS, I. O.. <b>Experimentação no Ensino de Ciências e a Educação Inclusiva: articulações entre teoria e prática</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>HANKE, D. <b>Geopedologia e viticultura</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>HANKE, D.; DICK, D. P.. <b>Interações de substâncias húmicas com metais em solos com horizontes Húmicos e Hísticos sob Floresta Ombrófila Mista</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>HANKE, D.; DICK, D. P. ; KNICKER, H. ; PEREZ, J. A. G.. <b>MATÉRIA ORGÂNICA COMO TRAÇADOR PÁLEOAMBIENTAL DE MUDANÇAS VEGETACIONAIS NO SUL DO BRASIL</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>JESUS, S. <b>C. de. Demarcando espaços, saberes e conflitos: notas sobre a presença de crianças indígenas na universidade</b>. 2017. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>JESUS, S. C. de; TASSINARI, A. M. I.. <b>Coordenação do Simpósio Temático 'Mulheres Indígenas e Conhecimentos: conflitos, territorialidades e agências'</b>. 2017. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>KAUFMANN, L. ; BIERHALZ, Crisna Daniela K. ; STOLL, V. G. ; SOUZA, C. T. ; ALMEIDA, L. C. G. ; CORREA, D. M.. <b>Projeto Laboratório Funcional: uma alternativa na prática da experimentação em sala de aula</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>LIMA, V. A. ; BIERHALZ, Crisna Daniela K. ; SILVA, L. G. ; ANTUNES, A. A.. <b>Rótulos e embalagens alimentícias: do senso comum ao conhecimento científico</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>MAIA, A. F. ; BIERHALZ, Crisna Daniela K. ; SILVA, L. D. ; TAROUCO, A. R. ; VARGAS, I. O.. <b>Barrinhas de cereais: explorando os rótulos no Ensino de Ciências</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>MARQUES, L. N. A. ; COUTINHO, C. ; GINDRI, A. L.. <b>Plantas medicinais: um estudo de aplicação e da promoção da sáude</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>MELLO, L. F. ; DUSO, Leandro. <b>Atividade Lúdica sobre agrotóxicos: perspectiva para o ensino de química orgânica</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>MENA, L. P. ; BIERHALZ, Crisna Daniela K. ; TAROUCO, A. R. ; CHAVES, L. L. ; MOREIRA, M. A. A.. <b>Concepções dos alunos do Ensino Fundamental sobre a experimentação no Ensino de Ciências</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>OLIVEIRA, C. R. A. ; BIERHALZ, Crisna Daniela K. ; VARGAS, I. O. ; GUNTZEL, F.. <b>No ritmo do videogame: Ciências da Natureza em uma perspectiva inclusiva</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>OLIVEIRA, L. E. ; BIERHALZ, Crisna Daniela K. ; VARGAS, I. O.. <b>Corpo em movimento: uma estratágia que une ciências e tecnologia</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>PACHECO, T. P. ; MOTTA, C. M. A. ; DUSO, Leandro. <b>A Escola Emancipatória Do/No Campo: Concepções de uma professora de Ciências</b>. 2017. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>PACHECO, T. P. ; SOARES, A. M. G. ; DUSO, Leandro. <b>A escola como princípio educativo: emancipação humana e social</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>PAZINATO, M. S.; BRAIBANTE, M. E. F.. <b>Análise das concepções de estudantes sobre Ligações químicas a partir das zonas filosóficas Realista, Empirista e Racionalista</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>PAZINATO, M. S.; BRAIBANTE, M. E. F.. <b>Avanços e retrocessos no estudo de Ligação iônica no ensino médio</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>PAZINATO, M. S.; BRAIBANTE, M. E. F. ; MIRANDA, A. C. G.. <b>Estabilidade química: um obstáculo para a construção do conhecimento em ligações químicas</b>. 2017. Apresentação de Trabalho/Congresso</td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>SILVA, L. D. ; BIERHALZ, Crisna Daniela K. ; MAIA, A. F. ; MOREIRA, M. A. A.. <b>Construindo conceitos de Física: Movimento Retilíneo Uniforme</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>SILVA, L. G. ; BIERHALZ, Crisna Daniela K. ; FERREIRA, V. E. M. ; ANTUNES, A. A.. <b>Medicamento: vilão ou mocinho?</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>SILVA, U. ; COUTINHO, C.. <b>Debatendo problemas ambientais por meio de um jogo didático</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>SOUZA, C. T. ; BIERHALZ, Crisna Daniela K. ; ROCHA, C. ; STOLL, V. G. ; CORREA, D. M. ; LUZ, F. A. ; KAUFMANN, L.. <b>Mimetismo ou camuflagem: uma discussão a partir a prova Brasil</b>. 2017. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>STOLL, V. G. ; BIERHALZ, Crisna Daniela K.. <b>POrtfólio na EJA: Contribuições para o Ensino de Ciências</b>. 2017. Apresentação de Trabalho/Outra</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>AMARAL, C. P. ; COUTINHO, C. ; GUERIN JUNIOR, C.. <b>O uso de games eletrônicos como estratégias de aprendizagem</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BIERHALZ, Crisna Daniela K. <b>O Ensino de Ciências e Educação Ambiental: considerando as múltiplas tessituras na construção do conhecimento nas escolas do campo</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BRIZOLLA, F. <b>Estratégias de Ensinagem para Encontros Interdisciplinares</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BRIZOLLA, F.; MARTINS, C. S. L.. <b>Inclusão e acessibilidade na escola: quebrando barreiras</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>BRIZOLLA, F.; MARTINS, C. S. L.. <b>Experiências de atendimento educacional especializado para acadêmicos com deficiência nas Universidades Federais de Ensino Superior do Sul do Brasil</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Caon, G.S. <b>Produção de Cervejas Artesanais</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>CICUTO, C. A. T. <b>Uma abordagem centrada no aluno para ensinar Química</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>CICUTO, C. A. T.; DUSO, L.. <b>Mapa conceitual no Ensino de Química: proposta didática para promover a aprendizagem significativa</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>COELHO, F. B.de O.; CURY, H. N.. <b>Currículo Interdisciplinar e formação docente: desafios e possibilidades</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>COUTINHO, C. <b>Prática de novas metodologias</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>COUTINHO, C. <b>Multiculturalismo na formação continuada docente: a possibilidade de construção do conhecimento científico a partir do conhecimento cultural</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>DIAS, F. F.; LEONEL, A. A.. <b>Ensino de Física em Escolas do Campo: lançando um novo olhar</b>. 2016. Apresentação de Trabalho/Simpósio</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>DUSO, Leandro. <b>A abordagem de controvérsias sociocientíficas: proposta integradora para o Ensino de Ciências</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>ESPINDOLA, Q. C. ; BIERHALZ, Crisna Daniela K. ; XAVIER, C. S. ; MENA, L. P.. <b>Drogas: Uma abordagem por Projeto temático</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>FLORES, A. L. D. ; COUTINHO, C.. <b>Cariótipos comestíveis: uma prática deliciosa e nutritiva para o ensino de genética</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>KAUFMANN, L. ; CORREA, D. M. ; BIERHALZ, Crisna Daniela K. ; SANTOS, D. S.. <b>Estratégias Educativas: Conversando sobre Gravidez na adolescência e métodos contraceptivos</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>MORAES, M. S. A. <b>Docentes das Áreas de ciências da Natureza</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>MOREIRA, B. A. ; SILVA, U. ; SILVEIRA JUNIOR, J. B. ; CANTERLE, N. R. ; MENEZES, A. B. ; COUTINHO, C. ; GINDRI, A. L.. <b>Investigação sobre o uso de plantas medicinais numa comunidade escolar de Santiago/RS</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>PACHECO, T. P. ; DUSO, Leandro. <b>Lixo nas nossas estradas, não!!!</b>. 2016. Apresentação de Trabalho/Comunicação</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>PAZINATO, M. S. <b>Desafios no Ensino de Química</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>PAZINATO, M. S. <b>Diálogos sobre a MP 746 - relato do Colóquio Regional Sul Ensino Médio</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>PAZINATO, M. S.; BRAIBANTE, M. E. F. ; MIRANDA, A. C. G. ; FREITAS, R. T. G.. <b>Ensino de Ligações químicas: uma análise das estratégias utilizadas pelos professores a partir de seus modelos didáticos</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>RADMANN, E. B. <b>Propagação in vitro de plantas</b>. 2016. Apresentação de Trabalho/Conferência ou palestra</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>SILVA, L. G. ; BIERHALZ, Crisna Daniela K. ; FERREIRA, V. E. M. ; OLIVERA, A. E.. <b>Esmaltes de unhas como temática para o Ensino de Ciências da Natureza</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>SILVA, U. ; COUTINHO, C.. <b>Dinâmica das populações: uma atividade sensibilizadora dos biomas brasileiros</b>. 2016. Apresentação de Trabalho/Outra</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>SOARES, A. M. G. ; DUSO, Leandro. <b>Bolsa Viajante: estreitando laços de amizades</b>. 2016. Apresentação de Trabalho/Seminário</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:21:41<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

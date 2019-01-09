@@ -1,0 +1,329 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_Dom</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_Dom</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de organização de eventos'}, 
+series: [{data: [[2016,
+6],
+[2017,
+14],
+[2018,
+2]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de organização de eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 88<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>HANKE, D.; ALTEMBURG, S. G. N.. <b>Caminhada pelos solos do Bioma Pampa: funcionalidades ambientais, manejo e conservação dos Agroecossistemas</b>. 2018. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MUNHOZ, C. ; AVILA, M. R. ; NASCIMENTO, S. G. ; HANKE, D.. <b>I Seminário Regional de Serviços Ecossistêmicos no Bioma Pampa</b>. 2018. Outro</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALTEMBURG, S. G. N. ; BEURON, T. A. ; HANKE, D. ; CALDAS, N. V. ; SILVA, F. N. ; MAIA, J.. <b>Mostra Fotográfica Rural em Imagens</b>. 2017. Exposição</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ALTEMBURG, S. G. N. ; HANKE, D.. <b>Construção de saberes em propriedade agrícola familiar</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>ALTEMBURG, S. G. N. ; HANKE, D.. <b>Travessia rural: despertando olhares do Pampa</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>HANKE, D.; ALTEMBURG, S. G. N.. <b>IX Salão Internacional de Ensino, Pesquisa e Extensão</b>. 2017. Congresso</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>HANKE, D.; ALTEMBURG, S. G. N. ; BEURON, T. A.. <b>Aula Magna da UNIPAMPA - campus Dom Pedrito - 2017/1º</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>JESUS, S. C. de; Et. al. <b>Cine Diversa "Mulheres da Terra"</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>JESUS, S. C. de; Et. al. <b>Cine Diversa "Frida Kahlo"</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>JESUS, S. C. de; Et. al. <b>"Roda de Mate com Palestra: Homossexualidades no Movimento Tradicionalista Gaúcho"</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>JESUS, S. C. de; Et. al. <b>Exposição ArteFatos Ameríndios</b>. 2017. Exposição</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>JESUS, S. C. de; GOMES, T. ; GONZAGA, J. G. F. ; Et. al. <b>Roda de conversa e Roda de Capoeira</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>JESUS, SUZANA CAVALHEIRO DE; Et. al. <b>I Encontro Mulheres e Direitos Sociais: a reforma da Previdência em questão</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>JESUS, SUZANA CAVALHEIRO DE; Et. al. <b>I Seminário Antropologia e Educação na formação de professores: saberes indígenas em escolas não indígenas</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>MELLO, E. M. B. ; FREITAS, D. S. de ; BRIZOLLA, F. ; MARTINS, C. S. L.. <b>Seminário ?Inovação Pedagógica: repensando estratégias de formação acadêmico-profissional em diálogo entre Educação Básica e Educação Superior?</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Nascimento, R. ; WARTCHOW, F. ; FERRERIA, C. ; CAON, G.. <b>Noite dos Museus 2017</b>. 2017. Outro</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BRIZOLLA, F.; BICA, A.. <b>22º Encontro da Associação Sul-Rio-Grandense de Pesquisadores em História da Educação (ASPHE)</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CAVALCANTI, M. G. P. ; CICUTO, C. A. T. ; GONZAGA, J. G. F. ; DALBIANCO, V. P. ; PUPO, M. V. ; VIANNA , N. S. ; MORAES, M. C. ; JESUS, S. C.. <b>Dom Pedrito tem Cinema</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>FREITAS, D. S. de ; BICA, A. ; BRIZOLLA, F. ; MARTINS, C. S. L. ; MELLO, E. M. B.. <b>1ª MEEPI: Mostra da Educação - ensino por práticas investigativas</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>FREITAS, D. S. de ; BICA, A. ; BRIZOLLA, F. ; MARTINS, C. S. L. ; MELLO, E. M. B.. <b>2ª MEEPI: Mostra da Educação = ensino por projetos investigativos</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>MOURA, A. C. O. S. ; CICUTO, C. A. T. ; SILVA, D. ; PAZINATO, M. S.. <b>Diálogos sobre a MP 746: relato do Colóquio Regional Sul ENSINO MÉDIO</b>. 2016. Outro</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Nascimento, R. ; WARTCHOW, F. ; FERRERIA, C. ; CAON, G.. <b>Brilha Porto Alegre</b>. 2016. Outro</td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BIERHALZ, Crisna Daniela K.. 9 Encontro Internacional de Formação de Professores - ENFOPE. 2016. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>BIERHALZ, Crisna Daniela K.. Comissão Científica - III Seminário de Educação do campo da Região Sul do rio Grande do Sul : Práticas pedagógicas nas escolas do campo. 2016. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BIERHALZ, Crisna Daniela K.. Comissão Organziadora do III Seminário de Educação do Campo da Região Sul do Rio Grande do Sul: Práticas Pedagógicas nas escolas do e no Campo. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>BIERHALZ, Crisna Daniela K.. Encontro de Professores para Discutir o Processo Ensino Aprendizagem. 1997. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>BIERHALZ, Crisna Daniela K.. II Seminário de Educação Ambiental de Pelotas. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>BIERHALZ, Crisna Daniela K.. II Semináro De Educação do Campo da Região de Pelotas, Jaguarão, Bagé e entorno: projetos políticos pedagógicos de escolas do campo no RS. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>BIERHALZ, Crisna Daniela K.. III CIECITEC - Congresso Internacional de Educação Científica e Tecnólogica. 2015. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>BIERHALZ, Crisna Daniela K.. Segundo Workshop do Clmd. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>BRIZOLLA, F.. 43ª Plenária do Fórum Regional Permanente da Política Pública Estadual para Pessoas Portadoras de Deficiência e Pessoas com Altas Habilidades no Rio Grande do Sul. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>BRIZOLLA, F.. Concurso Público para Docentes - LIBRAS/UNIPAMPA. 2014. (Concurso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>BRIZOLLA, F.. Conferência Intermunicipal da CONAE - Região do Litoral Paranaense. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>BRIZOLLA, F.. Encontro Interinstitucional para Articulação da Educação Pública no Litoral Paranaense e Vale do Ribeira. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>BRIZOLLA, F.. I Encontro Regional de Cursos de Formação de Professores - modalidade Normal: "O ´Ser´ Professor". 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>BRIZOLLA, F.. Seminário ANPAE Região Sul - Gestão e Políticas Públicas de Educação: desafios atuais. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>BRIZOLLA, F.. XI Reunião Científica da Região Sul (ANPEd Sul): Coordenadora de Sessão - Eixo 22 Educação Especial. 2016. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>CARNEIRO, J. V.. V Workshop Brasileiro de Micrometeorologia. 2007. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>CICUTO, C. A. T.. III Debate Cmapping/GEPPEP. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>COUTINHO, C.. "UNIVERSITAR: O Desafio Populacional". 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>COUTINHO, C.. XXI Semana Acadêmica de Biologia - UFSM 2008. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>DEBLE, L. P.. 4 Biourcamp. 2011. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>DEBLE, L. P.. 7 Congrega -. 2011. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>DIAS, F. F.. II Mostra e IV Semana Acadêmica do Curso de Licenciatura em Ciências Exatas. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>DIAS, F. F.. III Mostra e V Semana Acadêmica do Curso de Licenciatura em Ciências Exatas. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>DUSO, Leandro. Evento Via o Planeta Terra. 1999. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>DUSO, Leandro. Semana Acadêmica de Biologia. 1998. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>DUSO, Leandro. Semana Acadêmica de Biologia. 1999. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>DUSO, Leandro. VI ENEBIO - VI Encontro Nacional de Ensino de Biologia. 2014. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>HANKE, D.. 11º Encontro Regional dos Estudantes de Agronomia. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>HANKE, D.. 14º Congresso Latino Americano e Caribenho de Entidades Estudantis de Agronomia. 2004. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>HANKE, D.. Estágio Interdisciplinar de Vivência - Paraná. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>HANKE, D.. Estágio Interdisciplinar de Vivência - Paraná. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>HANKE, D.. I Ciclo de Atualização em Agroecologia. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>HANKE, D.. I Semana do Setor de Ciências Agrárias. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>HANKE, D.. II Reunião Paranaense de Ciência do Solo. 2011. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>HANKE, D.. Semana de Ensino, Pesquisa e Extensão da Agronomia. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>HANKE, D.. UFPR: Cursos e Profissões - Uma Feira de Idéias para seu Futuro.. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>HANKE, D.. V Simpósio Brasileiro de Educação em Solos. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>HANKE, D.. XXIX Ciclo de Atualização em Ciências Agrárias. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>HANKE, D.. XXV Ciclo de Atualização em Ciências Agrárias. 2003. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>HANKE, D.. XXVI Ciclo de Atualização em Ciências Agrárias. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>MADERS. Antropofagia de Letras. 2015. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>MADERS. Encontro entre Programas de Pós-Graduação do Brasil e do México. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>MADERS. Seminário da Linha de Pesquisa 1: Formação, Saberes e Desenvolvimento Profissional.. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>MIRANDA, A. C. G.. XI Semana Acadêmica Integrada do Centro de Ciências Naturais e Exatas. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>MIRANDA, A. C. G.. XII Encontro sobre Investigação na Escola. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>PAZINATO, M. S.. I Workshop de Ensino de Ciências. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>PAZINATO, M. S.. Workshop: Avaliação dos Cursos de Graduação em Química da UFSM. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>PAZINATO, M. S.. XII Encontro sobre Investigação na Escola. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>RADMANN, E. B.. Curso teórico-prático: Identificação e Controle de pragas e doenças em espécies frutíferas. 2000. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>RADMANN, E. B.. Curso teórico-prático: Raleio e retirada de ramos ladrões em pomares de pessegueiro - móduloII. 2000. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>RADMANN, E. B.. Curso: Cultura de Tecidos e Melhoramento de Plantas. 1995. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>RADMANN, E. B.. Curso: Manejo de produção de mudas e manejo de viveiros em frutas de caroço. 2002. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>RADMANN, E. B.. Curso: Produção de frutas de caroço em sistema de produção. 2002. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>RADMANN, E. B.. Curso: Produção Frutícola na Cultura do Abacaxi. 2002. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>RADMANN, E. B.. Curso: Técnicas de produção de mudas de citros e manejo de viveiros. 2002. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>RADMANN, E. B.. IV Mercofrut. 2002. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>RADMANN, E. B.. Seminário: Identificação de doenças e pragas quarentenárias em fruticolas, hortaliças e grãos para Fiscais Agropecuários do Ministério da Agricultura Pecuária e Abastecimento. 2002. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>SILVEIRA, W. D.. III Seminário Internacional de Ciências do Esporte e Atividade Física. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>SILVEIRA, W. D.. Oficina de Atividade Motora Adaptada. 2002. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>SILVEIRA, W. D.. Palestrante de mesa redonda: Inclusão e Educação Física. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>SILVEIRA, W. D.. Seminário "A Cultura surda e o Esporte" da disciplina Vivencias Extras. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>SILVEIRA, W. D.. Seminário "A Cultura surda e o Esporte". 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>SUDATI, J. H.. "A relação do que comemos e o que bebemos com o nosso cérebro". 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>SUDATI, J. H.. 2nd International Symposium on Residue Management in Universities. 2004. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>VIANA, J. M.. 7º Fórum Estadual de Educação de Surdos. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>VIANA, J. M.. Festival Brasileiro de Cultura Surda. 2012. (Festival).. <b></b>. 0. </td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 09/01/2019 17:21:41<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
