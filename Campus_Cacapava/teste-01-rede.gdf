@@ -1,50 +1,60 @@
 nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUBLE, lon DOUBLE, collaborationRank DOUBLE, producaoBibliografica DOUBLE, artigoEmPeriodico DOUBLE, livro DOUBLE, capituloDeLivro DOUBLE, trabalhoEmCongresso DOUBLE, resumoExpandido DOUBLE, resumo DOUBLE, posDoutorado DOUBLE, dutorado DOUBLE, mestrado DOUBLE, ic DOUBLE, color VARCHAR
-0,0808253492421363,Andre Luis Silva da Silva,[Sem rotulo],0,0,0.54831856,30,11,3,2,10,4,0,0,0,0,3,'10,110,164'
-1,8812847806952873,Andre Martins Alvarenga,[Sem rotulo],0,0,0.15,13,4,1,6,2,0,0,0,0,0,0,'10,110,164'
-2,2639464990085544,Anelise Marlene Schmidt,[Sem rotulo],0,0,0.7956019,6,3,0,0,3,0,0,0,0,2,0,'10,110,164'
-3,6348630855781978,Angela Maria Hartmann,[Sem rotulo],0,0,0.44393456,9,2,2,0,2,3,0,0,0,5,0,'10,110,164'
-4,5254810887797757,Carolina Ferreira de Matos Jauris,[Sem rotulo],0,0,0.15,17,7,0,0,6,1,3,0,0,0,4,'10,110,164'
-5,4004565241849091,Caroline Wagner,[Sem rotulo],0,0,1.0020329,8,6,0,0,1,1,0,0,2,1,0,'10,110,164'
+0,0808253492421363,Andre Luis Silva da Silva,[Sem rotulo],0,0,0.49184373,35,14,3,2,11,5,0,0,0,0,4,'10,110,164'
+1,8812847806952873,Andre Martins Alvarenga,[Sem rotulo],0,0,0.15,14,4,1,7,2,0,0,0,0,0,0,'10,110,164'
+2,2639464990085544,Anelise Marlene Schmidt,[Sem rotulo],0,0,1.0862327,11,8,0,0,3,0,0,0,0,2,0,'10,110,164'
+3,6348630855781978,Angela Maria Hartmann,[Sem rotulo],0,0,0.9555924,18,5,2,1,2,7,1,0,0,5,0,'10,110,164'
+4,5254810887797757,Carolina Ferreira de Matos Jauris,[Sem rotulo],0,0,0.15,25,15,0,0,6,1,3,0,0,0,5,'10,110,164'
+5,4004565241849091,Caroline Wagner,[Sem rotulo],0,0,1.2979296,34,30,0,0,1,2,1,0,2,2,0,'10,110,164'
 6,2682869571938004,Cassia Michele Virginio da Silva,[Sem rotulo],0,0,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-7,2938211359705852,Cristiane Heredia Gomes,[Sem rotulo],0,0,0.6011427,77,11,3,2,17,34,10,0,0,0,15,'10,110,164'
-8,5296284169605317,Cristiane Lenz Dalla Corte,[Sem rotulo],0,0,0.4343477,12,6,0,0,0,1,5,0,0,2,2,'10,110,164'
-9,5764733726937478,Daniela de Rosso Tolfo,[Sem rotulo],0,0,0.15,2,1,0,0,0,0,1,0,0,0,0,'10,110,164'
-10,6621220078810861,Elenize Rangel Nicoletti,[Sem rotulo],0,0,0.15,8,6,0,2,0,0,0,0,0,0,0,'10,110,164'
-11,7436592151521102,Igor Antonio Cancela Melnik,[Sem rotulo],-29.7209308,-53.7098032,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-12,2927700876012801,Jaqueline Pinto Vargas,[Sem rotulo],0,0,0.15,4,4,0,0,0,0,0,0,0,0,1,'10,110,164'
-13,4121409440905454,Josiane Marques da Silva,[Sem rotulo],0,0,0.5709811,8,2,0,0,5,1,0,0,0,0,0,'10,110,164'
-14,4646124001238416,Julio Cesar Mendes Soares,[Sem rotulo],0,0,0.15,1,1,0,0,0,0,0,0,0,0,0,'10,110,164'
-15,5816648388103395,Luciane Janice Venturini da Silva,[Sem rotulo],-29.7209308,-53.7098032,0.15,1,0,0,0,0,0,1,0,0,0,0,'10,110,164'
-16,2487436334048538,Lucilene Dornelles Mello,[Sem rotulo],0,0,0.15,3,1,0,0,0,2,0,0,0,0,0,'10,110,164'
-17,4134633660161244,Mara Elisangela Jappe Goi,[Sem rotulo],0,0,2.8335085,68,9,2,9,23,19,6,0,0,0,2,'10,110,164'
-18,9143459351377977,Marcio Andre Rodrigues Martins,[Sem rotulo],0,0,0.44393456,2,1,0,0,0,1,0,0,0,0,0,'10,110,164'
-19,3152051783523715,Marcos Frichembruder,[Sem rotulo],0,0,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
+7,2938211359705852,Cristiane Heredia Gomes,[Sem rotulo],0,0,0.6118662,79,12,3,2,17,38,7,0,0,0,23,'10,110,164'
+8,5296284169605317,Cristiane Lenz Dalla Corte,[Sem rotulo],0,0,0.7857601,34,28,0,0,0,1,5,0,0,2,2,'10,110,164'
+9,5764733726937478,Daniela de Rosso Tolfo,[Sem rotulo],0,0,0.15,4,1,0,0,1,1,1,0,0,0,0,'10,110,164'
+10,6621220078810861,Elenize Rangel Nicoletti,[Sem rotulo],0,0,0.15,9,7,0,2,0,0,0,0,0,0,0,'10,110,164'
+11,7436592151521102,Igor Antonio Cancela Melnik,[Sem rotulo],-29.7209308,-53.7098032,0.15,1,1,0,0,0,0,0,0,0,0,0,'10,110,164'
+12,2927700876012801,Jaqueline Pinto Vargas,[Sem rotulo],0,0,0.15,10,10,0,0,0,0,0,0,0,0,1,'10,110,164'
+13,4121409440905454,Josiane Marques da Silva,[Sem rotulo],0,0,0.45610532,9,2,0,0,6,1,0,0,0,0,0,'10,110,164'
+14,4646124001238416,Julio Cesar Mendes Soares,[Sem rotulo],0,0,0.15,18,18,0,0,0,0,0,0,0,0,0,'10,110,164'
+15,5816648388103395,Luciane Janice Venturini da Silva,[Sem rotulo],-29.7209308,-53.7098032,0.15,2,1,0,0,0,0,1,0,0,0,0,'10,110,164'
+16,2487436334048538,Lucilene Dornelles Mello,[Sem rotulo],0,0,0.15,15,13,0,0,0,2,0,0,0,0,0,'10,110,164'
+17,4134633660161244,Mara Elisangela Jappe Goi,[Sem rotulo],0,0,2.5717084,74,15,2,9,23,19,6,0,0,0,2,'10,110,164'
+18,9143459351377977,Marcio Andre Rodrigues Martins,[Sem rotulo],0,0,0.65145296,3,2,0,0,0,1,0,0,0,0,0,'10,110,164'
+19,3152051783523715,Marcos Frichembruder,[Sem rotulo],0,0,0.15,6,6,0,0,0,0,0,0,0,0,0,'10,110,164'
 20,3103885429038868,Maria Arlita da Silveira Soares,[Sem rotulo],0,0,0.15,19,0,0,0,19,0,0,0,0,0,1,'10,110,164'
-21,8670584898353787,Maria Lucia Pozzatti Flores,[Sem rotulo],0,0,0.15,7,0,1,2,3,1,0,0,0,0,0,'10,110,164'
+21,8670584898353787,Maria Lucia Pozzatti Flores,[Sem rotulo],0,0,0.4195701,18,11,1,2,3,1,0,0,0,0,0,'10,110,164'
 22,0428006457087245,Miguel Guterres Carminatti,[Sem rotulo],0,0,0.15,2,0,0,0,0,0,2,0,0,0,0,'10,110,164'
 23,6934349100906783,Osmar Francisco Giuliani,[Sem rotulo],-29.7209308,-53.7098032,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-24,9680419106224563,Paulo Henrique dos Santos Sartori,[Sem rotulo],0,0,0.15,3,0,0,0,1,0,2,0,0,0,0,'10,110,164'
-25,9871972693068670,Rafhael Brum Werlang,[Sem rotulo],0,0,0.15,2,1,0,0,0,1,0,0,0,0,0,'10,110,164'
-26,0118710960920352,Reginaldo Fabiano da Silva Afonso,[Sem rotulo],0,0,0.15,8,0,0,0,0,4,4,0,0,0,0,'10,110,164'
-27,0307859719242030,Ricardo Machado Ellensohn,[Sem rotulo],0,0,2.6531987,31,7,1,1,16,2,4,0,0,1,0,'10,110,164'
-28,3011476310570491,Samuel Martins da Silva,[Sem rotulo],0,0,0.15,1,1,0,0,0,0,0,0,0,0,0,'10,110,164'
-29,8275677837912851,Sandra Hunsche,[Sem rotulo],0,0,1.2386513,26,4,1,2,13,2,4,0,0,0,0,'10,110,164'
-30,6390879022187783,Suene Bernardes dos Santos,[Sem rotulo],0,0,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
-31,4211206301954369,Thiago Henrique Lugokenski,[Sem rotulo],0,0,0.4343477,1,1,0,0,0,0,0,0,0,0,0,'10,110,164'
+24,9680419106224563,Paulo Henrique dos Santos Sartori,[Sem rotulo],0,0,0.15,4,1,0,0,1,0,2,0,0,0,0,'10,110,164'
+25,9871972693068670,Rafhael Brum Werlang,[Sem rotulo],0,0,0.70469433,4,3,0,0,0,1,0,0,0,0,0,'10,110,164'
+26,0118710960920352,Reginaldo Fabiano da Silva Afonso,[Sem rotulo],0,0,0.15,10,0,0,0,0,5,5,0,0,0,0,'10,110,164'
+27,0307859719242030,Ricardo Machado Ellensohn,[Sem rotulo],0,0,2.4181855,39,15,1,1,16,2,4,0,0,1,0,'10,110,164'
+28,3011476310570491,Samuel Martins da Silva,[Sem rotulo],0,0,0.15,4,4,0,0,0,0,0,0,0,0,0,'10,110,164'
+29,8275677837912851,Sandra Hunsche,[Sem rotulo],0,0,1.0811789,28,6,1,2,13,2,4,0,0,0,0,'10,110,164'
+30,6390879022187783,Suene Bernardes dos Santos,[Sem rotulo],0,0,0.15,3,3,0,0,0,0,0,0,0,0,0,'10,110,164'
+31,4211206301954369,Thiago Henrique Lugokenski,[Sem rotulo],0,0,0.46788007,15,15,0,0,0,0,0,0,0,0,0,'10,110,164'
 32,0048422446197920,Vitalino Cesca Filho,[Sem rotulo],0,0,0.15,2,1,0,0,0,1,0,0,0,0,0,'10,110,164'
-33,4900675368665056,Zilda Baratto Vendrame,[Sem rotulo],0,0,0.15,3,0,0,0,0,1,2,0,0,2,0,'10,110,164'
+33,4900675368665056,Zilda Baratto Vendrame,[Sem rotulo],0,0,0.15,11,3,0,0,0,3,5,0,0,2,0,'10,110,164'
 edgedef> node1 VARCHAR, node2 VARCHAR, weight DOUBLE
 0,2,1.0
 0,17,3.0
 0,27,1.0
+2,3,1.0
 2,7,2.0
 2,17,1.0
-3,18,1.0
+2,18,1.0
+2,21,1.0
+2,25,1.0
+3,18,2.0
+3,21,1.0
+3,25,2.0
 3,29,1.0
-5,8,1.0
+5,8,4.0
 5,17,1.0
-5,31,1.0
+5,31,2.0
 13,29,2.0
-17,27,18.0
+17,27,21.0
+17,29,1.0
+18,21,1.0
+18,25,1.0
 18,29,1.0
-27,29,2.0
+21,25,1.0
+27,29,3.0
