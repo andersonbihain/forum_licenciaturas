@@ -1,0 +1,467 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>teste-04</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>teste-04</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de organização de eventos'}, 
+series: [{data: [[2016,
+55],
+[2017,
+63],
+[2018,
+54]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de organização de eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 1157<br>
+                    
+                    <center>Página: <a href="Eo-0.html">1</a> &nbsp;<b>2</b> &nbsp;</center>
+                    <div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>829. &nbsp;</td> <td>SANTOS, J. D. T.. Concerto de Violão Clássico e Latino-Americano com Marcos Puña (Bolívia). 2017. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>830. &nbsp;</td> <td>SANTOS, J. D. T.. Concerto dos alunos de Música do Salesianos. 2009. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>831. &nbsp;</td> <td>SANTOS, J. D. T.. Concerto e Palestra com o violonista Alexandre SImon (Pesquisador da Unirio). 2016. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>832. &nbsp;</td> <td>SANTOS, J. D. T.. Concerto e Palestra com o violonista Dr. Bruno Madeira (Unicamp). 2016. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>833. &nbsp;</td> <td>SANTOS, J. D. T.. I Festival Internacional de Violão do Mercosul. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>834. &nbsp;</td> <td>SANTOS, J. D. T.. I Fraternid'art. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>835. &nbsp;</td> <td>SANTOS, J. D. T.. I Seminário Internacional de Violão do Pampa. 2017. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>836. &nbsp;</td> <td>SANTOS, J. D. T.. I Violões do Sul - Concerto de Gilberto Oliveira e Alexandre Simon. 2007. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>837. &nbsp;</td> <td>SANTOS, J. D. T.. II Violões do Sul - Concerto com o Trio de Chorinho (Nadir, Serginho e Jorginho). 2007. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>838. &nbsp;</td> <td>SANTOS, J. D. T.. III Violões do Sul - Concerto com Rodrigo Nassif. 2007. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>839. &nbsp;</td> <td>SANTOS, J. D. T.. IV Violões do Sul - Concerto com Gonçalo Cordeiro (Portugal). 2010. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>840. &nbsp;</td> <td>SANTOS, J. D. T.. Master Class de Técnica e Interpretação violonística com Rodrigo Nassif. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>841. &nbsp;</td> <td>SANTOS, J. D. T.. Mini-curso de Arranjo Musical com o Me. Luciano Nazario (FURG) - 20 horas. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>842. &nbsp;</td> <td>SANTOS, J. D. T.. Mini-curso de Harmonia Funcional com o Me. Luciano Nazario (FURG) - 20 horas. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>843. &nbsp;</td> <td>SANTOS, J. D. T.. Mini-curso de Improvisação Musical com o Me. Luciano Nazario (FURG) - 20 horas. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>844. &nbsp;</td> <td>SANTOS, J. D. T.. Momento Farroupilha 2011. 2011. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>845. &nbsp;</td> <td>SANTOS, J. D. T.. Mostra de Prática Instrumental 2013/2. 2014. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>846. &nbsp;</td> <td>SANTOS, J. D. T.. Mostra de Prática Instrumental 2014/2. 2015. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>847. &nbsp;</td> <td>SANTOS, J. D. T.. Mostra de Práticas Instrumentais 2015/2. 2015. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>848. &nbsp;</td> <td>SANTOS, J. D. T.. Não Vou me Adaptar - Homenagem aos 30 Anos dos Titãs. 2012. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>849. &nbsp;</td> <td>SANTOS, J. D. T.. Palestra "Técnica Flexível para Violão". 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>850. &nbsp;</td> <td>SANTOS, J. D. T.. Recital da Camerata Pampeana de Violões. 2015. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>851. &nbsp;</td> <td>SANTOS, J. D. T.. Recital de Música Flamenca com Eduardo de Medeiros (UFRR). 2015. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>852. &nbsp;</td> <td>SANTOS, J. D. T.. Recital Semana Farroupilha. 2010. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>853. &nbsp;</td> <td>SANTOS, J. D. T.. V Violões do Sul - Concerto com Alexandre Simon. 2011. (Concerto).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>854. &nbsp;</td> <td>SANTOS, J. D. T.. Workshop "Antes bem acompanhado do que solo" com Rodrigo Garcia (RJ). 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>855. &nbsp;</td> <td>SANTOS, L. C.. Palestra com o ex ministro dos transportes Eliseu Padilha. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>856. &nbsp;</td> <td>SANTOS, L. C.. Palestra com o Vice-governador do Estado do Rio Grande do Sul Paulo Feijó. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>857. &nbsp;</td> <td>SANTOS, L. C.. TOP OF MIND UNIVERSITÁRIO 2007. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>858. &nbsp;</td> <td>SANTOS, L. C.; RICHETTI, P.. <b>PROSUL RURAL</b>. 0. Palestra temática</td></tr>
+            
+            <tr valign="top"><td>859. &nbsp;</td> <td>SANTOS. A tutoria em cursos na modalidade a distância - Letras Espanhol. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>860. &nbsp;</td> <td>SANTOS. Capacitação de tutores a distância do Curso de Letras Espanhol a Distância. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>861. &nbsp;</td> <td>SANTOS. Capacitação de tutores do Curso de Letras Espanhol a Distância acerca do tema Libras. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>862. &nbsp;</td> <td>SANTOS. I Seminário de Metodologia do Ensino de Línguas e Literaturas- I Smell2007 ( Monitora). 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>863. &nbsp;</td> <td>SANTOS. III Jornada de Elaboração de Materiais, Tecnologia e Aprendizagem de Línguas. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>864. &nbsp;</td> <td>SANTOS. Seminário Nacional sobre Linguagem e Ensino ( Monitora). 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>865. &nbsp;</td> <td>SANTOS. VII Encontro CELSUL 2006 ( Monitora). 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>866. &nbsp;</td> <td>SAWITZKI, M. C.. II Seminário de Ciência e Tecnologia de Alimentos. 1998. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>867. &nbsp;</td> <td>SCANGARELLI, V. G.. Comissao Organizadora da Confederaçao Brasileira de Desportos dos Surdos. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>868. &nbsp;</td> <td>SCANGARELLI, V. G.. Dia das mães. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>869. &nbsp;</td> <td>SCANGARELLI, V. G.. Dia do Surdo. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>870. &nbsp;</td> <td>SCANGARELLI, V. G.. Federaçao Desportiva de Surdos do Rio Grande do Sul. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>871. &nbsp;</td> <td>SCANGARELLI, V. G.. FENEIS/RS. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>872. &nbsp;</td> <td>SCANGARELLI, V. G.. Universidade de Caxias do Sul com apoio FENEIS. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>873. &nbsp;</td> <td>SCHEEREN, V.. XX Encontro Regional de Estudantes de Matemática da Região Sul. 2014. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>874. &nbsp;</td> <td>SCHMIDT, A. M.. IV Semana Acadêmica de Química da UNIJUÍ. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>875. &nbsp;</td> <td>SCHUMACHER, J.L. I Congresso Nacional de Meio Ambiente e Sustentabilidade. 2004. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>876. &nbsp;</td> <td>SCHUMACHER, J.L. XIV Seminário Internacional sobre formação de professores para o Mercosul - Cone Sul. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>877. &nbsp;</td> <td>SEEBER, A.. Workshop Comsol Multiphysics. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>878. &nbsp;</td> <td>SELAU, B.. Escola e comunidade: compromisso de todos e de cada um. 2018. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>879. &nbsp;</td> <td>SELAU, B.. O Mestrado em Educação da UNIPAMPA na região. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>880. &nbsp;</td> <td>SELAU, Bento. Educação Física I - XI Salão de Iniciação Científica. 1999. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>881. &nbsp;</td> <td>SELBACH, J. F.. Mesa redonda Meio ambiente no Baixo Parnaíba: olhos no mundo, pés na região. 2008. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>882. &nbsp;</td> <td>SILVA, A. L. S.. Feira de Ciências. 2007. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>883. &nbsp;</td> <td>SILVA, A. L. S.. Feira de Ciências. 2008. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>884. &nbsp;</td> <td>SILVA, A. L. S.. Feira de Ciências. 2009. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>885. &nbsp;</td> <td>SILVA, A. L. S.. Grupo de Trabalho de Educação Profissional. 2015. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>886. &nbsp;</td> <td>SILVA, A. L. S.. I Feira Interdisciplinar em Ciências. 2010. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>887. &nbsp;</td> <td>SILVA, A. L. S.. II CURSO DE EDUCAÇÃO INFANTIL E ENSINO FUNDAMENTAL. 2002. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>888. &nbsp;</td> <td>SILVA, A. L. S.. II Feira Interdisciplinar em Ciências. 2011. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>889. &nbsp;</td> <td>SILVA, A. L. S.. III Feira Interdisciplinar em Ciências. 2012. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>890. &nbsp;</td> <td>SILVA, A. L. S.. IV Feira Interdisciplinar em Ciências. 2013. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>891. &nbsp;</td> <td>SILVA, A. L. S.. IX OLIMPÍADA BRASILEIRA DE ASTRONOMIA E ASTRONÁUTICA. 2006. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>892. &nbsp;</td> <td>SILVA, A. L. S.. JANELA ABERTA. 2006. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>893. &nbsp;</td> <td>SILVA, A. L. S.. JANELA ABERTA. 2007. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>894. &nbsp;</td> <td>SILVA, A. L. S.. JANELA ABERTA. 2009. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>895. &nbsp;</td> <td>SILVA, A. L. S.. Seminário de Estágios 2016/2. 2016. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>896. &nbsp;</td> <td>SILVA, A. L. S.. Seminário Internacional de Educação no RS. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>897. &nbsp;</td> <td>SILVA, A. L. S.. Seminários em Química. 2013. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>898. &nbsp;</td> <td>SILVA, A. L. S.. Seminários em Química. 2014. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>899. &nbsp;</td> <td>SILVA, A. L. S.. V Feira Interdisciplinar em Ciências. 2014. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>900. &nbsp;</td> <td>SILVA, A. L. S.. VII Salão Internacional de Ensino, Pesquisa e Extensão. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>901. &nbsp;</td> <td>SILVA, A. L. S.. X OLIMPÍADA BRASILEIRA DE ASTRONOMIA E ASTRONÁUTICA. 2007. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>902. &nbsp;</td> <td>SILVA, A. L. S.. XIII OLIMPÍADA BRASILEIRA DE ASTRONOMIA E ASTRONÁUTICA. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>903. &nbsp;</td> <td>SILVA, A. L. S.. XIV OLIMPÍADA BRASILEIRA DE ASTRONOMIA E ASTRONÁUTICA. 2011. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>904. &nbsp;</td> <td>SILVA, A. L. S.. XV OLIMPÍADA BRASILEIRA DE ASTRONOMIA E ASTRONÁUTICA. 2012. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>905. &nbsp;</td> <td>SILVA, A. L. S.. XVI OLIMPÍADA BRASILEIRA DE ASTRONOMIA E ASTRONÁUTICA. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>906. &nbsp;</td> <td>SILVA, A. L. S.. XVII OLIMPÍADA BRASILEIRA DE ASTRONOMIA E ASTRONÁUTICA. 2014. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>907. &nbsp;</td> <td>SILVA, F. F.. 4º Seminário Corpo, Gênero e Sexualidade. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>908. &nbsp;</td> <td>SILVA, F. F.. Corpos, Gêneros e Sexualidades: questões possíveis para o currículo escolar. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>909. &nbsp;</td> <td>SILVA, F. F.. I Seminário Corpos, Gêneros, Sexualidades e Relações Étnico-raciais na Educação: (com)partilhando saberes e I Mostra Pedagógica: saberes e vicências de professores/as da Educação Básica. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>910. &nbsp;</td> <td>SILVA, F. F.. II Seminário Corpo, Gênero e Sexualidade: Problematizando práticas educativas e culturais. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>911. &nbsp;</td> <td>SILVA, F. F.. III Seminário Corpos, Gêneros, Sexualidades e Relações Étnico-Raciais na Educação: desafios dos feminismos e garantia dos Direitos Humanos. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>912. &nbsp;</td> <td>SILVA, F. F.. IV SEMINÁRIO CORPOS, GÊNEROS, SEXUALIDADES E RELAÇÕES ÉTNICO-RACIAIS NA EDUCAÇÃO. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>913. &nbsp;</td> <td>SILVA, F. F.. Seminário Integrador Gênero e Diversidade na Escola. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>914. &nbsp;</td> <td>SILVA, F. F.. Sexualidade e escola: problematizando práticas educativas. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>915. &nbsp;</td> <td>SILVA, F. F.. VI Encontro Sobre Investigação na Escola. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>916. &nbsp;</td> <td>SILVA, F. F.. VII Seminário Corpo, gênero e sexualidade III Seminário Internacional Corpo, gênero e sexualidade III Luso-Brasileiro Educação em Sexualidade, gênero, saúde e sustentabilidade. 2018. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>917. &nbsp;</td> <td>SILVA, J. M.. I Mostra e III Semana Acadêmica do Curso de Licenciatura em Ciências Exatas. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>918. &nbsp;</td> <td>SILVA, O. D.. Escola de Inverno de Matemática Aplicada. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>919. &nbsp;</td> <td>Silva, R. A.. Aula Magna do Programa de Pós-Graduação em Engenharia. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>920. &nbsp;</td> <td>SILVA, R. S.. Coordenador Sessão "Discurso e política: leituras plurais". 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>921. &nbsp;</td> <td>SILVA, R. S.. Monitor V SENALE. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>922. &nbsp;</td> <td>SILVA, Thiago S.. III Jornada de Multiletramentos, V Jornada de Popularização da Ciência e II Encontro de Produção Textual. 2014. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>923. &nbsp;</td> <td>SILVA, Thiago S.. IV Mostra de trabalhos em andamento. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>924. &nbsp;</td> <td>SILVA, Thiago S.. XV Santa Maria em Dança. 2009. (Festival).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>925. &nbsp;</td> <td>SILVEIRA, W. D.. III Seminário Internacional de Ciências do Esporte e Atividade Física. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>926. &nbsp;</td> <td>SILVEIRA, W. D.. Oficina de Atividade Motora Adaptada. 2002. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>927. &nbsp;</td> <td>SILVEIRA, W. D.. Palestrante de mesa redonda: Inclusão e Educação Física. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>928. &nbsp;</td> <td>SILVEIRA, W. D.. Seminário "A Cultura surda e o Esporte" da disciplina Vivencias Extras. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>929. &nbsp;</td> <td>SILVEIRA, W. D.. Seminário "A Cultura surda e o Esporte". 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>930. &nbsp;</td> <td>SOARES, C. B.. II SEMINÁRIO INTERNACIONAL DA CULTURA AFRO: DIVERSIDADE E INCLUSÃO DA UNIPAMPA. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>931. &nbsp;</td> <td>SOARES, C. B.. Seminário Integrador - Gênero e Diversidade na Escola. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>932. &nbsp;</td> <td>SOARES, M. A. S.. A Formação do Professor no Ensino Superior: Temas Atuais. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>933. &nbsp;</td> <td>SOARES, M. A. S.. III Seminário Institucional Integrador de Iniciação à Docência PIBID/URI. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>934. &nbsp;</td> <td>SOARES, M. A. S.. XVI Seminário de Iniciação Científica, VIII Seminário de Extensão e XIV Seminário de Integração de Pesquisa e Pós-Graduação da Universidade Regional Integrada do Alto Uruguai e das Missões. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>935. &nbsp;</td> <td>SOUZA, A.. I Mostra Regional de Ciências. 2013. .. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>936. &nbsp;</td> <td>SOUZA, A.. Virada Cultural da UFSM. 2014. (Festival).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>937. &nbsp;</td> <td>SOUZA, M. A.. Brain Awareness Week. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>938. &nbsp;</td> <td>SOUZA, M. A.. Evento Comemorativo dos 60 anos do Instituto de Fisiologia Experimental da URFGS. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>939. &nbsp;</td> <td>SOUZA, M. A.. II Simpósio do PPG Bioquímica da Universidade Federal do Pampa. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>940. &nbsp;</td> <td>SOUZA, M. A.. III Simpósio do PPG Bioquímica da Universidade Federal do Pampa. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>941. &nbsp;</td> <td>SPIES, M. R.. II Curso de Verão em Entomologia. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>942. &nbsp;</td> <td>SPIES, M. R.. III Cuso de Verão em Entomologia. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>943. &nbsp;</td> <td>SPIES, M. R.. IV Cuso de Verão em Entomologia. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>944. &nbsp;</td> <td>STEFENON, V. M.; Conhecendo o INCT-APA / Semana Nacional de Ciência e Tecnologia. 2012. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>945. &nbsp;</td> <td>SUDATI, J. H.. "A relação do que comemos e o que bebemos com o nosso cérebro". 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>946. &nbsp;</td> <td>SUDATI, J. H.. 2nd International Symposium on Residue Management in Universities. 2004. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>947. &nbsp;</td> <td>TAKAHAMA, Alexandre Machado. Organizador do 1º Encontro de Clarinetistas de Campo Grande / MS. Artista convidado: Cristiano Alves (UFRJ). 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>948. &nbsp;</td> <td>TAKAHAMA, Alexandre Machado. Organizador do 1º Encontro de Regentes de Bandas da UFMS. Artista convidado: maestro Dario Sotelo. 2012. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>949. &nbsp;</td> <td>TAKAHAMA, Alexandre Machado. Organizador do 2º Encontro de Clarinetistas de Campo Grande / MS. Artista convidada: Rocío Mairena (Costa Rica). 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>950. &nbsp;</td> <td>TAKAHAMA, Alexandre Machado. Organizador do Workshop "Violão de 7 Cordas". Artista Convidado: Arthur Bonilla. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>951. &nbsp;</td> <td>TAKAHAMA, Alexandre Machado. Organizador do workshop: A linguagem da Banda Mantiqueira na Música Instrumental Brasileira - Grupo convidado: Banda Mantiqueira. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>952. &nbsp;</td> <td>TAKAHAMA, Alexandre Machado. Organizador e Gestor Financeiro do Seminário Internacional de Regência Coral - SES / UFMS - Artista convidado: Hans-Peter Schurz (Alemanha). 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>953. &nbsp;</td> <td>TEIXEIRA PINTO, V.. 5º Encontro Nacional de Produção Cultural. 2016. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>954. &nbsp;</td> <td>TEIXEIRA PINTO, V.. IX Semana Acadêmica do curso de Ciências Sociais: Política Contemporânea. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>955. &nbsp;</td> <td>TEIXEIRA PINTO, V.. X Semana Acadêmica do curso de Ciências Sociais: Pobreza, alternativas ao campo e a cidade. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>956. &nbsp;</td> <td>TEIXEIRA, I. C. F.. I Encontro de Pedagogia: a criança e a saúde, o direito e a educação. 2009. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>957. &nbsp;</td> <td>TEIXEIRA, L. H. P.. 6º Seminário Estadual Música na Escola. 2015. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>958. &nbsp;</td> <td>TORRES, F. P.. I PampaPET - Encontro dos Grupos PET da UNIPAMPA. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>959. &nbsp;</td> <td>VARGAS, J. P.. 5ª Semana Acadêmica Integrada do Centro de Ciências Naturais e Exatas. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>960. &nbsp;</td> <td>VARGAS, J. P.. 7ª Semana Acadêmica Integrada do Centro de Ciências Naturais e Exatas. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>961. &nbsp;</td> <td>VARGAS, J. P.. Feira das Profissões - VII Edição. 2006. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>962. &nbsp;</td> <td>VESTENA, S.. II Semana Acadêmica Integrada da Unipampa. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>963. &nbsp;</td> <td>VESTENA, S.. II Seminário de Educação Ambiental. 1996. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>964. &nbsp;</td> <td>VESTENA, S.. III Seminário de Educação Ambiental. 1997. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>965. &nbsp;</td> <td>VESTENA, S.. Semana do Meio Ambiente. 1997. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>966. &nbsp;</td> <td>VESTENA, S.. V Matinal Científica da Enfermagem. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>967. &nbsp;</td> <td>VESTENA, S.. VII Encontro de Iniciação Científica da Faculdade de Filosofia, Ciências e Letras Santa Marcelina - VII ENIC. 2009. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>968. &nbsp;</td> <td>VIANA, J. M.. 7º Fórum Estadual de Educação de Surdos. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>969. &nbsp;</td> <td>VIANA, J. M.. Festival Brasileiro de Cultura Surda. 2012. (Festival).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>970. &nbsp;</td> <td>Vinade, L. 2° SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>971. &nbsp;</td> <td>VINADE, L.. 1° SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão. 2009. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>972. &nbsp;</td> <td>VINADE, L.. 3° SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão. 2011. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>973. &nbsp;</td> <td>VOSS, Dulce Mari da Silva. Curso de Extensão Movimentos Sociais e Educação. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>974. &nbsp;</td> <td>VOSS, Dulce Mari da Silva. I Encontro de Formação Pedagógica dos Educadores da UNIPAMPA. 2007. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>975. &nbsp;</td> <td>Werlang, R. B.. 1ª Mostra Farroupilha da UNIPAMPA - Campus Caçapava do Sul. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>976. &nbsp;</td> <td>Werlang, R. B.. I Semana Acadêmica da Geofísica. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>977. &nbsp;</td> <td>Werlang, R. B.. IX olimpíada Brasileira de Astronomia e Astronáutica. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>978. &nbsp;</td> <td>ZIMMERMANN, N. E. K.. XI Encontro de Química da Região Sul. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>979. &nbsp;</td> <td>ZIMMERMANN, N. E. K.. XI Encontro de Química da Região Sul. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>980. &nbsp;</td> <td>ZIMMERMANN, N. E. K.. XI Encontro de Química da Região Sul. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>981. &nbsp;</td> <td>ZIMMERMANN, N. E. K.. XI Encontro de Química da Região Sul. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>982. &nbsp;</td> <td>ZIMMERMANN, N. E. K.. XI Encontro de Química da Região Sul. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>983. &nbsp;</td> <td>ZIMMERMANN, N. E. K.. XI Encontro de Química da Região Sul. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>984. &nbsp;</td> <td>ZIMMERMANN, N. E. K.. XI Encontro de Química da Região Sul. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>985. &nbsp;</td> <td>ZIMMERMANN, N. E. K.. XI Encontro de Química da Região Sul. 2003. (Congresso).. <b></b>. 0. </td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 01/10/2019 01:17:31<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

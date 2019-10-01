@@ -1,0 +1,479 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>teste-04</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>teste-04</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Monografia de conclusão de curso de aperfeiçoamento/especialização'}, 
+series: [{data: [[2016,
+52],
+[2017,
+56],
+[2018,
+55]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Monografia de conclusão de curso de aperfeiçoamento/especialização</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 163<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriana Lamana Balbueno. <b>RELAÇÕES ÉTNICO-RACIAIS NA ESCOLA: A LITERATURA COMO INSTRUMENTO PEDAGÓGICO PARA UMA EDUCAÇÃO VOLTADA PARA A DIVERSIDADE</b>. (Aperfeiçoamento/Especialização em Ciências Humanas - Licenciatura) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Alesandra Tedy Ximendes. <b>Modelos Matemáticos Discretos para Dinâmica Populacional com Efeito Allee e Dispersão</b>. (Aperfeiçoamento/Especialização em Ciências Exatas e Tecnologia) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4030189248596755">Elisa Regina Cara</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Amanda Machado Teixeira. <b>Percepção dos pais/responsáveis sobre as barreiras para a prática de atividade física de escolares com deficiência</b>. (Aperfeiçoamento/Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Ana Helena Gomes Serdam. <b>Os impactos da implandação do e-social nos órgãos públicos</b>. (Aperfeiçoamento/Especialização em Gestão Pública Municipal) - Universidade Fedaral do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6399818992878421">Victor Paulo Kloeckner Pires</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Ariadna Boldori Pinto. <b>O efeito de um programa de natação sobre a força pulmonar de crianças e adultos com doenças respiratórias</b>. (Aperfeiçoamento/Especialização em Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/4569568927785852">Leonardo Magno Rambo</a>, <a href="http://lattes.cnpq.br/4569568927785852">Leonardo Magno Rambo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Aurea Giselda Gonçalves Vilaverde. <b>Os desafios e a impórtância da gestão de pessoas na administração pública: uma revisão bibliográfica</b>. (Aperfeiçoamento/Especialização em Gestão Pública Municipal) - Universidade Fedaral do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6399818992878421">Victor Paulo Kloeckner Pires</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Bethania Rodrigues Vieira. <b>Estado nutricional e nível de atividade física de coletores de lixo de uma cidade da fronteira oeste do Rio Grande do Sul</b>. (Aperfeiçoamento/Especialização em Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9971842553577002">Susane Graup</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Carla Gisele Borba de Souza. <b>Análise da rotina de uma sala de aula à luz da Aprendizagem Significativa e da Alfabetização Científica</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Científica e Tecnológica) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0808253492421363">André Luís Silva da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Caroline de Andrade Jaeger. <b>A Gamificação como aliada à Gestão Educacional</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Clayton Primeiro Garcia. <b>Coordenadoria de manutenção da Universidade Federal do Pampa: análise dos processos e do dimensionamento de pessoal diante das demandas atuais e futuras do setor</b>. (Aperfeiçoamento/Especialização em Gestão Pública Municipal) - Universidade Fedaral do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6399818992878421">Victor Paulo Kloeckner Pires</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Cristiane Silveira. <b>Tendências das pesquisas da Educação do Campo a partir da análise de publicações nos anais do ENPEC</b>. (Aperfeiçoamento/Especialização em Ciências da Natureza na Educação do Campo) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3216449144279833">Ana Carolina Gomes Miranda</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Cássia Aurelio. <b>O exercício da cidadania e a escola como um espaço democrático de compatilhamento de saberes</b>. (Aperfeiçoamento/Especialização em Gestão Pública Municipal) - Universidade Fedaral do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6399818992878421">Victor Paulo Kloeckner Pires</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>César Magno Leite de Oliveira Júnior. <b>Derivação de um modelo de três modos para condensados de Bose-Einstein a partir de uma proposta experimental</b>. (Aperfeiçoamento/Especialização em Especialização em Modelagem Computacional em Ensino, Experimentação e Simul) - Universidade Federal do Pampa. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5512506311339235">Leandro Hayato Ymai</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Daiane Vendramini. <b>Experiencias de compostagem: conectando educação, meio ambiente e comunidade.</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4807525329153013">Cibele Rosa Gracioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Danieli Medeiros. <b>CONTRIBUIÇÕES DE INTERVENÇÕES FORMATIVAS: (RE)CONSTRUÇÃO DE PRÁTICAS DE PROMOÇÃO DA SAÚDE DE DOCENTES DA EDUCAÇÃO BÁSICA</b>. (Aperfeiçoamento/Especialização em Residência Integrada Multiprofissional em Saúde Coletiva) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0390762757228334">Phillip Vilanova Ilha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Denise Freitas de Oliveira. <b>Atividade Física e sua relação com a qualidade de vida em portadores da doença de Alzheimer</b>. (Aperfeiçoamento/Especialização em Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0390762757228334">Phillip Vilanova Ilha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Dileusa Terezina Soares Alves. <b>Motivação no trabalho de atendimento social no serviço público: um estudo com assistentes sociais dos Centros de Referência da Assistência Social</b>. (Aperfeiçoamento/Especialização em Gestão Pública Municipal) - Universidade Fedaral do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6399818992878421">Victor Paulo Kloeckner Pires</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Eduarda Monteiro Fidelis. <b>Educação Ambiental: análise sobre o desenvolvimento da temática nos Livros Didáticos de Ciências da Natureza</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0473681435809042">Ailton Jesus Dinardi</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Eloá Rodrigues de Souza. <b>Nível de atividade física e estilo de vida dos enfermeiros e agentes comunitários de saúde</b>. (Aperfeiçoamento/Especialização em Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0390762757228334">Phillip Vilanova Ilha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Francieli Eduarda Santana dos Santos. <b>Efeitos de um programa de hidroginástica sobre as aptidões funcionais de idosos</b>. (Aperfeiçoamento/Especialização em Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/4569568927785852">Leonardo Magno Rambo</a>, <a href="http://lattes.cnpq.br/4569568927785852">Leonardo Magno Rambo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Francielle Lopes Borges. <b>EFEITO AGUDO DO EXERCÍCIO FÍSICO SOBRE TAREFAS COGNITIVAS EM IDOSAS</b>. (Aperfeiçoamento/Especialização em Especialização em atividade física e saúde) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0316035030727687">Marcos Roberto Kunzler</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Geizon Oliveira da Silveira. <b>Politicas Públicas de Educação Ambiental nos municipios do vale do Jaguari, RS</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4807525329153013">Cibele Rosa Gracioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Gildo Rafael de Almeida Santana. <b>Educação Ambiental e risco de desastres naturais: análise integrada da percepção de alunos e professores de uma escola em Macaé, RJ</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4807525329153013">Cibele Rosa Gracioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Graciela de Lima Freitas. <b>Análise do Processo Investigativo a partir de Proposições Orientadas de Problemas no Ensino de Acústica</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Científica e Tecnológica) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9680419106224563">Paulo Henrique dos Santos Sartori</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Grégori Avrella. <b>O estágio na administração pública: de trabalho precarizado à ação pedagógica transformadora</b>. (Aperfeiçoamento/Especialização em Gestão Pública Municipal) - Universidade Fedaral do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6399818992878421">Victor Paulo Kloeckner Pires</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Ismael Jung Sanchotene. <b>Nível de atividade física e comportamento de risco à saúde de acadêmicos de Educação Física.</b>. (Aperfeiçoamento/Especialização em Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0390762757228334">Phillip Vilanova Ilha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Iune Cauana Machado. <b>Prós e contras das monoculturas florestais no sequestro de Carbono: uma análise imparcial</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4807525329153013">Cibele Rosa Gracioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Juliane Melo de Gregori. <b>ANÁLISE DE LIVROS DIDÁTICOS DE CIÊNCIAS EM UTILIZAÇÃO EM ESCOLAS RURAIS DO MUNICÍPIO DE DOM PEDRITO-RS</b>. (Aperfeiçoamento/Especialização em Ciências da Natureza na Educação do Campo) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3216449144279833">Ana Carolina Gomes Miranda</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Jussara Silva. <b>Inclusão escolar: um desafio entre o ideal e o real</b>. (Aperfeiçoamento/Especialização em Gestão Pública Municipal) - Universidade Fedaral do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6399818992878421">Victor Paulo Kloeckner Pires</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Luciana Guilhermano da Silva. <b>Políticas, Currículo e Formação Docente: reconhecimento pela interculturalidade</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Maderley Martins Pereira. <b>A inclusão educacional de alunos com deficiência em Escola Municipal de São Borja/RS</b>. (Aperfeiçoamento/Especialização em Ciências Humanas - Licenciatura) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Mariele Rosa da Silva. <b>Como a pesquisa socioambiental pode ser uma estratégia de reflexão e ação na transformação do meio</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Micheline Krüger Neumann. <b>Escola do século XXI: entre desafios e possibilidades</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Naiane Fernanda Ribas Rocha. <b>Um Modelo a Diferenças Integral para o Crescimento e Propagação do Arroz Branco e Arroz Vermelho (Oryza sativa l.)</b>. (Aperfeiçoamento/Especialização em Ciências Exatas e Tecnologia) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4030189248596755">Elisa Regina Cara</a>.</font></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Nathalie Yelena Plucinski Cardoso. <b>Álinhamento postural e saúde musculoesquelética de praticantes adultos de natação</b>. (Aperfeiçoamento/Especialização em Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9971842553577002">Susane Graup</a>.</font></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>NÍVEA MARIA BARRETO NUNES OLEQUES. <b>ANÁLISE TEMPO-FREQUÊNCIA DE SINAIS VIA FRAMES DE GABOR E ESTATÍSTICA DE ALTA ORDEM: UM ENFOQUE COMPUTACIONAL</b>. (Aperfeiçoamento/Especialização em Modelagem Computacional em Ensino, Experimentação e Simulação - MCEES) - Universidade Federal do Pampa. 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/3603202046788146">Fernando Luis Dias</a>, <a href="http://lattes.cnpq.br/8753645048719661">Vera Lúcia Duarte Ferreira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Paolla Oliveira. <b>Influência da obesidade na pressão e sensibilidade plantar em adolescentes</b>. (Aperfeiçoamento/Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Patricia Bisso Paz Borges. <b>Investigando sobre a formação continuada de professores na rede pública de ensino do Estado do Rio Grande do Sul</b>. (Aperfeiçoamento/Especialização em ESPECIALIZAÇÃO EM EDUCAÇÃO CIENTIFICA E TECNOLOGIC) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4134633660161244">Mara Elisângela Jappe Goi</a>.</font></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Patrícia Silvestre de Vargas. <b>Do Ensino Fundamental à Educação Infantil: avanços e desafios da gestão escolar</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>Paulete Cykman Rodrigues Alves. <b>Conselho de Classe Participativo: um lugar pedagógico e democrático</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>Rafael Viana. <b>Estado Nutricional e fatores relacionados de escolares</b>. (Aperfeiçoamento/Especialização em Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0390762757228334">Phillip Vilanova Ilha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>Renata Godinho Soares. <b>O conhecimento sobre doenças crônicas não transmissíveis e fatores de risco modificáveis: um estudo com professores de Educação Física</b>. (Aperfeiçoamento/Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Rodrigo da Silva Franco. <b>MODELAGEM MATEMÁTICA E SIMULAÇÃO COMPUTACIONAL COMO ESTRATÉGIAS DE ENSINO-APRENDIZAGEM APLICADAS EM UM CICLO DE MODELAGEM</b>. (Aperfeiçoamento/Especialização em Modelagem Computacional em Ensino, Experimentação e Simulação.) - Universidade Federal do Pampa. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8051531823282859">Everson Jonatha Gomes da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Rodrigo Kist Maciel. <b>A gestão de pessos na administração pública municipal: uma análise das práticas adotdas na Prefeitura Municipal de Itaqui-RS</b>. (Aperfeiçoamento/Especialização em Gestão Pública Municipal) - Universidade Fedaral do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6399818992878421">Victor Paulo Kloeckner Pires</a>.</font></td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>Rogério Schunemann. <b>A Interconectividade para o desenvolvimento de atividades nos cursos de graduação e pós-graduação no polo da Universidade Aberta em Novo Hamburgo/RS</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>Rosangela Dias de Melo. <b>Geodiversidade como ferramenta para o ensino de ciências na educação infantil.</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Científica e Tecnológica) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5254810887797757">Carolina Ferreira de Matos Jauris</a>.</font></td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>Sabrina Dornelles Paz. <b>Análise do conhecimento de estudantes sobre a influência de hábitos modificáveis no desenvolvimento da obesidade</b>. (Aperfeiçoamento/Especialização em Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9971842553577002">Susane Graup</a>.</font></td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>Sirlei Lutz. <b>Arborização da zona urbana do municipio de Panambi, RS</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental) - Universidade Federal de Santa Maria, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4807525329153013">Cibele Rosa Gracioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>TALITA DA CUNHA GONÇALVES. <b>MINERAÇÃO DE DADOS EDUCACIONAIS PARA A CLASSIFICAÇÃO DOS NÍVEIS DE VAN HIELE DE ESCOLAS PÚBLICAS DA CIDADE DE BAGÉ-RS</b>. (Aperfeiçoamento/Especialização em Modelagem Computacional em Ensino, Experimentação e Simulação - MCEES) - Universidade Federal do Pampa. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8753645048719661">Vera Lúcia Duarte Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>Taís Prates Muler. <b>Efeito da atividade física sobre tarefas cognitivas em idosos</b>. (Aperfeiçoamento/Especialização em Especialização em atividade física e saúde) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0316035030727687">Marcos Roberto Kunzler</a>.</font></td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>Ticiane Rosa. <b>ANÁLISE DOS MODELOS DIDÁTICOS DE UM GRUPO DE ESTUDANTES DA EDUCAÇÃO DO CAMPO ? LICENCIATURA</b>. (Aperfeiçoamento/Especialização em Ciências da Natureza na Educação do Campo) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3216449144279833">Ana Carolina Gomes Miranda</a>.</font></td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>Vagner D. Fortes Rosado. <b>Concepções Ambientais de um grupo de professores da Educação Básica do município de Alegrete-RS</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0473681435809042">Ailton Jesus Dinardi</a>.</font></td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>Vanessa Scheeren. <b>Teoria dos Grafos: uma abordagem para a programação de horários de exames finais em cursos universitários.</b>. (Aperfeiçoamento/Especialização em Especialização Modelagem Computacional em Ensino, Experimentação e Simulaçã) - Universidade Federal do Pampa. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8115629381483348">Francieli Aparecida Vaz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>Vilson Santos. <b>Isomorfismo institucional: a gestão de segurança pública municipal na cidade de Uruguaiana/RS</b>. (Aperfeiçoamento/Especialização em Gestão Pública Municipal) - Universidade Fedaral do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6399818992878421">Victor Paulo Kloeckner Pires</a>.</font></td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>Walter Ricardo Dorneles Gonçalves. <b>Barreiras e facilitadores para a prática de atividades físicas em crianças e adolescentes com Transtorno do Espectro Autista de Uruguaiana/RS</b>. (Aperfeiçoamento/Especialização em Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9971842553577002">Susane Graup</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Adriana Moura Marchezan. <b>Doenças crônicas não transmissíveis: o conhecimento de adolescentes sobre fatores de risco não modificáveis</b>. (Aperfeiçoamento/Especialização em Atividade Física e Saúde) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Aline Giorgis Santos Simões. <b>Discursos acerca da sexualidade em produções científico-acadêmicas da ANPED: o que é dito sobre os sujeitos que escapam à norma na escola</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Educação e Diversidade Cultural) - Fundação Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6357471301897496">Dulce Mari da Silva Voss</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ana Kátia Reis Ferreira. <b>A constituição de identidades juvenis no ciberespaço das redes sociais</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Educação e Diversidade Cultural) - Fundação Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6357471301897496">Dulce Mari da Silva Voss</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Ana Virgínia Bittencourt Panerai. <b>Convenções de gênero e relações raciais: escrituras negras femininas no sul do Brasil</b>. (Aperfeiçoamento/Especialização em História da Cultura Africana, Afro-bras.e Indígena) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9365069870272242">Alinne de Lima Bonetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Andressa Pinto da Costa. <b>Capoeira: um gingado pela arte da existência</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Educação e Diversidade Cultural) - Fundação Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6357471301897496">Dulce Mari da Silva Voss</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Ariadine Rodrigues Barbosa. <b>Possibilidades de intervenção do profissional de Educação Física na e para a Promoção da Saúde da criança: Relato de experiência</b>. (Aperfeiçoamento/Especialização em Residência Integrada Multiprofissional em Saúde Coletiva) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0390762757228334">Phillip Vilanova Ilha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Bóris Ximendes Bonfanti. <b>O grupo Hip Hop The Manifest: discursos que produzem Identidades, governam relações entre sujeitos e corpos que transgridem através da dança</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Educação e Diversidade Cultural) - Fundação Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6357471301897496">Dulce Mari da Silva Voss</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Camila Camejo. <b>O Projeto Político Pedagógico e a Valorização da Diversidade Cultural</b>. (Aperfeiçoamento/Especialização em Especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Camila da Rosa Parigi. <b>Socioeducação e adolescente privado de liberdade: sobre des/articulações na gestão pedagógica</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Caroline Hösel Porto. <b>O Estresse no Ambiente de Trabalho Docente</b>. (Aperfeiçoamento/Especialização em especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1541460141842713">Gilnara da Costa Corrêa Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Catherine Domingues Ferreira. <b>Direitos humanos e saúde da mulher</b>. (Aperfeiçoamento/Especialização em Especialização em Direitos Humanos e Cidadania) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5364387277554857">Juliana Brandão Machado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Clotilde Panciera Gazziotin. <b>Aproximações entre Educação Infantil e Neurociências: formação acadêmico-profissional de coordenadoras pedagógicas</b>. (Aperfeiçoamento/Especialização em Especialização em Neurociência aplicada à educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Cristiane Barbosa Soares. <b>Marcadores sociais da diferença e a produção de subjetividades: mulheres negras na Educação Básica Visualizar Editar Certificados</b>. (Aperfeiçoamento/Especialização em História da Cultura Africana, Afro-bras.e Indígena) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9365069870272242">Alinne de Lima Bonetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Daiane Greff. <b>Desenvolvimento de oficinas sobre biodiversidade com alunos do ensino fundamental no municipio de Constantina, RS</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4807525329153013">Cibele Rosa Gracioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Daiane Madeira Gomes. <b>Envelhecimento Ativo e Educação: Universidade Sênior de Bagé</b>. (Aperfeiçoamento/Especialização em especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1541460141842713">Gilnara da Costa Corrêa Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Daniela Haerter. A Violência intrafamiliar desvelada no acolhimento institucional. <b>"Olhares de si, olhares cruzados"</b>. (Aperfeiçoamento/Especialização em Políticas e Intervenção em Violência Intra-familia) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7079815998550043">Edson Romário Monteiro Paniágua</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Debora Müller Corrêa. <b>Agrotóxicos: propostas diferenciadas para o tema em escolas do campo no munícipio de Dom Pedrito - RS</b>. (Aperfeiçoamento/Especialização em Educação do Campo e Ciências da Natureza) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2332303580071539">Fernando Albuquerque Luz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Dirlene Maria Felice. <b>TIC NA EDUCAÇÃO MUNICIPAL: UM ESTUDO EXPLORATÓRIO EM ESCOLAS DO MUNICÍPIO DE DOM PEDRITO ? RS</b>. (Aperfeiçoamento/Especialização em Especialização em TIC) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2530535838251633">Érico Marcelo Hoff do Amaral</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Débora Strider. <b>O papel das mulheres na produção leiteira nas regiões da campanha e fronteira oeste do RS.</b>. (Aperfeiçoamento/Especialização em Especialização em Educação do Campo e Ciências da Natureza) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6494340013752525">Suzana Cavalheiro de Jesus</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Débora Tatiane Borges Motta. <b>Promoção da Educação Socioambiental nas Escolas Públicas do Município de Hulha Negra por meio de Concursos de Projetos Ambientais</b>. (Aperfeiçoamento/Especialização em Especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Eliane Piovesan Botton. <b>Educação ambiental, alimentar e cidadania</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4807525329153013">Cibele Rosa Gracioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Estela Máris Falcão. <b>UM ESTUDO SOBRE A UTILIZAÇÃO DAS TECNOLOGIAS COMO FERRAMENTA DE APOIO AO PROCESSO ENSINO E APRENDIZAGEM NO ENSINO FUNDAMENTAL NA CIDADE DE ITAQUI-RS</b>. (Aperfeiçoamento/Especialização em Especialização em TIC) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2530535838251633">Érico Marcelo Hoff do Amaral</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Fatiane Fernandes Pacheco. <b>As representações da mulher na propaganda televisiva brasileira: seus impactos para o exercício da cidadania</b>. (Aperfeiçoamento/Especialização em Especialização em Direitos Humanos e Cidadania) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5364387277554857">Juliana Brandão Machado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Fernanda Porcela dos Santos. <b>Residência MUltiprofissional em Medicina Veterinária Área de concentração Patologia Clínica Veterinária</b>. (Aperfeiçoamento/Especialização em Programa de Residência Multiprofissional MV) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8978799324980898">Mirela Noro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Francisco Carlos da Silva Caetano. <b>Direitos humanos, Educação Infantil e prática pedagógica: algumas reflexões no atual contexto educacional brasileiro</b>. (Aperfeiçoamento/Especialização em Especialização em Direitos Humanos e Cidadania) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3241620845064515">Maiane Liana Hatschbach Ourique</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>FRANCO, Renan Soares. <b>Combate às Discriminações Raciais na cidade de Jaguarão: intervenções da Delegacia de Polícia Civil</b>. (Aperfeiçoamento/Especialização em Pós-Graduação em Direitos Humanos e Cidadania) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2940552424054556">Sátira Pereira Machado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Gabriela Lugoch. <b>Residência Multiprofissional em Medicina Veterinária Área Patologia Clínica</b>. (Aperfeiçoamento/Especialização em Programa de Residência Multiprofissional MV) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8978799324980898">Mirela Noro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Gilberto Munhoz de Macedo. <b>Práticas como alternativa para promover a Educação Ambiental em uma escola do campo</b>. (Aperfeiçoamento/Especialização em Especialização em Educação do Campo e Ciências da Natureza) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2136144172613304">Maurícius Selvero Pazinato</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>GIULIANA DOS SANTOS BRUNI. <b>IDENTIDADE, MEMÓRIA E DIVERSIDADE CULTURAL POR MEIO DE NARRATIVAS AUTOBIOGRÁFICAS</b>. (Aperfeiçoamento/Especialização em Especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Glenni Almeida Pinheiro de Quadros. <b>Avaliação escolar: concepções de professores de uma escola do campo no município de Rosário do Sul- RS</b>. (Aperfeiçoamento/Especialização em Especialização em Educação do Campo e Ciências da Natureza) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8524665688345631">Crisna Daniela Krause Bierhalz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Helter Luiz da Rosa Oliveira. <b>O profissional de Educação Física na saúde mental e os corpos que não se consegue mover</b>. (Aperfeiçoamento/Especialização em Residência Integrada Multiprofissional em Saúde Mental Coletiva) - Universidade Federal do Pampa, Ministério da Saúde. 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9971842553577002">Susane Graup</a>, <a href="http://lattes.cnpq.br/0390762757228334">Phillip Vilanova Ilha</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>HÉLEN DE OLIVEIRA SOARES JARDIM. <b>OUVIDORIA E EDUCAÇÃO: ABORDANDO OS DESAFIOS E POSSIBILIDADES DAS PRÁTICAS DE GESTÃO EFETIVADAS EM INSTITUIÇÕES FEDERAIS DE EDUCAÇÃO SUPERIOR DO RS</b>. (Aperfeiçoamento/Especialização em especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1541460141842713">Gilnara da Costa Corrêa Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Jianes Meris Henzel de Paula. <b>A Importância da Psicologia na Escola</b>. (Aperfeiçoamento/Especialização em especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1541460141842713">Gilnara da Costa Corrêa Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Joceleia Koenemann. <b>Pesquisa participante como processo metacognitivo</b>. (Aperfeiçoamento/Especialização em Especialização em Neurociência Aplicada à Educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Luciane Grecilo da Silva. <b>Fundamentos da Neurociência na Inclusão Escolar: estratégias de ensino-aprendizagem para a acessibilidade pedagógica</b>. (Aperfeiçoamento/Especialização em Especialização em Neurociência aplicada à educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Luis Roberval Bortoluzzi Castro. <b>Concepçoes ambientais de Licenciados em Ciencias da Natureza sobre o Bioma Pampa na Fronteira Oeste do Rio Grande do Sul</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4807525329153013">Cibele Rosa Gracioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Magda Estigarribia de Oliveira. <b>Práticas Pedagógicas e Informática: Nos Bastidores da Organização Didática.</b>. (Aperfeiçoamento/Especialização em Especialização: Informática aplicada na Educação) - Instituto Federal Farroupilha, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8358807580526339">Sandra Maders</a>.</font></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Maria Aparecida Possati dos Santos. <b>Educação ambiental na escola: os alunos como multiplicadores</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4807525329153013">Cibele Rosa Gracioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Maria Constância Ferreira de Sousa. <b>A Educação Ambiental para além da reciclagem: investigando a compreensão de práticas educativas de professores do ensino fundamental</b>. (Aperfeiçoamento/Especialização em Especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>Maria do Socorro de Almeida Farias-Marques. <b>O direito Linguístico em um curso binacional</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Direitos Humanos e Cidadania) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6868123567566302">Maria do Socorro de Almeida Farias-Marques</a>.</font></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>Michele Knob Koch. <b>Educação ambiental na comunidade escolar do entorno da Floresta Nacional de São Francisco de Paula, RS</b>. (Aperfeiçoamento/Especialização em Especialização em Educação Ambiental) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4807525329153013">Cibele Rosa Gracioli</a>.</font></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>Miriel Bilhalva Hermann. <b>Reflexões sobre o trabalho e a cidadania das artesãs de Jaguarão/RS</b>. (Aperfeiçoamento/Especialização em Direitos Humanos e Cidadania) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6459144410260136">Vera Maria Guimarães</a>.</font></td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Mário Sérgio Nunes Bica. <b>Neurociência e as Múltiplas Representações: uma convergência para o Ensino de Ciências</b>. (Aperfeiçoamento/Especialização em Especialização em Neurociências aplicada a educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Natchéli Chaves Caldas Vasquez. <b>JOVENS EM CONFLITO COM A LEI: A ESCOLA NO PROCESSO DE REINSERÇÃO AO CONVÍVIO SOCIAL</b>. (Aperfeiçoamento/Especialização em Especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>Nathalie Suelen do Amaral Gonçalves. <b>JOGO DAS FORMAS: UMA PROPOSTA DE OBJETO DE APRENDIZAGEM PARA CRIANÇAS DE 2 À 3 ANOS</b>. (Aperfeiçoamento/Especialização em Especialização em TIC) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2530535838251633">Érico Marcelo Hoff do Amaral</a>.</font></td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>Rafael Veloso Ferreira. <b>RELAÇÕES ENTRE GESTÃO ESCOLAR E IDEB NO MUNICÍPIO DE DOM PEDRITO-RS</b>. (Aperfeiçoamento/Especialização em Especialização em Educação do Campo e Ciências da Natureza) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8524665688345631">Crisna Daniela Krause Bierhalz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>Rita de Cássia Vieira Gonzatto. <b>Tecnologias de informação e comunicação como ferramentas de apoio aos processos de ensino, aprendizagem e interação de alunos com deficiência intelectual</b>. (Aperfeiçoamento/Especialização em Especialização em TIC) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2530535838251633">Érico Marcelo Hoff do Amaral</a>.</font></td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>Ronan Moura Franco. <b>Experienciar, sentir e aprender para transformar: articulações entre o fundamento neurobiológico das emoções e a perspectiva estético-ambiental da educação</b>. (Aperfeiçoamento/Especialização em Especialização em Neurociência aplicada à educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/3147425109706294">Diana Paula Salomão de Freitas</a>, <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>Rudinei Rodrigues de Jesus. Memória e Geografias do bairro Dr. <b>Florêncio Aquino Guimarães- São Borja -RS</b>. (Aperfeiçoamento/Especialização em Ciências Humanas - Licenciatura) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>Tatiane Vaz Feijó. <b>Modelagem matemática como ferramenta de ensino de parametrizações</b>. (Aperfeiçoamento/Especialização em Especialização em Modelagem Computacional em Ensino, Experimentação e Simul) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8636427420690720">Anderson Luis Jeske Bihain</a>.</font></td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>Tiane Pereira Müller. <b>Educação Ambiental, Neurociência e deficiência visual: desafios e propostas para o educador</b>. (Aperfeiçoamento/Especialização em Especialização em Neurociências aplicada a educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>Tiele Spode. <b>Políticas Públicas e a Educação Integral: uma análise relacionada aos anos iniciais do ensino fundamental</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>Tássia Rey Silva. <b>Os fugitivos do terror: é possível acolhimento e cidadania numa era pós-nacional?</b>. (Aperfeiçoamento/Especialização em Especialização em Direitos Humanos e Cidadania) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3241620845064515">Maiane Liana Hatschbach Ourique</a>.</font></td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>Vanessa Scheeren. <b>MODELAGEM MATEMÁTICA NA PROGRAMAÇÃO DE HORÁRIOS DO CURSO DE MATEMÁTICA - LICENCIATURA</b>. (Aperfeiçoamento/Especialização em MODELAGEM COMPUTACIONAL EM ENSINO, EXPERIMENTAÇÃO E SIMULAÇÃO) - Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9275783294761141">Elizangela Dias Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>Viviane Aquino Machado. <b>Identidade de gênero: construção de identidades na infância</b>. (Aperfeiçoamento/Especialização em Especialização em Políticas e Intervenção em Violência Intrafamiliar) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4672432445245125">Nola Patrícia Gamalho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>Vladimir Soares da Fontoura. <b>PROJETO PROVÍNCIA DE SÃO PEDRO: UM ESTUDO SOBRE A SUA INFLUÊNCIA NO PROCESSO DE APRENDIZADO DAS ESCOLAS ESTADUAIS DE QUARAÍ-RS</b>. (Aperfeiçoamento/Especialização em Especialização em TIC) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2530535838251633">Érico Marcelo Hoff do Amaral</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Aline Moura Domingues. <b>Utilização dos dispositivos móveis na perspectiva de uma educação integral no município de Jaguarão/RS</b>. (Aperfeiçoamento/Especialização em Especialização em Tecnologias Digitais e Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5364387277554857">Juliana Brandão Machado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Anelise dos Anjos. <b>A importância das Políticas Públicas Educacionais Especiais na Inclusão Escolar e a contribuição da gestão escolar nesse processo</b>. (Aperfeiçoamento/Especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1822354320609261">Francéli Brizolla</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Bruna de Lima Pinheiro. <b>O ensino de ciências na educação infantil: a realidade do trabalho desenvolvido com pré-escolares em uma instituição pública de ensino de Uruguaiana, RS</b>. (Aperfeiçoamento/Especialização em Especialização em Ensino de Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3006889738861726">Carla Beatriz Spohr</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Carla Denize Ott Felcher. <b>Modelagem Matemática e os PCN: Um diálogo com graduandos da Licenciatura em Matemática</b>. (Aperfeiçoamento/Especialização em Mídias na Educação) - Universidade Federal de Pelotas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7724745358129837">Julio Cesar Bresolin Marinho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Cassiana Descovi Soares. <b>TRANSTORNO DO ESPECTRO AUTISTA: PROMOVENDO INTERAÇÃO SOCIAL ATRAVÉS DO ENSINO ESTRUTURADO OTIMIZADO PELAS INTERVENÇÕES ASSISTIDAS POR ANIMAIS</b>. (Aperfeiçoamento/Especialização em Especialização em Ensino de Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3006889738861726">Carla Beatriz Spohr</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Celéria Gabriel. <b>Jovens imigrantes no Rio Grande do Sul: motivações, trajetórias, desafios e perspectivas</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Juventudes) - Faculdade Dom Bosco de Porto Alegre, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1048142658453276">Maurício Perondi</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Cheila da Silva Côrrea. <b>O LÚDICO PARA ENSINAR MATEMÁTICA NA PERSPECTIVA DE ALGUNS AUTORES</b>. (Aperfeiçoamento/Especialização em Psicopedagogia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9502904964107859">Marta Cristina Cezar Pozzobon</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Cheila Oliveira Barreto Martins. <b>Aprendizagem e relações cerebrais na Educação Infantil</b>. (Aperfeiçoamento/Especialização em Psicopedagogia Institucional) - Universidade Federal do Pampa - Campus Jaguarão, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6468309464240697">Denise Aparecida Moser</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Cristiane Costa Gobbi. <b>Análise dos impactos do PIBID na formação inicial de professores(as) no ensino de Ciências da Natureza</b>. (Aperfeiçoamento/Especialização em Especialização em Educação em Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8442280124362170">Fabiane Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Deize da Cunha Carvalho. <b>Sala de aula invertida: uma nova perspectiva metodológica na era das tecnologias digitais</b>. (Aperfeiçoamento/Especialização em Especialização em Tecnologias Digitais e Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5364387277554857">Juliana Brandão Machado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Deizi Loiraci Silva Lemos. <b>A utilização das mídias em sala de aula</b>. (Aperfeiçoamento/Especialização em Mídias na Educação) - Universidade Federal de Pelotas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7724745358129837">Julio Cesar Bresolin Marinho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Elizabeth R. Cachapuz. <b>O ENSINO DA TABUADA: DISCUSSÃO SOBRE A MEMORIZAÇÃO</b>. (Aperfeiçoamento/Especialização em Psicopedagogia) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9502904964107859">Marta Cristina Cezar Pozzobon</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Etyéle Bastos Marques. <b>Avaliação da efetividade de diferentes métodos na aprendizagem de educação nutricional</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Neurociência Aplicada à Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1571752069730472">Mauren Assis de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Flávia Moura de Freitas. <b>Uma proposta de intervenção lúdica aos desafios da formação docente</b>. (Aperfeiçoamento/Especialização em Educação em Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Gabriela Alves Nunes. <b>Reflexões acerca da incidência da ação pedagógica em sala de aula com aluno atendido na sala de AEE</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Psicopedagogia Clínica e Institucional) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0521894476170125">Everton Fêrrêr de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Giuliana dos Santos Bruni. <b>Identidade, Memória e Diversidade por meio de narrativas autobiográficas</b>. (Aperfeiçoamento/Especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1822354320609261">Francéli Brizolla</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Hélen Rose Pinheiro Froes. <b>A inclusão da temática História e Cultura Afro-Brasileira em uma escola pública no município de Bagé</b>. (Aperfeiçoamento/Especialização em Especialização em Educação e Diversidade) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Isis Alessandra Spohr Recchi Leão. <b>Influência da hora do dia sobre o desempenho cognitivo de escolares</b>. (Aperfeiçoamento/Especialização em Neurociências Aplicadas à Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Jordane Fernandes Alves. <b>Gênero, escola e gestão: in/visibilidades em (form)ação</b>. (Aperfeiçoamento/Especialização em Especialização em Gestão Educacional) - Universidade Federal de Santa Maria, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4415592608164551">Joacir Marques da Costa</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Jéssica Borges de Carvalho. <b>PARA ALÉM DA DESATENÇÃO E HIPERATIVIDADE: A SUBJETIVIDADE DE SUJEITOS ESCOLARES COM TDAH</b>. (Aperfeiçoamento/Especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1822354320609261">Francéli Brizolla</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Karla Pereira Rutz. <b>Por que a bússola sempre indica o norte?: analisando as potencialidades da utilização de situações-problema nos Anos Iniciais do Ensino Fundamental</b>. (Aperfeiçoamento/Especialização em Especialização em Educação em Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8442280124362170">Fabiane Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Laura Freire Mello. <b>Proposta contextualizada no ensino de química: discutindo a temática agrotóxicos através de um jogo didático</b>. (Aperfeiçoamento/Especialização em Especialização em Educação do Campo e Ciências da Natureza) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2702894230612264">Leandro Duso</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Laura Ribeiro Garcia. <b>IMPLICAÇÕES DA ARTE/EXPRESSÃO PLÁSTICA PARA O DESENVOLVIMENTO DA COMUNICAÇÃO, CRIATIVIDADE E SOCIALIZAÇÃO DE UM ESTUDANTE COM TEA</b>. (Aperfeiçoamento/Especialização em CURSO DE PÓS-GRADUAÇÃO/ESPECIALIZAÇÃO EM NEUROCIÊNCIA APLICADA À EDUCAÇÃO) - Universidade Federal do Pampa - campus Uruguaiana (RS), . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1822354320609261">Francéli Brizolla</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Lilia de Lima Vieira. <b>Militância e educação para além das cercas: Um estudo da memória coletiva de militantes do MST no Assentamento Conquista do Jaguarão/RS</b>. (Aperfeiçoamento/Especialização em Educação em Diversidade Cultural) - UNIPAMPA, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Luana Ferreira Freitas. <b>Das pluralidades aos estigmas no ambiente escolar</b>. (Aperfeiçoamento/Especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1822354320609261">Francéli Brizolla</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Luana Lucas Alves. <b>O papel da escola na superação das desigualdades e valorização de alunos oriundos de comunidades quilombolas</b>. (Aperfeiçoamento/Especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Luciana Pinheiro Silveira Alfaro. <b>A escola de educaçao infantil e a criança com depressão: percepções acerca da neurociência cognitiva</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Neurociência Aplicada à Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1571752069730472">Mauren Assis de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Maiara Dias Büttenbender. <b>Aplicação e validação do jogo Pife Orgânico</b>. (Aperfeiçoamento/Especialização em Educação em Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Mariane Lacortte. <b>VIOLÊNCIA, SISTEMA PRISIONAL E DIREITOS HUMANOS</b>. (Aperfeiçoamento/Especialização em Especialização em Serviço Social e Direitos Humanos) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0392455526575019">Evandro Ricardo Guindani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Marinela Rodríguez da Silva. <b>A sala de aula invertida com apoio das tecnologias digitais: uma reflexão sobre a aplicação do método para o oitavo ano do Ensino Fundamental</b>. (Aperfeiçoamento/Especialização em Especialização em Tecnologias Digitais e Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5364387277554857">Juliana Brandão Machado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Mariza Cristina Camargo da Rosa. <b>Projeto de Intervenção sobre as relações étnico-raciais em uma escola pública do município de Uruguaiana</b>. (Aperfeiçoamento/Especialização em Especialização História e Cultura Africana...) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Marli Pereira Marques. <b>Leitura de mídias com cinema</b>. (Aperfeiçoamento/Especialização em Mídias na Educação) - Universidade Federal de Pelotas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7724745358129837">Julio Cesar Bresolin Marinho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Michele Siqueira Dias. <b>O ensino da língua portuguesa mediado pelas tecnologias: um estudo reflexivo a partir do olhar docente</b>. (Aperfeiçoamento/Especialização em Especialização em Tecnologias Digitais e Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7637826244661176">Camila Gonçalves dos Santos do Canto</a>.</font></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Nara Rosane Machado de Oliveira. <b>POLÍCIA CIVIL E CONFLITOS ESCOLARES: CONSTRUINDO PONTES PARA UMA CONVIVÊNCIA PACÍFICA POSSÍVEL</b>. (Aperfeiçoamento/Especialização em Especialização em Educação e Diversidade) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Nathália Cabral Rodrigues Batista. <b>Universidade Pública: Uma Discussão sobre as Políticas de Acesso na Unipampa</b>. (Aperfeiçoamento/Especialização em Educação e Diversidade Cultural) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Natália Dias Ribeiro. <b>As relações étnico-raciais no contexto escolar: valorizando a cultura Africana e Afro-brasileira em prol de uma educação antirracista</b>. (Aperfeiçoamento/Especialização em História e Cultura Africana, Afro Brasileira e Indígena) - Universidade Federal do Pampa. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8442280124362170">Fabiane Ferreira da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Paulo Sérgio Amaro Rodrigues. <b>Reflexões acera do uso de TIC no contexto escolar: uma análise desses recursos e resultados</b>. (Aperfeiçoamento/Especialização em Especialização em Tecnologias Digitais e Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2530535838251633">Érico Marcelo Hoff do Amaral</a>.</font></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Raphaelly Felix Machado. <b>Residência Multiprofissional: percepções sobre o papel do profissional de Educação Física</b>. (Aperfeiçoamento/Especialização em Residência Multiprofissional em Saúde) - Universidade Federal do Pampa, Ministério da Saúde. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9971842553577002">Susane Graup</a>.</font></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Rhenan Ferraz de Jesus. <b>Uma análise sobre o tema saúde nos livros didáticos de Biologia para o Ensino Médio</b>. (Aperfeiçoamento/Especialização em Educação em Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>Ricardo Costa Brião. <b>TRABALHANDO A FORMAÇÃO DE PROFESSORES A PARTIR DE PRÁTICAS INTERDISCIPLINARES QUE CONTEMPLEM A DIVERSIDADE.</b>. (Aperfeiçoamento/Especialização em Especialização em Educação e Diversidade) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>Roberta Almeida Mércio. <b>VIOLÊNCIA NA ESCOLA: O OLHAR DA MÍDIA TELEVISIVA SOBRE OS CASOS REGISTRADOS EM BAGÉ</b>. (Aperfeiçoamento/Especialização em Especialização em Educação e Diversidade) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>Silvani Staudt Ribas. <b>Ûnidade de ensino potencialmente significativa no ensino de biologia de aluno surdo e ouvintes</b>. (Aperfeiçoamento/Especialização em Especialização em Ensino de Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3006889738861726">Carla Beatriz Spohr</a>.</font></td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Simôni Costa Monteiro Gervásio. <b>MEMÓRIAS DOCENTES: AS PRÁTICAS PEDAGÓGICAS ADOTADAS PELOS PROFESSORES DA DÉCADA DE 70 A PARTIR DAS PROPOSTAS OFERECIDAS PELA REVISTA DO ENSINO DO RIO GRANDE DO SUL</b>. (Aperfeiçoamento/Especialização em Educação em Diversidade Cultural) - UNIPAMPA, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Taise Acunha Escobar. <b>Interfaces da Neurociência com a área das altas habilidades/superdotação: potenciais relações ao processo de apredizagem</b>. (Aperfeiçoamento/Especialização em CURSO DE PÓS-GRADUAÇÃO/ESPECIALIZAÇÃO EM NEUROCIÊNCIA APLICADA À EDUCAÇÃO) - Universidade Federal do Pampa - campus Uruguaiana (RS), . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1822354320609261">Francéli Brizolla</a>.</font></td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>Tatiane Motta da Costa e Silva. <b>EDUCAÇÃO FÍSICA E SAÚDE MENTAL: ATUAÇÃO PROFISSIONAL NOS CENTROS DE ATENÇÃO PSICOSSOCIAL</b>. (Aperfeiçoamento/Especialização em Residência Multiprofissional em Saúde) - Universidade Federal do Pampa, Ministério da Saúde. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9971842553577002">Susane Graup</a>.</font></td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>Tiago da Silva Lacerda. <b>Oportunidade para a utilização de Objetos Virtuais de Aprendizagem na Educação Profissional e Tecnológica</b>. (Aperfeiçoamento/Especialização em Mídias na Educação) - Universidade Federal de Pelotas, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7724745358129837">Julio Cesar Bresolin Marinho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>Tiago Farias Lucas. <b>O uso da informática como instrumento para o ensino da matemática</b>. (Aperfeiçoamento/Especialização em Especialização em Tecnologias Digitais e Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2530535838251633">Érico Marcelo Hoff do Amaral</a>.</font></td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>Vanderleia S. Pacheco de Oliveira. <b>A implementação dos projetos UCA e CEIBAL: um estudo comparativo</b>. (Aperfeiçoamento/Especialização em Especialização em Tecnologias Digitais e Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7637826244661176">Camila Gonçalves dos Santos do Canto</a>.</font></td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>Vanusa Torres Michelena. <b>A utilidade do Jogo Quimicações como objeto motivador e facilitador da aprendizagem de soluções em química</b>. (Aperfeiçoamento/Especialização em Educação em Ciências) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>Virgine Borges de Castilho. <b>Integração de mídias na educação: utilizando as mídias nos processos de ensino e aprendizagem em História</b>. (Aperfeiçoamento/Especialização em Mídias na Educação) - Universidade Aberta do Brasil, UAB-UFPel. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7724745358129837">Julio Cesar Bresolin Marinho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>Vânia Cristina Rodrigues Vitório. <b>Porque está me internando? Um estudo sobre os critérios utilizados para a imposição da medida socioeducativa de internação na Comarca de São Borja (RS)</b>. (Aperfeiçoamento/Especialização em Especialização em Serviço Social/Direitos Humanos) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7031094369974040">Adriana Hartemink Cantini</a>.</font></td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>Élida Debastiani. <b>Para além dos templos: religião, crenças e práticas dos adolescentes e jovens das Obras ICM</b>. (Aperfeiçoamento/Especialização em Curso de Especialização em Juventudes) - Faculdade Dom Bosco de Porto Alegre, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1048142658453276">Maurício Perondi</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 01/10/2019 01:17:31<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

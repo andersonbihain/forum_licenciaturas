@@ -1,0 +1,413 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>teste-04</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>teste-04</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Iniciação científica'}, 
+series: [{data: [[2016,
+22],
+[2017,
+34],
+[2018,
+74]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Iniciação científica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 130<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Aline Alves Portella. <b>O dito e o não dito em sala de aula: uma conscientização sobre o bullying a partir da Análise de Discurso</b>. Iniciação científica (Graduando em Letras - Português) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3664492405958216">Carolina Fernandes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Aline Machado Rosa. <b>Monitoria para Inclusão Digital na UNIPAMPA</b>. Iniciação científica (Graduando em Engenharia Ambiental e Sanitária) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2927700876012801">Jaqueline Pinto Vargas</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Allyson Ardais Boneberg. <b>Efeito Protetor da 5-Cloro-isatina-3-oxima frente a Toxicidade Induzida pelo Organofosforado Malation</b>. Iniciação científica (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1205982002582299">Simone Pinton</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Ana Cristina Silva da Silva. <b>Inclusão escolar na perspectiva docente: Identificando dificuldades, ações e conteúdos para prover a Formação de Professores</b>. Iniciação científica (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1554363972064498">Jaqueline Copetti</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>ANA LUIZA BARBIER PEDROSO. <b>Proposta de novas tecnologias para promotores de crescimento vegetal e condicionadores de solo à base de biocarvão e substâncias húmicas</b>. Iniciação científica (Graduando em Zootecnia) - Universidade Federal do Pampa, Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2508828887035004">Daniel Hanke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Andressa Rodrigues Debortoli. <b>Agroecologia e Conservação do Solo - Núcleo de Estudos e Pesquisa em Agroecologia em Manejo e Conservação do Solo (NASol)</b>. Iniciação científica (Graduando em Agronegócio) - Universidade Federal do Pampa, Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2508828887035004">Daniel Hanke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Anna Vitória Barbosa dos Reis. <b>Evolução do dimorfismo sexual de tamanho em Belostomatidae</b>. Iniciação científica (Graduando em Ciências Biológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5627311567399428">Jose Ricardo Inacio Ribeiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Anny Elise Santos Nunes. <b>Estudos em Análise na Reta</b>. Iniciação científica (Graduando em Matemática - Licenciatura Plena) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6578656064045662">Alisson Darós Santos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Arthur Viçozzi. <b>Análise de metais e não metais na água e no solo</b>. Iniciação científica (Graduando em Geologia) - Universidade Federal do Pampa, Fundação Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Bernardo Freiberger Beck. <b>Biotecnologia na produção de alimentos</b>. Iniciação científica (Graduando em Biotecnologia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9707343593567031">Jefferson Marçal da Rocha</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Bruna Alifredi Sarini. <b>Estudos da judicialização da ?violência de gênero? e difusão de práticas alternativas numa perspectiva comparada entre Brasil e Argentina - estudo de caso em Uruguaiana</b>. Iniciação científica (Graduando em Enfermagem) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmica - Unipampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9365069870272242">Alinne de Lima Bonetti</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Bruna Mendes Carvalho. <b>Relação entre cargas internas e externas em atletas amadores</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico Unipampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Bruno Martins Nolibos. <b>Politicas e estragégias produtivas para agriculgura familiar</b>. Iniciação científica (Graduando em Engenharia Florestal) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9707343593567031">Jefferson Marçal da Rocha</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Camilla Ferreira de Andrade. <b>Estratégias de recuperação neuromuscular pós exercício</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico Unipampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Carla Rolim de Oliveira. <b>O imaginário de fronteira e o tema da prostituição na ficção contemporânea da região sul do Cone sul</b>. Iniciação científica (Graduando em Letras - Português/Espanhol/Literatura) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4487272773851650">Cátia Rosana Dias Goulart</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Carolina de Souza Martini. <b>AVALIAÇÃO DE IMPACTOS DA CONVERSÃO DO HABITAT EM MACROINVERTEBRADOS AQUÁTICOS NO BIOMA PAMPA</b>. Iniciação científica (Graduando em Ciências Biológicas - Licenciatura) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4541292297263996">Marcia Regina Spies</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Caroline Tibola. <b>Interação Meio Ambiente, Corpo e Sexualidade: Reflexões acerca da abordagem de educadores/as</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Daiana Muniz dos Santos. <b>Avaliação do Potencial Toxicológico e Farmacológico de Produtos Naturais Utilizando Drosophila melanogaster como Modelo Biológico</b>. Iniciação científica (Graduando em Licenciatura em Ciências da Natureza e suas Tecnol) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1134532326779900">Robson Luiz Puntel</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Daniel Chagas Carvalho. <b>Docência universitária: metodologias de ensino e recursos pedagógicos</b>. Iniciação científica (Graduando em Educação do Campo) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5732785924008642">Ana Carolina de Oliveira Salgueiro de Moura</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Daniel Ernesto Trujillo Manriquez. <b>Proposta de novas tecnologias para promotores de crescimento vegetal e condicionadores de solo à base de biocarvão e substâncias húmicas</b>. Iniciação científica (Graduando em Enologia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2508828887035004">Daniel Hanke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Daniela Fioravante Regina. <b>Em andamento</b>. Iniciação científica (Graduando em Letras - Português EaD) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7637826244661176">Camila Gonçalves dos Santos do Canto</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Diego Carneiro dos Santos. <b>Exposição Didática e Experimentoteca em solos</b>. Iniciação científica (Graduando em Educação do Campo) - Universidade Federal do Pampa, Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2508828887035004">Daniel Hanke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Diodana Negrini Lisboa. <b>ESTUDO CITOGENÉTICO NA ORDEM PASSERIFORMES</b>. Iniciação científica (Graduando em Ciências Biológicas) - Fundação Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4075727326925108">Analía Del Valle Garnero</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Diogo Gabriel Sperandio. <b>Traços de Fissão em minerais de alta temperatura</b>. Iniciação científica (Graduando em Geologia) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Diênifer Alves Ramos da Rosa. <b>Educação, História e Políticas na região de abrangência da Universidade Federal do Pampa</b>. Iniciação científica (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/6376117076673020">Simone Silva Pires de Assumpção</a>, <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Dyessica Santos. <b>Proposta de novas tecnologias para promotores de crescimento vegetal e condicionadores de solo à base de biocarvão e substâncias húmicas</b>. Iniciação científica (Graduando em Zootecnia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2508828887035004">Daniel Hanke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Eduardo Pereira da Silva. <b>Bryo-tecnologia do extremo: Proposta para o uso sustentável de musgos polares como um alternativa para processos biotecnológicos</b>. Iniciação científica (Graduando em Ciências Biológicas) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4895231407900749">Filipe de Carvalho Victoria</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Felipe Adriani Correa Almansa. <b>Hábitos alimentares da lontra (Lontra longicaudis) e sua relação com a disponibilidade de presas</b>. Iniciação científica (Graduando em Ciências Biológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3758714218353612">Carlos Benhur Kasper</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Fernanda Machado Mena. <b>Projeto de Extensão "Nos diz respeito: diálogos sobre educação do campo e interseccionalidades" - PROFOR 2017</b>. Iniciação científica (Graduando em Educação do Campo) - Universidade Federal do Pampa, Programa de Apoio à Formação Continuada de Profissionais da Educação Básica. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6494340013752525">Suzana Cavalheiro de Jesus</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Gabriel Lopes Rezende Reis. <b>Avaliação dos fatores que afetam a adsorção de íons fosfato em nanomateriais tridimensionais de grafeno.</b>. Iniciação científica (Graduando em Engenharia Ambiental e Sanitária) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5254810887797757">Carolina Ferreira de Matos Jauris</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Gabriel Paixão Santana. <b>Dinâmicas regionais recentes do Sul e Sudeste do Pará: heranças, agentes e perspectivas de desenvolvimento regional.</b>. Iniciação científica (Graduando em Geografia) - Universidade Federal do Sul e Sudeste do Pará, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5499729844691575">Victor da Silva Oliveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Gabriela Victoria Jardim. <b>Projeto de Extensão "Nos diz respeito: diálogos sobre educação do campo e interseccionalidades" - PROFOR 2017</b>. Iniciação científica (Graduando em Enologia) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico - UNIPAMPA. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6494340013752525">Suzana Cavalheiro de Jesus</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Gabriele Züge. <b>Síntese e caracterização de ligantes derivados de carboidratos 1,2,3 triazólicos</b>. Iniciação científica (Graduando em Engenharia Ambiental e Sanitária) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2927700876012801">Jaqueline Pinto Vargas</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Giovane Alves Lima. <b>Organização literária na fronteira durante a Primeira República: a trajetória de João Pinto da Silva (1889-1930)</b>. Iniciação científica (Graduando em História) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2564762471005836">Cássia Daiane Macedo da Silveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Giovanna Moraes Xavier da Paixão. <b>Avaliação dos efeitos do herbicida Roundup sobre o desenvolvimento de Drosophila melanogaster</b>. Iniciação científica (Graduando em Geologia) - Universidade Federal do Pampa, Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5296284169605317">Cristiane Lenz Dalla Corte</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Guilherme Pazzinato. <b>Hidrotermalismos metamórfico</b>. Iniciação científica (Graduando em Geologia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Guilherme Rodrigues Teixeira. <b>AVALIAÇÃO DE IMPACTOS DA CONVERSÃO DO HABITAT EM MACROINVERTEBRADOS AQUÁTICOS NO BIOMA PAMPA</b>. Iniciação científica (Graduando em Ciências Biológicas - Licenciatura) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4541292297263996">Marcia Regina Spies</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Inaê de Oliveira Marcelo. <b>Efeito da hora do dia em fatores de risco para lesão músculo-esquelética</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico Unipampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Joaquim Luiz Bastos Villanova. <b>Em andamento</b>. Iniciação científica (Graduando em Letras - Português EaD) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7637826244661176">Camila Gonçalves dos Santos do Canto</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>João Pedro de Jesus Santana. <b>Hidrotermalismo em granitos</b>. Iniciação científica (Graduando em Geologia) - Universidade Federal do Pampa, Fundação Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>Julie Macedo Arrosol. <b>Mecanismos envolvidos em neuroproteção e na neurodegeneração</b>. Iniciação científica (Graduando em Biotecnologia) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9245604354419040">Lucia Helena do Canto Vinade</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>Keila Lissandra Martinez. <b>Variação linguística: descrição, ensino e formação de professores</b>. Iniciação científica (Graduando em Licenciatura em Letras) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3732204030388531">Taíse Simioni</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Lais Ribeiro Soler. <b>Imagens da infância em Walter Benjamin</b>. Iniciação científica (Graduando em Pedagogia) - Universidade Federal de Pelotas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3241620845064515">Maiane Liana Hatschbach Ourique</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Letícia Nunes Machado. <b>Métodos estatísticos aplicados na análise de eventos extremos em municípios do Rio Grande do Sul.</b>. Iniciação científica (Graduando em Engenharia de Agrimensura) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2217949943647601">Gilberto Rodrigues Liska</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>Liana Petrarca. <b>Ecologia Molecular e Evolução de Espécies Vegetais do Bioma Pampa</b>. Iniciação científica (Graduando em Biotecnologia) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6868213051236665">Valdir Marcos Stefenon</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>Lisiane de Oliveira Moura. <b>Estudo de aglomerados estelares utilizando dados ESO­VVV: diagramas cor­ magnitude e estruturaEstudo de aglomerados estelares utilizando dados ESO­-VVV: diagramas cor­ magnitude e estrutura</b>. Iniciação científica (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, Universidade Federal do Pampa - PDA. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>Lucas Lopes de Souza. <b>Agroecologia e Conservação do Solo - Núcleo de Estudos e Pesquisa em Agroecologia em Manejo e Conservação do Solo (NASol)</b>. Iniciação científica (Graduando em Enologia) - Universidade Federal do Pampa, Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2508828887035004">Daniel Hanke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>Lucas Maia Dantas. <b>Produção do e-book da obra infantil acessível Lelê de Boca Aberta em inglês e espanhol</b>. Iniciação científica (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa, Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6376117076673020">Simone Silva Pires de Assumpção</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>Luiz Felipe Windberg Soares Junior. <b>Avaliação do Potencial Toxicológico e Farmacológico de Produtos Naturais Utilizando Drosophila melanogaster como Modelo Biológico</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1134532326779900">Robson Luiz Puntel</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>Marcela do Amaral Trindade. <b>Bolsista de Ensino Médio</b>. Iniciação científica (Graduando em Ensino Médio) - Escola Estadual Elisa Valls, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>Maria Eduarda Garcia Amaral Valone. <b>Tradução da obra infantil acessível Lelê de Boca Aberta para o inglês</b>. Iniciação científica (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6376117076673020">Simone Silva Pires de Assumpção</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>Maria Eduarda Garcia Amaral Valone. <b>Tradução do conteúdo do site da SECULT/Bagé para o inglês</b>. Iniciação científica (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6376117076673020">Simone Silva Pires de Assumpção</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>Maria Eduarda Martins de Mattos. <b>Síntese e caracterização de ligantes derivados de carboidratos 1,2,3 triazólicos</b>. Iniciação científica (Graduando em Geologia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2927700876012801">Jaqueline Pinto Vargas</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>Maria Eduarda Ziani Gutierrez. <b>Potencial farmacológico de nanocápsulas poliméricas contendo a associação de anti-inflamatório e antioxidante em um modelo da doença de Alzheimer em roedores</b>. . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1205982002582299">Simone Pinton</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>Maria Gabriela Konzen Loureiro. <b>Avaliação do Conhecimento, Aplicação e Eficácia da Metodologia da Problematização na Melhoria do Ensino de Ciências em Escolas de Baixo IDEB da Fronteira Oeste do RS</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8135232309980269">Vanderlei Folmer</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>Marina dos Reis Marty. <b>Estudos da judicialização da ?violência de gênero? e difusão de práticas alternativas numa perspectiva comparada entre Brasil e Argentina - estudo de caso em Uruguaiana</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9365069870272242">Alinne de Lima Bonetti</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>Marjorie Collazzo. <b>Aspectos reprodutivos de uma espécie de Gymnogeophagus (Cichliformes: Cichlidae)</b>. Iniciação científica (Graduando em Ciências Biológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8786959920026227">Alice Hirschmann</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>Matheus Rodrigues dos Santos. <b>ENTRE A MEMÓRIA, A MÍDIA E A CONTEMPORANEIDADE: OS DISCURSOS DE RESISTÊNCIA DA POPULAÇÃO NEGRA NO BRASIL ATUAL</b>. Iniciação científica (Graduando em Letras - Português) - Universidade Federal do Pampa, Programa de Desenvolvimento Acadêmico - Unipampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3664492405958216">Carolina Fernandes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>Mauricio Viana Garcia. <b>Avaliação dos efeitos tóxicos da apocinina e diapocinina in silico e em Drosophila melanogaster</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4455461576886254">Favero Reisdorfer Paula</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>Narjara de Medeiros Ribeiro. <b>Proposta de novas tecnologias para promotores de crescimento vegetal e condicionadores de solo à base de biocarvão e substâncias húmicas</b>. Iniciação científica (Graduando em Enologia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2508828887035004">Daniel Hanke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>Nathalia Stoll de Moraes Beles. <b>Educação, História e Políticas na região de abrangência da Universidade Federal do Pampa</b>. Iniciação científica (Graduando em Letras) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>Otavio Campello Moreira. <b>Agroecologia e Conservação do Solo - Núcleo de Estudos e Pesquisa em Agroecologia em Manejo e Conservação do Solo (NASol)</b>. Iniciação científica (Graduando em Agronegócio) - Universidade Federal do Pampa, Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2508828887035004">Daniel Hanke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>Paulo Vitor Mazuque Lima. <b>Síntese e caracterização de ligantes derivados de carboidratos 1,2,3 triazólicos</b>. Iniciação científica (Graduando em Geologia) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2927700876012801">Jaqueline Pinto Vargas</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>Pedro Aurélio Brites Quevedo Visentini. <b>Tradução do conteúdo do site da SECULT/Bagé para o inglês</b>. Iniciação científica (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6376117076673020">Simone Silva Pires de Assumpção</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>Priscila de Azevedo Mires. <b>Métodos estatísticos aplicados na análise de eventos extremos em municípios do Rio Grande do Sul.</b>. Iniciação científica (Graduando em Matemática) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2217949943647601">Gilberto Rodrigues Liska</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>Raíssa Lamadril da Silva Silveira. <b>Educação, História e Políticas na região de abrangência da Universidade Federal do Pampa</b>. Iniciação científica (Graduando em Letras) - Universidade Federal do Pampa, Pró-Reitoria de Pós-Graduação, Pesquisa e Inovação. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0637516284559113">Alessandro Carvalho Bica</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>Rodrigo Francisco de Souza. <b>Clube Social 24 de Agosto: memórias negras</b>. Iniciação científica (Graduando em História) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9076251806577555">Giane Vargas Escobar</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>Stefãnia Graces Mignone. <b>Estudo de aglomerados estelares utilizando dados ESO-VVV: diagramas cor-magnitude e estrutura.</b>. Iniciação científica (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, Universidade Federal do Pampa - PDA. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>Suelen Guterres. <b>Enraizamento de leguminosas por Rhizobium loti em presença de sulfato de cobre</b>. Iniciação científica (Graduando em Biotecnologia) - Universidade Federal do Pampa, Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6868213051236665">Valdir Marcos Stefenon</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>Thais Ribeiro da Silva. <b>Agroecologia e Conservação do Solo - Núcleo de Estudos e Pesquisa em Agroecologia em Manejo e Conservação do Solo (NASol)</b>. Iniciação científica (Graduando em Zootecnia) - Universidade Federal do Pampa, Universidade Federal do Pampa. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2508828887035004">Daniel Hanke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>Thais Venturini von Frieling. <b>Efeito de novas formulações nanotecnológicas como estratégias terapêuticas para a Doença de Alzheimer</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1205982002582299">Simone Pinton</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>Victoria Tura. <b>Estudos Citogenéticos em Passeriformes</b>. Iniciação científica (Graduando em Ciências Biológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2410346128596894">Ricardo José Gunski</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>Vitor Luiz Soares Figueiredo. <b>Organização literária na fronteira durante a Primeira República: a trajetória de João Pinto da Silva (1889-1930)</b>. Iniciação científica (Graduando em História) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2564762471005836">Cássia Daiane Macedo da Silveira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>74. &nbsp;</td> <td>Yasmin Centeno. <b>O Livro Didático no contexto das políticas públicas em Educação</b>. Iniciação científica (Graduando em História) - Universidade Federal do Pampa, . In&iacute;cio: 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alan Castro Soares. <b>Politicas e estratégia para a agricultura familiar</b>. Iniciação científica (Graduando em Gestão Ambiental) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9707343593567031">Jefferson Marçal da Rocha</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Aline Silva Barbosa. <b>Interdisciplinariedade nas Geociências</b>. Iniciação científica (Graduando em Geologia) - Universidade Federal do Pampa, Fundação Universidade Federal do Pampa. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Ana Julia Dias. <b>Propostas Didáticas para o Ensino de Ciências em Escola do Campo</b>. Iniciação científica (Graduando em Ensino Médio - 1º Ano) - Escola Técnica Estadual Rubens da Rosa Guedes, Programa CNPq - EM. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2487436334048538">Lucilene Dornelles Mello</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Anderson Santos de Freitas. <b>Relação do Microbioma ruminal com a nutrição de ruminantes em pastejo</b>. Iniciação científica (Graduando em Biotecnologia) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4304180741961721">Luiz Fernando Wurdig Roesch</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Carlos Eduardo Pinheiro Leher. <b>Expressão e purificação de proteínas com potencial biotecnológico de Prasiola crispa</b>. Iniciação científica (Graduando em Biotecnologia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6404519694715281">Paulo Marcos Pinto</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Clarice Galhardi. <b>Ensino de Geociências por meio de trabalho de campo em olivais da região de Caçapava do Sul</b>. Iniciação científica (Graduando em Bacharelado em Geologia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2487436334048538">Lucilene Dornelles Mello</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Dimitri Tallemberg Soares. <b>Propostas Didáticas para o Ensino de Ciências em Escola do Campo</b>. Iniciação científica (Graduando em Bacharelado em Geologia) - Universidade Federal do Pampa, UNIPAMPA. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2487436334048538">Lucilene Dornelles Mello</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Douglas Fernandes Machado. <b>Mineração do transcriptoma de Prasiola crispa: busca de gente envolvidos à resposta ao frio</b>. Iniciação científica (Graduando em Biotecnologia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/6404519694715281">Paulo Marcos Pinto</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Eduardo Pereira da Silva. <b>Evolução das comunidades vegetais de áreas de degelo das Shetlands do Sul, Antártica no cenário das mudanças globais</b>. Iniciação científica (Graduando em Ciências Biológicas) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2960319577737903">Antonio Batista Pereira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Emanuela A.M.S. Volpato. <b>COMUNIDADES DE MACROINVERTEBRADOS AQUÁTICOS DO BIOMA PAMPA: ENFASE EM EPHEMEROPTERA</b>. Iniciação científica (Graduando em Ciências Biológicas - Licenciatura) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4541292297263996">Marcia Regina Spies</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>FATTAH, Wendy. Reflexão a Respeito da Representação da Identidade Feminina na Ficção de Investigação Criminal de Dorothy L. <b>Sayers</b>. Iniciação científica (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/3479198807486329">Rodrigo Borges de Faveri</a>, <a href="http://lattes.cnpq.br/3479198807486329">Rodrigo Borges de Faveri</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Felipe Carvalho. <b>Toxicinética de nanoparticulas</b>. . In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>, <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Fernanda Correa Gewehr. <b>Educação ambiental</b>. Iniciação científica (Graduando em Ciências Biológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9707343593567031">Jefferson Marçal da Rocha</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Fernanda Olívia Guisolfi Weirich. <b>Os Jovens e a Cultura Política na Terra dos Presidentes: Uma análise comparativa dos jovens de escolas pública e privada.</b>. Iniciação científica (Graduando em Ciências Sociais - Ciência Política) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3246002087220693">Domingos Sávio Campos de Azevedo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Flavia Elizabete Guerra Teixeira. <b>Desenvolvimento e avaliacao biologica de sistemas nanoparticulados</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, Programa PBDA. In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>, <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Gabriela Macedo Miranda. <b>Avaliação dos efeitos do herbicida Roundup sobre o desenvolvimento de Drosophila melanogaster</b>. Iniciação científica (Graduando em Geologia) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5296284169605317">Cristiane Lenz Dalla Corte</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Guilherme Abreu Nunes. <b>Cultura Política na Internet: A diferença de cultura política entre onlines e offlines em São Borja.</b>. Iniciação científica (Graduando em Ciências Sociais - Ciência Política) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3246002087220693">Domingos Sávio Campos de Azevedo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Iago Borba Goulart. <b>Autonomia e aprendizagem de Inglês na Unipampa</b>. Iniciação científica (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3587011956729629">Gabriela Bohlmann Duarte</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Jonatas Cristian Rodrigues. <b>Divulgação e Popularização da Nanotecnologia em escolas de Uruguaiana</b>. Iniciação científica (Graduando em Medicina) - Universidade Federal do Pampa, Programa PBDA. In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>, <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Letícia Bronzoni Soares. <b>A Religião Importa: Uma análise comparativa da socialização política dos jovens cristãos - Igreja Católica e Igreja do Evangelho Quadrangular.</b>. Iniciação científica (Graduando em Ciências Sociais - Ciência Política) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3246002087220693">Domingos Sávio Campos de Azevedo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Lisiane de Oliveira Moura. <b>Desenvolvimentos de processos de Fitorremediação de solo e recursos hídricos contaminados por compostos orgânicos utilizando plantas aquáticas e terrestres: uma solução verde para minimizar impactos ambientais</b>. Iniciação científica (Graduando em Ciências da Natureza) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Lurian da Silveira Chaves. <b>Gramática do português uruguaio</b>. Iniciação científica (Graduando em Letras - Português e Espanhol) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5260632872182857">Leonor Simioni</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Mathias Sosa Machado. <b>Efeito da falta de informações sensoriais sobre o controle motor da marcha e postura</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico Unipampa. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Mayara Sousa Souto. <b>História e sensibilidade no romance oitocentista na América: os casos de James Fenimore Cooper e José de Alencar</b>. Iniciação científica (Graduando em História) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1522751206827475">Renata Dal Sasso Freitas</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Milena Aguiar dos Santos. <b>Efeito de diferentes intervenções durante o exercício sobre o desempenho e tolerância à fadiga</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, Programa de Bolsas de Desenvolvimento Acadêmico Unipampa. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Nádia Carolina Chrispim dos Santos. <b>Autonomia e aprendizagem de Inglês na Unipampa</b>. Iniciação científica (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3587011956729629">Gabriela Bohlmann Duarte</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Rafael Barbosa de Jesus Santana. <b>História e sensibilidade no romance oitocentista na América: os casos de James Fenimore Cooper e José de Alencar</b>. Iniciação científica (Graduando em História) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1522751206827475">Renata Dal Sasso Freitas</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Raylane Ribeiro da Anunciação. <b>Evolução das comunidades vegetais de áreas de degelo das Shetlands do Sul, Antártica no cenário das mudanças globais</b>. Iniciação científica (Graduando em Biotecnologia) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2960319577737903">Antonio Batista Pereira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Renata Bem dos Santos. <b>Desenvolvimento e avaliacao biologica de sistemas nanoparticulados para cancer</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>, <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Ricardo Pietzarka Neto. <b>Influência de assimetrias estruturais nos membros inferiores sobre o desempenho de tarefas de locomoção e postura</b>. Iniciação científica (Graduando em Fisioterapia) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Rodrigo de Souza Francisco. <b>Clube Social 24 de Agosto: memórias negras</b>. Iniciação científica (Graduando em História) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3233877111687799">Caiuá Cardoso Al-Alam</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Sara Navarrete Goulart Bohi. <b>Banco de germoplasma de briófitas do Pampa e Antártica</b>. Iniciação científica (Graduando em Ciências Biológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4895231407900749">Filipe de Carvalho Victoria</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Vanessa Passino de Nadai. <b>Análise Comparada Sobre o Conceito de Democracia em Boaventura de Souza Santos e Norberto Bobbio.</b>. Iniciação científica (Graduando em Ciências Sociais - Ciência Política) - Universidade Federal do Pampa, . In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3246002087220693">Domingos Sávio Campos de Azevedo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Wendy Fattah. <b>Autonomia e aprendizagem de Inglês na Unipampa</b>. Iniciação científica (Graduando em Letras - Línguas Adicionais Inglês, Espanhol e Respectivas Literaturas) - Universidade Federal do Pampa. In&iacute;cio: 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3587011956729629">Gabriela Bohlmann Duarte</a>.</font></i></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alex Geovane da Silveira Pereira. <b>Síntese, avaliação da ação antibacteriana e estudo das relações estrutura-atividade de chalconas bioativas derivadas da diapocinina</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4455461576886254">Favero Reisdorfer Paula</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Antoniel Martins. <b>Narrativas Sônicas do Pampa</b>. Iniciação científica (Graduando em Música) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/8686171159500113">Luana Zambiazzi dos Santos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>BERNARDO AUGUSTO GUILARDI. <b>PRORENINA E RECEPTOR DE (PRO)RENINA NA OVULAÇÃO, ESTEROIDOGÊNESE E LUTEINIZAÇÃO EM BOVINOS</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal de Santa Maria, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5837260966665885">Paulo Bayard Dias Goncalves</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Bruna Mota Bernardes. <b>Resposta ao estresse por metais em briófitas: Análises fenotípicas e moleculares</b>. Iniciação científica (Graduando em Ciências Biológicas) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4895231407900749">Filipe de Carvalho Victoria</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Camila Carvalho Ernandes. <b>Vertebrados fósseis da Formação Rio do Rasto (Meso/Neopermiano, Bacia do Paraná): novas prospecções, coletas e estudos</b>. Iniciação científica (Graduando em Ciências Biológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1589874577225604">Felipe Lima Pinheiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Camila de Oliveira Pacheco. <b>Laboratório de pesquisa e ensino de leitura e escrita acadêmicas</b>. Iniciação científica (Graduando em Bacharelado Interdisciplinar em Ciência e Tecnologia) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7562187381716677">Cristina dos Santos Lovato</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Cynthia Camila Ziech. Toxicidade de Mancozeb sobre a fecundidade tendo como modelo a mosca da fruta D. <b>melanogaster</b>. Iniciação científica (Graduando em Biotecnologia) - Universidade Federal do Pampa, UNIPAMPA. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2277857386983441">Thais Posser</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Daniela da Silva Santos. <b>Coorientação de Iniciação Científica em projeto de Doutorado: Modelo de obesidade associado ao estresse crônico sobre parâmetros bioquímicos, moleculares e comportamento alimentar em ratos Wistar.</b>. Iniciação científica (Graduando em PPG em Fisiologia) - Universidade Federal do Rio Grande do Sul, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0439808520770674">Isabel Cristina de Macedo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Douglas Hardt Lacoste. <b>Compostos Novos para células fotovoltáicas</b>. Iniciação científica (Graduando em Engenharia Química) - Universidade Federal do Pampa, Secretária do Desenvolvimento Econômico, Ciência e Tecnologia. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7978503949999240">Udo Eckard Sinks</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Emilio Fernando Montenegro Alvarado. <b>Espectroscopia de materiais fotônicos</b>. Iniciação científica (Graduando em Engenharia Química) - Universidade Federal do Pampa, UNIPAMPA. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7323260281207063">Eduardo Ceretta Moreira</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Felipe Lucas Arida. <b>Introdução à Herpetologia</b>. Iniciação científica (Graduando em Ciências Biológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5811514780628956">Tiago Gomes dos Santos</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Jaqueline Lopes Figueiredo. <b>Vertebrados fósseis da Formação Rio do Rasto (Meso/Neopermiano, Bacia do Paraná): novas prospecções, coletas e estudos</b>. Iniciação científica (Graduando em Ciências Biológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1589874577225604">Felipe Lima Pinheiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>JOAO FURTADO COLOMBO. <b>Métodos de ativação para produção de embriões bovinos por Injeção Intracitoplasmática de Espermatozoide.</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal de Santa Maria, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5837260966665885">Paulo Bayard Dias Goncalves</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Jéssica da Silva Carnietto. <b>Laboratório de pesquisa e ensino de práticas de leitura e escrita acadêmicas</b>. Iniciação científica (Graduando em Bacharelado Interdisciplinar em Ciência e Tecnologia) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7562187381716677">Cristina dos Santos Lovato</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Kelly Ayumi. <b>Desenvolvimento e avaliacao biologica de sistemas nanoparticulados para malaria</b>. Iniciação científica (Graduando em Farmácia) - Universidade Federal do Pampa, Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul. In&iacute;cio: 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>, <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Leandro Porto Marques. <b>Análise e Caracterização das propostas de desenvolvimento nos projetos de assentamentos rurais implantados na Metade Sul do RS (1980 - 2014)</b>. Iniciação científica (Graduando em Gestão Ambiental) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9707343593567031">Jefferson Marçal da Rocha</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Lena fagundes Marques. <b>ANÁLISE DE ANÚNCIOS EM EXEMPLARES DA REVISTA JORNAL DA MULHER: MANUTENÇÃO E REPRODUÇÃO DE ESTEREÓTIPOS</b>. Iniciação científica (Graduando em Bacharelado Interdisciplinar em Ciência e Tecnologia) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7562187381716677">Cristina dos Santos Lovato</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Maria Eduarda Teixeira da Silva Elesbão. <b>Vertebrados fósseis da Formação Rio do Rasto (Meso/Neopermiano, Bacia do Paraná): novas prospecções, coletas e estudos</b>. Iniciação científica (Graduando em Ciências Biológicas) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1589874577225604">Felipe Lima Pinheiro</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Márcia Camargo. <b>UNIESCOLA: UMA PROPOSTA DE INTEGRAÇÃO ENTRE UNIVERSIDADE E ESCOLA</b>. Iniciação científica (Graduando em Bacharelado Interdisciplinar em Ciência e Tecnologia) - Universidade Federal do Pampa, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7562187381716677">Cristina dos Santos Lovato</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Rafaela Pedroso de Aguiar. <b>Coorientação de Iniciação Científica em projeto de Doutorado: Modelo de obesidade associado ao estresse crônico sobre parâmetros bioquímicos, moleculares e comportamento alimentar em ratos Wistar.</b>. Iniciação científica (Graduando em PPG em Fisiologia) - Universidade Federal do Rio Grande do Sul, . In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0439808520770674">Isabel Cristina de Macedo</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>RENE VALMOR THEOBALD. <b>Regulação dos receptores dos peptídeos natriuréticos durante a retomada da meiose e função dos peptídeos natriuréticos na expansão das células do cumulus em bovinos</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal de Santa Maria, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5837260966665885">Paulo Bayard Dias Goncalves</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Ricardo Della Méa. <b>Regulação da maturação oocitária e ovulação em bovinos: ação do EGF, Angiotensina II, MAPK e mTORC1</b>. Iniciação científica (Graduando em Medicina Veterinária) - Universidade Federal de Santa Maria, Conselho Nacional de Desenvolvimento Científico e Tecnológico. In&iacute;cio: 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5837260966665885">Paulo Bayard Dias Goncalves</a>.</font></i></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 01/10/2019 01:17:31<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

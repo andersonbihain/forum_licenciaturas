@@ -1,0 +1,521 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>teste-04</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>teste-04</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de prêmios e títulos'}, 
+series: [{data: [[2016,
+66],
+[2017,
+72],
+[2018,
+46]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de prêmios e títulos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 184<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1° lugar na 13° Mostra de Projetos Comunitários e de Extensão do CONGREGA URCAMP, Universidade da Região da Campanha Urcamp.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>1° lugar na 15° Mostra de Iniciação Científica do CONGREGA URCAMP 2018, Universidade da Região da Campanha Urcamp.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>1º Colocado para o cadastro de contratação temporária de professores - Espanhol Nível Médio e Profissional, 13ª Coordenadoria Regional de Educação do Rio Grande do Sul.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4592348231762682">Nathan Bastos de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>1º lugar - I Expo Ecoinovar - Categoria EF, UFSM.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6621220078810861">Elenize Rangel Nicoletti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>1º premio en el 5º Congreso Uruguayo de Química Analítica en la modaliad póster, Universidad de La República.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>3º Colocado em Concurso de Professor Substituto - Área de Letras - Língua Espanhola e prática de ensino, Universidade Estadual do Oeste do Paraná - UNIOESTE.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4592348231762682">Nathan Bastos de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>3º Colocado em Concurso de Professor Temporário - Área de Linguística, Universidade do Estado de Minas Gerais - UEMG (Campus Passos).. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4592348231762682">Nathan Bastos de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>3º lugar - 2ª Mostra de Ciências e Matemática de Santa Maria - Categoria EF, Universidade Franciscana.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6621220078810861">Elenize Rangel Nicoletti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>4º Colocado em Concurso de Professor Temporário - Área de Linguística, Universidade do Estado de Minas Gerais - UEMG (Campus Divinópolis).. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4592348231762682">Nathan Bastos de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Amiga da Delegacia Fluvial de Uruguaiana - Marinha do Brasil, Delegacia Fluvial de Uruguaiana - Marinha do Brasil.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Amiga do Grupo, 22° Grupo de Artilharia de Campanha Autopropulsado - Exército Brasileiro.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9733812300029971">Eliade Ferreira Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Aprovado em 3º lugar no concurso público para Professor da área de Matemática, Universidade Federal do Rio Grande.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8812847806952873">André Martins Alvarenga</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Chamada Feiras/Mostras 2018 CNPQ, CNPQ.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/5512659010248787">Pedro Fernando Teixeira Dorneles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>EDUCAÇÃO DO CAMPO E EDUCAÇÃO MATEMÁTICA CRÍTICA: REFLEXÕES A PARTIR DO PROJETO POLÍTICO PEDAGÓGICO DE UMA ESCOLA DE ENSINO MÉDIO - Premiado com 3º lugar, Universidade da Região da Campanha - URCAMP.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7782069813755336">Vanessa Scheeren</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>EDUCAÇÃO DO CAMPO E EDUCAÇÃO MATEMÁTICA CRÍTICA: REFLEXÕES A PARTIR DO PROJETO POLÍTICO PEDAGÓGICO DE UMA ESCOLA DE ENSINO MÉDIO -, Premiado com 3º lugar, Universidade da Região da Campanha - URCAMP... 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4291668071705125">Sonia Maria da Silva Junqueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Elogio protocolado via e-Ouv sob nº 23546.036426/2018-77, Universidade Federal do Pampa - Ouvidoria.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9076251806577555">Giane Vargas Escobar</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Homenagem de Patronjesse da 19ª Turma de Ciências Biológicas Bacharelado e Ciências Biológicas Licenciatura, .. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7239967672848394">Silvane Vestena</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Honra ao Mérito, Sociedade Brasileira de Tecnologia de Embriões - SBTE.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/5837260966665885">Paulo Bayard Dias Goncalves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Indicação para o Prêmio Capes de Teses, UFRGS.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>International Promovieren an der Technischen Universität Chemnitz, Technischen Universität Chemnitz / DAAD.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Melhor Trabalho de Pesquisa, Unipampa.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Melhor trabalho na categoria Ensino, 10º SIEPE.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9429704945665907">Cadidja Coutinho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Melhor Trabalho na categoria Pesquisa, na modalidade Apresentação Oral na Mostra Científica do 10º Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE), UNIPAMPA.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7562187381716677">Cristina dos Santos Lovato</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Menção honrosa pelo trabalho apresentado no 4º Encontro de Ciência e Tecnologia do IFSul, IFSul Campus Bagé.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>MODELAGEM MATEMÁTICA E EDUCAÇÃO MATEMÁTICA CRÍTICA: PESQUISA BIBLIOGRÁFICA A PARTIR DE TESES E DISSERTAÇÕES - Premiado como Melhor Trabalho na categoria Ensino, área Ciências Humanas, Universidade Federal do Pampa - UNIPAMPA.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7782069813755336">Vanessa Scheeren</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>MODELAGEM MATEMÁTICA E EDUCAÇÃO MATEMÁTICA CRÍTICA: PESQUISA BIBLIOGRÁFICA A PARTIR DE TESES E DISSERTAÇÕES, Premiado como Melhor Trabalho na categoria Ensino, área Ciências Humanas, Universidade Fed.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4291668071705125">Sonia Maria da Silva Junqueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Obirici, Lester.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Oustanding Reviewer Gait and Posture, Elsevier.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Paraninfa da Turma 2018 do Curso de História-Licenciatura Unipampa Campus Jaguarão, Universidade Federal do Pampa Campus Jaguarão.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9076251806577555">Giane Vargas Escobar</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Paraninfa da Turma de Licenciatura em Ciências da Natureza, Uiversidade Federal do Pampa - Campus Dom Pedrito, Universidade Federal do Pampa.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8524665688345631">Crisna Daniela Krause Bierhalz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Paraninfa da Turma de Licenciatura em Ciências da Natureza, Universidade Federal do Pampa - Campus Dom Pedrito, Universidade Federal do Pampa.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8524665688345631">Crisna Daniela Krause Bierhalz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Paraninfa da XV turma de Ciências Biológicas, Universidade Regional Integrada do Alto Uruguai e das Missões - URI Santiago.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9429704945665907">Cadidja Coutinho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Paraninfo da 8ª Turma de Ciências da Natureza, Curso de Ciências da Natureza - Turma 2017/2.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Paraninfo da Turma 2018 - Ciências da Natureza - Licenciatura, Curso de Ciências da Natureza - Licenciatura.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0473681435809042">Ailton Jesus Dinardi</a>.</font></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Paraninfo, Curso de Matemática - Licenciatura 2018/1.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Patrono da IV Turma do Curso de Matemática-Licenciatura, UNIPAMPA - Campus Itaqui-RS.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8948008714853940">Leugim Corteze Romio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Premio al mejor trabajo libre, V Jornada Cientifica de Kinesiologia UC - Chile.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Professor Paraninfo do Curso de Licenciatura em História / Turma: 2018/2, UNIPAMPA.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Professora Homenageada, UNIPAMPA - Formandos de Ciências Humanas Licenciatura, 2018/1.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7476378319243219">Carmen Regina Dorneles Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>Profissional de Sucesso, Lester.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>Prêmio Donna Mulheres que Inspiram, Reconhecimento do Poder Legislativo de Jaguarão - RS.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9076251806577555">Giane Vargas Escobar</a>.</font></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>Prêmio Donna Mulheres que Inspiram, Revista Donna (Jornal Zero Hora - http://revistadonna.clicrbs.com.br/gente/conheca-as-10-indicadas-).. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9076251806577555">Giane Vargas Escobar</a>.</font></td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Prêmio Donna Mulheres que Inspiram, Revista Donna (Jornal Zero Hora) - Link: http://revistadonna.clicrbs.com.br/gente/conheca-as-tres-ve.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9076251806577555">Giane Vargas Escobar</a>.</font></td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Prêmio Especial "O Futuro da Terra", FAPERGS e Jornal do Comércio.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/5837260966665885">Paulo Bayard Dias Goncalves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>Trabalho Destaque no 10º SIEPE; área Ciênicas Humanas; categoria Ensino; modalidade Poster., UNIPAMPA.. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>Trabalho premiado na modalidade pesquisa, intitulado DESEMPENHO DE SEMENTES DE SOJA SUBMETIDAS A TRATAMENTO COM FUNGICIDA/INSETICIDA E PERÍODOS DE ARMAZENAMENTO, Unipampa/Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE).. 2018.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7302773191822518">Elizete Beatriz Radmann</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>"Melhor Apresentação Oral", aluna Renata Bem dos Santos, I Simpósio Integrado dos PPGs do Campus Uruguaiana.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>"Melhor Apresentação Oral", aluna Renata Bem dos Santos, I Simpósio Integrado dos PPGs do Campus Uruguaiana.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>1o. Lugar na Jornada de Pós-Graduação e Pesquisa do Congrega Urcamp 2017, Universidade da Região da Campanha - Urcamp.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>1ª Colocação Trabalhos Científicos em Pequenos Animais, 1º Prêmio Científico Venco Saúde Animal, Instituto Brasileiro de Veterinária (IBVET).. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8978799324980898">Mirela Noro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>1º Lugar no Salão Universitário da Universidade Católica de Pelotas, Ucpel.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6074927853253100">Maria Eugênia Santos da Fontoura Porcellis</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>2.º lugar no Concurso de Melhor Tese do IESP/UERJ defendida em 2016, área de Sociologia, Instituto de Estudos Sociais e Políticos da Universidade do Estado do Rio de Janeiro - IESP/UERJ.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2185779366488602">Rafael Bruno Gonçalves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>2º Colocado em Concurso de Professor Substituto - Área Língua e Literaturas de Língua Espanhola, Universidade Federal do Pampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4592348231762682">Nathan Bastos de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>2º lugar - Professora Orientadora - III FEIRA MUNICIPAL DE CIÊNCIA, TECNOLOGIA E. SUSTENTABILIDADE, Prefeitura Municipal de Santa Maria.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6621220078810861">Elenize Rangel Nicoletti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Aprovação em 1º lugar em Concurso Público para Professor Adjunto A na Universidade Federal de Alagoas - UFAL.Área de Comunicação Organizacional, institucional e pública.Edital 65/2016., Universidade Federal de Alagoas - UFAL.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3992717755933028">Larissa Conceição dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Bolsista de Produtividade Nível 2, CNPq.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>CERTIFICATE OF DISTINCTION (Abstract presentation), IUPS ADInstruments Teaching Workshop.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0316035030727687">Marcos Roberto Kunzler</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Chamada Feiras/Mostras 2017 CNPQ, CNPq.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/5512659010248787">Pedro Fernando Teixeira Dorneles</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Classificado para o cadastro de contratação temporária de professores - Português Nível Médio e Profissional, 13ª Coordenadoria Regional de Educação do Rio Grande do Sul.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4592348231762682">Nathan Bastos de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Coautor do trabalho Destaque da Sessão Ecologia/Zoologia de Invertebrados na XIII Jornada de Iniciação Científica - Meio Ambiente, Fundação Zoobotânica do RS e Fundação Estadual de Proteção Ambiental, .. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2332303580071539">Fernando Albuquerque Luz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Coleção ANPUH/RS Edital 2016-2018 - 3º lugar, Associação Nacional de História - Seção Rio Grande do Sul.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4993397958385860">Guinter Tlaija Leipnitz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Comenda Anita Garibaldi, Instituto Cultural Giuseppe e Anita Garibaldi.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Coordenadora da Área Científica Memória e Patrimônio - quadriênio 2017-2020, Associação Brasileira de Pesquisadores/as Negros/as.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9076251806577555">Giane Vargas Escobar</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Coordenadora do Núcleo de Estudos Afro-Brasileiros e Indígenas da Unipampa - Campus Jaguarão, Universidade Federal do Pampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9076251806577555">Giane Vargas Escobar</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Coordenadora IV COPENE Sul - Portaria Nº 011/2017, Associação Brasileira de Pesquisadores/as Negros/as.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9076251806577555">Giane Vargas Escobar</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Coorientador do Melhor Trabalho do 9º SIEPE na categoria Iniciação Científica - Ensino, modalidade Apresentação oral - Rótulos e embalagens alimentícias: Do senso comum ao conhecimento científico., Universidade Federal do Pampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2332303580071539">Fernando Albuquerque Luz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>ENVELHECIMENTO ATIVO E EDUCAÇÃO: UNIVERSIDADE SÊNIOR DE BAGE, Trabalho Premiado na 14º JORNADA DE PÓS-GRADUAÇÃO E PESQUISA CONGREGA/URCAMP.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1541460141842713">Gilnara da Costa Corrêa Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Formatura: Patronesse: Graduação em Letras:Português/Espanhol e respectivas Literaturas, Universidade Federal do Pampa/Câmpus Jaguarão.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6468309464240697">Denise Aparecida Moser</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Indicação para pubilicação da tese de doutorado pela banca avaliativa, UFRGS.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Melhor artigo da trilha de Educação do XXXI Simpósio Brasileiro de Engenharia de Software, Centro Universitário 7 de Setembro (UNI7).. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9616709633352286">Peterson Luiz da Rosa Rodrigues</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Melhor pôster científico da I Semana de integração acadêmica de farmácia 2017, Curso de Farmácia da UNIPAMPA e Diretório Acadêmico da Farmácia.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4455461576886254">Favero Reisdorfer Paula</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Melhor Pôster, aluna Tamara Ramos Maciel, I Simpósio Integrado dos PPGs do Campus Uruguaiana.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Melhor Pôster, aluna Tamara Ramos Maciel, I Simpósio Integrado dos PPGs do Campus Uruguaiana.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Melhor Trabalho (Pôster) do 9º SIEPE na categoria Iniciação Científica - Pesquisa, na área Ciências Biológicas, Universidade Federal do Pampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4455461576886254">Favero Reisdorfer Paula</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Melhor trabalho apresentado na forma de poster na modalidade extensão no 9 Salão Internacional de Pesquisa, Ensino e Extensão (SIEPE), Universidade Federal do Pampa - Unipampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7239967672848394">Silvane Vestena</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Melhor Trabalho do 9o Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE), Universidade Federal do Pampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/5254810887797757">Carolina Ferreira de Matos Jauris</a>.</font></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Melhor Trabalho do 9º SIEPE na categoria Iniciação Científica - Ensino, modalidade Apresentação oral - Rótulos e embalagens alimentícias: Do senso comum ao conhecimento científico, Universidade Federal do Pampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8524665688345631">Crisna Daniela Krause Bierhalz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Melhor Trabalho do 9º SIEPE na categoria Iniciação Científica - Ensino: ANÁLISE ESTATÍSTICA DAS ATIVIDADES DE MONITORIA DE UMA COMPONENTE CURRICULAR DO CAMPUS ITAQUI, UNIPAMPA, 9º SIEPE, UNIPAMPA.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2217949943647601">Gilberto Rodrigues Liska</a>.</font></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Melhor Trabalho do 9º SIEPE na categoria Iniciação Científica - Extensão, na área Educação, modalidade Apresentação Oral na Mostra Científica do 9º Salão Internacional de Ensino, Pesquisa e Extensão, Universidade Federal do Pampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6268846689825329">Claudete da Silva Lima Martins</a>.</font></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Menção Honrosa de 1º Lugar na III Mostra Científica de Buiatria V Workshop em Bovinos, PET Veterinária.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8978799324980898">Mirela Noro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Menção Honrosa por apresentação de trabalho científico, XVII Congresso Brasileiro de Biomecânica e Sociedade Brasileira de Biomecânica.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Menção Honrosa por trabalho apresentado, IUPS and ADInstruments Teaching Workshop 2017.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>O RECURSO DE COLORAÇÃO DE GRAFOS PARA A PROGRAMAÇÃO DE HORÁRIOS DE EXAMES DE CURSOS UNIVERSITÁRIOS, Instituto Federal de Educação, Ciência e Tecnologia Sul-Rio-Grandense.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7782069813755336">Vanessa Scheeren</a>.</font></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Outstanding reviewer - Clinical Biomechanics, Elsevier.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Outstanding reviewer - Revista Brasileira de Ciências do Esporte, Elsevier.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>Outstanding reviewer - Revista Brasileira de Ciências do Esporte, Elsevier.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>Paraninfa da Turma de Licenciatura em Ciências da Natureza, Uiversidade Federal do Pampa - Campus Dom Pedrito, Universidade Federal do Pampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8524665688345631">Crisna Daniela Krause Bierhalz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>Paraninfa dos formandos do curso de Licenciatura em Educação Física 2016/2, Universidade Federal do Pampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Paraninfa, Licenciatura em Letras - UNIPAMPA - Turma 1/2017.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2043361641126900">Fabiana Giovani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Paraninfo : 10° Turma de Ciências Exatas - Licenciatura, Universidade Federal do Pampa - UNIPAMPA.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0808253492421363">André Luís Silva da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>Paraninfo da 11ª turma de Aquicultura, UNIPAMPA.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8606207704187820">Marco Aurélio Alves de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>Paraninfo da turma de formandos do Curso de Licenciatura em Pedagogia da UNIPAMPA (2017/02), Universidade Federal do Pampa - Câmpus Jaguarão.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3184320228056552">Clóvis Da Rolt</a>.</font></td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>Patronesse da Turma de formandos do 2º semestre do Curso de Licenciatura em Pedagogia, Universidade Federal do Pampa - Campus Jaguarão. Cerimônia em 25/3/2017, Universidade Federal do Pampa/ Campus Jaguarão.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0800483242955239">Arlete Maria Feijó Salcides</a>.</font></td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>Patronesse da Turma de Formandos do Curso de Letras Português/Inglês da FURG (turma de 2017), Universidade Federal do Rio Grande (FURG).. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9171054840472466">Luciani Salcedo de Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>Patronesse da Turma matemática Licenciatura, Universidade Federal do Pampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8753645048719661">Vera Lúcia Duarte Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>Patronesse da Turma matemática Licenciatura, Universidade Federal do Pampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8753645048719661">Vera Lúcia Duarte Ferreira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>Patrono da 7ª Turma de Ciências da Natureza, Curso de Ciências da Natureza - Turma 2017/1.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>Patrono da II Turma de Licenciatura em Ciências da Natureza., Universidade Federal do Pampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2136144172613304">Maurícius Selvero Pazinato</a>.</font></td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>Patrono da II Turma do Curso de Matemática-Licenciatura, UNIPAMPA - Campus Itaqui-RS.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8948008714853940">Leugim Corteze Romio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>Patrono turma de formandos Licenciatura em Pedagogia 2017/1, Universidade Federal do Pampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9239744025327102">Bento Selau da Silva Junior</a>.</font></td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>Professor do Magistério Superior, Universidade Federal do Pampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9076251806577555">Giane Vargas Escobar</a>.</font></td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>Professor Homenageado : 11° Turma de Ciências Exatas - Licenciatura, Universidade Federal do Pampa - UNIPAMPA.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0808253492421363">André Luís Silva da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>Professor Homenageado da III Turma do Curso de Matemática-Licenciatura, UNIPAMPA - Campus Itaqui-RS.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8948008714853940">Leugim Corteze Romio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>Professor Homenageado da turma de formandos, curso de História-Licenciatura UNIPAMPA, Curso de História-Licenciatura UNIPAMPA.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3233877111687799">Caiuá Cardoso Al-Alam</a>.</font></td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>Professor Homenageado do curso de Licenciatura em História - 2016/2, UNIPAMPA.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4220314443167061">Jônatas Marques Caratti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>Professor Homenageado dos formandos do Curso de Bacharelado em Produção e Política Cultural (2017/02), Universidade Federal do Pampa - Curso de Produção e Política Cultural.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3184320228056552">Clóvis Da Rolt</a>.</font></td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>Professor homenageado, Curso de Ciências Humanas - Licenciatura - Unipampa.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0392455526575019">Evandro Ricardo Guindani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>Propriedade Intelectual e Transferência de Tecnologia, III Encontro Nacional de Propriedade Intelectual.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7476378319243219">Carmen Regina Dorneles Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>Prêmio Mulher 2017, Lester.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>Resultado de Mayor Transcendencia y Originalidad Científica, Ministerio de Educación Superior de Cuba.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3321947327740091">Radael de Souza Parolin</a>.</font></td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>Sócio Honorário do Clube 24 de Agosto, Clube 24 de Agosto,fundado em 24/08/1918.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9076251806577555">Giane Vargas Escobar</a>.</font></td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>TOEFL ITP, Yazigi.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4592348231762682">Nathan Bastos de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>Top 100 read Scientific Reports articles in 2016, Nature Publishing Group.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1589874577225604">Felipe Lima Pinheiro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>Troféu Consciência Negra, Grupo Face do Ébano e CMPOA.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2940552424054556">Sátira Pereira Machado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>Troféu Obirici - categoria Bronze - Profissionais do Ano, Lester Comunicações - Jornalista Saul Jr... 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3469385544914151">Beatriz Stoll Moraes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>Troféu Obirici 2017, Lester CM.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8978799324980898">Mirela Noro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>Um dos melhores resumos expandidos apresentados no V Simpósio em Ciência do Agronegócio, UFRGS.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8209799957580189">Luciano Moraes Da Luz Brum</a>.</font></td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>Wolfram Research Award - Atribuído pela Wolfram para melhor artigo, no Symcomp' 2017., Wolfram.. 2017.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1506100128289700">Marcelo da Silva Trindade</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>"Melhor trabalho - Comunicação Oral" durante o Congresso Sul Brasileiro de Atividade Física e Saúde, Unesc - Universidade do Extremo Sul Catarinense - Criciúma.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6955452821478330">Patricia Becker Engers</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>1º Lugar em Concurso Público para Professor Substituto de Libras, Universidade Federal de Pelotas.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3353373521972232">Joseane Maciel Viana</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>1º Lugar na 1ª Mostra de Iniciação Científica e Extensão, promovida para alunos do Ensino Fundamental e do Ensino Médio das Escolas Católicas da Região Sul, Universidade Católica de Pelotas.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6074927853253100">Maria Eugênia Santos da Fontoura Porcellis</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>1º Lugar no VII Simpósio Gaúcho de Animais Selvagens - Determinação sexual e descrição do complemento cromossômico do mutum-cavalo (Pauxi tuberosa - aves), VII Simpósio Gaúcho de Animais Selvagens - Universidade Federal de Santa Maria.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4075727326925108">Analía Del Valle Garnero</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>2000 outstanding Intellectuals of the 21st Century ~ 10th Edition~, Internacional Biographical Centre, Cambridge England.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4605424722032113">Muriel Pinto</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>2016 IHSS Travel Awards, International Humic Substances Society.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2508828887035004">Daniel Hanke</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>2º Colocado em Concurso de Professor Substituto - Área Linguística e Língua Portuguesa, Universidade Federal do Pampa.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4592348231762682">Nathan Bastos de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>2º Lugar no Concurso de TCC, Dissertações e Teses (CTD-IE), V Congresso Brasileiro de Informática na Educação.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2530535838251633">Érico Marcelo Hoff do Amaral</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>?Determinação sexual e descrição do complemento cromossômico do mutum-cavalo (Pauxi tuberosa - aves), VII Simpósio Gaúcho de Animais Selvagens - Universidade Federal de Santa Maria - RS.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2410346128596894">Ricardo José Gunski</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Aprovado em 1o lugar em Concurso Público para Magistério Superior - Edtal 251/2016, UNIPAMPA.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9265775380196275">Vítor Jochims Schneider</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Aprovado em 1o lugar no Processo Seletivo para Professor subistituto de Linguística: Língua Materna, UNIPAMPA.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9265775380196275">Vítor Jochims Schneider</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>Aprovado na 1ª colocação no concurso público para Professor Substituto em Química Geral. (Obs. vaga não assumida), UFFS - Campus Cerro Largo.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3736087205149979">Marcelo Luís Wilde</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Aprovado no Processo Seletivo para Professor Substituto do Colégio de Aplicação UFRGS, FAUFRGS.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9265775380196275">Vítor Jochims Schneider</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>Aprovação com distinção na defesa de tese de Doutorado, Universidade do Vale do Rio dos Sinos - UNISINOS.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7527506706635979">Jorama de Quadros Stein</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Aprovação em 2º lugar em Processo Seletivo para Professor Substituto em Ciências Sociais Aplicadas (Relações Públicas) na Universidade Federal do Pampa (UNIPAMPA). Edital nº 009/2016., Universidade Federal do Pampa - UNIPAMPA (Campus São Borja).. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3992717755933028">Larissa Conceição dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Aprovação em 3º lugar em Concurso Público para Professor Adjunto A (DE) na Universidade Federal de Santa Maria (Campus Frederico Westphalen) - Área de Relações Públicas e Propaganda. Edital 037/2016., Universidade Federal de Santa Maria - UFSM.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3992717755933028">Larissa Conceição dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>Aprovação em Concurso para Profesor Asistente en Comunicación Corporativa no Departamento de Comunicación Aplicada da Pontifícia Universidad Católica de Chile., Pontifícia Universidad Católica de Chile/ UC-Chile.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3992717755933028">Larissa Conceição dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>Cidadã Uruguaianense, Câmara Municipal de vereadores de Uruguaiana.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7525976996261066">Marta Iris Camargo Messias da Silveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Comenda Floresta Montenegrina 100 anos, Associação Cultural Beneficente Floresta Montenegrina.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2940552424054556">Sátira Pereira Machado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Honorable Mention, Associação da Propriedade Intelectual.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7476378319243219">Carmen Regina Dorneles Nogueira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Imortal Correspondente da ALBSC seccional Jaraguá do Sul, Academia de Letras do Brasil, Santa Catarina... 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3888517099645193">Walker Douglas Pincerati</a>.</font></td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Indicado ao Prêmio Açorianos de Literatura com o livro "A orientação das serpentes", na categoria poesia., Secretaria da Cultura e Coordenação do Livro e Literatura de Porto Alegre-RS... 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3184320228056552">Clóvis Da Rolt</a>.</font></td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>Indicação de tese para representar o PPGMus/UFRGS no Prêmio Capes de Tese - Edição 2016, CAPES.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8686171159500113">Luana Zambiazzi dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>Láurea Acadêmica, Universidade Federal do Pampa.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4592348231762682">Nathan Bastos de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>Melhor artigo da XVI Mostra de Iniciação Científica, Pós-Graduacao, Pesquisa e Extensão do Programa de Pós-graduação em Administração, Universidade de Caxias do Sul.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7336897624367746">Elena Maria Billig Mello</a>.</font></td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>Melhor poster na sessao "Pharmaceutical and Cosmetic Technology", IICongressoftheBrazilianAssociationofPharmaceuticalSciences.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>Melhor poster na sessao "Pharmaceutical and Cosmetic Technology", IICongressoftheBrazilianAssociationofPharmaceuticalSciences.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9814152155074530">Sandra Elisa Haas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Melhor trabalho na categoria Ensino, modalidade Apresentação Oral na Mostra Científica do 8º SIEPE- ESMALTES DE UNHAS COMO TEMÁTICA PARA O ENSINO DE CIÊNCIAS DA NATUREZA, Universidade Federal do Pampa.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8524665688345631">Crisna Daniela Krause Bierhalz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Membro Honorário, Asociación Chilena de Ciencias del Movimiento.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Menção Honrosa de Primeiro Colocado na II Mostra Científica de Buiatria, IV Workshop Bovino, Grupo PET Veterinária, PET Veterinária.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8978799324980898">Mirela Noro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Menção Honrosa de Terceiro Colocado na II Mostra Científica de Buiatria, IV Workshop Bovino, Grupo, PET Veterinária.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8978799324980898">Mirela Noro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Menção Honrosa no VIII Salão de Ensino, Pesquisa e Extensão, ?A Terceirização na Universidade: Possibilidade e Limites da Cooperação?, Categoria Pesquisa, modalidade oral., Universidade Federal do Pampa -Campus Uruguaiana.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8832898581140645">Simone Silva Alves</a>.</font></td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Paraninfa das formandas do curso de Licenciatura em Educação Física 2016/1, Universidade Federal do Pampa.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6644705302687385">Mauren Lúcia de Araújo Bergmann</a>.</font></td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>Paraninfa do Curso de Licenciatura em Matemática - I Turma, UNIPAMPA, Campus Itaqui.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9930020408308947">Deise Pedroso Maggio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>Paraninfa dos formandos do primeiro semestre do Curso de Licenciatura em Pedagogia, Universidade Federal do Pampa - Campus Jaguarão. Cerimonia em 29 de Outubro/ 2016, Universidade Federal do Pampa/ Campus Jaguarão.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0800483242955239">Arlete Maria Feijó Salcides</a>.</font></td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>Paraninfo da Turma 2016 - Ciências da Natureza - Licenciatura, Curso de Ciências da Natureza - Licenciatura.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0473681435809042">Ailton Jesus Dinardi</a>.</font></td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>Paraninfo da turma de formandos. História-Licenciatura, UNIPAMPA., História-Licenciatura, UNIPAMPA.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3233877111687799">Caiuá Cardoso Al-Alam</a>.</font></td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>Paraninfo, Curso de Ciências Humanas - Licenciatura - Unipampa.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0392455526575019">Evandro Ricardo Guindani</a>.</font></td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Paraninfo, Curso de Matemática - Licenciatura 2016/2.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>Paranínfo da 6ª Turma de Ciências da Natureza, Curso de Ciências da Natureza - Turma 2016/2.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2145471376587567">Rafael Roehrs</a>.</font></td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>Patronesse da Turma de Licenciatura em Ciências da Natureza, Uiversidade Federal do Pampa - Campus Dom Pedrito, Universidade Federal do Pampa.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8524665688345631">Crisna Daniela Krause Bierhalz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>PATRONESSE DA TURMA DE PEDAGOGIA - UAB 3, UNIVERSIDADE ABERTA DO BRASIL - UNIVERSIDADE DE BRASÍLIA.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7166103196673219">Analva Aparecida Andrade Lucas Passos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>Patronesse do Curso de Licenciatura em Matemática, Universidade Federal do Pampa.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8335102549502386">Denice Aparecida Fontana Nisxota Menegais</a>.</font></td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>Patrono da I Turma do Curso de Matemática-Licenciatura, UNIPAMPA - Campus Itaqui-RS.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8948008714853940">Leugim Corteze Romio</a>.</font></td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>Patrono da turma de formandos do Curso de Licenciatura em Pedagogia da UNIPAMPA (2016/01), Universidade Federal do Pampa - Câmpus Jaguarão.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3184320228056552">Clóvis Da Rolt</a>.</font></td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>Patrono, Curso de Matemática - Licenciatura 2016/2.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>Premio Anual del año 2015 (al resultado de la investigación científica), Academia de Ciencias de Cuba.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3321947327740091">Radael de Souza Parolin</a>.</font></td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>Premio FUNARTE de Produção Crítica em Música - Edição Especial, FUNARTE / MinC.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8686171159500113">Luana Zambiazzi dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>Primeiro Lugar no I Concurso de Contos da Livraria Vanguarda e do PPG/LETRAS-FURG, Livraria Vanguarda e PPG/LETRAS-FURG.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8847030722247192">Marcela Wanglon Richter</a>.</font></td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>Primeiro Lugar no I Concurso de Poesia da Livraria Vanguarda e do PPG/LETRAS-FURG, Livraria Vanguarda e PPG/LETRAS-FURG.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8847030722247192">Marcela Wanglon Richter</a>.</font></td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>Professor Homenageado 10ª turma de Aquicultura, UNIPAMPA.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8606207704187820">Marco Aurélio Alves de Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>Professor Homenageado como Paraninfo, Unipampa.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/9707343593567031">Jefferson Marçal da Rocha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>Professor Homenageado da 2° Turma do Curso de Licenciatura em Ciências da Natureza - UNIPAMPA - 2016/2, .. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2332303580071539">Fernando Albuquerque Luz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>Professor Homenageado da I turma de Licenciatura em Ciências da Natureza, Universidade Federal do Pampa.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2136144172613304">Maurícius Selvero Pazinato</a>.</font></td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>Professor Homenageado, Curso de Matemática - Licenciatura 2016/1.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0415207663105617">Cristiano Peres Oliveira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>Professora Homenageada do Curso Nutrição 2016/01, Unipampa.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2997329525971185">Fabiana Cristina Missau</a>.</font></td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>Professora Homenageada III Turma técnico em Química Escola Albert Einsten, Sistema Educacional Gaúcho.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6621220078810861">Elenize Rangel Nicoletti</a>.</font></td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>Prêmio destaque no X Colóquio Internacional Inovação, Conhecimento e Tecnologias, Universidade Regional Integrada do Alto Uruguai e das Missões.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7980862457823375">Franciele Braz de Oliveira Coelho</a>.</font></td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>Prêmio Pesquisador Gaúcho 2016 - Destaque Especial ao Ano Internacional do Entendimento Global, FAPERGS.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2069437408328707">Jair Putzke</a>.</font></td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>Prêmio: Melhor Trabalho do 8º SIEPE (UNIPAMPA) na categoria Pesquisa, na área Linguística, Letras e Artes, junto aos discentes Antoniel Lopes, Gabriela Ifran e Julian Pinho, UNIPAMPA (8º Salão Internacional de Ensino, Pesquisa e Extensão).. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/8686171159500113">Luana Zambiazzi dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>Recognized Reviewer - Archives of Gerontology and Geriatrics, Elsevier.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/4752530725363240">Felipe Pivetta Carpes</a>.</font></td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>Seleção de texto para integrar antologia de contos, IV Prêmio Sérgio Farina.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7527506706635979">Jorama de Quadros Stein</a>.</font></td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>Tese Aprovada com Louvor - Menção Très Honorable avec Félicitations du jury, Université Paris-Sorbonne (Paris IV).. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/3992717755933028">Larissa Conceição dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>Trabalho premiado dos projetos de extensão em Ciências Biológicas no Congrega 2016: Uso de Maquete para o Desenvolvimento da Consciência Ambiental em Estudantes do Ensino Fundamental em São GabrielRS, Congrega Urcamp.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2256892090251117">Mirla Andrade Weber</a>.</font></td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>Troféu Carlos Santos ? Destaque Negros/as do RS ? Jornalismo, Câmara Municipal de Porto Alegre/RS.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2940552424054556">Sátira Pereira Machado</a>.</font></td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>Trófeu Obirici, Lester Cominicações.. 2016.<br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/2938211359705852">Cristiane Heredia Gomes</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 01/10/2019 01:17:31<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
