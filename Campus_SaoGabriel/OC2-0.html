@@ -1,0 +1,225 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_SaoGabriel</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_SaoGabriel</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Dissertação de mestrado'}, 
+series: [{data: [[2016,
+11],
+[2017,
+20],
+[2018,
+5]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Dissertação de mestrado</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 36<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7121006033813472">Bruna Borges</a>. <b>Neurotoxicidade Central e Periférica Induzida por Extratos e Frações de Manilkara rufula em Baratas da Espécie Nauphoeta cinerea</b>. Dissertação (Mestrado em Programa de Pós-Graduação Ciências Biológicas) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9245604354419040">Lucia Helena do Canto Vinade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9276932016187557">Lilian Pedroso Magio</a>. <b>Estudo de método de recuperação de campo natural infestado por Eragrostis plana Nees (Capim-annoni) através de roçada química e semeadura de espécies nativas</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/0905235589505578">Angelo Alberto Schneider</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5576989937220589">Marcelo Santos de Souza</a>. <b>DISTRIBUIÇÃO DE ELEMENTOS REPETITIVOS NO GENOMA DE NYCTIBIIDAE E CAPRIMULGIDAE (AVES: CAPRIMULGIFORMES) E A EVOLUÇÃO DO CROMOSSOMO W</b>. Dissertação (Mestrado em PPGCB UNIPAMPA) - Universidade Federal do Pampa, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2410346128596894">Ricardo José Gunski</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Rodrigo Paidano Alves. <b>Evidências de transporte de diasporas em penas de Skua das Falklands por meio de abordagem metagenômica</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2018.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/2960319577737903">Antonio Batista Pereira</a>, <a href="http://lattes.cnpq.br/4895231407900749">Filipe de Carvalho Victoria</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7036704551597609">Êmila Silveira de Oliveira</a>. <b>ANÁLISE DA OCORRÊNCIA DO JAVALI (Sus scrofa L.) EM UNIDADES DE CONSERVAÇÃO E SEUS EFEITOS SOBRE A COMUNIDADE DE MAMÍFEROS DE MÉDIO E GRANDE PORTE</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3758714218353612">Carlos Benhur Kasper</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><a href="http://lattes.cnpq.br/2156436713826507">Aline Aparecida Bastos Portela</a>. <b>Helmintofauna de anfíbios anuros dos Campos Sulinos</b>. Dissertação (Mestrado em Biodiversidade Animal) - Universidade Federal de Santa Maria, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5811514780628956">Tiago Gomes dos Santos</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Bruna Lucia Laindorf. <b>ECOLOGIA MOLECULAR DE Syagrus romanzoffiana (CHAM.) GLASSMAN (Arecaceae) NAS REGIÕES HIDROGRÁFICAS DO RIO GRANDE DO SUL, BRASIL</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/2960319577737903">Antonio Batista Pereira</a>, <a href="http://lattes.cnpq.br/4895231407900749">Filipe de Carvalho Victoria</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9282923371984791">Daniel de Oliveira Simão</a>. <b>Reconstrução digital do endocrânio do dicinodonte Rastodon procurvidens e suas implicações paleobiológicas</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1589874577225604">Felipe Lima Pinheiro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Ehidy Rocio Peña Cañón. <b>Evidencia de fungos endoliquenicos e sua inferência sobre a co-evolução em processos de simbiose</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/2960319577737903">Antonio Batista Pereira</a>, <a href="http://lattes.cnpq.br/4895231407900749">Filipe de Carvalho Victoria</a>, <a href="http://lattes.cnpq.br/2069437408328707">Jair Putzke</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1608714419112836">Fabiola Lucini</a>. <b>Análise de expressão gênica em resposta ao frio de um fitopatógeno isolado de Deschampsia antarctica</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4895231407900749">Filipe de Carvalho Victoria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Fabíola Luccini. FUNGOS ASCOMYCOTA ASSOCIADOS À Deschampsia antarctica Desv. <b>(Poaceae) NAS ILHAS HALF MOON E REI GEORGE, ANTÁRTICA MARÍTIMA</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2069437408328707">Jair Putzke</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>FLÁVIA RAMOS FERRARI. <b>RELAÇÕES SOLOS-VEGETAÇÃO E IMPLICAÇÕES AMBIENTAIS EM UMA TOPOSSEQUÊNCIA NA ILHA REI GEORGE, ANTÁRTICA MARÍTIMA</b>. Dissertação (Mestrado em Botânica) - Universidade Federal de Viçosa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/2960319577737903">Antonio Batista Pereira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Geferson Fernando Metz. <b>AMONTAGEM E ANOTAÇÃO COMPARATIVA DO TRANSCRIPTOMA de novo DE CINCO ESPÉCIES DE MUSGOS</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/2960319577737903">Antonio Batista Pereira</a>, <a href="http://lattes.cnpq.br/4895231407900749">Filipe de Carvalho Victoria</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3212893574506122">Giulianna Echeverria Macedo</a>. <b>AÇÃO DE Senecio brasiliensis (SPRENG) LESS SOBRE A TAXA DE ECLOSÃO E MODULAÇÃO DE MARCADORES DE TOXICIDADE EM LARVAS DE Drosophila melanogaster</b>. Dissertação (Mestrado em Pós Graduação em Ciências Biológicas) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/2277857386983441">Thais Posser</a>, <a href="http://lattes.cnpq.br/1680065573338339">Jeferson Luis Franco</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td><a href="http://lattes.cnpq.br/5081845232496999">Illana Kemmerich Martins</a>. <b>EFEITO NEUROPROTETOR DE Anacardium microcapum-Duke EM DANO INDUZIDO POR 6-OHDA EM FATIAS CORTICAIS DE CÉREBRO DE PINTAINHOS</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal do Pampa, Conselho Nacional de Desenvolvimento Científico e Tecnológico. 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/2277857386983441">Thais Posser</a>, <a href="http://lattes.cnpq.br/1680065573338339">Jeferson Luis Franco</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Ivan da Silva Kulmann. <b>PREPARAÇÃO E CARACTERIZAÇÃO FÍSICO-QUÍMICA DE NANOPARTÍCULAS POLIMÉRICAS CONTENDO METRONIDAZOL E ÓLEO DE MELALEUCA CO-ENCAPSULADOS</b>. Dissertação (Mestrado em Ciências Farmacêuticas) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/0979416016892842">Simone Noremberg Kunz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8286847755996189">Karine Elise Janner. Inferências genômicas e filogeneticas dos genomas acessórios das Polytrichaceae antárticas: Polytrichum strictum Menzies ex Brid</a>. <b>e Polytrichum juniperinum Hedw.</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4895231407900749">Filipe de Carvalho Victoria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>Lilian Christiane Silveira de Almeida. <b>A prática da supervisão escolar em uma escola do campo:o caso da Escola Municipal de Educação Básica Murillo Nunes de Oliveira</b>. Dissertação (Mestrado em Mestrado Profissionalizante em Educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9707343593567031">Jefferson Marçal da Rocha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td><a href="http://lattes.cnpq.br/6032118646438062">Marcio Lord de Freitas</a>. <b>Viabilidade do sistema de tratamento de esgoto urbano utilizando filtragem dom casca de arroz e tratamentoi por zonas de raizes com Typha domingensis Pers.</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4895231407900749">Filipe de Carvalho Victoria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Natasha Ávila Bertocchi. <b>ESTUDO DE ELEMENTOS GALLUHOP E CR1-LIKE NOS GENOMAS DE AVES</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal do Pampa, Fundação Universidade Federal do Pampa. 2017.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/3194461270391349">Fabiano Pimentel Torres</a>, <a href="http://lattes.cnpq.br/4075727326925108">Analía Del Valle Garnero</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>Rute Elena Alves de Souza. <b>A gestão e a democracia em uma Escola Pública no município de Dom Pedrito/RS:Conflitos e possibilidades</b>. Dissertação (Mestrado em Mestrado Profissionalizante em Educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9707343593567031">Jefferson Marçal da Rocha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td><a href="http://lattes.cnpq.br/3580730918290874">Suziane Alves Barcellos</a>. <b>Evolução cariotípica em espécies da família Hirundinidae (Aves: Passeriformes)</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4075727326925108">Analía Del Valle Garnero</a>.</font></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td><a href="http://lattes.cnpq.br/7870831698626445">Thays Duarte de Oliveira</a>. <b>Genomic Organization of Repetitive DNA in Woodpeckers (Aves, Piciformes): Implications for Karyotype and ZW Sex Chromosome Differentiation</b>. Dissertação (Mestrado em PPGCB UNIPAMPA) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2410346128596894">Ricardo José Gunski</a>.</font></td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Tiane Macedo Oliveira. <b>Anatomia do esqueleto apendicular de um arcossauromorfo (Sauria: Archosauromorpha) do Triássico Inferior da América do Sul e suas implicações filogenéticas</b>. Dissertação (Mestrado em Biodiversidade Animal) - Universidade Federal de Santa Maria, . 2017.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/1589874577225604">Felipe Lima Pinheiro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Ângela Machado Tavares. <b>A formação Continuada de professores na escola de tempo integral e a possibilidade de reestruturação curricular para implantação da educação integral</b>. Dissertação (Mestrado em Mestrado Profissionalizante em Educação) - Universidade Federal do Pampa, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9707343593567031">Jefferson Marçal da Rocha</a>.</font></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Angela Machado Tavares. <b>A formação continuada de professores na Escola de tempo integral: aproximando saberes e aprendizagens na Escola Pública</b>. Dissertação (Mestrado em Mestrado Profissionalizante em Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9707343593567031">Jefferson Marçal da Rocha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Carlos Gabriel Moreira de Almeida. <b>Investigação Bioquímica e Eletrofisiológica da Atividade Neurotóxica da Urease de Canavalia Ensiformis sobre o Sistema Nervoso de Mamiferos</b>. Dissertação (Mestrado em Programa de Pós-Graduação Ciências Biológicas) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/9245604354419040">Lucia Helena do Canto Vinade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Clarissa Kappel Pereira. <b>INFLUÊNCIA DE COLÔNIAS REPRODUTIVAS DE AVES MARINHAS SOBRE POPULAÇÕES VEGETAIS NAS ILHAS SHETLANDS DO SUL, ANTÁRTICA, SOB UMA ABORDAGEM MOLECULAR</b>. Dissertação (Mestrado em Biologia) - Universidade do Vale do Rio dos Sinos, . 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/4895231407900749">Filipe de Carvalho Victoria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Daiane Valente Valente. <b>Prospecção de Marcadores EST-SSR e Análise Filogeográfica de Populações Antárticas de Poa annua (Poaceae)</b>. Dissertação (Mestrado em CIÊNCIAS BIOLÓGICAS) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientadores: <a href="http://lattes.cnpq.br/2960319577737903">Antonio Batista Pereira</a>, <a href="http://lattes.cnpq.br/4895231407900749">Filipe de Carvalho Victoria</a>.</font></i></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><a href="http://lattes.cnpq.br/1373695016122077">Doouglas Fetter</a>. <b>Avaliação aerofotogramétrica daocorrênciad a espécie exótica Hovenia dulcis no cinturão verde da cidade de Santa cruz do Sul, RS, Brasil</b>. Dissertação (Mestrado em Tecnologia Ambiental) - Universidade de Santa Cruz do Sul, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2069437408328707">Jair Putzke</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><a href="http://lattes.cnpq.br/9372959780559178">Fátima Anise Rodrigues Ehlert</a>. <b>O Fortalecimento da Gestão democrática através do incentivo à implantação dos Conselhos Escolares nas Escolas Municipais de Giruá-RS</b>. Dissertação (Mestrado em Mestrado Profissionalizante em Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9707343593567031">Jefferson Marçal da Rocha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Nelson Cristiano Epping. <b>Ocorrência de inimigos naturais em Hemiptera: Pentatomidae em arroz e soja na Fronteira Oeste do Rio Grande do Sul</b>. Dissertação (Mestrado em Fitotecnia) - Universidade Federal do Rio Grande do Sul, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Supervisor: <a href="http://lattes.cnpq.br/5556114236440871">Fernando Felisberto da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><a href="http://lattes.cnpq.br/8249133563492180">Nilson Duarte Rocha</a>. <b>A educação ambiental na proposta pedagógica de uma Escola de Ensino Fundamental: da incompletude ecológica à complexidade socioambiental</b>. Dissertação (Mestrado em Mestrado Profissionalizante em Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9707343593567031">Jefferson Marçal da Rocha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Raquel Soares Oliveira. <b>Atividade Biológica do Veneno de Rhinella Icterica (Anura: bufonidae) sobre o Sistema Nervoso de Vertebrados</b>. Dissertação (Mestrado em Programa de Pós-Graduação Ciências Biológicas) - Universidade Federal do Pampa, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9245604354419040">Lucia Helena do Canto Vinade</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Regiane Vieira Gonzalez. <b>A Educação ambiental e a interdisciplinaridade:um estudo na escola de ensino fundamental Joaqueim Caetano da Silva no Município de Jaguarão</b>. Dissertação (Mestrado em Mestrado Profissionalizante em Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9707343593567031">Jefferson Marçal da Rocha</a>.</font></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Rute Elena Alves de Souza. <b>A Gestão e a democracia em uma escola pública no município de Dom Pedrito/RS: Conflitos e possibilidades</b>. Dissertação (Mestrado em Mestrado Profissionalizante em Educação) - Universidade Federal do Pampa, . 2016.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9707343593567031">Jefferson Marçal da Rocha</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 01/10/2019 00:51:53<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

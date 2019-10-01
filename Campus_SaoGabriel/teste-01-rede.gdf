@@ -1,0 +1,54 @@
+nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUBLE, lon DOUBLE, collaborationRank DOUBLE, producaoBibliografica DOUBLE, artigoEmPeriodico DOUBLE, livro DOUBLE, capituloDeLivro DOUBLE, trabalhoEmCongresso DOUBLE, resumoExpandido DOUBLE, resumo DOUBLE, posDoutorado DOUBLE, dutorado DOUBLE, mestrado DOUBLE, ic DOUBLE, color VARCHAR
+0,1519141891464578,Alvaro Macedo Laureano,[Sem rotulo],-30.0310388,-51.2173798,0.15,12,11,0,0,0,0,1,0,0,0,0,'10,110,164'
+1,4075727326925108,Analia Del Valle Garnero,[Sem rotulo],0,0,1.6116683,56,37,0,1,0,5,13,0,0,2,3,'10,110,164'
+2,0905235589505578,Angelo Alberto Schneider,[Sem rotulo],0,0,0.15,22,12,1,4,0,0,5,0,0,1,0,'10,110,164'
+3,2960319577737903,Antonio Batista Pereira,[Sem rotulo],0,0,1.2079557,51,51,0,0,0,0,0,0,0,6,0,'10,110,164'
+4,3469385544914151,Beatriz Stoll Moraes,[Sem rotulo],0,0,0.7791745,14,2,0,2,4,6,0,0,0,0,0,'10,110,164'
+5,3758714218353612,Carlos Benhur Kasper,[Sem rotulo],0,0,0.28023347,18,18,0,0,0,0,0,0,0,1,0,'10,110,164'
+6,9101858681342985,Cassia Regina Nespolo,[Sem rotulo],0,0,0.15,38,14,0,0,9,14,1,0,0,0,0,'10,110,164'
+7,4807525329153013,Cibele Rosa Gracioli,[Sem rotulo],0,0,0.15,7,2,0,1,1,3,0,0,0,0,0,'10,110,164'
+8,3831988899325479,Cristhian Augusto Bugs,[Sem rotulo],0,0,1.0,13,5,0,0,0,7,1,0,0,0,0,'10,110,164'
+9,3194461270391349,Fabiano Pimentel Torres,[Sem rotulo],0,0,0.2981102,5,3,0,0,0,0,2,0,0,1,0,'10,110,164'
+10,1589874577225604,Felipe Lima Pinheiro,[Sem rotulo],0,0,0.15,60,15,0,0,0,0,45,0,0,2,4,'10,110,164'
+11,5556114236440871,Fernando Felisberto da Silva,[Sem rotulo],0,0,0.15,36,17,0,0,0,19,0,0,0,1,2,'10,110,164'
+12,4895231407900749,Filipe de Carvalho Victoria,[Sem rotulo],0,0,0.87336594,42,24,0,0,0,0,18,0,0,9,1,'10,110,164'
+13,5360357766246970,Helmoz Roseniaim Appelt,[Sem rotulo],0,0,0.15,13,9,0,0,0,2,2,0,0,0,0,'10,110,164'
+14,2069437408328707,Jair Putzke,[Sem rotulo],0,0,0.600871,39,26,3,0,0,4,6,0,0,3,0,'10,110,164'
+15,1680065573338339,Jeferson Luis Franco,[Sem rotulo],0,0,1.5009308,113,84,0,0,0,5,24,1,3,2,0,'10,110,164'
+16,9707343593567031,Jefferson Marcal da Rocha,[Sem rotulo],0,0,0.15,22,12,0,5,5,0,0,0,1,8,1,'10,110,164'
+17,5627311567399428,Jose Ricardo Inacio Ribeiro,[Sem rotulo],0,0,1.0,24,23,0,0,0,1,0,0,0,0,0,'10,110,164'
+18,7724745358129837,Julio Cesar Bresolin Marinho,[Sem rotulo],0,0,0.15,26,18,1,2,3,1,1,0,0,0,0,'10,110,164'
+19,5933446290676213,Lia Heberle de Almeida,[Sem rotulo],0,0,0.15,4,3,0,0,1,0,0,0,0,0,0,'10,110,164'
+20,9245604354419040,Lucia Helena do Canto Vinade,[Sem rotulo],0,0,0.53958106,41,33,0,0,1,2,5,0,0,3,1,'10,110,164'
+21,4218915379129113,Luciana Borba Benetti,[Sem rotulo],0,0,0.7791745,3,1,0,0,2,0,0,0,0,0,0,'10,110,164'
+22,0382799433347639,Luis Fabiano Santos da Costa,[Sem rotulo],0,0,0.15,9,9,0,0,0,0,0,0,0,0,0,'10,110,164'
+23,0501263145561247,Marcelo Sander,[Sem rotulo],0,0,0.15,0,0,0,0,0,0,0,0,0,0,0,'10,110,164'
+24,4541292297263996,Marcia Regina Spies,[Sem rotulo],0,0,0.80116737,28,22,0,0,0,0,6,0,0,0,2,'10,110,164'
+25,2256892090251117,Mirla Andrade Weber,[Sem rotulo],0,0,0.15,32,10,0,0,0,21,1,0,0,0,7,'10,110,164'
+26,2410346128596894,Ricardo Jose Gunski,[Sem rotulo],0,0,1.6116683,46,33,0,0,0,0,13,0,0,2,0,'10,110,164'
+27,2185079928360774,Ronaldo Erichsen,[Sem rotulo],0,0,0.15,20,6,0,2,0,5,7,0,0,0,0,'10,110,164'
+28,0979416016892842,Simone Noremberg Kunz,[Sem rotulo],-29.1294007,-56.5481122,0.15,21,14,0,0,0,6,1,0,0,1,2,'10,110,164'
+29,2277857386983441,Thais Posser,[Sem rotulo],0,0,1.4598068,76,64,0,0,0,0,12,0,4,2,2,'10,110,164'
+30,5811514780628956,Tiago Gomes dos Santos,[Sem rotulo],0,0,1.2146405,50,43,1,1,0,0,5,0,2,1,0,'10,110,164'
+31,6399818992878421,Victor Paulo Kloeckner Pires,[Sem rotulo],0,0,1.441651,23,2,0,0,10,7,4,0,0,0,0,'10,110,164'
+edgedef> node1 VARCHAR, node2 VARCHAR, weight DOUBLE
+1,9,4.0
+1,20,2.0
+1,26,37.0
+3,12,17.0
+3,14,10.0
+3,15,6.0
+3,20,1.0
+3,29,5.0
+4,31,2.0
+5,30,1.0
+8,17,1.0
+9,26,4.0
+12,14,7.0
+15,20,2.0
+15,29,51.0
+20,26,2.0
+20,29,1.0
+20,30,2.0
+21,31,2.0
+24,30,5.0

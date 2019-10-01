@@ -1,0 +1,331 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_SaoGabriel</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_SaoGabriel</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de participação em eventos'}, 
+series: [{data: [[2016,
+17],
+[2017,
+31],
+[2018,
+41]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de participação em eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 89<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>1º Congresso Sul-Americano de Resíduos Sólidos e Sustentabilidade. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>1º Congresso Sul-Americano de Resíduos Sólidos e Sustentabilidade. Utilização de carvão de Caroços de Butiá (Butia capitata) como meio de purificação alternativa de águas para consumo humano. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>29a. Semana do ICB. Palestra Importância ecológica e econômica de cogumelos Agaricales (Fungos Basidiomycota). 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>36º Seminário de Extensão Universitária da Região Sul. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>56º Congresso Internacional de Americanistas. Análise da Economia Ambiental Neoclássica: uma abordagem critica sobre a teoria das externalidades à luz da Economia Ecológica.. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>56º Congresso Internacional de Americanistas. Os processos de (Re)elaboração e disputa entre os conceitos de segurança alimentar e soberania alimentar: um olhar sobre a horta municipal de São Gabriel-RS. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>69. Congresso Nacional de Botânica. COMPOSIÇÃO DAS COMUNIDADES DE FUNGOS AGARICALES (BASIDIOMYCOTA) EM RESERVA ECOLÓGICA DO SUL DO BRASIL. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>6º Simpósio de Segurança Alimentar. 2018. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>7º FÓRUM INTERNACIONAL ECOINOVAR.A sustentabilidade baseada na permacultura: um estudo de caso da "Casa Ecológica Chácara das Flores" - São Gabriel - RSs. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Curso teórico prático Biologia, Ecologia y Aprovechamiento de Hongos.Hongos silvestres comestibles. 2018. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Encontro Quinzenal do PPGDR- Unisc.Desenvolvimento e sustentabilidade no Bioma Pampa: Estratégias de "existência" dos agricultores assentados X Politica de Florestamento.. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>II Encontro Regional de Ensino de Ciências.Saúde na prisão: investigando a narrativa de mulheres em um presídio misto. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>II Seminário de Gestão de Resíduos.Lodos de ETA como fonte alternativa de geração de energia. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>III Congresso Internacional de Educação - Uma Nova Pedagogia para a Sociedade Futura. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>III Seminário de Educação do Campo de São Gabriel.As interações sociais de uma turma de oitavo ano: O Combate ao Bullying como forma de aprendizagem para a consciência. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>III Seminário de Educação do Campo de São Gabriel/RS. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>III Seminário de Educação do Campo de São Gabriel/RS.Alimentação saudável na prática educativa: relato de uma experiência para o ensino de matemática nas séries iniciais. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>III Seminário de Educação do Campo de São Gabriel/RS.Educação e meio ambiente: relato de uma experiência a partir da comunidade. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>III Seminário de Educação do Campo de São Gabriel/RS.Educação Financeira: uma experiência educativa no ensino fundamental. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>III Seminário de Educação do Campo de São Gabriel/RS.O uso da água como contexto do ensino e da aprendizagem na educação do campo. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>III Seminário de Educação do Campo de São Gabriel/RS.Segurança alimentar versus soberania alimentar: uma análise a luz de uma perspectiva pedagógica para a educação do campo. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>III Seminário de Educção do Campo de São Gabriel/RS.Resgate das Cantigas de Roda: Uma atividade na PET. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>IV ENCONTRO HUMANÍSTICO MULTIDISCIPLINAR / III CONGRESSO LATINO- AMERICANO DE ESTUDOS HUMANÍSTICOS MULTIDISCIPLINARES.Legislação da saúde prisional em análise. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>IX Congresso Brasileiro de Gestão Ambiental. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>IX Congresso Brasileiro de Gestão Ambiental. Análise dos processos de Gestão dos Resíduos Sólidos de Serviço de Saúde (RSSS) em farmácias da região central do Município de São Gabriel/RS à luz da RDC 306 (2004) da ANVISA. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>IX Congresso Brasileiro de Gestão Ambiental. O uso de energia solar fotovoltaica como estratégia sustentável em Universidades Públicas: estudo de caso na Universidade Federal do Pampa, campus São Gabriel-RS. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>IX Congresso Brasileiro de Gestão Ambiental. Viabilidade econômica para implantação de um sistema de energia fotovoltaico em um estabelecimento comercial do ramo alimentício em São Gabriel-RS. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>Oficina Interdisciplinaridade e Transversalidade. 2018. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>Polar 2018. Three decades of Plant asucession at Rip Point, Nelson Island, Antarcctica. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>Seminário Corpus Possíveis no Brasil Profundo - SENACORPUS.Discursos de adolescentes brasileiros e cabo-verdianos sobre sexo sem camisinha: onde foi parar as preocupações com as DST/AIDS?. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>Servidor Público: Um peso para a sociedade? Carreira docente, aposentadoria e direitos dos servidores públicos. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>Universidad 2018 - 11. Congreso Internacional de Educación Superior. coordinador Sesión Energia, Medioambiente y Desarrollo Sostenible en XI Taller Universidad, Medio Ambiente, Energía y Desarrollo Sostenible. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>Universidad 2018 11. Congreso Internacional de Educación Superir. Sustentabilidade energética, processos produtivos e impactos sociais. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>V Congresso Brasileiro Psicologia: Ciência e Profissão. INVESTIGAÇÃO DE ESTUDO SOBRE SAÚDE MENTAL NO PRESÍDIO. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>V Congresso Nacional de Educação. Ensino de Ciências. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>V Encontro Nacional de Ensino de Ciências da Saúde e do Ambiente.Minicurso: A Utilização de Dilemas Morais de Saúde como Estratégia de Ensino e Pesquisa no Ensino de Ciências. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>V Seminário Internacional de Pesquisa e Estudos Qualitativos - V SIPEQ.GRUPOS FOCAIS E DILEMAS MORAIS COMO ESTRATÉGIAS DE ESTUDO DE CASO EM INVESTIGAÇÕES COM ADOLESCENTES NA EDUCAÇÃO EM CIÊNCIAS. 2018. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>VI Quadrennial Meeting of the International Heteropterists' Society.Coevolution between male and female genitalia in Belostoma angustum Lauck, 1964 (Nepomorpha, Belostomatidae): disentangling size and shape. 2018. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>Workshop Ferramentas para o Desenho de Estratégias e Reformulação de Alimentos. 2018. (Outra).</td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>XXVI Congresso Brasileiro de Ciência e Tecnologia de Alimentos. Biofilm characterization in Escherichia coli from chicken meat. 2018. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>XXVII Congresso Brasileiro e X Congresso Latino-Americano de Entomologia. 2018. (Congresso).</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>14. CONTECSI - 14. International Conference on Information Systems and Technology Management - 39. WCARS - 5. Interational Panel on Innovation in Governament - 3. TOI. A utilização da ferramenta de análise de modo e efeito de falha (FMEA) na prevenção de riscos ambientais em uma organização militar. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>35º Seminário de Extensão Universitária da Região Sul. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>9° Salão Internacional de Ensino, Pesquisa e Extensão.Breve revisão sobre a detecção de glifosato, AMPA echiquimato por HPLC-UV ou FC. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>9° Salão Internacional de Ensino, Pesquisa e Extensão.Frequencia de discentes na monitoria e a relação aprovação-reprovação. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>9° Salão Internacional de Ensino, Pesquisa e Extensão.Monitoria no componente curricular de química analítica I e química analítica II. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>9º Salão Internacional de Ensino, Pesquisa e Extensão. O USO DE TECNOLOGIAS DE INFORMAÇÃO E COMUNICAÇÃO (TICS) NA EDUCAÇÃO ESPECIAL. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Conexão Empreendedora. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Congresso Brasileiro de Paleontologia. The origins of the archosauriform antorbital fenestrae. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>CORESTA AP 2017. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>II Congresso Nacional de Pesquisa e Ensino em Ciências. Palestra 7: Interlocução de pesquisadores e professores da Educação Básica no Ensino de Ciências: experiências com a temática 'saúde'. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>II Jornada Acadêmica Ambiental - Unipampa/ Urcamp.Economia, Sustentabilidade e Fome: A agroecologia como Alternativa?. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>II Seminário: Educação do Campo de São Gabriel RS (8 hs). 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>III International Symposium on Ecology and Evolution.Avanços na pesquisa, vegetação e ecologia Antártica. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>IX Congreso Colombiano de Botánica. HONGOS ENDOLIQUÉNICOS ASOCIADOS A Cladonia curta (CLADONIACEAE) EN EL PAMPA GAUCHO -BRASIL. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>IX Congreso Latinoamericano de Micologia. The Agaricales fungi in Pampa biome Brazil - a review. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>IX Congreso Latinoamericano de Micología. Agaricales fungi (Agaricomycetes ? Basidiomycota) in Brazil: a taxonomic revision. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>IX Salão Internacional de Ensino, pesquisa e extensão.avaliador. 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>IX SIEPE - Salão Internacional de Ensino Pesquisa e Extensão. CRESCIMENTO MICELIAL DE PLEUROTUS OSTREATOROSEUS SINGER (BASIDIOMYCOTA) EM DIFERENTES MEIOS DE CULTIVO UTILIZANDO RESÍDUOS ORGÂNICOS. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>Jornada Acadêmica da Biologia - 2017.Identificação de Cogumelos. 2017. (Oficina).</td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>Jornada Acadêmica da Biologia - 2017.Legislação Ambiental. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Mesa ao Vivo 2017: Minha Herança de Família. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>PET Ciencias Biologicas - Jornada Academica da Biologia.Mesa redonda: Legislação Ambiental na Jornada Academica da Biologia. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>V Reunião Brasileira de Citogenética e Citogenômica. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>VII Kopernikanskie Sympozjum and III Torunskie Sympozjum Nauk Przyrodniczyyych.The Biological Activity of Canavalia ensiforms urease (JBU) and Jaburetox (JBTX) in Nauphoeta cinerea (Oliver, 1979). 2017. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>VII Semana Municipal da Pessoa com Deficiência - direitos, necessidades e realizações. 2017. (Outra).</td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>VIII Encontro e II Workshop de Extensão em Biologia Comparada. 2017. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>VIII Seminário Internacional sobre desenvolvimento regional - Território, Redes e De Desenvolvimento Regional.Desenvolvimento e Sustentabilidade na agricultura da Metade Sul do RS: Parâmetros, Objetivos e Limitantes da produção agroecológica. 2017. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>World Congress on Brain, Behavior and Emotions 2017. NEUROTOXICITY INDUCED BY JACK BEAN UREASE (JBU) ON MAMMALIAN NERVOUS SYSTEM. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>X Congreso Internacional sobre Investigación en Didáctica de las Ciencias. Dilemas morais de saúde como estratégia de ensino para adolescentes. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>XI Congreso Latinoamericano de Herpetología. 2017. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>XI Encontra Nacional de Pesquisa em Educação em Ciências (ENPEC).Educação em Saúde e adolescente: uma análise da produção da comunidade de pesquisadores de Educação em Ciências. 2017. (Encontro).</td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>13th CONTECSI - International Conference of Information Systems and Tecnochnology Management. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>2º Encontyro de Semenstes Criolas.Sustentabilidade na agricultura familiar: desafios e resistência.. 2016. (Encontro).</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>67 Congresso Nacional de Botânica. ESPÉCIES ARBÓREAS NA VEGETAÇÃO CILIAR DO RIO PARDINHO, DEPRESSÃO CENTRAL DO RIO GRANDE DO SUL, BRASIL. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>8° Salão Internacional de Ensino, Pesquisa e Extensão.Ações de extensão visando melhorias no ensino de ciências em uma escola pública de Itaqui. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>8° SIEPE - SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão. Bage. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>8º Salão Internacional de Ensino Pesquisa e Extensão.Avaliação do composto ZnEDTA na biofortificação agronômica de cenouras. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>8º Salão Internacional de Ensino Pesquisa e Extensão.Prática da monitoria como apoio aos estudos da Química Geral, Analítica e Experimental. 2016. (Outra).</td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>8º Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE). A Educação Fiscal como incentivo a reflexão cidadã: uma experiência pedagógica.. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>8º Salão Internacional de Ensino, Pesquisa e Extensão (SIEPE). Violência contra a mulher no contexto da literatura infantil: contemporizando as obras clássicas. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>8º SIEPE - Salão Internacional de Ensino, Pesquisa e Extensãp. Meio ambiente, Literatura e Cidadania: O contexto contemporâneo de Monteiro Lobato na Educação. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>Formação Pedagógica SEME -(40h). 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>II INCITEC ? II Simpósio de Inovações em Ciência e Tecnologia ? Leite e Derivados. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>III Seminário do Serviço Municipal SIM/SISBI. 2016. (Seminário).</td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>IV SIMPÓSIO APECS BRASIL.A COLEÇÃO DE FUNGOS DO HERBÁRIO HCB ? EXPERIMENTOS COM DIFERENTES MÉTODOS DE ARMAZENAMENTO. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>Simpósio Brasileiro de Paleontologia de Vertebrados.Registros de Archosauriformes da Formação Sanga do Cabral (Triássico Inferior): O início do domínio diápsido no Mesozóico do Oeste gongwânico. 2016. (Simpósio).</td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>XXIV Congresso Brasileiro de Nutrição e III Simpósio Ibero-americano de Nutrição em Produção de Refeições. Diagnóstico da insegurança alimentar e nutricional entre usuários do restaurante popular e cozinhas comunitárias do município de Caxias do Sul/RS. 2016. (Congresso).</td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>XXV Congresso Brasileiro de Ciência e Tecnologia de Alimentos (CBCTA). Estabilidade microbiológica e físico-química do leite ovino submetido ao congelamento. 2016. (Congresso).</td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 01/10/2019 00:51:53<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

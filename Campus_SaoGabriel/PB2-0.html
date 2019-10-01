@@ -1,0 +1,189 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_SaoGabriel</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_SaoGabriel</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Capítulos de livros publicados'}, 
+series: [{data: [[2016,
+4],
+[2017,
+4],
+[2018,
+10]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Capítulos de livros publicados</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 18<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BARROQUES, L. R. ; ROCHA, J. M. ; ZANELLA, F.C.. <b>Os processos de (re)elaboração e disputa entre os conceitos de segurança alimentar e soberania alimentar:um olhar sobre a Horta Municipal de São Gabiel/RS</b>. Em: Ane Carine Meurer e Ivanio Folmer. (Org.). São Gabriel: território da Educação do Campo?. 2ed.São Leopoldo - RS. : Oikos. 2018.v. 1, p. 37-58. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Os+processos+de+(re)elaboração+e+disputa+entre+os+conceitos+de+segurança+alimentar+e+soberania+alimentar:um+olhar+sobre+a+Horta+Municipal+de+São+Gabiel/RS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Os+processos+de+(re)elaboração+e+disputa+entre+os+conceitos+de+segurança+alimentar+e+soberania+alimentar:um+olhar+sobre+a+Horta+Municipal+de+São+Gabiel/RS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Os+processos+de+(re)elaboração+e+disputa+entre+os+conceitos+de+segurança+alimentar+e+soberania+alimentar:um+olhar+sobre+a+Horta+Municipal+de+São+Gabiel/RS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CALCAGNO, S. C. ; MARINHO, J. C. B. ; SILVA, J. A.. <b>ANÁLISE DAS PESQUISAS QUE ABORDAM AS QUESTÕES DO HIV/AIDS EM PRESÍDIOS</b>. Em: Nós do Sul: Laboratório de Estudos e Pesquisas Sobre Identidades, Currículos e Culturas - FURG; Grupo de Pesquisa Corpus Possíveis - Educação, Cultura e Diferenças - UFOB. (Org.). SENACORPUS - Seminário Corpus Possíveis no Brasil Profundo. 1ed.Campina Grande. : Realize Editora. 2018.p. 427-434. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=ANÁLISE+DAS+PESQUISAS+QUE+ABORDAM+AS+QUESTÕES+DO+HIV/AIDS+EM+PRESÍDIOS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=ANÁLISE+DAS+PESQUISAS+QUE+ABORDAM+AS+QUESTÕES+DO+HIV/AIDS+EM+PRESÍDIOS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=ANÁLISE+DAS+PESQUISAS+QUE+ABORDAM+AS+QUESTÕES+DO+HIV/AIDS+EM+PRESÍDIOS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>DEL VALLE GARNERO, ANALÍA; ERICHSEN, R.. <b>PIBID - Subprojeto Biologia São Gabriel</b>. Em: Mara Elisângela Jappe; Ricardo Machado Ellensohn. (Org.). RE)FAZENDO CIÊNCIA: SIGNIFICAÇÕES, INTERVENÇÕES E RELATOS DO PIBID UNIPAMPA. 1ed.São Leopoldo. : Oikos. 2018.p. 79-109. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=PIBID+-+Subprojeto+Biologia+São+Gabriel&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=PIBID+-+Subprojeto+Biologia+São+Gabriel">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=PIBID+-+Subprojeto+Biologia+São+Gabriel">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ERICHSEN, R.; GARNERO, A. V. ; DELOSS, A. X. R. ; GONCALVES, C. R. ; FREITAS, C. L. ; OLIVEIRA, F. M. ; IGISCK, N. P.. <b>Mudando a rotina do Ensino de Ciências</b>. Em: Mara Elisângela Jappe Goi; Ricardo Machado Ellensohn. (Org.). (RE)FAZENDO CIÊNCIA: SIGNIFICAÇÕES, INTERVENÇÕES E RELATOS DO PIBID-UNIPAMPA. 1ed.São Leopoldo. : Editora Oikos Ltda.. 2018.p. 81-109. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Mudando+a+rotina+do+Ensino+de+Ciências&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Mudando+a+rotina+do+Ensino+de+Ciências">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Mudando+a+rotina+do+Ensino+de+Ciências">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>GRACIOLI, C. R.; SANTOS, N. R. Z. ; Sarmento Barata, A. J.. <b>Análise da Política Ambiental do Setor Produtor de Erva Mate no Estado do Rio Grande do Sul, Brasil.. Gestão Ambiental e Desenvolvimento Sustentável.. 1ed.Ponta Grossa - PR</b>. Em: . : Editora Atena. 2018.v. 1, p. 72-80. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Análise+da+Política+Ambiental+do+Setor+Produtor+de+Erva+Mate+no+Estado+do+Rio+Grande+do+Sul,+Brasil..+Gestão+Ambiental+e+Desenvolvimento+Sustentável..+1ed.Ponta+Grossa+-+PR&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Análise+da+Política+Ambiental+do+Setor+Produtor+de+Erva+Mate+no+Estado+do+Rio+Grande+do+Sul,+Brasil..+Gestão+Ambiental+e+Desenvolvimento+Sustentável..+1ed.Ponta+Grossa+-+PR">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Análise+da+Política+Ambiental+do+Setor+Produtor+de+Erva+Mate+no+Estado+do+Rio+Grande+do+Sul,+Brasil..+Gestão+Ambiental+e+Desenvolvimento+Sustentável..+1ed.Ponta+Grossa+-+PR">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Lipinski, Victor Mendes ; Iop, Samanta ; Schuch, André Passaglia ; Santos, Tiago Gomes dos. <b>Enhanced Phylogenetic Diversity of Anuran Communities: A Result of Species Loss in an Agricultural Environment. Tropical Forests - New Edition. 2ed</b>. Em: . : InTech. 2018.p. 21-36. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Enhanced+Phylogenetic+Diversity+of+Anuran+Communities:+A+Result+of+Species+Loss+in+an+Agricultural+Environment.+Tropical+Forests+-+New+Edition.+2ed&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Enhanced+Phylogenetic+Diversity+of+Anuran+Communities:+A+Result+of+Species+Loss+in+an+Agricultural+Environment.+Tropical+Forests+-+New+Edition.+2ed">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Enhanced+Phylogenetic+Diversity+of+Anuran+Communities:+A+Result+of+Species+Loss+in+an+Agricultural+Environment.+Tropical+Forests+-+New+Edition.+2ed">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>ROCHA, JEFFERSON MARÇAL; EHLERT, F.A.R.. <b>O Fortalecimento da gestõ democrática através do incentivo à implantação dos conselhos escolares nas escolas municipais de Giruá/RS</b>. Em: Maria Eurácia Barreto de Andrade,Sineide Cerqueira Estrela, Irlana Jane Menas da Silva. (Org.). Políticas e Práticas Educacionais Dilemas e Proposições. 1ed.Jundiaí. : Paco Editorial. 2018.v. 1, p. 317-344. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+Fortalecimento+da+gestõ+democrática+através+do+incentivo+à+implantação+dos+conselhos+escolares+nas+escolas+municipais+de+Giruá/RS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+Fortalecimento+da+gestõ+democrática+através+do+incentivo+à+implantação+dos+conselhos+escolares+nas+escolas+municipais+de+Giruá/RS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+Fortalecimento+da+gestõ+democrática+através+do+incentivo+à+implantação+dos+conselhos+escolares+nas+escolas+municipais+de+Giruá/RS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>SCHWANKE, C. M. ; YOUNG, J. ; MORAES, B. S.. <b>Energia Sustentável: Cinza da Casca de Arroz (CCA) para Aplicação em Catalizador na Conversão à Biodiesel</b>. Em: Fladimir Fernandes dos Santos; Marco Aurélio Batista de Sousa; Nirlene Fernandes Cechin. (Org.). Estudos científicos com enfoque no desenvolvimento sustentável. 1ed.Bagé-RS. : Faith. 2018.p. 113-128. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Energia+Sustentável:+Cinza+da+Casca+de+Arroz+(CCA)+para+Aplicação+em+Catalizador+na+Conversão+à+Biodiesel&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Energia+Sustentável:+Cinza+da+Casca+de+Arroz+(CCA)+para+Aplicação+em+Catalizador+na+Conversão+à+Biodiesel">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Energia+Sustentável:+Cinza+da+Casca+de+Arroz+(CCA)+para+Aplicação+em+Catalizador+na+Conversão+à+Biodiesel">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>VALENTINI, L. M. A. B. ; ROCHA, J. M.. <b>A formação de gestores escolares como ressignificação e qualificação da Educação do Campo:uma experiência nas escolas de São Gabriel. São Gabriel:território da Educação do Campo?. 2ed.São Leopoldo</b>. Em: . : Oikos. 2018.v. 1, p. 141-156. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+formação+de+gestores+escolares+como+ressignificação+e+qualificação+da+Educação+do+Campo:uma+experiência+nas+escolas+de+São+Gabriel.+São+Gabriel:território+da+Educação+do+Campo?.+2ed.São+Leopoldo&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+formação+de+gestores+escolares+como+ressignificação+e+qualificação+da+Educação+do+Campo:uma+experiência+nas+escolas+de+São+Gabriel.+São+Gabriel:território+da+Educação+do+Campo?.+2ed.São+Leopoldo">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+formação+de+gestores+escolares+como+ressignificação+e+qualificação+da+Educação+do+Campo:uma+experiência+nas+escolas+de+São+Gabriel.+São+Gabriel:território+da+Educação+do+Campo?.+2ed.São+Leopoldo">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>YOUNG, J. ; CRUZ, J. ; SERDOURA, F. ; SCHWANKE, C. M. ; MORAES, B. S.. <b>Comitê Camaquã e Gestão Ambiental: uma Experiência de Mobilização Social para Gestão dos Recursos Hídricos</b>. Em: Fladimir Fernandes dos Santos; Marco Aurélio Batista de Sousa; Nirlene Fernandes Cechin. (Org.). Estudos científicos com enfoque no desenvolvimento sustentável. 1ed.Bagé-RS. : Faith. 2018.p. 28-44. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Comitê+Camaquã+e+Gestão+Ambiental:+uma+Experiência+de+Mobilização+Social+para+Gestão+dos+Recursos+Hídricos&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Comitê+Camaquã+e+Gestão+Ambiental:+uma+Experiência+de+Mobilização+Social+para+Gestão+dos+Recursos+Hídricos">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Comitê+Camaquã+e+Gestão+Ambiental:+uma+Experiência+de+Mobilização+Social+para+Gestão+dos+Recursos+Hídricos">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SCHNEIDER, A. A. <b>Tribo Cichorieae Lam. DC</b>. Em: Nádia Roque; Aristônio Magalhães Teles Jimi Naoki Nakajima. (Org.). A família Asteraceae no Brasil classificação e diversidade. 1ed.Salvador. : EDUFBA. 2017.v. 1, p. 89-96. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Tribo+Cichorieae+Lam.+DC&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Tribo+Cichorieae+Lam.+DC">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Tribo+Cichorieae+Lam.+DC">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>SCHNEIDER, A. A. <b>Tribo Anthemideae Cass</b>. Em: Nádia Roque; Aristônio Magalhães Teles Jimi Naoki Nakajima. (Org.). A família Asteraceae no Brasil classificação e diversidade. 1ed.Salvador. : EDUFBA. 2017.v. 1, p. 149-151. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Tribo+Anthemideae+Cass&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Tribo+Anthemideae+Cass">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Tribo+Anthemideae+Cass">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>SCHNEIDER, A. A. <b>Tribo Cardueae Cass</b>. Em: Nádia Roque; Aristônio Magalhães Teles Jimi Naoki Nakajima. (Org.). A família Asteraceae no Brasil classificação e diversidade. 1ed.Salvador. : EDFUBA. 2017.v. 1, p. 85-88. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Tribo+Cardueae+Cass&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Tribo+Cardueae+Cass">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Tribo+Cardueae+Cass">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>TELES, A. M. ; HEIDEN, G. ; SCHNEIDER, A. A.. <b>Tribo Astereae Cass</b>. Em: Nádia Roque; Aristônio Magalhães Teles Jimi Naoki Nakajima. (Org.). A família Asteraceae no Brasil classificação e diversidade. 1ed.Salvador. : EDUFBA. 2017.v. 1, p. 139-147. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Tribo+Astereae+Cass&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Tribo+Astereae+Cass">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Tribo+Astereae+Cass">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2016"><h3 class="year">2016</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MARINHO, Julio Cesar Bresolin; Da Silva, João Alberto. <b>Educação em Saúde: em busca de significados e diferenciações</b>. Em: Rodrigo Diego de Souza; José André Peres Angotti. (Org.). Reflexões em ensino de ciências. 1ed.Curitiba. : Atena. 2016.v. 1, p. 189-198. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Educação+em+Saúde:+em+busca+de+significados+e+diferenciações&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Educação+em+Saúde:+em+busca+de+significados+e+diferenciações">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Educação+em+Saúde:+em+busca+de+significados+e+diferenciações">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>MENEZES, A. R. ; PIRES, A. S. ; JANNER, E. A. ; PINTO, J. M. ; ITURRES, M. T. ; SOUZA, M. C. ; JESUS, R. C. ; DAVILA, B. S. ; ROSA, C. R. ; EICHNER, J. S. ; SOUZA, M. S. ; SILVA, M. A. L. ; GODOI, S. G. ; MATTOSO, S. B. ; BUENO, B. S. ; RAMOS, B. M. ; VIEIRA, E. F. ; MUNHOZ, K. G. ; CATARDO, L. S. ; OLIVEIRA, N. M. ; ERICHSEN, R.. <b>Coordenadores de área, supervisores e bolsistas de iniciação à docência dos subprojetos Biologia, do campus São Gabriel, e Ciências, dos campi Dom Pedrito e Uruguaiana, da Universidade Federal do Pampa</b>. Em: Ângela Maria Hartmann. (Org.). Atividades interdisciplinares do Pibid: entre o ensinar e o aprender em Ciências da Natureza. 1ªed.São Leopoldo. : Oikos. 2016.p. 48-63. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Coordenadores+de+área,+supervisores+e+bolsistas+de+iniciação+à+docência+dos+subprojetos+Biologia,+do+campus+São+Gabriel,+e+Ciências,+dos+campi+Dom+Pedrito+e+Uruguaiana,+da+Universidade+Federal+do+Pampa&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Coordenadores+de+área,+supervisores+e+bolsistas+de+iniciação+à+docência+dos+subprojetos+Biologia,+do+campus+São+Gabriel,+e+Ciências,+dos+campi+Dom+Pedrito+e+Uruguaiana,+da+Universidade+Federal+do+Pampa">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Coordenadores+de+área,+supervisores+e+bolsistas+de+iniciação+à+docência+dos+subprojetos+Biologia,+do+campus+São+Gabriel,+e+Ciências,+dos+campi+Dom+Pedrito+e+Uruguaiana,+da+Universidade+Federal+do+Pampa">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>VALENTINI, L. M. A. B. ; ROCHA, J. M.. <b>A prática democrática na gestão da educação do campo: o caso da formação de gestores das escolas polo do Município de São Gabriel/RS</b>. Em: Silvana Maria Gritti;Lúcio Jorge Hammes;Bento Selau da Silva Júnior;Regina Célia do Couto. (Org.). Da graduação à pós-graduação:a pesquisa na formação de professores. 1ed.Lageado. : Editora da Univates. 2016.v. 01, p. 49-64. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+prática+democrática+na+gestão+da+educação+do+campo:+o+caso+da+formação+de+gestores+das+escolas+polo+do+Município+de+São+Gabriel/RS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+prática+democrática+na+gestão+da+educação+do+campo:+o+caso+da+formação+de+gestores+das+escolas+polo+do+Município+de+São+Gabriel/RS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+prática+democrática+na+gestão+da+educação+do+campo:+o+caso+da+formação+de+gestores+das+escolas+polo+do+Município+de+São+Gabriel/RS">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>VIEIRA, L.R. ; ROCHA, J. M.. <b>Eficiência ambiental e melhoria econômica a partir da gestão ambiental em órgãos públicos:o caso da 13ª Companhia de Comunicações Mecanizada em São Gabriel-RS</b>. Em: Alves, Ricardo Ribeiro. (Org.). Sustentabilidade Ambiental e Responsabilidade Social: aplicação prática em diversos contextos. 1ed.Jundiaí. : Paco Editorial. 2016.v. 1, p. 177-216. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Eficiência+ambiental+e+melhoria+econômica+a+partir+da+gestão+ambiental+em+órgãos+públicos:o+caso+da+13ª+Companhia+de+Comunicações+Mecanizada+em+São+Gabriel-RS&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Eficiência+ambiental+e+melhoria+econômica+a+partir+da+gestão+ambiental+em+órgãos+públicos:o+caso+da+13ª+Companhia+de+Comunicações+Mecanizada+em+São+Gabriel-RS">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Eficiência+ambiental+e+melhoria+econômica+a+partir+da+gestão+ambiental+em+órgãos+públicos:o+caso+da+13ª+Companhia+de+Comunicações+Mecanizada+em+São+Gabriel-RS">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 01/10/2019 00:51:52<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

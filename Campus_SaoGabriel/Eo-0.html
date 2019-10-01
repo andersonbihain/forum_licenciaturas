@@ -1,0 +1,309 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Campus_SaoGabriel</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Campus_SaoGabriel</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de organização de eventos'}, 
+series: [{data: [[2017,
+2],
+[2018,
+4]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de organização de eventos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 79<br>
+                    
+                    
+                    <div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>NESPOLO, C. R.; ROLL, R. J. ; CASTRO, R. M. ; TEIXEIRA, V. Y. F.. <b>Oficina de Tecnologia de Produtos Lácteos e Cárneos Fermentados</b>. 2018. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>NESPOLO, C. R.; ROLL, R. J. ; CASTRO, R. M. ; TEIXEIRA, V. Y. F.. <b>Oficina de Tecnologia de Produtos Lácteos e Vegetais Fermentados</b>. 2018. Outro</td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>PASTORIO, Eduardo ; ALMEIDA, L. H. ; CABREIRA, S. J. M. ; BUENO, B. J. ; NAIDON, M. B. ; LODOVSKI, C. F. ; MARQUES, G. M. ; RODRIGUES, L. J. ; MICHELOTTI, D. V.. <b>III Seminário de Educação do Campo de São Gabriel/RS</b>. 2018. Outro</td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>ROCHA, J. M.; WENCESLAU, F.F.. <b>56º Congresso Internacional de Americanistas</b>. 2018. Congresso</td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>MOHR, A. ; MARINHO, Julio Cesar Bresolin ; VENTURI, T.. <b>Encontro de Pesquisadores em Educação em Saúde e Ensino de Ciências</b>. 2017. Outro</td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Putzke, J. ; DE CARVALHO VICTORIA, FILIPE ; KUSTER, M. C. T. ; LAINDORF, B. L. ; LUCINI, F. ; ALBUQUERQUE, M. P. ; ANDRADE, G. A. K. ; VARGAS, M. V. M. ; SILVA, J. F. ; SCHUNEMANN, A. L. ; PEREIRA, A. B. ; ZUNIGA, G.. <b>Programa Brasil-Chile de Pesquisas Antárticas</b>. 2017. Outro</td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALMEIDA, L. H.. V Semana Acadêmica " Refletindo a formação pedagógica". 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>APPELT, Helmoz R.. II Ciclo de Palestras do Curso de Química. 2007. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>APPELT, Helmoz R.; I Ciclo de Palestras do Curso de Química. 2006. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>APPELT, Helmoz R.; I Ciclo de Palstras do Curso de Farmácia. 2004. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>APPELT, Helmoz R.; I Jornada de Ciências Farmacêuticas. 2001. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>APPELT, Helmoz R.; II Ciclo de Palestras do Curso de Farmácia. 2005. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>APPELT, Helmoz R.; II Jornada de Ciências Farmacêuticas. 2002. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>APPELT, Helmoz R.; III Ciclo de Palestras do Curso de Químia. 2008. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>APPELT, Helmoz R.; IV Semana Acadêmica do Curso de Farmácia. 2006. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>APPELT, Helmoz R.; V Jornada Institucional da Área de Ciências Naturais e Tecnológicas. 2004. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>APPELT, Helmoz R.; X Simpósio de Ensino, Pesquisa e Extensão. 2006. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>APPELT, Helmoz R.; XIII Simpósio de Ensino, Pesquisa e Extensão. 2009. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>BENETTI, Luciana Borba. I Fórum Acadêmico do Curso de Gestão Ambiental: o perfil do Gestor Ambiental o século XXI ? desafios e perspectivas. 2009. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>BENETTI, Luciana Borba. I Integração dos Cursos da Saúde - FACVEST. 2006. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>BENETTI, Luciana Borba. I Semana Acadêmica da Saúde de Lages. 2006. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>BENETTI, Luciana Borba. I Semana do Meio Ambiente. 2002. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>BENETTI, Luciana Borba. I Simpósio Interdisciplinar de Saúde da Serra Catarinense. 2006. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>BENETTI, Luciana Borba. II Integração dos Cursos da Saúde - FACVEST. 2006. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>19. &nbsp;</td> <td>BENETTI, Luciana Borba. Jornada Pedagógica 2011 do Campus São Gabriel. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>20. &nbsp;</td> <td>BENETTI, Luciana Borba. Modos de vida de mulheres homossexuais. 2002. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>21. &nbsp;</td> <td>Bugs, Cristhian Augusto. I Congressão de Tecnologias, Engenharias e Ciências Exatas. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>22. &nbsp;</td> <td>Fernando F. da SILVA. Seminário sobre Produção Integrada de Arroz (PIA). 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>23. &nbsp;</td> <td>GARNERO, A. del V.. 1ª Semana Acadêmica do Curso de Biotecnologia. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>24. &nbsp;</td> <td>GARNERO, A. del V.. 1ª Semana Acadêmica Integrada UNIPAMPA/São Gabriel. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>25. &nbsp;</td> <td>GRACIOLI, C. R.. 41º Expofeira Agropecuária de Santa Maria. 2008. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>26. &nbsp;</td> <td>GRACIOLI, C. R.. 4º Simposio Latino-americano sobre manejo florestal. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>27. &nbsp;</td> <td>GRACIOLI, C. R.. CURSO MATA NATIVA 2. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>28. &nbsp;</td> <td>GRACIOLI, C. R.. I ENCONTRO GAÚCHO DE FITOTERAPIA NO SERVIÇO PÚBLICO. 1997. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>29. &nbsp;</td> <td>GRACIOLI, C. R.. PALESTRA SOBRE FITOSSOCIOLOGIA. 2001. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>30. &nbsp;</td> <td>GUNSKI, RICARDO JOSÉ. Simpósio Internacional sobre Interdisciplinaridade no Ensino, na Pesquisa e na Extensão -Região Sul. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>31. &nbsp;</td> <td>MARINHO, J. C. B.. 1º Dia Interamericano de Limpeza e Cidadania em São Gabriel - RS. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>32. &nbsp;</td> <td>MARINHO, J. C. B.. 7º Diadesol. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>33. &nbsp;</td> <td>MARINHO, J. C. B.. Biofórum Especial: Simpósio de Imunologia. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>34. &nbsp;</td> <td>MARINHO, J. C. B.. Ciclo de Palestras do BIOFÓRUM. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>35. &nbsp;</td> <td>MARINHO, J. C. B.. Cine Ambiente. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>36. &nbsp;</td> <td>MARINHO, J. C. B.. Curso Prevenção de Acidentes com Animais Peçonhentos como Estratégia Didática Pedagógica para Alunos da Biologia. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>37. &nbsp;</td> <td>MARINHO, J. C. B.. Curso Prevenção de Acidentes com Animais Peçonhentos. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>38. &nbsp;</td> <td>MARINHO, J. C. B.. I Fórum Ambiental da Universidade Federal do Pampa. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>39. &nbsp;</td> <td>MARINHO, J. C. B.. I Semana do Meio Ambiente. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>40. &nbsp;</td> <td>MARINHO, J. C. B.. I Seminário sobre Meio Ambiente, Sociedade e Tecnologia. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>41. &nbsp;</td> <td>MARINHO, J. C. B.. II Semana do Meio Ambiente e II Fórum Ambiental da Universidade Federal do Pampa. 2010. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>42. &nbsp;</td> <td>MARINHO, J. C. B.. III Calourada Solidária. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>43. &nbsp;</td> <td>MARINHO, J. C. B.. Oficina de vai-vem In.:1º Dia Interamericano de Limpeza e Cidadania em São Gabriel - RS. 2008. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>44. &nbsp;</td> <td>MARINHO, J. C. B.. Recepção dos Vestibulandos 2009 da Universidade Federal do Pampa. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>45. &nbsp;</td> <td>MARINHO, Julio Cesar Bresolin. Coordenador do Grupos de Trabalho 7 (Epidemia de HIV/AIDS) do Seminário Corpus Possíveis no Brasil Profundo - SENACORPUS. 2018. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>46. &nbsp;</td> <td>MARINHO, Julio Cesar Bresolin. Coordenação presencial das apresentações de trabalhos na modalidade Comunicação Oral da Área Temática "07 Epidemia de HIV/AIDS" no Seminário Corpus Possíveis no Brasil Profundo - SENACORPUS. 2018. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>47. &nbsp;</td> <td>MARINHO, Julio Cesar Bresolin. Coordenação presencial das apresentações de trabalhos na modalidade Comunicação Oral da Área Temática "09 Saúde reprodutiva e aborto" no Seminário Corpus Possíveis no Brasil Profundo - SENACORPUS. 2018. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>48. &nbsp;</td> <td>MARINHO, Julio Cesar Bresolin. III Seminário Internacional de Educação em Ciências - SINTEC. 2014. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>49. &nbsp;</td> <td>NESPOLO, C. R.. UERGS na Semana da Alimentação 2006. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>50. &nbsp;</td> <td>PIRES, Victor Paulo Kloeckner. 1ª Semana Acadêmica da Administração do campus Santana do Livramento da UNIPAMPA. 2007. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>51. &nbsp;</td> <td>PIRES, Victor Paulo Kloeckner. I Forum Acadêmico do Curso de Gestão Ambiental - O perfil do gestor ambiental no Século XXI: desafios e perspectivas. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>52. &nbsp;</td> <td>PUTZKE, J.. 1o. Seminário Aeronáutico. 2015. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>53. &nbsp;</td> <td>Putzke, J.. Animais extintos no mundo. 2013. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>54. &nbsp;</td> <td>Putzke, J.. Fauna e flora de plástico - o que preferes?. 2014. (Exposição).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>55. &nbsp;</td> <td>PUTZKE, J.. XI Encontro de Botânicos do Rio Grande do Sul e III Encontro de Herbários. 2002. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>56. &nbsp;</td> <td>Putzke, Jair. Ecocanoagem no Rio Pardinho. 2009. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>57. &nbsp;</td> <td>RIBEIRO, J. R. I.. I Simpósio de Entomologia do Rio de Janeiro. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>58. &nbsp;</td> <td>RIBEIRO, J. R. I.. II Simpósio de Entomologia do Rio de Janeiro. 2013. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>59. &nbsp;</td> <td>RIBEIRO, J. R. I.. III SIMPÓSIO DE ENTOMOLOGIA DO RIO DE JANEIRO. 2015. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>60. &nbsp;</td> <td>ROCHA, J. M.. Coordenador de Sessão de Comunicação de Pesquisas. 2017. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>61. &nbsp;</td> <td>ROCHA, J. M.. II Simpósio de Meio Ambiente da Universidade Federal do Pampa. 2014. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>62. &nbsp;</td> <td>ROCHA, J. M.. SIIEPE Simpósio Internacional Sobre Interdisciplinaridade no Ensino, na Pesquisa e na Extensão - Região Sul. 2013. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>63. &nbsp;</td> <td>SILVA, F.F. da. I Curso de Atualização Fitossanitária em Arroz Irrigado. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>64. &nbsp;</td> <td>SILVA, F.F. da. II Seminário sobre Produção Integrada de Arroz. 2011. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>65. &nbsp;</td> <td>SILVA, Fernando Felisberto da. II Curso de Atualização em Tecnologia e Segurança na Aplicação de Agrotóxicos. 1998. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>66. &nbsp;</td> <td>SILVA, Fernando Felisberto da. Seminário de Atualização na Cultura da Batata. 1997. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>67. &nbsp;</td> <td>SPIES, M. R.. II Curso de Verão em Entomologia. 2004. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>68. &nbsp;</td> <td>SPIES, M. R.. III Cuso de Verão em Entomologia. 2005. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>69. &nbsp;</td> <td>SPIES, M. R.. IV Cuso de Verão em Entomologia. 2006. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>70. &nbsp;</td> <td>TORRES, F. P.. I PampaPET - Encontro dos Grupos PET da UNIPAMPA. 2012. (Outro).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>71. &nbsp;</td> <td>Vinade, L. 2° SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão. 2010. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>72. &nbsp;</td> <td>VINADE, L.. 1° SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão. 2009. (Congresso).. <b></b>. 0. </td></tr>
+            
+            <tr valign="top"><td>73. &nbsp;</td> <td>VINADE, L.. 3° SIEPE - Salão Internacional de Ensino, Pesquisa e Extensão. 2011. (Congresso).. <b></b>. 0. </td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2016 até 2018
+<br>Data de processamento: 01/10/2019 00:51:53<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:andersonbihain@unipampa.edu.br">andersonbihain@unipampa.edu.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
